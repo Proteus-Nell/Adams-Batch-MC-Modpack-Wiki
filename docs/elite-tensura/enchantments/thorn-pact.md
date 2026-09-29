@@ -1,0 +1,23 @@
+# Thorn Pact
+
+<small>[Elite Tensura](../index.md) &rsaquo; [Enchantments](index.md)</small>
+
+<div class="infobox" markdown>
+
+| | |
+|---|---|
+| **ID** | `elitetensura:thorn_pact` |
+| **Max level** | 1 |
+| **Weight (rarity)** | 1 |
+| **Anvil cost** | 1 |
+| **Slots** | armor |
+| **Applies to** | Armor |
+| **Incompatible with** | Engraving Exclusive |
+
+</div>
+
+> Reflects 15% of melee damage taken back to the attacker, but you take +10% damage from all sources.
+
+## Compatible items
+
+[Aetherforged Boots](../items/armor/aetherforged-boots.md), [Aetherforged Chestplate](../items/armor/aetherforged-chestplate.md), [Aetherforged Helmet](../items/armor/aetherforged-helmet.md), [Aetherforged Leggings](../items/armor/aetherforged-leggings.md)

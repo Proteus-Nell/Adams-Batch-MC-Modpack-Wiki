@@ -1,0 +1,74 @@
+# Spiritual Attack Resistance
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Abilities](../index.md) &rsaquo; [Resistance Skills](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Spiritual Attack Resistance](../../../assets/icons/tensura/skill/spiritual_attack_resistance.png)
+
+| | |
+|---|---|
+| **Type** | Resistance Skill |
+| **ID** | `tensura:spiritual_attack_resistance` |
+| **Acquisition cost (MP)** | 1,000 or 100 |
+| **Activation** | Toggle |
+
+</div>
+
+> Ignore weaker spiritual attacks or resist stronger ones.
+
+## How it works
+
+- Can be toggled on and off
+- Triggers when you are attacked
+- Triggers when you take damage
+- Triggers when an effect is applied to you
+
+## Obtaining
+
+- Intrinsic skill of: [Demon Slime](../../races/demon-slime.md), [God Slime](../../races/god-slime.md), [Royal Demon](../../../tr-nightmares/races/royal-demon.md), [Sacred qTree sChild](../../../tr-nightmares/races/sacred-tree-child.md), [God Of Earth](../../../tr-nightmares/races/god-of-earth.md), [Eidolon](../../../tr-nightmares/races/eidolon.md), [Thought Leech](../../../tr-nightmares/races/thought-leech.md)
+- Can be learned by: [Cursed Dreadnaught](../../../ascension/races/cursed-dreadnaught.md), [Phantom Corsair](../../../ascension/races/phantom-corsair.md), [Davy Jones](../../../ascension/races/davy-jones.md), [Gazer](../../../ascension/races/gazer.md), [Spectator](../../../ascension/races/spectator-gazer.md), [Mindwitness](../../../ascension/races/mindwitness.md), [Gauth](../../../ascension/races/gauth.md), [Beholder](../../../ascension/races/beholder.md), [Death Tyrant](../../../ascension/races/death-tyrant.md)
+- Innate to mobs: [Gazel Dwargo](../../mobs/gazel-dwargo.md), [Hinata Sakaguchi](../../mobs/hinata-sakaguchi.md)
+- Listed in the `learnableResistances` config option (config/tensura/reincarnation_config.toml): List of Resistances that can be available for learning when a player or an entity joins the world.
+- Listed in the `hardResistances` config option (config/tensura/ability/skill/resistance_config.toml): The List of Resistance that are considered to be hard to acquire
+- Listed in the `intrinsicSkills` config option (config/mysticism/race/forgotten_config.toml): The list of intrinsic skills that the race gets.
+
+## Related
+
+- **Related skills:** [Spiritual Attack Nullification](spiritual-attack-nullification.md)
+- **Referenced by:** [Dominate](../aspectual-magic/dominate.md), [Demon Dominate](../aspectual-magic/demon-dominate.md), [Demon Marionette](../aspectual-magic/demon-marionette.md), [Mental Crush](../aspectual-magic/mental-crush.md), [Bewilder](../unique-skills/bewilder.md), [Chosen One](../unique-skills/chosen-one.md), [Sloth](../unique-skills/sloth.md), [Villain](../unique-skills/villain.md), [Wrath](../unique-skills/wrath.md), [Charm](../intrinsic-skills/charm.md), [Possession](../intrinsic-skills/possession.md), [｢ Astaroth, King of Fallen ｣](../../../tr-nightmares/abilities/ultimate-skills/astaroth.md), [｢ Tantalous, King of Evil ｣](../../../tr-nightmares/abilities/ultimate-skills/tantalus.md), [Captivator](../../../tensura-mysticism/abilities/unique-skills/captivator.md)
+
+## Stats (config defaults)
+
+Set in [`config/tensura/ability/skill_config.toml`](../../configs/config-tensura-ability-skill-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `mpAcquirementNullification` | 1,000 | The base Magicule Acquirement Cost for Nullification Skills. |
+| `mpAcquirementResistance` | 100 | The base Magicule Acquirement Cost for Resistance Skills. |
+
+Set in [`config/tensura/ability/skill/resistance_config.toml`](../../configs/config-tensura-ability-skill-resistance-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `EasyResistance.easyResistances` | "tensura:corrosion_resistance", "tensura:poison_resistance", "tensura:paralysis_resistance" | The List of Resistance that are considered to be easy to acquire |
+| `EasyResistance.easyResistances` | "tensura:corrosion_resistance", "tensura:poison_resistance", "tensura:paralysis_resistance" | The List of Resistance that are considered to be easy to acquire |
+| `EasyResistance.easyResistanceDamageRequirement` | 5 | The amount of damage that a player need to take at once to acquire 1 learning point for an easy Resistance |
+| `EasyResistance.easyResistancePointRequirement` | 350 | The amount of learning points that a player need to have to acquire an easy Resistance |
+| `MediumResistance.mediumResistances` | "tensura:cold_resistance", "tensura:heat_resistance", "tensura:darkness_attack_resistance", "tensura:earth_attack_resistance", "tensura:flame_attack_resistance", "tensura:light_attack_resistance", "tensura:spatial_attack_resistance", "tensura:water_attack_resistance", "tensura:wind_attack_resistance", "tensura:gravity_attack_resistance", "tensura:holy_attack_resistance", "tensura:electricity_resistance", "tensura:pain_resistance", "tensura:thermal_fluctuation_resistance" | The List of Resistance that are considered to be medium to acquire |
+| `MediumResistance.mediumResistances` | "tensura:cold_resistance", "tensura:heat_resistance", "tensura:darkness_attack_resistance", "tensura:earth_attack_resistance", "tensura:flame_attack_resistance", "tensura:light_attack_resistance", "tensura:spatial_attack_resistance", "tensura:water_attack_resistance", "tensura:wind_attack_resistance", "tensura:gravity_attack_resistance", "tensura:holy_attack_resistance", "tensura:electricity_resistance", "tensura:pain_resistance", "tensura:thermal_fluctuation_resistance" | The List of Resistance that are considered to be medium to acquire |
+| `MediumResistance.mediumResistanceDamageRequirement` | 15 | The amount of damage that a player need to take at once to acquire 1 learning point for a medium Resistance |
+| `MediumResistance.mediumResistancePointRequirement` | 500 | The amount of learning points that a player need to have to acquire a medium Resistance |
+| `HardResistance.hardResistances` | "tensura:physical_attack_resistance", "tensura:spiritual_attack_resistance", "tensura:abnormal_condition_resistance", "tensura:magic_resistance" | The List of Resistance that are considered to be hard to acquire |
+| `HardResistance.hardResistances` | "tensura:physical_attack_resistance", "tensura:spiritual_attack_resistance", "tensura:abnormal_condition_resistance", "tensura:magic_resistance" | The List of Resistance that are considered to be hard to acquire |
+| `HardResistance.hardResistanceDamageRequirement` | 20 | The amount of damage that a player need to take at once to acquire 1 learning point for a hard Resistance |
+| `HardResistance.hardResistancePointRequirement` | 700 | The amount of learning points that a player need to have to acquire a hard Resistance |
+| `hpDamageBypassNullification` | -1 | How many times of current HP that incoming damage value needs to be higher to deal damage to the user with Nullifications<br>-1 = always applied regardless of HP |
+| `hpDamageBypassResistance` | 0.5 | How many times of current HP that incoming damage value needs to be higher to deal damage to the user with Resistances<br>-1 = always applied regardless of HP |
+| `nullificationDamageMultiplier` | 0 | The multiplier that will be applied on incoming damage when the damage went through Nullifications |
+| `resistanceDamageMultiplier` | 0.5 | The multiplier that will be applied on incoming damage when the damage went through Resistances |
+| `damagePointMultiplier` | 10 | The multiplier of learning point requirement for damage points that the skill to reach for 1 learning point |
+
+## Tags
+
+`tensura:skills/resistance_skills`

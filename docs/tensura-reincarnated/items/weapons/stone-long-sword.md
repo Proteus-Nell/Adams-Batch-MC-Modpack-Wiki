@@ -1,0 +1,28 @@
+# Stone Long Sword
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Items](../index.md) &rsaquo; [Weapons](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Stone Long Sword](../../../assets/icons/tensura/item/stone_long_sword.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:stone_long_sword` |
+| **Category** | Weapons |
+
+</div>
+
+## Obtaining
+
+### Recipes
+
+**Smithing Bench** &rarr; ![](../../../assets/icons/tensura/item/stone_long_sword.png) [Stone Long Sword](stone-long-sword.md)
+
+Ingredients:  `#minecraft:stone_tool_materials` x3,  [Stick](https://minecraft.wiki/w/Stick)
+
+Requires schematic: ![](../../../assets/icons/tensura/item/long_sword_schematic.png) [Long Sword Schematic](../schematics/long-sword-schematic.md)
+
+## Tags
+
+`tensura:long_swords`

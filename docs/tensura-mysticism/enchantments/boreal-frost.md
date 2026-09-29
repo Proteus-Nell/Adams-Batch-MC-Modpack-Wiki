@@ -1,0 +1,29 @@
+# Boreal Frost
+
+<small>[Tensura: Mysticism](../index.md) &rsaquo; [Enchantments](index.md)</small>
+
+<div class="infobox" markdown>
+
+| | |
+|---|---|
+| **ID** | `mysticism:boreal_frost` |
+| **Max level** | 1 |
+| **Weight (rarity)** | 1 |
+| **Anvil cost** | 1 |
+| **Slots** | mainhand |
+| **Applies to** | Handheld |
+| **Incompatible with** | Engraving Exclusive |
+
+</div>
+
+> Damaging your foes with this weapon causes cold, biting Permafrost to pierce their very being.
+
+## Effects
+
+| Component | Effect | Value |
+|---|---|---|
+| `minecraft:post_attack` | apply mob effect |  |
+
+## Compatible items
+
+[Ancient Runic Sword](../../elite-tensura/items/weapons/ancient-runic-sword.md), [Astral Edge](../../elite-tensura/items/weapons/astral-edge.md), [Fenrir Sword](../../elite-tensura/items/weapons/fenrir-sword.md), [Mythical Runic Sword](../../elite-tensura/items/weapons/mythical-runic-sword.md), [Renewed Runic Sword](../../elite-tensura/items/weapons/renewed-runic-sword.md), [Void Edge](../../elite-tensura/items/weapons/void-edge.md), [Dragon Breath Bow](../../enigmatic-legacy-plus/items/tools/dragon-breath-bow.md), [Etherium Sledgehammer](../../enigmatic-legacy-plus/items/etherium/etherium-hammer.md), [The Infinitum](../../enigmatic-legacy-plus/items/books/the-infinitum.md), [Adamantite Scythe](../../tensura-reincarnated/items/weapons/adamantite-scythe.md), [Adamantite Sickle](../../tensura-reincarnated/items/tools/adamantite-sickle.md), [Adamantite Spear](../../tensura-reincarnated/items/weapons/adamantite-spear.md), [Ant Crossbow](../../tensura-reincarnated/items/weapons/ant-crossbow.md), [Armorsaurus Gauntlet](../../tensura-reincarnated/items/weapons/armorsaurus-gauntlet.md), [Beast Horn Spear](../../tensura-reincarnated/items/weapons/beast-horn-spear.md), [Blade Tiger Scythe](../../tensura-reincarnated/items/weapons/blade-tiger-scythe.md), [Diamond Scythe](../../tensura-reincarnated/items/weapons/diamond-scythe.md), [Diamond Sickle](../../tensura-reincarnated/items/tools/diamond-sickle.md), [Diamond Spear](../../tensura-reincarnated/items/weapons/diamond-spear.md), [Dragon Knuckle](../../tensura-reincarnated/items/miscellaneous/dragon-knuckle.md), [Goblin Club](../../tensura-reincarnated/items/weapons/goblin-club.md), [Golden Scythe](../../tensura-reincarnated/items/weapons/golden-scythe.md), [Golden Sickle](../../tensura-reincarnated/items/tools/golden-sickle.md), [Golden Spear](../../tensura-reincarnated/items/weapons/golden-spear.md), [Grimoire (A)](../../tensura-reincarnated/items/miscellaneous/grimoire-a.md), [Grimoire (B)](../../tensura-reincarnated/items/miscellaneous/grimoire-b.md), [Grimoire (C)](../../tensura-reincarnated/items/miscellaneous/grimoire-c.md), [Grimoire (D)](../../tensura-reincarnated/items/miscellaneous/grimoire-d.md), [Grimoire (Special A)](../../tensura-reincarnated/items/miscellaneous/grimoire-special-a.md), [High Magic Staff](../../tensura-reincarnated/items/weapons/high-magic-staff.md), [High Magisteel Scythe](../../tensura-reincarnated/items/weapons/high-magisteel-scythe.md), [High Magisteel Sickle](../../tensura-reincarnated/items/tools/high-magisteel-sickle.md), [High Magisteel Spear](../../tensura-reincarnated/items/weapons/high-magisteel-spear.md), [Hihi'Irokane Scythe](../../tensura-reincarnated/items/weapons/hihiirokane-scythe.md), [Hihi'Irokane Sickle](../../tensura-reincarnated/items/tools/hihiirokane-sickle.md), [Hihi'Irokane Spear](../../tensura-reincarnated/items/weapons/hihiirokane-spear.md), [Iron Scythe](../../tensura-reincarnated/items/weapons/iron-scythe.md), [Iron Sickle](../../tensura-reincarnated/items/tools/iron-sickle.md), [Iron Spear](../../tensura-reincarnated/items/weapons/iron-spear.md), [Kanabo](../../tensura-reincarnated/items/weapons/kanabo.md), [Kunai](../../tensura-reincarnated/items/weapons/kunai.md), [Long Bow](../../tensura-reincarnated/items/weapons/long-bow.md), [Long Spider Bow](../../tensura-reincarnated/items/weapons/long-spider-bow.md), [Low Magic Staff](../../tensura-reincarnated/items/weapons/low-magic-staff.md), [Low Magisteel Scythe](../../tensura-reincarnated/items/weapons/low-magisteel-scythe.md), [Low Magisteel Sickle](../../tensura-reincarnated/items/tools/low-magisteel-sickle.md), [Low Magisteel Spear](../../tensura-reincarnated/items/weapons/low-magisteel-spear.md), [Medium Magic Staff](../../tensura-reincarnated/items/weapons/medium-magic-staff.md), [Mithril Scythe](../../tensura-reincarnated/items/weapons/mithril-scythe.md), [Mithril Sickle](../../tensura-reincarnated/items/tools/mithril-sickle.md), [Mithril Spear](../../tensura-reincarnated/items/weapons/mithril-spear.md), [Netherite Scythe](../../tensura-reincarnated/items/weapons/netherite-scythe.md), [Netherite Sickle](../../tensura-reincarnated/items/tools/netherite-sickle.md), [Netherite Spear](../../tensura-reincarnated/items/weapons/netherite-spear.md), [Orichalcum Scythe](../../tensura-reincarnated/items/weapons/orichalcum-scythe.md), [Orichalcum Sickle](../../tensura-reincarnated/items/tools/orichalcum-sickle.md), [Orichalcum Spear](../../tensura-reincarnated/items/weapons/orichalcum-spear.md), [Pure Magisteel Kunai](../../tensura-reincarnated/items/weapons/pure-magisteel-kunai.md), [Pure Magisteel Scythe](../../tensura-reincarnated/items/weapons/pure-magisteel-scythe.md), [Pure Magisteel Sickle](../../tensura-reincarnated/items/tools/pure-magisteel-sickle.md) and 22 more

@@ -1,0 +1,2054 @@
+{
+ "mod": {
+  "slug": "more-relics",
+  "name": "More Relics",
+  "jar": "morerelics-",
+  "modids": [
+   "morerelics"
+  ],
+  "family": "relics",
+  "group": "Items & Equipment",
+  "blurb": "An addon for Relics with many more relics and their abilities.",
+  "meta": {
+   "displayName": "More Relics",
+   "version": "1.7.7",
+   "authors": "Blorbilon",
+   "credits": null,
+   "description": "Adds more relics!\nWhat did you expect?",
+   "displayURL": null,
+   "issueTrackerURL": null,
+   "logoFile": null,
+   "license": "All Rights Reserved",
+   "depends": [],
+   "jar": "morerelics-1.7.7-1.21.1.jar"
+  }
+ },
+ "categories": {
+  "items": [
+   {
+    "id": "morerelics:axolotl_cream",
+    "path": "axolotl_cream",
+    "name": "Axolotl Cream",
+    "class": "com.blorb.morerelics.relics.AxolotlCream",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [
+     "Don't ask how it is made"
+    ],
+    "tags": [
+     "curios:belt",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/axolotl_cream.png",
+    "relic": {
+     "leveling": {
+      "max_level": 3,
+      "initial_cost": 120,
+      "step": 20
+     },
+     "loot": [
+      "AQUATIC",
+      "TROPIC"
+     ],
+     "abilities": [
+      {
+       "id": "mend_moisturize",
+       "name": "Mend & Moisturize",
+       "description": "Increases healing from any source by **0.6-1 (up to 0.9-1.3)**X.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "multip",
+         "base": "0.6-1",
+         "per_level": "+0.1 per level",
+         "max": "0.9-1.3",
+         "name": "Multip"
+        }
+       ]
+      }
+     ],
+     "description": "A light pink cream. Enhances healing and smells like strawberries."
+    }
+   },
+   {
+    "id": "morerelics:biojoint",
+    "path": "biojoint",
+    "name": "Biojoint",
+    "class": "com.blorb.morerelics.relics.BioJoint",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:belt"
+    ],
+    "icon_url": "assets/icons/morerelics/item/biojoint.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 100,
+      "step": 25
+     },
+     "loot": [
+      "THE_NETHER",
+      "MINESHAFT"
+     ],
+     "abilities": [
+      {
+       "id": "suspension",
+       "name": "Suspension",
+       "description": "Reduces damage based on the amount taken, ranging from a maximum of **10-15 (up to 30-35)**% to a minimum of **4-6 (up to 14-16)**% reduction. The maximum reduction is achieved when the damage taken is equal to users max health or more.\nWhile Cyberpsychosis is active: Damage reduction is always at maximum.\nIf multiple copies are equipped, damage reduction cannot exceed 50%.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "min_reduction",
+         "base": "4-6",
+         "per_level": "+2 per level",
+         "max": "14-16",
+         "name": "Min Reduction"
+        },
+        {
+         "id": "max_reduction",
+         "base": "10-15",
+         "per_level": "+4 per level",
+         "max": "30-35",
+         "name": "Max Reduction"
+        }
+       ]
+      },
+      {
+       "id": "cyberpsychosis",
+       "name": "Cyberpsychosis",
+       "description": "Killing an enemy has a **3-5 (up to 6-8)**% chance to trigger Cyberpsychosis for **4-7 (up to 10-13)** seconds.\nThe chance and duration stacks with other Cyberware with this ability.\nCyberpsychosis: Significantly improves Cyberware abilities but erodes sanity, making the familiar foreign.",
+       "required_level": 5,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "3-5",
+         "per_level": "+1 per level",
+         "max": "6-8",
+         "name": "Chance"
+        },
+        {
+         "id": "duration",
+         "base": "4-7",
+         "per_level": "+2 per level",
+         "max": "10-13",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "A high-tech joint implant that absorbs impact and reduces damage, providing extra protection against physical stress."
+    }
+   },
+   {
+    "id": "morerelics:bionic_eye",
+    "path": "bionic_eye",
+    "name": "Bionic Eye",
+    "class": "com.blorb.morerelics.relics.BionicEye",
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:head"
+    ],
+    "icon_url": "assets/icons/morerelics/item/bionic_eye.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 100,
+      "step": 25
+     },
+     "loot": [
+      "SCULK"
+     ],
+     "abilities": [
+      {
+       "id": "seeker",
+       "name": "Seeker",
+       "description": "When activated applies Glowing and Vulnerability effects on enemies in **12-15 (up to 27-30)** block radius for **10-15 (up to 35-40)** seconds. **120-100 (up to 70-50)** seconds cooldown.\nWhile cyberpsychosis is active: Has reduced cooldown and applies increased Vulnerability.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "range",
+         "base": "12-15",
+         "per_level": "+3 per level",
+         "max": "27-30",
+         "name": "Range"
+        },
+        {
+         "id": "duration",
+         "base": "10-15",
+         "per_level": "+5 per level",
+         "max": "35-40",
+         "name": "Duration"
+        },
+        {
+         "id": "cooldown",
+         "base": "120-100",
+         "per_level": "-10 per level",
+         "max": "70-50",
+         "name": "Cooldown"
+        }
+       ]
+      },
+      {
+       "id": "cyberpsychosis",
+       "name": "Cyberpsychosis",
+       "description": "Killing an enemy has a **3-5 (up to 6-8)**% chance to trigger Cyberpsychosis for **4-7 (up to 10-13)** seconds.\nThe chance and duration stacks with other Cyberware with this ability.\nCyberpsychosis: Significantly improves Cyberware abilities but erodes sanity, making the familiar foreign.",
+       "required_level": 5,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "3-5",
+         "per_level": "+1 per level",
+         "max": "6-8",
+         "name": "Chance"
+        },
+        {
+         "id": "duration",
+         "base": "4-7",
+         "per_level": "+2 per level",
+         "max": "10-13",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "A high-tech eye implant that grants the wearer the ability to seek and track targets, highlighting them even through obstacles."
+    }
+   },
+   {
+    "id": "morerelics:converging_orb",
+    "path": "converging_orb",
+    "name": "Converging Orb",
+    "class": "com.blorb.morerelics.relics.ConvergingOrb",
+    "category": "Back",
+    "props": {},
+    "tooltips": [
+     "Density",
+     "Task: Get hit the Warden's sonic boom.",
+     "The orb exceeded critical density, collapsing in on itself to form a miniature black hole."
+    ],
+    "tags": [
+     "curios:back",
+     "curios:belt",
+     "curios:body"
+    ],
+    "icon_url": null,
+    "relic": {
+     "leveling": {
+      "max_level": 1,
+      "initial_cost": 1,
+      "step": 1
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "convergence",
+       "name": "Convergence",
+       "description": "Every time the user is hit the orb undergoes permanent compression, decreasing its size and dramatically increasing its density.",
+       "required_level": 0,
+       "max_level": 1,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A rather heavy orb made from an unknown material which permanently compresses under pressure."
+    }
+   },
+   {
+    "id": "morerelics:crown_of_the_legend",
+    "path": "crown_of_the_legend",
+    "name": "Crown of the Legend",
+    "class": "com.blorb.morerelics.relics.CrownOfTheLegend",
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:head"
+    ],
+    "icon_url": "assets/icons/morerelics/item/crown_of_the_legend.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 100,
+      "step": 40
+     },
+     "loot": [
+      "BASTION",
+      "THE_NETHER"
+     ],
+     "abilities": [
+      {
+       "id": "pig_king",
+       "name": "King Pig",
+       "description": "Increases your damage against pig based mobs by **0.2-0.4 (up to 0.5-0.7)**X.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "perch",
+         "base": "0.2-0.4",
+         "per_level": "+0.1 per level",
+         "max": "0.5-0.7",
+         "name": "Perch"
+        }
+       ]
+      },
+      {
+       "id": "never_die",
+       "name": "Not Even Close",
+       "description": "Grants life-steal scaling with damage and missing health.\n(1-(Current Health)/(Maximum Health)) * Damage * **0.1-0.2 (up to 0.2-0.3)**",
+       "required_level": 3,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "potency",
+         "base": "0.1-0.2",
+         "per_level": "+0.02 per level",
+         "max": "0.2-0.3",
+         "name": "Potency"
+        }
+       ]
+      }
+     ],
+     "description": "This crown embodies courage. Those who wear it inherit the legacy of a true legend, unshaken in the face of any challenge."
+    }
+   },
+   {
+    "id": "morerelics:depleted_spool",
+    "path": "depleted_spool",
+    "name": "Depleted Spool",
+    "class": "com.blorb.morerelics.relics.DepletedSpool",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:belt",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/depleted_spool.png",
+    "relic": {
+     "leveling": {
+      "max_level": 1,
+      "initial_cost": 100,
+      "step": 20
+     },
+     "loot": [
+      "CAVE",
+      "MINESHAFT",
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "restoration",
+       "name": "Restoration",
+       "description": "The spool's powers can be restored by holding the required items while wearing it, reawakening its ability to regenerate reality-altering threads.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "Once able to regenerate threads that could alter reality, this spool has lost its power. Now silent and empty, it stands as a relic of forgotten potential."
+    }
+   },
+   {
+    "id": "morerelics:eject_button",
+    "path": "eject_button",
+    "name": "Eject Button",
+    "class": "com.blorb.morerelics.relics.EjectButton",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:belt",
+     "curios:charm",
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/morerelics/item/eject_button.png",
+    "relic": {
+     "leveling": {
+      "max_level": 3,
+      "initial_cost": 100,
+      "step": 30
+     },
+     "loot": [
+      "WILDCARD"
+     ],
+     "abilities": [
+      {
+       "id": "nope",
+       "name": "Nope",
+       "description": "Grants **1.5-2 (up to 3-3.5)**X speed when the user's health is low.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "1.5-2",
+         "per_level": "+0.5 per level",
+         "max": "3-3.5",
+         "name": "Speed"
+        }
+       ]
+      }
+     ],
+     "description": "A yellow box with a red, glowing button. Engineered for \"heroic and tactical\" retreats."
+    }
+   },
+   {
+    "id": "morerelics:epoch_apple",
+    "path": "epoch_apple",
+    "name": "Epoch Apple",
+    "class": "com.blorb.morerelics.relics.EpochApple",
+    "category": "Relics",
+    "props": {
+     "stack": 1,
+     "food": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/morerelics/item/epoch_apple.png",
+    "relic": {
+     "leveling": {
+      "max_level": 12,
+      "initial_cost": 100,
+      "step": 40
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "persistent",
+       "name": "Persistent",
+       "description": "The apple recovers to its full form after **16-12 (up to 12-8)** minutes of being eaten.",
+       "required_level": 0,
+       "max_level": 8,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "16-12",
+         "per_level": "-0.5 per level",
+         "max": "12-8",
+         "name": "Cooldown"
+        }
+       ]
+      },
+      {
+       "id": "ripen",
+       "name": "Ripen",
+       "description": "The apple ripens into greater quality after **60-52 (up to 48-40)** minutes of being in its full form.",
+       "required_level": 8,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "60-52",
+         "per_level": "-3 per level",
+         "max": "48-40",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "An ancient apple believed to be from the earliest generations of its kind. Its regenerative abilities allow it to recover from severe damage which is how it has survived through the ages."
+    }
+   },
+   {
+    "id": "morerelics:gravitum_glove",
+    "path": "gravitum_glove",
+    "name": "Gravitum Glove",
+    "class": "com.blorb.morerelics.relics.GravitumGlove",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:hands"
+    ],
+    "icon_url": "assets/icons/morerelics/item/gravitum_glove.png",
+    "relic": {
+     "leveling": {
+      "max_level": 9,
+      "initial_cost": 90,
+      "step": 20
+     },
+     "loot": [
+      "END_LIKE",
+      "THE_END",
+      "SCULK"
+     ],
+     "abilities": [
+      {
+       "id": "all_in",
+       "name": "All In",
+       "description": "Multiplies attack damage by **1.4-1.7 (up to 1.7-2)**X but reduces attack speed by 66%.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage_boost",
+         "base": "1.4-1.7",
+         "per_level": "+0.06 per level",
+         "max": "1.7-2",
+         "name": "Damage Boost"
+        }
+       ]
+      },
+      {
+       "id": "bonk",
+       "name": "Bonk",
+       "description": "Attacks over 20 damage (before armor) have a **3-5 (up to 8-10)**% chance to trigger a heavy strike, dealing 2X damage and inflicting Dazed for **4-6 (up to 14-16)** seconds.\nDazed enemies have a chance to miss their attacks.",
+       "required_level": 5,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "3-5",
+         "per_level": "+1.25 per level",
+         "max": "8-10",
+         "name": "Chance"
+        },
+        {
+         "id": "duration",
+         "base": "4-6",
+         "per_level": "+2.5 per level",
+         "max": "14-16",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "A glove which is made from a unique cloth-like material which anchors itself to its current position, making it very hard to move. When it collides with an object it transfers a massive amount of energy, creating a powerful impact even at low speed."
+    }
+   },
+   {
+    "id": "morerelics:gravitum_strider",
+    "path": "gravitum_strider",
+    "name": "Gravitum Strider",
+    "class": "com.blorb.morerelics.relics.GravitumStrider",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:feet"
+    ],
+    "icon_url": "assets/icons/morerelics/item/gravitum_strider.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 120,
+      "step": 40
+     },
+     "loot": [
+      "END_LIKE",
+      "THE_END",
+      "SCULK"
+     ],
+     "abilities": [
+      {
+       "id": "elevated_steps",
+       "name": "Elevated Steps",
+       "description": "Reduces your gravity by **30-40 (up to 50-60)**%. Fall damage and safe fall distance are adjusted accordingly.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "gravity_reduction",
+         "base": "30-40",
+         "per_level": "+4 per level",
+         "max": "50-60",
+         "name": "Gravity Reduction"
+        }
+       ]
+      },
+      {
+       "id": "leap",
+       "name": "Leap",
+       "description": "Jumping after crouching for one second launches you upwards with a force of **0.2-0.28 (up to 0.32-0.4)**. You take reduced fall damage from this jump.",
+       "required_level": 5,
+       "max_level": 3,
+       "cast": "Toggleable",
+       "stats": [
+        {
+         "id": "jump_force",
+         "base": "0.2-0.28",
+         "per_level": "+0.04 per level",
+         "max": "0.32-0.4",
+         "name": "Jump Force"
+        }
+       ]
+      }
+     ],
+     "description": "A boot that uses a Gravitum engine to reduce the effects of gravity. It was commonly used by astronauts for training before the severe health risks of Gravitum were discovered."
+    }
+   },
+   {
+    "id": "morerelics:guts_orb",
+    "path": "guts_orb",
+    "name": "Guts Orb",
+    "class": "com.blorb.morerelics.relics.GutsOrb",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/guts_orb.png",
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 100,
+      "step": 20
+     },
+     "loot": [
+      "BASTION",
+      "DESERT",
+      "NETHER_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "guts",
+       "name": "Guts",
+       "description": "If you are under a negative effect or on fire, deal **0.2-0.4 (up to 0.45-0.65)**X extra damage.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage_perchantage",
+         "base": "0.2-0.4",
+         "per_level": "+0.05 per level",
+         "max": "0.45-0.65",
+         "name": "Damage Perchantage"
+        }
+       ]
+      }
+     ],
+     "description": "A flawless orb with stark white corners, its center a deep purple that seems to pulse with a quiet, simmering anger. It radiates an unsettling aura, as if it harbors a grudge."
+    }
+   },
+   {
+    "id": "morerelics:king_crimson",
+    "path": "king_crimson",
+    "name": "King Crimson",
+    "class": "com.blorb.morerelics.relics.KingCrimson",
+    "category": "Head",
+    "props": {
+     "fire_resistant": true,
+     "stack": 1,
+     "rarity": "Epic"
+    },
+    "tooltips": [],
+    "tags": [
+     "curios:head"
+    ],
+    "icon_url": "assets/icons/morerelics/item/king_crimson.png",
+    "relic": {
+     "leveling": {
+      "max_level": 14,
+      "initial_cost": 10,
+      "step": 30
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "epitaph",
+       "name": "Epitaph",
+       "description": "Distorts time and space, rewinding you to your position from 10 seconds ago. **200-140 (up to 80-20)** seconds cooldown.",
+       "required_level": 0,
+       "max_level": 4,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "200-140",
+         "per_level": "-30 per level",
+         "max": "80-20",
+         "name": "Cooldown"
+        }
+       ]
+      },
+      {
+       "id": "talk_to_the_wind",
+       "name": "Talk to The Wind",
+       "description": "Your attacks disrupt your target's mind, applying Weakness and Slowness with a **2-4 (up to 7-9)**% chance for **3-6 (up to 7-10)** seconds. If the target is another player Static is also applied for half the duration.\nYour first attack after Epitaph always triggers this effect.\n\nStatic makes players unable to see other mobs and players while it is active.",
+       "required_level": 3,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "seconds",
+         "base": "3-6",
+         "per_level": "+0.8 per level",
+         "max": "7-10",
+         "name": "Seconds"
+        },
+        {
+         "id": "chance",
+         "base": "2-4",
+         "per_level": "+1 per level",
+         "max": "7-9",
+         "name": "Chance"
+        }
+       ]
+      },
+      {
+       "id": "the_court",
+       "name": "The Court Of The Crimson King",
+       "description": "When you attack, if your maximum health is more than or equal to your target's maximum health and their health is below **9-14 (up to 17-22)**%, they are instantly executed. If your target has more maximum health than you they instead take double damage below this threshold.",
+       "required_level": 7,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "threshold",
+         "base": "9-14",
+         "per_level": "+1.6 per level",
+         "max": "17-22",
+         "name": "Threshold"
+        }
+       ]
+      }
+     ],
+     "description": "Freed souls burst out of the mask, changing its color and leaving a strange hole in the middle. When you look into the hole you can't see the bottom but the other side looks solid."
+    }
+   },
+   {
+    "id": "morerelics:made_in_heaven",
+    "path": "made_in_heaven",
+    "name": "Made in Heaven",
+    "class": "com.blorb.morerelics.relics.MadeInHeaven",
+    "category": "Back",
+    "props": {
+     "fire_resistant": true,
+     "stack": 1,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Infinite Equilibrium",
+     "Zenith has shielded you from death and is now on cooldown.",
+     "Zenith is ready to revive again."
+    ],
+    "tags": [
+     "curios:back",
+     "curios:belt",
+     "curios:charm",
+     "curios:feet",
+     "curios:hands",
+     "curios:necklace",
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/morerelics/item/made_in_heaven.png",
+    "relic": {
+     "leveling": {
+      "max_level": 18,
+      "initial_cost": 200,
+      "step": 70
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "as_one",
+       "name": "As One",
+       "description": "Made in Heaven channels its power into you, increasing all your stats by **0.03-0.06 (up to 0.07-0.1)**X.\nHitting an enemy grants Accelerating, stacking up to 10 times. Each stack boosts all stats except health by 0.03X. Gaining stacks has a **44-32 (up to 28-16)** second cooldown and all stacks expire after a short duration of not attacking.",
+       "required_level": 0,
+       "max_level": 8,
+       "cast": null,
+       "stats": [
+        {
+         "id": "initial_boost",
+         "base": "0.03-0.06",
+         "per_level": "+0 per level",
+         "max": "0.07-0.1",
+         "name": "Initial Boost"
+        },
+        {
+         "id": "accel_cooldown",
+         "base": "44-32",
+         "per_level": "-2 per level",
+         "max": "28-16",
+         "name": "Accel Cooldown"
+        }
+       ]
+      },
+      {
+       "id": "zenith",
+       "name": "Zenith",
+       "description": "While at 10 Accelerating stacks gain an additional **0.08-0.14 (up to 0.14-0.2)**X stat boost and automatically revive with half your maximum HP when you die.\nTriggering the revive puts it on cooldown for **1200-860 (up to 1080-740)** seconds and consumes all Accelerating stacks.",
+       "required_level": 5,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "revive_cooldown",
+         "base": "1200-860",
+         "per_level": "-40 per level",
+         "max": "1080-740",
+         "name": "Revive Cooldown"
+        },
+        {
+         "id": "stat_boost",
+         "base": "0.08-0.14",
+         "per_level": "+0.02 per level",
+         "max": "0.14-0.2",
+         "name": "Stat Boost"
+        }
+       ]
+      },
+      {
+       "id": "condemn",
+       "name": "Condemn",
+       "description": "Upon activation, unleash holy fire in a cone, dealing **4-6 (up to 6-8)** damage, burning enemies and applying Charred for a duration.\nCharred causes affected enemies to take 1 extra damage per level from all sources.\nCooldown: **60-45 (up to 40-25)** seconds.",
+       "required_level": 8,
+       "max_level": 4,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "60-45",
+         "per_level": "-5 per level",
+         "max": "40-25",
+         "name": "Cooldown"
+        },
+        {
+         "id": "damage",
+         "base": "4-6",
+         "per_level": "+0.5 per level",
+         "max": "6-8",
+         "name": "Damage"
+        }
+       ]
+      },
+      {
+       "id": "divine_judgement",
+       "name": "Divine Judgement",
+       "description": "Upon activation, rise into the air and after a short delay engulf everything within a 7-block radius in holy fire, dealing up to **40-55 (up to 70-85)** damage over 5 seconds in 5 increasing hits and burning enemies. The last 3 hits apply and stack Charred.\nYou gain 75% damage reduction while casting this ability.\nThis ability can only be used while you have 10 Accelerating stacks and has a cooldown of **1260-960 (up to 1080-780)** seconds.",
+       "required_level": 12,
+       "max_level": 3,
+       "cast": "Interruptible",
+       "stats": [
+        {
+         "id": "damage",
+         "base": "40-55",
+         "per_level": "+10 per level",
+         "max": "70-85",
+         "name": "Damage"
+        },
+        {
+         "id": "cooldown",
+         "base": "1260-960",
+         "per_level": "-60 per level",
+         "max": "1080-780",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "The amulet has unlocked its full potential, transforming into its true form. It now seems to share a bond with you."
+    }
+   },
+   {
+    "id": "morerelics:mass_gauntlet",
+    "path": "mass_gauntlet",
+    "name": "Mass Gauntlet",
+    "class": "com.blorb.morerelics.relics.MassGauntlet",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:hands"
+    ],
+    "icon_url": "assets/icons/morerelics/item/mass_gauntlet.png",
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 80,
+      "step": 20
+     },
+     "loot": [
+      "WILDCARD"
+     ],
+     "abilities": [
+      {
+       "id": "heavy_hitter",
+       "name": "Heavy Hitter",
+       "description": "Your attacks deal **6-10 (up to 14-18)**% of your maximum health as extra damage with a small cooldown.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "perch",
+         "base": "6-10",
+         "per_level": "+1.6 per level",
+         "max": "14-18",
+         "name": "Perch"
+        }
+       ]
+      }
+     ],
+     "description": "A gauntlet with a massive iron ball affixed to it, designed to force the user's body to move in sync with their strikes. This unique design amplifies the power of each attack as the user's weight is channeled into every blow."
+    }
+   },
+   {
+    "id": "morerelics:moodworm",
+    "path": "moodworm",
+    "name": "Moodworm",
+    "class": "com.blorb.morerelics.relics.MoodWorm",
+    "category": "Ring",
+    "props": {},
+    "tooltips": [
+     "Furious",
+     "Joyful",
+     "Gloomy",
+     "Tranquil"
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": null,
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 20,
+      "step": 20
+     },
+     "loot": [
+      "WILDCARD"
+     ],
+     "abilities": [
+      {
+       "id": "moody",
+       "name": "Moody",
+       "description": "The worm changes its mood every 10 minutes, providing different benefits:\nFurious: Increases damage by **0.1-0.15 (up to 0.2-0.25)**X and attacks burn enemies.\nJoyful: Increases speed and luck by **0.1-0.15 (up to 0.2-0.25)**X.\nGloomy: Reduces damage taken by **10-15 (up to 20-25)**% and increases resistance to knockback.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "multip",
+         "base": "0.1-0.15",
+         "per_level": "+0.02 per level",
+         "max": "0.2-0.25",
+         "name": "Multip"
+        },
+        {
+         "id": "reduction",
+         "base": "10-15",
+         "per_level": "+2 per level",
+         "max": "20-25",
+         "name": "Reduction"
+        }
+       ]
+      },
+      {
+       "id": "tranquillity",
+       "name": "Tranquillity",
+       "description": "The worm can switch to a new mood.\nTranquil: Provides all the advantages of the worm's other moods.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A symbiotic worm that manipulates its host's emotions, helping them adapt and thrive in shifting conditions."
+    }
+   },
+   {
+    "id": "morerelics:opal_necklace",
+    "path": "opal_necklace",
+    "name": "Opal Necklace",
+    "class": "com.blorb.morerelics.relics.OpalNecklace",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "Bubble Shield is ready to use again."
+    ],
+    "tags": [
+     "curios:necklace"
+    ],
+    "icon_url": "assets/icons/morerelics/item/opal_necklace.png",
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 120,
+      "step": 20
+     },
+     "loot": [
+      "DESERT",
+      "FROST"
+     ],
+     "abilities": [
+      {
+       "id": "bubble_shield",
+       "name": "Bubble Shield",
+       "description": "Protects from all damage once, then goes on cooldown for **240-160 (up to 140-60)** seconds.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "240-160",
+         "per_level": "-20 per level",
+         "max": "140-60",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "A silver necklace adorned with a small opal stone, traditionally gifted to travelers and soldiers venturing into barren lands, symbolizing a wish for their safety and protection."
+    }
+   },
+   {
+    "id": "morerelics:runic_plate",
+    "path": "runic_plate",
+    "name": "Runic Plate",
+    "class": "com.blorb.morerelics.relics.RunicPlate",
+    "category": "Back",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:back",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/runic_plate.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 125,
+      "step": 25
+     },
+     "loot": [
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "head_start",
+       "name": "Head Start",
+       "description": "Upon entering combat, the damage of the first **1-2 (up to 3-4)** attacks you take is reduced by **24-34 (up to 40-50)**%.\n\nYou are considered out of combat if you haven't dealt or taken damage for 15 seconds.",
+       "required_level": 0,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage_reduction",
+         "base": "24-34",
+         "per_level": "+4 per level",
+         "max": "40-50",
+         "name": "Damage Reduction"
+        },
+        {
+         "id": "hit_count",
+         "base": "1-2",
+         "per_level": "+0.5 per level",
+         "max": "3-4",
+         "name": "Hit Count"
+        }
+       ]
+      },
+      {
+       "id": "peaceland",
+       "name": "Peaceland",
+       "description": "You restore **0.8-1.1 (up to 1.2-1.5)** health per second while out of combat. This healing can overheal you up to **4-6 (up to 6-8)** health.",
+       "required_level": 4,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "heal_amount",
+         "base": "0.8-1.1",
+         "per_level": "+0.1 per level",
+         "max": "1.2-1.5",
+         "name": "Heal Amount"
+        },
+        {
+         "id": "overheal_amount",
+         "base": "4-6",
+         "per_level": "+0.5 per level",
+         "max": "6-8",
+         "name": "Overheal Amount"
+        }
+       ]
+      },
+      {
+       "id": "blood_bond",
+       "name": "Blood Bond",
+       "description": "If you also have Swiftedge equipped, Head Start's boosted attack count is increased by 50%.",
+       "required_level": 8,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A rune-carved plate forged by Stafir of the legendary twin smiths. It is said to be able to block not just physical blows, but fate itself."
+    }
+   },
+   {
+    "id": "morerelics:sentient_rust",
+    "path": "sentient_rust",
+    "name": "Sentient Rust",
+    "class": "com.blorb.morerelics.relics.SentientRust",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:hands"
+    ],
+    "icon_url": "assets/icons/morerelics/item/sentient_rust.png",
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 150,
+      "step": 30
+     },
+     "loot": [
+      "MINESHAFT",
+      "MOUNTAIN",
+      "SWAMP"
+     ],
+     "abilities": [
+      {
+       "id": "corrosive",
+       "name": "Corrosive",
+       "description": "Applies an armor-corroding effect for **20-30 (up to 45-55)** seconds. Consecutive hits refresh the duration and stack the effect (up to 10 times). Each stack reduces armor by %5.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "seconds",
+         "base": "20-30",
+         "per_level": "+5 per level",
+         "max": "45-55",
+         "name": "Seconds"
+        }
+       ]
+      }
+     ],
+     "description": "A cluster of Ferro Comedenti fungi, a rare species of fungus which rapidly corrodes metal on contact. Commonly known as 'Sentient Rust' for its reddish hue."
+    }
+   },
+   {
+    "id": "morerelics:shieldweave_cape",
+    "path": "shieldweave_cape",
+    "name": "Shieldweave Cape",
+    "class": "com.blorb.morerelics.relics.ShieldWeaveCape",
+    "category": "Back",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:back"
+    ],
+    "icon_url": "assets/icons/morerelics/item/shieldweave_cape.png",
+    "relic": {
+     "leveling": {
+      "max_level": 10,
+      "initial_cost": 100,
+      "step": 50
+     },
+     "loot": [
+      "CAVE",
+      "TAIGA",
+      "MOUNTAIN",
+      "OVERWORLD"
+     ],
+     "abilities": [
+      {
+       "id": "impact_shield",
+       "name": "Impact Shield",
+       "description": "The cape hardens upon impact, blocking the hit with **3-6 (up to 7-10)**% + **0.15-0.3 (up to 0.35-0.5)**% * armor chance (max 33%).",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "flat_chance",
+         "base": "3-6",
+         "per_level": "+0.8 per level",
+         "max": "7-10",
+         "name": "Flat Chance"
+        },
+        {
+         "id": "per_armor",
+         "base": "0.15-0.3",
+         "per_level": "+0.04 per level",
+         "max": "0.35-0.5",
+         "name": "Per Armor"
+        }
+       ]
+      },
+      {
+       "id": "dynamic_thread",
+       "name": "Dynamic Thread",
+       "description": "The cape covers your weak spots, increasing your armor by **4-8 (up to 11.5-15.5)**%.",
+       "required_level": 5,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "perch",
+         "base": "4-8",
+         "per_level": "+1.5 per level",
+         "max": "11.5-15.5",
+         "name": "Perch"
+        }
+       ]
+      }
+     ],
+     "description": "A cape woven with steel-like threads that adjust to the wearer's armor, covering weak spots."
+    }
+   },
+   {
+    "id": "morerelics:slumbering_amulet",
+    "path": "slumbering_amulet",
+    "name": "Slumbering Amulet",
+    "class": "com.blorb.morerelics.relics.SlumberingAmulet",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "Dormant Potential"
+    ],
+    "tags": [
+     "curios:necklace"
+    ],
+    "icon_url": "assets/icons/morerelics/item/slumbering_amulet.png",
+    "relic": {
+     "leveling": {
+      "max_level": 10,
+      "initial_cost": 75,
+      "step": 50
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "odd_aura",
+       "name": "Odd Aura",
+       "description": "This relic brings a soothing comfort, making you feel compelled to wear it more.",
+       "required_level": 0,
+       "max_level": 1,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "awakening_potential",
+       "name": "Awakening Potential",
+       "description": "While wearing the amulet, thoughts of Nether Stars fill your mind, and visions of them appear in your dreams. A strong urge to hold one begins to rise within you.",
+       "required_level": 10,
+       "max_level": 1,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A simple, unremarkable necklace lacking distinction, yet something about it feels off as if it were destined for a greater purpose."
+    }
+   },
+   {
+    "id": "morerelics:swiftedge",
+    "path": "swiftedge",
+    "name": "Swiftedge",
+    "class": "com.blorb.morerelics.relics.Swiftedge",
+    "category": "Back",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:back",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/swiftedge.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 125,
+      "step": 25
+     },
+     "loot": [
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "head_start",
+       "name": "Head Start",
+       "description": "Upon entering combat, the damage of your first **2-3 (up to 4-5)** attacks is increased by **0.2-0.3 (up to 0.4-0.5)**X.\n\nYou are considered out of combat if you haven't dealt or taken damage for 15 seconds.",
+       "required_level": 0,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage_perch",
+         "base": "0.2-0.3",
+         "per_level": "+0.05 per level",
+         "max": "0.4-0.5",
+         "name": "Damage Perch"
+        },
+        {
+         "id": "hit_count",
+         "base": "2-3",
+         "per_level": "+0.5 per level",
+         "max": "4-5",
+         "name": "Hit Count"
+        }
+       ]
+      },
+      {
+       "id": "modal_soul",
+       "name": "Modal Soul",
+       "description": "You gain a **0.12-0.24 (up to 0.28-0.4)**X speed boost while out of combat.",
+       "required_level": 4,
+       "max_level": 4,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed_perch",
+         "base": "0.12-0.24",
+         "per_level": "+0.04 per level",
+         "max": "0.28-0.4",
+         "name": "Speed Perch"
+        }
+       ]
+      },
+      {
+       "id": "blood_bond",
+       "name": "Blood Bond",
+       "description": "If you also have Runic Plate equipped, Head Start's boosted attack count is increased by 50%.",
+       "required_level": 8,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A magic-infused blade forged by Magna of the legendary twin smiths. It is said to be sharp enough to split the wind itself."
+    }
+   },
+   {
+    "id": "morerelics:thermoseismic_heart",
+    "path": "thermoseismic_heart",
+    "name": "Thermoseismic Heart",
+    "class": "com.blorb.morerelics.relics.ThermoseismicHeart",
+    "category": "Body",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:body",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/thermoseismic_heart.png",
+    "relic": {
+     "leveling": {
+      "max_level": 10,
+      "initial_cost": 100,
+      "step": 25
+     },
+     "loot": [
+      "DESERT"
+     ],
+     "abilities": [
+      {
+       "id": "pyromania",
+       "name": "Pyromania",
+       "description": "Explosions do not harm the user and instead grant a stack of Overload for **20-30 (up to 35-45)** seconds, with a maximum of 4 stacks.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "duration",
+         "base": "20-30",
+         "per_level": "+5 per level",
+         "max": "35-45",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "thermal_discharge",
+       "name": "Thermal Discharge",
+       "description": "When activated, it releases a stream of heat in a **1-2 (up to 2-3)** block radius, dealing **3-5 (up to 8-10)** damage. Stacks of Overload are consumed to amplify the fire's power and range.\nWhile cyberpsychosis is active: The fire triggers as if the user has 2 Overload stacks when they have less and the Overload stacks are not consumed.",
+       "required_level": 3,
+       "max_level": 4,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "radius",
+         "base": "1-2",
+         "per_level": "+0.25 per level",
+         "max": "2-3",
+         "name": "Radius"
+        },
+        {
+         "id": "damage",
+         "base": "3-5",
+         "per_level": "+1.25 per level",
+         "max": "8-10",
+         "name": "Damage"
+        }
+       ]
+      },
+      {
+       "id": "cyberpsychosis",
+       "name": "Cyberpsychosis",
+       "description": "Killing an enemy has a **3-5 (up to 6-8)**% chance to trigger cyberpsychosis for **4-7 (up to 10-13)** seconds.\nThe chance and duration stacks with other Cyberware with this ability.\nCyberpsychosis: Significantly improves Cyberware abilities but erodes sanity, making the familiar foreign.",
+       "required_level": 7,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "3-5",
+         "per_level": "+1 per level",
+         "max": "6-8",
+         "name": "Chance"
+        },
+        {
+         "id": "duration",
+         "base": "4-7",
+         "per_level": "+2 per level",
+         "max": "10-13",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "A high-tech heart implant that converts movement and vibrations into energy, powering itself and recharging its internal batteries."
+    }
+   },
+   {
+    "id": "morerelics:twin_fangs",
+    "path": "twin_fangs",
+    "name": "Twin Fangs",
+    "class": "com.blorb.morerelics.relics.TwinFangs",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:hands"
+    ],
+    "icon_url": "assets/icons/morerelics/item/twin_fangs.png",
+    "relic": {
+     "leveling": {
+      "max_level": 5,
+      "initial_cost": 240,
+      "step": 60
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "two_fold",
+       "name": "Two Fold",
+       "description": "Divides your attacks into two parts dealing **40-42.5 (up to 47.5-50)**% and **60-62.5 (up to 67.5-70)**% of your damage each.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "smaller_strike_per",
+         "base": "40-42.5",
+         "per_level": "+1.5 per level",
+         "max": "47.5-50",
+         "name": "Smaller Strike Per"
+        },
+        {
+         "id": "bigger_strike_per",
+         "base": "60-62.5",
+         "per_level": "+1.5 per level",
+         "max": "67.5-70",
+         "name": "Bigger Strike Per"
+        }
+       ]
+      },
+      {
+       "id": "blindside",
+       "name": "Blindside",
+       "description": "Makes it so your attacks cannot be blocked with shields.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A wrist attachment with dual curved blades pointing outward. It is designed to be used alongside a primary weapon, striking the moment the foe's attention is diverted. This unusual style is a favorite among bandits and assassins as it can make even the most seasoned opponents slip up."
+    }
+   },
+   {
+    "id": "morerelics:tyrant_mask",
+    "path": "tyrant_mask",
+    "name": "Tyrant Mask",
+    "class": "com.blorb.morerelics.relics.TyrantMask",
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:head"
+    ],
+    "icon_url": "assets/icons/morerelics/item/tyrant_mask.png",
+    "relic": {
+     "leveling": {
+      "max_level": 1,
+      "initial_cost": 100,
+      "step": 30
+     },
+     "loot": [
+      "BASTION"
+     ],
+     "abilities": [
+      {
+       "id": "regrets",
+       "name": "Regrets",
+       "description": "The trapped souls within the mask hinder you, lowering your speed, damage, and attack speed by **20**%.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "debuff",
+         "base": "20",
+         "per_level": null,
+         "max": null,
+         "name": "Debuff"
+        }
+       ]
+      },
+      {
+       "id": "revenge",
+       "name": "Revenge",
+       "description": "The souls trapped within the mask crave for revenge against the monsters that slayed them. Perhaps hunting monsters with them could soothe their fury.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "monotony",
+       "name": "Monotony",
+       "description": "The souls trapped within the mask regret avoiding change and living a monotonous life. Perhaps travelling with them could soothe their longing for adventure.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "futility",
+       "name": "Futility",
+       "description": "The souls trapped within the mask carry the sorrow of a life spent without leaving a lasting mark. Maybe building with them will help soothe their need to create.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "A brass mask once worn by a forgotten tyrant. Though his soul is long gone the mask still brims with malice, drawing restless spirits and trapping them within its dark influence."
+    }
+   },
+   {
+    "id": "morerelics:vertebrax",
+    "path": "vertebrax",
+    "name": "VertebraX",
+    "class": "com.blorb.morerelics.relics.VertebraX",
+    "category": "Back",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:back"
+    ],
+    "icon_url": "assets/icons/morerelics/item/vertebrax.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 120,
+      "step": 30
+     },
+     "loot": [
+      "THE_END"
+     ],
+     "abilities": [
+      {
+       "id": "inoculation",
+       "name": "Inoculation",
+       "description": "Continuously applies poison while equipped.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "fortification",
+       "name": "Fortification",
+       "description": "Harmful potion effects have their duration reduced by **12-20 (up to 32-40)**%. These effects have a **15-25 (up to 40-50)**% chance to be filtered, decreasing their level or reducing duration by an additional 20% if the level is already at its minimum. Filtration also synthesizes the opposite beneficial effect for half the original duration if it exists.\nWhile cyberpsychosis is active: Synthesized effects are more powerful and the reduction is amplified by 50%.",
+       "required_level": 3,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "reduction",
+         "base": "12-20",
+         "per_level": "+4 per level",
+         "max": "32-40",
+         "name": "Reduction"
+        },
+        {
+         "id": "increase",
+         "base": "15-25",
+         "per_level": "+5 per level",
+         "max": "40-50",
+         "name": "Increase"
+        }
+       ]
+      },
+      {
+       "id": "acquired_immunity",
+       "name": "Acquired Immunity",
+       "description": "Completely converts Poison into Regeneration for its full duration.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "cyberpsychosis",
+       "name": "Cyberpsychosis",
+       "description": "Killing an enemy has a **3-5 (up to 6-8)**% chance to trigger Cyberpsychosis for **4-7 (up to 10-13)** seconds.\nThe chance and duration stacks with other Cyberware with this ability.\nCyberpsychosis: Significantly improves Cyberware abilities but erodes sanity, making the familiar foreign.",
+       "required_level": 5,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "3-5",
+         "per_level": "+1 per level",
+         "max": "6-8",
+         "name": "Chance"
+        },
+        {
+         "id": "duration",
+         "base": "4-7",
+         "per_level": "+2 per level",
+         "max": "10-13",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "A high-tech spine implant designed to boost immunity by continuously injecting poison into the body... It was quickly banned and pulled from the market due to obvious reasons."
+    }
+   },
+   {
+    "id": "morerelics:weavers_spool",
+    "path": "weavers_spool",
+    "name": "Weavers Spool",
+    "class": "com.blorb.morerelics.relics.WeaversSpool",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:belt",
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/weavers_spool.png",
+    "relic": {
+     "leveling": {
+      "max_level": 12,
+      "initial_cost": 140,
+      "step": 40
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "weaver",
+       "name": "Weaver",
+       "description": "Each strike against an enemy weaves silk back into your spool, building up to a maximum of 10 silk stored.\nAdditionally, gain silk passively every **7-5 (up to 5.5-3.5)** seconds when you have less than 3 silk.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": null,
+       "stats": [
+        {
+         "id": "passive_regen_time",
+         "base": "7-5",
+         "per_level": "-0.5 per level",
+         "max": "5.5-3.5",
+         "name": "Passive Regen Time"
+        }
+       ]
+      },
+      {
+       "id": "bind",
+       "name": "Bind",
+       "description": "Consumes 6 silk to heal for **2-4 (up to 3.5-5.5)** and grants absorption for a short duration, shielding you from further harm.",
+       "required_level": 0,
+       "max_level": 3,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "healing_amount",
+         "base": "2-4",
+         "per_level": "+0.5 per level",
+         "max": "3.5-5.5",
+         "name": "Healing Amount"
+        }
+       ]
+      },
+      {
+       "id": "soar",
+       "name": "Soar",
+       "description": "Consumes 3 silk to propel you in the direction you're facing with a force of **1.1-1.3 (up to 1.4-1.6)** and grants a speed boost for **7-10 (up to 13-16)** seconds afterwards.",
+       "required_level": 3,
+       "max_level": 3,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "leap_power",
+         "base": "1.1-1.3",
+         "per_level": "+0.1 per level",
+         "max": "1.4-1.6",
+         "name": "Leap Power"
+        },
+        {
+         "id": "speed_duration",
+         "base": "7-10",
+         "per_level": "+2 per level",
+         "max": "13-16",
+         "name": "Speed Duration"
+        }
+       ]
+      },
+      {
+       "id": "unravel",
+       "name": "Unravel",
+       "description": "Consumes 7 silk to unleash a blast that deals **4-6 (up to 10-12)** damage and severely slows enemies for **2-3 (up to 3.5-4.5)** seconds within a 4-block radius around you.",
+       "required_level": 6,
+       "max_level": 3,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "damage",
+         "base": "4-6",
+         "per_level": "+2 per level",
+         "max": "10-12",
+         "name": "Damage"
+        },
+        {
+         "id": "slow_duration",
+         "base": "2-3",
+         "per_level": "+0.5 per level",
+         "max": "3.5-4.5",
+         "name": "Slow Duration"
+        }
+       ]
+      }
+     ],
+     "description": "Restored to its former power, the spool now regenerates silk that can subtly alter reality, weaving outcomes according to the weaver’s design."
+    }
+   },
+   {
+    "id": "morerelics:whims_of_fate",
+    "path": "whims_of_fate",
+    "name": "Whims of Fate",
+    "class": "com.blorb.morerelics.relics.WhimsOfFate",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/morerelics/item/whims_of_fate.png",
+    "relic": {
+     "leveling": {
+      "max_level": 8,
+      "initial_cost": 100,
+      "step": 25
+     },
+     "loot": [
+      "DESERT",
+      "BASTION"
+     ],
+     "abilities": [
+      {
+       "id": "just_one_more",
+       "name": "Just One More Roll",
+       "description": "Whenever the user is hit, rolls a 20-sided die. Each number above 1 increases damage reduction by **0.5-1 (up to 1.3-1.8)**%. A 20 cancels all damage, a 1 doubles it.",
+       "required_level": 0,
+       "max_level": 8,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage_reduction_per",
+         "base": "0.5-1",
+         "per_level": "+0.1 per level",
+         "max": "1.3-1.8",
+         "name": "Damage Reduction Per"
+        }
+       ]
+      }
+     ],
+     "description": "A cursed die that draws strength from its wielder's despair and suffering, promising salvation while demanding agony in return."
+    }
+   },
+   {
+    "id": "morerelics:whispering_amulet",
+    "path": "whispering_amulet",
+    "name": "Whispering Amulet",
+    "class": "com.blorb.morerelics.relics.WhisperingAmulet",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "The Lantern"
+    ],
+    "tags": [
+     "curios:necklace"
+    ],
+    "icon_url": "assets/icons/morerelics/item/whispering_amulet.png",
+    "relic": {
+     "leveling": {
+      "max_level": 0
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "ascend_heaven",
+       "name": "Together We Will Reach Beyond",
+       "description": "The amulet hums softly, its whispers winding through your mind, guiding you toward a place it insists you must go.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      }
+     ],
+     "description": "Tendrils of pure light unfurl from the amulet, twisting and thrashing with frantic energy as if they are reaching for something just beyond the veil, a place they desperately seek."
+    }
+   },
+   {
+    "id": "morerelics:wonder_of_u",
+    "path": "wonder_of_u",
+    "name": "Wonder of U",
+    "class": "com.blorb.morerelics.relics.WonderOfU",
+    "category": "Back",
+    "props": {
+     "stack": 1,
+     "rarity": "Epic"
+    },
+    "tooltips": [],
+    "tags": [
+     "curios:back",
+     "curios:belt",
+     "curios:body"
+    ],
+    "icon_url": "assets/icons/morerelics/item/wonder_of_u.png",
+    "relic": {
+     "leveling": {
+      "max_level": 13,
+      "initial_cost": 300,
+      "step": 60
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "entropy",
+       "name": "Entropy",
+       "description": "**7-10 (up to 17-20)**% of the incoming damage is also dealt to the attacker.\n\nReflected damage cannot exceed the user's current health.",
+       "required_level": 0,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "perch",
+         "base": "7-10",
+         "per_level": "+2 per level",
+         "max": "17-20",
+         "name": "Perch"
+        }
+       ]
+      },
+      {
+       "id": "flow_of_calamity",
+       "name": "Flow of Calamity",
+       "description": "When attacked, the attacker suffers a random negative potion effect.\nCooldown: **16-12 (up to 11-7)** seconds.",
+       "required_level": 5,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "16-12",
+         "per_level": "-1 per level",
+         "max": "11-7",
+         "name": "Cooldown"
+        }
+       ]
+      },
+      {
+       "id": "event_horizon",
+       "name": "Event Horizon",
+       "description": "Upon activation, the user unleashes a blast that knocks back and stuns nearby enemies.\nFor the next **6-10 (up to 12-16)** seconds, the user enters a state of nullification, gaining complete invincibility and doubling the effects of Entropy and Flow of Calamity. This ability has a cooldown of **540-420 (up to 450-330)** seconds.",
+       "required_level": 10,
+       "max_level": 3,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "duration",
+         "base": "6-10",
+         "per_level": "+2 per level",
+         "max": "12-16",
+         "name": "Duration"
+        },
+        {
+         "id": "cooldown",
+         "base": "540-420",
+         "per_level": "-30 per level",
+         "max": "450-330",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "The orb has collapsed in on itself, becoming a miniature black hole. It now absorbs any harm aimed at its user, redirecting it toward those who oppose them."
+    }
+   }
+  ],
+  "blocks": [],
+  "mobs": [],
+  "effects": [
+   {
+    "id": "morerelics:accelerating",
+    "path": "accelerating",
+    "name": "Accelerating",
+    "class": "com.blorb.morerelics.effects.Accelerating",
+    "category": "Beneficial",
+    "color": "#DBDB0E",
+    "description": "Makes the user increasingly stronger when used with Made in Heaven.",
+    "icon_url": "assets/icons/morerelics/effect/accelerating.png"
+   },
+   {
+    "id": "morerelics:charred",
+    "path": "charred",
+    "name": "Charred",
+    "class": "com.blorb.morerelics.effects.Charred",
+    "category": "Harmful",
+    "color": "#000000",
+    "description": "Increases damage taken from any source by 1 per level of this effect.",
+    "icon_url": "assets/icons/morerelics/effect/charred.png"
+   },
+   {
+    "id": "morerelics:corrosion",
+    "path": "corrosion",
+    "name": "Corrosion",
+    "class": "com.blorb.morerelics.effects.Corrosion",
+    "category": "Harmful",
+    "color": "#A9A9A9",
+    "description": "A corrosive effect that eats away at equipment, reducing armor.",
+    "icon_url": "assets/icons/morerelics/effect/corrosion.png"
+   },
+   {
+    "id": "morerelics:cyberpsychosis",
+    "path": "cyberpsychosis",
+    "name": "Cyberpsychosis",
+    "class": "com.blorb.morerelics.effects.Cyberpsychosis",
+    "category": "Beneficial",
+    "color": "#20B2AA",
+    "description": "Slightly increases speed and damage while significantly improving Cyberware abilities but erodes sanity, making the familiar foreign.",
+    "icon_url": "assets/icons/morerelics/effect/cyberpsychosis.png"
+   },
+   {
+    "id": "morerelics:dazed",
+    "path": "dazed",
+    "name": "Dazed",
+    "class": "com.blorb.morerelics.effects.Dazed",
+    "category": "Harmful",
+    "color": "#BD24FF",
+    "description": "Makes it so the entity can miss their attacks.",
+    "icon_url": "assets/icons/morerelics/effect/dazed.png"
+   },
+   {
+    "id": "morerelics:nullification",
+    "path": "nullification",
+    "name": "Nullification",
+    "class": "com.blorb.morerelics.effects.Nullification",
+    "category": "Beneficial",
+    "color": "#FFFFFF",
+    "description": "Grants invincibility.",
+    "icon_url": "assets/icons/morerelics/effect/nullification.png"
+   },
+   {
+    "id": "morerelics:overload",
+    "path": "overload",
+    "name": "Overload",
+    "class": "com.blorb.morerelics.effects.Overload",
+    "category": "Beneficial",
+    "color": "#FFB84D",
+    "description": "Slightly increases speed. Can be consumed for better Thermal Discharges in Thermoseismic Heart.",
+    "icon_url": "assets/icons/morerelics/effect/overload.png"
+   },
+   {
+    "id": "morerelics:static",
+    "path": "static",
+    "name": "Static",
+    "class": "com.blorb.morerelics.effects.Static",
+    "category": "Harmful",
+    "color": "#A9A9A9",
+    "description": "Makes it so the player cannot see other players or mobs.",
+    "icon_url": "assets/icons/morerelics/effect/static.png"
+   },
+   {
+    "id": "morerelics:vulnerability",
+    "path": "vulnerability",
+    "name": "Vulnerability",
+    "class": "com.blorb.morerelics.effects.Vulnerability",
+    "category": "Harmful",
+    "color": "#DC143C",
+    "description": "Increases incoming damage by %20 per amplifier.",
+    "icon_url": "assets/icons/morerelics/effect/vulnerability.png"
+   }
+  ],
+  "enchantments": [],
+  "biomes": [],
+  "dimensions": [],
+  "structures": [],
+  "advancements": [],
+  "commands": [],
+  "gamerules": [],
+  "command_messages": [],
+  "configs": [
+   23184,
+   23185,
+   23186,
+   23187,
+   23188,
+   23189,
+   23190,
+   23191,
+   23192,
+   23193,
+   23194,
+   23195,
+   23196,
+   23197,
+   23198,
+   23199,
+   23200,
+   23201,
+   23202,
+   23203,
+   23204
+  ]
+ },
+ "guidebooks": [],
+ "extra": {}
+}

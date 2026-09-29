@@ -1,0 +1,94 @@
+# Fire Ball
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Abilities](../index.md) &rsaquo; [Aspectual Magic](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Fire Ball](../../../assets/icons/tensura/skill/fire_ball.png)
+
+| | |
+|---|---|
+| **Type** | Aspectual Magic |
+| **ID** | `tensura:fire_ball` |
+| **Element** | Fire |
+| **Max mastery** | 700 |
+| **Cooldowns (s)** | 1 mastered, 3 otherwise |
+| **Activation** | Hold |
+
+</div>
+
+> Shoot concentrated balls of fire.
+
+## Costs
+
+| When | Magicule (MP) | Aura (AP) |
+|---|---|---|
+| Always | 30,000 |  |
+
+## How it works
+
+- Triggers when the held key is released
+
+## Obtaining
+
+- Innate to mobs: [Arch Daemon](../../mobs/arch-daemon.md), [Lesser Daemon](../../mobs/lesser-daemon.md)
+- Sold by dwarf traders (high basic tome)
+- Can appear in rare tomes in burnt wizard towers
+- Listed in the `learnableMagics` config option (config/tensura/race/daemon_config.toml): List of Magics that players automatically get as learnable.
+
+## Related
+
+- **Related skills:** [Fire](fire-aspectual.md)
+
+## Stats (config defaults)
+
+Set in [`config/tensura/ability/magic/aspectual_config.toml`](../../configs/config-tensura-ability-magic-aspectual-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `FireBall.castTime` | 60 | Cast time in tick. |
+| `FireBall.castTimeMastered` | 20 | Cast time in tick when mastered. |
+| `FireBall.magiculeCost` | 30,000 | Magicule Cost to cast. |
+| `FireBall.magiculeCostCharged` | 50,000 | Magicule Cost to cast when charged. |
+| `FireBall.magicDamage` | 100 | The magic damage of the fireball. |
+| `FireBall.fireDamage` | 30 | The fire damage of the fireball. |
+| `FireBall.explosionRadius` | 3 | The explosion radius in block of the fireball. |
+| `FireBall.magicDamageCharged` | 250 | The magic damage of the fireball when charged. |
+| `FireBall.fireDamageCharged` | 60 | The fire damage of the fireball when charged. |
+| `FireBall.explosionRadiusCharged` | 6 | The explosion radius in block of the fireball when charged. |
+| `FireBall.cooldown` | 3 | The cooldown in second of the magic. |
+| `FireBall.cooldownMastered` | 1 | The cooldown in second of the magic when mastered. |
+
+Set in [`config/tensura/ability/magic_config.toml`](../../configs/config-tensura-ability-magic-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `AspectualMagic.masteryHigh` | 700 | The max amount of mastery point for High Aspectual Magic. |
+| `AspectualMagic.masterySummoning` | 200 | The max amount of mastery point for Summoning Magic. |
+| `AspectualMagic.masteryLow` | 100 | The max amount of mastery point for Low Aspectual Magic. |
+| `AspectualMagic.masteryMedium` | 300 | The max amount of mastery point for Medium Aspectual Magic. |
+| `AspectualMagic.masteryHigh` | 700 | The max amount of mastery point for High Aspectual Magic. |
+| `AspectualMagic.masteryGreat` | 1,500 | The max amount of mastery point for Great Aspectual Magic. |
+
+Set in [`config/tensura/ability/ability_config.toml`](../../configs/config-tensura-ability-ability-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `Learning.learningFailCooldown` | 3 | The number of seconds of cooldown when a new ability fails to gain a learning point. |
+| `Learning.learningPoint` | 1 | The base value of how many learning points the player gains when learning an ability. |
+| `Learning.minBonus` | 0 | The min bonus learning points the player can gain when learning an ability. |
+| `Learning.maxBonus` | 4 | The max bonus learning points the player can gain when learning an ability. |
+| `Learning.learningCostMultiplier` | 5 | The multiplier of energy cost compared to normal cost when learning a new ability. |
+| `Learning.learningPointRequirement` | 100 | The number of learning points a new ability need to get to become fully learnt. |
+| `Learning.learningCooldown` | 10 | The number of seconds of cooldown when a new ability gains a learning point. |
+| `Learning.learningFailCooldown` | 3 | The number of seconds of cooldown when a new ability fails to gain a learning point. |
+| `Learning.failingPenaltyChance` | 0.1 | The chance to the failing penalty to apply. |
+| `Learning.failingPenaltyLevel` | 1 | The level of the misfire status effect when failing penalty applies. |
+| `Learning.failingPenaltyDuration` | 200 | The duration in ticks of the misfire status effect when failing penalty applies. |
+| `Learning.failingPenaltyMin` | 1 | The min learning points the player can lose when failing to learn an ability. |
+| `Learning.failingPenaltyMax` | 3 | The max learning points the player can lose when failing to learn an ability. |
+| `battlewillManualList` | "tensura:aura_slash", "tensura:aura_sword", "tensura:earthshatter_kick", "tensura:ogre_sword_guillotine", "tensura:roaring_lion_punch", "tensura:dark_eight_palms", "tensura:elephant_stampede", "tensura:magic_bullet", "tensura:ogre_flame", "tensura:air_flight", "tensura:aura_shield", "tensura:battlewill", "tensura:diamond_path", "tensura:formhide", "tensura:instant_move", "tensura:violent_break" | List of Battlewills that can be randomly obtained from using the Battlewill Manual. |
+
+## Tags
+
+`tensura:skills/aspectual_magic`, `tensura:skills/high_basic_tome_dwarf_trade`, `tensura:skills/rare_tome_burnt_wizard_tower`

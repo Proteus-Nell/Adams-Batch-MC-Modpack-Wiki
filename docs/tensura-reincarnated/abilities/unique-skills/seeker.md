@@ -1,0 +1,67 @@
+# Seeker
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Abilities](../index.md) &rsaquo; [Unique Skills](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Seeker](../../../assets/icons/tensura/skill/seeker.png)
+
+| | |
+|---|---|
+| **Type** | Unique Skill |
+| **ID** | `tensura:seeker` |
+| **Acquisition cost (MP)** | 40,000 |
+| **Activation** | Toggle, Press, Hold |
+
+</div>
+
+> Accelerate thought processing to extreme levels, mastery over magics and manipulate the fundamental laws governing the world to optimize actions and outcomes.
+
+## How it works
+
+- Can be toggled on and off
+- Activated by pressing the skill key
+- Charged or channelled by holding the skill key
+- Has a continuous (per-tick) effect
+- Does something when first learned
+
+## Obtaining
+
+- Listed in the `startingSkills` config option (config/tensura/reincarnation_config.toml): List of Unique skills that can be randomly obtained through reincarnation.
+- Listed in the `secondSkills` config option (config/tensura/reincarnation_config.toml): List of Unique skills that can be randomly obtained through reincarnation as a second Unique - Only applies when the Skill Number on...
+- Listed in the `uniqueSkills` config option (config/tensura/ability/skill/unique_config.toml): List of Unique skills that can be created by Creator.
+- Listed in the `skillTheftBlacklist` config option (config/nightmare/ability/skill/nightmare_ult.toml): Skill IDs that Mammon cannot copy or steal.
+
+## Related
+
+- **Related skills:** [Law Manipulation](../extra-skills/law-manipulation.md)
+- **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Azazel, Lord of Temptation ｣](../../../tr-nightmares/abilities/ultimate-skills/azazel.md)
+
+## Stats (config defaults)
+
+Set in [`config/tensura/ability/skill/unique_config.toml`](../../configs/config-tensura-ability-skill-unique-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `Seeker.mpAcquirement` | 40,000 | Magicule Acquirement Cost. |
+| `Seeker.analyzeRange` | 15 | The range in block of Analyze. |
+| `Seeker.analyzeTime` | 60 | The hold time in tick of Analyze to copy a Magic. |
+| `Seeker.analyzeTimeMastered` | 20 | The hold time in tick of Analyze to copy a Magic. |
+| `Seeker.chantSpeed` | 2 | The chant speed multiplier when toggled. |
+| `Seeker.learningPoint` | 4 | The bonus number of bonus magic-learning point to gain when toggled. |
+| `Seeker.masteryPoint` | 4 | The bonus number of bonus magic-mastery point to gain when toggled. |
+
+Set in [`config/tensura/ability/ability_config.toml`](../../configs/config-tensura-ability-ability-config.md).
+
+| Option | Default | Description |
+|---|---|---|
+| `Mastery.masteryActivateTime` | 10 | How many time the user need to activate some passive abilities (tick/on attack) to gain a mastery point for holding abilities. |
+| `Mastery.masteryPoint` | 1 | The base value of how many mastery points the player gains when using an ability - Only applies for new players when changed cus this is an attribute. |
+| `Mastery.masteryHitMultiplier` | 2 | The multiplier of mastery point the player gains when the ability hit a target. |
+| `Mastery.masteryKillMultiplier` | 2 | The multiplier of mastery point the player gains when the ability kills a target. |
+| `Mastery.masteryHoldTick` | 60 | How long in tick the user need to hold down an ability to gain a mastery point for holding abilities. |
+| `Mastery.masteryActivateTime` | 10 | How many time the user need to activate some passive abilities (tick/on attack) to gain a mastery point for holding abilities. |
+
+## Tags
+
+`tensura:skills/unique_skills`

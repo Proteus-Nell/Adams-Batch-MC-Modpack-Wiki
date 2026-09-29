@@ -1,0 +1,36 @@
+# Mithril Bone Golem
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Items](../index.md) &rsaquo; [Miscellaneous](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Mithril Bone Golem](../../../assets/icons/tensura/item/mithril_bone_golem.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:mithril_bone_golem` |
+| **Category** | Miscellaneous |
+| **Rarity** | Epic |
+| **Fire resistant** | Yes |
+
+</div>
+
+## Obtaining
+
+### Recipes
+
+**Crafting (shaped)** &rarr; ![](../../../assets/icons/tensura/item/mithril_bone_golem.png) [Mithril Bone Golem](mithril-bone-golem.md)
+
+<div class="recipe" markdown>
+
+| | | |
+|---|---|---|
+| ![](../../../assets/icons/tensura/item/pure_magisteel_ingot.png) [Pure Magisteel Ingot](../materials/pure-magisteel-ingot.md) | ![](../../../assets/icons/tensura/item/mithril_helmet.png) [Mithril Helmet](../armor/mithril-helmet.md) | ![](../../../assets/icons/tensura/item/pure_magisteel_ingot.png) [Pure Magisteel Ingot](../materials/pure-magisteel-ingot.md) |
+| ![](../../../assets/icons/tensura/item/mithril_chestplate.png) [Mithril Chestplate](../armor/mithril-chestplate.md) | ![](../../../assets/icons/tensura/item/daemon_core.png) [Daemon Core](../materials/daemon-core.md) | ![](../../../assets/icons/tensura/item/mithril_leggings.png) [Mithril Leggings](../armor/mithril-leggings.md) |
+| ![](../../../assets/icons/tensura/item/pure_magisteel_ingot.png) [Pure Magisteel Ingot](../materials/pure-magisteel-ingot.md) | ![](../../../assets/icons/tensura/item/mithril_boots.png) [Mithril Boots](../armor/mithril-boots.md) | ![](../../../assets/icons/tensura/item/pure_magisteel_ingot.png) [Pure Magisteel Ingot](../materials/pure-magisteel-ingot.md) |
+
+</div>
+
+## Tags
+
+`tensura:bone_golems`

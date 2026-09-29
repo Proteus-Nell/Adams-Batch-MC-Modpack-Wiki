@@ -1,0 +1,19 @@
+# Kamui Biome
+
+<small>[Tensura: Mysticism](../index.md) &rsaquo; [Biomes](index.md)</small>
+
+<div class="infobox" markdown>
+
+| | |
+|---|---|
+| **ID** | `mysticism:kamui_biome` |
+| **Temperature** | 0.6 |
+| **Downfall** | 0.0 |
+| **Precipitation** | No |
+| **Sky Color** | `#070D14` |
+| **Fog Color** | `#070D14` |
+| **Water Color** | `#000000` |
+
+</div>
+
+Found in: [Kamui Dimension](../dimensions/kamui-dimension.md)

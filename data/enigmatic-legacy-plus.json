@@ -1,0 +1,5384 @@
+{
+ "mod": {
+  "slug": "enigmatic-legacy-plus",
+  "name": "EnigmaticLegacy+",
+  "jar": "enigmaticlegacyplus-",
+  "modids": [
+   "enigmaticlegacyplus"
+  ],
+  "family": "enigmatic",
+  "group": "Items & Equipment",
+  "blurb": "Mysterious rings, amulets, spellstones, scrolls and cursed items, with the Seven Curses ring at its heart.",
+  "default_config_file": "serverconfig/enigmaticlegacyplus-server.toml",
+  "meta": {
+   "displayName": "EnigmaticLegacy+",
+   "version": "1.21.1-1.1.1",
+   "authors": "Aizistral, Auviotre",
+   "credits": null,
+   "description": "An unofficial 1.21 ver porting of Enigmatic Legacy.\nThis mod is designed to provide tools that will aid you in exploring seemingly endless reaches of Minecraft's worlds. As well as new resources, powerful gear and ancient relics - to reward you for doing so. Despite revolving around themes of arcane and mystery, Enigmatic Legacy doesn't stray too far away from what vanilla has to offer, instead attempting to expand upon its mechanics and fill in the holes left open.",
+   "displayURL": null,
+   "issueTrackerURL": null,
+   "logoFile": null,
+   "license": "Enigmatic Legacy License",
+   "depends": [
+    {
+     "modid": "curios",
+     "type": "required",
+     "version": "[1.21.1-9.5.0,)"
+    },
+    {
+     "modid": "patchouli",
+     "type": "required",
+     "version": "[1.21-88,)"
+    },
+    {
+     "modid": "caelus",
+     "type": "required",
+     "version": "[1.21.1-7.0.0,)"
+    }
+   ],
+   "jar": "enigmaticlegacyplus-1.21.1-1.1.1.jar"
+  }
+ },
+ "categories": {
+  "items": [
+   {
+    "id": "enigmaticlegacyplus:abyssal_heart",
+    "path": "abyssal_heart",
+    "name": "Heart of the Abyss",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.AbyssalHeart",
+    "category": "Materials",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "It is alive. It is watching. Never before have",
+     "this realm shuddered beneath the gaze of",
+     "something so alien, so unholy, so unknowable",
+     "and madness-inducing."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:abyssal_items"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/abyssal_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:angel_blessing",
+    "path": "angel_blessing",
+    "name": "Angel's Blessing",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.AngelBlessing",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Accelerates you in the direction of your sight.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Immunity to fall and collision damage.",
+     "- 40% Chance to deflect incoming projectile.",
+     "- Your own projectiles are greatly accelerated.",
+     "- Active ability can be triggered by pressing jump",
+     "key while in mid-air.",
+     "- You are vulnerable to Withering and Void Damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/angel_blessing.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:animal_guidebook",
+    "path": "animal_guidebook",
+    "name": "Guide to Animal Companionship",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.AnimalGuidebook",
+    "category": "Books",
+    "props": {},
+    "tooltips": [
+     "When carried in inventory:",
+     "- Your attacks can't deal damage to animals.",
+     "- Hobgoblins around you are rendered passive.",
+     "Alteration of the ?:",
+     "Second Curse",
+     "- Tamable animals stay neutral towards you."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/animal_guidebook.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:annihilating_sword",
+    "path": "annihilating_sword",
+    "name": "Decision of Annihilation",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.AnnihilatingSword",
+    "category": "Tools",
+    "props": {
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Accumulates Annihilation Point when attacking targets.",
+     "The amount accumulated is determined by damage dealt and target health.",
+     "When Annihilation Point reaches a certain threshold, there is a chance to deal massive damage.",
+     "When the other hand is empty:",
+     "- Can block.",
+     "- And gain charge when timed correctly.",
+     "- Damage dealt: ?",
+     "- Right-click to consume charge and hold to deal more damage.",
+     "Current charge level: ?",
+     "- Charge damage multiplier: ?",
+     "Abyss Boost:"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:abyssal_items",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/vanishing",
+     "minecraft:swords"
+    ],
+    "icon_url": null
+   },
+   {
+    "id": "enigmaticlegacyplus:antique_bag",
+    "path": "antique_bag",
+    "name": "Antique Book Bag",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.AntiqueBag",
+    "category": "Legacy",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "A container similar to a Ender Chest.",
+     "The books stored in will be considered",
+     "as being in the inventory.",
+     "The item still works in the Ender Chest."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/antique_bag.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ascension_amulet",
+    "path": "ascension_amulet",
+    "name": "Amulet of Ascension",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.AscensionAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "curios:amulet"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ascension_amulet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:astral_dust",
+    "path": "astral_dust",
+    "name": "Astral Dust",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseItem",
+    "category": "Generic",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:dusts"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/astral_dust.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:astral_fruit",
+    "path": "astral_fruit",
+    "name": "Celestial Fruit",
+    "class": "auviotre.enigmatic.legacy.contents.item.food.AstralFruit",
+    "category": "Food",
+    "props": {
+     "food": true,
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Consume to obtain +1 Ring Slot permanently."
+    ],
+    "tags": [
+     "c:foods/fruit"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/astral_fruit.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:avarice_scroll",
+    "path": "avarice_scroll",
+    "name": "Pact of Infinite Avarice",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.AvariceScroll",
+    "category": "Scrolls",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "+1 Fortune Level",
+     "Renders Piglins neutral towards you, despite",
+     "the Second Curse. Bartering with them is",
+     "around 100% more beneficial.",
+     "Provides 15% Chance of 1 Emerald dropping",
+     "from any slain mob.",
+     "Villager trades have 35% Discount."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/avarice_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:berserk_emblem",
+    "path": "berserk_emblem",
+    "name": "Emblem of Bloodstained Valor",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.BerserkEmblem",
+    "category": "Charms",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "+1.0% Attack Damage",
+     "+1.0% Attack Speed",
+     "+0.5% Movement Speed",
+     "+0.5% Damage Resistance",
+     "These traits are multiplied by how many percents",
+     "of your health pool you're currently missing.",
+     "When any damage received takes Blazing Might away,",
+     "the damage will be reduced according to the amplifier.",
+     "Current traits:",
+     "+? Attack Damage",
+     "+? Attack Speed",
+     "+? Movement Speed",
+     "+? Damage Resistance"
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/berserk_emblem.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:blank_scroll",
+    "path": "blank_scroll",
+    "name": "Blank Scroll",
+    "class": null,
+    "category": "Books & Scrolls",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/blank_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:blazing_core",
+    "path": "blazing_core",
+    "name": "Blazing Core",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.BlazingCore",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Immunity to fire.",
+     "- Temporary immunity to lava.",
+     "- Burns those who attack you in melee.",
+     "- Heavily improved visibility in lava.",
+     "- Any status effects applied to you tick",
+     "down twice as fast, except Molten Heart.",
+     "- Molten Heart lasts twice as long.",
+     "- You are vulnerable to underwater creatures.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/blazing_core.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:bless_amplifier",
+    "path": "bless_amplifier",
+    "name": "Tome of Divination",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.BlessAmplifier",
+    "category": "Books",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Hold and Right-Click on any enchanted item in inventory",
+     "to upgrade the enchantments on the item.",
+     "Can break the level limit."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/bless_amplifier.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:bless_potion",
+    "path": "bless_potion",
+    "name": "Potion of Purification",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.BlessPotion",
+    "category": "Potions",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Remove all negative effects and",
+     "provide Pure Resistance effect based on the amount removed."
+    ],
+    "tags": [
+     "c:drinks/magic",
+     "c:potions/bottle"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/bless_potion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:bless_stone",
+    "path": "bless_stone",
+    "name": "Holy Stone",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.BlessStone",
+    "category": "Misc",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Take this stone to seek death,",
+     "hen the Ring of the Seven Curses will",
+     "transform into the Ring of Redemption.",
+     "This cannot be undone.",
+     "Level of Blessing: ?",
+     "Only those who bear the Seven Curses",
+     "hold power to obtain and use this item."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/bless_stone.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:chaos_elytra",
+    "path": "chaos_elytra",
+    "name": "The Arrogance of Chaos",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.ChaosElytra",
+    "category": "Tools",
+    "props": {
+     "durability": 3248,
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Hold jump key while flying to continuously",
+     "accelerate forward. Elytra is damaged",
+     "faster when accelerating.",
+     "Reduce ? of damage from back.",
+     "When accelerating vertically towards",
+     "the ground, it will cause range damage.",
+     "Abyss Boost:",
+     "- Improves all aspects of this item."
+    ],
+    "tags": [
+     "curios:back",
+     "enigmaticlegacyplus:abyssal_items",
+     "enigmaticlegacyplus:armor_check_exclusions",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/equippable"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/chaos_elytra.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cosmic_heart",
+    "path": "cosmic_heart",
+    "name": "Heart of the Cosmos",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cosmic_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cosmic_scroll",
+    "path": "cosmic_scroll",
+    "name": "The Architect's Favor",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.CosmicScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "You deal +100% Damage to players who are not",
+     "chosen, and your melee attacks set them ablaze.",
+     "When you receive lethal damage, your health is",
+     "restored to 50% and powerful buffs are applied.",
+     "This ability has 600 seconds cooldown.",
+     "Remaining Cooldown: 0s"
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cosmic_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:creation_heart",
+    "path": "creation_heart",
+    "name": "Heart of Creation",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.CreationHeart",
+    "category": "Spellstones",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Rains down devastating Wither Skulls.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Immunity to most debuffs.",
+     "- Grants you an ability to fly.",
+     "- Compensates mining speed penalty when flying.",
+     "- You are immortal while having it equipped",
+     "or in your inventory.",
+     "- Immunity to suffocation, falling, collision,",
+     "pressure, hunger, void, pricking, fire and",
+     "lava damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "curios:spellstone"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/creation_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:curse_transposer",
+    "path": "curse_transposer",
+    "name": "Tome of Devoured Malignancy",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.CurseTransposer",
+    "category": "Books",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Hold and Right-Click on any enchanted item in inventory",
+     "to transfer all curses from item to the tome.",
+     "The tome will be transformed into Enchanted Book.",
+     "to transfer all enchantments from item to the tome."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/curse_transposer.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cursed_ring",
+    "path": "cursed_ring",
+    "name": "Ring of the Seven Curses",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.CursedRing",
+    "category": "Rings",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Seven curses will befall whoever bears it:",
+     "- You receive double damage from ANY source.",
+     "- Neutral creatures are aggressive towards you.",
+     "- Armor is 30% less effective.",
+     "- Monsters receive 40% less damage from you.",
+     "- When on fire, you burn forever.",
+     "- Every death tears your soul apart.",
+     "- You suffer from incurable insomnia.",
+     "Seven blessings will reward those who withstand:",
+     "- +1 Looting Level",
+     "- +1 Fortune Level",
+     "- +300% Experience dropped.",
+     "- +10 Enchanting Power in Enchanting Table.",
+     "- Unique drops from some creatures.",
+     "- Functionality of Ring of Ender.",
+     "- You can create and use unique relics.",
+     "Once forged by antediluvian god, it beckons",
+     "mortals and higher beings alike with promise",
+     "of untold riches and immeasurable might...",
+     "Be it arrogance or ignorance that leads them",
+     "to believe they can harness ring's power,",
+     "both are paid for in suffering the extent of",
+     "which defies description.",
+     "Once worn, it becomes a part of you.",
+     "With the power of god, you can unequip it.",
+     "This ring will persist with you forever."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cursed_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cursed_scroll",
+    "path": "cursed_scroll",
+    "name": "Scroll of a Thousand Curses",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.CursedScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "+4% Attack Damage",
+     "+4% Mining Speed",
+     "+4% Health Regeneration",
+     "These traits are multiplied by total amount of",
+     "curses that all items of your equipment bear.",
+     "Current traits:",
+     "+? Attack Damage",
+     "+? Mining Speed",
+     "+? Health Regeneration"
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cursed_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cursed_stone",
+    "path": "cursed_stone",
+    "name": "Unholy Stone",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.CursedStone",
+    "category": "Misc",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "If you die in the Nether, in the middle of",
+     "sufficiently large lava lake with this stone",
+     "in your inventory, Ring of the Seven Curses",
+     "will be permanently destroyed, along with",
+     "one of your Soul Crystals.",
+     "This cannot be undone."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cursed_stone.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:cursed_xp_scroll",
+    "path": "cursed_xp_scroll",
+    "name": "Scroll of Ignorance Curse",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.CursedXpScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Deactivated",
+     "Absorption",
+     "Extraction",
+     "Can store limitless amount of experience.",
+     "The scroll interaction is same as Ageless Wisdom.",
+     "Improve your abilities based on experience level,",
+     "But the EXP gained from experience orb will decrease,",
+     "Lose all experiences after death.",
+     "While active, collects experience orbs",
+     "within ? blocks radius.",
+     "Mode: ?",
+     "Stored Experience:",
+     "? units, or ? levels",
+     "Current Keybind: ?",
+     "Arcane Scroll Active Ability",
+     "Press Shift+Right-Click while holding it",
+     "to toggle it active.",
+     "Press Right-Click to switch modes.",
+     "You can also use related keybind.",
+     "In Absorption mode, it will consume your",
+     "experience, while carried in scroll slot.",
+     "In Extraction mode, this behavior is",
+     "reversed, and the scroll transfers all",
+     "stored experience back to you."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cursed_xp_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:darkest_scroll",
+    "path": "darkest_scroll",
+    "name": "Darkest Scroll",
+    "class": null,
+    "category": "Books & Scrolls",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/darkest_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:desolation_ring",
+    "path": "desolation_ring",
+    "name": "The Burden of Desolation",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.DesolationRing",
+    "category": "Rings",
+    "props": {
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Prevents any dropping from slain mob.",
+     "Neutral creatures will not spawn in your proximity.",
+     "Enemies will not target you actively.",
+     "Unprovoked mobs around you will die for you.",
+     "Abyss Boost:",
+     "- The first attack against an unprovoked creature applies an execution effect."
+    ],
+    "tags": [
+     "curios:ring",
+     "enigmaticlegacyplus:abyssal_items"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/desolation_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:dislocation_ring",
+    "path": "dislocation_ring",
+    "name": "Dislocation Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.DislocationRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [
+     "Instantly collects any dropped items",
+     "within ? blocks radius.",
+     "This can be disabled by holding Shift.",
+     "Attracts items within ? blocks radius."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/dislocation_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:dragon_breath_bow",
+    "path": "dragon_breath_bow",
+    "name": "Dragon Breath Bow",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.DragonBreathBow",
+    "category": "Tools",
+    "props": {
+     "durability": 1574,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Current Effects:",
+     "Right-click with a Splash Potion on",
+     "this bow to absorb the potion effect."
+    ],
+    "tags": [
+     "c:tools/bow",
+     "minecraft:enchantable/bow",
+     "minecraft:enchantable/durability"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/dragon_breath_bow.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:earth_heart",
+    "path": "earth_heart",
+    "name": "Heart of the Earth",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.EarthHeart",
+    "category": "Materials",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Slightly tainted by cursed one's presence."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/earth_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:earth_heart_fragment",
+    "path": "earth_heart_fragment",
+    "name": "Fragment of the Earth",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.EarthHeart.Fragment",
+    "category": "Materials",
+    "props": {
+     "rarity": "Uncommon",
+     "stack": 16
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/earth_heart_fragment.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:earth_promise",
+    "path": "earth_promise",
+    "name": "Promise of the Earth",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.EarthPromise",
+    "category": "Rings",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Alteration of the ?:",
+     "First Curse",
+     "- Reduce the effect of the First Curse by 25%.",
+     "When receiving damage worth 80% of your",
+     "health, block the attack and cooldown for ? sec."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/earth_promise.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:eldritch_amulet",
+    "path": "eldritch_amulet",
+    "name": "The Testament of Contempt",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EldritchAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "When worn, your inventory persists with you",
+     "after death. Experience and Soul Crystals will",
+     "still be lost.",
+     "Creatures beneath your gaze will be slowed",
+     "down and weakened.",
+     "Abyss Boost:",
+     "- Deal 80% more damage to creatures with less health than you.",
+     "Name is engraved upon it: ?",
+     "When equipped as Amulet:",
+     "+1 Charm Slot",
+     "+20% Attack Damage",
+     "+15% Lifesteal"
+    ],
+    "tags": [
+     "curios:amulet",
+     "enigmaticlegacyplus:abyssal_items"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/eldritch_amulet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enchanted_astral_fruit",
+    "path": "enchanted_astral_fruit",
+    "name": "Enchanted Celestial Fruit",
+    "class": "auviotre.enigmatic.legacy.contents.item.food.AstralFruit",
+    "category": "Food",
+    "props": {
+     "food": true,
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Consume to obtain +1 Ring Slot permanently."
+    ],
+    "tags": [
+     "c:foods/fruit"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enchanted_astral_fruit.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enchanted_ichor_bottle",
+    "path": "enchanted_ichor_bottle",
+    "name": "Enchanted Nectar of Ichor",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.IchorBottle",
+    "category": "Potions",
+    "props": {
+     "rarity": "Rare",
+     "food": true
+    },
+    "tooltips": [
+     "To contempt the gods, one must know them...",
+     "Consume to obtain +1 Charm Slot permanently."
+    ],
+    "tags": [
+     "c:drinks/magic"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enchanted_ichor_bottle.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enchanter_pearl",
+    "path": "enchanter_pearl",
+    "name": "Enchanter's Pearl",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.EnchanterPearl",
+    "category": "Charms",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "+1 Charm Slot",
+     "You receive greater amount and power of",
+     "enchantments when using Enchanting Table.",
+     "Enchanting has chance to produce both",
+     "curses and treasure enchantments.",
+     "You do not require Lapis Lazuli to enchant."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enchanter_pearl.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enchantment_transposer",
+    "path": "enchantment_transposer",
+    "name": "Tome of Hungering Knowledge",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.EnchantmentTransposer",
+    "category": "Books",
+    "props": {},
+    "tooltips": [
+     "Hold and Right-Click on any enchanted item in inventory",
+     "to transfer all enchantments from item to the tome.",
+     "The tome will be transformed into Enchanted Book."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enchantment_transposer.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ender_ring",
+    "path": "ender_ring",
+    "name": "Ring of Ender",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.EnderRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [
+     "Allows you to remotely access your",
+     "Ender Chest, via inventory or keybind.",
+     "Current Keybind: ?",
+     "Ring of Ender"
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ender_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ender_rod",
+    "path": "ender_rod",
+    "name": "Ender Rod",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseItem",
+    "category": "Generic",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:rods"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ender_rod.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ender_slayer",
+    "path": "ender_slayer",
+    "name": "The Ender Slayer",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.EnderSlayer",
+    "category": "Tools",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "+150% Damage against dwellers of The End.",
+     "In The End, fully charged attacks deal",
+     "colossal damage to Endermen, and all drops",
+     "from them are transformed into experience.",
+     "Temporarily disables teleportation abilities of",
+     "Shulkers and Endermen.",
+     "Temporarily disables active ability of Eye of",
+     "Nebula, Non-Euclidean Cube and ability to use",
+     "Ender Pearls, Potions of Recall and Twisted",
+     "Mirror for attacked players.",
+     "To exterminate them all...",
+     "Is such the only way?"
+    ],
+    "tags": [
+     "minecraft:swords"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ender_slayer.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_aqua",
+    "path": "enigmatic_amulet_aqua",
+    "name": "Enigmatic Amulet Aqua",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_aqua.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_black",
+    "path": "enigmatic_amulet_black",
+    "name": "Enigmatic Amulet Black",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_black.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_blue",
+    "path": "enigmatic_amulet_blue",
+    "name": "Enigmatic Amulet Blue",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_blue.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_green",
+    "path": "enigmatic_amulet_green",
+    "name": "Enigmatic Amulet Green",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_green.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_magenta",
+    "path": "enigmatic_amulet_magenta",
+    "name": "Enigmatic Amulet Magenta",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_magenta.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_red",
+    "path": "enigmatic_amulet_red",
+    "name": "Enigmatic Amulet Red",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_red.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_amulet_violet",
+    "path": "enigmatic_amulet_violet",
+    "name": "Enigmatic Amulet Violet",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.EnigmaticAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "It appears oddly reminiscent of something, yet",
+     "you still remain unable to recall what exactly.",
+     "Time slowly washes away last traces of those",
+     "lost memories...",
+     "Name is engraved upon it: ?"
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enigmatic_amulets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_amulet_violet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_eye",
+    "path": "enigmatic_eye",
+    "name": "Enigmatic Eye",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.EnigmaticEye",
+    "category": "Legacy",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "It is connected to location beyond your space and",
+     "time. You can awaken the eye, if you wish to risk",
+     "drawing attention of someone... or something.",
+     "Now that you have drawn his attention, whoever uses",
+     "the eye to observe you and the world does not seem to",
+     "need it in order to reach you. Whether he is incapable",
+     "or simply unwilling to establish any contact beyond",
+     "mental remains a mystery."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_eye.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:enigmatic_eye_active",
+    "path": "enigmatic_eye_active",
+    "name": "Inscrutable Eye",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_eye_active.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:escape_scroll",
+    "path": "escape_scroll",
+    "name": "Scroll of Postmortal Recall",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.EscapeScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "When you die, returns your items to your bed or",
+     "Respawn Anchor location, or to the Center of",
+     "The Overworld if you don't have one - but itself",
+     "remains at the location of your death."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/escape_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ethereal_forging_charm",
+    "path": "ethereal_forging_charm",
+    "name": "Ethereal Forging Charm",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.EtherealForgingCharm",
+    "category": "Charms",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Greatly reduce the durability consumption of items in inventory",
+     "and improves the attributes of the forging results.",
+     "Further enhances the effects of this item.",
+     "Enhancement: Increase the probability of reducing."
+    ],
+    "tags": [
+     "curios:charm",
+     "enigmaticlegacyplus:enchantable/etheric_resonance"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ethereal_forging_charm_active",
+    "path": "ethereal_forging_charm_active",
+    "name": "Starlight Forging Charm",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm_active.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_boots",
+    "path": "etherium_boots",
+    "name": "Etherium Boots",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumArmor",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Invisible while worn.",
+     "Enhancement: Get additional resistance when equipped in set."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:foot_armor"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_boots.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_chestplate",
+    "path": "etherium_chestplate",
+    "name": "Etherium Cuirass",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumArmor",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Invisible while worn.",
+     "Enhancement: Get additional resistance when equipped in set."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:chest_armor"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_chestplate.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_core",
+    "path": "etherium_core",
+    "name": "Etherium Core",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.EtheriumCore",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Provides Blessing of Starlight effect based on Etherium Threshold.",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- ? Armor, ? Toughness",
+     "- +20% Armor, +40% Toughness",
+     "- ? Knockback Resistance",
+     "- +? Etherium Shield Threshold",
+     "- Convert ? of the damage received into",
+     "an increase for the next attack.",
+     "- Immunity to pressure, pricking and explosion damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "curios:spellstone"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_core.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_core_active",
+    "path": "etherium_core_active",
+    "name": "Starlight Core",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_core_active.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_hammer",
+    "path": "etherium_hammer",
+    "name": "Etherium Sledgehammer",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumHammer",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Breaks blocks in 3x3x1 area.",
+     "Hold Shift to suppress this effect.",
+     "Shift and Right-click to toggle this effect.",
+     "Enhancement: Can cause area damage."
+    ],
+    "tags": [
+     "c:tools/mining_tool",
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:enchantable/crossbow",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/mining",
+     "minecraft:enchantable/mining_loot",
+     "minecraft:enchantable/weapon"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_hammer.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_helmet",
+    "path": "etherium_helmet",
+    "name": "Etherium Helmet",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumArmor",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Invisible while worn.",
+     "Enhancement: Get additional resistance when equipped in set."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:head_armor"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_helmet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_ingot",
+    "path": "etherium_ingot",
+    "name": "Etherium Ingot",
+    "class": null,
+    "category": "Materials",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:ingots"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_ingot.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_leggings",
+    "path": "etherium_leggings",
+    "name": "Etherium Greaves",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumArmor",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Invisible while worn.",
+     "Enhancement: Get additional resistance when equipped in set."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:leg_armor"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_leggings.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_nugget",
+    "path": "etherium_nugget",
+    "name": "Etherium Nugget",
+    "class": null,
+    "category": "Materials",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:nuggets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_nugget.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_scythe",
+    "path": "etherium_scythe",
+    "name": "Etherium Scythe",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumScythe",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Breaks blocks in 3x3x3 area.",
+     "Hold Shift to suppress this effect.",
+     "Enhancement: Capable of automatic range harvesting."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:enchantable/sharp_weapon",
+     "minecraft:hoes"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_scythe.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_sword",
+    "path": "etherium_sword",
+    "name": "Etherium Broadsword",
+    "class": "auviotre.enigmatic.legacy.contents.item.etherium.EtheriumSword",
+    "category": "Etherium",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "When held, provides ? Chance to avoid damage.",
+     "Enhancement: Right click to parry."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:swords"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_sword.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:evil_essence",
+    "path": "evil_essence",
+    "name": "Nefarious Essence",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.EvilEssence",
+    "category": "Materials",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/evil_essence.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:evil_ingot",
+    "path": "evil_ingot",
+    "name": "Nefarious Ingot",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseCursedItem",
+    "category": "Generic",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [
+     "c:ingots"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/evil_ingot.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:execution_axe",
+    "path": "execution_axe",
+    "name": "Axe of Executioner",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.ExecutionAxe",
+    "category": "Tools",
+    "props": {
+     "rarity": "Uncommon",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Has a chance to behead slain monsters.",
+     "Each level of Looting applied adds +5%",
+     "to the overall beheading chance.",
+     "+10% Beheading Chance"
+    ],
+    "tags": [
+     "minecraft:swords"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/execution_axe.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:explorer_scroll",
+    "path": "explorer_scroll",
+    "name": "Scroll of Explorer",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.ExplorerScroll",
+    "category": "Scrolls",
+    "props": {},
+    "tooltips": [
+     "Can temporarily highlight nearby treasures.",
+     "Current Keybind: ?",
+     "Arcane Scroll Active Ability"
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/explorer_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:exterminato",
+    "path": "exterminato",
+    "name": "Exterminato",
+    "class": "auviotre.enigmatic.legacy.contents.item.food.Exterminato",
+    "category": "Food",
+    "props": {
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/exterminato.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:extradimensional_eye",
+    "path": "extradimensional_eye",
+    "name": "Extradimensional Eye",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.ExtradimensionalEye",
+    "category": "Misc",
+    "props": {},
+    "tooltips": [
+     "Bind to desired location by pressing",
+     "Shift+Right-Click while standing there.",
+     "You can then Right-Click with it on a",
+     "living creature to teleport it to that",
+     "location, as long as it resides in the",
+     "same dimension.",
+     "Bound Location:",
+     "Position: [?, ?, ?]",
+     "Dimension: ?"
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/extradimensional_eye.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:eye_of_nebula",
+    "path": "eye_of_nebula",
+    "name": "Eye of the Nebula",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.EyeOfNebula",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Teleports you behind creature you are looking at.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- 40% Magic Damage Increase",
+     "- 65% Magic Damage Resistance",
+     "- 15% Chance to teleport away from any attack.",
+     "- After using an active ability, your next attack is",
+     "empowered and deals +150% Damage.",
+     "- Immunity to damage from using Ender Pearls.",
+     "- When in water, you are vulnerable to ANY damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/eye_of_nebula.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:fabulous_scroll",
+    "path": "fabulous_scroll",
+    "name": "Grace of the Creator",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.FabulousScroll",
+    "category": "Scrolls",
+    "props": {},
+    "tooltips": [
+     "Provides you an ability to freely fly, at the",
+     "cost of quickly consuming your experience.",
+     "Experience consumption is completely negated",
+     "within the range of an active Beacon.",
+     "Compensates mining speed penalty when flying.",
+     "Provides you an ability to fly within the range",
+     "of an active Beacon, at the cost of slowly",
+     "consuming your experience."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/fabulous_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:forbidden_fruit",
+    "path": "forbidden_fruit",
+    "name": "The Forbidden Fruit",
+    "class": "auviotre.enigmatic.legacy.contents.item.food.ForbiddenFruit",
+    "category": "Food",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare",
+     "food": true
+    },
+    "tooltips": [
+     "After consuming the fruit you shall never",
+     "experience hunger again, but any form of",
+     "regeneration will have 80% weaker effect.",
+     "Knowledge is the greatest gift."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/forbidden_fruit.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:forbidden_juice",
+    "path": "forbidden_juice",
+    "name": "The Forbidden Juice",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.ForbiddenJuice",
+    "category": "Potions",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare",
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/forbidden_juice.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:forger_crystal",
+    "path": "forger_crystal",
+    "name": "Flawless Forging Gem",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.ForgerCrystal",
+    "category": "Charms",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "+1 Charm Slot",
+     "Forging does not damage the anvil.",
+     "Half the experience required for forging.",
+     "Can use an undamaged identical tool to create an unbreakable item.",
+     "Unbreakable tools can be used as Totems of Undying."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/forger_crystal.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:forger_gem",
+    "path": "forger_gem",
+    "name": "The Forger's Gem",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.ForgerGem",
+    "category": "Charms",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "+1 Charm Slot",
+     "Half the experience required for forging",
+     "and make your anvil more durable.",
+     "Also can make the result more durable."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/forger_gem.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:forgotten_ice",
+    "path": "forgotten_ice",
+    "name": "Forgotten Ice Crystal",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.ForgottenIce",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Freeze the surrounding Mobs and deal massive damage.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Freeze immunity and Frost Walker.",
+     "- Freeze those those who attack you in melee.",
+     "- Deal more damage to frozen targets.",
+     "- Once frozen to a certain degree, the target becomes difficult to move.",
+     "- 30% Projectile & Sonic Damage Resistance.",
+     "- You are vulnerable to Fire Damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/forgotten_ice.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:golden_ring",
+    "path": "golden_ring",
+    "name": "Exquisite Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.GoldenRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/golden_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:golem_heart",
+    "path": "golem_heart",
+    "name": "Heart of the Golem",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.GolemHeart",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- +? Armor Points",
+     "- If nothing is equipped in armor slots, instead",
+     "gain +? Armor Points, +? Armor Toughness,",
+     "and +40% Explosion Damage Resistance.",
+     "- +25% Melee Damage Resistance",
+     "- +? Knockback Resistance",
+     "- Immunity to pressure and pricking damage.",
+     "- You are vulnerable to Magic Damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/golem_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:guardian_heart",
+    "path": "guardian_heart",
+    "name": "Heart of the Guardian",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.GuardianHeart",
+    "category": "Misc",
+    "props": {
+     "rarity": "Uncommon",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "While in inventory, Guardians within ? blocks",
+     "from you are rendered neutral towards you",
+     "and will target nearby monsters.",
+     "While on hotbar, casting your sight upon the",
+     "monster within ? blocks from you causes it to",
+     "become temporarily enraged, gaining greater",
+     "strength and switching target to other closest",
+     "monster within ? blocks from it.",
+     "Other monsters within this radius will instantly",
+     "prioritize attacking enraged monster.",
+     "Some monsters are immune to being enraged.",
+     "This ability has 10 seconds cooldown."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/guardian_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:heaven_scroll",
+    "path": "heaven_scroll",
+    "name": "Gift of the Heaven",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.HeavenScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Provides you an ability to fly within the range",
+     "of an active Beacon, at the cost of slowly",
+     "consuming your experience.",
+     "Compensates mining speed penalty when flying."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/heaven_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:hell_blade_charm",
+    "path": "hell_blade_charm",
+    "name": "Charm of Hell Blade",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.HellBladeCharm",
+    "category": "Charms",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Currently can't unenquip.",
+     "When your damage reaches ? of the target's health,",
+     "causing significant additional damage and heal yourself."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/hell_blade_charm.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:hunter_guidebook",
+    "path": "hunter_guidebook",
+    "name": "Guide to Feral Hunt",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.HunterGuidebook",
+    "category": "Books",
+    "props": {},
+    "tooltips": [
+     "When carried in inventory:",
+     "- All damage your pets receive within ? blocks",
+     "from you is redirected upon you."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/hunter_guidebook.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:hunter_scroll",
+    "path": "hunter_scroll",
+    "name": "Scroll of Hunter",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.HunterScroll",
+    "category": "Scrolls",
+    "props": {},
+    "tooltips": [
+     "Provide damage reduction based on the",
+     "number and type of monsters killed."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/hunter_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_bottle",
+    "path": "ichor_bottle",
+    "name": "Nectar of Ichor",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.IchorBottle",
+    "category": "Potions",
+    "props": {
+     "rarity": "Rare",
+     "food": true
+    },
+    "tooltips": [
+     "To contempt the gods, one must know them...",
+     "Consume to obtain +1 Charm Slot permanently."
+    ],
+    "tags": [
+     "c:drinks/magic"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ichor_bottle.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_curse_bottle",
+    "path": "ichor_curse_bottle",
+    "name": "Bottle of Penance",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.IchorCurseBottle",
+    "category": "Potions",
+    "props": {
+     "rarity": "Rare",
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [
+     "c:drinks/magic"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ichor_curse_bottle.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_droplet",
+    "path": "ichor_droplet",
+    "name": "Ichor Droplet",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseItem",
+    "category": "Generic",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ichor_droplet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_spear",
+    "path": "ichor_spear",
+    "name": "Ichor Spear",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.IchorSpear",
+    "category": "Tools",
+    "props": {},
+    "tooltips": [
+     "A one-time corruption throwing spear",
+     "Not consuming"
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ichor_spear.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichoroot",
+    "path": "ichoroot",
+    "name": "Ichoroot",
+    "class": "auviotre.enigmatic.legacy.contents.item.food.Ichoroot",
+    "category": "Food",
+    "props": {
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [
+     "c:foods/vegetable"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ichoroot.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:illusion_lantern",
+    "path": "illusion_lantern",
+    "name": "Soul Lantern of Illusion",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.IllusionLantern",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Generate soul fireball to automatically attack surrounding creatures",
+     "- The damage suffered will be shared among the surrounding creatures.",
+     "- Ordinary Undead will not target you actively.",
+     "- Significantly reduced defence-bypassing damage.",
+     "- Surrounding plant blocks will automatically disappear.",
+     "- When the brightness is too high, suffering curse damage.",
+     "- Minor increase in non magical damage received.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/illusion_lantern.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:infernal_cinder",
+    "path": "infernal_cinder",
+    "name": "Infernal Cinder",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseItem",
+    "category": "Generic",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:dusts",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/vanishing"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infernal_cinder.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:infernal_ring",
+    "path": "infernal_ring",
+    "name": "Ring of Quenching",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.InfernalRing",
+    "category": "Rings",
+    "props": {
+     "rarity": "Uncommon",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "When the Blazing Might effect is removed,",
+     "part of the effect will be retained.",
+     "Gain 60% damage reduction when at full health."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infernal_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:infernal_shield",
+    "path": "infernal_shield",
+    "name": "Bulwark of Blazing Pride",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.InfernalShield",
+    "category": "Tools",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "When equipped:",
+     "- Extinguishes you when on fire.",
+     "When blocking:",
+     "- Can block attacks immediately after being raised.",
+     "- Can block Piercing-enchanted arrows.",
+     "- Cannot be disabled by weapons normally effective against shields.",
+     "- Burns attackers when blocking melee damage.",
+     "- Successful blocks grant increasing Blazing Might effect.",
+     "- Enemy attacks from behind deal 50% more damage."
+    ],
+    "tags": [
+     "c:tools/shield",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/vanishing"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infernal_shield.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:infernal_spear",
+    "path": "infernal_spear",
+    "name": "Infernal Blazing Spear",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.InfernalSpear",
+    "category": "Tools",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "When held, increase the max level of the Blazing Might effect.",
+     "When the effect level of Blazing Might reaches its maximum,",
+     "Right-click to release a piercing attack and clear the effect."
+    ],
+    "tags": [
+     "minecraft:enchantable/fire_aspect",
+     "minecraft:enchantable/sharp_weapon"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infernal_spear.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:infinimeal",
+    "path": "infinimeal",
+    "name": "Essence of Raging Life",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.Infinimeal",
+    "category": "Misc",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Functions as infinite Bone Meal.",
+     "Effective on Cactus, Chorus Plants,",
+     "Nether Wart, Sugar Cane and Vines."
+    ],
+    "tags": [
+     "c:fertilizers"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infinimeal.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:iron_ring",
+    "path": "iron_ring",
+    "name": "Iron Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.IronRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/iron_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:loot_generator",
+    "path": "loot_generator",
+    "name": "The One Box",
+    "class": "auviotre.enigmatic.legacy.contents.item.op.LootGenerator",
+    "category": "Op",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Press Right-Click or Shift+Right-Click to",
+     "cycle back and forth the loot tables list.",
+     "Press Shift+Right-Click on the top of a chest",
+     "to fill it with randomly generated loot from",
+     "selected loot table, or on the bottom to print",
+     "estimated loot generation results in 32768",
+     "instances to latest.log file.",
+     "Clicking on other sides of a chest will instead",
+     "obliterate anything stored within.",
+     "Hold Shift to see details.",
+     "Current Loot Table:"
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/loot_generator.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:lore_fragment",
+    "path": "lore_fragment",
+    "name": "Blank Design Fragment",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.LoreInscriber.Fragment",
+    "category": "Legacy",
+    "props": {},
+    "tooltips": [
+     "Use ? to write in name and lore.",
+     "The Architect's Inkwell",
+     "When done, combine with any item in Anvil",
+     "to attach those writings to that item."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/lore_fragment.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:lore_inscriber",
+    "path": "lore_inscriber",
+    "name": "The Architect's Inkwell",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.LoreInscriber",
+    "category": "Legacy",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Right-Click to open GUI.",
+     "Insert ? to write formatted name and lore lines to it.",
+     "Blank Design Fragment",
+     "Use &[0-f] to apply color formatting to any",
+     "following text in the name field.",
+     "Use &[k/l/m/n/o/r] to apply font formatting.",
+     "Start the line with ! to add it as lore line,",
+     "or with ![0-99] to set the lore line with",
+     "specified index.",
+     "Enter -! or -![0-99] to remove the last lore",
+     "line added or lore line with specified index,",
+     "respectively."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/lore_inscriber.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:lost_engine",
+    "path": "lost_engine",
+    "name": "Lost Engine",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.LostEngine",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Enhance mobility and toughness.",
+     "- Reduce item cooldowns by 25%.",
+     "- Immune to Fall & Explosion damage.",
+     "- Add 50% Crit damage.",
+     "- Golems will not target you actively.",
+     "- You are vulnerable to Magic Damage.",
+     "- The Lightning Damage received will become fatal.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/lost_engine.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:magnet_ring",
+    "path": "magnet_ring",
+    "name": "Magnetic Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.MagnetRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [
+     "Attracts items within ? blocks radius.",
+     "This can be disabled by holding Shift."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/magnet_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:majestic_elytra",
+    "path": "majestic_elytra",
+    "name": "Majestic Elytra",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.MajesticElytra",
+    "category": "Tools",
+    "props": {
+     "durability": 3476,
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Hold jump key while flying to continuously",
+     "accelerate forward. Elytra is damaged",
+     "faster when accelerating.",
+     "Enhancement:"
+    ],
+    "tags": [
+     "curios:back",
+     "enigmaticlegacyplus:armor_check_exclusions",
+     "enigmaticlegacyplus:enchantable/etheric_resonance",
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/equippable"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/majestic_elytra.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:mending_mixture",
+    "path": "mending_mixture",
+    "name": "Mending Mixture",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.MendingMixture",
+    "category": "Potions",
+    "props": {},
+    "tooltips": [
+     "Right-click on any tool, weapon or armor",
+     "to fully restore its durability."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/mending_mixture.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:miner_ring",
+    "path": "miner_ring",
+    "name": "Miner's Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.MinerRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [
+     "Consumes fuel bar to smelt items as blast furnace.",
+     "Fuel bar can be naturally restored or increased by",
+     "right-clicking with fuel on the ring.",
+     "Automatically smelt dropped items during mining.",
+     "Hold Shift to smelt nearby dropped items."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/miner_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:mining_charm",
+    "path": "mining_charm",
+    "name": "Charm of Treasure Hunter",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.MiningCharm",
+    "category": "Charms",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "When you are underground, applies Night Vision",
+     "effect to you. This feature can be disabled by",
+     "pressing Right-Click when holding charm.",
+     "Disabled",
+     "Enabled",
+     "Night Vision: ?"
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/mining_charm.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:monster_charm",
+    "path": "monster_charm",
+    "name": "Emblem of Monster Slayer",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.MonsterCharm",
+    "category": "Charms",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Slain monsters drop double as much experience."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/monster_charm.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:night_scroll",
+    "path": "night_scroll",
+    "name": "Pact of Dark Night",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.NightScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Phantoms  will not spawn naturally in your proximity.",
+     "Provide bonuses based on the brightness.",
+     "When equipped as Arcane Scroll:",
+     "+? Attack Damage",
+     "+? Damage Resistance",
+     "+? Lifesteal"
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/night_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ocean_stone",
+    "path": "ocean_stone",
+    "name": "Will of the Ocean",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.OceanStone",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Starts thunderstorm, at great cost of experience.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- 40% Damage Resistance against underwater creatures.",
+     "- You no longer need air to breathe underwater.",
+     "- Provides Night Vision effect when in water.",
+     "- Provides effects of Aqua Affinity enchantment.",
+     "- Negates gravity when underwater.",
+     "- Greatly increased swimming speed.",
+     "- You are vulnerable to Fire Damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ocean_stone.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ode_to_living",
+    "path": "ode_to_living",
+    "name": "Ode to Living Beings",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.LivingOde",
+    "category": "Books",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "When carried in inventory:",
+     "- Your attacks can't deal damage to animals.",
+     "- Hobgoblins around you are rendered passive.",
+     "- All damage your pets receive within ? blocks",
+     "from you is redirected upon you.",
+     "- Redirected damage is reduced by 50%.",
+     "Alteration of the ?:",
+     "Second Curse",
+     "- Neutral creatures stay neutral towards you.",
+     "Attack with this item to prevent this kind of animal",
+     "from being protected by this item.",
+     "Use to appease animals and restore protective effects."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ode_to_living.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:pure_heart",
+    "path": "pure_heart",
+    "name": "Pure Heart",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.PureHeart",
+    "category": "Materials",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/pure_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:quartz_ring",
+    "path": "quartz_ring",
+    "name": "Magic Quartz Ring",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.QuartzRing",
+    "category": "Rings",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/quartz_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:raw_etherium",
+    "path": "raw_etherium",
+    "name": "Raw Etherium",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "c:raw_materials"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/raw_etherium.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:recall_potion",
+    "path": "recall_potion",
+    "name": "Potion of Recall",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.RecallPotion",
+    "category": "Potions",
+    "props": {},
+    "tooltips": [
+     "Returns you to your bed or Respawn Anchor",
+     "location, or to the Center of The Overworld",
+     "if you don't have one."
+    ],
+    "tags": [
+     "c:drinks/magic",
+     "c:potions/bottle"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/recall_potion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:redemption_amulet",
+    "path": "redemption_amulet",
+    "name": "Amulet of Radiance",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.RedemptionAmulet",
+    "category": "Amulets",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Whenever you die while having it equipped, summons",
+     "Extradimensional Vessel that safely stores your items,",
+     "Soul Crystals and Experience.",
+     "Approach the vessel to regain what was lost.",
+     "Attack Strength provides a damage reduction effect.",
+     "You take no damage from unattacked targets.",
+     "When equipped as Amulet:",
+     "+1 Charm Slot",
+     "+2 Luck",
+     "+4 Damage Reduction",
+     "+8 Armor Toughness"
+    ],
+    "tags": [
+     "curios:amulet"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/redemption_amulet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:redemption_potion",
+    "path": "redemption_potion",
+    "name": "Potion of Redemption",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.RedemptionPotion",
+    "category": "Potions",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Eliminate the forbidden curse."
+    ],
+    "tags": [
+     "c:drinks/magic"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/redemption_potion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:redemption_ring",
+    "path": "redemption_ring",
+    "name": "Ring of Redemption",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.RedemptionRing",
+    "category": "Rings",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "For those who have experienced torment,",
+     "remaining blessings are still effective:",
+     "- You receive ? damage from ANY source.",
+     "- Increase the damage you cause by ?",
+     "- Obtain sustained Regeneration.",
+     "- +? Looting Level",
+     "- +? Fortune Level",
+     "- Unique drops from some creatures.",
+     "- You can create and use unique relics.",
+     "Level of Blessing: ?",
+     "This ring shines with a unique luster, remembering",
+     "those period of torment, and at the same time, it",
+     "is a certification of your past......",
+     "Once worn, it becomes a part of you.",
+     "With the power of god, you can unequip it.",
+     "This ring will persist with you forever."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/redemption_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:revival_leaf",
+    "path": "revival_leaf",
+    "name": "Revival Leaves",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.RevivalLeaf",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- surrounding mobs regeneration, at cost of experience.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- Slow natural regeneration.",
+     "- The attack target will be poisoned and reducing healing.",
+     "- Immune to Hunger, Poison and Withering effect.",
+     "- The surrounding crops are growing faster.",
+     "- All effects last longer.",
+     "- You can fly when there are plant blocks around.",
+     "- You are vulnerable to Fire Damage and Projectile Damage.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/revival_leaf.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:sacred_chalice",
+    "path": "sacred_chalice",
+    "name": "Pseudo-Sacred Chalice",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.SacredChalice",
+    "category": "Tools",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Can consume 50% of your health to fill the chalice.",
+     "Also drains health from nearby creatures to enhance subsequent effects.",
+     "Restore all health upon use and gain",
+     "powerful Pure Resistance and Blood Chalice effects.",
+     "Pure Resistance and Blood Chalice effects."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/sacred_chalice.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:sacred_crystal",
+    "path": "sacred_crystal",
+    "name": "Sacred Crystal",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseCursedItem",
+    "category": "Generic",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [
+     "c:gems"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/sacred_crystal.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:sanguinary_handbook",
+    "path": "sanguinary_handbook",
+    "name": "Sanguinary Hunting Handbook",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.SanguinaryHandbook",
+    "category": "Books",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "When carried in inventory:",
+     "- ? Pet Attack Damage",
+     "- If equipped the Emblem of Bloodstained Valor",
+     "or Scroll of a Thousand Curses, Pets will",
+     "also receive corresponding effects based on you."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/sanguinary_handbook.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:scorched_charm",
+    "path": "scorched_charm",
+    "name": "Charm of Scorched Sun",
+    "class": "auviotre.enigmatic.legacy.contents.item.charms.ScorchedCharm",
+    "category": "Charms",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Immunize the wearer against the fire damage",
+     "And be able to walk on the lava.",
+     "Obtain natural regeneration when in contact with lava.",
+     "Trigger lifesteal when attacking a target on fire.",
+     "? chance to resist the attack damage."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/scorched_charm.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:soul_compass",
+    "path": "soul_compass",
+    "name": "Wayfinder of the Damned",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.SoulCompass",
+    "category": "Tools",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [
+     "minecraft:compasses"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/soul_compass.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:soul_crystal",
+    "path": "soul_crystal",
+    "name": "Soul Crystal",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.SoulCrystal",
+    "category": "Misc",
+    "props": {
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/soul_crystal.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:spellcore",
+    "path": "spellcore",
+    "name": "Spellcore",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.other.Spellcore",
+    "category": "Spellstones",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/spellcore.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:spellstone_debris",
+    "path": "spellstone_debris",
+    "name": "Spellstone Debris",
+    "class": null,
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/spellstone_debris.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:spellstone_sword",
+    "path": "spellstone_sword",
+    "name": "Resonator of Spell",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.other.SpellstoneSword",
+    "category": "Spellstones",
+    "props": {
+     "durability": 999,
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Right-click to resonate with the Spellstone in the off hand.",
+     "Right-click on this while holding the Spellcore to increase resonance level.",
+     "Resonance Effect:",
+     "Current Resonance: Absent.",
+     "Current Resonance: ?.",
+     "Resonance Level：?",
+     "Resonator of Golem",
+     "Resonator of Blaze",
+     "Resonator of Ocean",
+     "Resonator of Forgotten",
+     "Resonator of Revival",
+     "Resonator of Angel",
+     "Resonator of Engine",
+     "Resonator of Illusion",
+     "Resonator of Nebula",
+     "Resonator of Void"
+    ],
+    "tags": [
+     "minecraft:enchantable/durability",
+     "minecraft:enchantable/vanishing",
+     "minecraft:swords"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/spellstone_sword.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:spelltuner",
+    "path": "spelltuner",
+    "name": "Spelltuner",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.other.Spelltuner",
+    "category": "Spellstones",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Right click the Spellstone in the inventory to",
+     "adjust the tuning to the corresponding effect.",
+     "Also increase the probability of discovering spellstone.",
+     "Current tuning: ?.",
+     "Tuning Effect:",
+     "Current tuning: Absent.",
+     "- Absent."
+    ],
+    "tags": [
+     "curios:charm"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/spelltuner.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_bucket",
+    "path": "starlight_bucket",
+    "name": "Starlight Bucket",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.StarlightBucket",
+    "category": "Tools",
+    "props": {},
+    "tooltips": [
+     "Right-click the item with bucket items to change the contained liquid.",
+     "None",
+     "Current Fluid: ?."
+    ],
+    "tags": [
+     "c:buckets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_bucket.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_ingot",
+    "path": "starlight_ingot",
+    "name": "Starlight Ingot",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.StarlightParticle",
+    "category": "Materials",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [],
+    "tags": [
+     "c:ingots"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_ingot.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_particle",
+    "path": "starlight_particle",
+    "name": "Particle of Starlight",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.StarlightParticle",
+    "category": "Materials",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [],
+    "tags": [
+     "c:nuggets"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_particle.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_pearl",
+    "path": "starlight_pearl",
+    "name": "Astral Pearl",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.StarlightPearl",
+    "category": "Misc",
+    "props": {
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Right-click on certain items to upgrade them."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_pearl.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_ring",
+    "path": "starlight_ring",
+    "name": "Ring of Starlight",
+    "class": "auviotre.enigmatic.legacy.contents.item.rings.StarlightRing",
+    "category": "Rings",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Increase the spawn frequency of Starlight Meteors.",
+     "Counts as being within Beacon range when equipped."
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_ring.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:storage_crystal",
+    "path": "storage_crystal",
+    "name": "Extradimensional Vessel",
+    "class": "auviotre.enigmatic.legacy.contents.item.misc.StorageCrystal",
+    "category": "Misc",
+    "props": {
+     "rarity": "Epic",
+     "fire_resistant": true
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/storage_crystal.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:survivor_scroll",
+    "path": "survivor_scroll",
+    "name": "Scroll of Survivor",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.SurvivorScroll",
+    "category": "Scrolls",
+    "props": {},
+    "tooltips": [
+     "Slowly recover health under higher brightness.",
+     "When the health is low:",
+     "Gain certain attribute improvements",
+     "and accelerate eating speed."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/survivor_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_acknowledgment",
+    "path": "the_acknowledgment",
+    "name": "The Acknowledgment",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.TheAcknowledgment",
+    "category": "Books",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Alteration of the ?:",
+     "Fourth Curse",
+     "- Reduce the effect of the Fourth Curse by 20%.",
+     "The blinding light of revelation shall",
+     "incinerate those who refuse to embrace it."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books",
+     "minecraft:enchantable/vanishing",
+     "minecraft:lectern_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_acknowledgment.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_bless",
+    "path": "the_bless",
+    "name": "The Bless",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.TheBless",
+    "category": "Books",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Alteration of the ?:",
+     "Fourth Curse",
+     "- Always deals its full damage.",
+     "When carried in inventory:",
+     "- Extinguishes you when on fire.",
+     "- Extended invincibility duration after taking damage.",
+     "Remove the beneficial effects on the target and",
+     "probably apply Ichor Corrosion effect.",
+     "Causing more damage to the target on fire .",
+     "In the endless journey of suffering,",
+     "using this to light up the way forward.",
+     "- Reduce the effect of the Fourth Curse by 20%.",
+     "The blinding light of revelation shall",
+     "incinerate those who refuse to embrace it."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:bypass_fourth_curse",
+     "minecraft:bookshelf_books",
+     "minecraft:enchantable/sharp_weapon",
+     "minecraft:enchantable/vanishing",
+     "minecraft:lectern_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_bless.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_cube",
+    "path": "the_cube",
+    "name": "Non-Euclidean Cube",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.TheCube",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Teleports you to random location in one of three main dimensions.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- +35% Sprinting Speed, +100% Swimming Speed",
+     "- +60% Mining Speed, +40% Attack Speed",
+     "- +1 Fortune Level, +1 Luck",
+     "- Immunity to negative status effects.",
+     "- Any attacks that deal above ? damage are completely negated.",
+     "- 35% Chance to deflect an incoming attack or projectile.",
+     "- When attacked in melee, applies random debuff to attacker.",
+     "- Immunity to pressure, fall, collision, pricking, teleportation, fire",
+     "and lava damage.",
+     "- When you have more than 1 health, you survive any lethal damage",
+     "with 1 health remaining. If you have 1 health or less, attempts to",
+     "trigger active ability to prevent lethal damage. Restores your",
+     "health to 30% and applies powerful buffs if successful.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "curios:spellstone"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_cube.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_infinitum",
+    "path": "the_infinitum",
+    "name": "The Infinitum",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.TheInfinitum",
+    "category": "Books",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Alteration of the ?:",
+     "Fourth Curse",
+     "- Always deals its full damage.",
+     "+200% Damage against bosses and players",
+     "+200% Knockback",
+     "+10% Lifesteal",
+     "Can bear most sword enchantments.",
+     "Each attack inflicts horrific debuffs.",
+     "When held, provides 80% Chance that otherwise",
+     "lethal damage won't kill you.",
+     "Abyss Boost:",
+     "- Adds bonus damage based on the amount and amplifier",
+     "of harmful effects on the target.",
+     "The abyss returns even the boldest gaze.",
+     "- Reduce the effect of the Fourth Curse by 20%.",
+     "The blinding light of revelation shall",
+     "incinerate those who refuse to embrace it."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:abyssal_items",
+     "enigmaticlegacyplus:bypass_fourth_curse",
+     "minecraft:bookshelf_books",
+     "minecraft:enchantable/sharp_weapon",
+     "minecraft:enchantable/sword",
+     "minecraft:enchantable/vanishing",
+     "minecraft:lectern_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_infinitum.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_judgement",
+    "path": "the_judgement",
+    "name": "The Judgement",
+    "class": "auviotre.enigmatic.legacy.contents.item.op.TheJudgement",
+    "category": "Op",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Upon attack, deals damage to every",
+     "creature within a radius of 64 blocks",
+     "from the target.",
+     "In Clear Drops mode, also removes all",
+     "drops in the attack radius.",
+     "Mode: ?",
+     "Hold Shift to see details."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_judgement.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:the_twist",
+    "path": "the_twist",
+    "name": "The Twist",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.TheTwist",
+    "category": "Books",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Alteration of the ?:",
+     "Fourth Curse",
+     "- Always deals its full damage.",
+     "+300% Damage against bosses and players",
+     "+300% Knockback",
+     "On a path to take it all away,",
+     "there can be no better way of knowing...",
+     "- Reduce the effect of the Fourth Curse by 20%.",
+     "The blinding light of revelation shall",
+     "incinerate those who refuse to embrace it."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:bypass_fourth_curse",
+     "minecraft:bookshelf_books",
+     "minecraft:enchantable/sharp_weapon",
+     "minecraft:enchantable/vanishing",
+     "minecraft:lectern_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/the_twist.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:thunder_scroll",
+    "path": "thunder_scroll",
+    "name": "Scroll of Thunder Embrace",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.ThunderScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Immune to Lightning damage.",
+     "Sweep attack deals 100% damage.",
+     "After being hit much times,the target",
+     "will be struck by lightning bolt.",
+     "Deal more damage to armored targets."
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/thunder_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:totem_of_malice",
+    "path": "totem_of_malice",
+    "name": "Totem of Malice",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.TotemOfMalice",
+    "category": "Tools",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "When in the inventory or curio slot:",
+     "Increase damage to Illagers by 80%.",
+     "Reduce damage from Illagers by 50%.",
+     "Can avoid death when held or equipped.",
+     "Causing damage to the surroundings when triggered."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:enchantable/eternal_binding"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/totem_of_malice.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:twisted_heart",
+    "path": "twisted_heart",
+    "name": "Twisted Heart",
+    "class": "auviotre.enigmatic.legacy.contents.item.materials.TwistedHeart",
+    "category": "Materials",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/twisted_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:twisted_mirror",
+    "path": "twisted_mirror",
+    "name": "Twisted Mirror",
+    "class": "auviotre.enigmatic.legacy.contents.item.tools.TwistedMirror",
+    "category": "Tools",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Gaze into the mirror to return to your bed",
+     "or Respawn Anchor, or to the Center of",
+     "The Overworld if you don't have one."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/twisted_mirror.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:twisted_potion",
+    "path": "twisted_potion",
+    "name": "Potion of Twisted Mercy",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.TwistedPotion",
+    "category": "Potions",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Teleports you to the location of your last",
+     "demise at the cost of part of your life."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/twisted_potion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:unholy_grail",
+    "path": "unholy_grail",
+    "name": "Unholy Grail",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.UnholyGrail",
+    "category": "Legacy",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "You'd better not be drinking from it..."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/unholy_grail.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:unknown",
+    "path": "unknown",
+    "name": "Unknown",
+    "class": "auviotre.enigmatic.legacy.contents.item.generic.BaseItem",
+    "category": "Generic",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": null
+   },
+   {
+    "id": "enigmaticlegacyplus:unwitnessed_amulet",
+    "path": "unwitnessed_amulet",
+    "name": "Unwitnessed Amulet",
+    "class": "auviotre.enigmatic.legacy.contents.item.amulets.UnwitnessedAmulet",
+    "category": "Amulets",
+    "props": {
+     "rarity": "Rare",
+     "fire_resistant": true
+    },
+    "tooltips": [
+     "Ever since you first stepped into this world,",
+     "it resides in your possession. You still don't",
+     "know its origin and purpose, whether it has",
+     "any - time slowly washes away hazy scraps",
+     "of shattered memories.",
+     "Memories about something important...",
+     "Right-click to convert it."
+    ],
+    "tags": [
+     "curios:amulet"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/unwitnessed_amulet.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:violence_scroll",
+    "path": "violence_scroll",
+    "name": "The Curse of Violence",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.ViolenceScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Epic"
+    },
+    "tooltips": [
+     "Absorbed Curses:",
+     "Reduce the duration of invincibility caused by attacks.",
+     "Gain Curse of Mania effect continuously in combat.",
+     "Right-click on other items in the inventory to absorb their curse enchantments.",
+     "Unique Curses Absorbed: ?",
+     "- ? Attack Speed",
+     "- ? Entity Reach",
+     "- ? Knockback Resistance",
+     "Abyss Boost:",
+     "- Provides a brief damage immunity upon attacking.",
+     "An accursed being is one rarely worth creating an enemy of.",
+     "Whether their curse be one of luck, of pain, of destitution -",
+     "they have lost much of what they had attained, and easily",
+     "fight without care toward their own wellbeing.",
+     "Hold Alt to see Absorbed Curses."
+    ],
+    "tags": [
+     "curios:scroll",
+     "enigmaticlegacyplus:abyssal_items"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/violence_scroll.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:void_pearl",
+    "path": "void_pearl",
+    "name": "Pearl of the Void",
+    "class": "auviotre.enigmatic.legacy.contents.item.spellstones.VoidPearl",
+    "category": "Spellstones",
+    "props": {
+     "rarity": "Rare"
+    },
+    "tooltips": [
+     "Active ability:",
+     "- Absent.",
+     "Сooldown: ? seconds",
+     "Passive abilities:",
+     "- You no longer need air to breathe.",
+     "- Immunity to any status effects.",
+     "- Your attacks inflict Withering.",
+     "- Any creatures nearby you, if they are exposed to",
+     "darkness, receive massive damage and heavy debuffs.",
+     "Skyflaps are affected regardless of light level.",
+     "- 30% Chance that otherwise lethal damage won't kill you.",
+     "Hold Shift to see details."
+    ],
+    "tags": [
+     "enigmaticlegacyplus:materials_of_the_cube"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/void_pearl.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:void_stone",
+    "path": "void_stone",
+    "name": "Keystone of The Oblivion",
+    "class": "auviotre.enigmatic.legacy.contents.item.legacy.VoidStone",
+    "category": "Legacy",
+    "props": {
+     "fire_resistant": true,
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "While in inventory, Right-Clicking it while dragging",
+     "another stack, or while dragging the keystone",
+     "over another stack will destroy that stack.",
+     "Temporary storage: ?",
+     "Right-click while holding to release.",
+     "Auto destruction mode: ?",
+     "Shift + Right-click while holding to switch mode."
+    ],
+    "tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/void_stone.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:void_tome",
+    "path": "void_tome",
+    "name": "Tome of Void",
+    "class": "auviotre.enigmatic.legacy.contents.item.books.VoidTome",
+    "category": "Books",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Use to obtain +1 Arcane Scroll Slot."
+    ],
+    "tags": [
+     "minecraft:bookshelf_books"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/void_tome.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:wormhole_potion",
+    "path": "wormhole_potion",
+    "name": "Potion of Wormhole",
+    "class": "auviotre.enigmatic.legacy.contents.item.potions.WormholePotion",
+    "category": "Potions",
+    "props": {},
+    "tooltips": [
+     "Records the information of the first Holder and",
+     "it will become the target for teleporting after use.",
+     "Teleport you to ?5's side."
+    ],
+    "tags": [
+     "c:drinks/magic",
+     "c:potions/bottle"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/wormhole_potion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:xp_scroll",
+    "path": "xp_scroll",
+    "name": "Scroll of Ageless Wisdom",
+    "class": "auviotre.enigmatic.legacy.contents.item.scrolls.XpScroll",
+    "category": "Scrolls",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [
+     "Deactivated",
+     "Absorption",
+     "Extraction",
+     "Can store limitless amount of experience.",
+     "Press Shift+Right-Click while holding it",
+     "to toggle it active.",
+     "Press Right-Click to switch modes.",
+     "You can also use related keybind.",
+     "In Absorption mode, it will consume your",
+     "experience, while carried in scroll slot.",
+     "In Extraction mode, this behavior is",
+     "reversed, and the scroll transfers all",
+     "stored experience back to you.",
+     "While active, collects experience orbs",
+     "within ? blocks radius.",
+     "Mode: ?",
+     "Stored Experience:",
+     "? units, or ? levels",
+     "Current Keybind: ?",
+     "Arcane Scroll Active Ability"
+    ],
+    "tags": [
+     "curios:scroll"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/xp_scroll.png"
+   }
+  ],
+  "blocks": [
+   {
+    "id": "enigmaticlegacyplus:astral_dust_sack",
+    "path": "astral_dust_sack",
+    "name": "Sack of Astral Dust",
+    "class": "auviotre.enigmatic.legacy.contents.block.AstralDustSack",
+    "tags": [
+     "c:storage_blocks",
+     "minecraft:mineable/hoe"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/astral_dust_sack.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:astral_dust_sack",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:astral_glass",
+    "path": "astral_glass",
+    "name": "Astral Glass",
+    "class": "auviotre.enigmatic.legacy.contents.block.AstralGlass",
+    "tags": [
+     "c:glass_blocks",
+     "minecraft:mineable/pickaxe"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/astral_glass.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:astral_glass",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:astral_glass_pane",
+    "path": "astral_glass_pane",
+    "name": "Astral Glass Pane",
+    "class": "auviotre.enigmatic.legacy.contents.block.AstralGlassPane",
+    "tags": [
+     "c:glass_panes"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/astral_glass_pane.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:astral_glass_pane",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:cosmic_cake",
+    "path": "cosmic_cake",
+    "name": "The Eternal Cake",
+    "class": "auviotre.enigmatic.legacy.contents.block.CosmicCake",
+    "tags": [],
+    "item_tags": [
+     "c:foods/edible_when_placed"
+    ],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/cosmic_cake.png",
+    "tooltips": [],
+    "drops": []
+   },
+   {
+    "id": "enigmaticlegacyplus:dimensional_anchor",
+    "path": "dimensional_anchor",
+    "name": "Dimensional Anchor",
+    "class": "auviotre.enigmatic.legacy.contents.block.DimensionalAnchor",
+    "tags": [
+     "minecraft:dragon_immune",
+     "minecraft:mineable/pickaxe",
+     "minecraft:needs_diamond_tool"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/dimensional_anchor.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:dimensional_anchor",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:ethereal_lantern",
+    "path": "ethereal_lantern",
+    "name": "Ethereal Lantern",
+    "class": "auviotre.enigmatic.legacy.contents.block.EtherealLantern",
+    "tags": [
+     "minecraft:mineable/pickaxe"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_lantern.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:ethereal_lantern",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_block",
+    "path": "etherium_block",
+    "name": "Etherium Block",
+    "class": "Block",
+    "tags": [
+     "c:storage_blocks",
+     "minecraft:mineable/pickaxe",
+     "minecraft:needs_diamond_tool"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_block.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:etherium_block",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:etherium_ore",
+    "path": "etherium_ore",
+    "name": "Etherium Ore",
+    "class": "auviotre.enigmatic.legacy.contents.block.EtheriumOre",
+    "tags": [
+     "c:ores",
+     "minecraft:mineable/pickaxe",
+     "minecraft:needs_diamond_tool"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_ore.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:etherium_ore",
+        "table": null,
+        "chance": 0.5,
+        "count": [
+         1,
+         1
+        ],
+        "notes": [
+         "Needs a specific tool"
+        ]
+       },
+       {
+        "item": "enigmaticlegacyplus:raw_etherium",
+        "table": null,
+        "chance": 0.5,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:infernal_cinder_sack",
+    "path": "infernal_cinder_sack",
+    "name": "Sack of Infernal Cinder",
+    "class": "auviotre.enigmatic.legacy.contents.block.InfernalCinderSack",
+    "tags": [
+     "c:storage_blocks"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/infernal_cinder_sack.png",
+    "tooltips": [],
+    "drops": null
+   },
+   {
+    "id": "enigmaticlegacyplus:spellstone_table",
+    "path": "spellstone_table",
+    "name": "Spellstone Table",
+    "class": "auviotre.enigmatic.legacy.contents.block.SpellstoneTable",
+    "tags": [
+     "minecraft:mineable/pickaxe",
+     "minecraft:needs_diamond_tool"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/spellstone_table.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:spellstone_table",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_block",
+    "path": "starlight_block",
+    "name": "Starlight Block",
+    "class": "Block",
+    "tags": [
+     "c:storage_blocks",
+     "minecraft:mineable/pickaxe",
+     "minecraft:needs_diamond_tool"
+    ],
+    "item_tags": [],
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/starlight_block.png",
+    "tooltips": [],
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:starlight_block",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "mobs": [
+   {
+    "id": "enigmaticlegacyplus:cobweb_ball",
+    "path": "cobweb_ball",
+    "name": "Cobweb Ball",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:dragon_breath_arrow",
+    "path": "dragon_breath_arrow",
+    "name": "Dragon Breath Arrow",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:engine_hook",
+    "path": "engine_hook",
+    "name": "Chain Blade",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_spear",
+    "path": "ichor_spear",
+    "name": "Ichor Spear",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_sprite",
+    "path": "ichor_sprite",
+    "name": "Purified Ichor Spirit",
+    "info": {},
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:sacred_crystal",
+        "table": null,
+        "chance": 0.35,
+        "count": [
+         0.0,
+         3.0
+        ],
+        "notes": [
+         "Looting increases the chance"
+        ]
+       }
+      ]
+     },
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:ichor_droplet",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         0.0,
+         2.0
+        ],
+        "notes": [
+         "More with Looting"
+        ]
+       }
+      ]
+     }
+    ],
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:piglin_wanderer",
+    "path": "piglin_wanderer",
+    "name": "Piglin Wanderer",
+    "info": {},
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "minecraft:gold_ingot",
+        "table": null,
+        "chance": 1.0,
+        "count": [
+         0.0,
+         3.0
+        ],
+        "notes": [
+         "More with Looting"
+        ]
+       }
+      ]
+     },
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": "enigmaticlegacyplus:ichor_droplet",
+        "table": null,
+        "chance": 0.5,
+        "count": [
+         0.0,
+         2.0
+        ],
+        "notes": [
+         "More with Looting"
+        ]
+       },
+       {
+        "item": "enigmaticlegacyplus:ichor_spear",
+        "table": null,
+        "chance": 0.05,
+        "count": [
+         1.0,
+         3.0
+        ],
+        "notes": [
+         "More with Looting"
+        ]
+       }
+      ]
+     }
+    ],
+    "spawns": [],
+    "tags": [
+     "enigmaticlegacyplus:guardian_heart_excluded"
+    ],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:soul_flame_ball",
+    "path": "soul_flame_ball",
+    "name": "Soul Flame Ball",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_meteor",
+    "path": "starlight_meteor",
+    "name": "Starlight Meteor",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "enigmaticlegacyplus:ultimate_wither_skull",
+    "path": "ultimate_wither_skull",
+    "name": "Ultimate Wither Skull",
+    "info": {},
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   }
+  ],
+  "effects": [
+   {
+    "id": "enigmaticlegacyplus:abyss_corruption",
+    "path": "abyss_corruption",
+    "name": "Abyss Corruption",
+    "class": "auviotre.enigmatic.legacy.contents.effect.AbyssCorruption",
+    "category": "Harmful",
+    "color": "#382C4D",
+    "attributes": [
+     {
+      "attribute": "Armor Toughness",
+      "amount": "-1.0",
+      "operation": "ADD_MULTIPLIED_BASE"
+     },
+     {
+      "attribute": "Movement Speed",
+      "amount": "-0.1",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     }
+    ],
+    "description": "A powerful negative buff that spreads with death.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/abyss_corruption.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:blazing_might",
+    "path": "blazing_might",
+    "name": "Blazing Might",
+    "class": "auviotre.enigmatic.legacy.contents.effect.BlazingMight",
+    "category": "Beneficial",
+    "color": "#EA6363",
+    "attributes": [
+     {
+      "attribute": "Attack Damage",
+      "amount": "1.5",
+      "operation": "ADD_VALUE"
+     }
+    ],
+    "description": "The effect will be removed after receiving any damage.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/blazing_might.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:blood_chalice",
+    "path": "blood_chalice",
+    "name": "Chalice of Blood",
+    "class": "auviotre.enigmatic.legacy.contents.effect.BloodChalice",
+    "category": "Beneficial",
+    "color": "#BF0003",
+    "description": "Grants bonus damage based on the remaining duration of the effect.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/blood_chalice.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_corrosion",
+    "path": "ichor_corrosion",
+    "name": "Ichor Corrosion",
+    "class": "auviotre.enigmatic.legacy.contents.effect.IchorCorrosion",
+    "category": "Harmful",
+    "color": "#CE753D",
+    "attributes": [
+     {
+      "attribute": "Armor",
+      "amount": "-0.2",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     },
+     {
+      "attribute": "Armor Toughness",
+      "amount": "-0.2",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     },
+     {
+      "attribute": "Knockback Resistance",
+      "amount": "-0.2",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     }
+    ],
+    "description": "Reduce your defense while increasing the damage you receive.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/ichor_corrosion.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:ichor_curse",
+    "path": "ichor_curse",
+    "name": "Curse of Penance",
+    "class": "auviotre.enigmatic.legacy.contents.effect.IchorCurse",
+    "category": "Neutral",
+    "color": "#FFBF4B",
+    "description": "The Nether will resonate with you.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/ichor_curse.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:molten_heart",
+    "path": "molten_heart",
+    "name": "Molten Heart",
+    "class": "auviotre.enigmatic.legacy.contents.effect.MoltenHeart",
+    "category": "Beneficial",
+    "color": "#E66410",
+    "description": "Makes you immune to fire and grants you clear vision in lava.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/molten_heart.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:poison",
+    "path": "poison",
+    "name": "Poison",
+    "class": "auviotre.enigmatic.legacy.contents.effect.Poison",
+    "category": "Harmful",
+    "color": "#87A363",
+    "description": null,
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/poison.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:pure_resistance",
+    "path": "pure_resistance",
+    "name": "Pure Resistance",
+    "class": "auviotre.enigmatic.legacy.contents.effect.PureResistance",
+    "category": "Beneficial",
+    "color": "#FFBF4B",
+    "description": "Reduce the damage received while having a chance to block damage.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/pure_resistance.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:starlight_blessing",
+    "path": "starlight_blessing",
+    "name": "Blessing of Starlight",
+    "class": "auviotre.enigmatic.legacy.contents.effect.StarlightBlessing",
+    "category": "Beneficial",
+    "color": "#CEE3EC",
+    "attributes": [
+     {
+      "attribute": "Etherium Shield",
+      "amount": "0.1",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     }
+    ],
+    "description": "Etherium Threshold will increase damage dealt and restoring health when the effect ends.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/starlight_blessing.png"
+   },
+   {
+    "id": "enigmaticlegacyplus:violence_curse",
+    "path": "violence_curse",
+    "name": "Curse of Mania",
+    "class": "auviotre.enigmatic.legacy.contents.effect.ViolenceCurse",
+    "category": "Neutral",
+    "color": "#392E4D",
+    "attributes": [
+     {
+      "attribute": "Attack Damage",
+      "amount": "0.5",
+      "operation": "ADD_VALUE"
+     },
+     {
+      "attribute": "Attack Speed",
+      "amount": "0.01",
+      "operation": "ADD_MULTIPLIED_TOTAL"
+     }
+    ],
+    "description": "Temporary curses generated in battle.",
+    "icon_url": "assets/icons/enigmaticlegacyplus/effect/violence_curse.png"
+   }
+  ],
+  "enchantments": [
+   {
+    "id": "enigmaticlegacyplus:ceaseless",
+    "ns": "enigmaticlegacyplus",
+    "path": "ceaseless",
+    "name": "Ceaseless",
+    "description": "Can shoot basic arrows without consuming ammunition.",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 8,
+    "min_cost": {
+     "base": 20,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 50,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "primary_items": null,
+    "exclusive_set": "#minecraft:exclusive_set/bow",
+    "effects": [
+     {
+      "component": "minecraft:ammo_use",
+      "type": "minecraft:set",
+      "value": "0.0"
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:eternal_binding_curse",
+    "ns": "enigmaticlegacyplus",
+    "path": "eternal_binding_curse",
+    "name": "Curse of Eternal Binding",
+    "description": "Makes the item impossible to unequip or lose on death.",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 8,
+    "min_cost": {
+     "base": 25,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 50,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "any"
+    ],
+    "supported_items": "#enigmaticlegacyplus:enchantable/eternal_binding",
+    "primary_items": "#minecraft:enchantable/equippable",
+    "exclusive_set": "#enigmaticlegacyplus:binding_curse_exclusive",
+    "effects": [
+     {
+      "component": "minecraft:prevent_armor_change",
+      "type": null,
+      "value": null
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:etheric_resonance",
+    "ns": "enigmaticlegacyplus",
+    "path": "etheric_resonance",
+    "name": "Etheric Resonance",
+    "description": "Enhance the capabilities of Etherium tools",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 12,
+    "min_cost": {
+     "base": 20,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 40,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "any"
+    ],
+    "supported_items": "#enigmaticlegacyplus:enchantable/etheric_resonance",
+    "primary_items": null,
+    "exclusive_set": null,
+    "effects": [
+     {
+      "component": "minecraft:attributes",
+      "type": null,
+      "value": "0.01 (+0.01 per level)"
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:nemesis_curse",
+    "ns": "enigmaticlegacyplus",
+    "path": "nemesis_curse",
+    "name": "Curse of Nemesis",
+    "description": "Deals 35% of damage back to you for each melee attack.",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 8,
+    "min_cost": {
+     "base": 25,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 50,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": "#minecraft:enchantable/sword",
+    "exclusive_set": null,
+    "effects": []
+   },
+   {
+    "id": "enigmaticlegacyplus:redemption_curse",
+    "ns": "enigmaticlegacyplus",
+    "path": "redemption_curse",
+    "name": "Curse of Redemption",
+    "description": "Increase the damage received, and reverse the effect with redemption.",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 9,
+    "min_cost": {
+     "base": 30,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 60,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "any"
+    ],
+    "supported_items": "#minecraft:enchantable/equippable",
+    "primary_items": "#enigmaticlegacyplus:enchantable/eternal_binding",
+    "exclusive_set": "#minecraft:curse",
+    "effects": []
+   },
+   {
+    "id": "enigmaticlegacyplus:sharpshooter",
+    "ns": "enigmaticlegacyplus",
+    "path": "sharpshooter",
+    "name": "Sharpshooter",
+    "description": "Increases and less random arrow damage.",
+    "max_level": 5,
+    "weight": 10,
+    "anvil_cost": 1,
+    "min_cost": {
+     "base": 1,
+     "per_level_above_first": 10
+    },
+    "max_cost": {
+     "base": 16,
+     "per_level_above_first": 10
+    },
+    "slots": [
+     "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "primary_items": null,
+    "exclusive_set": "#minecraft:exclusive_set/crossbow",
+    "effects": [
+     {
+      "component": "minecraft:damage",
+      "type": "minecraft:add",
+      "value": "0.5 (+0.5 per level)"
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:slayer",
+    "ns": "enigmaticlegacyplus",
+    "path": "slayer",
+    "name": "Slayer",
+    "description": "Increases damage against monsters.",
+    "max_level": 5,
+    "weight": 5,
+    "anvil_cost": 2,
+    "min_cost": {
+     "base": 5,
+     "per_level_above_first": 8
+    },
+    "max_cost": {
+     "base": 25,
+     "per_level_above_first": 8
+    },
+    "slots": [
+     "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/weapon",
+    "primary_items": "#minecraft:enchantable/sword",
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "effects": [
+     {
+      "component": "minecraft:damage",
+      "type": "minecraft:add",
+      "value": "1.5 (+1.5 per level)"
+     },
+     {
+      "component": "minecraft:post_attack",
+      "type": "minecraft:apply_mob_effect",
+      "value": null
+     }
+    ]
+   },
+   {
+    "id": "enigmaticlegacyplus:sorrow_curse",
+    "ns": "enigmaticlegacyplus",
+    "path": "sorrow_curse",
+    "name": "Curse of Sorrow",
+    "description": "Sometimes applies random debuffs when receiving damage.",
+    "max_level": 1,
+    "weight": 1,
+    "anvil_cost": 8,
+    "min_cost": {
+     "base": 25,
+     "per_level_above_first": 0
+    },
+    "max_cost": {
+     "base": 50,
+     "per_level_above_first": 0
+    },
+    "slots": [
+     "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "primary_items": null,
+    "exclusive_set": null,
+    "effects": []
+   },
+   {
+    "id": "enigmaticlegacyplus:wrath",
+    "ns": "enigmaticlegacyplus",
+    "path": "wrath",
+    "name": "Wrath",
+    "description": "Increases damage against everything.",
+    "max_level": 5,
+    "weight": 10,
+    "anvil_cost": 1,
+    "min_cost": {
+     "base": 1,
+     "per_level_above_first": 8
+    },
+    "max_cost": {
+     "base": 25,
+     "per_level_above_first": 8
+    },
+    "slots": [
+     "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/trident",
+    "primary_items": null,
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "effects": [
+     {
+      "component": "minecraft:damage",
+      "type": "minecraft:add",
+      "value": "1.25 (+1.25 per level)"
+     }
+    ]
+   }
+  ],
+  "biomes": [],
+  "dimensions": [],
+  "structures": [
+   {
+    "id": "enigmaticlegacyplus:spellstone_hut",
+    "ns": "enigmaticlegacyplus",
+    "path": "spellstone_hut",
+    "name": "Spellstone Hut",
+    "type": "enigmaticlegacyplus:spellstone_hut",
+    "biomes": "#enigmaticlegacyplus:has_structure/spellstone_hut",
+    "step": "underground_structures",
+    "terrain_adaptation": "bury",
+    "start_pool": null,
+    "max_distance": null,
+    "size": null,
+    "spawn_overrides": [],
+    "placement": {
+     "spacing": 32,
+     "separation": 11,
+     "placement": "minecraft:random_spread",
+     "frequency": null
+    }
+   }
+  ],
+  "advancements": [
+   {
+    "id": "enigmaticlegacyplus:main/abyssal_heart",
+    "title": "Eldritch Horror",
+    "description": "Slay the Ender Dragon and claim Heart of the Abyss",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/the_twist",
+    "icon": "enigmaticlegacyplus:abyssal_heart",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/all_spellstone",
+    "title": "Stone Grimoire",
+    "description": "Collect every unique spellstone  Would there have been a way to combine them all...",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/discover_spellstone",
+    "icon": "enigmaticlegacyplus:spellcore",
+    "criteria": [
+     "has_spellstone1",
+     "has_spellstone2",
+     "has_spellstone3",
+     "has_spellstone4",
+     "has_spellstone5",
+     "has_spellstone6",
+     "has_spellstone7",
+     "has_spellstone8",
+     "has_spellstone9"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/antique_bag_filled",
+    "title": "Packed to the Brim",
+    "description": "Fill the book bag with books",
+    "frame": "task",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/unholy_grail",
+    "icon": "enigmaticlegacyplus:antique_bag",
+    "criteria": [
+     "full_filled"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/astral_dust",
+    "title": "Primal Catalyst",
+    "description": "Discover the Astral Dust",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/ichor_droplet",
+    "icon": "enigmaticlegacyplus:astral_dust",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/chaos_elytra",
+    "title": "Arrogance to all beings",
+    "description": "Take the Arrogance of Chaos, overlooking sentient beings from the sky",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/abyssal_heart",
+    "icon": "enigmaticlegacyplus:chaos_elytra",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/chaos_explosion_kill",
+    "title": "Descending Chaos",
+    "description": "Strike the ground with Chaos Pride and kill 10 monsters at once",
+    "frame": "challenge",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/chaos_elytra",
+    "icon": "enigmaticlegacyplus:chaos_elytra",
+    "criteria": [
+     "chaos_kill"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/cursed_ring",
+    "title": "Darkness Lies Ahead",
+    "description": "Equip the Ring and embrace the Seven Curses",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:cursed_ring",
+    "criteria": [
+     "equipped_cursed_ring"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/cursed_scroll",
+    "title": "More Curses, No Problems",
+    "description": "Create Scroll of a Thousand Curses",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/darkest_scroll",
+    "icon": "enigmaticlegacyplus:cursed_scroll",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/darkest_scroll",
+    "title": "Deeper Than the Dark Ink",
+    "description": "Obtain Darkest Scroll",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/discover_scroll",
+    "icon": "enigmaticlegacyplus:darkest_scroll",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/desolation_ring",
+    "title": "Reality is Bent",
+    "description": "Forge The Burden of Desolation, and bear it",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/abyssal_heart",
+    "icon": "enigmaticlegacyplus:desolation_ring",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/discover_scroll",
+    "title": "Supersolid Wizard",
+    "description": "Obtain your first Arcane Scroll",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:blank_scroll",
+    "criteria": [
+     "has_scroll"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/discover_spellstone",
+    "title": "Elemental Might",
+    "description": "Discover your first Spellstone",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:golem_heart",
+    "criteria": [
+     "has_spellstone"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/earth_promise",
+    "title": "Never Make Promises Easily",
+    "description": "Obtain a promise from the Earth",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/sacred_crystal",
+    "icon": "enigmaticlegacyplus:earth_promise",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/eldritch_amulet",
+    "title": "A Glimpse of Chaos",
+    "description": "Forge The Testament of Contempt, and master the Abyss Corrosion",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/abyssal_heart",
+    "icon": "enigmaticlegacyplus:eldritch_amulet",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/escape_scroll",
+    "title": "Decoy Escape?",
+    "description": "Trigger the Scroll of Posthumous Recall",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/recall_potion",
+    "icon": "enigmaticlegacyplus:escape_scroll",
+    "criteria": [
+     "trigger_escape_scroll"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/etherium_core",
+    "title": "Heart of the Ethereal",
+    "description": "Forge The Etherium Core",
+    "frame": "task",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/spellstone_table",
+    "icon": "enigmaticlegacyplus:etherium_core",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/etherium_gear",
+    "title": "The Ultimate Shield",
+    "description": "Create a full set of armor made of etherium",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/etherium_ingot",
+    "icon": "enigmaticlegacyplus:etherium_chestplate",
+    "criteria": [
+     "has_boots",
+     "has_chestplate",
+     "has_helmet",
+     "has_leggings"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/etherium_ingot",
+    "title": "Not So Ethereal",
+    "description": "Smelt the Etherium Ingot",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/astral_dust",
+    "icon": "enigmaticlegacyplus:etherium_ingot",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/etherium_tool",
+    "title": "Aggressive Landscape Designer",
+    "description": "Craft any tool out of etherium",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/etherium_ingot",
+    "icon": "enigmaticlegacyplus:etherium_hammer",
+    "criteria": [
+     "has_hammer",
+     "has_scythe",
+     "has_sword"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/fabulous_scroll",
+    "title": "Touch the Skies",
+    "description": "Obtain Grace of the Creator",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/heaven_scroll",
+    "icon": "enigmaticlegacyplus:fabulous_scroll",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/guardian_heart",
+    "title": "The Baleful Eye",
+    "description": "Slay the Elder Guardian and claim Heart of the Guardian",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/cursed_ring",
+    "icon": "enigmaticlegacyplus:guardian_heart",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/heaven_scroll",
+    "title": "Heavenly Scroll",
+    "description": "Find or create Gift of the Heaven",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/discover_scroll",
+    "icon": "enigmaticlegacyplus:heaven_scroll",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/ichor_droplet",
+    "title": "Golden Blood",
+    "description": "Discover the Ichor Droplet",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/infernal_cinder",
+    "icon": "enigmaticlegacyplus:ichor_droplet",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/infernal_cinder",
+    "title": "Dust of the Nether",
+    "description": "Discover the Infernal Cinder",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:infernal_cinder",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/infernal_spear",
+    "title": "Blazing Blow",
+    "description": "Launch the piercing attack of Infernal Spear",
+    "frame": "task",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/infernal_cinder",
+    "icon": "enigmaticlegacyplus:infernal_spear",
+    "criteria": [
+     "use_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/lore_inscriber",
+    "title": "Lore Writer",
+    "description": "Obtain the Architect's Inkwell",
+    "frame": "task",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/unholy_grail",
+    "icon": "enigmaticlegacyplus:lore_inscriber",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/lost_engine",
+    "title": "Deadly Charging",
+    "description": "Struck by lightning while wearing Lost Engine",
+    "frame": "goal",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/discover_spellstone",
+    "icon": "enigmaticlegacyplus:lost_engine",
+    "criteria": [
+     "hit_by_lightning"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/ode_to_living",
+    "title": "Livings Favors You",
+    "description": "Create the Ode to Living Beings",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/ichor_droplet",
+    "icon": "enigmaticlegacyplus:ode_to_living",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/pure_heart",
+    "title": "Unholy Purification",
+    "description": "Create the Pure Heart",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/cursed_ring",
+    "icon": "enigmaticlegacyplus:pure_heart",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/recall_potion",
+    "title": "Gotta Get Out of Here",
+    "description": "Brew or discover the Potion of Recall",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:recall_potion",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/redemption_ring",
+    "title": "The Fate Reverses",
+    "description": "Break the Ring of Seven Curses to obtain redemption",
+    "frame": "challenge",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/the_bless",
+    "icon": "enigmaticlegacyplus:redemption_ring",
+    "criteria": [
+     "equipped_redemption_ring"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/root",
+    "title": "Enigmatic Legacy",
+    "description": "Remains of the former times",
+    "frame": "task",
+    "hidden": false,
+    "parent": null,
+    "icon": "enigmaticlegacyplus:the_acknowledgment",
+    "criteria": [
+     "has_book",
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/sacred_crystal",
+    "title": "Defiled yet Sacred",
+    "description": "Kill the Purified Ichor Spirit in the Nether, Obtain the Sacred Crystal",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/pure_heart",
+    "icon": "enigmaticlegacyplus:ichor_curse_bottle",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/spellstone_table",
+    "title": "Spellstone Regenerating",
+    "description": "Discover or create the Spellstone Table",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/discover_spellstone",
+    "icon": "enigmaticlegacyplus:spellstone_table",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/the_bless",
+    "title": "The Light of Grace",
+    "description": "Create The Bless using Sacred Crystal",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/sacred_crystal",
+    "icon": "enigmaticlegacyplus:the_bless",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/the_cube",
+    "title": "This Cube Cured My Mortality",
+    "description": "Force all spellstones into a shape equally powerful and unnatural, creating Non-Euclidean Cube",
+    "frame": "challenge",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/all_spellstone",
+    "icon": "enigmaticlegacyplus:the_cube",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/the_infinitum",
+    "title": "Beyond Time and Space",
+    "description": "Acquire The Infinitum and become the herald of the Abyss",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/abyssal_heart",
+    "icon": "enigmaticlegacyplus:the_infinitum",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/the_twist",
+    "title": "Fateful Twist",
+    "description": "Slay the Wither and create The Twist using Nefarious Essence",
+    "frame": "goal",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/twisted_heart",
+    "icon": "enigmaticlegacyplus:the_twist",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/twisted_heart",
+    "title": "It Will Betray You",
+    "description": "Create the Twisted Heart",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/cursed_ring",
+    "icon": "enigmaticlegacyplus:twisted_heart",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/twisted_mirror",
+    "title": "Warped Beauty",
+    "description": "Create the Twisted Mirror",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/twisted_heart",
+    "icon": "enigmaticlegacyplus:twisted_mirror",
+    "criteria": [
+     "has_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/ultimate_potion",
+    "title": "Master of the Brewing Stand",
+    "description": "Brew your first ultimate potion",
+    "frame": "task",
+    "hidden": false,
+    "parent": "enigmaticlegacyplus:main/astral_dust",
+    "icon": "minecraft:potion",
+    "criteria": [
+     "brewed_potion1",
+     "brewed_potion10",
+     "brewed_potion11",
+     "brewed_potion12",
+     "brewed_potion13",
+     "brewed_potion14",
+     "brewed_potion15",
+     "brewed_potion16",
+     "brewed_potion2",
+     "brewed_potion3",
+     "brewed_potion4",
+     "brewed_potion5",
+     "brewed_potion6",
+     "brewed_potion7",
+     "brewed_potion8",
+     "brewed_potion9"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/unholy_grail",
+    "title": "Ignoring the Advices",
+    "description": "Drink from Unholy Grail",
+    "frame": "task",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/root",
+    "icon": "enigmaticlegacyplus:unholy_grail",
+    "criteria": [
+     "use_item"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "enigmaticlegacyplus:main/unholy_grail_worthy",
+    "title": "Unholy Supremacy",
+    "description": "Harness the power of Unholy Grail... but at what cost?",
+    "frame": "goal",
+    "hidden": true,
+    "parent": "enigmaticlegacyplus:main/unholy_grail",
+    "icon": "enigmaticlegacyplus:unholy_grail",
+    "criteria": [
+     "use_item"
+    ],
+    "rewards": null
+   }
+  ],
+  "commands": [
+   {
+    "syntax": "/cursetime get",
+    "permission": 4,
+    "source": "auviotre.enigmatic.legacy.contents.command.CurseTimeCommand"
+   },
+   {
+    "syntax": "/cursetime get <player>",
+    "permission": 4,
+    "source": "auviotre.enigmatic.legacy.contents.command.CurseTimeCommand"
+   },
+   {
+    "syntax": "/cursetime get <player> <reverse>",
+    "permission": 4,
+    "source": "auviotre.enigmatic.legacy.contents.command.CurseTimeCommand"
+   },
+   {
+    "syntax": "/cursetime set <player> <ticks>",
+    "permission": 4,
+    "source": "auviotre.enigmatic.legacy.contents.command.CurseTimeCommand"
+   },
+   {
+    "syntax": "/cursetime set <player> <ticks> <reverse>",
+    "permission": 4,
+    "source": "auviotre.enigmatic.legacy.contents.command.CurseTimeCommand"
+   }
+  ],
+  "gamerules": [],
+  "command_messages": [
+   {
+    "key": "message.enigmaticlegacy.command.getcursetime",
+    "text": "%1$s is bearing the Seven Curses for %2$s ticks, or %3$s of their time in this world."
+   },
+   {
+    "key": "message.enigmaticlegacy.command.getnocursetime",
+    "text": "%1$s is not bearing the Seven Curses for %2$s ticks, or %3$s of their time in this world."
+   },
+   {
+    "key": "message.enigmaticlegacy.command.setcursetime",
+    "text": "%1$s's time with Seven Curses was set to %2$s ticks."
+   },
+   {
+    "key": "message.enigmaticlegacy.command.setnocursetime",
+    "text": "%1$s's time without Seven Curses was set to %2$s ticks."
+   }
+  ],
+  "configs": [
+   23004,
+   23005,
+   23006,
+   23007,
+   23008,
+   23009,
+   23010,
+   23011,
+   23012,
+   23013,
+   23014,
+   23015,
+   23016,
+   23017,
+   23018,
+   23019,
+   23020,
+   23021,
+   23022,
+   23023,
+   23024,
+   23025,
+   23026,
+   23027,
+   23028,
+   23029,
+   23030,
+   23031,
+   23032,
+   23033,
+   23034,
+   23035,
+   23036,
+   23037,
+   23038,
+   23039,
+   23040,
+   23041,
+   23042,
+   23043,
+   23044,
+   23045,
+   23046,
+   23047,
+   23048,
+   23049,
+   23050,
+   23051,
+   23052,
+   23053,
+   23054,
+   23055,
+   23056,
+   23057,
+   23058,
+   23059,
+   23060,
+   23061,
+   23062,
+   23063,
+   23064,
+   23065,
+   23066,
+   23067,
+   23068,
+   23069,
+   23070,
+   23071,
+   23072,
+   23073,
+   23074,
+   23075,
+   23076,
+   23077,
+   23078,
+   23079,
+   23080,
+   23081,
+   23082,
+   23083,
+   23084,
+   23085,
+   23086,
+   23087,
+   23088,
+   23089,
+   23090,
+   23091,
+   23092,
+   23093,
+   23094,
+   23095,
+   23096,
+   23097,
+   23098,
+   23099,
+   23100,
+   23101,
+   23102,
+   23103,
+   23104,
+   23105,
+   23106,
+   23107,
+   23108,
+   23109,
+   23110,
+   23111,
+   23112,
+   23113,
+   23114,
+   23115,
+   23116,
+   23117,
+   23118,
+   23119,
+   23120,
+   23121,
+   23122,
+   23123,
+   23124,
+   23125,
+   23126,
+   23127,
+   23128,
+   23129,
+   23130,
+   23131,
+   23132,
+   23133,
+   23134,
+   23135,
+   23136,
+   23137,
+   23138,
+   23139,
+   23140,
+   23141,
+   23142,
+   23143,
+   23144,
+   23145,
+   23146,
+   23147,
+   23148,
+   23149,
+   23150,
+   23151,
+   23152,
+   23153,
+   23154,
+   23155,
+   23156,
+   23157,
+   23158,
+   23159,
+   23160,
+   23161,
+   23162,
+   23163,
+   23164,
+   23165,
+   23166,
+   23167,
+   23168,
+   23169,
+   23170,
+   23171,
+   23172,
+   23173,
+   23174,
+   23175,
+   23176,
+   23177,
+   23178,
+   23179,
+   23180,
+   23181,
+   23182,
+   23183
+  ]
+ },
+ "guidebooks": [
+  {
+   "id": "enigmaticlegacyplus:the_acknowledgment",
+   "name": "The Acknowledgment",
+   "landing": "In front of you lies the well of great knowledge, a place where some of this world's greatest mysteries belong, scrupulously researched and carefully cataloged.\n\nAs your journey continues and the world reveals itself to you, you may revisit and behold knowledge you gathered within these pages.",
+   "categories": [
+    {
+     "id": "enigmaticlegacyplus:world",
+     "name": "The World",
+     "description": "Some choose to mindlessly scavenge whatever they come across for treasures, leaving behind anything else. That isn't an entirely unjustified path, but does it make one any better than those monsters blindly seeking blood in the night?... Sometimes, if you look just a bit closer, ruins and traces of the former ages can tell you a lot about long history before your advent.",
+     "icon": "enigmaticlegacyplus:lore_fragment",
+     "sortnum": 0,
+     "entries": [
+      {
+       "name": "Loss of Soul",
+       "icon": "enigmaticlegacyplus:soul_crystal",
+       "sortnum": 10,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "Every death comes with its own tolls, but there is one far more significant than all others you had to face before.\n\nIt does appear that every time you die in this world, a part of your very soul is separated from you, remaining in the place of your demise. It doesn't stay ethereal for too long, instead quickly manifesting itself into physical",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Crystal",
+         "text": "reality, in form known as the Soul Crystal. Luckily for you, being a part of this reality actually makes it less vulnerable than otherwise.\n\nSoul Crystals would float in the air, invulnerable and not reacting to any force acting upon them, as though being only a part of it, soul of",
+         "item": "enigmaticlegacyplus:soul_crystal",
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "the demigod can only be destroyed by something of a higher nature. Not even other demigods can hope to claim or destroy your crystals.\n\nWith every fragment of your soul lost, you vitality fades, you become weaker and easier to kill. But should you approach your Soul Crystal, and it will lean towards you, and lost fragment of your soul will be instantly freed from its crystal prison, fusing together with your being again.",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "Hopefully, even under the worst circumstances, you won't lose all your life force. As fabric of your soul thins out, it becomes more and more resistant to being torn apart one more time.\n\nIt is safe to assume that at some point you will not be able to lose any more of your soul fragments, no matter how many times you die - though you would be left in an incredibly vulnerable state to any physical threat by then.",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "enigmaticlegacyplus:materials",
+     "name": "Resources & Materials",
+     "description": "You are perfectly familiar with most mundane materials and resources, which this world holds plenty of. But should you dig a little further - and you might discover things even you have never beheld before.\n\nAs you keep seeking new materials to forge better tools and armor from, it would be worth to denote unusual properties of some of them.",
+     "icon": "enigmaticlegacyplus:astral_dust",
+     "sortnum": 10,
+     "entries": [
+      {
+       "name": "Heart of the Earth",
+       "icon": "enigmaticlegacyplus:earth_heart",
+       "sortnum": 20,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "Similar to how there is Heart of the Sea, an item bound with nature of endless oceans and seas covering surface of the Overworld, there is Heart of the Earth, born within its rocky depths and encapsulating some of their raw energy. It can be found in deepest rooms and halls of dungeons deep below the Overworld's surface, lost and forgotten in smothering darkness.",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Heart",
+         "text": "The elemental power this heart holds bears resemblance to that stored within spellstones, but unlike latter it isn't originated from primordial chaos that spelled the beginning of all worlds, instead being born much later, slowly condensating in the earth's crust during many geological eons.",
+         "item": "enigmaticlegacyplus:earth_heart",
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Fragment",
+         "text": "The resulting shape doesn't attend its bearer and does not allow to freely channel unrefined energy stored within, but may serve as core for powerful relics requiring such energy if utilized properly.",
+         "item": "enigmaticlegacyplus:earth_heart_fragment",
+         "recipe": null
+        },
+        {
+         "type": "empty",
+         "title": null,
+         "text": "",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Infernal Cinder",
+       "icon": "enigmaticlegacyplus:infernal_cinder",
+       "sortnum": 30,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "The blazing flames of hell have left such ashes scattered throughout the Nether. The cinder still flaunt their wrath, seeking an outlet to vent.\n\nYou can use the cinder to create many items, but it's obvious that they are all a bit extreme and full of personality. If you can't handle them well, don't try them easily.",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Cinder",
+         "text": "Meanwhile, the compatibility between the cinder and curse is excellent. If you are carrying some curses at the same time, feel free to make bold attempts, as it will not let you down.",
+         "item": "enigmaticlegacyplus:infernal_cinder",
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Ichor Droplet",
+       "icon": "enigmaticlegacyplus:ichor_droplet",
+       "sortnum": 40,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "For this so-called \"blood of gods\", you have finally discovered a stable source to obtain, which is to hunt for screaming ghasts floating in the Nether.\n\nThe power of the curse triggered the tiny residual \"divinity\" in the blood and tears of the ghast, allowing the Ichor to reappear in front of everyone.",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Ichor",
+         "text": "However, do not ponder where these 'divinity' actually comes from, as it has long been a secret of ancient times. For you now, all you need to think about is how to utilize and develop this unexpected product. For example, brewing some extreme potions.",
+         "item": "enigmaticlegacyplus:ichor_droplet",
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "The Etherium",
+       "icon": "enigmaticlegacyplus:etherium_ingot",
+       "sortnum": 50,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "Despite the name is has, this material is physically solid. Very.\n\nStories have turned out to be true. And even more - they were not exaggerating the truth. Etherium truly has most of the wondrous properties that were assigned to it by pieces of lore you happened across earlier. It has quite high melting point, being just",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "blasting",
+         "title": null,
+         "text": "as resistant to fire and lava as netherite is, while significantly superseding its durability. Apart from that, this metal is overfilled with pulsing energy, urging you to unleash it in any shape or form you can come up with.\n\nAnd for being alike you, capability to create shape and form is beyond questioning.",
+         "item": null,
+         "recipe": "enigmaticlegacyplus:etherium_ingot_from_blasting"
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "This world will soon behold the might of your newly forged etherium tools.",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "empty",
+         "title": null,
+         "text": "",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Astral Dust",
+       "icon": "enigmaticlegacyplus:astral_dust",
+       "sortnum": 60,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "Concealed within the rooms of End Cities, this elusive substance does possess incredibly interesting properties. Power of all elements seems to be infused and mixed within it, somehow holding itself in relatively stable form. Astral Dust resembles creation itself, chaotic and impermanent, yet somehow frozen in time, allowing you to behold all",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "Za Dusto",
+         "text": "beauty of its single instant.\n\nThe arcane power that it holds might be immense, but it requires to be carefully treated and molded to be useful in a constructive way. As time goes by, however, there is no doubt you will discover many possible applications it can have.",
+         "item": "enigmaticlegacyplus:astral_dust",
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Heart of the Cosmos",
+       "icon": "enigmaticlegacyplus:cosmic_heart",
+       "sortnum": 70,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "With a fine selection of arcane ingredients, those which contain the power of other dimensions, you can alter the earthly nature of Heart of the Sea, transforming it into something different... Vastly more powerful.\n\nThe power of cosmos itself now rests at the palm of your hand. Only time will tell what unimaginable feats can be",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "crafting",
+         "title": "",
+         "text": "achieved with it, what fabulous artifacts can be powered with its reality-bending energies.\n\nBut one thing is for certain - the world will tremble beneath the steps of their bearer.",
+         "item": null,
+         "recipe": "enigmaticlegacyplus:cosmic_heart"
+        }
+       ]
+      },
+      {
+       "name": "Twisted Heart",
+       "icon": "enigmaticlegacyplus:twisted_heart",
+       "sortnum": 100,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "...and thus, it was you who have chosen this fate. You have surely acknowledged what sorrow and regret this choice will cost you many times in the long journey ahead, but you still have done it. Do you even know why?\n\nRegardless, there is no way back - only ahead, in an attempt to harness the power of great curses you are now",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "crafting",
+         "title": "",
+         "text": "bound with. This task is hopefully not as complicated as it might seem if you can gain access to required ingredients, as curses themselves seem to actively seek new ways to spread tendrils of their corruption",
+         "item": null,
+         "recipe": "enigmaticlegacyplus:twisted_heart"
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "into the world around you - they just require a little assistance from you.\n\nAs soon as you laid claim upon Heart of the Earth, you have noticed that it resonates with dark power of the ring, setting pulsations of pure energy within it slightly out of tact. This influence is hopefully not strong enough to instantly tarnish the heart, therefore rendering it unusable for regular crafting. But with small amount of carefully selected",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "arcane ingredients and a fraction of your demigod power involved, you can reinforce the link between the heart's core and curses that you bear, allowing latter to corrupt it and transform into something entirely different.\n\nTwisted Heart is a product of this unholy ritual, an artifact incarnating part of the great curse, darker and more powerful than what Heart of the Earth used to contain.",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Nefarious Essence",
+       "icon": "enigmaticlegacyplus:evil_essence",
+       "sortnum": 110,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "While the Nether Star is a core of Wither's physical vessel, this substance is a manifestation of pure energy of its seemingly indestructible and perpetual soul. A tiny fraction of that energy, but it sure has immeasurable potential in your hands.\n\nIt seems to have strange connection to your own cursed being, which is why you were",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Essence",
+         "text": "able to obtain this essence in the first place. It draws closer to you as you approach, as if bent by desire to latch onto you. Perhaps, you could allow it to do so?... No, what a dumb idea that would be.\n\nBut one thing is beyond questioning - this matter contains tremendous amounts",
+         "item": "enigmaticlegacyplus:evil_essence",
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "of dark, twisted power, that you just so happen to be capable of harnessing. You will surely find something to do with it.",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Pure Heart",
+       "icon": "enigmaticlegacyplus:pure_heart",
+       "sortnum": 120,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "With different materials, you may be able to try a production different from Twisted Heart. The combination of hidden dark pollution and faint divinity gave birth to this eerie creation with bright appearance.\n\nUnlike another type of item, the Pure Heart and its creations typically provide protection and assistance,",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "crafting",
+         "title": "",
+         "text": "rather than aggressive power.\n\nBut although it is a divine creation, it needs to rely on the power of curses, which is too ironic. So when using these items, please also pay attention to the hidden dangers.",
+         "item": null,
+         "recipe": "enigmaticlegacyplus:pure_heart"
+        }
+       ]
+      },
+      {
+       "name": "Sacred Crystal",
+       "icon": "enigmaticlegacyplus:sacred_crystal",
+       "sortnum": 130,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "Tear apart those seemingly sacred creations and seize the cores of those Pure Ichor Spirits. The crystal is filled with a power unlike any other, pure and sacred, but the curse within your body does not seem to repel it. \n\nThe Pure Ichor Spirit's bizarre resistance and recovery effects have been perfectly inherited in this item, which",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Crystal",
+         "text": "can be used to craft some defense-themed items.\n\nHowever, what is intriguing is the relationship between the curse and the power inherent in it. Can it be resisted? Can it be reversed? Can it be replaced?...",
+         "item": "enigmaticlegacyplus:sacred_crystal",
+         "recipe": null
+        }
+       ]
+      },
+      {
+       "name": "Heart of the Abyss",
+       "icon": "enigmaticlegacyplus:abyssal_heart",
+       "sortnum": 200,
+       "pages": [
+        {
+         "type": "text",
+         "title": null,
+         "text": "When this unearthly abomination fell into your hands for the first time, description-defying mix of feelings have overcome your mind, among which there was a place for terror and excitement, admiration and disgust. The gaze of its lonely eye befell you with intent impossible to comprehend, but once initial wave of emotions retreated - you have",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "spotlight",
+         "title": "The Heart",
+         "text": "concluded that it poses no threat to you.\n\nStill, you know not what it truly is, and where it came from. Perhaps your insufferable existence, and efforts to live in spite of Seven Curses were noticed by some unnameable eldritch power, and through your",
+         "item": "enigmaticlegacyplus:abyssal_heart",
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "damnable being it have chosen to channel itself into the world. Perhaps it is a mere accident, a fluke in reality itself that allowed something like this to appear. Perhaps it is your ailing mind that have conceived this horror in some nightmarish fever, and with its growth - corruption of the curses have managed to manifest it into the mortal realm?\n\nPerhaps it's best to never know, for some truths are much",
+         "item": null,
+         "recipe": null
+        },
+        {
+         "type": "text",
+         "title": null,
+         "text": "more unsettling than anything a man's imagination can come up with.\n\nRegardless, now you are the rightful owner of this thing. And it will not be long before you can put it to some unimaginably violent, frightening use... The world will suffer tenfold for all the suffering it caused to you.",
+         "item": null,
+         "recipe": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "extra": {}
+}

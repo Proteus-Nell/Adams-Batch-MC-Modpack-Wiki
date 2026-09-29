@@ -1,0 +1,17 @@
+# Labyrinth Lamp Bottom Left
+
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Blocks](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Labyrinth Lamp Bottom Left](../../assets/icons/tensura/item/labyrinth_lamp_bl.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:labyrinth_lamp_bl` |
+
+</div>
+
+## Tags
+
+`tensura:labyrinth_blocks`

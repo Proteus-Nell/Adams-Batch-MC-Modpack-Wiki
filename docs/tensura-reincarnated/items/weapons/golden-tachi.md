@@ -1,0 +1,28 @@
+# Golden Tachi
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Items](../index.md) &rsaquo; [Weapons](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Golden Tachi](../../../assets/icons/tensura/item/golden_tachi.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:golden_tachi` |
+| **Category** | Weapons |
+
+</div>
+
+## Obtaining
+
+### Recipes
+
+**Smithing Bench** &rarr; ![](../../../assets/icons/tensura/item/golden_tachi.png) [Golden Tachi](golden-tachi.md)
+
+Ingredients:  [Gold Ingot](https://minecraft.wiki/w/Gold_Ingot) x3,  [Stick](https://minecraft.wiki/w/Stick)
+
+Requires schematic: ![](../../../assets/icons/tensura/item/gold_gear_schematic.png) [Gold Gear Schematic](../schematics/gold-gear-schematic.md), ![](../../../assets/icons/tensura/item/long_sword_schematic.png) [Long Sword Schematic](../schematics/long-sword-schematic.md), ![](../../../assets/icons/tensura/item/japanese_sword_schematic.png) [Japanese Sword Schematic](../schematics/japanese-sword-schematic.md)
+
+## Tags
+
+`minecraft:piglin_loved`, `tensura:tachis`
