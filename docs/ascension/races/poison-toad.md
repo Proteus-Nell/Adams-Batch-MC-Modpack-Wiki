@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of poison_toad (evolution ep) | 100% |
+| Reach Existence Points of 250,000 | 100% |
 
 ### Evolution tree
 

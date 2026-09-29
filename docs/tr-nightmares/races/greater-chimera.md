@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 50% |
+| Reach Existence Points of 20,000 | 50% |
 | Consume 5 of ENCHANTED_GOLDEN_APPLE | 50% |
 
 ### Evolution tree
@@ -58,14 +58,14 @@ flowchart LR
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.2 | add |
+| Max Health | 50 | add |
+| Max Spiritual Health | 180 | add |
+| Attack Damage | 0.8 | add |
+| Attack Speed | 0 | add |
+| Knockback Resistance | 0.15 | add |
+| Movement Speed | 0.01 | add |
+| Swim Speed Multiplier | 0.05 | add |
 
 ## Stats (config defaults)
 

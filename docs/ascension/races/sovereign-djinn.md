@@ -28,7 +28,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of sovereign_djinn (evolution ep) | 50% |
+| Reach Existence Points of 2,000,000 | 50% |
 | Consume 10 of [Dragon Essence](../../tensura-reincarnated/items/materials/dragon-essence.md) | 50% |
 
 ### Evolution tree

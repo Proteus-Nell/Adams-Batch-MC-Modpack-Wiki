@@ -21,6 +21,10 @@
 
 > A graceful and elegant evolved Elemental that wields powerful Lord-level Spiritual Magic, capable of going toe-to-toe with Ultimate Skills.
 
+> [!NOTE]
+> **Pack note:** this pack changes the defaults below.
+> - `General.refresh` is **false** (mod default: true)
+
 ## Evolution
 
 - **Evolves from:** [Greater Elemental](greater-elemental.md), [Lesser Elemental](lesser-elemental.md), [Medium Elemental](medium-elemental.md), [Majin Elemental Lord](majin-lord.md)
@@ -147,11 +151,11 @@ Set in [`config/mysticism/race/elemental_config.toml`](../configs/config-mystici
 
 Set in [`config/mysticism/general.toml`](../configs/config-mysticism-general.md).
 
-| Option | Default | Description |
-|---|---|---|
-| `General.refresh` | true | Should the Tensura configurations add Mysticism's skills and races on next launch? |
-| `General.flightSpeed` | 0.05 | The default flying speed of all Mysticism races. |
-| `General.seCostMultiplier` | 4 | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |
+| Option | Default | This pack | Description |
+|---|---|---|---|
+| `General.refresh` | true | false | Should the Tensura configurations add Mysticism's skills and races on next launch? |
+| `General.flightSpeed` | 0.05 | | The default flying speed of all Mysticism races. |
+| `General.seCostMultiplier` | 4 | | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |
 
 ## Tags
 

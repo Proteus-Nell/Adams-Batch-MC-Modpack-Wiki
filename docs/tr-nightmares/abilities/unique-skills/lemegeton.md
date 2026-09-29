@@ -11,7 +11,7 @@
 | **Type** | Unique Skill |
 | **ID** | `trnightmare:lemegeton` |
 | **Modes** | 3 |
-| **Cooldowns (s)** | max(0 (cool down), cancel duration) |
+| **Cooldowns (s)** | max(0 (cool down), 300), 60, 300 |
 | **Activation** | Toggle, Press, Hold |
 
 </div>
@@ -30,9 +30,8 @@
 
 | When | Magicule (MP) | Aura (AP) |
 |---|---|---|
-| Always | *set by config (magicule cost seal)* |  |
-| Always | *set by config (magicule start cost key)* |  |
-| Always | *set by config (magicule cost cancel)* |  |
+| Always | 50,000 |  |
+| Always | 5,000 |  |
 | Always | 50 |  |
 
 ## How it works

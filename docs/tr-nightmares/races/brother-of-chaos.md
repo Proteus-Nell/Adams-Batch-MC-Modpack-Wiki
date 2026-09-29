@@ -29,9 +29,9 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 34% |
-| Consume essence requirement holy + 10 + 10 + 35 of [Holy Essence](../items/materials/holy-essence.md) | 33% |
-| Consume essence requirement daemon + 55 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 33% |
+| Reach Existence Points of 2,000,000 | 34% |
+| Consume 90 of [Holy Essence](../items/materials/holy-essence.md) | 33% |
+| Consume 90 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 33% |
 
 ### Evolution tree
 
@@ -77,14 +77,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 980 | add |
+| Max Spiritual Health | 6,000 | add |
+| Attack Damage | 14 | add |
+| Attack Speed | 0 | add |
+| Knockback Resistance | 1 | add |
+| Movement Speed | 0.11 | add |
+| Swim Speed Multiplier | 0.11 | add |
 
 ## Stats (config defaults)
 

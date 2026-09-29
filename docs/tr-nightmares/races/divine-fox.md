@@ -9,13 +9,13 @@
 | **ID** | `trnightmare:divine_fox` |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 2,000 - 4,000 |
-| **Health bonus** | 15 |
-| **Spiritual health bonus** | 60 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
-| **EP to evolve into** | 0 |
+| **Aura** | 800,000 - 1,400,000 |
+| **Magicule** | 1,600,000 - 2,800,000 |
+| **Health bonus** | 999 |
+| **Spiritual health bonus** | 6,541 |
+| **Attack damage bonus** | 3.6 |
+| **Movement speed bonus** | 0.06 |
+| **EP to evolve into** | 2,000,000 |
 
 </div>
 
@@ -31,7 +31,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 2,000,000 | 100% |
 
 ### Evolution tree
 
@@ -67,14 +67,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 999 | add |
+| Max Spiritual Health | 6,541 | add |
+| Attack Damage | 3.6 | add |
+| Attack Speed | 0.45 | add |
+| Knockback Resistance | 0.85 | add |
+| Movement Speed | 0.06 | add |
+| Swim Speed Multiplier | 0.15 | add |
 
 ## Stats (config defaults)
 
@@ -82,19 +82,6 @@ Set in [`config/nightmare/race/mystic_fox_config.toml`](../configs/config-nightm
 
 | Option | Default | Description |
 |---|---|---|
-| `DivineFox.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `DivineFox.minAura` | 1,000 | Minimal aura. |
-| `DivineFox.maxAura` | 2,000 | Maximum aura. |
-| `DivineFox.minMagicule` | 2,000 | Minimal magicule. |
-| `DivineFox.maxMagicule` | 4,000 | Maximum magicule. |
-| `DivineFox.size` | 0 | Bonus Size. |
-| `DivineFox.maxHealth` | 15 | Bonus Max Health. |
-| `DivineFox.maxSpiritualHealth` | 60 | Bonus Max Spiritual Health. |
-| `DivineFox.attack` | 0 | Bonus Attack Damage. |
-| `DivineFox.attackSpeed` | 0 | Bonus Attack Speed. |
-| `DivineFox.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `DivineFox.movementSpeed` | 0 | Bonus Movement Speed. |
-| `DivineFox.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `DivineFox.epRequirement` | 2,000,000 |  |
 | `DivineFox.minAura` | 800,000 |  |
 | `DivineFox.maxAura` | 1,400,000 |  |

@@ -31,7 +31,7 @@ A large Tensura addon with hundreds of skills (including God-class Ultimates), n
 | [Advancements](advancements/index.md) | 2 |
 | [Mechanics](mechanics/index.md) | guide |
 | [Commands](commands/index.md) | 164 |
-| [Configs](configs/index.md) | 5,879 options |
+| [Configs](configs/index.md) | 5,316 options |
 
 ### Abilities at a glance
 

@@ -9,12 +9,12 @@
 | **ID** | `trnightmare:lesser_zombie_dragon` |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 3,000 - 6,000 |
-| **Health bonus** | 20 |
+| **Aura** | 6,000 - 12,000 |
+| **Magicule** | 8,000 - 16,000 |
+| **Health bonus** | 45 |
 | **Spiritual health bonus** | 80 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
+| **Attack damage bonus** | 1 |
+| **Movement speed bonus** | -0.005 |
 | **EP to evolve into** | 0 |
 
 </div>
@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of min base aura + min base magicule | 100% |
+| Reach Existence Points of 14,000 | 100% |
 
 ### Evolution tree
 
@@ -125,14 +125,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.2 | add |
+| Max Health | 45 | add |
+| Max Spiritual Health | 80 | add |
+| Attack Damage | 1 | add |
+| Attack Speed | -0.25 | add |
+| Knockback Resistance | 0.2 | add |
+| Movement Speed | -0.005 | add |
+| Swim Speed Multiplier | -0.05 | add |
 
 ## Stats (config defaults)
 
@@ -141,18 +141,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | Option | Default | Description |
 |---|---|---|
 | `LesserZombieDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `LesserZombieDragon.minAura` | 1,000 | Minimal aura. |
-| `LesserZombieDragon.maxAura` | 2,000 | Maximum aura. |
-| `LesserZombieDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `LesserZombieDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `LesserZombieDragon.size` | 0 | Bonus Size. |
-| `LesserZombieDragon.maxHealth` | 20 | Bonus Max Health. |
-| `LesserZombieDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `LesserZombieDragon.attack` | 0 | Bonus Attack Damage. |
-| `LesserZombieDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `LesserZombieDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `LesserZombieDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `LesserZombieDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `LesserZombieDragon.minAura` | 6,000 |  |
 | `LesserZombieDragon.maxAura` | 12,000 |  |
 | `LesserZombieDragon.minMagicule` | 8,000 |  |

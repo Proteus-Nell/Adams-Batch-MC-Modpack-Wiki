@@ -34,8 +34,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ender_dragonewt (evolution ep) | 50% |
-| Master name | 25% |
+| Reach Existence Points of 200,000 | 50% |
+| Master [Space Transform](../../tensura-reincarnated/abilities/intrinsic-skills/space-transform.md) | 25% |
 | Be in the End | 25% |
 
 ### Evolution tree

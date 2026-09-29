@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of kindred_bloodfiend (evolution ep) | 100% |
+| Reach Existence Points of 50,000 | 100% |
 
 ### Evolution tree
 

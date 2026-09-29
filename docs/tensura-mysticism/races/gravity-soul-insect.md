@@ -35,7 +35,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 400,000 | 50% |
-| Acquire name | 50% |
+| Acquire [Gravity Manipulation](../../tensura-reincarnated/abilities/extra-skills/gravity-manipulation.md) | 50% |
 
 ## Traits
 

@@ -9,13 +9,13 @@
 | **ID** | `trnightmare:saint_dragon` |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 3,000 - 6,000 |
-| **Health bonus** | 20 |
-| **Spiritual health bonus** | 80 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
-| **EP to evolve into** | 0 |
+| **Aura** | 160,000 - 280,000 |
+| **Magicule** | 260,000 - 420,000 |
+| **Health bonus** | 520 |
+| **Spiritual health bonus** | 930 |
+| **Attack damage bonus** | 2.5 |
+| **Movement speed bonus** | 0.02 |
+| **EP to evolve into** | 800,000 |
 
 </div>
 
@@ -31,8 +31,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 50% |
-| Consume holy essence requirement of [Holy Essence](../items/materials/holy-essence.md) | 50% |
+| Reach Existence Points of 800,000 | 50% |
+| Consume 8 of [Holy Essence](../items/materials/holy-essence.md) | 50% |
 
 ### Evolution tree
 
@@ -127,14 +127,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.62 | add |
+| Max Health | 520 | add |
+| Max Spiritual Health | 930 | add |
+| Attack Damage | 2.5 | add |
+| Attack Speed | 0.13 | add |
+| Knockback Resistance | 0.42 | add |
+| Movement Speed | 0.02 | add |
+| Swim Speed Multiplier | 0.12 | add |
 
 ## Stats (config defaults)
 
@@ -142,20 +142,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 
 | Option | Default | Description |
 |---|---|---|
-| `SaintDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `SaintDragon.minAura` | 1,000 | Minimal aura. |
-| `SaintDragon.maxAura` | 2,000 | Maximum aura. |
-| `SaintDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `SaintDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `SaintDragon.size` | 0 | Bonus Size. |
-| `SaintDragon.maxHealth` | 20 | Bonus Max Health. |
-| `SaintDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `SaintDragon.attack` | 0 | Bonus Attack Damage. |
-| `SaintDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `SaintDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `SaintDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `SaintDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
-| `SaintDragon.essenceRequirement` | 1 | Holy Essence required to evolve into this tier. |
 | `SaintDragon.epRequirement` | 800,000 |  |
 | `SaintDragon.minAura` | 160,000 |  |
 | `SaintDragon.maxAura` | 280,000 |  |
@@ -171,18 +157,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `SaintDragon.swimSpeed` | 0.12 |  |
 | `SaintDragon.essenceRequirement` | 8 | Holy Essence required to evolve into this tier. |
 | `LesserDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `LesserDragon.minAura` | 1,000 | Minimal aura. |
-| `LesserDragon.maxAura` | 2,000 | Maximum aura. |
-| `LesserDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `LesserDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `LesserDragon.size` | 0 | Bonus Size. |
-| `LesserDragon.maxHealth` | 20 | Bonus Max Health. |
-| `LesserDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `LesserDragon.attack` | 0 | Bonus Attack Damage. |
-| `LesserDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `LesserDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `LesserDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `LesserDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `LesserDragon.minAura` | 5,000 |  |
 | `LesserDragon.maxAura` | 14,000 |  |
 | `LesserDragon.minMagicule` | 12,000 |  |
@@ -196,18 +170,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `LesserDragon.movementSpeed` | 0.01 |  |
 | `LesserDragon.swimSpeed` | 0.05 |  |
 | `LesserZombieDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `LesserZombieDragon.minAura` | 1,000 | Minimal aura. |
-| `LesserZombieDragon.maxAura` | 2,000 | Maximum aura. |
-| `LesserZombieDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `LesserZombieDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `LesserZombieDragon.size` | 0 | Bonus Size. |
-| `LesserZombieDragon.maxHealth` | 20 | Bonus Max Health. |
-| `LesserZombieDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `LesserZombieDragon.attack` | 0 | Bonus Attack Damage. |
-| `LesserZombieDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `LesserZombieDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `LesserZombieDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `LesserZombieDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `LesserZombieDragon.minAura` | 6,000 |  |
 | `LesserZombieDragon.maxAura` | 12,000 |  |
 | `LesserZombieDragon.minMagicule` | 8,000 |  |
@@ -220,19 +182,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `LesserZombieDragon.knockbackResistance` | 0.2 |  |
 | `LesserZombieDragon.movementSpeed` | -0.005 |  |
 | `LesserZombieDragon.swimSpeed` | -0.05 |  |
-| `MediumDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `MediumDragon.minAura` | 1,000 | Minimal aura. |
-| `MediumDragon.maxAura` | 2,000 | Maximum aura. |
-| `MediumDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `MediumDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `MediumDragon.size` | 0 | Bonus Size. |
-| `MediumDragon.maxHealth` | 20 | Bonus Max Health. |
-| `MediumDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `MediumDragon.attack` | 0 | Bonus Attack Damage. |
-| `MediumDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `MediumDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `MediumDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `MediumDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `MediumDragon.epRequirement` | 160,000 |  |
 | `MediumDragon.minAura` | 40,000 |  |
 | `MediumDragon.maxAura` | 80,000 |  |
@@ -246,19 +195,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `MediumDragon.knockbackResistance` | 0.25 |  |
 | `MediumDragon.movementSpeed` | 0.015 |  |
 | `MediumDragon.swimSpeed` | 0.08 |  |
-| `MediumZombieDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `MediumZombieDragon.minAura` | 1,000 | Minimal aura. |
-| `MediumZombieDragon.maxAura` | 2,000 | Maximum aura. |
-| `MediumZombieDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `MediumZombieDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `MediumZombieDragon.size` | 0 | Bonus Size. |
-| `MediumZombieDragon.maxHealth` | 20 | Bonus Max Health. |
-| `MediumZombieDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `MediumZombieDragon.attack` | 0 | Bonus Attack Damage. |
-| `MediumZombieDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `MediumZombieDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `MediumZombieDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `MediumZombieDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `MediumZombieDragon.epRequirement` | 100,000 |  |
 | `MediumZombieDragon.minAura` | 24,000 |  |
 | `MediumZombieDragon.maxAura` | 45,000 |  |
@@ -272,19 +208,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `MediumZombieDragon.knockbackResistance` | 0.35 |  |
 | `MediumZombieDragon.movementSpeed` | 0 |  |
 | `MediumZombieDragon.swimSpeed` | -0.02 |  |
-| `ArchDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `ArchDragon.minAura` | 1,000 | Minimal aura. |
-| `ArchDragon.maxAura` | 2,000 | Maximum aura. |
-| `ArchDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `ArchDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `ArchDragon.size` | 0 | Bonus Size. |
-| `ArchDragon.maxHealth` | 20 | Bonus Max Health. |
-| `ArchDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `ArchDragon.attack` | 0 | Bonus Attack Damage. |
-| `ArchDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `ArchDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `ArchDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `ArchDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `ArchDragon.epRequirement` | 400,000 |  |
 | `ArchDragon.minAura` | 80,000 |  |
 | `ArchDragon.maxAura` | 150,000 |  |
@@ -298,21 +221,7 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `ArchDragon.knockbackResistance` | 0.35 |  |
 | `ArchDragon.movementSpeed` | 0.02 |  |
 | `ArchDragon.swimSpeed` | 0.12 |  |
-| `ElementDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `ElementDragon.minAura` | 1,000 | Minimal aura. |
-| `ElementDragon.maxAura` | 2,000 | Maximum aura. |
-| `ElementDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `ElementDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `ElementDragon.size` | 0 | Bonus Size. |
-| `ElementDragon.maxHealth` | 20 | Bonus Max Health. |
-| `ElementDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `ElementDragon.attack` | 0 | Bonus Attack Damage. |
-| `ElementDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `ElementDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `ElementDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `ElementDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `ElementDragon.epRequirement` | 800,000 |  |
-| `ElementDragon.essenceRequirement` | 25 | Elemental Essence required to evolve into Element Dragon. |
 | `ElementDragon.minAura` | 180,000 |  |
 | `ElementDragon.maxAura` | 300,000 |  |
 | `ElementDragon.minMagicule` | 350,000 |  |
@@ -325,19 +234,7 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `ElementDragon.knockbackResistance` | 0.45 |  |
 | `ElementDragon.movementSpeed` | 0.025 |  |
 | `ElementDragon.swimSpeed` | 0.15 |  |
-| `DeathDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `DeathDragon.minAura` | 1,000 | Minimal aura. |
-| `DeathDragon.maxAura` | 2,000 | Maximum aura. |
-| `DeathDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `DeathDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `DeathDragon.size` | 0 | Bonus Size. |
-| `DeathDragon.maxHealth` | 20 | Bonus Max Health. |
-| `DeathDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `DeathDragon.attack` | 0 | Bonus Attack Damage. |
-| `DeathDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `DeathDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `DeathDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `DeathDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
+| `ElementDragon.essenceRequirement` | 25 | Elemental Essence required to evolve into Element Dragon. |
 | `DeathDragon.epRequirement` | 400,000 |  |
 | `DeathDragon.minAura` | 90,000 |  |
 | `DeathDragon.maxAura` | 180,000 |  |
@@ -351,19 +248,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `DeathDragon.knockbackResistance` | 0.5 |  |
 | `DeathDragon.movementSpeed` | 0.01 |  |
 | `DeathDragon.swimSpeed` | 0 |  |
-| `DragonLord.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `DragonLord.minAura` | 1,000 | Minimal aura. |
-| `DragonLord.maxAura` | 2,000 | Maximum aura. |
-| `DragonLord.minMagicule` | 3,000 | Minimal magicule. |
-| `DragonLord.maxMagicule` | 6,000 | Maximum magicule. |
-| `DragonLord.size` | 0 | Bonus Size. |
-| `DragonLord.maxHealth` | 20 | Bonus Max Health. |
-| `DragonLord.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `DragonLord.attack` | 0 | Bonus Attack Damage. |
-| `DragonLord.attackSpeed` | 0 | Bonus Attack Speed. |
-| `DragonLord.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `DragonLord.movementSpeed` | 0 | Bonus Movement Speed. |
-| `DragonLord.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `DragonLord.epRequirement` | 800,000 |  |
 | `DragonLord.minAura` | 350,000 |  |
 | `DragonLord.maxAura` | 600,000 |  |
@@ -377,19 +261,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `DragonLord.knockbackResistance` | 0.6 |  |
 | `DragonLord.movementSpeed` | 0.03 |  |
 | `DragonLord.swimSpeed` | 0.2 |  |
-| `GehennaDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `GehennaDragon.minAura` | 1,000 | Minimal aura. |
-| `GehennaDragon.maxAura` | 2,000 | Maximum aura. |
-| `GehennaDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `GehennaDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `GehennaDragon.size` | 0 | Bonus Size. |
-| `GehennaDragon.maxHealth` | 20 | Bonus Max Health. |
-| `GehennaDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `GehennaDragon.attack` | 0 | Bonus Attack Damage. |
-| `GehennaDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `GehennaDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `GehennaDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `GehennaDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `GehennaDragon.epRequirement` | 800,000 |  |
 | `GehennaDragon.minAura` | 380,000 |  |
 | `GehennaDragon.maxAura` | 680,000 |  |
@@ -403,19 +274,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `GehennaDragon.knockbackResistance` | 0.7 |  |
 | `GehennaDragon.movementSpeed` | 0.02 |  |
 | `GehennaDragon.swimSpeed` | 0.05 |  |
-| `DivineDragonLord.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `DivineDragonLord.minAura` | 1,000 | Minimal aura. |
-| `DivineDragonLord.maxAura` | 2,000 | Maximum aura. |
-| `DivineDragonLord.minMagicule` | 3,000 | Minimal magicule. |
-| `DivineDragonLord.maxMagicule` | 6,000 | Maximum magicule. |
-| `DivineDragonLord.size` | 0 | Bonus Size. |
-| `DivineDragonLord.maxHealth` | 20 | Bonus Max Health. |
-| `DivineDragonLord.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `DivineDragonLord.attack` | 0 | Bonus Attack Damage. |
-| `DivineDragonLord.attackSpeed` | 0 | Bonus Attack Speed. |
-| `DivineDragonLord.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `DivineDragonLord.movementSpeed` | 0 | Bonus Movement Speed. |
-| `DivineDragonLord.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `DivineDragonLord.epRequirement` | 2,000,000 |  |
 | `DivineDragonLord.minAura` | 800,000 |  |
 | `DivineDragonLord.maxAura` | 1,500,000 |  |
@@ -429,19 +287,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | `DivineDragonLord.knockbackResistance` | 0.8 |  |
 | `DivineDragonLord.movementSpeed` | 0.035 |  |
 | `DivineDragonLord.swimSpeed` | 0.25 |  |
-| `DivineGehennaDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `DivineGehennaDragon.minAura` | 1,000 | Minimal aura. |
-| `DivineGehennaDragon.maxAura` | 2,000 | Maximum aura. |
-| `DivineGehennaDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `DivineGehennaDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `DivineGehennaDragon.size` | 0 | Bonus Size. |
-| `DivineGehennaDragon.maxHealth` | 20 | Bonus Max Health. |
-| `DivineGehennaDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `DivineGehennaDragon.attack` | 0 | Bonus Attack Damage. |
-| `DivineGehennaDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `DivineGehennaDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `DivineGehennaDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `DivineGehennaDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `DivineGehennaDragon.epRequirement` | 2,100,000 |  |
 | `DivineGehennaDragon.minAura` | 900,000 |  |
 | `DivineGehennaDragon.maxAura` | 1,700,000 |  |

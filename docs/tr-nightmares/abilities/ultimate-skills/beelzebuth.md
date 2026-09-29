@@ -11,6 +11,7 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:beelzebuth` |
 | **Modes** | 9 |
+| **Acquisition cost (MP)** | 1,500,000 |
 | **Max mastery** | 15,000 |
 | **Activation** | Press, Hold |
 

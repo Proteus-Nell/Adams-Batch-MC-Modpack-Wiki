@@ -9,7 +9,9 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:yog_sothoth` |
 | **Modes** | 8 |
-| **Cooldowns (s)** | 10 |
+| **Acquisition cost (MP)** | 1,101,000 |
+| **Max mastery** | 25,000 |
+| **Cooldowns (s)** | 10, 3, 20, 180, 120 |
 | **Activation** | Toggle, Press |
 
 </div>

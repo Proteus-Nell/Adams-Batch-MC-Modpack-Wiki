@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of cursed_dreadnaught (evolution ep) | 50% |
+| Reach Existence Points of 600,000 | 50% |
 | Kill 3 bosses | 50% |
 
 ### Evolution tree

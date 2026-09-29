@@ -25,6 +25,15 @@
 - **Evolves into:** [Demon Knight](demon-knight.md), [Royal Demon](royal-demon.md), [Ten Commandment](ten-commandments.md), [Hell Rizer](hell-rizer.md)
 - **Default evolution:** [Demon Knight](demon-knight.md)
 
+### Requirements to evolve into High-Class Demon
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 80,000 | 50% |
+| Consume 15 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -62,14 +71,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.05 | add |
+| Max Health | 45 | add |
+| Max Spiritual Health | 200 | add |
+| Attack Damage | 0.65 | add |
+| Attack Speed | 0 | add |
+| Knockback Resistance | 0.15 | add |
+| Movement Speed | 0.01 | add |
+| Swim Speed Multiplier | 0.02 | add |
 
 ## Stats (config defaults)
 

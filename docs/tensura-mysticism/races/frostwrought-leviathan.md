@@ -32,8 +32,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 1,500,000 | 33.4% |
-| Master name | 33.3% |
-| Master name | 33.3% |
+| Master [Water Domination](../../tensura-reincarnated/abilities/extra-skills/water-domination.md) | 33.3% |
+| Master [Dragon Ear](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-ear.md) | 33.3% |
 
 ### Evolution tree
 

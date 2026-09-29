@@ -33,8 +33,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 50% |
-| Consume essence requirement holy of [Holy Essence](../items/materials/holy-essence.md) | 50% |
+| Reach Existence Points of 80,000 | 50% |
+| Consume 10 of [Holy Essence](../items/materials/holy-essence.md) | 50% |
 
 ### Evolution tree
 

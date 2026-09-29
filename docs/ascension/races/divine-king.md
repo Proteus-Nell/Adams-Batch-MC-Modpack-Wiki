@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of divine_king (evolution ep) | 50% |
+| Reach Existence Points of 750,000 | 50% |
 | Kill 2 bosses | 50% |
 
 ### Evolution tree

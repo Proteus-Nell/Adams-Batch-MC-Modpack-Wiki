@@ -11,6 +11,7 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:lust_manas` |
 | **Modes** | 6 |
+| **Acquisition cost (MP)** | 1,200,000 |
 | **Activation** | Toggle, Press, Hold |
 
 </div>

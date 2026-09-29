@@ -9,12 +9,12 @@
 | **ID** | `trnightmare:lesser_dragon` |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 3,000 - 6,000 |
-| **Health bonus** | 20 |
-| **Spiritual health bonus** | 80 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
+| **Aura** | 5,000 - 14,000 |
+| **Magicule** | 12,000 - 32,000 |
+| **Health bonus** | 45 |
+| **Spiritual health bonus** | 130 |
+| **Attack damage bonus** | 1.8 |
+| **Movement speed bonus** | 0.01 |
 | **EP to evolve into** | 0 |
 
 </div>
@@ -116,14 +116,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.2 | add |
+| Max Health | 45 | add |
+| Max Spiritual Health | 130 | add |
+| Attack Damage | 1.8 | add |
+| Attack Speed | 0.1 | add |
+| Knockback Resistance | 0.15 | add |
+| Movement Speed | 0.01 | add |
+| Swim Speed Multiplier | 0.05 | add |
 
 ## Stats (config defaults)
 
@@ -132,18 +132,6 @@ Set in [`config/nightmare/race/dragon_config.toml`](../configs/config-nightmare-
 | Option | Default | Description |
 |---|---|---|
 | `LesserDragon.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `LesserDragon.minAura` | 1,000 | Minimal aura. |
-| `LesserDragon.maxAura` | 2,000 | Maximum aura. |
-| `LesserDragon.minMagicule` | 3,000 | Minimal magicule. |
-| `LesserDragon.maxMagicule` | 6,000 | Maximum magicule. |
-| `LesserDragon.size` | 0 | Bonus Size. |
-| `LesserDragon.maxHealth` | 20 | Bonus Max Health. |
-| `LesserDragon.maxSpiritualHealth` | 80 | Bonus Max Spiritual Health. |
-| `LesserDragon.attack` | 0 | Bonus Attack Damage. |
-| `LesserDragon.attackSpeed` | 0 | Bonus Attack Speed. |
-| `LesserDragon.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `LesserDragon.movementSpeed` | 0 | Bonus Movement Speed. |
-| `LesserDragon.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `LesserDragon.minAura` | 5,000 |  |
 | `LesserDragon.maxAura` | 14,000 |  |
 | `LesserDragon.minMagicule` | 12,000 |  |

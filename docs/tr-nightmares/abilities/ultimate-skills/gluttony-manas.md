@@ -11,6 +11,7 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:gluttony_manas` |
 | **Modes** | 9 |
+| **Acquisition cost (MP)** | 1,500,000 |
 | **Activation** | Press, Hold |
 
 </div>

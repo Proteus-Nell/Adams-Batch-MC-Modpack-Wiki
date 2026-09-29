@@ -27,6 +27,15 @@
 - **On awakening (True Demon Lord / True Hero):** [Demon Prince](demon-prince.md)
 - **During the Harvest Festival:** [Demon Prince](demon-prince.md)
 
+### Requirements to evolve into Royal Demon
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 400,000 | 50% |
+| Consume 90 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -68,14 +77,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 850 | add |
+| Max Spiritual Health | 4,520 | add |
+| Attack Damage | 1.4 | add |
+| Attack Speed | 0.15 | add |
+| Knockback Resistance | 0.32 | add |
+| Movement Speed | 0.025 | add |
+| Swim Speed Multiplier | 0.06 | add |
 
 ## Stats (config defaults)
 

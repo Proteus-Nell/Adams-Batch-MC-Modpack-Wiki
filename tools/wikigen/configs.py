@@ -62,33 +62,112 @@ def _is_subconfig(ix, cls):
     return cls is not None and ix.is_a(cls, "ManasSubConfig")
 
 
-def _manas_fields(ix, cls: JClass, file, path, out, sync, depth=0):
+def _init_overrides(ix, value_node, ctx) -> dict:
+    """Field values set when a sub-config is built by a factory or constructor.
+
+    Handles `X field = factory();` where factory does `t = new X(); t.a = 1; return t;`
+    and `X field = new X(1, 2)` where the constructor assigns `this.a = a`.
+    """
+    out = {}
+    if value_node is None:
+        return out
+    v = value_node
+    if v.type == "method_invocation":
+        name = text(v.child_by_field_name("name"))
+        obj = v.child_by_field_name("object")
+        owner = ix.resolve(text(obj), ctx) if obj is not None else ctx
+        c = owner
+        m = None
+        while c is not None and m is None:
+            for cand in c.methods.get(name, []):
+                if len(cand.params) == len(call_args(v)):
+                    m = cand
+            c = c.outer
+        if m is None or m.body is None:
+            return out
+        rets = m.returns()
+        var = text(rets[0]) if rets else None
+        env = {}
+        for pn, a in zip(m.params, call_args(v)):
+            try:
+                env[pn] = ix.eval(a, ctx)
+            except Exception:
+                pass
+        for n in walk(m.body):
+            if n.type == "assignment_expression":
+                lt = text(n.child_by_field_name("left"))
+                if var and lt.startswith(var + "."):
+                    try:
+                        out[lt[len(var) + 1:]] = ix.eval(n.child_by_field_name("right"), m.cls, env)
+                    except Exception:
+                        pass
+        return out
+    if v.type == "object_creation_expression":
+        args = call_args(v)
+        tc = ix.resolve(text(v.child_by_field_name("type")), ctx)
+        if tc is None or not args:
+            return out
+        for ctor in tc.methods.get("<init>", []):
+            if len(ctor.params) != len(args):
+                continue
+            env = {}
+            for pn, a in zip(ctor.params, args):
+                try:
+                    env[pn] = ix.eval(a, ctx)
+                except Exception:
+                    pass
+            for n in walk(ctor.node):
+                if n.type == "assignment_expression":
+                    lt = text(n.child_by_field_name("left")).replace("this.", "")
+                    try:
+                        out[lt] = ix.eval(n.child_by_field_name("right"), tc, env)
+                    except Exception:
+                        pass
+            break
+    return out
+
+
+def _manas_fields(ix, cls: JClass, file, path, out, sync, depth=0, preset=None):
     if depth > 6:
         return
+    preset = preset or {}
     chain = []
     c = cls
     while c is not None and c.simple not in ("ManasSubConfig", "ManasConfig"):
         chain.append(c)
         c = ix.resolve(c.superclass, c) if c.superclass else None
+    # Walk parents first so the field order matches the TOML, but let a subclass
+    # that redeclares a field (e.g. LesserDragon.minAura over DragonTier.minAura)
+    # supply the default.
+    order = []
+    owner_of = {}
     for c in reversed(chain):
         for fname, f in c.fields.items():
             if "static" in f.modifiers:
                 continue
-            ftype = ix.resolve(f.type, c)
-            if _is_subconfig(ix, ftype):
-                comment = _annotation_comment(ix, f)
-                if comment:
-                    out.append({"file": file, "path": path + [fname], "key": None, "section_comment": comment, "owner": ftype.fqcn})
-                _manas_fields(ix, ftype, file, path + [fname], out, sync, depth + 1)
-                continue
-            default = ix.try_eval(f.value, c, default=_Missing)
-            if default is _Missing:
-                default = text(f.value) if f.value is not None else None
-            out.append({
-                "file": file, "path": path, "key": fname, "default": jsonable(default),
-                "type": f.type, "comment": _annotation_comment(ix, f),
-                "owner": cls.fqcn, "field": cls.fqcn + "." + fname, "sync": sync,
-            })
+            if fname not in owner_of:
+                order.append(fname)
+            owner_of[fname] = (c, f)
+    for fname in order:
+        c, f = owner_of[fname]
+        ftype = ix.resolve(f.type, c)
+        if _is_subconfig(ix, ftype):
+            comment = _annotation_comment(ix, f)
+            if comment:
+                out.append({"file": file, "path": path + [fname], "key": None, "section_comment": comment, "owner": ftype.fqcn})
+            _manas_fields(ix, ftype, file, path + [fname], out, sync, depth + 1, _init_overrides(ix, f.value, c))
+            continue
+        if fname in preset:
+            default = preset[fname]
+        else:
+            default = ix.try_eval(f.value, c, {"__this__": cls.fqcn}, default=_Missing)
+        if default is _Missing:
+            default = text(f.value) if f.value is not None else None
+        out.append({
+            "file": file, "path": path, "key": fname, "default": jsonable(default),
+            "type": f.type, "comment": _annotation_comment(ix, f),
+            "owner": cls.fqcn, "field": cls.fqcn + "." + fname, "sync": sync,
+        })
 
 
 class _MissingT:

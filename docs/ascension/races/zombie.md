@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of undead_skeleton (evolution ep) | 100% |
+| Reach Existence Points of 200,000 | 100% |
 
 ### Evolution tree
 

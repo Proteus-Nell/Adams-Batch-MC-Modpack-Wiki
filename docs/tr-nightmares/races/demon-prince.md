@@ -23,6 +23,15 @@
 
 - **Evolves from:** [Royal Demon](royal-demon.md)
 
+### Requirements to evolve into Demon Prince
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 600,000 | 50% |
+| Consume 150 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -66,14 +75,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 1,200 | add |
+| Max Spiritual Health | 6,650 | add |
+| Attack Damage | 1.65 | add |
+| Attack Speed | 0.18 | add |
+| Knockback Resistance | 0.36 | add |
+| Movement Speed | 0.03 | add |
+| Swim Speed Multiplier | 0.07 | add |
 
 ## Stats (config defaults)
 

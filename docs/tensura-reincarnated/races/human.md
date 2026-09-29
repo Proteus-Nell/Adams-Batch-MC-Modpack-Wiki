@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Evolution | 100% |
+| Get cured with Weakness and Enchanted Golden Apple | 100% |
 
 ### Evolution tree
 

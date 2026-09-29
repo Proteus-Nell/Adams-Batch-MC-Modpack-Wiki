@@ -32,7 +32,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of corrupted_dragonkin (evolution ep) | 50% |
+| Reach Existence Points of 50,000 | 50% |
 | Consume 1 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 50% |
 
 ### Evolution tree

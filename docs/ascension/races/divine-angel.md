@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of divine_angel (evolution ep) | 50% |
+| Reach Existence Points of 1,250,000 | 50% |
 | True Hero | 50% |
 
 ### Evolution tree

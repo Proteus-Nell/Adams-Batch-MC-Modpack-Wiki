@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of mindwitness (evolution ep) | 50% |
+| Reach Existence Points of 300,000 | 50% |
 | Consume 10 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 50% |
 
 ### Evolution tree

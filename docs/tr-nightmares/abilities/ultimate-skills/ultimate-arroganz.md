@@ -8,6 +8,7 @@
 |---|---|
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:ultimate_arroganz` |
+| **Acquisition cost (MP)** | 1,700,000 |
 | **Max mastery** | 15,000 |
 | **Activation** | Press, Hold |
 

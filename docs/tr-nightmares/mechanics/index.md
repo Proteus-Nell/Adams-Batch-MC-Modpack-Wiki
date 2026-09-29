@@ -83,7 +83,7 @@ Some skills awaken an **Ego**, a personality that lives in the skill, talks to y
 
 ## True Dragons, friendship and Dragon Bond
 
-The True Dragons (Veldanava, Veldora, Velzard and Velgrynd) are sentient bosses. They can replace a **Leech Lizard** as a rare spawn: Veldora 1 in **80,000**, Velzard and Velgrynd 1 in **100,000**. Once befriended, you raise **Friendship**, **Loyalty** and **Bond** through interactions. High bond lets you summon the dragon for 20 minutes, or analyse it to gain its Ultimate.
+The True Dragons (Veldanava, Veldora, Velzard and Velgrynd) are sentient bosses. They can replace a **Leech Lizard** as a rare spawn: Veldora 1 in **10,000**, Velzard and Velgrynd 1 in **10,000**. Once befriended, you raise **Friendship**, **Loyalty** and **Bond** through interactions. High bond lets you summon the dragon for 20 minutes, or analyse it to gain its Ultimate.
 
 | Interaction | Details |
 |---|---|
@@ -212,16 +212,16 @@ Rare boss replacements (1 in X chance, from `nightmare_bosses.toml`):
 
 | Boss | Replaces | Chance |
 |---|---|---|
-| Crimson | a Daemon | 1 in **25,000** |
-| Agera | a Daemon | 1 in **1,250** |
-| Ancient Daemon | a Lesser Daemon | 1 in **12,500** |
-| Primordial Daemon aspect | a daemon in Hell | 1 in **20,000** |
-| Milim (Wrath) | an Otherworlder | 1 in **100** |
-| Yuuki (Desire) | an Otherworlder | 1 in **50** |
-| Mariabell Rosso | an Otherworlder | 1 in **20** |
-| Glenda / Arios | an Otherworlder | 1 in **20** |
-| Lucius / Raymond | an Otherworlder | 1 in **20** |
-| Frey | a Phantom | 1 in **500** |
+| Crimson | a Daemon | 1 in **10,000** |
+| Agera | a Daemon | 1 in **1,000** |
+| Ancient Daemon | a Lesser Daemon | 1 in **1,000** |
+| Primordial Daemon aspect | a daemon in Hell | 1 in **1,000** |
+| Milim (Wrath) | an Otherworlder | 1 in **1,000** |
+| Yuuki (Desire) | an Otherworlder | 1 in **1,000** |
+| Mariabell Rosso | an Otherworlder | 1 in **1,000** |
+| Glenda / Arios | an Otherworlder | 1 in **1,000** |
+| Lucius / Raymond | an Otherworlder | 1 in **1,000** |
+| Frey | a Phantom | 1 in **50** |
 
 ## Faith and Grace
 

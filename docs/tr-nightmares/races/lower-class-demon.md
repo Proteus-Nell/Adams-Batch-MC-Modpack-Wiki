@@ -64,14 +64,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.1 | add |
+| Max Health | 12 | add |
+| Max Spiritual Health | 70 | add |
+| Attack Damage | 0.25 | add |
+| Attack Speed | -0.2 | add |
+| Knockback Resistance | 0.05 | add |
+| Movement Speed | 0 | add |
+| Swim Speed Multiplier | 0 | add |
 
 ## Stats (config defaults)
 

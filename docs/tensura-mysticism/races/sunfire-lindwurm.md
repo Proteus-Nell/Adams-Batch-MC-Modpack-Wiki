@@ -35,8 +35,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 180,000 | 33.4% |
-| Master name | 33.3% |
-| Master name | 33.3% |
+| Master [Light Manipulation](../abilities/extra-skills/light-manipulation.md) | 33.3% |
+| Master [Profaned Prominence](../abilities/extra-skills/profaned-prominence.md) | 33.3% |
 
 ### Evolution tree
 

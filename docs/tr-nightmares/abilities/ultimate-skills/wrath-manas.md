@@ -11,6 +11,7 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:wrath_manas` |
 | **Modes** | 2 |
+| **Acquisition cost (MP)** | 1,500,000 |
 | **Activation** | Hold |
 
 </div>

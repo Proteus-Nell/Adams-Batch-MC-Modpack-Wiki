@@ -21,6 +21,10 @@
 
 > An Elemental that evolved to take on a more human-like shape. Beware its powerful Greater Spiritual Magic!
 
+> [!NOTE]
+> **Pack note:** this pack changes the defaults below.
+> - `General.refresh` is **false** (mod default: true)
+
 ## Evolution
 
 - **Evolves from:** [Medium Elemental](medium-elemental.md)
@@ -133,11 +137,11 @@ Set in [`config/mysticism/race/elemental_config.toml`](../configs/config-mystici
 
 Set in [`config/mysticism/general.toml`](../configs/config-mysticism-general.md).
 
-| Option | Default | Description |
-|---|---|---|
-| `General.refresh` | true | Should the Tensura configurations add Mysticism's skills and races on next launch? |
-| `General.flightSpeed` | 0.05 | The default flying speed of all Mysticism races. |
-| `General.seCostMultiplier` | 4 | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |
+| Option | Default | This pack | Description |
+|---|---|---|---|
+| `General.refresh` | true | false | Should the Tensura configurations add Mysticism's skills and races on next launch? |
+| `General.flightSpeed` | 0.05 | | The default flying speed of all Mysticism races. |
+| `General.seCostMultiplier` | 4 | | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |
 
 ## Tags
 

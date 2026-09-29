@@ -4,8 +4,8 @@
 
 ## `[General]`
 
-| Option | Default | Range | Description |
-|---|---|---|---|
-| `refresh` | true |  | Should the Tensura configurations add Mysticism's skills and races on next launch? |
-| `flightSpeed` | 0.05 |  | The default flying speed of all Mysticism races. |
-| `seCostMultiplier` | 4 |  | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |
+| Option | Default | This pack | Range | Description |
+|---|---|---|---|---|
+| `refresh` | true | false |  | Should the Tensura configurations add Mysticism's skills and races on next launch? |
+| `flightSpeed` | 0.05 | |  | The default flying speed of all Mysticism races. |
+| `seCostMultiplier` | 4 | |  | SE cost multiplier when acquiring a Unique Skill. Default: 4, which means the skill's magicule cost \* 4 |

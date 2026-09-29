@@ -30,7 +30,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of chaos_dragon (evolution ep) | 100% |
+| Reach Existence Points of 2,500,000 | 100% |
 
 ### Evolution tree
 

@@ -27,6 +27,15 @@
 - **On awakening (True Demon Lord / True Hero):** [High-Class Demon](high-class-demon.md)
 - **During the Harvest Festival:** [High-Class Demon](high-class-demon.md)
 
+### Requirements to evolve into Middle-Class Demon
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 45,000 | 50% |
+| Consume 10 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -62,14 +71,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.08 | add |
+| Max Health | 28 | add |
+| Max Spiritual Health | 130 | add |
+| Attack Damage | 0.45 | add |
+| Attack Speed | -0.1 | add |
+| Knockback Resistance | 0.1 | add |
+| Movement Speed | 0 | add |
+| Swim Speed Multiplier | 0 | add |
 
 ## Stats (config defaults)
 

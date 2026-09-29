@@ -36,7 +36,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 10,000 | 50% |
-| Acquire name | 50% |
+| Acquire [Sound Manipulation](../../tensura-reincarnated/abilities/extra-skills/sound-manipulation.md) | 50% |
 
 ### Evolution tree
 

@@ -35,9 +35,9 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 200,000 | 25% |
-| Master name | 25% |
-| Master name | 25% |
-| Master name | 25% |
+| Master [Water Manipulation](../../tensura-reincarnated/abilities/extra-skills/water-manipulation.md) | 25% |
+| Master [Wind Manipulation](../../tensura-reincarnated/abilities/extra-skills/wind-manipulation.md) | 25% |
+| Master [Ice Manipulation](../abilities/extra-skills/ice-manipulation.md) | 25% |
 
 ### Evolution tree
 

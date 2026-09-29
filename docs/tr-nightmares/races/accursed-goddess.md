@@ -29,8 +29,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 50% |
-| Consume essence requirement holy + 10 + 10 + 15 of [Holy Essence](../items/materials/holy-essence.md) | 50% |
+| Reach Existence Points of 1,500,000 | 50% |
+| Consume 70 of [Holy Essence](../items/materials/holy-essence.md) | 50% |
 
 ### Evolution tree
 
@@ -77,14 +77,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 1,180 | add |
+| Max Spiritual Health | 6,646 | add |
+| Attack Damage | 5 | add |
+| Attack Speed | 0.3 | add |
+| Knockback Resistance | 0.7 | add |
+| Movement Speed | 0.06 | add |
+| Swim Speed Multiplier | 0.06 | add |
 
 ## Stats (config defaults)
 

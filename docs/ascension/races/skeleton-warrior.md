@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of death_knight (evolution ep) | 50% |
+| Reach Existence Points of 700,000 | 50% |
 | Kill 3 bosses | 50% |
 
 ### Evolution tree

@@ -4,6 +4,9 @@
 
 Every config option Tensura: Reincarnated defines, with its default value. Files under `config/` are shared by the whole instance; files under `serverconfig/` live inside each world's folder (put copies in `defaultconfigs/` to apply them to new worlds).
 
+> [!NOTE]
+> Values this pack changes are shown in the **This pack** column of each table.
+
 | File | Options |
 |---|---|
 | [`config/tensura/ability/ability_config.toml`](config-tensura-ability-ability-config.md) | 28 |
