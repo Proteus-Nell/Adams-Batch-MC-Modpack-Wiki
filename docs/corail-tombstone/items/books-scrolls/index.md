@@ -1,0 +1,8 @@
+# Books &amp; Scrolls
+
+<small>[Corail Tombstone](../../index.md) &rsaquo; [Items](../index.md)</small>
+
+| | Name | Description |
+|---|---|---|
+| ![](../../../assets/icons/tombstone/item/magic_scroll.png) | [Magic Scroll](magic-scroll.md) |  |
+| ![](../../../assets/icons/tombstone/item/strange_scroll.png) | [Strange Scroll](strange-scroll.md) |  |

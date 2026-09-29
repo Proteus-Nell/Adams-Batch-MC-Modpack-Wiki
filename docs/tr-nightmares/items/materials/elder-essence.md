@@ -1,0 +1,31 @@
+# Elder Essence
+
+<small>[TR: Nightmares](../../index.md) &rsaquo; [Items](../index.md) &rsaquo; [Materials](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Elder Essence](../../../assets/icons/trnightmare/item/elder_essence.png)
+
+| | |
+|---|---|
+| **ID** | `trnightmare:elder_essence` |
+| **Category** | Materials |
+
+</div>
+
+## Description
+
+A fragment of an ancient soul, forgotten strength... Desirable strength.
+
+## Obtaining
+
+### Loot
+
+| Source | Count | Chance | Notes |
+|---|---|---|---|
+| Dropped by [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon) | 1 | 50% |  |
+| Dropped by [Wither](https://minecraft.wiki/w/Wither) | 1 | 30% |  |
+| Dropped by [Elder Guardian](https://minecraft.wiki/w/Elder_Guardian) | 1 | 5.0% |  |
+| Dropped by [Hinata Sakaguchi](../../../tensura-reincarnated/mobs/hinata-sakaguchi.md) | 1 | 5.0% |  |
+| Dropped by [Winged Cat](../../../tensura-reincarnated/mobs/winged-cat.md) | 1 | 5.0% |  |
+| Dropped by [Guardian](https://minecraft.wiki/w/Guardian) | 1 | 1.0% |  |

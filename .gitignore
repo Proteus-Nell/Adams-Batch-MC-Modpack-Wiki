@@ -1,0 +1,16 @@
+# Build output
+site/
+wiki-out/
+wiki-repo/
+
+# Scratch space for jar extraction/decompilation
+.work/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Mod jars never belong in this public repo
+*.jar

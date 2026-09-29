@@ -1,0 +1,2727 @@
+{
+ "mod": {
+  "slug": "artifacts",
+  "name": "Artifacts",
+  "jar": "artifacts-neoforge-",
+  "modids": [
+   "artifacts"
+  ],
+  "family": "artifacts",
+  "group": "Items & Equipment",
+  "blurb": "Wearable artifacts found in dungeons and from Mimics. In this pack, RAR-Compat turns them into levelled relics.",
+  "meta": {
+   "displayName": "Artifacts",
+   "version": "13.2.5",
+   "authors": "ochotonida",
+   "credits": null,
+   "description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
+   "displayURL": "https://www.curseforge.com/minecraft/mc-mods/artifacts",
+   "issueTrackerURL": null,
+   "logoFile": "logo.png",
+   "license": "MIT",
+   "depends": [],
+   "jar": "artifacts-neoforge-13.2.5.jar",
+   "logo_url": "assets/icons/artifacts/logo.png"
+  }
+ },
+ "categories": {
+  "items": [
+   {
+    "id": "artifacts:anglers_hat",
+    "path": "anglers_hat",
+    "name": "Angler's Hat",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/anglers_hat.png"
+   },
+   {
+    "id": "artifacts:antidote_vessel",
+    "path": "antidote_vessel",
+    "name": "Antidote Vessel",
+    "class": "artifacts.component.ability.CureEffects",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "minecraft:piglin_loved",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/antidote_vessel.png"
+   },
+   {
+    "id": "artifacts:aqua_dashers",
+    "path": "aqua_dashers",
+    "name": "Aqua-Dashers",
+    "class": "artifacts.component.ability.FluidCollision",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet"
+    ],
+    "icon_url": "assets/icons/artifacts/item/aqua_dashers.png"
+   },
+   {
+    "id": "artifacts:bunny_hoppers",
+    "path": "bunny_hoppers",
+    "name": "Bunny Hoppers",
+    "class": "artifacts.component.HurtSound",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/bunny_hoppers.png"
+   },
+   {
+    "id": "artifacts:charm_of_shrinking",
+    "path": "charm_of_shrinking",
+    "name": "Charm of Shrinking",
+    "class": null,
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/charm_of_shrinking.png"
+   },
+   {
+    "id": "artifacts:charm_of_sinking",
+    "path": "charm_of_sinking",
+    "name": "Charm of Sinking",
+    "class": "artifacts.component.ability.DamageImmunity",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/charm_of_sinking.png"
+   },
+   {
+    "id": "artifacts:chorus_totem",
+    "path": "chorus_totem",
+    "name": "Chorus Totem",
+    "class": "artifacts.component.ability.DeathProtectionTeleport",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "hardcorerevival:passthrough_death_when_held",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/chorus_totem.png"
+   },
+   {
+    "id": "artifacts:cloud_in_a_bottle",
+    "path": "cloud_in_a_bottle",
+    "name": "Cloud in a Bottle",
+    "class": "artifacts.component.ability.DoubleJump",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/cloud_in_a_bottle.png"
+   },
+   {
+    "id": "artifacts:cowboy_hat",
+    "path": "cowboy_hat",
+    "name": "Cowboy Hat",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/cowboy_hat.png"
+   },
+   {
+    "id": "artifacts:cross_necklace",
+    "path": "cross_necklace",
+    "name": "Cross Necklace",
+    "class": "artifacts.component.ability.PostDamageCooldown",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "minecraft:piglin_loved",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/cross_necklace.png"
+   },
+   {
+    "id": "artifacts:crystal_heart",
+    "path": "crystal_heart",
+    "name": "Crystal Heart",
+    "class": null,
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/crystal_heart.png"
+   },
+   {
+    "id": "artifacts:digging_claws",
+    "path": "digging_claws",
+    "name": "Digging Claws",
+    "class": "artifacts.component.ability.ToolTierUpgrade",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/digging_claws.png"
+   },
+   {
+    "id": "artifacts:eternal_steak",
+    "path": "eternal_steak",
+    "name": "Eternal Steak",
+    "class": "artifacts.item.EverlastingFoodItem",
+    "category": "Food",
+    "props": {
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "origins:meat"
+    ],
+    "icon_url": "assets/icons/artifacts/item/eternal_steak.png"
+   },
+   {
+    "id": "artifacts:everlasting_beef",
+    "path": "everlasting_beef",
+    "name": "Everlasting Beef",
+    "class": "artifacts.item.EverlastingFoodItem",
+    "category": "Food",
+    "props": {
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "origins:meat"
+    ],
+    "icon_url": "assets/icons/artifacts/item/everlasting_beef.png"
+   },
+   {
+    "id": "artifacts:feral_claws",
+    "path": "feral_claws",
+    "name": "Feral Claws",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/feral_claws.png"
+   },
+   {
+    "id": "artifacts:fire_gauntlet",
+    "path": "fire_gauntlet",
+    "name": "Fire Gauntlet",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/fire_gauntlet.png"
+   },
+   {
+    "id": "artifacts:flame_pendant",
+    "path": "flame_pendant",
+    "name": "Flame Pendant",
+    "class": "artifacts.component.ability.retaliation.RetaliationEffects",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/flame_pendant.png"
+   },
+   {
+    "id": "artifacts:flippers",
+    "path": "flippers",
+    "name": "Flippers",
+    "class": null,
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/flippers.png"
+   },
+   {
+    "id": "artifacts:golden_hook",
+    "path": "golden_hook",
+    "name": "Golden Hook",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "minecraft:piglin_loved",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/golden_hook.png"
+   },
+   {
+    "id": "artifacts:helium_flamingo",
+    "path": "helium_flamingo",
+    "name": "Helium Flamingo",
+    "class": "artifacts.component.ability.SwimInAir",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/belt",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/helium_flamingo.png"
+   },
+   {
+    "id": "artifacts:kitty_slippers",
+    "path": "kitty_slippers",
+    "name": "Kitty Slippers",
+    "class": "artifacts.component.HurtSound",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/kitty_slippers.png"
+   },
+   {
+    "id": "artifacts:lucky_scarf",
+    "path": "lucky_scarf",
+    "name": "Lucky Scarf",
+    "class": null,
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/lucky_scarf.png"
+   },
+   {
+    "id": "artifacts:mimic_spawn_egg",
+    "path": "mimic_spawn_egg",
+    "name": "Mimic Spawn Egg",
+    "class": null,
+    "category": "Spawn Eggs",
+    "props": {},
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/artifacts/item/mimic_spawn_egg.png"
+   },
+   {
+    "id": "artifacts:night_vision_goggles",
+    "path": "night_vision_goggles",
+    "name": "Night Vision Goggles",
+    "class": null,
+    "category": "Face",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/face",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/night_vision_goggles.png"
+   },
+   {
+    "id": "artifacts:novelty_drinking_hat",
+    "path": "novelty_drinking_hat",
+    "name": "Novelty Drinking Hat",
+    "class": "ItemLore",
+    "category": "Head",
+    "props": {},
+    "tooltips": [
+     "'Hey! I'm #1, and I let gravity do my drinking!'"
+    ],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/novelty_drinking_hat.png"
+   },
+   {
+    "id": "artifacts:obsidian_skull",
+    "path": "obsidian_skull",
+    "name": "Obsidian Skull",
+    "class": "artifacts.component.ability.mobeffect.PostDamageEffects",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/obsidian_skull.png"
+   },
+   {
+    "id": "artifacts:onion_ring",
+    "path": "onion_ring",
+    "name": "Onion Ring",
+    "class": "net.minecraft.world.food.FoodProperties.Builder",
+    "category": "Bracelet",
+    "props": {
+     "food": true
+    },
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "curios:bracelet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/onion_ring.png"
+   },
+   {
+    "id": "artifacts:panic_necklace",
+    "path": "panic_necklace",
+    "name": "Panic Necklace",
+    "class": "artifacts.component.ability.mobeffect.PostDamageEffects",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/panic_necklace.png"
+   },
+   {
+    "id": "artifacts:pickaxe_heater",
+    "path": "pickaxe_heater",
+    "name": "Pickaxe Heater",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/pickaxe_heater.png"
+   },
+   {
+    "id": "artifacts:plastic_drinking_hat",
+    "path": "plastic_drinking_hat",
+    "name": "Plastic Drinking Hat",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/plastic_drinking_hat.png"
+   },
+   {
+    "id": "artifacts:pocket_piston",
+    "path": "pocket_piston",
+    "name": "Pocket Piston",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/pocket_piston.png"
+   },
+   {
+    "id": "artifacts:power_glove",
+    "path": "power_glove",
+    "name": "Power Glove",
+    "class": null,
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/power_glove.png"
+   },
+   {
+    "id": "artifacts:rooted_boots",
+    "path": "rooted_boots",
+    "name": "Rooted Boots",
+    "class": "artifacts.component.ability.ReplenishHungerOnGrass",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/rooted_boots.png"
+   },
+   {
+    "id": "artifacts:running_shoes",
+    "path": "running_shoes",
+    "name": "Running Shoes",
+    "class": null,
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/running_shoes.png"
+   },
+   {
+    "id": "artifacts:scarf_of_invisibility",
+    "path": "scarf_of_invisibility",
+    "name": "Scarf of Invisibility",
+    "class": null,
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/scarf_of_invisibility.png"
+   },
+   {
+    "id": "artifacts:shock_pendant",
+    "path": "shock_pendant",
+    "name": "Shock Pendant",
+    "class": "artifacts.component.ability.retaliation.RetaliationEffects",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/shock_pendant.png"
+   },
+   {
+    "id": "artifacts:snorkel",
+    "path": "snorkel",
+    "name": "Snorkel",
+    "class": null,
+    "category": "Face",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/face",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/snorkel.png"
+   },
+   {
+    "id": "artifacts:snowshoes",
+    "path": "snowshoes",
+    "name": "Snowshoes",
+    "class": null,
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/snowshoes.png"
+   },
+   {
+    "id": "artifacts:steadfast_spikes",
+    "path": "steadfast_spikes",
+    "name": "Steadfast Spikes",
+    "class": null,
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/steadfast_spikes.png"
+   },
+   {
+    "id": "artifacts:strider_shoes",
+    "path": "strider_shoes",
+    "name": "Strider Shoes",
+    "class": "artifacts.component.ability.FluidCollision",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/feet"
+    ],
+    "icon_url": "assets/icons/artifacts/item/strider_shoes.png"
+   },
+   {
+    "id": "artifacts:superstitious_hat",
+    "path": "superstitious_hat",
+    "name": "Superstitious Hat",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/superstitious_hat.png"
+   },
+   {
+    "id": "artifacts:thorn_pendant",
+    "path": "thorn_pendant",
+    "name": "Thorn Pendant",
+    "class": "artifacts.component.ability.retaliation.RetaliationEffects",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/thorn_pendant.png"
+   },
+   {
+    "id": "artifacts:umbrella",
+    "path": "umbrella",
+    "name": "Umbrella",
+    "class": "artifacts.item.UmbrellaItem",
+    "category": "Miscellaneous",
+    "props": {},
+    "tooltips": [
+     "Slows your fall when held",
+     "Can be used as a shield"
+    ],
+    "tags": [
+     "artifacts:artifacts",
+     "origins:shields",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": null
+   },
+   {
+    "id": "artifacts:universal_attractor",
+    "path": "universal_attractor",
+    "name": "Universal Attractor",
+    "class": null,
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "minecraft:piglin_loved",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/universal_attractor.png"
+   },
+   {
+    "id": "artifacts:vampiric_glove",
+    "path": "vampiric_glove",
+    "name": "Vampiric Glove",
+    "class": "artifacts.component.ability.DamageAbsorption",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/vampiric_glove.png"
+   },
+   {
+    "id": "artifacts:villager_hat",
+    "path": "villager_hat",
+    "name": "Villager Hat",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/villager_hat.png"
+   },
+   {
+    "id": "artifacts:warp_drive",
+    "path": "warp_drive",
+    "name": "Warp Drive",
+    "class": "artifacts.component.ability.EnderPearlHungerCost",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/warp_drive.png"
+   },
+   {
+    "id": "artifacts:whoopee_cushion",
+    "path": "whoopee_cushion",
+    "name": "Whoopee Cushion",
+    "class": null,
+    "category": "Head",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "artifacts:slot/head",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/whoopee_cushion.png"
+   },
+   {
+    "id": "artifacts:withered_bracelet",
+    "path": "withered_bracelet",
+    "name": "Withered Bracelet",
+    "class": "artifacts.component.ability.mobeffect.AttackEffects",
+    "category": "Bracelet",
+    "props": {},
+    "tooltips": [],
+    "tags": [
+     "artifacts:artifacts",
+     "curios:bracelet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/artifacts/item/withered_bracelet.png"
+   }
+  ],
+  "blocks": [],
+  "mobs": [
+   {
+    "id": "artifacts:mimic",
+    "path": "mimic",
+    "name": "Mimic",
+    "info": {
+     "category": "Misc",
+     "size": [
+      0.875,
+      0.875
+     ],
+     "class": "artifacts.entity.MimicEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Attack damage": 5.0,
+      "Speed": 0.8,
+      "Knockback resistance": 0.8,
+      "Follow range": 16.0,
+      "Health": 60.0
+     },
+     "ancestors": [
+      "Mob",
+      "Enemy"
+     ]
+    },
+    "drops": [
+     {
+      "rolls": [
+       1.0,
+       1.0
+      ],
+      "items": [
+       {
+        "item": null,
+        "table": "artifacts:artifact",
+        "chance": 1.0,
+        "count": [
+         1,
+         1
+        ],
+        "notes": []
+       }
+      ]
+     }
+    ],
+    "spawns": [],
+    "tags": [
+     "c:capturing_not_supported"
+    ],
+    "spawn_egg": "artifacts:mimic_spawn_egg"
+   }
+  ],
+  "effects": [
+   {
+    "id": "artifacts:magnetism",
+    "path": "magnetism",
+    "name": "Magnetism",
+    "class": "artifacts.effect.MagnetismMobEffect",
+    "category": "Beneficial",
+    "color": "#943DBA",
+    "description": null,
+    "icon_url": "assets/icons/artifacts/effect/magnetism.png"
+   }
+  ],
+  "enchantments": [],
+  "biomes": [],
+  "dimensions": [],
+  "structures": [],
+  "advancements": [
+   {
+    "id": "artifacts:adventurous_eater",
+    "title": "Adventurous Eater",
+    "description": "Eat an Artifact",
+    "frame": "task",
+    "hidden": true,
+    "parent": "artifacts:amateur_archaeologist",
+    "icon": "artifacts:onion_ring",
+    "criteria": [
+     "eat_artifact"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "artifacts:amateur_archaeologist",
+    "title": "Amateur Archaeologist",
+    "description": "Find an Artifact",
+    "frame": "task",
+    "hidden": false,
+    "parent": "minecraft:adventure/root",
+    "icon": "artifacts:flame_pendant",
+    "criteria": [
+     "find_artifact"
+    ],
+    "rewards": null
+   },
+   {
+    "id": "artifacts:chest_slayer",
+    "title": "Chest Slayer",
+    "description": "Kill a Mimic",
+    "frame": "task",
+    "hidden": false,
+    "parent": "artifacts:amateur_archaeologist",
+    "icon": "artifacts:mimic_spawn_egg",
+    "criteria": [
+     "kill_mimic"
+    ],
+    "rewards": null
+   }
+  ],
+  "commands": [],
+  "gamerules": [],
+  "command_messages": [],
+  "configs": [
+   23205,
+   23206,
+   23207,
+   23208,
+   23209,
+   23210,
+   23211,
+   23212,
+   23213,
+   23214,
+   23215,
+   23216,
+   23217,
+   23218,
+   23219,
+   23220,
+   23221,
+   23222,
+   23223,
+   23224,
+   23225,
+   23226,
+   23227,
+   23228,
+   23229,
+   23230,
+   23231,
+   23232,
+   23233,
+   23234,
+   23235,
+   23236,
+   23237,
+   23238,
+   23239,
+   23240,
+   23241,
+   23242,
+   23243,
+   23244,
+   23245,
+   23246,
+   23247,
+   23248,
+   23249,
+   23250,
+   23251,
+   23252,
+   23253,
+   23254,
+   23255,
+   23256,
+   23257,
+   23258,
+   23259,
+   23260,
+   23261,
+   23262,
+   23263,
+   23264,
+   23265,
+   23266,
+   23267,
+   23268,
+   23269,
+   23270,
+   23271,
+   23272,
+   23273,
+   23274,
+   23275,
+   23276,
+   23277,
+   23278,
+   23279,
+   23280,
+   23281,
+   23282,
+   23283,
+   23284,
+   23285,
+   23286,
+   23287,
+   23288,
+   23289,
+   23290,
+   23291,
+   23292,
+   23293,
+   23294,
+   23295,
+   23296,
+   23297,
+   23298,
+   23299,
+   23300,
+   23301,
+   23302,
+   23303,
+   23304,
+   23305,
+   23306,
+   23307,
+   23308,
+   23309,
+   23310,
+   23311,
+   23312,
+   23313,
+   23314,
+   23315,
+   23316,
+   23317,
+   23318,
+   23319,
+   23320,
+   23321,
+   23322,
+   23323,
+   23324,
+   23325,
+   23326,
+   23327,
+   23328,
+   23329,
+   23330,
+   23331,
+   23332,
+   23333,
+   23334,
+   23335,
+   23336,
+   23337,
+   23338,
+   23339,
+   23340,
+   23341,
+   23342,
+   23343,
+   23344,
+   23345,
+   23346,
+   23347,
+   23348,
+   23349,
+   23350,
+   23351,
+   23352,
+   23353,
+   23354,
+   23355,
+   23356,
+   23357,
+   23358,
+   23359,
+   23360,
+   23361,
+   23362,
+   23363,
+   23364,
+   23365,
+   23366,
+   23367,
+   23368,
+   23369,
+   23370,
+   23371,
+   23372,
+   23373
+  ]
+ },
+ "guidebooks": [],
+ "extra": {
+  "rarcompat": {
+   "artifacts:umbrella": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE",
+     "MOUNTAIN"
+    ],
+    "abilities": [
+     {
+      "id": "glider",
+      "name": "Soft Fall",
+      "description": "When held in hand, reduces the player's vertical speed, negating fall damage. Pressing LMB propels the player backward and triggers a cooldown of **2-1.5 (up to 0.6-0.4)** seconds. The push can be used up to **1-3 (up to 11-13)** times in succession before the player touches the ground.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "count",
+        "base": "1-3",
+        "per_level": "+1 per level",
+        "max": "11-13",
+        "name": "Count"
+       },
+       {
+        "id": "cooldown",
+        "base": "2-1.5",
+        "per_level": "-7% of base per level",
+        "max": "0.6-0.4",
+        "name": "Cooldown"
+       }
+      ]
+     },
+     {
+      "id": "shield",
+      "name": "Air Shield",
+      "description": "When used, functions as a shield, pushing targets up to **1-3 (up to 2-6)** blocks away.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "knockback",
+        "base": "1-3",
+        "per_level": "+10% of base per level",
+        "max": "2-6",
+        "name": "Knockback"
+       }
+      ]
+     }
+    ],
+    "description": "Softens the fall, providing safe landing from any height. When skillfully used, it can serve as a reliable shield, keeping enemies at bay."
+   },
+   "artifacts:cowboy_hat": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE",
+     "SAVANNA"
+    ],
+    "abilities": [
+     {
+      "id": "cowboy",
+      "name": "Gallop",
+      "description": "Increases the movement speed, jump height, and safe fall height of mounts by **20-30 (up to 50-75)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "speed",
+        "base": "20-30",
+        "per_level": "+15% of base per level",
+        "max": "50-75",
+        "name": "Speed"
+       }
+      ]
+     },
+     {
+      "id": "overlord",
+      "name": "Lasso",
+      "description": "When used, this ability allows you to ride and control any mob for up to **2-5 (up to 5-12.5)** seconds. After the time expires or dismounting, it goes on a 1-minute cooldown.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": "Instantaneous",
+      "stats": [
+       {
+        "id": "time",
+        "base": "2-5",
+        "per_level": "+15% of base per level",
+        "max": "5-12.5",
+        "name": "Time"
+       }
+      ]
+     }
+    ],
+    "description": "Enhances the agility of the relic bearer’s mounts."
+   },
+   "artifacts:drinking_hat": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "drinking",
+      "name": "Drinking",
+      "description": null,
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "speed",
+        "base": "30-40",
+        "per_level": "+15% of base per level",
+        "max": "75-100",
+        "name": "Speed"
+       }
+      ]
+     },
+     {
+      "id": "nutrition",
+      "name": "Nutrition",
+      "description": null,
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "hunger",
+        "base": "1-3",
+        "per_level": "+15% of base per level",
+        "max": "2.5-7.5",
+        "name": "Hunger"
+       }
+      ]
+     }
+    ]
+   },
+   "artifacts:snorkel": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "AQUATIC"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Clear Vision",
+      "description": "Removes the fog effect in liquids.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "diving",
+      "name": "Breath Control",
+      "description": "Applies a water breathing effect for **5-10 (up to 15-30)** seconds upon full submersion.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "duration",
+        "base": "5-10",
+        "per_level": "+20% of base per level",
+        "max": "15-30",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Allows for longer underwater exploration without the risk of drowning."
+   },
+   "artifacts:whoopee_cushion": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "OVERWORLD"
+    ],
+    "abilities": [
+     {
+      "id": "push",
+      "name": "Flatulence",
+      "description": "Has a **20-40 (up to 35-70)**% chance to knock back entities within a **3-5 (up to 4.5-7.5)** block radius, applying a 10-second nausea effect when taking damage or crouching frequently.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "20-40",
+        "per_level": "+7.5% of base per level",
+        "max": "35-70",
+        "name": "Chance"
+       },
+       {
+        "id": "radius",
+        "base": "3-5",
+        "per_level": "+5% of base per level",
+        "max": "4.5-7.5",
+        "name": "Radius"
+       }
+      ]
+     }
+    ],
+    "description": "Mysteriously increases the relic bearer's flatulence, leading to entirely unpredictable outcomes."
+   },
+   "artifacts:superstitious_hat": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "looting",
+      "name": "Big Loot",
+      "description": "Has a **10-20 (up to 35-70)**% chance to apply an additional level of Looting to defeated mobs. If successful, the ability repeats, adding another Looting level. This continues until the chance fails, summing all levels.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "10-20",
+        "per_level": "+25% of base per level",
+        "max": "35-70",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Increases loot drops from defeated mobs."
+   },
+   "artifacts:anglers_hat": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "AQUATIC",
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "catch",
+      "name": "Generous Catch",
+      "description": "Has a **10-20 (up to 35-70)**% chance to increase the amount of catch received. If successful, the ability repeats, adding more catch. This continues until the chance fails, summing all catches.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "10-20",
+        "per_level": "+25% of base per level",
+        "max": "35-70",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Increases catch during fishing."
+   },
+   "artifacts:night_vision_goggles": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT",
+     "SCULK"
+    ],
+    "abilities": [
+     {
+      "id": "vision",
+      "name": "Gamma Vision",
+      "description": "Enhances the brightness of poorly lit areas and reduces the effectiveness of blindness and darkness by **10-15 (up to 60-90)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": "Toggleable",
+      "stats": [
+       {
+        "id": "amount",
+        "base": "10-15",
+        "per_level": "+50% of base per level",
+        "max": "60-90",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to see more clearly in the dark."
+   },
+   "artifacts:villager_hat": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Innocent Appearance",
+      "description": "Prevents Iron Golems from attacking the player.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "discount",
+      "name": "Trade Secret",
+      "description": "Increases the discount when trading with villagers by **10-20 (up to 40-80)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "multiplier",
+        "base": "10-20",
+        "per_level": "+30% of base per level",
+        "max": "40-80",
+        "name": "Multiplier"
+       }
+      ]
+     }
+    ],
+    "description": "Reduces trading prices with villagers, making deals more profitable."
+   },
+   "artifacts:pocket_piston": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "discarding",
+      "name": "Concentrated Strike",
+      "description": "Increases knockback in melee attacks by **20-40 (up to 50-100)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "interaction",
+        "base": "20-40",
+        "per_level": "+15% of base per level",
+        "max": "50-100",
+        "name": "Interaction"
+       }
+      ]
+     },
+     {
+      "id": "interaction",
+      "name": "Long Reach",
+      "description": "Increases maximum interaction range with the world by **20-40 (up to 50-100)**%.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "range",
+        "base": "20-40",
+        "per_level": "+15% of base per level",
+        "max": "50-100",
+        "name": "Range"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer's hands the strength of mechanisms."
+   },
+   "artifacts:vampiric_glove": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "NETHER_LIKE",
+     "THE_NETHER"
+    ],
+    "abilities": [
+     {
+      "id": "vampire",
+      "name": "Life Steal",
+      "description": "Heals the player for **10-20 (up to 20-40)**% of the damage dealt.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "10-20",
+        "per_level": "+10% of base per level",
+        "max": "20-40",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer's attacks a vampiric effect, healing them by a portion of the damage dealt."
+   },
+   "artifacts:golden_hook": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "BASTION"
+    ],
+    "abilities": [
+     {
+      "id": "hook",
+      "name": "Thirst for Knowledge",
+      "description": "Increases experience gained from killing mobs by **20-40 (up to 50-100)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "20-40",
+        "per_level": "+15% of base per level",
+        "max": "50-100",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to perform more precise attacks, retaining more experience from killed mobs."
+   },
+   "artifacts:pickaxe_heater": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "heater",
+      "name": "Heat Concentration",
+      "description": "Smelts any mined block if possible, consuming one charge from a buffer with a capacity of **20-25 (up to 70-75)** units. The buffer regenerates 1 charge every **7-6 (up to 1.2-1)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": "Toggleable",
+      "stats": [
+       {
+        "id": "capacity",
+        "base": "20-25",
+        "per_level": "+5 per level",
+        "max": "70-75",
+        "name": "Capacity"
+       },
+       {
+        "id": "duration",
+        "base": "7-6",
+        "per_level": "-8.3% of base per level",
+        "max": "1.2-1",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Concentrates surrounding heat precisely onto the relic bearer's tools."
+   },
+   "artifacts:feral_claws": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "OVERWORLD"
+    ],
+    "abilities": [
+     {
+      "id": "claws",
+      "name": "Beast's Fury",
+      "description": "Increases the player's attack speed by **5-15 (up to 11-33)**% for each consecutive attack performed within 3 seconds of the last. Otherwise, loses 1 charge per second. Attacking with an unfilled attack speed bar resets the accumulated charges.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "5-15",
+        "per_level": "+12% of base per level",
+        "max": "11-33",
+        "name": "Modifier"
+       }
+      ]
+     }
+    ],
+    "description": "Awakens a bloodthirsty instinct in the relic bearer, making them fight faster with each consecutive attack."
+   },
+   "artifacts:digging_claws": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Pickaxe Hands",
+      "description": "Reduces the required tool level for all blocks by 1.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "fast_mining",
+      "name": "Fast Mining",
+      "description": "Increases block mining speed by **15-35 (up to 75-175)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "15-35",
+        "per_level": "+40% of base per level",
+        "max": "75-175",
+        "name": "Modifier"
+       }
+      ]
+     }
+    ],
+    "description": "Strengthens the relic bearer's hands, allowing them to chop through any blocks more effectively."
+   },
+   "artifacts:power_glove": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "power",
+      "name": "Power Strike",
+      "description": "Increases the player's damage dealt by **80-100 (up to 400-500)**% but enters a 5-second cooldown after each attack.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "80-100",
+        "per_level": "+40% of base per level",
+        "max": "400-500",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to perform empowered attacks."
+   },
+   "artifacts:fire_gauntlet": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "NETHER_LIKE",
+     "THE_NETHER"
+    ],
+    "abilities": [
+     {
+      "id": "caster",
+      "name": "Fire Wave",
+      "description": "When attacking, releases several sparks that home in on nearby targets, igniting them for **1.5-2.5 (up to 6-10)** seconds and dealing **5-15 (up to 16-50)**% of the performed attack's damage. The number of sparks is determined through repeated checks of a **20-30 (up to 50-75)**% chance. Each successful check releases one additional spark, but the process stops as soon as the chance fails even once.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "20-30",
+        "per_level": "+15% of base per level",
+        "max": "50-75",
+        "name": "Chance"
+       },
+       {
+        "id": "damage",
+        "base": "5-15",
+        "per_level": "+23.5% of base per level",
+        "max": "16-50",
+        "name": "Damage"
+       },
+       {
+        "id": "duration",
+        "base": "1.5-2.5",
+        "per_level": "+30% of base per level",
+        "max": "6-10",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer’s weapon the powers of the fire element."
+   },
+   "artifacts:withered_bracelet": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "NETHER_LIKE",
+     "THE_NETHER"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Wither Resistance",
+      "description": "Grants complete resistance to wither damage.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "withered",
+      "name": "Withering Touch",
+      "description": "Has a **20-40 (up to 40-80)**% chance to apply the Wither effect to the attacked target for **2-4 (up to 6-12)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "20-40",
+        "per_level": "+10% of base per level",
+        "max": "40-80",
+        "name": "Chance"
+       },
+       {
+        "id": "time",
+        "base": "2-4",
+        "per_level": "+20% of base per level",
+        "max": "6-12",
+        "name": "Time"
+       }
+      ]
+     }
+    ],
+    "description": "Fills the relic bearer's weapon with withering energy, affecting all it touches."
+   },
+   "artifacts:onion_ring": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "onion",
+      "name": "Miner's Hunger",
+      "description": "Increases block mining speed by **1-1.5 (up to 3-4.5)**% per unit of the player's saturation.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "1-1.5",
+        "per_level": "+20% of base per level",
+        "max": "3-4.5",
+        "name": "Amount"
+       }
+      ]
+     },
+     {
+      "id": "saturation",
+      "name": "Raw Appetite",
+      "description": "When mining blocks, there is a **5-15 (up to 10-30)**% chance to restore 1 hunger point and 0.5 saturation to the player.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "5-15",
+        "per_level": "+10% of base per level",
+        "max": "10-30",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Enhances the relic bearer's block mining efficiency when sufficiently satiated."
+   },
+   "artifacts:lucky_scarf": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "MINESHAFT",
+     "CAVE"
+    ],
+    "abilities": [
+     {
+      "id": "luck",
+      "name": "Treasure Hunter",
+      "description": "Has a **10-20 (up to 35-70)**% chance to apply an additional level of Luck to mined blocks. If successful, the ability repeats, adding another Luck level. This continues until the chance fails, summing all levels.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "10-20",
+        "per_level": "+25% of base per level",
+        "max": "35-70",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Increases Luck level when mining blocks."
+   },
+   "artifacts:flame_pendant": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "NETHER_LIKE",
+     "THE_NETHER"
+    ],
+    "abilities": [
+     {
+      "id": "fire",
+      "name": "Fiery Defense",
+      "description": "Has a **20-30 (up to 40-60)**% chance to ignite the target attacking the player for **2-3 (up to 8-12)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "time",
+        "base": "2-3",
+        "per_level": "+30% of base per level",
+        "max": "8-12",
+        "name": "Time"
+       },
+       {
+        "id": "chance",
+        "base": "20-30",
+        "per_level": "+10% of base per level",
+        "max": "40-60",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Burns anyone who dares to attack the relic bearer."
+   },
+   "artifacts:charm_of_sinking": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "AQUATIC"
+    ],
+    "abilities": [
+     {
+      "id": "dive",
+      "name": "Anchor",
+      "description": "Doubles the player's sinking speed.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "dipping",
+      "name": "Diver",
+      "description": "While the player stands on the underwater floor, it blocks air consumption and slowly restores its supply by **0.2-0.4 (up to 0.6-1.2)** seconds every second.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "air",
+        "base": "0.2-0.4",
+        "per_level": "+20% of base per level",
+        "max": "0.6-1.2",
+        "name": "Air"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer's legs the ability to absorb air from the ground."
+   },
+   "artifacts:cross_necklace": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "DESERT"
+    ],
+    "abilities": [
+     {
+      "id": "invulnerability",
+      "name": "Invincibility",
+      "description": "Increases the duration of invulnerability after taking damage by **0.3-0.5 (up to 0.9-1.5)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "0.3-0.5",
+        "per_level": "+20% of base per level",
+        "max": "0.9-1.5",
+        "name": "Modifier"
+       }
+      ]
+     }
+    ],
+    "description": "Envelops the relic bearer in a protective aura, granting temporary invulnerability after each hit taken."
+   },
+   "artifacts:charm_of_shrinking": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "shrinking",
+      "name": "Compression",
+      "description": "Reduces the player's size by **20-30 (up to 40-60)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "multiplier",
+        "base": "20-30",
+        "per_level": "+10% of base per level",
+        "max": "40-60",
+        "name": "Multiplier"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to shrink their body to access previously unreachable areas."
+   },
+   "artifacts:panic_necklace": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "panic",
+      "name": "Panic",
+      "description": "Increases the player's movement speed by **1-2 (up to 2-4)**% for each mob within a **6-8 (up to 12-16)** blocks radius targeting the player for attack.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "movement",
+        "base": "1-2",
+        "per_level": "+10% of base per level",
+        "max": "2-4",
+        "name": "Movement"
+       },
+       {
+        "id": "radius",
+        "base": "6-8",
+        "per_level": "+10% of base per level",
+        "max": "12-16",
+        "name": "Radius"
+       }
+      ]
+     }
+    ],
+    "description": "Quickens the relic bearer's heartbeat, warning of impending danger."
+   },
+   "artifacts:shock_pendant": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "MOUNTAIN"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Electric Resistance",
+      "description": "Grants complete resistance to lightning damage.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "lightning",
+      "name": "Lightning Defense",
+      "description": "Has a **10-20 (up to 20-40)**% chance to strike the target attacking the player with lightning, dealing **1-3 (up to 3-9)** damage.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "damage",
+        "base": "1-3",
+        "per_level": "+20% of base per level",
+        "max": "3-9",
+        "name": "Damage"
+       },
+       {
+        "id": "chance",
+        "base": "10-20",
+        "per_level": "+10% of base per level",
+        "max": "20-40",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Strikes with lightning anyone who dares to attack the relic bearer."
+   },
+   "artifacts:thorn_pendant": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "TROPIC"
+    ],
+    "abilities": [
+     {
+      "id": "poison",
+      "name": "Poisonous Defense",
+      "description": "Has a **10-20 (up to 25-50)**% chance to reflect **5-15 (up to 10-30)**% damage and apply poison to the target attacking the player for **2-4 (up to 8-16)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "multiplier",
+        "base": "5-15",
+        "per_level": "+10% of base per level",
+        "max": "10-30",
+        "name": "Multiplier"
+       },
+       {
+        "id": "time",
+        "base": "2-4",
+        "per_level": "+30% of base per level",
+        "max": "8-16",
+        "name": "Time"
+       },
+       {
+        "id": "chance",
+        "base": "10-20",
+        "per_level": "+15% of base per level",
+        "max": "25-50",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Poisons anyone who dares to attack the relic bearer."
+   },
+   "artifacts:scarf_of_invisibility": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "END_LIKE",
+     "THE_END"
+    ],
+    "abilities": [
+     {
+      "id": "invisible",
+      "name": "Silent Step",
+      "description": "Grants the player complete invisibility. The effect is lost for **7-5 (up to 3.5-2.5)** seconds upon any interaction with the world. If during the absence of invisibility any mob targets the player, the effect will not restore until that mob won't lose sight of the player.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "time",
+        "base": "7-5",
+        "per_level": "-5% of base per level",
+        "max": "3.5-2.5",
+        "name": "Time"
+       }
+      ]
+     }
+    ],
+    "description": "When moving carefully, makes the player invisible to surroundings."
+   },
+   "artifacts:bunny_hoppers": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "PLAINS",
+     "FOREST"
+    ],
+    "abilities": [
+     {
+      "id": "hold",
+      "name": "Jumper",
+      "description": "Allows high jumps by continuously holding the jump key for up to **0.15-0.25 (up to 0.45-0.75)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "duration",
+        "base": "0.15-0.25",
+        "per_level": "+20% of base per level",
+        "max": "0.45-0.75",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Strengthens the relic bearer's legs, allowing them to push off the ground more powerfully."
+   },
+   "artifacts:rooted_boots": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "OVERWORLD"
+    ],
+    "abilities": [
+     {
+      "id": "devouring",
+      "name": "Herbivory",
+      "description": "Every **7-6 (up to 2-1.7)** seconds transforms the grass block beneath the player into dirt, restoring 1 hunger and saturation point.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": "Toggleable",
+      "stats": [
+       {
+        "id": "frequency",
+        "base": "7-6",
+        "per_level": "-7.1% of base per level",
+        "max": "2-1.7",
+        "name": "Frequency"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer the mysterious power of a sheep."
+   },
+   "artifacts:kitty_slippers": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "TROPIC",
+     "VILLAGE"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Cat's Gaze",
+      "description": "Scares away all Creepers and Phantoms near the player.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "fall",
+      "name": "Soft Paws",
+      "description": "Increases safe falling height by **2-4 (up to 10-20)** blocks.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "2-4",
+        "per_level": "+40% of base per level",
+        "max": "10-20",
+        "name": "Modifier"
+       }
+      ]
+     },
+     {
+      "id": "resurrected",
+      "name": "Nine Lives",
+      "description": "Has a **5-10 (up to 17.5-35)**% chance to save the player from fatal damage, leaving them with 1 health point.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "5-10",
+        "per_level": "+25% of base per level",
+        "max": "17.5-35",
+        "name": "Chance"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer feline traits, including soft paws and countless lives."
+   },
+   "artifacts:snowshoes": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "FROST",
+     "TAIGA",
+     "MOUNTAIN"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Light Step",
+      "description": "Allows walking on powder snow without sinking.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "speed",
+      "name": "Snow Walker",
+      "description": "Increases movement speed on snow by **20-40 (up to 40-80)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "20-40",
+        "per_level": "+10% of base per level",
+        "max": "40-80",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Improves the relic bearer's mobility in harsh snowy conditions."
+   },
+   "artifacts:flippers": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "AQUATIC"
+    ],
+    "abilities": [
+     {
+      "id": "swimmer",
+      "name": "Fish Tail",
+      "description": "Increases the player's swimming speed by **20-40 (up to 70-140)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "20-40",
+        "per_level": "+25% of base per level",
+        "max": "70-140",
+        "name": "Modifier"
+       }
+      ]
+     }
+    ],
+    "description": "Strengthens the relic bearer's legs, allowing them to swim faster."
+   },
+   "artifacts:running_shoes": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "VILLAGE",
+     "PLAINS"
+    ],
+    "abilities": [
+     {
+      "id": "runner",
+      "name": "Wide Stride",
+      "description": "Increases the player's running speed by **50-80 (up to 150-240)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "speed",
+        "base": "50-80",
+        "per_level": "+20% of base per level",
+        "max": "150-240",
+        "name": "Speed"
+       }
+      ]
+     }
+    ],
+    "description": "Strengthens the relic bearer's legs, allowing them to move faster."
+   },
+   "artifacts:steadfast_spikes": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT",
+     "MOUNTAIN"
+    ],
+    "abilities": [
+     {
+      "id": "passive",
+      "name": "Clinging Claws",
+      "description": "Allows slow wall sliding, negating fall damage.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": []
+     },
+     {
+      "id": "resistance",
+      "name": "Grip",
+      "description": "Increases resistance to knockback and slippery blocks by **20-30 (up to 50-75)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "modifier",
+        "base": "20-30",
+        "per_level": "+15% of base per level",
+        "max": "50-75",
+        "name": "Modifier"
+       }
+      ]
+     }
+    ],
+    "description": "Firmly anchors the relic bearer's feet to any surface."
+   },
+   "artifacts:chorus_totem": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "END_LIKE",
+     "THE_END"
+    ],
+    "abilities": [
+     {
+      "id": "past",
+      "name": "Temporal Loop",
+      "description": "Each attack against the relic bearer has a **2-4 (up to 4-7)**% chance per percent of missing health to teleport the attacker to a random location within a **5-7 (up to 10-14)** block radius.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "chance",
+        "base": "2-4",
+        "per_level": "+10% of base per level",
+        "max": "4-7",
+        "name": "Chance"
+       },
+       {
+        "id": "radius",
+        "base": "5-7",
+        "per_level": "+10% of base per level",
+        "max": "10-14",
+        "name": "Radius"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to rewind time when making rash decisions."
+   },
+   "artifacts:universal_attractor": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "attractor",
+      "name": "Magnetism",
+      "description": "A toggleable ability with 3 modes: Attraction, Repulsion, and Neutrality. In the red Attraction mode, items within a radius of **3-5 (up to 13-15)** blocks are drawn toward the player. In the blue Repulsion mode, items are pushed away. The purple Neutrality mode disables the relic's effect.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": "Interruptible",
+      "stats": [
+       {
+        "id": "radius",
+        "base": "3-5",
+        "per_level": "+1 per level",
+        "max": "13-15",
+        "name": "Radius"
+       }
+      ]
+     }
+    ],
+    "description": "Manipulates a weak magnetic field around the relic bearer, controlling the gravity of nearby items."
+   },
+   "artifacts:helium_flamingo": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "AQUATIC",
+     "THE_END",
+     "END_LIKE"
+    ],
+    "abilities": [
+     {
+      "id": "flying",
+      "name": "Air Swimmer",
+      "description": "When performing a double jump, allows the player to float in the air for up to **3-5 (up to 9-15)** seconds. Movement speed in the air is proportional to the player's swimming speed with an additional bonus of **20-30 (up to 60-90)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "time",
+        "base": "3-5",
+        "per_level": "+20% of base per level",
+        "max": "9-15",
+        "name": "Time"
+       },
+       {
+        "id": "speed",
+        "base": "20-30",
+        "per_level": "+20% of base per level",
+        "max": "60-90",
+        "name": "Speed"
+       }
+      ]
+     }
+    ],
+    "description": "Temporarily allows the relic bearer to glide through air as they would water."
+   },
+   "artifacts:cloud_in_bottle": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "MOUNTAIN",
+     "THE_END",
+     "END_LIKE"
+    ],
+    "abilities": [
+     {
+      "id": "jump",
+      "name": "Jump",
+      "description": null,
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "count",
+        "base": "1-3",
+        "per_level": "+1 per level",
+        "max": "11-13",
+        "name": "Count"
+       }
+      ]
+     }
+    ]
+   },
+   "artifacts:crystal_heart": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "CAVE",
+     "MINESHAFT"
+    ],
+    "abilities": [
+     {
+      "id": "heart",
+      "name": "Will to Live",
+      "description": "Increases the player's maximum health by **2-6 (up to 6-18)** points.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "2-6",
+        "per_level": "+20% of base per level",
+        "max": "6-18",
+        "name": "Amount"
+       }
+      ]
+     }
+    ],
+    "description": "Grants the relic bearer extra strength by increasing their maximum health."
+   },
+   "artifacts:obsidian_skull": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "NETHER_LIKE",
+     "THE_NETHER"
+    ],
+    "abilities": [
+     {
+      "id": "hell",
+      "name": "Heat Resistance",
+      "description": "Completely absorbs damage from fire sources for up to **2-3 (up to 8-12)** seconds. If the player has not taken fire damage for 3 seconds, the absorption time regenerates each second.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "duration",
+        "base": "2-3",
+        "per_level": "+30% of base per level",
+        "max": "8-12",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Redirects heat aimed at harming the relic bearer onto itself."
+   },
+   "artifacts:warp_drive": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 10,
+     "step": 100
+    },
+    "loot": [
+     "END_LIKE",
+     "THE_END"
+    ],
+    "abilities": [
+     {
+      "id": "teleport",
+      "name": "Translocation",
+      "description": "Teleports the player to a position along their line of sight within **5-15 (up to 33-100)** blocks, then goes on a cooldown for **5-4 (up to 1.2-1)** seconds.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": "Instantaneous",
+      "stats": [
+       {
+        "id": "distance",
+        "base": "5-15",
+        "per_level": "+56.5% of base per level",
+        "max": "33-100",
+        "name": "Distance"
+       },
+       {
+        "id": "cooldown",
+        "base": "5-4",
+        "per_level": "-7.5% of base per level",
+        "max": "1.2-1",
+        "name": "Cooldown"
+       }
+      ]
+     }
+    ],
+    "description": "Allows the relic bearer to teleport their body over short distances."
+   },
+   "artifacts:antidote_vessel": {
+    "leveling": {
+     "initial_cost": 100,
+     "max_level": 15,
+     "step": 100
+    },
+    "loot": [
+     "TROPIC"
+    ],
+    "abilities": [
+     {
+      "id": "antidote",
+      "name": "Poison Resistance",
+      "description": "Reduces the duration of negative effects received by **20-40 (up to 40-80)**%.",
+      "required_level": 0,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "amount",
+        "base": "20-40",
+        "per_level": "+10% of base per level",
+        "max": "40-80",
+        "name": "Amount"
+       }
+      ]
+     },
+     {
+      "id": "devourer",
+      "name": "Alchemical Touch",
+      "description": "Each successful attack steals **1-1.5 (up to 5-7.5)** seconds from all positive effects present on the target.",
+      "required_level": 5,
+      "max_level": 10,
+      "cast": null,
+      "stats": [
+       {
+        "id": "duration",
+        "base": "1-1.5",
+        "per_level": "+40% of base per level",
+        "max": "5-7.5",
+        "name": "Duration"
+       }
+      ]
+     }
+    ],
+    "description": "Enhances the relic bearer's resistance to effects."
+   }
+  }
+ }
+}

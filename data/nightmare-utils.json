@@ -1,0 +1,843 @@
+{
+ "mod": {
+  "slug": "nightmare-utils",
+  "name": "Nightmare Utils",
+  "jar": "nightmareutils-",
+  "modids": [
+   "nightmareutils"
+  ],
+  "family": "tensura",
+  "group": "Tensura",
+  "blurb": "Library mod (Nightmare's Tensura Utils) used by TR: Nightmares. Adds the Mimicry system and shared helpers.",
+  "meta": {
+   "displayName": "Nightmare Utils",
+   "version": "0.1.0",
+   "authors": "shadowako",
+   "credits": null,
+   "description": "Shared Tensura entity and skill utility framework for addon mods.",
+   "displayURL": null,
+   "issueTrackerURL": null,
+   "logoFile": null,
+   "license": "All Rights Reserved",
+   "depends": [],
+   "jar": "nightmareutils-0.1.2.jar"
+  }
+ },
+ "categories": {
+  "abilities": [
+   {
+    "id": "nightmareutils:sentient",
+    "ns": "nightmareutils",
+    "path": "sentient",
+    "name": "Sentient",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.SentientSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/sentient.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "on_learn",
+      "label": "Does something when first learned"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:sentientdisintegrate",
+    "ns": "nightmareutils",
+    "path": "sentientdisintegrate",
+    "name": "Sentientdisintegrate",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.SentientDisintegrateSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/sentient.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "on_learn",
+      "label": "Does something when first learned"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:charm_test",
+    "ns": "nightmareutils",
+    "path": "charm_test",
+    "name": "Charm Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.CharmTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/charm_test.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:possession_test",
+    "ns": "nightmareutils",
+    "path": "possession_test",
+    "name": "Possession Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.PossessionTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/possession_test.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:possession_copy_test",
+    "ns": "nightmareutils",
+    "path": "possession_copy_test",
+    "name": "Possession Copy Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.PossessionCopyTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/possession_copy_test.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:block_place_test",
+    "ns": "nightmareutils",
+    "path": "block_place_test",
+    "name": "Block Place Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.BlockPlaceTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/block_place_test.png",
+    "modes": [
+     {
+      "index": 0,
+      "id": null,
+      "name": "Mode 1"
+     },
+     {
+      "index": 1,
+      "id": "nightmareutils.block_place.circle",
+      "name": "Circle"
+     },
+     {
+      "index": 2,
+      "id": "nightmareutils.block_place.cube",
+      "name": "Cube"
+     },
+     {
+      "index": 3,
+      "id": "nightmareutils.block_place.rectangle",
+      "name": "Rectangle"
+     },
+     {
+      "index": 4,
+      "id": "nightmareutils.block_place.spiderweb",
+      "name": "Spiderweb"
+     },
+     {
+      "index": 5,
+      "id": "nightmareutils.block_place.slash",
+      "name": "Slash"
+     },
+     {
+      "index": 6,
+      "id": "nightmareutils.block_place.schematic",
+      "name": "Schematic"
+     },
+     {
+      "index": 7,
+      "id": "nightmareutils.block_place.ring",
+      "name": "Ring"
+     },
+     {
+      "index": 8,
+      "id": "nightmareutils.block_place.diamond",
+      "name": "Diamond"
+     },
+     {
+      "index": 9,
+      "id": "nightmareutils.block_place.sphere",
+      "name": "Sphere"
+     },
+     {
+      "index": 10,
+      "id": "nightmareutils.block_place.star",
+      "name": "Star"
+     },
+     {
+      "index": 11,
+      "id": "nightmareutils.block_place.lemniscate",
+      "name": "Lemniscate"
+     },
+     {
+      "index": 12,
+      "id": "nightmareutils.block_place.wave",
+      "name": "Wave"
+     }
+    ],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     },
+     {
+      "key": "scroll",
+      "label": "Adjusted by scrolling while active"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:block_break_test",
+    "ns": "nightmareutils",
+    "path": "block_break_test",
+    "name": "Block Break Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.BlockBreakTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/block_break_test.png",
+    "modes": [
+     {
+      "index": 0,
+      "id": null,
+      "name": "Mode 1"
+     },
+     {
+      "index": 1,
+      "id": "nightmareutils.block_break.circle",
+      "name": "Circle"
+     },
+     {
+      "index": 2,
+      "id": "nightmareutils.block_break.cube",
+      "name": "Cube"
+     },
+     {
+      "index": 3,
+      "id": "nightmareutils.block_break.rectangle",
+      "name": "Rectangle"
+     },
+     {
+      "index": 4,
+      "id": "nightmareutils.block_break.spiderweb",
+      "name": "Spiderweb"
+     },
+     {
+      "index": 5,
+      "id": "nightmareutils.block_break.slash",
+      "name": "Slash"
+     },
+     {
+      "index": 6,
+      "id": "nightmareutils.block_break.ring",
+      "name": "Ring"
+     },
+     {
+      "index": 7,
+      "id": "nightmareutils.block_break.diamond",
+      "name": "Diamond"
+     },
+     {
+      "index": 8,
+      "id": "nightmareutils.block_break.hollow_sphere",
+      "name": "Hollow Sphere"
+     },
+     {
+      "index": 9,
+      "id": "nightmareutils.block_break.star",
+      "name": "Star"
+     },
+     {
+      "index": 10,
+      "id": "nightmareutils.block_break.lemniscate",
+      "name": "Lemniscate"
+     },
+     {
+      "index": 11,
+      "id": "nightmareutils.block_break.wave",
+      "name": "Wave"
+     }
+    ],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     },
+     {
+      "key": "scroll",
+      "label": "Adjusted by scrolling while active"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:particle_shape_test",
+    "ns": "nightmareutils",
+    "path": "particle_shape_test",
+    "name": "Particle Shape Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.ParticleShapeTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/particle_shape_test.png",
+    "modes": [
+     {
+      "index": 0,
+      "id": null,
+      "name": "Mode 1"
+     },
+     {
+      "index": 1,
+      "id": "nightmareutils.particle.square",
+      "name": "Square"
+     },
+     {
+      "index": 2,
+      "id": "nightmareutils.particle.slash",
+      "name": "Slash"
+     },
+     {
+      "index": 3,
+      "id": "nightmareutils.particle.spiral",
+      "name": "Spiral"
+     },
+     {
+      "index": 4,
+      "id": "nightmareutils.particle.ring",
+      "name": "Ring"
+     },
+     {
+      "index": 5,
+      "id": "nightmareutils.particle.rose",
+      "name": "Rose"
+     },
+     {
+      "index": 6,
+      "id": "nightmareutils.particle.double_helix",
+      "name": "Double Helix"
+     },
+     {
+      "index": 7,
+      "id": "nightmareutils.particle.lissajous",
+      "name": "Lissajous"
+     },
+     {
+      "index": 8,
+      "id": "nightmareutils.particle.torus_knot",
+      "name": "Torus Knot"
+     }
+    ],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     },
+     {
+      "key": "scroll",
+      "label": "Adjusted by scrolling while active"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:mimicry_test",
+    "ns": "nightmareutils",
+    "path": "mimicry_test",
+    "name": "Mimicry Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.MimicryTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "tensura:icons/skills/body_double",
+    "modes": [
+     {
+      "index": 0,
+      "id": "nightmareutils.mimicry.mode.entity",
+      "name": "Entity Mimicry"
+     },
+     {
+      "index": 1,
+      "id": "nightmareutils.mimicry.mode.race",
+      "name": "Race Mimicry"
+     },
+     {
+      "index": 2,
+      "id": "nightmareutils.mimicry.mode.player",
+      "name": "Player Mimicry"
+     },
+     {
+      "index": 3,
+      "id": "nightmareutils.mimicry.mode.analysis",
+      "name": "Mimicry Analysis"
+     }
+    ],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:programmable_menu_test",
+    "ns": "nightmareutils",
+    "path": "programmable_menu_test",
+    "name": "Programmable Menu Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.ProgrammableMenuTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/programmable_menu_test.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   },
+   {
+    "id": "nightmareutils:spectator_test",
+    "ns": "nightmareutils",
+    "path": "spectator_test",
+    "name": "Spectator Test",
+    "description": null,
+    "class": "dev.shadowako.nightmareutils.skill.SpectatorTestSkill",
+    "category": "skill",
+    "tier": "unique",
+    "icon": "nightmareutils:textures/skill/spectator_test.png",
+    "modes": [],
+    "hooks": [
+     {
+      "key": "press",
+      "label": "Activated by pressing the skill key"
+     }
+    ],
+    "magicule_cost": null,
+    "aura_cost": null,
+    "attributes": [],
+    "related": [],
+    "effects": [],
+    "items": [],
+    "entities": [],
+    "tags": [
+     "tensura:skills/no_plundering"
+    ],
+    "config": [],
+    "messages": [],
+    "icon_url": null
+   }
+  ],
+  "races": [],
+  "items": [],
+  "blocks": [],
+  "mobs": [
+   {
+    "id": "nightmareutils:otherworlder",
+    "path": "otherworlder",
+    "name": "Otherworlder",
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.95
+     ],
+     "class": "dev.shadowako.nightmareutils.entity.NightmareOtherworlderEntity",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Follow range": 48.0,
+      "Attack damage": 6.0,
+      "Speed": 0.24,
+      "Armor": 4.0,
+      "Health": 40.0
+     },
+     "ancestors": [
+      "PlayerLikeEntity",
+      "TensuraHumanoidEntity",
+      "RangedAttackMob",
+      "TensuraTamableEntity",
+      "HasCustomInventoryScreen",
+      "ContainerListener"
+     ]
+    },
+    "drops": null,
+    "spawns": [],
+    "tags": [
+     "apothic_spawners:blacklisted_from_spawners",
+     "c:capturing_not_supported"
+    ],
+    "spawn_egg": null
+   },
+   {
+    "id": "nightmareutils:shinro_nakuba_maximum",
+    "path": "shinro_nakuba_maximum",
+    "name": "Shinro Nakuba Maximum",
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.95
+     ],
+     "class": "dev.shadowako.nightmareutils.entity.ShinroNakubaMaximumEntity",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Follow range": 96.0,
+      "Attack damage": 80.0,
+      "Speed": 0.28,
+      "Armor": 100.0,
+      "Health": 10000.0
+     },
+     "ancestors": [
+      "PlayerLikeEntity",
+      "TensuraHumanoidEntity",
+      "RangedAttackMob",
+      "TensuraTamableEntity",
+      "HasCustomInventoryScreen",
+      "ContainerListener"
+     ]
+    },
+    "drops": null,
+    "spawns": [],
+    "tags": [
+     "apothic_spawners:blacklisted_from_spawners",
+     "c:capturing_not_supported"
+    ],
+    "spawn_egg": null
+   }
+  ],
+  "effects": [],
+  "enchantments": [],
+  "biomes": [],
+  "dimensions": [],
+  "structures": [],
+  "advancements": [],
+  "commands": [
+   {
+    "syntax": "/nightmareutils awakening progress <player> <id> <amount>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils awakening start <player> <id>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils awakening status <player> <id>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils awakening trigger <player> <id>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils chatlogging",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils give_test_sword <player>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils givetestskill <player> <skill>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> clear",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> cooldown <skill> <mode> <ticks>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> enable",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> grant <skill>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> grantfrom <source> <skill>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> list",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> mastery <skill> <amount>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> removetime <skill> <ticks>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> revoke <skill>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> setowner <owner>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> toggle <skill> <value>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemedit <player> weaponarmor <enabled>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemrestore <uuid>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils itemrestore recent",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils mimicry add <username>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils mimicry addrace <race>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils mimicry restore",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils mimicry revert",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils nametree",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils programmable choose <index>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils programmable clear",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils programmable list",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils spawnotherworlder <id>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils weapon grant <player> <max>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils weapon snapshot <player> <max>",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   },
+   {
+    "syntax": "/nightmareutils weaponskillpreset",
+    "permission": 2,
+    "source": "dev.shadowako.nightmareutils.command.NightmareUtilsCommands"
+   }
+  ],
+  "gamerules": [
+   {
+    "name": "nightmareutilstest",
+    "type": "boolean",
+    "default": false,
+    "category": "PLAYER",
+    "title": null,
+    "description": null
+   }
+  ],
+  "command_messages": [],
+  "configs": []
+ },
+ "guidebooks": [],
+ "extra": {}
+}

@@ -1,0 +1,4 @@
+# Only needed to re-extract data from the mod jars (tools/wikigen/extract.py). Java 21 is also required for decompiling.
+tree-sitter>=0.23
+tree-sitter-java>=0.23
+pillow>=10

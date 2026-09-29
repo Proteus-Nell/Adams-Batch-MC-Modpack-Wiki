@@ -1,0 +1,35 @@
+# Undine
+
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+
+<div class="infobox" markdown>
+
+| | |
+|---|---|
+| **ID** | `tensura:undine` |
+| **Magicule (EP)** | 120,000 - 150,000 |
+| **Spiritual health** | 2,000 |
+| **Spawn egg** |  [Undine Spawn Egg](../items/spawn-eggs/undine-spawn-egg.md) |
+
+</div>
+
+## Abilities
+
+This mob has these skills (and they can be obtained from it, for example with Predator-type skills):
+
+- ![](../../assets/icons/tensura/skill/water_transform.png) [Water Transform](../abilities/intrinsic-skills/water-transform.md)
+- ![](../../assets/icons/tensura/skill/water_manipulation.png) [Water Manipulation](../abilities/extra-skills/water-manipulation.md)
+- ![](../../assets/icons/tensura/skill/water_cutter.png) [Water Cutter](../abilities/spiritual-magic/water-cutter.md)
+- ![](../../assets/icons/tensura/skill/acid_rain.png) [Acid Rain](../abilities/spiritual-magic/acid-rain.md)
+- ![](../../assets/icons/tensura/skill/water_attack_nullification.png) [Water Attack Nullification](../abilities/resistance-skills/water-attack-nullification.md)
+
+## Drops
+
+| Item | Count | Chance | Notes |
+|---|---|---|---|
+| ![](../../assets/icons/tensura/item/elemental_essence.png) [Elemental Essence](../items/materials/elemental-essence.md) | 1 | 100% |  |
+| ![](../../assets/icons/tensura/item/water_elemental_shard.png) [Elemental Shard (Water)](../items/materials/water-elemental-shard.md) | 1-3 | 100% |  |
+
+## Tags
+
+`c:bosses`, `c:capturing_not_supported`, `elitetensura:extra_cash_drops`, `minecraft:can_breathe_under_water`, `minecraft:fall_damage_immune`, `tensura:boss_for_hero`, `tensura:can_be_named`, `tensura:cold_source`, `tensura:drop_crystal`, `tensura:full_gravity_control`, `tensura:nameable`, `tensura:neutral_monster`, `tensura:no_fear`, `tensura:spiritual`

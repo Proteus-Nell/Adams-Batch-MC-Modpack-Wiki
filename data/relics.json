@@ -1,0 +1,2157 @@
+{
+ "mod": {
+  "slug": "relics",
+  "name": "Relics",
+  "jar": "relics-",
+  "modids": [
+   "relics"
+  ],
+  "family": "relics",
+  "group": "Items & Equipment",
+  "blurb": "Levelled, researchable relics found in chests. Each relic has abilities you unlock and upgrade.",
+  "meta": {
+   "displayName": "Relics",
+   "version": "0.10.7.8",
+   "authors": "SSKirillSS",
+   "credits": null,
+   "description": "Just a mod about useful relics with unique mechanics ;)",
+   "displayURL": "https://www.curseforge.com/minecraft/mc-mods/relics-mod",
+   "issueTrackerURL": null,
+   "logoFile": null,
+   "license": "All Rights Reserved",
+   "depends": [
+    {
+     "modid": "curios",
+     "type": "required",
+     "version": "[9.3.1+1.21.1,)"
+    },
+    {
+     "modid": "octolib",
+     "type": "required",
+     "version": "[0.6.0.1,)"
+    }
+   ],
+   "jar": "relics-1.21.1-0.10.7.8.jar"
+  }
+ },
+ "categories": {
+  "items": [
+   {
+    "id": "relics:amphibian_boot",
+    "path": "amphibian_boot",
+    "name": "Amphibian Boot",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.AmphibianBootItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each second of acceleration from the «Fins» ability.\n+1 experience point for every second of acceleration from the «Slipping» ability."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/amphibian_boot.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "AQUATIC"
+     ],
+     "abilities": [
+      {
+       "id": "swimming",
+       "name": "Fins",
+       "description": "Increases swimming speed by **2-4 (up to 7-14)**% per second of swimming. The modifier stops increasing if the swimming duration exceeds **3-7 (up to 9-21)** seconds.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "2-4",
+         "per_level": "+25% of base per level",
+         "max": "7-14",
+         "name": "Speed"
+        },
+        {
+         "id": "duration",
+         "base": "3-7",
+         "per_level": "+20% of base per level",
+         "max": "9-21",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "slipping",
+       "name": "Slipping",
+       "description": "Increases movement speed in the rain by **2-4 (up to 5-10)**% per second of movement. The modifier stops increasing if the duration of movement in the rain exceeds **3-5 (up to 7.5-12.5)** seconds.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "2-4",
+         "per_level": "+15% of base per level",
+         "max": "5-10",
+         "name": "Speed"
+        },
+        {
+         "id": "duration",
+         "base": "3-5",
+         "per_level": "+15% of base per level",
+         "max": "7.5-12.5",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "gills",
+       "name": "Gills",
+       "description": "With a **1-10 (up to 4.5-45)**% chance, the player may not consume an air unit while swimming or in other conditions.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "1-10",
+         "per_level": "+35% of base per level",
+         "max": "4.5-45",
+         "name": "Chance"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each second of acceleration from the «Fins» ability.\n+1 experience point for every second of acceleration from the «Slipping» ability."
+    }
+   },
+   {
+    "id": "relics:aqua_walker",
+    "path": "aqua_walker",
+    "name": "Aqua Walker",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.AquaWalkerItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 5 units of getting wet from the ability «Moisture Resistance»."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/aqua_walker.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "AQUATIC"
+     ],
+     "abilities": [
+      {
+       "id": "walking",
+       "name": "Moisture Resistance",
+       "description": "For a certain period, allows walking on the surface of water without sinking. Once the time runs out, the boots start sinking, pulling the wearer underwater. To dry them, the wearer must stay away from water blocks. The drying time fully depends on the level of saturation.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "time",
+         "base": "30-60",
+         "per_level": "+10% of base per level",
+         "max": "60-120",
+         "name": "Time"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 5 units of getting wet from the ability «Moisture Resistance»."
+    }
+   },
+   {
+    "id": "relics:bastion_ring",
+    "path": "bastion_ring",
+    "name": "Bastion Ring",
+    "class": "it.hurts.sskirillss.relics.items.relics.ring.BastionRingItem",
+    "category": "Ring",
+    "props": {},
+    "tooltips": [
+     "+1/5/10 experience point for each killed Zombified Piglin / Piglin / Piglin Brute.\n+1 experience point for each additional trade from the ability «Respect»."
+    ],
+    "tags": [
+     "curios:ring",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/bastion_ring.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "BASTION"
+     ],
+     "abilities": [
+      {
+       "id": "compass",
+       "name": "Recognition",
+       "description": "Makes piglins neutral in relation to the wearer. The nearest piglin will indicate the location of a bastion nearby.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "trade",
+       "name": "Respect",
+       "description": "Each trade with piglins has a multiple 50% chance to yield an additional trade result, but the chance cannot trigger more than **0-1 (up to 10-11)** times.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "rolls",
+         "base": "0-1",
+         "per_level": "+1 per level",
+         "max": "10-11",
+         "name": "Rolls"
+        }
+       ]
+      }
+     ],
+     "description": "+1/5/10 experience point for each killed Zombified Piglin / Piglin / Piglin Brute.\n+1 experience point for each additional trade from the ability «Respect»."
+    }
+   },
+   {
+    "id": "relics:blazing_flask",
+    "path": "blazing_flask",
+    "name": "Blazing Flask",
+    "class": "it.hurts.sskirillss.relics.items.relics.BlazingFlaskItem",
+    "category": "Relics",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 5 seconds of flight within the scope of the ability «Eternal Fire»."
+    ],
+    "tags": [
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable"
+    ],
+    "icon_url": "assets/icons/relics/item/blazing_flask.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_NETHER",
+      "NETHER_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "bonfire",
+       "name": "Eternal fire",
+       "description": "Using the ability on a block creates a restricted flight zone with a maximum flight speed of **0.1-0.4 (up to 1.6-8)** blocks per second and a height of **3-5 (up to 13-15)** blocks. The area size depends on the amount of fire within a radius of **1-2.5 (up to 2-5)** blocks around the center, but if there is no fire at all, the zone will not be created.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "step",
+         "base": "1-2.5",
+         "per_level": "+10% of base per level",
+         "max": "2-5",
+         "name": "Step"
+        },
+        {
+         "id": "speed",
+         "base": "0.1-0.4",
+         "per_level": "+190% of base per level",
+         "max": "1.6-8",
+         "name": "Speed"
+        },
+        {
+         "id": "height",
+         "base": "3-5",
+         "per_level": "+1 per level",
+         "max": "13-15",
+         "name": "Height"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 5 seconds of flight within the scope of the ability «Eternal Fire»."
+    }
+   },
+   {
+    "id": "relics:chorus_inhibitor",
+    "path": "chorus_inhibitor",
+    "name": "Chorus Inhibitor",
+    "class": "it.hurts.sskirillss.relics.items.relics.ring.ChorusInhibitorItem",
+    "category": "Ring",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 10 blocks to the teleportation point from the «Teleportation Control» ability."
+    ],
+    "tags": [
+     "curios:ring",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/chorus_inhibitor.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "blink",
+       "name": "Teleportation Control",
+       "description": "Using a chorus fruit teleports the wearer to a block along the line of sight within **16-32 (up to 48-96)** blocks, then goes on cooldown for **5-10 (up to 0-5)** seconds.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "distance",
+         "base": "16-32",
+         "per_level": "+20% of base per level",
+         "max": "48-96",
+         "name": "Distance"
+        },
+        {
+         "id": "cooldown",
+         "base": "5-10",
+         "per_level": "-0.5 per level",
+         "max": "0-5",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 10 blocks to the teleportation point from the «Teleportation Control» ability."
+    }
+   },
+   {
+    "id": "relics:drowned_belt",
+    "path": "drowned_belt",
+    "name": "Drowned Belt",
+    "class": "it.hurts.sskirillss.relics.items.relics.belt.DrownedBeltItem",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each level of enchantment «Riptide» on the trident when using it."
+    ],
+    "tags": [
+     "curios:belt",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/drowned_belt.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "AQUATIC"
+     ],
+     "abilities": [
+      {
+       "id": "slots",
+       "name": "Load Capacity",
+       "description": "Increases the maximum number of amulet equipment slots by +**0-2 (up to 10-12)**.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "charm",
+         "base": "0-2",
+         "per_level": "+1 per level",
+         "max": "10-12",
+         "name": "Charm"
+        }
+       ]
+      },
+      {
+       "id": "anchor",
+       "name": "Dead Weight",
+       "description": "Reduces swimming speed by **50-25 (up to 0)**% and increases the wearer's sinking speed by **50-25 (up to 0)**%.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "slowness",
+         "base": "50-25",
+         "per_level": "-5 per level",
+         "max": "0",
+         "name": "Slowness"
+        },
+        {
+         "id": "sinking",
+         "base": "500-300",
+         "per_level": "-10 per level",
+         "max": "400-200",
+         "name": "Sinking"
+        }
+       ]
+      },
+      {
+       "id": "pressure",
+       "name": "Water Flows",
+       "description": "Increases the damage dealt by the player underwater by **125-200 (up to 250-400)**%.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage",
+         "base": "125-200",
+         "per_level": "+10% of base per level",
+         "max": "250-400",
+         "name": "Damage"
+        }
+       ]
+      },
+      {
+       "id": "riptide",
+       "name": "Water Attraction",
+       "description": "Allows the trident's «Riptide» enchantment ability to be used without rain or water, adding a cooldown of **10-5 (up to 5-0)** seconds per enchantment level.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "10-5",
+         "per_level": "-0.5 per level",
+         "max": "5-0",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each level of enchantment «Riptide» on the trident when using it."
+    }
+   },
+   {
+    "id": "relics:elytra_booster",
+    "path": "elytra_booster",
+    "name": "Elytra Booster",
+    "class": "it.hurts.sskirillss.relics.items.relics.back.ElytraBoosterItem",
+    "category": "Back",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 10 seconds of burning fuel when placing it in the internal buffer of the relic from the ability «Acceleration»."
+    ],
+    "tags": [
+     "curios:back",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/elytra_booster.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "boost",
+       "name": "Acceleration",
+       "description": "Using any combustible fuel that would work in a furnace on the relic in the inventory replenishes its internal buffer, which has a maximum capacity of **50-100 (up to 175-350)** units. Activating the ability while flying with elytra gradually increases the player's flight speed up to **17.6-24 (up to 35.2-48)** blocks per second, consuming fuel from the internal buffer.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Cyclical",
+       "stats": [
+        {
+         "id": "capacity",
+         "base": "50-100",
+         "per_level": "+25% of base per level",
+         "max": "175-350",
+         "name": "Capacity"
+        },
+        {
+         "id": "speed",
+         "base": "17.6-24",
+         "per_level": "+10% of base per level",
+         "max": "35.2-48",
+         "name": "Speed"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 10 seconds of burning fuel when placing it in the internal buffer of the relic from the ability «Acceleration»."
+    }
+   },
+   {
+    "id": "relics:enders_hand",
+    "path": "enders_hand",
+    "name": "Ender Hand",
+    "class": "it.hurts.sskirillss.relics.items.relics.hands.EnderHandItem",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for using the ability «End Transposition», +1 experience point for every 10 blocks from the distance to the target when using."
+    ],
+    "tags": [
+     "curios:hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/enders_hand.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "neutrality",
+       "name": "Neutrality",
+       "description": "Makes endermen neutral to the wearer.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "swap",
+       "name": "End Transposition",
+       "description": "Swaps the user and the target along the line of sight within a range of up to **16-32 (up to 40-80)** blocks.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "distance",
+         "base": "16-32",
+         "per_level": "+15% of base per level",
+         "max": "40-80",
+         "name": "Distance"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for using the ability «End Transposition», +1 experience point for every 10 blocks from the distance to the target when using."
+    }
+   },
+   {
+    "id": "relics:holy_locket",
+    "path": "holy_locket",
+    "name": "Holy Locket",
+    "class": "it.hurts.sskirillss.relics.items.relics.necklace.HolyLocketItem",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "Grants the wearer the ability to turn enemies' healing against them.",
+     "Faith",
+     "+%1$s experience points for each activation of the %2$s ability.",
+     "Penitence",
+     "+%1$s experience points for each activation of the %2$s ability on an undead enemy that is not yet burning.",
+     "Ascension"
+    ],
+    "tags": [
+     "curios:necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/holy_locket.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 20,
+      "step": 100
+     },
+     "loot": [
+      "DESERT"
+     ],
+     "abilities": [
+      {
+       "id": "faith",
+       "name": "Faith",
+       "description": "Has 2 toggleable modes: Holiness and Unholiness. In the red Holiness mode, steals **10-25 (up to 20-50)**% of the healing from visible entities within a radius of **5-10 (up to 17.5-35)** blocks and transfers it to the relic's wearer. In the blue Unholiness mode, deals damage to all visible entities within the same radius equal to **25-75 (up to 150-450)**% of the healing received by the relic's wearer.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "health",
+         "base": "10-25",
+         "per_level": "+10% of base per level",
+         "max": "20-50",
+         "name": "Health"
+        },
+        {
+         "id": "damage",
+         "base": "25-75",
+         "per_level": "+50% of base per level",
+         "max": "150-450",
+         "name": "Damage"
+        },
+        {
+         "id": "radius",
+         "base": "5-10",
+         "per_level": "+25% of base per level",
+         "max": "17.5-35",
+         "name": "Radius"
+        }
+       ]
+      },
+      {
+       "id": "penitence",
+       "name": "Penitence",
+       "description": "Ignites undead enemies for 10 seconds and increases damage dealt to them by **25-50 (up to 100-200)**%.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "amount",
+         "base": "25-50",
+         "per_level": "+30% of base per level",
+         "max": "100-200",
+         "name": "Amount"
+        }
+       ]
+      },
+      {
+       "id": "ascension",
+       "name": "Ascension",
+       "description": "Killing a target grants the relic's wearer a temporary stacking immortality effect for **0.5-1 (up to 1-2)** seconds, up to a maximum of **7.5-15 (up to 30-60)** seconds.",
+       "required_level": 10,
+       "max_level": 5,
+       "cast": null,
+       "stats": [
+        {
+         "id": "max_duration",
+         "base": "7.5-15",
+         "per_level": "x1.32 per level",
+         "max": "30-60",
+         "name": "Max Duration"
+        },
+        {
+         "id": "duration",
+         "base": "0.5-1",
+         "per_level": "+20% of base per level",
+         "max": "1-2",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "Grants the wearer the ability to turn enemies' healing against them."
+    }
+   },
+   {
+    "id": "relics:hunter_belt",
+    "path": "hunter_belt",
+    "name": "Hunter Belt",
+    "class": "it.hurts.sskirillss.relics.items.relics.belt.HunterBeltItem",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each attack made by the wearer's pet."
+    ],
+    "tags": [
+     "curios:belt",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/hunter_belt.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "OVERWORLD"
+     ],
+     "abilities": [
+      {
+       "id": "slots",
+       "name": "Load Capacity",
+       "description": "Increases the maximum number of amulet equipment slots by +**1-2 (up to 11-12)**.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "charm",
+         "base": "1-2",
+         "per_level": "+1 per level",
+         "max": "11-12",
+         "name": "Charm"
+        }
+       ]
+      },
+      {
+       "id": "training",
+       "name": "Training",
+       "description": "Increases the damage dealt by the wearer's pets by **125-200 (up to 312-500)**%.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage",
+         "base": "125-200",
+         "per_level": "+15% of base per level",
+         "max": "312-500",
+         "name": "Damage"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each attack made by the wearer's pet."
+    }
+   },
+   {
+    "id": "relics:ice_breaker",
+    "path": "ice_breaker",
+    "name": "Ice Breaker",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.IceBreakerItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 3 blocks in the fall before triggering the ability «Earthquake»."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/ice_breaker.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "TAIGA",
+      "FROST",
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "sustainability",
+       "name": "Sustainability",
+       "description": "Increases fall speed, boosts knockback resistance by **20-50 (up to 80-100)**%, and removes sliding on blocks.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "modifier",
+         "base": "20-50",
+         "per_level": "-90 per level",
+         "max": "80-100",
+         "name": "Modifier"
+        }
+       ]
+      },
+      {
+       "id": "impact",
+       "name": "Earthquake",
+       "description": "Prolonged use of the ability while falling, up until landing, will create a shockwave with a radius of **2.5-5 (up to 10-20)** blocks, dealing up to **2.5-5 (up to 8.8-17.5)** damage and knocking back nearby targets. However, the power of the shockwave also depends on the distance the wearer has fallen.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "size",
+         "base": "2.5-5",
+         "per_level": "+30% of base per level",
+         "max": "10-20",
+         "name": "Size"
+        },
+        {
+         "id": "damage",
+         "base": "2.5-5",
+         "per_level": "+25% of base per level",
+         "max": "8.8-17.5",
+         "name": "Damage"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 3 blocks in the fall before triggering the ability «Earthquake»."
+    }
+   },
+   {
+    "id": "relics:ice_skates",
+    "path": "ice_skates",
+    "name": "Ice Skates",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.IceSkatesItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each second of acceleration from the ability «Skating»."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/ice_skates.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "FROST"
+     ],
+     "abilities": [
+      {
+       "id": "skating",
+       "name": "Skating",
+       "description": "Increases movement speed on ice by **10-35 (up to 25-87)**% per second of sliding. The modifier stops increasing if the sliding duration exceeds **2.5-5 (up to 5-10)** seconds.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "10-35",
+         "per_level": "+15% of base per level",
+         "max": "25-87",
+         "name": "Speed"
+        },
+        {
+         "id": "duration",
+         "base": "2.5-5",
+         "per_level": "+10% of base per level",
+         "max": "5-10",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "ram",
+       "name": "Ram",
+       "description": "Upon collision with targets, deals **0.5-2.5 (up to 1-5)** damage per second of sliding from the «Skating» ability.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage",
+         "base": "0.5-2.5",
+         "per_level": "+10% of base per level",
+         "max": "1-5",
+         "name": "Damage"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each second of acceleration from the ability «Skating»."
+    }
+   },
+   {
+    "id": "relics:infinity_ham",
+    "path": "infinity_ham",
+    "name": "Infinite Ham",
+    "class": "it.hurts.sskirillss.relics.items.relics.InfiniteHamItem",
+    "category": "Relics",
+    "props": {
+     "rarity": "Rare",
+     "food": true,
+     "stack": 1
+    },
+    "tooltips": [
+     "A mysterious piece of meat that smoothly regenerates to its original size, no matter how much you carve it.",
+     "Regeneration",
+     "+%1$s experience points for each chunk consumed through the %2$s ability.",
+     "Marinade",
+     "+%1$s experience points for each effect applied to the relic using the %2$s ability.",
+     "Meat Bat",
+     "+%1$s experience points for each chunk consumed during the activation of the %2$s ability."
+    ],
+    "tags": [
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic",
+     "werewolves:werewolf_food"
+    ],
+    "icon_url": "assets/icons/relics/item/infinity_ham.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 20,
+      "step": 100
+     },
+     "loot": [
+      "VILLAGE"
+     ],
+     "abilities": [
+      {
+       "id": "regeneration",
+       "name": "Regeneration",
+       "description": "Every **30-15 (up to 25-10)** seconds, regenerates up to 6 edible chunks, each restoring **1-3 (up to 11-13)** hunger points. When consumed, the relic automatically uses the required number of chunks to replenish the player's hunger.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "cooldown",
+         "base": "30-15",
+         "per_level": "-0.5 per level",
+         "max": "25-10",
+         "name": "Cooldown"
+        },
+        {
+         "id": "feed",
+         "base": "1-3",
+         "per_level": "+1 per level",
+         "max": "11-13",
+         "name": "Feed"
+        }
+       ]
+      },
+      {
+       "id": "marinade",
+       "name": "Marinade",
+       "description": "Allows applying potion effects to the relic by left-clicking it with a potion in the inventory. Each time the relic is consumed, it applies these effects to the player for **1-3 (up to 3-9)** seconds per hunger point restored. Using a water bottle clears the last applied potion effects.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "duration",
+         "base": "1-3",
+         "per_level": "+20% of base per level",
+         "max": "3-9",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "meat_bat",
+       "name": "Meat Bat",
+       "description": "Allows the relic to be used as a melee weapon, dealing **0.5-2 (up to 1.8-7)** damage and stunning the target for **0.05-0.25 (up to 0.1-0.5)** seconds per chunk. Consumes all chunks when attacking, regardless of the target's remaining health.",
+       "required_level": 10,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage",
+         "base": "0.5-2",
+         "per_level": "+25% of base per level",
+         "max": "1.8-7",
+         "name": "Damage"
+        },
+        {
+         "id": "stun",
+         "base": "0.05-0.25",
+         "per_level": "+10% of base per level",
+         "max": "0.1-0.5",
+         "name": "Stun"
+        }
+       ]
+      }
+     ],
+     "description": "A mysterious piece of meat that smoothly regenerates to its original size, no matter how much you carve it."
+    }
+   },
+   {
+    "id": "relics:jellyfish_necklace",
+    "path": "jellyfish_necklace",
+    "name": "Jellyfish Necklace",
+    "class": "it.hurts.sskirillss.relics.items.relics.necklace.JellyfishNecklaceItem",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each activation of the ability «Electric Discharge»."
+    ],
+    "tags": [
+     "curios:necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/jellyfish_necklace.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "AQUATIC"
+     ],
+     "abilities": [
+      {
+       "id": "unsinkable",
+       "name": "Power over the sea",
+       "description": "The wearer does not sink in water.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "shock",
+       "name": "Electrical Discharge",
+       "description": "Deals **0.5-2.5 (up to 1.5-7.5)** damage to targets upon collision with them.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Toggleable",
+       "stats": [
+        {
+         "id": "damage",
+         "base": "0.5-2.5",
+         "per_level": "+20% of base per level",
+         "max": "1.5-7.5",
+         "name": "Damage"
+        }
+       ]
+      },
+      {
+       "id": "paralysis",
+       "name": "Paralysis",
+       "description": "When the «Electric Discharge» ability activates, it applies paralysis to the target for **0.5-1.5 (up to 1-3)** seconds.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "duration",
+         "base": "0.5-1.5",
+         "per_level": "+10% of base per level",
+         "max": "1-3",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each activation of the ability «Electric Discharge»."
+    }
+   },
+   {
+    "id": "relics:leafy_ring",
+    "path": "leafy_ring",
+    "name": "Leafy Ring [WIP]",
+    "class": "it.hurts.sskirillss.relics.items.relics.ring.LeafyRingItem",
+    "category": "Ring",
+    "props": {},
+    "tooltips": [
+     "[WIP]"
+    ],
+    "tags": [
+     "curios:ring"
+    ],
+    "icon_url": "assets/icons/relics/item/leafy_ring.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [],
+     "abilities": [
+      {
+       "id": "hide",
+       "name": "Hide",
+       "description": null,
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "10-35",
+         "per_level": "+25% of base per level",
+         "max": "35-122.5",
+         "name": "Speed"
+        }
+       ]
+      }
+     ],
+     "description": "[WIP]"
+    }
+   },
+   {
+    "id": "relics:leather_belt",
+    "path": "leather_belt",
+    "name": "Leather Belt",
+    "class": "it.hurts.sskirillss.relics.items.relics.belt.LeatherBeltItem",
+    "category": "Belt",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each experience gained by equipped charms."
+    ],
+    "tags": [
+     "curios:belt",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/leather_belt.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "OVERWORLD"
+     ],
+     "abilities": [
+      {
+       "id": "slots",
+       "name": "Load Capacity",
+       "description": "Increases the maximum number of amulet equipment slots by +**1-3 (up to 11-13)**.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "charm",
+         "base": "1-3",
+         "per_level": "+1 per level",
+         "max": "11-13",
+         "name": "Charm"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each experience gained by equipped charms."
+    }
+   },
+   {
+    "id": "relics:magic_mirror",
+    "path": "magic_mirror",
+    "name": "Magic Mirror",
+    "class": "it.hurts.sskirillss.relics.items.relics.MagicMirrorItem",
+    "category": "Relics",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each use of the «Wormhole» ability, +1 experience point for every 50 blocks to the teleportation point."
+    ],
+    "tags": [
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/magic_mirror.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "CAVE",
+      "MINESHAFT"
+     ],
+     "abilities": [
+      {
+       "id": "teleport",
+       "name": "Wormhole",
+       "description": "Upon use, teleports the owner to their spawn point if it is within **500-1000 (up to 3000-6000)** blocks, then goes on cooldown for **120-60 (up to 60-30)** seconds.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "distance",
+         "base": "500-1000",
+         "per_level": "+50% of base per level",
+         "max": "3000-6000",
+         "name": "Distance"
+        },
+        {
+         "id": "cooldown",
+         "base": "120-60",
+         "per_level": "-5% of base per level",
+         "max": "60-30",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each use of the «Wormhole» ability, +1 experience point for every 50 blocks to the teleportation point."
+    }
+   },
+   {
+    "id": "relics:magma_walker",
+    "path": "magma_walker",
+    "name": "Magma Walker",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.MagmaWalkerItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 5 units of heating from the ability «Fiery Tread»."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/magma_walker.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "THE_NETHER",
+      "NETHER_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "heat_resistance",
+       "name": "Heat Resistance",
+       "description": "Suppresses damage from hot blocks.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": []
+      },
+      {
+       "id": "pace",
+       "name": "Fiery Tread",
+       "description": "For **20-50 (up to 40-100)** seconds, allows walking on the surface of lava without sinking or taking damage. After the time runs out, the boots start overheating and deal damage to the wearer proportional to the level of overheating. To cool them down, the wearer must stay away from lava blocks. The cooling time also depends on the level of overheating.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "time",
+         "base": "20-50",
+         "per_level": "+10% of base per level",
+         "max": "40-100",
+         "name": "Time"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 5 units of heating from the ability «Fiery Tread»."
+    }
+   },
+   {
+    "id": "relics:midnight_robe",
+    "path": "midnight_robe",
+    "name": "Midnight Robe",
+    "class": "it.hurts.sskirillss.relics.items.relics.back.MidnightRobeItem",
+    "category": "Back",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 2 units of damage when attacking while being invisible from the «Disappearing» ability."
+    ],
+    "tags": [
+     "curios:back",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/midnight_robe.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "vanish",
+       "name": "Vanish",
+       "description": "Grants the wearer complete invisibility and increases their movement speed by **10-35 (up to 45-157)**% when the total light level does not exceed **1-2 (up to 11-12)**.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Toggleable",
+       "stats": [
+        {
+         "id": "light",
+         "base": "1-2",
+         "per_level": "+1 per level",
+         "max": "11-12",
+         "name": "Light"
+        },
+        {
+         "id": "speed",
+         "base": "10-35",
+         "per_level": "+35% of base per level",
+         "max": "45-157",
+         "name": "Speed"
+        }
+       ]
+      },
+      {
+       "id": "backstab",
+       "name": "Betrayal",
+       "description": "An attack while using the 'Vanish' ability deals **20-80 (up to 150-250)**% increased damage, marking a circle with a radius of **20-15 (up to 15-10)** blocks around the target and dispelling the wearer's invisibility. The 'Vanish' ability can only be used again after the wearer exits the circle.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "damage",
+         "base": "20-80",
+         "per_level": "+10% of base per level",
+         "max": "150-250",
+         "name": "Damage"
+        },
+        {
+         "id": "distance",
+         "base": "20-15",
+         "per_level": "-0.5 per level",
+         "max": "15-10",
+         "name": "Distance"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 2 units of damage when attacking while being invisible from the «Disappearing» ability."
+    }
+   },
+   {
+    "id": "relics:phantom_boot",
+    "path": "phantom_boot",
+    "name": "Phantom Boot",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.PhantomBootItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "Condenses matter beneath the relic owner's feet, creating a path through any terrain, even where no solid ground exists.",
+     "Phantom Bridge",
+     "+%1$s experience points with a 10%% chance each time a bridge is created using the %2$s ability."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/phantom_boot.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "bridge",
+       "name": "Phantom Bridge",
+       "description": "Creates a temporary phantom bridge beneath the player's feet that any relic owner can walk on. If the player stands still on the bridge for more than **0.2-1 (up to 1.5-6)** seconds, they will fall through and cannot get back up until they reach solid ground. While sneaking, the player is forced to fall through the phantom bridge blocks.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Toggleable",
+       "stats": [
+        {
+         "id": "duration",
+         "base": "0.2-1",
+         "per_level": "+50% of base per level",
+         "max": "1.5-6",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "Condenses matter beneath the relic owner's feet, creating a path through any terrain, even where no solid ground exists."
+    }
+   },
+   {
+    "id": "relics:rage_glove",
+    "path": "rage_glove",
+    "name": "Rage Glove",
+    "class": "it.hurts.sskirillss.relics.items.relics.hands.RageGloveItem",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 3 charges from the ability «Berserker Rage» when they are reset.\n+1 experience point for each target hit by the «Spurt» ability."
+    ],
+    "tags": [
+     "curios:hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/rage_glove.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 20,
+      "step": 100
+     },
+     "loot": [
+      "NETHER_LIKE",
+      "THE_NETHER"
+     ],
+     "abilities": [
+      {
+       "id": "rage",
+       "name": "Berserker Rage",
+       "description": "Each attack made by the wearer within **2-4 (up to 4-8)** seconds of the last one accumulates 1 charge in the relic's internal buffer. The player's damage increases by **2.5-7.5 (up to 5-15)**% per charge, but they also take **5-2.5 (up to 7.5-3.8)**% more damage. If the player fails to attack within the given time to gain another charge, the relic's internal buffer is completely emptied, nullifying all accumulated bonuses.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "incoming_damage",
+         "base": "5-2.5",
+         "per_level": "+5% of base per level",
+         "max": "7.5-3.8",
+         "name": "Incoming Damage"
+        },
+        {
+         "id": "dealt_damage",
+         "base": "2.5-7.5",
+         "per_level": "+10% of base per level",
+         "max": "5-15",
+         "name": "Dealt Damage"
+        },
+        {
+         "id": "duration",
+         "base": "2-4",
+         "per_level": "+10% of base per level",
+         "max": "4-8",
+         "name": "Duration"
+        }
+       ]
+      },
+      {
+       "id": "phlebotomy",
+       "name": "Phlebotomy",
+       "description": "Increases the player's attack speed by **0.5-1 (up to 0.7-1.5)**% and movement speed by **1-2.5 (up to 2-5)**%, while also granting passive health regeneration of **0.002-0.005 (up to 0.004-0.01)**% per missing percent of the player's health.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "heal",
+         "base": "0.002-0.005",
+         "per_level": "+10% of base per level",
+         "max": "0.004-0.01",
+         "name": "Heal"
+        },
+        {
+         "id": "movement_speed",
+         "base": "1-2.5",
+         "per_level": "+10% of base per level",
+         "max": "2-5",
+         "name": "Movement Speed"
+        },
+        {
+         "id": "attack_speed",
+         "base": "0.5-1",
+         "per_level": "+5% of base per level",
+         "max": "0.7-1.5",
+         "name": "Attack Speed"
+        }
+       ]
+      },
+      {
+       "id": "spurt",
+       "name": "Spurt",
+       "description": "When activated, performs a dash in the direction of the player's gaze up to **3-8 (up to 12-32)** blocks, igniting, inflicting bleeding, and attacking every target in its path with the item in hand. Deals additional damage to each target equal to **0.1-0.25 (up to 0.2-0.5)** per charge stored in the relic's internal buffer from the «Berserker's Rage» ability and then empties it, before going on cooldown for **20-15 (up to 9.2-6.9)** seconds.",
+       "required_level": 10,
+       "max_level": 10,
+       "cast": "Instantaneous",
+       "stats": [
+        {
+         "id": "damage",
+         "base": "0.1-0.25",
+         "per_level": "+10% of base per level",
+         "max": "0.2-0.5",
+         "name": "Damage"
+        },
+        {
+         "id": "distance",
+         "base": "3-8",
+         "per_level": "+30% of base per level",
+         "max": "12-32",
+         "name": "Distance"
+        },
+        {
+         "id": "cooldown",
+         "base": "20-15",
+         "per_level": "x0.925 per level",
+         "max": "9.2-6.9",
+         "name": "Cooldown"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 3 charges from the ability «Berserker Rage» when they are reset.\n+1 experience point for each target hit by the «Spurt» ability."
+    }
+   },
+   {
+    "id": "relics:reflection_necklace",
+    "path": "reflection_necklace",
+    "name": "Reflecting Necklace",
+    "class": "it.hurts.sskirillss.relics.items.relics.necklace.ReflectionNecklaceItem",
+    "category": "Necklace",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 10 damage accumulated in the internal buffer of the relic from the ability «Infernal Hatred»."
+    ],
+    "tags": [
+     "curios:necklace",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/reflection_necklace.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "NETHER_LIKE",
+      "THE_NETHER"
+     ],
+     "abilities": [
+      {
+       "id": "explode",
+       "name": "Infernal Hatred",
+       "description": "Accumulates damage taken by the wearer into the relic's internal buffer, with a capacity of **20-60 (up to 90-270)** units. Five seconds after the last damage received or if the buffer overflows, the relic explodes, scattering obsidian shards in all directions. Each shard deals **0.25-0.5 (up to 1.5-3)** damage and stuns for **0.05-0.25 (up to 0.17-0.88)** seconds per unit of damage stored in the relic's internal buffer.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "capacity",
+         "base": "20-60",
+         "per_level": "+35% of base per level",
+         "max": "90-270",
+         "name": "Capacity"
+        },
+        {
+         "id": "damage",
+         "base": "0.25-0.5",
+         "per_level": "+50% of base per level",
+         "max": "1.5-3",
+         "name": "Damage"
+        },
+        {
+         "id": "stun",
+         "base": "0.05-0.25",
+         "per_level": "+25% of base per level",
+         "max": "0.17-0.88",
+         "name": "Stun"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 10 damage accumulated in the internal buffer of the relic from the ability «Infernal Hatred»."
+    }
+   },
+   {
+    "id": "relics:relic_experience_bottle",
+    "path": "relic_experience_bottle",
+    "name": "Relic Experience Bottle",
+    "class": "it.hurts.sskirillss.relics.items.RelicExperienceBottleItem",
+    "category": "Potions",
+    "props": {
+     "rarity": "Uncommon"
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/relics/item/relic_experience_bottle.png"
+   },
+   {
+    "id": "relics:roller_skates",
+    "path": "roller_skates",
+    "name": "Roller Skates",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.RollerSkatesItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each second of acceleration from the ability «Acceleration»."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/roller_skates.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "OVERWORLD"
+     ],
+     "abilities": [
+      {
+       "id": "skating",
+       "name": "Acceleration",
+       "description": "Increases movement speed by **10-50 (up to 20-130)**% per second of movement. The modifier stops increasing if the movement duration exceeds **3-7 (up to 9-21)** seconds. All blocks also become slippery for the wearer.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "speed",
+         "base": "10-50",
+         "per_level": "+15% of base per level",
+         "max": "20-130",
+         "name": "Speed"
+        },
+        {
+         "id": "duration",
+         "base": "3-7",
+         "per_level": "+20% of base per level",
+         "max": "9-21",
+         "name": "Duration"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each second of acceleration from the ability «Acceleration»."
+    }
+   },
+   {
+    "id": "relics:shadow_glaive",
+    "path": "shadow_glaive",
+    "name": "Shadow Glaive",
+    "class": "it.hurts.sskirillss.relics.items.relics.ShadowGlaiveItem",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [
+     "A masterfully forged, capricious weapon. If its temper is favorable, neither horde nor legion will withstand the onslaught of its thousand blades.",
+     "Mayhem",
+     "+%1$s experience points for each activation of the %2$s ability."
+    ],
+    "tags": [
+     "curios:charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/shadow_glaive.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 15,
+      "step": 100
+     },
+     "loot": [
+      "THE_END",
+      "END_LIKE"
+     ],
+     "abilities": [
+      {
+       "id": "mayhem",
+       "name": "Mayhem",
+       "description": "Dealing damage has a **5-15 (up to 8-25)**% chance to trigger a projectile that bounces chaotically between nearby targets within a 16-block radius, up to **2-4 (up to 5-10)** times, dealing **10-20 (up to 25-50)**% of the triggering attack's damage.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "5-15",
+         "per_level": "+6.5% of base per level",
+         "max": "8-25",
+         "name": "Chance"
+        },
+        {
+         "id": "bounces",
+         "base": "2-4",
+         "per_level": "+15% of base per level",
+         "max": "5-10",
+         "name": "Bounces"
+        },
+        {
+         "id": "damage",
+         "base": "10-20",
+         "per_level": "+15% of base per level",
+         "max": "25-50",
+         "name": "Damage"
+        }
+       ]
+      },
+      {
+       "id": "cloning",
+       "name": "Cloning",
+       "description": "Each projectile bounce from the Mayhem ability has a **5-10 (up to 10-20)**% chance to spawn an additional identical projectile.",
+       "required_level": 5,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "chance",
+         "base": "5-10",
+         "per_level": "+10% of base per level",
+         "max": "10-20",
+         "name": "Chance"
+        }
+       ]
+      }
+     ],
+     "description": "A masterfully forged, capricious weapon. If its temper is favorable, neither horde nor legion will withstand the onslaught of its thousand blades."
+    }
+   },
+   {
+    "id": "relics:solid_snowball",
+    "path": "solid_snowball",
+    "name": "Frozen snowball",
+    "class": "it.hurts.sskirillss.relics.items.SolidSnowballItem",
+    "category": "Miscellaneous",
+    "props": {
+     "rarity": "Uncommon",
+     "stack": 1
+    },
+    "tooltips": [],
+    "tags": [],
+    "icon_url": "assets/icons/relics/item/solid_snowball.png"
+   },
+   {
+    "id": "relics:space_dissector",
+    "path": "space_dissector",
+    "name": "Space Dissector",
+    "class": "it.hurts.sskirillss.relics.items.relics.SpaceDissectorItem",
+    "category": "Relics",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for each created portal if there is no existing one"
+    ],
+    "tags": [
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/space_dissector.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 200
+     },
+     "loot": [
+      "NETHER_LIKE",
+      "THE_NETHER"
+     ],
+     "abilities": [
+      {
+       "id": "dissection",
+       "name": "Dissection",
+       "description": "Holding RMB creates a portal at a point along the line of sight. Releasing RMB within a distance of **16-32 (up to 56-112)** blocks creates a second portal in the same way, linking it to the first. When a living entity approaches a portal, it is teleported to the linked portal. Portals do not function if impassable blocks are in their way. After **5-10 (up to 30-60)** seconds, the portals close and disappear.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "distance",
+         "base": "16-32",
+         "per_level": "+25% of base per level",
+         "max": "56-112",
+         "name": "Distance"
+        },
+        {
+         "id": "time",
+         "base": "5-10",
+         "per_level": "+50% of base per level",
+         "max": "30-60",
+         "name": "Time"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for each created portal if there is no existing one"
+    }
+   },
+   {
+    "id": "relics:spore_sack",
+    "path": "spore_sack",
+    "name": "Spore Sack",
+    "class": "it.hurts.sskirillss.relics.items.relics.charm.SporeSackItem",
+    "category": "Charm",
+    "props": {},
+    "tooltips": [
+     "A simple burlap sack filled to the brim with deadly miasma.",
+     "Spore Mist",
+     "+%1$s experience points for each successful hit by a spore from the %2$s ability."
+    ],
+    "tags": [
+     "curios:charm",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/spore_sack.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "TROPIC"
+     ],
+     "abilities": [
+      {
+       "id": "spore_mist",
+       "name": "Spore Mist",
+       "description": "When the player's health drops below 50%, releases up to **3-8 (up to 8-20)** homing spores around them. These spores deal damage equal to **10-25 (up to 30-75)**% of the player's missing health and block healing for affected targets for 5 seconds. The ability can trigger again once the player's health rises above 50%.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "amount",
+         "base": "3-8",
+         "per_level": "+15% of base per level",
+         "max": "8-20",
+         "name": "Amount"
+        },
+        {
+         "id": "damage",
+         "base": "10-25",
+         "per_level": "+20% of base per level",
+         "max": "30-75",
+         "name": "Damage"
+        }
+       ]
+      }
+     ],
+     "description": "A simple burlap sack filled to the brim with deadly miasma."
+    }
+   },
+   {
+    "id": "relics:springy_boot",
+    "path": "springy_boot",
+    "name": "Springy Boot",
+    "class": "it.hurts.sskirillss.relics.items.relics.feet.SpringyBootItem",
+    "category": "Feet",
+    "props": {},
+    "tooltips": [
+     "Grants the relic owner special elasticity, allowing them to bounce off any solid surface.",
+     "Elasticity",
+     "+%1$s experience points for each bounce off a surface using the %2$s ability."
+    ],
+    "tags": [
+     "curios:feet",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/springy_boot.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "bounce",
+       "name": "Elasticity",
+       "description": "Increases the elasticity of all blocks by **25-50 (up to 50-100)**% compared to slime blocks, enabling the player to bounce off them upon landing. When activated on the ground, it launches the player into the air.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": "Toggleable",
+       "stats": [
+        {
+         "id": "power",
+         "base": "25-50",
+         "per_level": "+10% of base per level",
+         "max": "50-100",
+         "name": "Power"
+        }
+       ]
+      }
+     ],
+     "description": "Grants the relic owner special elasticity, allowing them to bounce off any solid surface."
+    }
+   },
+   {
+    "id": "relics:wool_mitten",
+    "path": "wool_mitten",
+    "name": "Wool Mitten",
+    "class": "it.hurts.sskirillss.relics.items.relics.hands.WoolMittenItem",
+    "category": "Hands",
+    "props": {},
+    "tooltips": [
+     "+1 experience point for every 5 units of size when hit by a snowball from the ability «Mold»."
+    ],
+    "tags": [
+     "curios:hands",
+     "rarcompat:mimic_loot",
+     "rarcompat:mimificable",
+     "relics:relic"
+    ],
+    "icon_url": "assets/icons/relics/item/wool_mitten.png",
+    "relic": {
+     "leveling": {
+      "initial_cost": 100,
+      "max_level": 10,
+      "step": 100
+     },
+     "loot": [
+      "FROST",
+      "TAIGA",
+      "MOUNTAIN"
+     ],
+     "abilities": [
+      {
+       "id": "mold",
+       "name": "Mold",
+       "description": "Collecting snow with an empty hand using RMB gradually forms special hardened snowballs, up to a size of **12-32 (up to 36-96)** units. Hitting a target with such a snowball deals **0.05-0.25 (up to 0.1-0.5)** damage, stuns for **0.025-0.05 (up to 0.062-0.125)** seconds, and freezes the target for **0.025-0.05 (up to 0.062-0.125)** per unit of snowball size. Holding a snowball in the inventory without the relic equipped also freezes the player.",
+       "required_level": 0,
+       "max_level": 10,
+       "cast": null,
+       "stats": [
+        {
+         "id": "size",
+         "base": "12-32",
+         "per_level": "+20% of base per level",
+         "max": "36-96",
+         "name": "Size"
+        },
+        {
+         "id": "damage",
+         "base": "0.05-0.25",
+         "per_level": "+10% of base per level",
+         "max": "0.1-0.5",
+         "name": "Damage"
+        },
+        {
+         "id": "stun",
+         "base": "0.025-0.05",
+         "per_level": "+15% of base per level",
+         "max": "0.062-0.125",
+         "name": "Stun"
+        },
+        {
+         "id": "freeze",
+         "base": "1-2",
+         "per_level": "+30% of base per level",
+         "max": "4-8",
+         "name": "Freeze"
+        }
+       ]
+      }
+     ],
+     "description": "+1 experience point for every 5 units of size when hit by a snowball from the ability «Mold»."
+    }
+   }
+  ],
+  "blocks": [
+   {
+    "id": "relics:phantom_block",
+    "path": "phantom_block",
+    "name": "Phantom Bridge Block",
+    "class": "it.hurts.sskirillss.relics.blocks.PhantomBlock",
+    "tags": [],
+    "item_tags": [],
+    "icon_url": "assets/icons/relics/item/phantom_block.png",
+    "tooltips": [],
+    "drops": null
+   },
+   {
+    "id": "relics:researching_table",
+    "path": "researching_table",
+    "name": "Researching Table [Removed from the mod]",
+    "class": "it.hurts.sskirillss.relics.blocks.ResearchingTableBlock",
+    "tags": [],
+    "item_tags": [],
+    "icon_url": "assets/icons/relics/item/researching_table.png",
+    "tooltips": [],
+    "drops": null
+   }
+  ],
+  "mobs": [],
+  "effects": [
+   {
+    "id": "relics:anti_heal",
+    "path": "anti_heal",
+    "name": "Anti-Heal",
+    "class": "it.hurts.sskirillss.relics.effects.AntiHealEffect",
+    "category": "Harmful",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/anti_heal.png"
+   },
+   {
+    "id": "relics:bleeding",
+    "path": "bleeding",
+    "name": "Bleeding",
+    "class": "it.hurts.sskirillss.relics.effects.BleedingEffect",
+    "category": "Harmful",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/bleeding.png"
+   },
+   {
+    "id": "relics:confusion",
+    "path": "confusion",
+    "name": "Confusion",
+    "class": "it.hurts.sskirillss.relics.effects.ConfusionEffect",
+    "category": "Harmful",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/confusion.png"
+   },
+   {
+    "id": "relics:immortality",
+    "path": "immortality",
+    "name": "Immortality",
+    "class": "it.hurts.sskirillss.relics.effects.ImmortalityEffect",
+    "category": "Beneficial",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/immortality.png"
+   },
+   {
+    "id": "relics:paralysis",
+    "path": "paralysis",
+    "name": "Paralysis",
+    "class": "it.hurts.sskirillss.relics.effects.ParalysisEffect",
+    "category": "Harmful",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/paralysis.png"
+   },
+   {
+    "id": "relics:stun",
+    "path": "stun",
+    "name": "Stun",
+    "class": "it.hurts.sskirillss.relics.effects.StunEffect",
+    "category": "Harmful",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/stun.png"
+   },
+   {
+    "id": "relics:vanishing",
+    "path": "vanishing",
+    "name": "Vanishing",
+    "class": "it.hurts.sskirillss.relics.effects.VanishingEffect",
+    "category": "Beneficial",
+    "color": "#6836AA",
+    "description": null,
+    "icon_url": "assets/icons/relics/effect/vanishing.png"
+   }
+  ],
+  "enchantments": [],
+  "biomes": [],
+  "dimensions": [],
+  "structures": [],
+  "advancements": [],
+  "commands": [
+   {
+    "syntax": "/relics ability points <action> <ability> <points>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics ability quality <action> <ability> <stat> <quality>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics ability randomize <ability> <stat>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics ability value <action> <ability> <stat> <value>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics experience <action> <experience>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics level <action> <level>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics maximize",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics minimize",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   },
+   {
+    "syntax": "/relics points <action> <points>",
+    "permission": 2,
+    "source": "it.hurts.sskirillss.relics.commands.RelicsCommand"
+   }
+  ],
+  "gamerules": [],
+  "command_messages": [
+   {
+    "key": "command.relics.base.not_relic",
+    "text": "The item in hand must be a relic!"
+   }
+  ],
+  "configs": []
+ },
+ "guidebooks": [],
+ "extra": {}
+}

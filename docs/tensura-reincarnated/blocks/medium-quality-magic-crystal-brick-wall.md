@@ -1,0 +1,50 @@
+# Medium Quality Magic Crystal Brick Wall
+
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Blocks](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Medium Quality Magic Crystal Brick Wall](../../assets/icons/tensura/item/medium_quality_magic_crystal_brick_wall.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:medium_quality_magic_crystal_brick_wall` |
+| **Tool** | Pickaxe |
+| **Tool tier** | Iron |
+
+</div>
+
+## Drops
+
+| Item | Count | Chance | Notes |
+|---|---|---|---|
+| ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_brick_wall.png) [Medium Quality Magic Crystal Brick Wall](medium-quality-magic-crystal-brick-wall.md) | 1 | 100% |  |
+
+## Obtaining
+
+### Recipes
+
+**Stonecutter** &rarr; ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_brick_wall.png) [Medium Quality Magic Crystal Brick Wall](medium-quality-magic-crystal-brick-wall.md)
+
+Ingredients: ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md)
+
+**Crafting (shaped)** &rarr; ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_brick_wall.png) [Medium Quality Magic Crystal Brick Wall](medium-quality-magic-crystal-brick-wall.md) x6
+
+<div class="recipe" markdown>
+
+| | | |
+|---|---|---|
+| ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) | ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) | ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) |
+| ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) | ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) | ![](../../assets/icons/tensura/item/medium_quality_magic_crystal_bricks.png) [Medium Quality Magic Crystal Bricks](medium-quality-magic-crystal-bricks.md) |
+
+</div>
+
+### Loot
+
+| Source | Count | Chance | Notes |
+|---|---|---|---|
+| Breaking [Medium Quality Magic Crystal Brick Wall](medium-quality-magic-crystal-brick-wall.md) | 1 | 100% |  |
+
+## Tags
+
+`minecraft:mineable/pickaxe`, `minecraft:needs_iron_tool`, `minecraft:walls`

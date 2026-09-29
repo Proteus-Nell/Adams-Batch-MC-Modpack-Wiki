@@ -1,0 +1,30 @@
+# Centipede Dagger
+
+<small>[Tensura: Reincarnated](../../index.md) &rsaquo; [Items](../index.md) &rsaquo; [Weapons](index.md)</small>
+
+<div class="infobox" markdown>
+
+![Centipede Dagger](../../../assets/icons/tensura/item/centipede_dagger.png)
+
+| | |
+|---|---|
+| **ID** | `tensura:centipede_dagger` |
+| **Category** | Weapons |
+| **Durability** | 150 |
+| **Gear EP** | 6,000 - None |
+
+</div>
+
+## Obtaining
+
+### Recipes
+
+**Smithing Bench** &rarr; ![](../../../assets/icons/tensura/item/centipede_dagger.png) [Centipede Dagger](centipede-dagger.md)
+
+Ingredients: ![](../../../assets/icons/tensura/item/centipede_stinger.png) [Centipede Stinger](../miscellaneous/centipede-stinger.md),  [Stick](https://minecraft.wiki/w/Stick),  [String](https://minecraft.wiki/w/String)
+
+Requires schematic: ![](../../../assets/icons/tensura/item/hunting_knife_schematic.png) [Dagger Schematic](../schematics/hunting-knife-schematic.md)
+
+## Tags
+
+`tensura:daggers`
