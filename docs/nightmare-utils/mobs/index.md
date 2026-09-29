@@ -2,7 +2,7 @@
 
 <small>[Nightmare Utils](../index.md)</small>
 
-Nightmare Utils adds **2** mobs, including 2 bosses.
+Nightmare Utils adds **4** mobs, including 2 bosses.
 
 ## Bosses
 
@@ -10,3 +10,10 @@ Nightmare Utils adds **2** mobs, including 2 bosses.
 |---|---|---|---|
 | [Otherworlder](otherworlder.md) | 40 | 6 |  |
 | [Shinro Nakuba Maximum](shinro-nakuba-maximum.md) | 10,000 | 80 |  |
+
+## Monster
+
+| Mob | Health | Attack | EP (magicule) |
+|---|---|---|---|
+| [Dummy Workstation Trader](dummy-workstation-trader.md) |  |  |  |
+| [Hihiirokane Barter Trader](hihiirokane-barter-trader.md) |  |  |  |

@@ -22,6 +22,10 @@ or Respawn Anchor, or to the Center of
 
 The Overworld if you don't have one.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

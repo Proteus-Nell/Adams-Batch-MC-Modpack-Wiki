@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Strengthens illusion magic. Per level: **+0.3** illusion boost, which lengthens Mirage clones, Confusion and Invisible magic, and makes Possession magic stronger. Potions of Hypnotic Efficiency give it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

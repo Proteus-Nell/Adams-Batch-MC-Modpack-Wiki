@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Giant Ant Leg](cooked-giant-ant-leg.md), [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion), [Dubious Food](dubious-food.md) and 1 more. It is dropped by [Giant Ant](../../mobs/giant-ant.md).
+
 ## Obtaining
 
 ### Loot

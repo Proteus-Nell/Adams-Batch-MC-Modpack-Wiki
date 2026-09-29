@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Armorsaurus Meat](cooked-armorsaurus-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Armorsaurus](../../mobs/armorsaurus.md).
+
 ## Obtaining
 
 ### Loot

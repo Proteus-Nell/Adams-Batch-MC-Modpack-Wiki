@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Magic Bottle](../potions/magic-bottle.md), [Bricks Magic Engine](../../blocks/bricks-magic-engine.md), [Deepslate Bricks Magic Engine](../../blocks/deepslate-bricks-magic-engine.md), [Dubious Food](../miscellaneous/dubious-food.md), [End Stone Bricks Magic Engine](../../blocks/end-stone-bricks-magic-engine.md) and 18 more. It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Invisible Arrow](../miscellaneous/invisible-arrow.md), [Long Bow](../weapons/long-bow.md), [Short Bow](../weapons/short-bow.md), [Speared Fin Arrow](../miscellaneous/speared-fin-arrow.md) and [War Bow](../weapons/war-bow.md). It is found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

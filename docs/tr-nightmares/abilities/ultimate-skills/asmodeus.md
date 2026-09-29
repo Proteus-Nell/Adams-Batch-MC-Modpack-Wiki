@@ -56,6 +56,7 @@
 
 - **Related skills:** [Lust](../../../tensura-reincarnated/abilities/unique-skills/lust.md)
 - **Effects:** [Asmodeus](../../effects/asmodeus.md), [Lust Embracement](../../../tensura-reincarnated/effects/lust-embracement.md), [Mind Control](../../../tensura-reincarnated/effects/mind-control.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

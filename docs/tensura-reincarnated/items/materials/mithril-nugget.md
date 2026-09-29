@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Mithril Ingot](mithril-ingot.md). It is crafted, smelted in a blast furnace and smelted in a furnace.
+
 ## Obtaining
 
 ### Recipes

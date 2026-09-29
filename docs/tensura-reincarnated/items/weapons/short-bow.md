@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+It is made at the Smithing Bench and found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

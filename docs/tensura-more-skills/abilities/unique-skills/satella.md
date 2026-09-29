@@ -49,6 +49,7 @@
 ## Related
 
 - **Related skills:** [Shadow Motion](../../../tensura-reincarnated/abilities/extra-skills/shadow-motion.md), [Physical Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/physical-attack-nullification.md), [Magic Darkness Transform](../../../tensura-reincarnated/abilities/extra-skills/magic-darkness-transform.md), [Darkness Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/darkness-attack-nullification.md), [Authority of Greed](authority-of-greed.md), [True Authority of Greed](../ultimate-skills/true-authority-of-greed.md), [Witch of Envy, Satella](../ultimate-skills/witch-of-envy-satella.md), [Darkness](../../../tensura-reincarnated/abilities/spiritual-magic/darkness.md), [Shadow Bind](../../../tensura-reincarnated/abilities/spiritual-magic/shadow-bind.md), [Dark Cube](../../../tensura-reincarnated/abilities/spiritual-magic/dark-cube.md), [Darkness Cannon](../../../tensura-reincarnated/abilities/spiritual-magic/darkness-cannon.md), [True Darkness](../../../tensura-reincarnated/abilities/spiritual-magic/true-darkness.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Witch of Envy, Satella](../ultimate-skills/witch-of-envy-satella.md)
 
 ## In-game messages

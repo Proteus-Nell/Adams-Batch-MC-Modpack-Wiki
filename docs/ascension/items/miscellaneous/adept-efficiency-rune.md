@@ -18,6 +18,10 @@
 
 Boosts magicule by 100% (2x total).
 
+## What it does
+
+Used to make [Enhanced Efficiency Rune](enhanced-efficiency-rune.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

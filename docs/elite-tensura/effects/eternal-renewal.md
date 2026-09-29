@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Shows that Ouroboros is toggled on. It has no effect of its own.
+
 ## Applied by
 
 [Ouroboros, Lord of Eternity](../abilities/ultimate-skills/ouroboros.md)

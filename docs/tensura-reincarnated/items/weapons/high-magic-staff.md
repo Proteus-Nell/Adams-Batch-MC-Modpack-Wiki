@@ -13,8 +13,15 @@
 | **Durability** | 500 |
 | **Rarity** | Rare |
 | **Gear EP** | 52,000 - None |
+| **Attack damage** | 17 |
+| **Attack speed** | 1 |
+| **Tier** | Pure Magisteel |
 
 </div>
+
+## What it does
+
+A Pure Magisteel weapon that deals **17** attack damage at **1** attack speed. It also has +0.5 blocks of reach. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

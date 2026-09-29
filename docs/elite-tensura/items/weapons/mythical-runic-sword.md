@@ -12,8 +12,13 @@
 | **Category** | Weapons |
 | **Stack size** | 1 |
 | **Gear EP** | 225,000 - None |
+| **Attack speed** | 4 |
 
 </div>
+
+## What it does
+
+A sword that deals **?** attack damage at **4** attack speed. It also has +0.8% critical hit chance, +2 critical damage multiplier and 50% sweeping damage.
 
 ## Tags
 

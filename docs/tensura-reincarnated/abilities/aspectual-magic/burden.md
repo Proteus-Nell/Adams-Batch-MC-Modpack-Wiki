@@ -38,6 +38,7 @@
 
 ## Related
 
+- **Summons / entities:** Gravity Sphere
 - **Referenced by:** [Magma Surge](../spiritual-magic/magma-surge.md), [Earth Jail](../spiritual-magic/earth-jail.md), [Oppressor](../unique-skills/oppressor.md), [Reverser](../unique-skills/reverser.md), [Survivor](../unique-skills/survivor.md), [Earth Transform](../intrinsic-skills/earth-transform.md), [Abnormal Condition Resistance](../resistance-skills/abnormal-condition-resistance.md), [Abnormal Condition Nullification](../resistance-skills/abnormal-condition-nullification.md), [Gravity Attack Nullification](../resistance-skills/gravity-attack-nullification.md), [Imaginator](../../../tr-nightmares/abilities/unique-skills/imaginator.md), [｢ Mammon, Lord of Greed ｣](../../../tr-nightmares/abilities/ultimate-skills/mammon.md), [Gravity Well](../../../elite-tensura/abilities/aspectual-magic/gravity-well.md), [Naberius](../../../tensura-more-skills/abilities/ultimate-skills/naberius.md), [Caedros, God of Conquest](../../../tensura-more-skills/abilities/ultimate-skills/caedros-god-of-conquest.md), [Pain, Lord of Six Paths](../../../tensura-more-skills/abilities/ultimate-skills/pain-lord-of-six-paths.md), [Gravity Flux](../../../tensura-mysticism/abilities/extra-skills/gravity-flux.md), [Coalescence](../../../tensura-mysticism/abilities/unique-skills/coalescence.md), [Melancholy](../../../tensura-mysticism/abilities/unique-skills/melancholy.md), [Restricted](../../../tensura-mysticism/abilities/unique-skills/restricted.md)
 
 ## Stats (config defaults)

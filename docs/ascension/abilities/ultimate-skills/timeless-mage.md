@@ -38,7 +38,7 @@
 
 - **Related skills:** [Infinite Regeneration](../../../tensura-reincarnated/abilities/extra-skills/infinite-regeneration.md), [Ultraspeed Regeneration](../../../tensura-reincarnated/abilities/extra-skills/ultraspeed-regeneration.md), [Healer](../../../tensura-reincarnated/abilities/unique-skills/healer.md)
 - **Effects:** [Self-Regeneration](../../../tensura-reincarnated/effects/self-regeneration.md)
-- **Summons / entities:** Zoltraak
+- **Summons / entities:** Zoltraak, Tensura
 
 ## Stats (config defaults)
 

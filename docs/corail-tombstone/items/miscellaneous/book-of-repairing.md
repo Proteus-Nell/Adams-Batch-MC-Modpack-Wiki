@@ -19,6 +19,10 @@ Can magically repair an item
 
 Right click on a Grave Soul with this book in the offhand and an item to repair in the mainhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

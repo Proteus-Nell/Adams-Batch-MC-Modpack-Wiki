@@ -31,6 +31,10 @@ Auto destruction mode: ?
 
 Shift + Right-click while holding to switch mode.
 
+## What it does
+
+Used to make [Pearl of the Void](../spellstones/void-pearl.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

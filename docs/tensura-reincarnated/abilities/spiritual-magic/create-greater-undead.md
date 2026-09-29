@@ -47,6 +47,7 @@
 ## Related
 
 - **Related skills:** [Create Lesser Undead](create-lesser-undead.md)
+- **Summons / entities:** [Zombie](../../mobs/zombie.md), [Skeleton](../../mobs/skeleton.md)
 - **Referenced by:** [Create Lesser Undead](create-lesser-undead.md)
 
 ## Stats (config defaults)

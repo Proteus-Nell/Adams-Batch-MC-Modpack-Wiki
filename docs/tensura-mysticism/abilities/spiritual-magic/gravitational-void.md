@@ -29,6 +29,10 @@
 
 - Triggers when the held key is released
 
+## Related
+
+- **Summons / entities:** Black Hole
+
 ## Stats (config defaults)
 
 Set in [`config/mysticism/ability/magic/spiritual_config.toml`](../../configs/config-mysticism-ability-magic-spiritual-config.md).

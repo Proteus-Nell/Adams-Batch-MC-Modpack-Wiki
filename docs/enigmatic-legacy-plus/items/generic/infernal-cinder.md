@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Emblem of Bloodstained Valor](../charms/berserk-emblem.md), [Scroll of a Thousand Curses](../scrolls/cursed-scroll.md), [Unholy Stone](../misc/cursed-stone.md), [Axe of Executioner](../tools/execution-axe.md), [Exterminato](../food/exterminato.md) and 5 more. It is crafted, dropped by Blaze Addon and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

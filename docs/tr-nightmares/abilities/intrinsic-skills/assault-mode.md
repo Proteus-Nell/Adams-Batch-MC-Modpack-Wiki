@@ -26,6 +26,7 @@
 ## Related
 
 - **Effects:** [Assault Moded](../../effects/assault-moded.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Severer Blade](../weapons/severer-blade.md) and [Spatial Blade](../weapons/spatial-blade.md). It is dropped by [Kyoya Tachibana](../../mobs/kyoya-tachibana.md).
+
 ## Obtaining
 
 ### Loot

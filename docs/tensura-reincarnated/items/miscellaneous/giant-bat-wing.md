@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Bat Glider](bat-glider.md). It is dropped by [Giant Bat](../../mobs/giant-bat.md).
+
 ## Obtaining
 
 ### Loot

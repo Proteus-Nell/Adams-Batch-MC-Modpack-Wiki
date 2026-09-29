@@ -61,7 +61,6 @@ flowchart LR
 
 Granted automatically when you become this race.
 
-- ![](../../assets/icons/tensura/skill/poisonous_breath.png) [Poisonous Breath](../../tensura-reincarnated/abilities/intrinsic-skills/poisonous-breath.md)
 - ![](../../assets/icons/tensura/skill/giantification.png) [Giantification](../../tensura-reincarnated/abilities/intrinsic-skills/giantification.md)
 - ![](../../assets/icons/tensura/skill/water_breathing.png) [Water Breathing](../../tensura-reincarnated/abilities/intrinsic-skills/water-breathing.md)
 

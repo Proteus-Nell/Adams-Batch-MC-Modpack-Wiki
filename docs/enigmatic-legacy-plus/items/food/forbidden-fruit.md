@@ -25,6 +25,10 @@ regeneration will have 80% weaker effect.
 
 Knowledge is the greatest gift.
 
+## What it does
+
+Food. Used to make [The Forbidden Juice](../potions/forbidden-juice.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

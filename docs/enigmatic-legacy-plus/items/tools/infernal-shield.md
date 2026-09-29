@@ -35,6 +35,10 @@ When blocking:
 
 - Enemy attacks from behind deal 50% more damage.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

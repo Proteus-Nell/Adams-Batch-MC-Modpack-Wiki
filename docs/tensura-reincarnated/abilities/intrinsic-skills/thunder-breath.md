@@ -27,13 +27,9 @@
 - Activated by pressing the skill key
 - Charged or channelled by holding the skill key
 
-## Obtaining
-
-- Intrinsic skill of: [Dragonewt](../../races/dragonewt.md), [True Dragonewt](../../races/true-dragonewt.md), [Divine Dragon](../../races/divine-dragon.md), [Corrupted Dragonkin](../../../ascension/races/corrupted-dragonkin.md), [Corrupted Dragon](../../../ascension/races/corrupted-dragon.md), [Cursed Dragon](../../../ascension/races/cursed-dragon.md), [Demonic Dragon](../../../ascension/races/demonic-dragon.md), [Demon Dragon God](../../../ascension/races/demon-dragon-god.md), [Ender Dragonewt](../../../ascension/races/ender-dragonewt.md), [Void Dragonewt](../../../ascension/races/void-dragonewt.md), [Abyssal Dragonewt](../../../ascension/races/abyssal-dragonewt.md), [Chaos Dragon](../../../ascension/races/chaos-dragon.md)
-
 ## Related
 
-- **Referenced by:** [Dragon Slayer](../../../ascension/abilities/unique-skills/dragon-slayer.md), [The Slayer of Dragons](../../../ascension/abilities/ultimate-skills/slayer-of-dragons.md)
+- **Summons / entities:** [Thunder Breath](thunder-breath.md)
 
 ## Stats (config defaults)
 

@@ -36,6 +36,10 @@ The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
 
+## What it does
+
+Used to make [The Infinitum](the-infinitum.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:golden_kodachi` |
 | **Category** | Weapons |
+| **Attack damage** | 2 |
+| **Attack speed** | 2 |
+| **Tier** | Gold |
+| **Durability** | 32 |
 
 </div>
+
+## What it does
+
+A kodachi that deals **2** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +20% critical hit chance, +0.5 critical damage multiplier and no sweeping attack. Durability: **32**. It is made at the Smithing Bench.
 
 ## Obtaining
 

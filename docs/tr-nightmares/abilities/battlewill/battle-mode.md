@@ -29,6 +29,7 @@
 ## Related
 
 - **Effects:** [Presence Sense](../../../tensura-reincarnated/effects/presence-sense.md), [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md), [Complete Concealment](../../effects/complete-concealment.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -39,8 +39,8 @@
 
 ## Related
 
-- **Related skills:** [Poisonous Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/poisonous-breath.md)
 - **Effects:** [Fatal Poison](../../../tensura-reincarnated/effects/fatal-poison.md)
+- **Summons / entities:** [Poisonous Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/poisonous-breath.md)
 
 ## Stats (config defaults)
 

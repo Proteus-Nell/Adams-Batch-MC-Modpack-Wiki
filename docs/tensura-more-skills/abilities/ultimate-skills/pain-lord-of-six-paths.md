@@ -58,6 +58,7 @@
 
 - **Related skills:** [Gravity Manipulation](../../../tensura-reincarnated/abilities/extra-skills/gravity-manipulation.md), [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md), [Magic Barrier](../../../tensura-reincarnated/abilities/aspectual-magic/magic-barrier.md), [Curse](../../../tensura-reincarnated/abilities/spiritual-magic/curse.md)
 - **Effects:** [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md), [Soul Drain](../../../tensura-reincarnated/effects/soul-drain.md), [Insanity](../../../tensura-reincarnated/effects/insanity.md), [Magic Aura](../../../tensura-reincarnated/effects/magic-aura.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Fear](../../../tensura-reincarnated/effects/fear.md), [Magicule Poison](../../../tensura-reincarnated/effects/magicule-poison.md), [Silence](../../../tensura-reincarnated/effects/silence.md)
+- **Summons / entities:** Tensura, [Direwolf](../../../tensura-reincarnated/mobs/direwolf.md), [Barghest](../../../tensura-reincarnated/mobs/barghest.md), [Blade Tiger](../../../tensura-reincarnated/mobs/blade-tiger.md), [Pegasus](../../../tensura-reincarnated/mobs/pegasus.md), [Giant Bear](../../../tensura-reincarnated/mobs/giant-bear.md), [Feathered Serpent](../../../tensura-reincarnated/mobs/feathered-serpent.md)
 
 ## Stats (config defaults)
 

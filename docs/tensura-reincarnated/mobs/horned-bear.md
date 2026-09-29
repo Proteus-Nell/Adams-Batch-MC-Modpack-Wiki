@@ -1,24 +1,35 @@
 # Horned Bear
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:horned_bear` |
+| **Type** | Monster |
+| **Health** | 100 |
+| **Attack damage** | 20 |
+| **Armor** | 10 |
+| **Speed** | 0.2 |
+| **Knockback resistance** | 0.6 |
 | **Magicule (EP)** | 2,000 - 4,000 |
 | **Aura** | 1,000 - 2,000 |
 | **Spiritual health** | 200 |
+| **Hitbox** | 1.5 x 2 blocks |
 | **Spawn egg** |  [Horned Bear Spawn Egg](../items/spawn-eggs/horned-bear-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **100** health, **20** attack damage and **2,000-4,000** magicule. Spawns naturally in Horned Bear Spawn. Drops [Monster Leather (C)](../items/miscellaneous/monster-leather-c.md) and [Beast Horn](../items/materials/beast-horn.md).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:horned_bear_spawn` | 20 | 1-1 |
+| Is Taiga, Cherry Grove | 20 | 1-1 |
 
 ## Drops
 

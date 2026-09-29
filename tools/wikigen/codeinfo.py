@@ -228,6 +228,24 @@ def entity_attributes(ix: JavaIndex, cls: JClass, depth=0) -> dict:
     return out
 
 
+def entity_class_info(ix: JavaIndex, cls) -> dict:
+    """Class-only facts, for entities registered in ways we can't read the builder of."""
+    info = {}
+    if cls is None:
+        return info
+    info["class"] = cls.fqcn
+    anc = [a.rsplit(".", 1)[-1] for a in ix.ancestors(cls)]
+    info["living"] = any(a in LIVING_BASES for a in anc) or "createAttributes" in cls.src
+    info["boss"] = "ServerBossEvent" in cls.src or "BossEvent" in cls.src or any("Boss" in a for a in anc)
+    info["attributes"] = entity_attributes(ix, cls)
+    info["ancestors"] = anc[:6]
+    return info
+
+
+LIVING_BASES = ("LivingEntity", "Mob", "PathfinderMob", "Monster", "Animal", "TamableAnimal", "AgeableMob", "WaterAnimal",
+                "FlyingMob", "AbstractGolem", "Villager", "AbstractVillager")
+
+
 def entity_type_info(ix: JavaIndex, reg: Reg) -> dict:
     s = text(reg.node)
     info = {}
@@ -248,7 +266,8 @@ def entity_type_info(ix: JavaIndex, reg: Reg) -> dict:
     if cls is not None:
         info["class"] = cls.fqcn
         anc = [a.rsplit(".", 1)[-1] for a in ix.ancestors(cls)]
-        info["living"] = any(a in ("LivingEntity", "Mob", "PathfinderMob", "Monster", "Animal", "TamableAnimal", "AgeableMob", "WaterAnimal", "FlyingMob", "AbstractGolem", "Villager", "AbstractVillager") for a in anc) or "createAttributes" in cls.src
+        info["living"] = any(a in ("LivingEntity", "Mob", "PathfinderMob", "Monster", "Animal", "TamableAnimal", "AgeableMob", "WaterAnimal", "FlyingMob", "AbstractGolem", "Villager", "AbstractVillager") for a in anc) or "createAttributes" in cls.src \
+            or info.get("category") not in (None, "Misc")
         info["boss"] = "ServerBossEvent" in cls.src or "BossEvent" in cls.src or any("Boss" in a for a in anc)
         info["attributes"] = entity_attributes(ix, cls)
         info["ancestors"] = anc[:6]

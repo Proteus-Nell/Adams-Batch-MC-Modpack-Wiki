@@ -18,6 +18,10 @@
 
 Slightly tainted by cursed one's presence.
 
+## What it does
+
+Used to make [Ethereal Forging Charm](../charms/ethereal-forging-charm.md), [Essence of Raging Life](../misc/infinimeal.md), [Charm of Treasure Hunter](../charms/mining-charm.md), [Ode to Living Beings](../books/ode-to-living.md), [Pure Heart](pure-heart.md) and 2 more. It is crafted and found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

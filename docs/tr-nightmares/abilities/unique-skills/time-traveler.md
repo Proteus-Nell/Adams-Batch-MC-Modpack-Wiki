@@ -39,7 +39,7 @@
 ## Related
 
 - **Related skills:** [Usurper](../../../tensura-reincarnated/abilities/unique-skills/usurper.md), [Infinity Prison](../../../tensura-reincarnated/abilities/unique-skills/infinity-prison.md), [Absolute Severance](../../../tensura-reincarnated/abilities/unique-skills/absolute-severance.md)
-- **Summons / entities:** [Sentient Boss Masayuuki](../../mobs/sentient-boss-masayuuki.md)
+- **Summons / entities:** [Hinata Sakaguchi](../../../tensura-reincarnated/mobs/hinata-sakaguchi.md), [Sentient Boss Masayuuki](../../mobs/sentient-boss-masayuuki.md)
 - **Referenced by:** [Witch's Greed](witches-greed.md), [｢ Yog-Sothoth, Lord of Space-Time ｣](../ultimate-skills/yog-sothoth.md)
 
 ## Stats (config defaults)

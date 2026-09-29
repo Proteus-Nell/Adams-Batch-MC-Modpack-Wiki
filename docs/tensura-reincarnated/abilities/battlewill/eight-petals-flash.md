@@ -41,6 +41,7 @@
 
 ## Related
 
+- **Summons / entities:** Hazy Blossom
 - **Referenced by:** [Five Petals Thrust](five-petals-thrust.md)
 
 ## Stats (config defaults)

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Sissie Tooth Pickaxe](../tools/sissie-tooth-pickaxe.md). It is dropped by [Sissie](../../mobs/sissie.md).
+
 ## Obtaining
 
 ### Loot

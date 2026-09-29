@@ -74,9 +74,6 @@ Granted automatically when you become this race.
 
 - ![](../../assets/icons/tensura/skill/dragon_eye.png) [Dragon Eye](../abilities/intrinsic-skills/dragon-eye.md)
 - ![](../../assets/icons/tensura/skill/dragon_ear.png) [Dragon Ear](../abilities/intrinsic-skills/dragon-ear.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../abilities/intrinsic-skills/flame-breath.md)
-- ![](../../assets/icons/tensura/skill/ice_breath.png) [Ice Breath](../abilities/intrinsic-skills/ice-breath.md)
-- ![](../../assets/icons/tensura/skill/thunder_breath.png) [Thunder Breath](../abilities/intrinsic-skills/thunder-breath.md)
 - ![](../../assets/icons/tensura/skill/magic_resistance.png) [Magic Resistance](../abilities/resistance-skills/magic-resistance.md)
 - ![](../../assets/icons/tensura/skill/scale_armor.png) [Scale Armor](../abilities/intrinsic-skills/scale-armor.md)
 

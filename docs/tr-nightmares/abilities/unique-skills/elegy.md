@@ -49,6 +49,7 @@
 ## Related
 
 - **Related skills:** [Multilayer Barrier](../../../tensura-reincarnated/abilities/extra-skills/multilayer-barrier.md), [Spatial Manipulation](../../../tensura-reincarnated/abilities/extra-skills/spatial-manipulation.md), [Spatial Motion](../../../tensura-reincarnated/abilities/extra-skills/spatial-motion.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Lilith, Lord of Heresy ｣](../ultimate-skills/lilith.md)
 
 ## Stats (config defaults)

@@ -21,6 +21,10 @@ Right click on a Grave Soul to enchant
 
 The grave magic makes this fishing rod faster and unbreakable
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

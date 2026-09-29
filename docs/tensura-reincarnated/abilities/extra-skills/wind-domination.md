@@ -35,6 +35,7 @@
 ## Related
 
 - **Related skills:** [Wind Manipulation](wind-manipulation.md)
+- **Summons / entities:** Tensura, Wind Sphere, Wind Blow
 - **Referenced by:** [Black Lightning](black-lightning.md), [Wind Manipulation](wind-manipulation.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md)
 
 ## Stats (config defaults)

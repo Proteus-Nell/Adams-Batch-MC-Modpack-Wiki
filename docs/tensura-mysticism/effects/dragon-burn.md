@@ -10,3 +10,7 @@
 | **Type** | Harmful |
 
 </div>
+
+## What it does
+
+Dragon embers. Every second it deals damage equal to **5%** of your max health. Nothing in the current version of the mod applies it.

@@ -53,4 +53,5 @@
 - **Related skills:** [Arthur, The Once and Future King](arthur-once-and-future-king.md)
 - **Effects:** [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Inspiration](../../../tensura-reincarnated/effects/inspiration.md), [Aura Sword](../../../tensura-reincarnated/effects/aura-sword.md), [Fear](../../../tensura-reincarnated/effects/fear.md), [Hypnosis](../../../tensura-reincarnated/effects/hypnosis.md), [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Lust Embracement](../../../tensura-reincarnated/effects/lust-embracement.md)
 - **Items:** [True Excalibur](../../items/weapons/true-excalibur.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Arthur, The Once and Future King](arthur-once-and-future-king.md)

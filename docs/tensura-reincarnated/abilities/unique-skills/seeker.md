@@ -35,6 +35,7 @@
 ## Related
 
 - **Related skills:** [Law Manipulation](../extra-skills/law-manipulation.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Azazel, Lord of Temptation ｣](../../../tr-nightmares/abilities/ultimate-skills/azazel.md)
 
 ## Stats (config defaults)

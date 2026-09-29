@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Events around you are silenced. Per level: **-55%** movement speed, **-95%** attack and chant speed and **-65%** magicule and aura regeneration. Istaroth's ultimate techniques inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

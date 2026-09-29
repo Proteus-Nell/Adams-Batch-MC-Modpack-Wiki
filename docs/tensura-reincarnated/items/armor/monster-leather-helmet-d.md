@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 1,000 - 2,500 |
 | **Evolves into** | [Monster Leather Helmet (C)](monster-leather-helmet-c.md) |
+| **Armor** | 2 |
+| **Armor toughness** | 0.5 |
+| **Knockback resistance** | 10% |
 
 </div>
+
+## What it does
+
+Monster Leather D armor for the helmet slot: **2** armor, **0.5** toughness and **10%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Frozen as an object in time. Your movement, flying speed and attack speed drop to **zero**, you get full knockback resistance and your spiritual health doesn't regenerate. Istaroth's Object Permanence inflicts it at level IV (VI mastered).
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

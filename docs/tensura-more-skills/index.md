@@ -28,7 +28,7 @@ Tensura addon adding more Unique and Ultimate skills, races and the Void Archive
 | [Items](items/index.md) | 9 |
 | [Blocks](blocks/index.md) | 6 |
 | [Mobs](mobs/index.md) | 11 |
-| [Effects](effects/index.md) | 21 |
+| [Effects](effects/index.md) | 20 |
 | [Biomes](biomes/index.md) | 2 |
 | [Dimensions](dimensions/index.md) | 3 |
 | [Structures](structures/index.md) | 1 |
@@ -39,3 +39,13 @@ Tensura addon adding more Unique and Ultimate skills, races and the Void Archive
 ### Abilities at a glance
 
 Ultimate Skills **20**, Unique Skills **17**, Extra Skills **2**, Intrinsic Skills **4**
+
+### Not in the game
+
+These names are in TensuraMoreSkills's language or model files, but nothing in its code registers them, so you won't find them in-game (they are usually leftovers or unfinished content). Other wikis may still list them.
+
+<details markdown><summary>Show 1 unregistered names</summary>
+
+- Frost Shatter `tensuramoreskills:frost_shatter`
+
+</details>

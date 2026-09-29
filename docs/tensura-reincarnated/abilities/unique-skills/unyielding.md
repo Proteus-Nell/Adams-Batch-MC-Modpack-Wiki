@@ -43,6 +43,7 @@
 
 ## Related
 
+- **Summons / entities:** [Clone](../../mobs/clone.md), Tensura
 - **Referenced by:** [｢ Yog-Sothoth, Lord of Space-Time ｣](../../../tr-nightmares/abilities/ultimate-skills/yog-sothoth.md)
 
 ## Stats (config defaults)

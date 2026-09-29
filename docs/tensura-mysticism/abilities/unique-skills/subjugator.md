@@ -42,6 +42,7 @@
 ## Related
 
 - **Effects:** [Inspiration](../../../tensura-reincarnated/effects/inspiration.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -42,6 +42,10 @@ down twice as fast, except Molten Heart.
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [Charm of Scorched Sun](../charms/scorched-charm.md) and [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

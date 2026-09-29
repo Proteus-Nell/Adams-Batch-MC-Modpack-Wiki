@@ -1,24 +1,35 @@
 # Basilisk
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:basilisk` |
+| **Type** | Monster |
+| **Health** | 60 |
+| **Attack damage** | 16 |
+| **Armor** | 5 |
+| **Speed** | 0.2 |
+| **Knockback resistance** | 0.25 |
 | **Magicule (EP)** | 5,000 - 6,000 |
 | **Aura** | 1,000 - 2,000 |
 | **Spiritual health** | 200 |
+| **Hitbox** | 1.2 x 2.25 blocks |
 | **Spawn egg** |  [Basilisk Spawn Egg](../items/spawn-eggs/basilisk-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **60** health, **16** attack damage and **5,000-6,000** magicule. Spawns naturally in Basilisk Spawn. Drops [Feather](https://minecraft.wiki/w/Feather), [Monster Leather (B)](../items/miscellaneous/monster-leather-b.md) and [Dragon Essence](../items/materials/dragon-essence.md).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:basilisk_spawn` | 30 | 1-2 |
+| Is Mountain, Is Savanna, Desert of Death | 30 | 1-2 |
 
 ## Drops
 

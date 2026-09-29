@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Silver Apple](../food/silver-apple.md), [Silver Nugget](silver-nugget.md), [Silver Axe](../tools/silver-axe.md), [Block of Silver](../../blocks/silver-block.md), [Silver Boots](../armor/silver-boots.md) and 22 more. It is crafted, smelted in a blast furnace, smelted in a furnace, made at the Kiln (mixing) and found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

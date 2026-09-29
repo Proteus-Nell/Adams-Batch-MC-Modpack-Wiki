@@ -27,6 +27,10 @@ faster when accelerating.
 
 Enhancement:
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

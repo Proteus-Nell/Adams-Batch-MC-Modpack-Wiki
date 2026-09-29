@@ -27,6 +27,10 @@ Second Curse
 
 - Tamable animals stay neutral towards you.
 
+## What it does
+
+Used to make [Ode to Living Beings](ode-to-living.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

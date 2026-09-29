@@ -19,6 +19,10 @@ Allows for an easy retreat
 
 Right click to vanish
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

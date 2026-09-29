@@ -10,3 +10,7 @@
 | **Category** | Spawn Eggs |
 
 </div>
+
+## What it does
+
+Creative-mode spawn egg. Use it on a block to spawn [Evil Centipede](../../mobs/evil-centipede.md).

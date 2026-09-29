@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [The Arrogance of Chaos](../tools/chaos-elytra.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

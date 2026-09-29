@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Short Sword](adamantite-short-sword.md) |
+| **Attack damage** | 32 |
+| **Attack speed** | 2 |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A short sword that deals **32** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

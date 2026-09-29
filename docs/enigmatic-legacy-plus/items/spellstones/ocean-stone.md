@@ -40,6 +40,10 @@ Passive abilities:
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [Scroll of Thunder Embrace](../scrolls/thunder-scroll.md) and [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

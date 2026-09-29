@@ -34,3 +34,4 @@
 ## Related
 
 - **Related skills:** [Saint](../unique-skills/saint.md)
+- **Summons / entities:** Tensura

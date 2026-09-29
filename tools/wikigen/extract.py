@@ -26,6 +26,8 @@ from .icons import IconRenderer
 from .javaindex import JavaIndex, InstanceOf, text, walk
 from .mods import MODS, SUPPORT_JARS
 from .registry import find_registrations
+from .linker import LiteralLinker
+from .gear import GearReader, armor_stats
 from .resources import Resources, clean, load_json
 
 VINEFLOWER = "https://repo1.maven.org/maven2/org/vineflower/vineflower/1.12.0/vineflower-1.12.0.jar"
@@ -163,6 +165,8 @@ def main(argv=None):
     def kind_of(r):
         c = ix.classes.get(r.cls) if r.cls else None
         via = r.via.upper()
+        if "EntityType<" in (r.decl_type or "") or "MobCategory." in text(r.node):
+            return "entity"
         if c is not None:
             if ix.is_a(c, "ManasSkill"):
                 return "skill"
@@ -291,6 +295,21 @@ def main(argv=None):
             race_tags[v].append(tid)
     names = content.Names(res)
     extractor = ab.AbilityExtractor(ix, res, rr, config_links)
+    linker = LiteralLinker(ix)
+    gear_reader = GearReader(ix)
+    data_refs = set()
+    for r in recipes:
+        outs, ins = content.recipe_items(r)
+        data_refs.update(i for i in outs + ins if isinstance(i, str))
+    for t in loot.values():
+        for p_ in t["pools"]:
+            for it in p_["items"]:
+                if it.get("item"):
+                    data_refs.add(it["item"])
+    for reg_name in ("item", "block"):
+        for tid in tags.get(reg_name, {}):
+            data_refs.update(res.tag_members(reg_name, tid))
+    phantoms = defaultdict(list)
 
     os.makedirs(a.data, exist_ok=True)
     only = set(a.only or [])
@@ -343,19 +362,50 @@ def main(argv=None):
         model_ids = set(content.asset_ids(res, k, ns, "models/item"))
         reg_items = {r.id: r for r in regs if kind_of(r) == "item" and r.ns in (ns, "")}
         block_ids = set(content.lang_ids(res, k, "block", ns)) | set(content.lang_ids(res, k, ns, "block"))
+        alt_names = defaultdict(list)
+        cls_to_item = {r.cls: r.id for r in reg_items.values() if r.cls}
         for iid in sorted((item_ids & (model_ids | set(reg_items))) | (set(reg_items) & model_ids)):
             if iid in block_ids:
                 continue
             r = reg_items.get(iid)
             full = "%s:%s" % (ns, iid)
-            cls = ix.classes.get(r.cls) if r and r.cls else None
-            rec = {"id": full, "path": iid, "name": names.item(full), "class": r.cls if r else None}
+            cls_name = r.cls if r else None
+            if r is None:
+                if not linker.mentioned([k], iid):
+                    # only ever used as a display name (EtheriumCore shows "Starlight Core" while active)?
+                    owner = None
+                    for lk in ("item.%s.%s" % (ns, iid), "%s.item.%s" % (ns, iid)):
+                        owner = owner or linker.owner_of_literal([k], lk)
+                    base = cls_to_item.get(owner.fqcn) if owner is not None else None
+                    if base and base != iid:
+                        alt_names[base].append({"id": full, "name": names.item(full), "class": owner.fqcn})
+                        continue
+                    if full not in data_refs:
+                        phantoms[m["slug"]].append(full)
+                        continue
+                else:
+                    cls_name = linker.link([k], iid, "item")
+            cls = ix.classes.get(cls_name) if cls_name else None
+            rec = {"id": full, "path": iid, "name": names.item(full), "class": cls_name}
             rec["category"] = codeinfo.item_category(ix, r, iid)
             if m["family"] == "enigmatic" and cls is not None:
                 pk = cls.pkg.split(".")
                 if "item" in pk and pk.index("item") + 1 < len(pk):
                     rec["category"] = pk[pk.index("item") + 1].replace("_", " ").title()
             rec["props"] = codeinfo.item_properties(ix, r) if r else {}
+            if r is not None:
+                try:
+                    g = gear_reader.stats(r)
+                except Exception:
+                    g = {}
+                if g:
+                    rec["gear"] = g
+                try:
+                    arm = armor_stats(ix, r)
+                except Exception:
+                    arm = {}
+                if arm:
+                    rec["armor"] = arm
             tips = codeinfo.tooltip_lines(ix, cls, res.has, res.tr)
             for base in ("item.%s.%s" % (ns, iid), "%s.item.%s" % (ns, iid)):
                 for suf, t in content.lang_extras(res, base):
@@ -382,6 +432,9 @@ def main(argv=None):
                 if rd:
                     rec["relic"] = _relic_render(ix, res, cls, rd, ns, iid)
             items.append(rec)
+        for rec in items:
+            if alt_names.get(rec["path"]):
+                rec["alt_names"] = alt_names[rec["path"]]
         out["categories"]["items"] = items
 
         # ---- blocks
@@ -391,7 +444,10 @@ def main(argv=None):
         for bid in sorted(block_ids & (bs_ids | set(reg_blocks))):
             full = "%s:%s" % (ns, bid)
             r = reg_blocks.get(bid)
-            rec = {"id": full, "path": bid, "name": names.block(full), "class": r.cls if r else None,
+            bcls = r.cls if r else None
+            if bcls is None and linker.mentioned([k], bid):
+                bcls = linker.link([k], bid, "block")
+            rec = {"id": full, "path": bid, "name": names.block(full), "class": bcls,
                    "tags": res.tags_of("block", full), "item_tags": res.tags_of("item", full),
                    "icon_url": icons.block(ns, bid)}
             tips = []
@@ -416,6 +472,15 @@ def main(argv=None):
             full = "%s:%s" % (ns, eid)
             r = reg_ents.get(eid)
             info = codeinfo.entity_type_info(ix, r) if r else {}
+            if r is None:
+                if not linker.mentioned([k], eid):
+                    phantoms[m["slug"]].append(full)
+                    continue
+                ecls = linker.link([k], eid, "entity")
+                if ecls:
+                    info = codeinfo.entity_class_info(ix, ix.classes.get(ecls))
+                    if not info.get("living"):
+                        continue
             if r is not None and not info.get("living") and not res.has("entity.%s.%s" % (ns, eid)):
                 continue
             if r is not None and not info.get("living"):
@@ -441,7 +506,10 @@ def main(argv=None):
         for eid in sorted(set(content.lang_ids(res, k, "effect", ns)) | set(reg_eff)):
             full = "%s:%s" % (ns, eid)
             r = reg_eff.get(eid)
-            rec = {"id": full, "path": eid, "name": names.effect(full), "class": r.cls if r else None}
+            if r is None and not linker.mentioned([k], eid):
+                phantoms[m["slug"]].append(full)
+                continue
+            rec = {"id": full, "path": eid, "name": names.effect(full), "class": r.cls if r else linker.link([k], eid, "effect")}
             rec.update(codeinfo.effect_info(ix, r) if r else {})
             desc = None
             for kk2 in ("effect.%s.%s.description" % (ns, eid), "description.effect.%s.%s" % (ns, eid), "effect.%s.%s.desc" % (ns, eid)):
@@ -477,6 +545,8 @@ def main(argv=None):
         with open(os.path.join(a.data, "lang", m["slug"] + ".json"), "w", encoding="utf-8") as fh:
             json.dump(own, fh, ensure_ascii=False, indent=0, sort_keys=True)
         out["extra"] = family_extras(m, k, ix, res, regs, loot, names, icons, keys)
+        if phantoms.get(m["slug"]):
+            out["extra"]["phantoms"] = sorted(phantoms[m["slug"]])
         with open(os.path.join(a.data, m["slug"] + ".json"), "w", encoding="utf-8") as fh:
             json.dump(out, fh, indent=1, ensure_ascii=False, default=_json_default)
         cats = out["categories"]

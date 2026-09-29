@@ -63,7 +63,6 @@ Granted automatically when you become this race.
 
 - ![](../../assets/icons/tensura/skill/drain.png) [Drain](../../tensura-reincarnated/abilities/intrinsic-skills/drain.md)
 - ![](../../assets/icons/tensura/skill/body_armor.png) [Body Armor](../../tensura-reincarnated/abilities/intrinsic-skills/body-armor.md)
-- ![](../../assets/icons/tensura/skill/poisonous_breath.png) [Poisonous Breath](../../tensura-reincarnated/abilities/intrinsic-skills/poisonous-breath.md)
 - ![](../../assets/icons/tensura/skill/giantification.png) [Giantification](../../tensura-reincarnated/abilities/intrinsic-skills/giantification.md)
 - ![](../../assets/icons/tensura/skill/water_breathing.png) [Water Breathing](../../tensura-reincarnated/abilities/intrinsic-skills/water-breathing.md)
 

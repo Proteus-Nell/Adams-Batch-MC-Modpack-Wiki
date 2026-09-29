@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [The Forger's Gem](../charms/forger-gem.md), [Ring of Starlight](starlight-ring.md) and [Angel's Blessing](../spellstones/angel-blessing.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

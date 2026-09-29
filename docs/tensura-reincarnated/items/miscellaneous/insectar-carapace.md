@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+It is dropped by [Army Wasp](../../mobs/army-wasp.md).
+
 ## Obtaining
 
 ### Loot

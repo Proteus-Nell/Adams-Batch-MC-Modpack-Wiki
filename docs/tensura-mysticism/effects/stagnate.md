@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+Stopped in time by Stagnator's aura. You can't move at all (players are held in place, mobs lose their AI), your attack damage and speed, jumping, reach, swimming and gliding drop to **zero**, and you can't use items or right-click blocks.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

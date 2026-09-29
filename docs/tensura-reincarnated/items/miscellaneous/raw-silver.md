@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Silver Ingot](../materials/silver-ingot.md) and [Block of Raw Silver](../../blocks/raw-silver-block.md). It is crafted, made at the Mining Station, dropped when you break [Deepslate Silver Ore](../../blocks/deepslate-silver-ore.md) and [Silver Ore](../../blocks/silver-ore.md) and found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

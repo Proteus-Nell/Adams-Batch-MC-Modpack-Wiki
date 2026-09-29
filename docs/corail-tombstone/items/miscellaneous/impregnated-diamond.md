@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Receptacle of Familiar](receptacle-of-familiar.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

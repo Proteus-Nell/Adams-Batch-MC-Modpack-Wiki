@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Chestplate](adamantite-chestplate.md) |
+| **Armor** | 11 |
+| **Armor toughness** | 5 |
+| **Knockback resistance** | 30% |
+| **Durability** | 720 |
 
 </div>
+
+## What it does
+
+Mithril armor for the chestplate slot: **11** armor, **5** toughness and **30%** knockback resistance. Durability: **720**. It is made at the Smithing Bench.
 
 ## Obtaining
 

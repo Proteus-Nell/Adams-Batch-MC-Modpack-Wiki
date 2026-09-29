@@ -17,6 +17,10 @@
 
 </div>
 
+## What it does
+
+A boss with **10,000** health and **80** attack damage.
+
 ## Tags
 
 `apothic_spawners:blacklisted_from_spawners`, `c:capturing_not_supported`

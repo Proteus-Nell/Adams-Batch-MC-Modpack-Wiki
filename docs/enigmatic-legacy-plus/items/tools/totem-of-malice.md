@@ -27,6 +27,10 @@ Can avoid death when held or equipped.
 
 Causing damage to the surroundings when triggered.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

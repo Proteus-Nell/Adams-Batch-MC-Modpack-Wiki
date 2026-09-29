@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Judged by the timeline. Per level: **-85%** movement, flying, attack and chant speed and **-85%** magicule, aura and spiritual health regeneration. Istaroth's verdict techniques inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

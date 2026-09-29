@@ -19,6 +19,10 @@ Can recycle an item to obtain its crafting ingredients
 
 Right click on a Grave Soul with this book in the offhand and an item to recycle in the mainhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

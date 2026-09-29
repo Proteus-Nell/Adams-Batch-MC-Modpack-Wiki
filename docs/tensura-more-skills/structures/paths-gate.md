@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `tensuramoreskills:paths_gate` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensuramoreskills:has_structure/paths_gate` |
+| **Biomes** | Plains, Sunflower Plains |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 64 / 32 chunks |
 | **Terrain adaptation** | none |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Plains, Sunflower Plains, about one every 64 chunks (at least 32 chunks apart).

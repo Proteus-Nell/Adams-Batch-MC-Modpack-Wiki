@@ -1,18 +1,29 @@
 # Greater Daemon
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:greater_daemon` |
+| **Type** | Monster |
+| **Health** | 80 |
+| **Attack damage** | 30 |
+| **Armor** | 15 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.4 |
 | **Magicule (EP)** | 9,500 - 69,000 |
 | **Aura** | 500 - 1,000 |
 | **Spiritual health** | 400 |
+| **Hitbox** | 1.2 x 4.8 blocks |
 | **Spawn egg** |  [Greater Daemon Spawn Egg](../items/spawn-eggs/greater-daemon-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **80** health, **30** attack damage and **9,500-69,000** magicule. Spawns naturally in Greater Daemon Spawn. It has 11 skills you can take from it with Predator-type skills. Drops [Daemon Essence](../items/materials/daemon-essence.md).
 
 ## Abilities
 
@@ -34,7 +45,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:greater_daemon_spawn` | 30 | 1-1 |
+| Underworld Barrens, Underworld Red Sands, Underworld Sands, Underworld Spikes | 30 | 1-1 |
 
 ## Drops
 

@@ -31,6 +31,7 @@
 ## Related
 
 - **Related skills:** [Clairvoyance](../aspectual-magic/clairvoyance.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -37,7 +37,8 @@
 ## Related
 
 - **Related skills:** [Gravity Domination](../extra-skills/gravity-domination.md), [Gravity Manipulation](../extra-skills/gravity-manipulation.md)
-- **Items:** [Severer Blade](../../items/weapons/severer-blade.md)
+- **Items:** [Severer Blade](../../items/weapons/severer-blade.md), [Kunai](../../items/weapons/kunai.md)
+- **Summons / entities:** Web Bullet, Severer Blade, Spear, Thrown Item
 - **Referenced by:** [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md), [Melancholy](../../../tensura-mysticism/abilities/unique-skills/melancholy.md)
 
 ## Stats (config defaults)

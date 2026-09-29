@@ -44,6 +44,10 @@ The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

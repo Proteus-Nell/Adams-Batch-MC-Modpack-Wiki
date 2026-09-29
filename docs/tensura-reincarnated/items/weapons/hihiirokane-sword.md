@@ -11,8 +11,16 @@
 | **ID** | `tensura:hihiirokane_sword` |
 | **Category** | Weapons |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 80 |
+| **Attack speed** | 1.6 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A sword that deals **80** attack damage at **1.6** attack speed. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

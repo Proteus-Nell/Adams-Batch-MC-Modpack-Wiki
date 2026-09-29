@@ -51,6 +51,10 @@
 - Listed in the `uniqueSkills` config option (config/tensura/ability/skill/unique_config.toml): List of Unique skills that can be created by Creator.
 - Listed in the `DemonicSkillsList` config option (serverconfig/nightmare/mechanic/nightmare_mechanics.toml): List of Demonic skills registry names that can be created via Demon Essence consumption. Format: modid:skill_name
 
+## Related
+
+- **Summons / entities:** Tensura, [Clone](../../mobs/clone.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill/unique_config.toml`](../../configs/config-tensura-ability-skill-unique-config.md).

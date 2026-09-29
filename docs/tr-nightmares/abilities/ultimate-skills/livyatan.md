@@ -47,6 +47,7 @@
 ## Related
 
 - **Related skills:** [Deluge](../unique-skills/deluge.md)
+- **Summons / entities:** [Clone](../../../tensura-reincarnated/mobs/clone.md)
 
 ## Stats (config defaults)
 

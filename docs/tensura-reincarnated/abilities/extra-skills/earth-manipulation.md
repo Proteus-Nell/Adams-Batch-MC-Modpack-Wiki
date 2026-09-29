@@ -51,6 +51,7 @@
 ## Related
 
 - **Related skills:** [Earth Domination](earth-domination.md)
+- **Summons / entities:** Tensura, Earth Pillar
 - **Referenced by:** [Earth Domination](earth-domination.md), [Earth Blessing](../../../tr-nightmares/abilities/extra-skills/earth-blessing.md)
 
 ## Stats (config defaults)

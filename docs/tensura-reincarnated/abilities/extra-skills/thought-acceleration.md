@@ -37,6 +37,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md)
 
 ## Stats (config defaults)

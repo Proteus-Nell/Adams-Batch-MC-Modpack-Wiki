@@ -55,7 +55,7 @@
 
 - **Related skills:** [Stasis](stasis.md)
 - **Effects:** [Fixed State](../../effects/stasis-fixed-state.md), [White Lock](../../effects/cadence-white-lock.md)
-- **Summons / entities:** Stasis Air Wall
+- **Summons / entities:** Tensura, Stasis Air Wall
 - **Referenced by:** [Witch's Greed](witches-greed.md), [｢ Gabriel, Lord of Patience ｣](../ultimate-skills/gabriel.md)
 
 ## Stats (config defaults)

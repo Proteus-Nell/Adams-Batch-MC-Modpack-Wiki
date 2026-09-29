@@ -55,6 +55,7 @@
 
 - **Related skills:** [Spiritual Attack Nullification](../resistance-skills/spiritual-attack-nullification.md), [Spiritual Attack Resistance](../resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Shadow Step](../../effects/shadow-step.md), [Rest](../../effects/rest.md), [Drowsiness](../../effects/drowsiness.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Belphegor, Lord of Sloth ｣](../../../tr-nightmares/abilities/ultimate-skills/belphegor.md), [｢ Michael, Lord of Justice ｣](../../../tr-nightmares/abilities/ultimate-skills/michael.md)
 
 ## Stats (config defaults)

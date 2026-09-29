@@ -51,6 +51,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura, Spatial Arrow
 - **Referenced by:** [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md)
 
 ## Stats (config defaults)

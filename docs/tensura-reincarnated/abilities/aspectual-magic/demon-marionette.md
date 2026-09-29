@@ -38,6 +38,7 @@
 
 - **Related skills:** [Demon Dominate](demon-dominate.md), [Spiritual Attack Resistance](../resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Movement Interference](../../effects/movement-interference.md)
+- **Summons / entities:** Marionette Lines
 
 ## Stats (config defaults)
 

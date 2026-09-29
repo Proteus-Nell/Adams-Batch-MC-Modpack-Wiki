@@ -24,6 +24,10 @@ Shift and Right-click to toggle this effect.
 
 Enhancement: Can cause area damage.
 
+## What it does
+
+Used to make [Ethereal Forging Charm](../charms/ethereal-forging-charm.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

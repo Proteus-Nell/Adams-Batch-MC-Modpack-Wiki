@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Pact of Infinite Avarice](../scrolls/avarice-scroll.md), [The Architect's Favor](../scrolls/cosmic-scroll.md), [Scroll of a Thousand Curses](../scrolls/cursed-scroll.md), [Scroll of Ignorance Curse](../scrolls/cursed-xp-scroll.md), [Pact of Dark Night](../scrolls/night-scroll.md) and 1 more. It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

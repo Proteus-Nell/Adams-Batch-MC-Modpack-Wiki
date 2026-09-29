@@ -13,8 +13,15 @@
 | **Durability** | 350 |
 | **Rarity** | Epic |
 | **Gear EP** | 6,000 - None |
+| **Attack damage** | 10 |
+| **Attack speed** | 1 |
+| **Tier** | Wood |
 
 </div>
+
+## What it does
+
+A Wood sword that deals **10** attack damage at **1** attack speed. It also has +1 block of reach, +0.5 critical damage multiplier and +1 knockback. Durability: **59**. It is made at the Smithing Bench.
 
 ## Obtaining
 

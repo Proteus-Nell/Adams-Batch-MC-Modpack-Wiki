@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Dubious Food](dubious-food.md). It is dropped by [Orc](../../mobs/orc.md), [Orc Disaster](../../mobs/orc-disaster.md) and [Orc Lord](../../mobs/orc-lord.md).
+
 ## Obtaining
 
 ### Loot

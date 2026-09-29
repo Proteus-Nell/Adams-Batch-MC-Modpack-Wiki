@@ -9,3 +9,7 @@
 | **ID** | `trnightmare:domicile_door` |
 
 </div>
+
+## What it does
+
+Decorative door building block.

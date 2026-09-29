@@ -19,6 +19,10 @@ Can strip some enchantments from an item and return them as books
 
 Right click on a Grave Soul with this book in the offhand and an enchanted item in the mainhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

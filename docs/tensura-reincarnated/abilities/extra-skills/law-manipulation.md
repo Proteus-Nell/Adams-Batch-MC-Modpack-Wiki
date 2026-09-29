@@ -38,6 +38,7 @@
 
 - **Related skills:** [Mana Manipulation](mana-manipulation.md)
 - **Effects:** [Magic Interference](../../effects/magic-interference.md)
+- **Summons / entities:** Tensura, Magic Circle
 - **Referenced by:** [Analyst](../unique-skills/analyst.md), [Seeker](../unique-skills/seeker.md), [Hive King](../../../tr-nightmares/abilities/ultimate-skills/hive-king.md)
 
 ## Stats (config defaults)

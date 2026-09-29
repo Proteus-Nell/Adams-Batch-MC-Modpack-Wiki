@@ -17,6 +17,10 @@ Has no use except producing smoke
 
 Can be thrown
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

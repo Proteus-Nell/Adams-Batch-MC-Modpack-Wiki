@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Mithril Ingot](../items/materials/mithril-ingot.md) packed into one block. Used to make [Mithril Ingot](../items/materials/mithril-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

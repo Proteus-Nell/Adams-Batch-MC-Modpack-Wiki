@@ -9,3 +9,7 @@
 | **ID** | `tombstone:flying_carpet` |
 
 </div>
+
+## What it does
+
+A mob.

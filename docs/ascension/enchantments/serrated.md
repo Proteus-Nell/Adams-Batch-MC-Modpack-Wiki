@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Each hit also gives the target [Bleeding](../effects/bleeding.md) for **5 seconds**: Bleeding I at Serrated I, up to Bleeding III at Serrated III. It can't be combined with Fire Aspect.
+
 ## Effects
 
 | Component | Effect | Value |

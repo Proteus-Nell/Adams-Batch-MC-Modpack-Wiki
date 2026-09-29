@@ -27,13 +27,9 @@
 
 - Activated by pressing the skill key
 
-## Obtaining
-
-- Acquisition checks: [Aura Slash](aura-slash.md)
-
 ## Related
 
-- **Related skills:** [Aura Slash](aura-slash.md)
+- **Summons / entities:** [Aura Slash](aura-slash.md)
 - **Referenced by:** [Aura Slash](aura-slash.md), [Phainon, The Deliverer](../../../tensura-more-skills/abilities/ultimate-skills/phainon.md)
 
 ## Stats (config defaults)

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

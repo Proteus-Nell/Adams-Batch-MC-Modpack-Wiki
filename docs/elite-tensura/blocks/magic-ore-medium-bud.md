@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. You need a stone pickaxe or better.
+
 ## Tags
 
 `minecraft:mineable/pickaxe`, `minecraft:needs_stone_tool`

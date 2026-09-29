@@ -17,6 +17,10 @@
 
 Warped power from the void beyond.
 
+## What it does
+
+Food. It is dropped by [Enderman](https://minecraft.wiki/w/Enderman) and [Endermite](https://minecraft.wiki/w/Endermite).
+
 ## Obtaining
 
 ### Loot

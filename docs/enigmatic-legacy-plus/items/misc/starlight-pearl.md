@@ -18,6 +18,10 @@
 
 Right-click on certain items to upgrade them.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

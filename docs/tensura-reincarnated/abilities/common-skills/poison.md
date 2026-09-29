@@ -29,6 +29,7 @@
 ## Related
 
 - **Effects:** [Fatal Poison](../../effects/fatal-poison.md)
+- **Summons / entities:** [Black Spider](../../mobs/black-spider.md)
 - **Referenced by:** [Lethal Poison](../../../tensura-mysticism/abilities/intrinsic-skills/lethal-poison.md)
 
 ## Stats (config defaults)

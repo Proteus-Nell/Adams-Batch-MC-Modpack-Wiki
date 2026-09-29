@@ -55,6 +55,7 @@
 
 - **Related skills:** [Hero Haki](hero-haki.md)
 - **Effects:** [Haki Coat](../../effects/haki-coat.md)
+- **Summons / entities:** Sacred Haki
 - **Referenced by:** [Hero Haki](hero-haki.md)
 
 ## Stats (config defaults)

@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:wooden_katana` |
 | **Category** | Weapons |
+| **Attack damage** | 5 (4 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Tier** | Wood |
+| **Durability** | 59 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **5** attack damage at **1.8** attack speed; one-handed **4** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **59**. It is made at the Smithing Bench.
 
 ## Obtaining
 

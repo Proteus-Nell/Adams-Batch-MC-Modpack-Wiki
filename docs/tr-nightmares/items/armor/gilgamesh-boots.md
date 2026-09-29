@@ -12,5 +12,12 @@
 | **Category** | Armor |
 | **Stack size** | 1 |
 | **Fire resistant** | Yes |
+| **Armor** | 12 |
+| **Armor toughness** | 10 |
+| **Knockback resistance** | 100% |
 
 </div>
+
+## What it does
+
+Hihiirokane armor for the boots slot: **12** armor, **10** toughness and **100%** knockback resistance.

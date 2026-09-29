@@ -8,13 +8,17 @@
 |---|---|
 | **ID** | `tensura:ruin/wizard_tower/ruined` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#minecraft:is_forest` |
+| **Biomes** | Ancient Forest |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 60 / 20 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Ancient Forest, about one every 60 chunks (at least 20 chunks apart).
 
 ## Loot
 

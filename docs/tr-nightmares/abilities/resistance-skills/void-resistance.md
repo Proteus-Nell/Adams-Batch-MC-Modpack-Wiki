@@ -24,6 +24,7 @@
 
 ## Related
 
+- **Summons / entities:** Trnightmare
 - **Referenced by:** [｢ Azathoth, God of The Void ｣](../ultimate-skills/azathoth.md)
 
 ## Stats (config defaults)

@@ -17,6 +17,10 @@
 
 A soul hums with lingering life essence.
 
+## What it does
+
+Food. It is dropped by [Evoker](https://minecraft.wiki/w/Evoker), [Illusioner](https://minecraft.wiki/w/Illusioner), [Pillager](https://minecraft.wiki/w/Pillager), [Villager](https://minecraft.wiki/w/Villager) and 2 more.
+
 ## Obtaining
 
 ### Loot

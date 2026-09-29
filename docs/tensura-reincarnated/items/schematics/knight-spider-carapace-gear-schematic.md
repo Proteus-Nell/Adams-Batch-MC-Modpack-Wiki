@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Knight Spider Carapace Boots](../armor/knight-spider-carapace-boots.md), [Knight Spider Carapace Chestplate](../armor/knight-spider-carapace-chestplate.md), [Knight Spider Carapace Helmet](../armor/knight-spider-carapace-helmet.md) and [Knight Spider Carapace Leggings](../armor/knight-spider-carapace-leggings.md).
+
 ## Obtaining
 
 ### Loot

@@ -49,6 +49,7 @@
 
 - **Related skills:** [Doppelganger](../aspectual-magic/doppelganger.md)
 - **Effects:** [Fragility](../../effects/fragility.md), [Energy Blockade](../../effects/energy-blockade.md)
+- **Summons / entities:** Boss Killed, [Ifrit](../../mobs/ifrit.md), Tensura, [Clone](../../mobs/clone.md)
 - **Referenced by:** [Hive King](../../../tr-nightmares/abilities/ultimate-skills/hive-king.md)
 
 ## Stats (config defaults)

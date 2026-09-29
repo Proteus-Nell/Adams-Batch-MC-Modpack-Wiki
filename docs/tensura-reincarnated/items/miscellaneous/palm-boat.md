@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Palm Boat with Chest](palm-chest-boat.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

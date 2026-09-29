@@ -43,6 +43,7 @@
 
 - **Related skills:** [Physical Attack Resistance](../../../tensura-reincarnated/abilities/resistance-skills/physical-attack-resistance.md)
 - **Effects:** [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

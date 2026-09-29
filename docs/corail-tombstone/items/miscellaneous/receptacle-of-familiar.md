@@ -23,6 +23,10 @@ The imprisoned soul must recover by absorbing some of your vital essence
 
 Right click on a Grave Soul to bring back to life your familiar
 
+## What it does
+
+It is made at the Receptacle Capturable Type and crafted.
+
 ## Obtaining
 
 ### Recipes

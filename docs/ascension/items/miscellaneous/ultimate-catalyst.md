@@ -18,6 +18,10 @@
 
 Throw onto an Awakening Altar, then right-click. The Ultimate awarded is determined by which Unique you have mastered.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

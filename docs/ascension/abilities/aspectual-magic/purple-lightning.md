@@ -33,6 +33,10 @@
 
 - Intrinsic skill of: [Demonic Dragon](../../races/demonic-dragon.md), [Demon Dragon God](../../races/demon-dragon-god.md)
 
+## Related
+
+- **Summons / entities:** Purple Lightning Bolt
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/aspectual_config.toml`](../../../tensura-reincarnated/configs/config-tensura-ability-magic-aspectual-config.md).

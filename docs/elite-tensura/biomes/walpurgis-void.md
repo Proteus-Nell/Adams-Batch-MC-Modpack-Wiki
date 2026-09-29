@@ -17,3 +17,7 @@
 | **Foliage Color** | `#41855E` |
 
 </div>
+
+## What it does
+
+A temperate biome where it never rains or snows. It has no mob spawns and no terrain features of its own.

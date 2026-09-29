@@ -24,6 +24,10 @@ part of the effect will be retained.
 
 Gain 60% damage reduction when at full health.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

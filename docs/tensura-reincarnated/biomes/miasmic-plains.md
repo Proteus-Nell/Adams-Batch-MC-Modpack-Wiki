@@ -17,6 +17,10 @@
 
 </div>
 
+## What it does
+
+A temperate biome. Mobs that spawn here: [Zombie Horse](https://minecraft.wiki/w/Zombie_Horse), [Skeleton Horse](https://minecraft.wiki/w/Skeleton_Horse), [Hound Dog](../mobs/hound-dog.md), [Zombie](https://minecraft.wiki/w/Zombie), [Drowned](https://minecraft.wiki/w/Drowned), [Zombie Villager](https://minecraft.wiki/w/Zombie_Villager) and 2 more.
+
 ## Mob spawns
 
 | Mob | Group | Weight | Group size |

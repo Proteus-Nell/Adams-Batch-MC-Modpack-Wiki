@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 2,000,000 | 50% |
-| Slay 1 of c h a r y b d i s. | 50% |
+| Slay 1 of [Charybdis](../../tensura-reincarnated/mobs/charybdis.md). | 50% |
 
 ### Evolution tree
 

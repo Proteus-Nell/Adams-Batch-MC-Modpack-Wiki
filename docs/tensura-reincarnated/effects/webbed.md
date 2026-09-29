@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Stuck in webbing. Your movement and swim speed drop by **99%**, jumping, reach and follow range are cut (by 50%, 50% and 80%), you can't jump, and your view is locked in place. **Catching fire burns the web away** instantly (and any [Silence](silence.md) with it). Web bullets, thrown cobwebs, black spiders and hell caterpillars inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

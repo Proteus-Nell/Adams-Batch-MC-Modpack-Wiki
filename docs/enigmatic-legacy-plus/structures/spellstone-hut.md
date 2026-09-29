@@ -8,12 +8,16 @@
 |---|---|
 | **ID** | `enigmaticlegacyplus:spellstone_hut` |
 | **Type** | `enigmaticlegacyplus:spellstone_hut` |
-| **Biomes** | `#enigmaticlegacyplus:has_structure/spellstone_hut` |
+| **Biomes** | Jungle, Mushroom Fields, Plains, Savanna, Snowy Plains, Ancient Forest |
 | **Generation step** | underground_structures |
 | **Spacing / separation** | 32 / 11 chunks |
 | **Terrain adaptation** | bury |
 
 </div>
+
+## What it does
+
+Generates in Jungle, Mushroom Fields, Plains, Savanna, Snowy Plains, Ancient Forest, about one every 32 chunks (at least 11 chunks apart).
 
 ## Loot
 

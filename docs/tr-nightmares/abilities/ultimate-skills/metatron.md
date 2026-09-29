@@ -60,6 +60,7 @@
 
 - **Related skills:** [Saint](../unique-skills/saint.md)
 - **Effects:** [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Anti-Magic](../../../tensura-reincarnated/effects/anti-magic.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
+- **Summons / entities:** Disintegration
 - **Referenced by:** [｢ Surya, King of Brillance ｣](surya.md), [Nun Manas](nun-manas.md)
 
 ## Stats (config defaults)

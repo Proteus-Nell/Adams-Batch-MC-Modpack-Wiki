@@ -11,6 +11,12 @@
 
 </div>
 
+## What it does
+
+The Asmodeus "embrace": you are held in place. Your movement speed drops to zero, you can't be knocked back and your view is locked where you were looking. Every second, the player who applied it drains your energy: **20,000** at level I, or **50%** of your energy at level II and higher.
+
+If you applied it to yourself, it ends as soon as nothing is within 3 blocks in front of you. Raziel and CNPC Lock protect against it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

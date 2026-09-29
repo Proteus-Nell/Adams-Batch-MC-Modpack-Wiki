@@ -1,17 +1,28 @@
 # Winged Cat
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:winged_cat` |
+| **Type** | Monster |
+| **Health** | 50 |
+| **Attack damage** | 20 |
+| **Armor** | 5 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.2 |
 | **Magicule (EP)** | 8,000 - 9,000 |
 | **Spiritual health** | 500 |
+| **Hitbox** | 0.9 x 1.1 blocks |
 | **Spawn egg** |  [Winged Cat Spawn Egg](../items/spawn-eggs/winged-cat-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **50** health, **20** attack damage and **8,000-9,000** magicule. Spawns naturally in Winged Cat Spawn. It has 3 skills you can take from it with Predator-type skills. Drops [Elemental Shard (Space)](../items/materials/space-elemental-shard.md) and [Elemental Essence](../items/materials/elemental-essence.md).
 
 ## Abilities
 
@@ -25,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:winged_cat_spawn` | 5 | 1-1 |
+| Is Jungle, Is Outer End Island, Ancient Forest | 5 | 1-1 |
 
 ## Drops
 

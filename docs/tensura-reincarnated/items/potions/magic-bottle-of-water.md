@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Vacuumed Magic Bottle of Water](vacuumed-magic-bottle-of-water.md), [Full Potion](full-potion.md), [High Potion](high-potion.md), [High Arcane Potion](high-arcane-potion.md) and [Medium Arcane Potion](medium-arcane-potion.md).
+
 ## Used in
 
 [Vacuumed Magic Bottle of Water](vacuumed-magic-bottle-of-water.md), [Full Potion](full-potion.md), [High Potion](high-potion.md), [High Arcane Potion](high-arcane-potion.md), [Medium Arcane Potion](medium-arcane-potion.md)

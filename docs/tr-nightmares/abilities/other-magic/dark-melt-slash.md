@@ -32,6 +32,10 @@
 - Can be found in skill tomes
 - Sold by dwarf traders (great upgraded tome)
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/nightmare/ability/magic/nuclear.toml`](../../configs/config-nightmare-ability-magic-nuclear.md).

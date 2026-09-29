@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_short_sword` |
 | **Category** | Weapons |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 4 |
+| **Attack speed** | 2 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A short sword that deals **4** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **150**. It is made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

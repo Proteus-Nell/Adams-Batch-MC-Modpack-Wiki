@@ -46,6 +46,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md)
 
 ## Stats (config defaults)

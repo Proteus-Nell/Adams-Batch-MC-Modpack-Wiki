@@ -11,3 +11,7 @@
 | **Color** | `#87CEFA` |
 
 </div>
+
+## What it does
+
+Nothing in the mod applies or checks this effect in this version. Michael's and Dominator's "Castle Guard" modes work on their own, without it.

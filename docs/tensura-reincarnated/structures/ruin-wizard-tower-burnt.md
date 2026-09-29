@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Generates in `#minecraft:is_badlands`, about one every 60 chunks (at least 20 chunks apart).
+
 ## Loot
 
 ### `tensura:chests/hell_ruins`

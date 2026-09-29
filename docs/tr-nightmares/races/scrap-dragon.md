@@ -128,7 +128,6 @@ Granted automatically when you become this race.
 - ![](../../assets/icons/tensura/skill/dragon_skin.png) [Dragon Skin](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-skin.md)
 - ![](../../assets/icons/tensura/skill/flame_attack_resistance.png) [Flame Attack Resistance](../../tensura-reincarnated/abilities/resistance-skills/flame-attack-resistance.md)
 - ![](../../assets/icons/tensura/skill/heat_resistance.png) [Heat Resistance](../../tensura-reincarnated/abilities/resistance-skills/heat-resistance.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
 -  [Size Condense](../abilities/intrinsic-skills/size-condense.md)
 
 ## Traits

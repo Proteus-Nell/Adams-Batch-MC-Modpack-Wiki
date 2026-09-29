@@ -24,3 +24,7 @@
 | **Coordinate scale** | 1.0 |
 
 </div>
+
+## What it does
+
+A flat, superflat-style dimension. Time never moves: it is always midnight. Beds explode if you try to sleep, respawn anchors don't work, there is a bedrock ceiling and compasses and clocks spin. Build height: Y 0 to 383.

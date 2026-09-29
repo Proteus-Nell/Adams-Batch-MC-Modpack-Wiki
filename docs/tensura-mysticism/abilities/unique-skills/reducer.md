@@ -49,6 +49,7 @@
 ## Related
 
 - **Effects:** [Emancipation](../../effects/reducer-holy-coat.md), [Purity Edge](../../effects/reducer-purity-edge.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

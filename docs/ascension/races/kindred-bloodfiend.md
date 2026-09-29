@@ -56,7 +56,6 @@ flowchart LR
 
 Granted automatically when you become this race.
 
-- ![](../../assets/icons/tensura/skill/blood_mist.png) [Blood Mist](../../tensura-reincarnated/abilities/intrinsic-skills/blood-mist.md)
 - ![](../../assets/icons/tensura/skill/drain.png) [Drain](../../tensura-reincarnated/abilities/intrinsic-skills/drain.md)
 
 ## Learnable skills

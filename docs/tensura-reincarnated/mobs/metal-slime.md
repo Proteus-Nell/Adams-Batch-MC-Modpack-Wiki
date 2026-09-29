@@ -1,18 +1,30 @@
 # Metal Slime
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:metal_slime` |
+| **Type** | Monster |
+| **Health** | 20 |
+| **Attack damage** | 1 |
+| **Armor** | 10 |
+| **Speed** | 0.2 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 100,000 - 300,000 |
 | **Aura** | 10 - 10 |
 | **Spiritual health** | 500 |
+| **Hitbox** | 0.25 x 0.21 blocks |
 | **Spawn egg** |  [Metal Slime Spawn Egg](../items/spawn-eggs/metal-slime-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **20** health, **1** attack damage and **100,000-300,000** magicule. It has 4 skills you can take from it with Predator-type skills. Drops [Magic Ore](../items/materials/magic-ore-shard.md) and [Slime Core](../items/materials/slime-core.md).
 
 ## Abilities
 

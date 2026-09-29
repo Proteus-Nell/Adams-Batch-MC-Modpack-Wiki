@@ -62,6 +62,7 @@
 ## Related
 
 - **Related skills:** [Spatial Manipulation](spatial-manipulation.md)
+- **Summons / entities:** Tensura, Spatial Ray
 - **Referenced by:** [Spatial Manipulation](spatial-manipulation.md), [Spacetime Manipulation](../../../tr-nightmares/abilities/extra-skills/spacetime-manipulation.md), [Spacetime Domination](../../../tr-nightmares/abilities/extra-skills/spacetime-domination.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md), [｢ Uriel, Lord of Oaths ｣](../../../tr-nightmares/abilities/ultimate-skills/uriel-lord-of-oath.md)
 
 ## Stats (config defaults)

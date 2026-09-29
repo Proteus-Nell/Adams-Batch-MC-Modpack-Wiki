@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Element Core (Wind)](../miscellaneous/element-core-wind.md). It is dropped by [Feathered Serpent](../../mobs/feathered-serpent.md) and [Sylphide](../../mobs/sylphide.md).
+
 ## Obtaining
 
 ### Loot

@@ -22,6 +22,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Gift](../unique-skills/gift.md), [｢ Astraea, Lord of Gifts ｣](astraea.md), [｢ Zehirete, God of Faith ｣](zehirete.md)
 
 ## Stats (config defaults)

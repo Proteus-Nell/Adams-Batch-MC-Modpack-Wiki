@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food.
+
 ## Tags
 
 `ascension:essences`, `minecraft:indestructible_by_environmental_cause`, `tensura:evolution_essences`

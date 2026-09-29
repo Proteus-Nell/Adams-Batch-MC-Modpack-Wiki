@@ -41,6 +41,7 @@
 ## Related
 
 - **Effects:** [Cultivating](../../effects/cultivating.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

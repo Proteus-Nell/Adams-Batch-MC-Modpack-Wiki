@@ -10,6 +10,10 @@
 
 </div>
 
+## What it does
+
+A mob.
+
 ## Tags
 
 `minecraft:undead`, `tombstone:unhandled_tamable_undeads`

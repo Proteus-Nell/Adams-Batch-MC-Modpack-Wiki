@@ -19,6 +19,10 @@ Strengthens with magic an item
 
 Right click on a Grave Soul with this book in the offhand and an enchantable item in the mainhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

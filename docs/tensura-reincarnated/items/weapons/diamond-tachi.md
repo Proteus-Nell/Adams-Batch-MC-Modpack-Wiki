@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:diamond_tachi` |
 | **Category** | Weapons |
+| **Attack damage** | 9 (8 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Tier** | Diamond |
+| **Durability** | 1,561 |
 
 </div>
+
+## What it does
+
+A tachi you can hold in one or both hands. Two-handed it deals **9** attack damage at **1.4** attack speed; one-handed **8** damage at **1.2** speed. It also has +1 block of reach, +20% critical hit chance and 25% sweeping damage. Durability: **1,561**. It is made at the Smithing Bench.
 
 ## Obtaining
 

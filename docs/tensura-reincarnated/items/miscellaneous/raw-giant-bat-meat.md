@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Giant Bat Meat](cooked-giant-bat-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Giant Bat](../../mobs/giant-bat.md).
+
 ## Obtaining
 
 ### Loot

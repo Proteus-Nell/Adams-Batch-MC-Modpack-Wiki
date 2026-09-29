@@ -1,15 +1,23 @@
 # Tempest Serpent
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Misc</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:tempest_serpent_body` |
+| **Type** | Misc |
+| **Follow range** | 32 |
+| **Hitbox** | 1.1 x 1 blocks |
+| **Fire immune** | Yes |
 | **Spawn egg** |  Tempest Serpent Spawn Egg |
 
 </div>
+
+## What it does
+
+An entity.
 
 ## Tags
 

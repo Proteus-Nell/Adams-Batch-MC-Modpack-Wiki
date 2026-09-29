@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Pickaxe](hihiirokane-pickaxe.md) |
+| **Attack damage** | 28 |
+| **Attack speed** | 1.2 |
+| **Tier** | Orichalcum |
+| **Durability** | 2,800 |
 
 </div>
+
+## What it does
+
+A pickaxe that deals **28** attack damage at **1.2** attack speed. Durability: **2,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

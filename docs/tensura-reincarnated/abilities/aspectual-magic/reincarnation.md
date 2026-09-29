@@ -33,6 +33,10 @@
 - Can appear in epic tomes from wizard towers
 - Listed in the `costFloorBlacklist` config option (config/tensura/EliteTensura/UniqueSkillConfig.toml): Spell registry IDs excluded from the in-slot cost floor (kept at full cost).
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/aspectual_config.toml`](../../configs/config-tensura-ability-magic-aspectual-config.md).

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Cut Sarasa Sandstone](cut-sarasa-sandstone.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

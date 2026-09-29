@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Darkest Scroll](darkest-scroll.md), [Scroll of Postmortal Recall](../scrolls/escape-scroll.md), [Scroll of Explorer](../scrolls/explorer-scroll.md), [Gift of the Heaven](../scrolls/heaven-scroll.md), [Scroll of Hunter](../scrolls/hunter-scroll.md) and 2 more. It is crafted.
+
 ## Obtaining
 
 ### Recipes

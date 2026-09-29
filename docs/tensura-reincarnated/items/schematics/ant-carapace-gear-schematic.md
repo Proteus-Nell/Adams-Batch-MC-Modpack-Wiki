@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Ant Carapace Boots](../armor/ant-carapace-boots.md), [Ant Carapace Chestplate](../armor/ant-carapace-chestplate.md), [Ant Carapace Helmet](../armor/ant-carapace-helmet.md), [Ant Carapace Leggings](../armor/ant-carapace-leggings.md) and [Ant Crossbow](../weapons/ant-crossbow.md).
+
 ## Obtaining
 
 ### Loot

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Building block. Used to make [Single Tatami Carpet](single-tatami-carpet.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -49,6 +49,7 @@
 ## Related
 
 - **Effects:** [Infection](../../effects/infection.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md), [Timeless Mage](../../../ascension/abilities/ultimate-skills/timeless-mage.md)
 
 ## Stats (config defaults)

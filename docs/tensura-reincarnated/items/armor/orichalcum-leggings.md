@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Leggings](hihiirokane-leggings.md) |
+| **Armor** | 9 |
+| **Armor toughness** | 6 |
+| **Knockback resistance** | 40% |
+| **Durability** | 750 |
 
 </div>
+
+## What it does
+
+Orichalcum armor for the leggings slot: **9** armor, **6** toughness and **40%** knockback resistance. Durability: **750**. It is made at the Smithing Bench.
 
 ## Obtaining
 

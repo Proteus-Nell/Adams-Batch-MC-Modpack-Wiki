@@ -12,8 +12,15 @@
 | **Category** | Weapons |
 | **Stack size** | 1 |
 | **Durability** | 10,000 |
+| **Attack damage** | 117 (116 one-handed) |
+| **Attack speed** | 7 (6.8 one-handed) |
+| **Tier** | Hihiirokane |
 
 </div>
+
+## What it does
+
+A Hihiirokane long sword you can hold in one or both hands. Two-handed it deals **117** attack damage at **7** attack speed; one-handed **116** damage at **6.8** speed. It also has +1 block of reach and 25% sweeping damage. Durability: **3,600**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

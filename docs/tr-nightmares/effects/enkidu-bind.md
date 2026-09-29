@@ -11,6 +11,17 @@
 
 </div>
 
+## What it does
+
+Enkidu's golden chains (from TR: Nightmares' Tensura: Mysticism compat) bind the target. It sets these to zero:
+- walking, flying and swimming speed
+- attack damage and attack speed
+- jump strength and block reach
+- aura and magicule regeneration
+- melee and projectile dodge chance
+
+Flyers are pulled down. While bound you can't learn skills, your race abilities stop working, and your other skills are locked to what your race limit allows.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

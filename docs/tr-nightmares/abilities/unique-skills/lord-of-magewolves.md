@@ -46,6 +46,7 @@
 ## Related
 
 - **Effects:** [Instant Regeneration](../../../tensura-reincarnated/effects/instant-regeneration.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -21,6 +21,10 @@
 - Can be toggled on and off
 - Has a continuous (per-tick) effect
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ascension-skills.toml`](../../configs/config-tensura-ascension-skills.md).

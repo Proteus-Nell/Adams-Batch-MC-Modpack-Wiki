@@ -47,7 +47,7 @@
 
 ## Related
 
-- **Related skills:** [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
+- **Summons / entities:** Tensura, [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
 
 ## Stats (config defaults)
 

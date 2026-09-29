@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Element Core (Water)](../miscellaneous/element-core-water.md). It is dropped by [Aqua Frog](../../mobs/aqua-frog.md) and [Undine](../../mobs/undine.md).
+
 ## Obtaining
 
 ### Loot

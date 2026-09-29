@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Pure Magisteel Ingot](../items/materials/pure-magisteel-ingot.md) packed into one block. Used to make [Pure Magisteel Ingot](../items/materials/pure-magisteel-ingot.md) and [Walpurgis Orb](../../elite-tensura/items/miscellaneous/walpurgis-orb.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

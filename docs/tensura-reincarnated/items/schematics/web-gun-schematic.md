@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Copper Shell](../miscellaneous/copper-shell.md), [Sticky Steel Web Cartridge](../miscellaneous/sticky-steel-web-cartridge.md), [Sticky Web Cartridge](../miscellaneous/sticky-web-cartridge.md), [Web Cartridge](../miscellaneous/web-cartridge.md) and [Web Gun](../weapons/web-gun.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

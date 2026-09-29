@@ -11,6 +11,12 @@
 
 </div>
 
+## What it does
+
+Unlimited Void traps you in an endless void. Movement, attack damage, attack speed, luck, reach, swim speed and jump strength all drop to zero, and you're pulled out of the air. You can't use or interact with skills.
+
+Every half second it drains **500** magicule per level from players, or EP from mobs. Milk and other cures don't remove it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 60,000 - None |
+| **Armor** | 14 |
+| **Armor toughness** | 7.5 |
+| **Knockback resistance** | 70% |
+| **Durability** | 1,040 |
 
 </div>
+
+## What it does
+
+Charybdis Scalemail armor for the chestplate slot: **14** armor, **7.5** toughness and **70%** knockback resistance. Durability: **1,040**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -26,6 +26,10 @@ or Scroll of a Thousand Curses, Pets will
 
 also receive corresponding effects based on you.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 2,500 - 5,000 |
 | **Evolves into** | [Monster Leather Leggings (B)](monster-leather-leggings-b.md) |
+| **Armor** | 5 |
+| **Armor toughness** | 1 |
+| **Knockback resistance** | 20% |
 
 </div>
+
+## What it does
+
+Monster Leather C armor for the leggings slot: **5** armor, **1** toughness and **20%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

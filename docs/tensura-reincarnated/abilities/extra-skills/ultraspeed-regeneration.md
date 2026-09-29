@@ -34,6 +34,7 @@
 ## Related
 
 - **Effects:** [Self-Regeneration](../../effects/self-regeneration.md), [Instant Regeneration](../../effects/instant-regeneration.md)
+- **Summons / entities:** Boss Killed, [Charybdis](../../mobs/charybdis.md)
 - **Referenced by:** [Infinite Regeneration](infinite-regeneration.md), [Imaginator](../../../tr-nightmares/abilities/unique-skills/imaginator.md), [Arelkos](../../../tr-nightmares/abilities/unique-skills/arelkos.md), [Tenacity](../../../tensura-mysticism/abilities/intrinsic-skills/tenacity.md), [Butcher](../../../tensura-mysticism/abilities/unique-skills/butcher.md), [Timeless Mage](../../../ascension/abilities/ultimate-skills/timeless-mage.md)
 
 ## Stats (config defaults)

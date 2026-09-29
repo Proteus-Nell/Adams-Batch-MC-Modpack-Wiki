@@ -11,8 +11,13 @@
 | **ID** | `tensura:silver_chestplate` |
 | **Category** | Armor |
 | **Gear EP** | 0 - 0 |
+| **Armor** | 6 |
 
 </div>
+
+## What it does
+
+Silver armor for the chestplate slot: **6** armor. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

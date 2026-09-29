@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Food. It is made at the Shapeless No Remain.
+
 ## Obtaining
 
 ### Recipes

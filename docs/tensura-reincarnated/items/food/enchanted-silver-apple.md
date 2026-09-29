@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Dubious Food](../miscellaneous/dubious-food.md). It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

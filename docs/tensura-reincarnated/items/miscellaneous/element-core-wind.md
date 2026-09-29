@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Walpurgis Orb](../../../elite-tensura/items/miscellaneous/walpurgis-orb.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -1,24 +1,34 @@
 # Unicorn
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:unicorn` |
+| **Type** | Monster |
+| **Health** | 40 |
+| **Attack damage** | 20 |
+| **Speed** | 0.2 |
+| **Knockback resistance** | 0.01 |
 | **Magicule (EP)** | 5,000 - 6,000 |
 | **Aura** | 2,000 - 3,000 |
 | **Spiritual health** | 100 |
+| **Hitbox** | 1.3965 x 1.6 blocks |
 | **Spawn egg** |  [Unicorn Spawn Egg](../items/spawn-eggs/unicorn-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **40** health, **20** attack damage and **5,000-6,000** magicule. Spawns naturally in Unicorn Spawn. Drops [Unicorn Horn](../items/materials/unicorn-horn.md) and [Monster Leather (B)](../items/miscellaneous/monster-leather-b.md).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:unicorn_spawn` | 7 | 1-3 |
+| Is Mountain, Flower Forest | 7 | 1-3 |
 
 ## Drops
 

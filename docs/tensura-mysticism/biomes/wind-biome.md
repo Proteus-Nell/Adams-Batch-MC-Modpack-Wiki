@@ -16,7 +16,9 @@
 
 </div>
 
-Found in: [Elemental Realm](../dimensions/elemental-realm.md)
+## What it does
+
+A temperate biome in [Elemental Realm](../dimensions/elemental-realm.md) where it never rains or snows. Mobs that spawn here: [Allay](https://minecraft.wiki/w/Allay), [Feathered Serpent](../../tensura-reincarnated/mobs/feathered-serpent.md), [Memoires](../mobs/memoires.md) and [Vex](https://minecraft.wiki/w/Vex).
 
 ## Mob spawns
 

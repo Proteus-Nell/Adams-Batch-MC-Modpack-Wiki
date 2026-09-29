@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Cream Labyrinth Bricks](cream-labyrinth-bricks.md).
+
 ## Tags
 
 `tensura:labyrinth_blocks`

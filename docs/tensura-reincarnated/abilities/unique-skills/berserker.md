@@ -43,6 +43,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md), [Phainon, The Deliverer](../../../tensura-more-skills/abilities/ultimate-skills/phainon.md)
 
 ## Stats (config defaults)

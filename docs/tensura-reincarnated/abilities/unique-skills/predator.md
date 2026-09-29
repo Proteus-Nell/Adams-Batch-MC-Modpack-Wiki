@@ -51,6 +51,7 @@
 ## Related
 
 - **Related skills:** [Starved](starved.md), [Gluttony](gluttony.md)
+- **Summons / entities:** Tensura, Predator Mist
 - **Referenced by:** [Gluttony](gluttony.md), [Starved](starved.md), [Mimicry](../../../tr-nightmares/abilities/extra-skills/mimicry.md)
 
 ## Stats (config defaults)

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Resonator of Spell](spellstone-sword.md), [Spellstone Table](../../blocks/spellstone-table.md) and [Spelltuner](spelltuner.md). It is found in 10 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -17,3 +17,7 @@
 ## Description
 
 Edible. Imprints a True Dragon into your Inner World.
+
+## What it does
+
+Food.

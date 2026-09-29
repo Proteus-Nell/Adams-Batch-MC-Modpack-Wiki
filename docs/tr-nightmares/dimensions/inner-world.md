@@ -24,3 +24,7 @@
 | **Coordinate scale** | 1.0 |
 
 </div>
+
+## What it does
+
+A flat, superflat-style dimension. Time never moves: it is always noon. Beds explode if you try to sleep, respawn anchors don't work and compasses and clocks spin. Build height: Y -64 to 319.

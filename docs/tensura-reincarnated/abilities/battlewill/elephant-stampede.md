@@ -31,6 +31,10 @@
 
 - Listed in the `battlewillManualList` config option (config/tensura/ability/ability_config.toml): List of Battlewills that can be randomly obtained from using the Battlewill Manual.
 
+## Related
+
+- **Summons / entities:** Aura Bullet
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/battlewill_config.toml`](../../configs/config-tensura-ability-battlewill-config.md).

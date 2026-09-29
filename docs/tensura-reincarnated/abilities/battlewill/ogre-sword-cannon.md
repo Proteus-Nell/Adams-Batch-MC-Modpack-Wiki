@@ -36,6 +36,7 @@
 ## Related
 
 - **Related skills:** [Ogre-sword Guillotine](ogre-sword-guillotine.md)
+- **Summons / entities:** [Aura Slash](aura-slash.md)
 - **Referenced by:** [Ogre-sword Guillotine](ogre-sword-guillotine.md)
 
 ## Stats (config defaults)

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Sloth's complete rest. Your movement, attack damage, attack speed, jumping, reach, swimming, gliding and dodge chances all drop to **zero**, but aura regeneration is multiplied by **10** and magicule regeneration by **10**. You can't fly, jump, use skills or race abilities, or learn new skills while resting. Sloth gives it while you hold its rest mode, and Sloth's manas gives it while you sleep.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

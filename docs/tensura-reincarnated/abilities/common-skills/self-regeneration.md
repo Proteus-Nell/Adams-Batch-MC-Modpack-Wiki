@@ -43,6 +43,7 @@
 ## Related
 
 - **Effects:** [Self-Regeneration](../../effects/self-regeneration.md)
+- **Summons / entities:** [Supermassive Slime](../../mobs/supermassive-slime.md)
 
 ## Stats (config defaults)
 

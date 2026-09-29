@@ -20,6 +20,10 @@ Attracts items within ? blocks radius.
 
 This can be disabled by holding Shift.
 
+## What it does
+
+Used to make [Dislocation Ring](dislocation-ring.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

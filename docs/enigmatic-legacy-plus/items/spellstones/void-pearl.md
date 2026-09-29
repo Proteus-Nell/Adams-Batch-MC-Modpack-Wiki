@@ -40,6 +40,10 @@ Skyflaps are affected regardless of light level.
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [The Arrogance of Chaos](../tools/chaos-elytra.md), [The Burden of Desolation](../rings/desolation-ring.md) and [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

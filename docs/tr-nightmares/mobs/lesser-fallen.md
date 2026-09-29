@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+A mob with **18,000-20,000** magicule.
+
 ## Tags
 
 `tensura:can_be_named`, `tensura:monster`

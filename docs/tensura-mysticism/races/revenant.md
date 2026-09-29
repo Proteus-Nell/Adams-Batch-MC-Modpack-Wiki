@@ -35,14 +35,14 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 800,000 | 60% |
-| Slay 1 of f o l g e n. | 5% |
-| Slay 1 of k i r a r a  m i z u t a n i. | 5% |
-| Slay 1 of k y o y a  t a c h i b a n a. | 5% |
-| Slay 1 of m a i  f u r u k i. | 5% |
-| Slay 1 of m a r k  l a u r e n. | 5% |
-| Slay 1 of s h i n j i  t a n i m u r a. | 5% |
-| Slay 1 of s h i n  r y u s e i. | 5% |
-| Slay 1 of s h o g o  t a g u c h i. | 5% |
+| Slay 1 of [Folgen](../../tensura-reincarnated/mobs/folgen.md). | 5% |
+| Slay 1 of [Kirara Mizutani](../../tensura-reincarnated/mobs/kirara-mizutani.md). | 5% |
+| Slay 1 of [Kyoya Tachibana](../../tensura-reincarnated/mobs/kyoya-tachibana.md). | 5% |
+| Slay 1 of [Mai Furuki](../../tensura-reincarnated/mobs/mai-furuki.md). | 5% |
+| Slay 1 of [Mark Lauren](../../tensura-reincarnated/mobs/mark-lauren.md). | 5% |
+| Slay 1 of [Shinji Tanimura](../../tensura-reincarnated/mobs/shinji-tanimura.md). | 5% |
+| Slay 1 of [Shin Ryusei](../../tensura-reincarnated/mobs/shin-ryusei.md). | 5% |
+| Slay 1 of [Shogo Taguchi](../../tensura-reincarnated/mobs/shogo-taguchi.md). | 5% |
 
 ### Evolution tree
 

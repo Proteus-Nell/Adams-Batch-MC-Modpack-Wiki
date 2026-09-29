@@ -16,6 +16,10 @@
 
 > Temporary curses generated in battle.
 
+## What it does
+
+A neutral status effect. Each level changes attack damage +0.5 and attack speed +1%.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

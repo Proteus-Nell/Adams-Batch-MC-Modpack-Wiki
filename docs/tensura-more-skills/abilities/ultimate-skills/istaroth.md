@@ -60,6 +60,10 @@
 - Triggers when an effect is applied to you
 - Does something when first learned
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensuramoreskills-grand.toml`](../../configs/config-tensuramoreskills-grand.md).

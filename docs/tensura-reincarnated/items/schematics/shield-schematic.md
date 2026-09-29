@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Armorsaurus Shield](../miscellaneous/armorsaurus-shield.md) and [Tempest Scale Shield](../miscellaneous/tempest-scale-shield.md).
+
 ## Tags
 
 `tensura:schematics`

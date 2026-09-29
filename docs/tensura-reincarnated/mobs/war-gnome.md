@@ -1,17 +1,29 @@
 # War Gnome
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:war_gnome` |
+| **Type** | Boss |
+| **Health** | 400 |
+| **Attack damage** | 40 |
+| **Armor** | 20 |
+| **Speed** | 0.2 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 120,000 - 150,000 |
 | **Spiritual health** | 2,000 |
+| **Hitbox** | 1.2 x 4.5 blocks |
 | **Spawn egg** |  [War Gnome Spawn Egg](../items/spawn-eggs/war-gnome-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A boss with **400** health, **40** attack damage and **120,000-150,000** magicule. It has 6 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Earth)](../items/materials/earth-elemental-shard.md).
 
 ## Abilities
 

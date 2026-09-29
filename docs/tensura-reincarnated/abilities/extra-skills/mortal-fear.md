@@ -42,6 +42,7 @@
 
 ## Related
 
+- **Summons / entities:** Haki
 - **Referenced by:** [Haki](haki.md)
 
 ## Stats (config defaults)

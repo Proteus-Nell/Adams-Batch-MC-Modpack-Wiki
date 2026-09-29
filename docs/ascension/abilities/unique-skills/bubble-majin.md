@@ -35,6 +35,10 @@
 
 - Listed in the `additionalUniqueSkills` config option (config/tensura/ascension-common.toml): Unique skills added to the reincarnation pool. Remove an entry to exclude that skill from random reincarnation rolls.
 
+## Related
+
+- **Summons / entities:** Spatial Ray
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ascension-skills.toml`](../../configs/config-tensura-ascension-skills.md).

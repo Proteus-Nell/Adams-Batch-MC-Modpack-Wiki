@@ -38,6 +38,7 @@
 ## Related
 
 - **Effects:** [Presence Concealment](../../effects/presence-concealment.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

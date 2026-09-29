@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Shovel](high-magisteel-shovel.md) |
+| **Attack damage** | 10.5 |
+| **Attack speed** | 1 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A shovel that deals **10.5** attack damage at **1** attack speed. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

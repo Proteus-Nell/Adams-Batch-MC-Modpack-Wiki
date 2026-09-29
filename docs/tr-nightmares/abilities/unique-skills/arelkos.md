@@ -35,6 +35,7 @@
 
 - **Related skills:** [Earth Dig](../aspectual-magic/earth-dig.md), [Earth Tunnel](../aspectual-magic/earth-tunnel.md), [Earth Tremour](../aspectual-magic/earth-tremour.md), [Ultraspeed Regeneration](../../../tensura-reincarnated/abilities/extra-skills/ultraspeed-regeneration.md), [Infinite Regeneration](../../../tensura-reincarnated/abilities/extra-skills/infinite-regeneration.md)
 - **Effects:** [Fragility](../../../tensura-reincarnated/effects/fragility.md), [Paralysis](../../../tensura-reincarnated/effects/paralysis.md), [Intangible](../../effects/intangible.md), [Self-Regeneration](../../../tensura-reincarnated/effects/self-regeneration.md), [Instant Regeneration](../../../tensura-reincarnated/effects/instant-regeneration.md)
+- **Summons / entities:** [Clone](../../../tensura-reincarnated/mobs/clone.md)
 
 ## In-game messages
 

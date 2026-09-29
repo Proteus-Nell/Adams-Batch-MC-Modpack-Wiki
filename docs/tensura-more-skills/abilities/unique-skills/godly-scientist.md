@@ -45,3 +45,4 @@
 
 - **Related skills:** [Black Flame](../../../tensura-reincarnated/abilities/extra-skills/black-flame.md)
 - **Effects:** [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
+- **Summons / entities:** Tensura

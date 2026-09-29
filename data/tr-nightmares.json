@@ -340,7 +340,9 @@
      "tensura:presence_concealment"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:no_max_ep_plunder"
+    ],
     "tags": [],
     "config": [
      6003,
@@ -444,12 +446,18 @@
       "operation": "op"
      }
     ],
-    "related": [],
+    "related": [
+     "tensura:fire_storm",
+     "tensura:flare_circle"
+    ],
     "effects": [],
     "items": [
      "trnightmare:divine_axe_rhitta"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:solar_grenade",
+     "tensura:flame_orb"
+    ],
     "tags": [],
     "config": [
      5783,
@@ -871,7 +879,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6185,
@@ -1079,6 +1089,7 @@
     ],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "trnightmare:stasis_air_wall"
     ],
     "tags": [
@@ -1368,7 +1379,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6020,
@@ -1431,7 +1444,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6030,
@@ -1828,7 +1843,10 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:gluttony_mist"
+    ],
     "tags": [],
     "config": [
      6061,
@@ -2058,7 +2076,9 @@
      "tensura:movement_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:disintegration"
+    ],
     "tags": [
      "tensura:skills/nun"
     ],
@@ -2157,7 +2177,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6035,
@@ -2246,7 +2268,9 @@
      "trnightmare:ending_sealed_sword",
      "trnightmare:ending_unsealed_sword"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:gluttony_mist"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -2364,7 +2388,9 @@
      "tensura:instant_regeneration"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:clone"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -2654,7 +2680,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:trnightmare"
+    ],
     "tags": [
      "tensura:skills/no_plundering"
     ],
@@ -2691,7 +2719,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering"
     ],
@@ -2767,7 +2797,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering"
     ],
@@ -3234,7 +3266,9 @@
      "tensura:fate_change"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6221,
@@ -3358,7 +3392,9 @@
      "tensura:anti_skill"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -3550,7 +3586,10 @@
      "trnightmare:ending_unsealed_sword",
      "trnightmare:ending_sealed_sword"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:disintegration"
+    ],
     "tags": [],
     "config": [
      5943,
@@ -3635,7 +3674,9 @@
      "trnightmare:overclock"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/neutral"
     ],
@@ -3720,7 +3761,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -3802,7 +3845,10 @@
      "trnightmare:simple"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "trnightmare:trnightmare"
+    ],
     "tags": [],
     "config": [
      5961,
@@ -3940,7 +3986,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      5977,
@@ -4004,7 +4052,9 @@
      "trnightmare:glorious_regen"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6014,
@@ -4103,7 +4153,9 @@
      "trnightmare:witches_curse"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering"
     ],
@@ -4208,7 +4260,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:judgment_cutter"
+    ],
     "tags": [],
     "config": [],
     "obtainment_text": "Witch's Greed is one of the Sin Factor line skills.",
@@ -4305,7 +4359,9 @@
      "tensura:instant_regeneration"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      3307,
@@ -4607,6 +4663,7 @@
     "effects": [],
     "items": [],
     "entities": [
+     "tensura:hinata_sakaguchi",
      "trnightmare:sentient_boss_masayuuki"
     ],
     "tags": [
@@ -4804,7 +4861,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6334,
@@ -4904,6 +4963,7 @@
     ],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "trnightmare:melting_solar_beam"
     ],
     "tags": [],
@@ -5287,6 +5347,7 @@
     "effects": [],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "trnightmare:holy_cannon_projectile"
     ],
     "tags": [],
@@ -5453,7 +5514,9 @@
      "tensura:spatial_blockade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:bouncing_aura_bullet"
+    ],
     "tags": [],
     "config": [
      6032,
@@ -6597,7 +6660,9 @@
      "tensura:magic_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8311,
@@ -6960,7 +7025,12 @@
      "tensura:black_burn"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:plasmas_ball",
+     "tensura:black_flame_breath",
+     "tensura:black_flame_ball",
+     "tensura:hell_flare_projectile"
+    ],
     "tags": [],
     "config": [
      8245,
@@ -7195,7 +7265,9 @@
      "tensura:future_vision"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8387,
@@ -7243,7 +7315,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8382,
@@ -8689,7 +8763,11 @@
      "tensura:corrosion"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "trnightmare:trnightmare",
+     "tensura:blood_ray"
+    ],
     "tags": [],
     "config": [
      8561,
@@ -8931,7 +9009,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8510,
@@ -9077,7 +9157,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8537,
@@ -9691,7 +9773,8 @@
     "attributes": [],
     "related": [
      "tensura:ogre_flame",
-     "tensura:flame_domination"
+     "tensura:flame_domination",
+     "tensura:flare_circle"
     ],
     "effects": [],
     "items": [],
@@ -9945,7 +10028,9 @@
      "trnightmare:complete_concealment"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8751,
@@ -10458,7 +10543,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8676,
@@ -10656,7 +10743,10 @@
      "tensura:spatial_blockade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:spatial_ray"
+    ],
     "tags": [],
     "config": [
      3236,
@@ -11062,7 +11152,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:trnightmare"
+    ],
     "tags": [],
     "config": [
      1178,
@@ -11133,7 +11225,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:trnightmare"
+    ],
     "tags": [],
     "config": [
      1178,
@@ -11293,7 +11387,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -11352,7 +11448,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:trnightmare"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -11394,7 +11492,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8634,
@@ -11781,7 +11881,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:hinata_sakaguchi"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -12959,7 +13061,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -13179,11 +13283,14 @@
      }
     ],
     "related": [
-     "trnightmare:sunshine"
+     "trnightmare:sunshine",
+     "tensura:fire_ball"
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:flame_orb"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -13367,7 +13474,10 @@
      "tensura:holy_damage"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:sacred_haki_field"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -13550,7 +13660,10 @@
      "tensura:black_burn"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "trnightmare:trnightmare"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -13852,7 +13965,9 @@
      "tensura:mind_control"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -14018,6 +14133,7 @@
     "effects": [],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "trnightmare:holy_cannon_projectile"
     ],
     "tags": [
@@ -14224,7 +14340,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      7110,
@@ -14365,7 +14483,9 @@
      "tensura:anti_skill"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/amnesiac"
     ],
@@ -14545,7 +14665,9 @@
      "tensura:mind_control"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -14689,7 +14811,9 @@
      "trnightmare:salvation"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -14839,7 +14963,9 @@
      "tensura:anti_skill"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/secretive",
      "tensura:skills/ultimate_skills"
@@ -15407,7 +15533,9 @@
      "tensura:rest"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -15610,7 +15738,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -15919,7 +16049,9 @@
      "trnightmare:glorious_regen"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -16080,7 +16212,10 @@
      "tensura:black_burn"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:black_lightning_bolt"
+    ],
     "tags": [],
     "config": [
      3236,
@@ -16303,7 +16438,9 @@
      "trnightmare:stolen_luck"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -16473,7 +16610,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:clone"
+    ],
     "tags": [],
     "config": [
      6443,
@@ -16579,7 +16718,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6463,
@@ -16935,7 +17076,9 @@
     "items": [
      "tensura:magic_ore_shard"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -17133,7 +17276,9 @@
      "tensura:movement_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:disintegration"
+    ],
     "tags": [
      "tensura:skills/nun",
      "tensura:skills/ultimate_skills"
@@ -17712,7 +17857,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -18543,7 +18690,9 @@
      "trnightmare:hopes_gift"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/hopeful",
      "tensura:skills/ultimate_skills"
@@ -18838,7 +18987,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -19195,7 +19346,10 @@
      "tensura:movement_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:shadow_bind_hands"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -19364,7 +19518,9 @@
      "tensura:magic_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/paladin",
      "tensura:skills/ultimate_skills"
@@ -19509,7 +19665,9 @@
     ],
     "items": [],
     "entities": [
-     "tensura:severance"
+     "tensura:severance_cutter",
+     "tensura:severance",
+     "tensura:tensura"
     ],
     "tags": [
      "tensura:skills/paladin",
@@ -19720,7 +19878,8 @@
      "tensura:meat_crusher"
     ],
     "entities": [
-     "trnightmare:beelzebuth_mist"
+     "trnightmare:beelzebuth_mist",
+     "tensura:chaos_eater"
     ],
     "tags": [],
     "config": [
@@ -19960,7 +20119,9 @@
      "trnightmare:mood"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8109,
@@ -20403,7 +20564,9 @@
      "tensura:severance_blade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:severance_cutter"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/ultimate_skills"
@@ -20624,7 +20787,9 @@
      "trnightmare:mystic_aura"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:bouncing_aura_bullet"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -20805,7 +20970,9 @@
      "tensura:drowsiness"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -21213,7 +21380,9 @@
      "trnightmare:stolen_luck"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/patient",
      "tensura:skills/ultimate_skills"
@@ -21365,7 +21534,9 @@
      "tensura:infinite_imprisonment"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -21532,7 +21703,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      8173,
@@ -21761,7 +21934,9 @@
      "tensura:movement_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:disintegration"
+    ],
     "tags": [
      "tensura:skills/ultimate_skills"
     ],
@@ -22035,7 +22210,9 @@
      "tensura:fear"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      6964,
@@ -22796,7 +22973,10 @@
      "trnightmare:hopes_gift"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:severance_cutter",
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering"
     ],
@@ -26271,7 +26451,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/epic_tome_wizard_tower",
      "tensura:skills/found_in_tome",
@@ -26404,7 +26586,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "trnightmare:forbidden_blast_projectile"
+    ],
     "tags": [
      "tensura:skills/epic_tome_wizard_tower",
      "tensura:skills/found_in_tome",
@@ -26735,7 +26919,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:pegasus"
+    ],
     "tags": [],
     "config": [
      5675,
@@ -26973,7 +27159,9 @@
      "tensura:movement_interference"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:disintegration"
+    ],
     "tags": [
      "tensura:skills/epic_tome_wizard_tower",
      "tensura:skills/found_in_tome",
@@ -27466,7 +27654,9 @@
     ],
     "aura_cost": null,
     "attributes": [],
-    "related": [],
+    "related": [
+     "tensura:lightning_lance"
+    ],
     "effects": [],
     "items": [],
     "entities": [],
@@ -32012,7 +32202,6 @@
      "tensura:dragon_skin",
      "tensura:flame_attack_resistance",
      "tensura:heat_resistance",
-     "tensura:flame_breath",
      "trnightmare:size_condense"
     ],
     "learnable": [],
@@ -32265,7 +32454,6 @@
      "tensura:dragon_skin",
      "tensura:flame_attack_resistance",
      "tensura:heat_resistance",
-     "tensura:flame_breath",
      "trnightmare:size_condense"
     ],
     "learnable": [],
@@ -32518,7 +32706,6 @@
      "tensura:dragon_skin",
      "tensura:flame_attack_resistance",
      "tensura:heat_resistance",
-     "tensura:flame_breath",
      "trnightmare:size_condense"
     ],
     "learnable": [],
@@ -32771,7 +32958,6 @@
      "tensura:dragon_skin",
      "tensura:flame_attack_resistance",
      "tensura:heat_resistance",
-     "tensura:flame_breath",
      "tensura:ultraspeed_regeneration",
      "trnightmare:size_condense"
     ],
@@ -33012,7 +33198,6 @@
      "tensura:dragon_skin",
      "tensura:flame_attack_resistance",
      "tensura:heat_resistance",
-     "tensura:flame_breath",
      "tensura:ultraspeed_regeneration",
      "trnightmare:size_condense"
     ],
@@ -46975,17 +47160,6 @@
     "icon_url": "assets/icons/trnightmare/item/artha_sword.png"
    },
    {
-    "id": "trnightmare:atropos_sword",
-    "path": "atropos_sword",
-    "name": "Death's Door",
-    "class": null,
-    "category": "Weapons",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": "assets/icons/trnightmare/item/atropos_sword.png"
-   },
-   {
     "id": "trnightmare:beater_boots",
     "path": "beater_boots",
     "name": "Beater Boots",
@@ -46993,6 +47167,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Boots",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47007,6 +47188,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/beater_chestplate.png"
@@ -47020,6 +47208,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Helmet",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/beater_helmet.png"
@@ -47032,6 +47227,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47060,6 +47262,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Boots",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/cliche_boots.png"
@@ -47072,6 +47281,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47086,6 +47302,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Helmet",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/cliche_helmet.png"
@@ -47098,6 +47321,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Leggings",
+     "armor": 15,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47112,6 +47342,15 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 237.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/courechouse.png"
@@ -47124,6 +47363,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Boots",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47138,6 +47384,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/crimson_chestplate.png"
@@ -47151,6 +47404,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Helmet",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/crimson_helmet.png"
@@ -47163,6 +47423,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Leggings",
+     "armor": 15,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47193,6 +47460,15 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 237.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [],
@@ -47352,17 +47628,6 @@
     "icon_url": "assets/icons/trnightmare/item/excalibur.png"
    },
    {
-    "id": "trnightmare:fragment_akasha",
-    "path": "fragment_akasha",
-    "name": "Fragment of Akasha",
-    "class": null,
-    "category": "Miscellaneous",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": "assets/icons/trnightmare/item/fragment_akasha.png"
-   },
-   {
     "id": "trnightmare:frost_dragon_seed",
     "path": "frost_dragon_seed",
     "name": "Frost Dragon Seed",
@@ -47418,6 +47683,13 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Boots",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/gilgamesh_boots.png"
@@ -47431,6 +47703,13 @@
     "props": {
      "fire_resistant": true,
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47457,6 +47736,13 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Helmet",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/gilgamesh_helmet.png"
@@ -47470,6 +47756,13 @@
     "props": {
      "fire_resistant": true,
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Leggings",
+     "armor": 15,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47690,6 +47983,25 @@
      "durability": 2400,
      "stack": 1
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 256.0,
+      "attack_speed": 6.8,
+      "reach": 2.0,
+      "sweep": 0.5,
+      "crit_chance": 50.0
+     },
+     "two_handed": {
+      "attack_damage": 257.0,
+      "attack_speed": 7.0,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 50.0
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/nodens_scythe.png"
@@ -47703,6 +48015,23 @@
     "props": {
      "durability": 100000,
      "stack": 1
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 256.0,
+      "attack_speed": 6.8,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "two_handed": {
+      "attack_damage": 257.0,
+      "attack_speed": 7.0,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [],
@@ -47737,6 +48066,23 @@
      "durability": 10000,
      "stack": 1
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 116.0,
+      "attack_speed": 6.8,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "two_handed": {
+      "attack_damage": 117.0,
+      "attack_speed": 7.0,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/reinhard_locked.png"
@@ -47750,6 +48096,23 @@
     "props": {
      "durability": 2400,
      "stack": 1
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 256.0,
+      "attack_speed": 6.8,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "two_handed": {
+      "attack_damage": 257.0,
+      "attack_speed": 7.0,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [],
@@ -47965,17 +48328,6 @@
     "icon_url": "assets/icons/trnightmare/item/the_world.png"
    },
    {
-    "id": "trnightmare:writable_contract",
-    "path": "writable_contract",
-    "name": "Writable Contract",
-    "class": null,
-    "category": "Miscellaneous",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:zegion_boots",
     "path": "zegion_boots",
     "name": "Zegion Boots",
@@ -47983,6 +48335,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Boots",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -47997,6 +48356,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Chestplate",
+     "armor": 17,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/zegion_chestplate.png"
@@ -48010,6 +48376,13 @@
     "props": {
      "stack": 1
     },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Helmet",
+     "armor": 12,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/zegion_helmet.png"
@@ -48022,6 +48395,13 @@
     "category": "Armor",
     "props": {
      "stack": 1
+    },
+    "armor": {
+     "material": "Hihiirokane",
+     "slot": "Leggings",
+     "armor": 15,
+     "toughness": 10.0,
+     "knockback_resistance": 1.0
     },
     "tooltips": [],
     "tags": [],
@@ -49735,7 +50115,25 @@
     "id": "trnightmare:sentient_boss_nior",
     "path": "sentient_boss_nior",
     "name": "Primordial Nior",
-    "info": {},
+    "info": {
+     "class": "com.github.hvnbael.trnightmare.main.entity.sentientboss.TrSentientBossNior",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Auto Melee Dodge Chance": 15.0,
+      "Presence Sense": 128.0,
+      "Chant Speed": 5.0,
+      "Spiritual Health Regeneration": 10.0
+     },
+     "ancestors": [
+      "TrSentientBossPrimordialDaemonEntity",
+      "AbstractTrNightmareSentientBossEntity",
+      "PlayerLikeEntity",
+      "ISubordinate",
+      "OwnableEntity",
+      "TensuraHumanoidEntity"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [],
@@ -50391,22 +50789,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:anti_heal",
-    "path": "anti_heal",
-    "name": "Anti Soul Regeneration",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:apathetic",
-    "path": "apathetic",
-    "name": "Apathetic",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:apotheosis",
     "path": "apotheosis",
     "name": "Apotheosis",
@@ -50612,14 +50994,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:betrayed",
-    "path": "betrayed",
-    "name": "Betrayed",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:blackpara",
     "path": "blackpara",
     "name": "Blackpara",
@@ -50754,14 +51128,6 @@
       "operation": "ADD_VALUE"
      }
     ],
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:cleave",
-    "path": "cleave",
-    "name": "Cleave",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51024,27 +51390,11 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:fairytale",
-    "path": "fairytale",
-    "name": "FairyTale",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:falmuth_omen",
     "path": "falmuth_omen",
     "name": "Falmuth Omen",
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.SimpleEffect",
     "category": "Beneficial",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:forgiveness",
-    "path": "forgiveness",
-    "name": "Forgiveness",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51118,14 +51468,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:haniel_regeneration",
-    "path": "haniel_regeneration",
-    "name": "Haniel Regeneration",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:holy_ascension",
     "path": "holy_ascension",
     "name": "Holy Ascension",
@@ -51139,14 +51481,6 @@
       "operation": "ADD_VALUE"
      }
     ],
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:holy_burn",
-    "path": "holy_burn",
-    "name": "Holy Burn",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51212,14 +51546,6 @@
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.JealousEffect",
     "category": "Harmful",
     "color": "#6D1A8A",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:judas",
-    "path": "judas",
-    "name": "Judas Buff",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51339,14 +51665,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:mercy",
-    "path": "mercy",
-    "name": "Mercy",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:metal_mode",
     "path": "metal_mode",
     "name": "Metal Mode",
@@ -51378,22 +51696,6 @@
     "name": "Mind Projection",
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.MindProjectionEffect",
     "category": "Neutral",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:modifier_bulk",
-    "path": "modifier_bulk",
-    "name": "Bulk Modification",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:modifier_speed",
-    "path": "modifier_speed",
-    "name": "Speed Modification",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51472,14 +51774,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:optimal_regeneration",
-    "path": "optimal_regeneration",
-    "name": "Soul Regeneration",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:overclock",
     "path": "overclock",
     "name": "Overclock",
@@ -51502,14 +51796,6 @@
       "operation": "ADD_VALUE"
      }
     ],
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:pixie",
-    "path": "pixie",
-    "name": "Pixie",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51641,35 +51927,11 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:soul_sever",
-    "path": "soul_sever",
-    "name": "Soul Severing Coat",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:sovereign",
-    "path": "sovereign",
-    "name": "Sovereign Imprisonment",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:spatial_lock",
     "path": "spatial_lock",
     "name": "Spatial Lock",
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.SpatialLockEffect",
     "category": "Beneficial",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:spin",
-    "path": "spin",
-    "name": "Spin",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51699,14 +51961,6 @@
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.SurvivalEffect",
     "category": "Beneficial",
     "color": "#4CAF50",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:swap",
-    "path": "swap",
-    "name": "Swap",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51743,14 +51997,6 @@
     "name": "True Dragon Body",
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.TrueDragonBodyEffect",
     "category": "Beneficial",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:tusk",
-    "path": "tusk",
-    "name": "Infinite Spin",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -51816,22 +52062,6 @@
     "icon_url": null
    },
    {
-    "id": "trnightmare:war_blessing",
-    "path": "war_blessing",
-    "name": "War Blessing",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:war_curse",
-    "path": "war_curse",
-    "name": "War Curse",
-    "class": null,
-    "description": null,
-    "icon_url": null
-   },
-   {
     "id": "trnightmare:white_flame",
     "path": "white_flame",
     "name": "White Flame",
@@ -51869,14 +52099,6 @@
     "class": "com.github.hvnbael.trnightmare.main.mob_effect.WitchesCurseEffect",
     "category": "Beneficial",
     "color": "#4A0A4A",
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "trnightmare:yeshua",
-    "path": "yeshua",
-    "name": "Yeshua Debuff",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -58881,5 +59103,33 @@
   ]
  },
  "guidebooks": [],
- "extra": {}
+ "extra": {
+  "phantoms": [
+   "trnightmare:anti_heal",
+   "trnightmare:apathetic",
+   "trnightmare:atropos_sword",
+   "trnightmare:betrayed",
+   "trnightmare:cleave",
+   "trnightmare:fairytale",
+   "trnightmare:forgiveness",
+   "trnightmare:fragment_akasha",
+   "trnightmare:haniel_regeneration",
+   "trnightmare:holy_burn",
+   "trnightmare:judas",
+   "trnightmare:mercy",
+   "trnightmare:modifier_bulk",
+   "trnightmare:modifier_speed",
+   "trnightmare:optimal_regeneration",
+   "trnightmare:pixie",
+   "trnightmare:soul_sever",
+   "trnightmare:sovereign",
+   "trnightmare:spin",
+   "trnightmare:swap",
+   "trnightmare:tusk",
+   "trnightmare:war_blessing",
+   "trnightmare:war_curse",
+   "trnightmare:writable_contract",
+   "trnightmare:yeshua"
+  ]
+ }
 }

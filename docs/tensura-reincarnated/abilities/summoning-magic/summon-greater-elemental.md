@@ -46,6 +46,10 @@
 - Innate to mobs: [Gazel Dwargo](../../mobs/gazel-dwargo.md), [Hinata Sakaguchi](../../mobs/hinata-sakaguchi.md)
 - Removed and re-rolled when you change race
 
+## Related
+
+- **Summons / entities:** [War Gnome](../../mobs/war-gnome.md), [Ifrit](../../mobs/ifrit.md), [Akash](../../mobs/akash.md), [Undine](../../mobs/undine.md), [Sylphide](../../mobs/sylphide.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/summoning_config.toml`](../../configs/config-tensura-ability-magic-summoning-config.md).

@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `mysticism:elemental_realm/earth_portal` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#mysticism:has_structure/earth_portal` |
+| **Biomes** | Earth Biome |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 200 / 50 chunks |
 | **Terrain adaptation** | bury |
 | **Size (jigsaw depth)** | 4 |
 
 </div>
+
+## What it does
+
+Generates in Earth Biome, about one every 200 chunks (at least 50 chunks apart).

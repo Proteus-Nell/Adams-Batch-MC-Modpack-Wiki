@@ -10,7 +10,6 @@
 | ![](../../../assets/icons/trnightmare/item/ending_sealed_sword.png) | [Blade of The End](ending-sealed-sword.md) |  |
 | ![](../../../assets/icons/trnightmare/item/ending_unsealed_sword.png) | [Blade of The End](ending-unsealed-sword.md) |  |
 | ![](../../../assets/icons/trnightmare/item/courechouse.png) | [Courechouse](courechouse.md) |  |
-| ![](../../../assets/icons/trnightmare/item/atropos_sword.png) | [Death's Door](atropos-sword.md) |  |
 | ![](../../../assets/icons/trnightmare/item/demon_king_sword.png) | [Demon King's Sword](demon-king-sword.md) |  |
 | ![](../../../assets/icons/trnightmare/item/deva.png) | [Deva](deva.md) |  |
 | ![](../../../assets/icons/trnightmare/item/dharma.png) | [Dharma](dharma.md) |  |

@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Boots](hihiirokane-boots.md) |
+| **Armor** | 10 |
+| **Armor toughness** | 8 |
+| **Knockback resistance** | 80% |
+| **Durability** | 845 |
 
 </div>
+
+## What it does
+
+Adamantite armor for the boots slot: **10** armor, **8** toughness and **80%** knockback resistance. Durability: **845**. It is made at the Smithing Bench.
 
 ## Obtaining
 

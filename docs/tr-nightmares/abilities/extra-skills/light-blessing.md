@@ -32,6 +32,7 @@
 ## Related
 
 - **Related skills:** [Magic Light Transform](../../../tensura-reincarnated/abilities/extra-skills/magic-light-transform.md)
+- **Summons / entities:** Tensura
 
 ## Tags
 

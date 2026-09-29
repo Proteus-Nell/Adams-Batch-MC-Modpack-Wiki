@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. You need a stone pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

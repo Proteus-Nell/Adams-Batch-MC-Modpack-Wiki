@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Dragon Mode, a transformation. Per level: **+12** attack damage, **+20** armor and **+0.05** movement speed. It also **doubles** your max magicule and max aura (this part doesn't grow with level).
+
+The Dragon Mode skill gives it for 180 s (360 s mastered). Flame Dragon's Blazing Wings gives **level II** for 3 minutes (6 mastered) and refills your magicule and aura. When it ends, your current magicule and aura are **halved**, and you get the transformation hangover: [Weakness](https://minecraft.wiki/w/Weakness) II, [Fragility](fragility.md) II and [Paralysis](paralysis.md) I for 10 minutes. Only one transformation can be active at a time, and TR: Nightmares' Pseudo Dragon Body can't be used alongside it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

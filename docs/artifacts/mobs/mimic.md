@@ -20,6 +20,10 @@
 
 </div>
 
+## What it does
+
+An entity with **60** health and **5** attack damage.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

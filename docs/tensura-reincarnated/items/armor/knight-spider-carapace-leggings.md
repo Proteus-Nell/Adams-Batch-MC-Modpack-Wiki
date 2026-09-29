@@ -11,8 +11,16 @@
 | **ID** | `tensura:knight_spider_carapace_leggings` |
 | **Category** | Armor |
 | **Gear EP** | 9,000 - None |
+| **Armor** | 5 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 20% |
+| **Durability** | 555 |
 
 </div>
+
+## What it does
+
+Knight Spider Carapace armor for the leggings slot: **5** armor, **2** toughness and **20%** knockback resistance. Durability: **555**. It is made at the Smithing Bench.
 
 ## Obtaining
 

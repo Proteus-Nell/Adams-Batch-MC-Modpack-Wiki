@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Spatial Blade](spatial-blade.md). It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

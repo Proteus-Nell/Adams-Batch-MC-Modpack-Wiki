@@ -42,6 +42,7 @@
 ## Related
 
 - **Effects:** [Rampage](../../effects/rampage.md)
+- **Summons / entities:** Tensura, Summoning Beam, [Clone](../../mobs/clone.md)
 
 ## Stats (config defaults)
 

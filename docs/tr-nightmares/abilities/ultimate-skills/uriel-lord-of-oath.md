@@ -58,6 +58,7 @@
 
 - **Related skills:** [Spatial Domination](../../../tensura-reincarnated/abilities/extra-skills/spatial-domination.md), [Spatial Manipulation](../../../tensura-reincarnated/abilities/extra-skills/spatial-manipulation.md), [｢ Uriel, Lord of Vows ｣](uriel-lord-of-vow.md)
 - **Effects:** [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

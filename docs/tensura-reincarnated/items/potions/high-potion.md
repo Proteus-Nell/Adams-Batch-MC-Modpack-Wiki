@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Medium Arcane Potion](medium-arcane-potion.md). It is made with Refining (Great Sage / Researcher) and dropped by [Shinji Tanimura](../../mobs/shinji-tanimura.md).
+
 ## Obtaining
 
 ### Recipes

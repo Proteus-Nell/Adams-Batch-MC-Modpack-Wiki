@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+It is found in 11 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

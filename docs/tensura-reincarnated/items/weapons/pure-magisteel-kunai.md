@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - None |
+| **Attack damage** | 10 |
+| **Attack speed** | 1.7 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A Low Magisteel kunai that deals **10** attack damage at **1.7** attack speed. It also has -1 block of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

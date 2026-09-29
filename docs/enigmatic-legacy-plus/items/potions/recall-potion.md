@@ -21,6 +21,10 @@ location, or to the Center of The Overworld
 
 if you don't have one.
 
+## What it does
+
+Used to make [Scroll of Postmortal Recall](../scrolls/escape-scroll.md) and [Twisted Mirror](../tools/twisted-mirror.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

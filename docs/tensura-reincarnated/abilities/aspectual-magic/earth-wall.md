@@ -46,6 +46,7 @@
 
 ## Related
 
+- **Summons / entities:** Earth Pillar
 - **Referenced by:** [Gaia, Lord of Earth](../../../elite-tensura/abilities/ultimate-skills/gaia.md)
 
 ## Stats (config defaults)

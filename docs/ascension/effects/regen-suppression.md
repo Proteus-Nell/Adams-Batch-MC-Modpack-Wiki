@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Shuts down regeneration skills. Every tick it switches off **Self Regeneration**, **Ultraspeed Regeneration** and **Infinite Regeneration** if they're toggled on, so they can't be used until it ends. Only Blockade inflicts it: 10 s, or 20 s mastered.
+
 ## Applied by
 
 [Blockade](../abilities/extra-skills/blockade.md)

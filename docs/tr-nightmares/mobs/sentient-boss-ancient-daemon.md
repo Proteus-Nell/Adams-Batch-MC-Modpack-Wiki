@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+A boss with **200,000-425,000** magicule.
+
 ## Tags
 
 `tensura:can_be_named`, `tensura:no_charisma`, `tensura:no_charm`, `tensura:no_mind_control`, `tensura:no_possession`

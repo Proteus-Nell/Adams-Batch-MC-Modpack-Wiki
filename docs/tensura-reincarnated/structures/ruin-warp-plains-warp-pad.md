@@ -8,12 +8,16 @@
 |---|---|
 | **ID** | `tensura:ruin/warp/plains_warp_pad` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/ruin/plains_warp_pad` |
+| **Biomes** | Is Forest, Is Plains, Ancient Forest |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 50 / 20 chunks |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Is Forest, Is Plains, Ancient Forest, about one every 50 chunks (at least 20 chunks apart).
 
 ## Loot
 

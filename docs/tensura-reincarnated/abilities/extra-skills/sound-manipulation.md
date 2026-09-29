@@ -29,6 +29,7 @@
 ## Related
 
 - **Related skills:** [Sound Domination](sound-domination.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Sound Domination](sound-domination.md)
 
 ## Stats (config defaults)

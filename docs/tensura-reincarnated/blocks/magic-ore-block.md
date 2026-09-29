@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. You need a diamond pickaxe or better. Used to make [Magic Ore](../items/materials/magic-ore-shard.md) and [Pure Magisteel Ingot](../items/materials/pure-magisteel-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -11,8 +11,16 @@
 | **ID** | `tensura:knight_spider_carapace_chestplate` |
 | **Category** | Armor |
 | **Gear EP** | 9,000 - None |
+| **Armor** | 7 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 20% |
+| **Durability** | 592 |
 
 </div>
+
+## What it does
+
+Knight Spider Carapace armor for the chestplate slot: **7** armor, **2** toughness and **20%** knockback resistance. Durability: **592**. It is made at the Smithing Bench.
 
 ## Obtaining
 

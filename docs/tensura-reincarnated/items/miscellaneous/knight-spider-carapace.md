@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Knight Spider Carapace Boots](../armor/knight-spider-carapace-boots.md), [Knight Spider Carapace Chestplate](../armor/knight-spider-carapace-chestplate.md), [Knight Spider Carapace Helmet](../armor/knight-spider-carapace-helmet.md) and [Knight Spider Carapace Leggings](../armor/knight-spider-carapace-leggings.md). It is dropped by [Knight Spider](../../mobs/knight-spider.md).
+
 ## Obtaining
 
 ### Loot

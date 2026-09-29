@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Sticky Steel Web Cartridge](sticky-steel-web-cartridge.md), [Sticky Web Cartridge](sticky-web-cartridge.md) and [Voodoo Poppet](../../../corail-tombstone/items/miscellaneous/voodoo-poppet.md). It is dropped by [Black Spider](../../mobs/black-spider.md) and dropped when you break [Spider Egg](../../blocks/spider-egg.md).
+
 ## Obtaining
 
 ### Loot

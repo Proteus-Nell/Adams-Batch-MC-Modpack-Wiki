@@ -19,3 +19,7 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+A boss with **12,000** health and **220** attack damage.

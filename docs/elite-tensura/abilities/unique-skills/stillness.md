@@ -48,6 +48,7 @@
 ## Related
 
 - **Related skills:** [Mediation](../extra-skills/meditation.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

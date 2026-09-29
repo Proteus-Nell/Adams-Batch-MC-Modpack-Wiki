@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [Pure Magisteel Shovel](pure-magisteel-shovel.md) |
+| **Attack damage** | 18.5 |
+| **Attack speed** | 1 |
+| **Tier** | High Magisteel |
+| **Durability** | 2,500 |
 
 </div>
+
+## What it does
+
+A shovel that deals **18.5** attack damage at **1** attack speed. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Name Tag](https://minecraft.wiki/w/Name_Tag), [Saddle](https://minecraft.wiki/w/Saddle), [Book](https://minecraft.wiki/w/Book), [Iron Horse Armor](https://minecraft.wiki/w/Iron_Horse_Armor), [Leather Horse Armor](https://minecraft.wiki/w/Leather_Horse_Armor) and 14 more. It is dropped by [Cattledeer](../../mobs/cattledeer.md) and [Hound Dog](../../mobs/hound-dog.md) and found in 4 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

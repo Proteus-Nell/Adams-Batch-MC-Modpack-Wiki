@@ -12,8 +12,15 @@
 | **Category** | Weapons |
 | **Durability** | 500 |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 16 (13 one-handed) |
+| **Attack speed** | 1.4 (1 one-handed) |
+| **Tier** | Low Magisteel |
 
 </div>
+
+## What it does
+
+A Low Magisteel spear you can hold in one or both hands. Two-handed it deals **16** attack damage at **1.4** attack speed; one-handed **13** damage at **1** speed. It also has +2 blocks of reach, +0.2% critical hit chance and no sweeping attack. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

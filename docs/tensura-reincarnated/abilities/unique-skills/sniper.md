@@ -55,6 +55,7 @@
 ## Related
 
 - **Items:** [Walther P99](../../items/weapons/walther-p99.md)
+- **Summons / entities:** Tensura, Sniper Grenade
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md)
 
 ## Stats (config defaults)

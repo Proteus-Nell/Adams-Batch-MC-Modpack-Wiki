@@ -13,3 +13,7 @@
 | **Color** | `#8A2BE2` |
 
 </div>
+
+## What it does
+
+Reality cracking around you, from the [Void Edge](../items/weapons/void-edge.md)'s fracture ability. You're slowed by **-30%** per level, take **8** damage per level every second, and every hit you take is multiplied by **1.25**. The Astral Edge's big attack consumes it for bonus damage.

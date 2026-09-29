@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A cutting edge that severs space. Per level: **+10** attack damage. Your physical hits count as **severance damage**, which also cuts the target's maximum health for a while. From **level V** it also gives physical resistance degradation, so your hits ignore physical resistances.
+
+Severer gives level 1 (level 2 mastered) for 120 s. Absolute Severance's coating gives level 5 (level 20 mastered). Camael, Judicator, Elyon and Yog-Sothoth also give it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

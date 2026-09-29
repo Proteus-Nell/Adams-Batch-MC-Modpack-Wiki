@@ -58,6 +58,7 @@
 ## Related
 
 - **Related skills:** [Great Sage](../../../tensura-reincarnated/abilities/unique-skills/great-sage.md), [Sage](../../../tensura-reincarnated/abilities/extra-skills/sage.md), [Chant Annulment](../../../tensura-reincarnated/abilities/extra-skills/chant-annulment.md), [｢ Raphael, Lord of Wisdom ｣](raphael-wisdom.md), [｢ Azathoth, God of The Void ｣](azathoth.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Future Attack Prediction](../extra-skills/future-attack-prediction.md), [Wise Manas](wise-manas.md)
 
 ## Stats (config defaults)

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Magic Ore](../items/materials/magic-ore-shard.md). You need a diamond pickaxe or better. Used to make [Pure Magisteel Nugget](../items/materials/pure-magisteel-nugget.md) and [Magic Ore](../items/materials/magic-ore-shard.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -22,6 +22,10 @@ Hold Shift to suppress this effect.
 
 Enhancement: Capable of automatic range harvesting.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

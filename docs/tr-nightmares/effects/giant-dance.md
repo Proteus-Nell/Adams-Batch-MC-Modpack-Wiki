@@ -11,6 +11,12 @@
 
 </div>
 
+## What it does
+
+The giant races' transformation, from the Giant Dance skill. It only works on giant-line races. Per level: **+10** attack damage, **+12** attack speed and effectively full knockback immunity.
+
+When it ends, your current magicule and aura are **halved**, and you get [Weakness](https://minecraft.wiki/w/Weakness) II, [Fragility](../../tensura-reincarnated/effects/fragility.md) II and [Paralysis](../../tensura-reincarnated/effects/paralysis.md) II for 10 minutes. You can only have one transformation active at a time.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

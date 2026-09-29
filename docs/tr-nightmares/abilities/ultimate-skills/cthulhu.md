@@ -62,6 +62,7 @@
 
 - **Related skills:** [｢ Gabriel, Lord of Patience ｣](gabriel.md), [｢ Leviathan, Lord of Envy ｣](leviathan.md), [Thermal Fluctuation Nullification](../../../tensura-reincarnated/abilities/resistance-skills/thermal-fluctuation-nullification.md)
 - **Effects:** [Magicule Poison](../../../tensura-reincarnated/effects/magicule-poison.md), [Inferior](../../effects/cthulhu-inferior.md), [Heat Death](../../effects/gabriel-heat-death.md), [Ending Soul](../../effects/ending-soul.md), [Chill](../../../tensura-reincarnated/effects/chill.md), [White Lock](../../effects/cadence-white-lock.md), [Jealous](../../effects/jealous.md), [Envied](../../effects/envied.md), [Stolen Luck](../../effects/stolen-luck.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Cessation](../unique-skills/cessation.md)
 
 ## Stats (config defaults)

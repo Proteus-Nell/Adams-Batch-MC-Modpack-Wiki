@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `tombstone:abandoned_grave_land` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tombstone:has_structure/abandoned_grave_land` |
+| **Biomes** | Ancient Forest, Barren Land, Desert of Death, Miasmic Plains |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 32 / 8 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Ancient Forest, Barren Land, Desert of Death, Miasmic Plains, about one every 32 chunks (at least 8 chunks apart).

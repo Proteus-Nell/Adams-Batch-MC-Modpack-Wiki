@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Lightning Domination](lightning-domination.md)
+- **Summons / entities:** Tensura, Lightning Bolt
 - **Referenced by:** [Lightning Domination](lightning-domination.md), [Weather Manipulation](weather-manipulation.md)
 
 ## Stats (config defaults)

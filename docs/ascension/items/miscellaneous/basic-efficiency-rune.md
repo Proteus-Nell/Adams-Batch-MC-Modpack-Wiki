@@ -18,6 +18,10 @@
 
 Boosts magicule by 50% (1.5x total).
 
+## What it does
+
+Used to make [Adept Efficiency Rune](adept-efficiency-rune.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

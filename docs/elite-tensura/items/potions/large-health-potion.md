@@ -18,3 +18,7 @@
 ## Description
 
 Large Health Potion
+
+## What it does
+
+Food.

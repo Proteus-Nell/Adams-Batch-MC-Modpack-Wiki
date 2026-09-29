@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Holy Stone](../misc/bless-stone.md), [Promise of the Earth](../rings/earth-promise.md), [Amulet of Radiance](../amulets/redemption-amulet.md), [Charm of Scorched Sun](../charms/scorched-charm.md) and [The Bless](../books/the-bless.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

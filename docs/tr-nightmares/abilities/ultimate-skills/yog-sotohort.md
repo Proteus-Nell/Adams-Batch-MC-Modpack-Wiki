@@ -69,6 +69,7 @@
 
 - **Related skills:** [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md)
 - **Effects:** [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md), [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Fate Change](../../../tensura-reincarnated/effects/fate-change.md), [Haki Coat](../../../tensura-reincarnated/effects/haki-coat.md), [Strengthen](../../../tensura-reincarnated/effects/strengthen.md), [Severance Blade](../../../tensura-reincarnated/effects/severance-blade.md), [Hopes Gift](../../effects/hopes-gift.md)
+- **Summons / entities:** Severance Cutter, Tensura
 - **Referenced by:** [Witch's Greed](../unique-skills/witches-greed.md)
 
 ## Stats (config defaults)

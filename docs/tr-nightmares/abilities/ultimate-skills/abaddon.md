@@ -46,6 +46,7 @@
 
 - **Related skills:** [Breaker](../unique-skills/breaker.md), [｢ Sandalphon, Lord of Judgement ｣](sandalphon-judgment.md), [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md)
 - **Effects:** [Spatial Blockade](../../../tensura-reincarnated/effects/spatial-blockade.md), [Mystic Aura](../../effects/mystic-aura.md)
+- **Summons / entities:** Bouncing Aura Bullet
 
 ## Stats (config defaults)
 

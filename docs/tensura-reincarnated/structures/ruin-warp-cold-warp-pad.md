@@ -8,12 +8,16 @@
 |---|---|
 | **ID** | `tensura:ruin/warp/cold_warp_pad` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/ruin/cold_warp_pad` |
+| **Biomes** | Is Cold, Ice Spikes |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 50 / 20 chunks |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Is Cold, Ice Spikes, about one every 50 chunks (at least 20 chunks apart).
 
 ## Loot
 

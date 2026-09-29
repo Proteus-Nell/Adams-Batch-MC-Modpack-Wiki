@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `tensura:nests/black_spider` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/black_spider_nest` |
+| **Biomes** | Dark Forest, Plains |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 70 / 25 chunks |
 | **Terrain adaptation** | beard_box |
 | **Size (jigsaw depth)** | 7 |
 
 </div>
+
+## What it does
+
+Generates in Dark Forest, Plains, about one every 70 chunks (at least 25 chunks apart).

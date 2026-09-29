@@ -50,6 +50,10 @@ Resonator of Nebula
 
 Resonator of Void
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -21,6 +21,10 @@ Right-click on a grave soul to activate protection
 
 This poppet is active
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Charybdis Meat](cooked-charybdis-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Charybdis](../../mobs/charybdis.md).
+
 ## Obtaining
 
 ### Loot

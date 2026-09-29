@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Lightning Mode, a transformation. It gives **+12** attack damage and **+0.2** movement speed. When it ends your current magicule and aura are **halved**, and you get the transformation hangover: [Weakness](https://minecraft.wiki/w/Weakness) II, [Fragility](../../tensura-reincarnated/effects/fragility.md) II and [Paralysis](../../tensura-reincarnated/effects/paralysis.md) I for 10 minutes. Only one transformation can be active at a time.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

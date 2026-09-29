@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Revival Leaves](../../../enigmatic-legacy-plus/items/spellstones/revival-leaf.md). It is dropped when you break [Hipokute Grass](../../blocks/hipokute-grass.md) and [Potted Hipokute Grass](../../blocks/potted-hipokute-flower.md).
+
 ## Obtaining
 
 ### Loot

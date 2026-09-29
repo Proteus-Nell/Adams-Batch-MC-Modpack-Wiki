@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Stuck repeating the same moment. Per level: **-95%** movement and flying speed and **-75%** attack speed. Istaroth's Twenty-Second Loop inflicts it at level V.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

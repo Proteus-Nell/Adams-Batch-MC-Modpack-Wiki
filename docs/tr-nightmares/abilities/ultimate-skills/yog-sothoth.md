@@ -56,6 +56,7 @@
 
 - **Related skills:** [Time Traveler](../unique-skills/time-traveler.md), [Usurper](../../../tensura-reincarnated/abilities/unique-skills/usurper.md), [Infinity Prison](../../../tensura-reincarnated/abilities/unique-skills/infinity-prison.md), [Absolute Severance](../../../tensura-reincarnated/abilities/unique-skills/absolute-severance.md), [Chosen One](../../../tensura-reincarnated/abilities/unique-skills/chosen-one.md), [｢ True Hero, King of Champions ｣](true-hero.md), [Hero Haki](../../../tensura-reincarnated/abilities/extra-skills/hero-haki.md), [Dominator](../unique-skills/dominator.md), [｢ Michael, Lord of Justice ｣](michael.md), [Unyielding](../../../tensura-reincarnated/abilities/unique-skills/unyielding.md), [｢ Sariel, Lord of Hope ｣](sariel.md)
 - **Effects:** [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md), [Severance Blade](../../../tensura-reincarnated/effects/severance-blade.md)
+- **Summons / entities:** Severance Cutter
 - **Referenced by:** [Witch's Greed](../unique-skills/witches-greed.md)
 
 ## Stats (config defaults)

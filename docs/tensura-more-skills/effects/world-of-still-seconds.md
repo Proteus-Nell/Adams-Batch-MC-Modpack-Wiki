@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+The world stands still. Per level: **-98%** movement, flying and attack speed and **-90%** chant speed. Istaroth's World of Still Seconds and its Doom Tornado inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

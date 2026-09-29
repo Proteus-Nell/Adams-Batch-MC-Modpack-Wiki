@@ -42,6 +42,7 @@
 ## Related
 
 - **Related skills:** [Authority of Greed](../unique-skills/authority-of-greed.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Witch of Envy, Satella](witch-of-envy-satella.md), [Satella](../unique-skills/satella.md)
 
 ## In-game messages

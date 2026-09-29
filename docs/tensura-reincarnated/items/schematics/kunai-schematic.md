@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Kunai](../weapons/kunai.md) and [Pure Magisteel Kunai](../weapons/pure-magisteel-kunai.md).
+
 ## Tags
 
 `tensura:schematics`

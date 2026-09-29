@@ -20,6 +20,10 @@ When held, provides ? Chance to avoid damage.
 
 Enhancement: Right click to parry.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

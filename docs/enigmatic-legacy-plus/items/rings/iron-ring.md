@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Ring of Ender](ender-ring.md), [Exquisite Ring](golden-ring.md), [Ring of Quenching](infernal-ring.md), [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot), [Magnetic Ring](magnet-ring.md) and 2 more. It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

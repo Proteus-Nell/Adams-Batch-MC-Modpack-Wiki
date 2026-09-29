@@ -11,8 +11,16 @@
 | **ID** | `tensura:armorsaurus_leggings` |
 | **Category** | Armor |
 | **Gear EP** | 6,000 - None |
+| **Armor** | 8 |
+| **Armor toughness** | 4 |
+| **Knockback resistance** | 50% |
+| **Durability** | 600 |
 
 </div>
+
+## What it does
+
+Armorsaurus armor for the leggings slot: **8** armor, **4** toughness and **50%** knockback resistance. Durability: **600**.
 
 ## Tags
 

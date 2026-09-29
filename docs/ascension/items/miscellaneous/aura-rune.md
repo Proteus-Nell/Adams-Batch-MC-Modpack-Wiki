@@ -18,6 +18,10 @@
 
 Diverts the effect to restore aura of nearby players.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

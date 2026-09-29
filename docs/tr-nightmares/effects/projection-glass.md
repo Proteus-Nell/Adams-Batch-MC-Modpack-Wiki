@@ -11,6 +11,19 @@
 
 </div>
 
+## What it does
+
+Projection Sorcery freezes the target in a frame of glass. It sets these to zero:
+- walking, flying, swimming, lava and gliding speed
+- attack damage and attack speed
+- jump strength, block reach and follow range
+- aura and magicule regeneration
+- all dodge chances
+
+Race abilities stop working, and skills are locked to the race limit. Any single hit of more than **25** damage **shatters** the glass: that hit deals **triple damage**, knocks the target back and ends the effect.
+
+Projection Sorcery's Breaker mode applies it, and so can a random hit while the skill is toggled on. The catch: with the skill toggled on, taking damage can freeze **you** as well (less often with Pain Resistance or Pain Nullification).
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

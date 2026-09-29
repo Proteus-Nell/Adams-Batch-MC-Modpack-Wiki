@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:stone_sickle` |
 | **Category** | Tools |
+| **Attack damage** | 4 |
+| **Attack speed** | 1.2 |
+| **Tier** | Stone |
+| **Durability** | 131 |
 
 </div>
+
+## What it does
+
+A sickle that deals **4** attack damage at **1.2** attack speed. Durability: **131**. It is crafted.
 
 ## Obtaining
 

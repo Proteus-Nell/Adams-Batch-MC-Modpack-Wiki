@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Low Magisteel Nugget](low-magisteel-nugget.md), [Block of Low Magisteel](../../blocks/low-magisteel-block.md), [Low Magisteel Bone Golem](../miscellaneous/low-magisteel-bone-golem.md), [Warp Core](warp-core.md), [Armorsaurus Shield](../miscellaneous/armorsaurus-shield.md) and 24 more. It is crafted, made at the Kiln (mixing) and made with Create's compacting.
+
 ## Obtaining
 
 ### Recipes

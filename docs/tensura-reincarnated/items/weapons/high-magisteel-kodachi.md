@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [Pure Magisteel Kodachi](pure-magisteel-kodachi.md) |
+| **Attack damage** | 18 |
+| **Attack speed** | 2 |
+| **Tier** | High Magisteel |
+| **Durability** | 2,500 |
 
 </div>
+
+## What it does
+
+A kodachi that deals **18** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +20% critical hit chance, +0.5 critical damage multiplier and no sweeping attack. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -58,6 +58,7 @@
 ## Related
 
 - **Effects:** [Insanity](../../effects/insanity.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Gabriel, Lord of Patience ｣](../../../tr-nightmares/abilities/ultimate-skills/gabriel.md), [｢ Leviathan, Lord of Envy ｣](../../../tr-nightmares/abilities/ultimate-skills/leviathan.md), [｢ Michael, Lord of Justice ｣](../../../tr-nightmares/abilities/ultimate-skills/michael.md)
 
 ## Stats (config defaults)

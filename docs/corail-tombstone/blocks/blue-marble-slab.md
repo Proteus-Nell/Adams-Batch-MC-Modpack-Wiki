@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Blue Marble](blue-marble.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

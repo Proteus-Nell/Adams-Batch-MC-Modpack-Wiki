@@ -25,6 +25,10 @@ to the overall beheading chance.
 
 +10% Beheading Chance
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -19,6 +19,10 @@
 
 You'd better not be drinking from it...
 
+## What it does
+
+It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

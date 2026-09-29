@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Chestplate](high-magisteel-chestplate.md) |
+| **Armor** | 8 |
+| **Armor toughness** | 2.5 |
+| **Knockback resistance** | 10% |
+| **Durability** | 560 |
 
 </div>
+
+## What it does
+
+Low Magisteel armor for the chestplate slot: **8** armor, **2.5** toughness and **10%** knockback resistance. Durability: **560**. It is made at the Smithing Bench.
 
 ## Obtaining
 

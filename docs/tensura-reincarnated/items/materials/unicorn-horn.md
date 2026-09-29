@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Unicorn Horn Spear](../weapons/unicorn-horn-spear.md). It is dropped by [Pegacorn](../../mobs/pegacorn.md) and [Unicorn](../../mobs/unicorn.md).
+
 ## Obtaining
 
 ### Loot

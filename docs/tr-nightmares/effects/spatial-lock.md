@@ -10,3 +10,7 @@
 | **Type** | Beneficial |
 
 </div>
+
+## What it does
+
+Nothing in the mod applies or reads this effect in this version.

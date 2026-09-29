@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Long Spider Bow](../weapons/long-spider-bow.md), [Short Spider Bow](../weapons/short-spider-bow.md), [Spider Bow](../weapons/spider-bow.md) and [War Spider Bow](../weapons/war-spider-bow.md).
+
 ## Obtaining
 
 ### Loot

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative stairs made from [Webbed Stone Bricks](webbed-stone-bricks.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

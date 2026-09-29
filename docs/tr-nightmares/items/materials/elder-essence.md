@@ -17,6 +17,10 @@
 
 A fragment of an ancient soul, forgotten strength... Desirable strength.
 
+## What it does
+
+Food. It is dropped by [Elder Guardian](https://minecraft.wiki/w/Elder_Guardian), [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon), [Guardian](https://minecraft.wiki/w/Guardian), [Wither](https://minecraft.wiki/w/Wither) and 2 more.
+
 ## Obtaining
 
 ### Loot

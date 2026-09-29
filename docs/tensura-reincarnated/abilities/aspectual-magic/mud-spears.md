@@ -48,6 +48,7 @@
 
 - **Related skills:** [Mud Hand](mud-hand.md)
 - **Effects:** [Anti-Magic](../../effects/anti-magic.md), [Movement Interference](../../effects/movement-interference.md)
+- **Summons / entities:** Tensura, Mud Spike
 
 ## Stats (config defaults)
 

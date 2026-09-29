@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [White Dye](https://minecraft.wiki/w/White_Dye), [Dubious Food](dubious-food.md), [Full Potion](../potions/full-potion.md) and [High Arcane Potion](../potions/high-arcane-potion.md). It is dropped by Rimuru Tempest and dropped when you break [Hipokute Grass](../../blocks/hipokute-grass.md).
+
 ## Obtaining
 
 ### Loot

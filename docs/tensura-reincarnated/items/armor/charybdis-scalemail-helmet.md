@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 60,000 - None |
+| **Armor** | 9 |
+| **Armor toughness** | 7.5 |
+| **Knockback resistance** | 70% |
+| **Durability** | 715 |
 
 </div>
+
+## What it does
+
+Charybdis Scalemail armor for the helmet slot: **9** armor, **7.5** toughness and **70%** knockback resistance. Durability: **715**. It is made at the Smithing Bench.
 
 ## Obtaining
 

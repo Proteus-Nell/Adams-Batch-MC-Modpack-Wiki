@@ -16,7 +16,9 @@
 
 </div>
 
-Found in: [Hell](../dimensions/hell.md)
+## What it does
+
+A temperate biome in [Hell](../dimensions/hell.md) where it never rains or snows. Mobs that spawn here: [Megalodon](../mobs/megalodon.md), [Lesser Daemon](../mobs/lesser-daemon.md) and [Greater Daemon](../mobs/greater-daemon.md).
 
 ## Mob spawns
 

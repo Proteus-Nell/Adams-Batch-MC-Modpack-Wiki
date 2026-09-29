@@ -25,6 +25,10 @@ The Overworld if you don't have one - but itself
 
 remains at the location of your death.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

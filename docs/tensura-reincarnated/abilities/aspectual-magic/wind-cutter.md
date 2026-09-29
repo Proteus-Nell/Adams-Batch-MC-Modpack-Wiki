@@ -37,6 +37,7 @@
 
 ## Related
 
+- **Related skills:** [Wind Blade](../spiritual-magic/wind-blade.md)
 - **Referenced by:** [Tornado Blade](tornado-blade.md)
 
 ## Stats (config defaults)

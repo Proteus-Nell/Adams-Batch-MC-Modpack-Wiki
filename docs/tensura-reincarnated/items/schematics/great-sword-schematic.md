@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Adamantite Great Sword](../weapons/adamantite-great-sword.md), [Adamantite Odachi](../weapons/adamantite-odachi.md), [Adamantite Scythe](../weapons/adamantite-scythe.md), [Blade Tiger Scythe](../weapons/blade-tiger-scythe.md), [Diamond Great Sword](../weapons/diamond-great-sword.md), [Diamond Odachi](../weapons/diamond-odachi.md) and 34 more.
+
 ## Tags
 
 `tensura:schematics`

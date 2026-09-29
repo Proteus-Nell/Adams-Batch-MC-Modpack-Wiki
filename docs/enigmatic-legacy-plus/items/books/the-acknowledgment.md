@@ -26,6 +26,10 @@ The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
 
+## What it does
+
+Used to make [The Bless](the-bless.md) and [The Twist](the-twist.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Raw Etherium](../items/miscellaneous/raw-etherium.md). You need a diamond pickaxe or better. Used to make [Raw Etherium](../items/miscellaneous/raw-etherium.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

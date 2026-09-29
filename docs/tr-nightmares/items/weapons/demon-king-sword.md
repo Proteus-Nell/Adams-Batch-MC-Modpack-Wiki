@@ -11,5 +11,13 @@
 | **ID** | `trnightmare:demon_king_sword` |
 | **Category** | Weapons |
 | **Stack size** | 1 |
+| **Attack damage** | 237 |
+| **Attack speed** | 7 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A Hihiirokane sword that deals **237** attack damage at **7** attack speed. Durability: **3,600**.

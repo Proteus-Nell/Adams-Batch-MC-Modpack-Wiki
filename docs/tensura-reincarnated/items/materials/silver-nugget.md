@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Silver Ingot](silver-ingot.md) and [Mithril Ingot](mithril-ingot.md). It is crafted and made at the Kiln (mixing).
+
 ## Obtaining
 
 ### Recipes

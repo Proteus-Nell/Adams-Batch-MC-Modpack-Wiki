@@ -23,6 +23,10 @@ Blade Mode: Right-click to shoot out blades.
 
 Hilt Mode: Right-click to replenish blades.
 
+## What it does
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

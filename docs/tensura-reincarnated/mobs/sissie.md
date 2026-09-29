@@ -1,18 +1,30 @@
 # Sissie
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Water Creature</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:sissie` |
+| **Type** | Water Creature |
+| **Health** | 100 |
+| **Attack damage** | 24 |
+| **Armor** | 10 |
+| **Speed** | 0.35 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 0.4 |
 | **Magicule (EP)** | 20,000 - 35,000 |
 | **Aura** | 10,000 - 15,000 |
 | **Spiritual health** | 300 |
+| **Hitbox** | 6.5 x 6 blocks |
 | **Spawn egg** |  [Sissie Spawn Egg](../items/spawn-eggs/sissie-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A water mob with **100** health, **24** attack damage and **20,000-35,000** magicule. Spawns naturally in Sissie Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Sissie Tooth](../items/miscellaneous/sissie-tooth.md), [Sissie Fin](../items/miscellaneous/sissie-fin.md), [Raw Sissie Meat](../items/miscellaneous/raw-sissie-meat.md) and [Bone](https://minecraft.wiki/w/Bone).
 
 ## Abilities
 
@@ -24,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:sissie_spawn` | 1 | 1-1 |
+| Is Deep Ocean | 1 | 1-1 |
 
 ## Drops
 

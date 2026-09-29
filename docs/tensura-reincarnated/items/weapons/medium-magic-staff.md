@@ -14,8 +14,15 @@
 | **Rarity** | Uncommon |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [High Magic Staff](high-magic-staff.md) |
+| **Attack damage** | 10 |
+| **Attack speed** | 1 |
+| **Tier** | High Magisteel |
 
 </div>
+
+## What it does
+
+A High Magisteel weapon that deals **10** attack damage at **1** attack speed. It also has +0.5 blocks of reach. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

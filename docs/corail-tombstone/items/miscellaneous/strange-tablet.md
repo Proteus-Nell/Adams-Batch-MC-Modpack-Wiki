@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Tablet of Assistance](tablet-of-assistance.md), [Tablet of Cupidity](tablet-of-cupidity.md), [Tablet of Guard](tablet-of-guard.md), [Tablet of Home](tablet-of-home.md) and [Tablet of Recall](tablet-of-recall.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

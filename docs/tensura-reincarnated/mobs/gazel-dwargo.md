@@ -1,18 +1,30 @@
 # Gazel Dwargo
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:gazel_dwargo` |
+| **Type** | Boss |
+| **Health** | 3,000 |
+| **Attack damage** | 80 |
+| **Armor** | 60 |
+| **Speed** | 0.25 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 300,000 - 300,000 |
 | **Aura** | 736,331 - 736,332 |
 | **Spiritual health** | 3,600 |
+| **Hitbox** | 0.6 x 2 blocks |
 | **Spawn egg** |  [Gazel Dwargo Spawn Egg](../items/spawn-eggs/gazel-dwargo-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A boss with **3,000** health, **80** attack damage and **300,000** magicule. It has 24 skills you can take from it with Predator-type skills.
 
 ## Abilities
 

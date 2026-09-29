@@ -23,6 +23,10 @@
 | learningSpeed | 4 | add |
 | masterySpeed | 4 | add |
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Tags
 
 `tensura:skills/unique_skills`

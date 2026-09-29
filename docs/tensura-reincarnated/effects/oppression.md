@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crushing pressure. It slows your movement and jumping by **95%** per level (so level II and up pins you completely). Every 10 seconds it also raises your [Insanity](insanity.md) by one level. The Oppressor skill can then crush an oppressed target for 100 gravity damage (200 mastered). Michael, Feldway, Arthur's Holy Order and Avalon's Law of Crushing Heaven also inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

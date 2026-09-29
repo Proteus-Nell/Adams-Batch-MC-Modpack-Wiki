@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+It is crafted and dropped by [Vaelthorn, the Hollow Sovereign](../../mobs/lich-boss.md).
+
 ## Obtaining
 
 ### Recipes

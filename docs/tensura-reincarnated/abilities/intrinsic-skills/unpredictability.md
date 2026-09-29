@@ -27,6 +27,10 @@
 |---|---|---|
 | dodgeNegate | 100 | add |
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill/intrinsic_config.toml`](../../configs/config-tensura-ability-skill-intrinsic-config.md).

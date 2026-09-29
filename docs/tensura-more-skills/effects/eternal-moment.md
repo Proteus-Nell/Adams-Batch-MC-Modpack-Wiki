@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Istaroth's own time blessing. Per level: **+12%** movement speed, **+18%** attack speed and **+0.25** chant speed. While Istaroth's Eternal Moment runs, your other buffs keep getting extended.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

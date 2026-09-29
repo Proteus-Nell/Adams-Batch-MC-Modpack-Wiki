@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Feet artifact. While you're **sprinting** you can run across the surface of water (and other non-lava fluids) instead of sinking.
+
 ## Obtaining
 
 ### Loot

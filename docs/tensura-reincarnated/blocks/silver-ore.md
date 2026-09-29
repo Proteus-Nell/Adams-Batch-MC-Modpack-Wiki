@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Raw Silver](../items/miscellaneous/raw-silver.md). You need a stone pickaxe or better. Used to make [Silver Ingot](../items/materials/silver-ingot.md) and [Raw Silver](../items/miscellaneous/raw-silver.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

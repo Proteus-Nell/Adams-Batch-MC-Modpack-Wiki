@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative fence made from [Palm Planks](palm-planks.md). Used to make [Palm Tool Rack](palm-tool-rack.md) and [Training Dummy](training-dummy.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

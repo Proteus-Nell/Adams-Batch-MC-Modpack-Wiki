@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Spear Toro Meat](cooked-spear-toro-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Spear Toro](../../mobs/spear-toro.md).
+
 ## Obtaining
 
 ### Loot

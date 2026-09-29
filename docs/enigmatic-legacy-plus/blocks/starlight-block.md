@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Starlight Ingot](../items/materials/starlight-ingot.md) packed into one block. Used to make [Starlight Ingot](../items/materials/starlight-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

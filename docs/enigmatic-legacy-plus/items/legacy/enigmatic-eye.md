@@ -34,6 +34,8 @@ or simply unwilling to establish any contact beyond
 
 mental remains a mystery.
 
+**Other names:** in some states this item shows a different name: **Inscrutable Eye**.
+
 ## Config
 
 Set in [`serverconfig/enigmaticlegacyplus-server.toml`](../../configs/serverconfig-enigmaticlegacyplus-server.md).

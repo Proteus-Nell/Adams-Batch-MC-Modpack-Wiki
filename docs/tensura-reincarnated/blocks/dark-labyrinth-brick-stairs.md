@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Decorative stairs made from [Dark Labyrinth Bricks](dark-labyrinth-bricks.md).
+
 ## Tags
 
 `tensura:labyrinth_blocks`

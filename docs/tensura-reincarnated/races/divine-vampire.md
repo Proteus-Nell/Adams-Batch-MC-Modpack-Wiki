@@ -110,7 +110,6 @@ Granted automatically when you become this race.
 - ![](../../assets/icons/tensura/skill/divine_ki_release.png) [Divine Ki Release](../abilities/intrinsic-skills/divine-ki-release.md)
 - ![](../../assets/icons/tensura/skill/infinite_regeneration.png) [Infinite Regeneration](../abilities/extra-skills/infinite-regeneration.md)
 - ![](../../assets/icons/tensura/skill/ultraspeed_regeneration.png) [Ultraspeed Regeneration](../abilities/extra-skills/ultraspeed-regeneration.md)
-- ![](../../assets/icons/tensura/skill/blood_mist.png) [Blood Mist](../abilities/intrinsic-skills/blood-mist.md)
 - ![](../../assets/icons/tensura/skill/steel_strength.png) [Steel Strength](../abilities/extra-skills/steel-strength.md)
 - ![](../../assets/icons/tensura/skill/shadow_motion.png) [Shadow Motion](../abilities/extra-skills/shadow-motion.md)
 - ![](../../assets/icons/tensura/skill/coercion.png) [Coercion](../abilities/common-skills/coercion.md)

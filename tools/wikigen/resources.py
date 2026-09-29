@@ -119,6 +119,9 @@ class Resources:
                         if "/" not in rel:
                             continue
                         registry, name = rel.split("/", 1)
+                        if registry == "worldgen" and "/" in name:
+                            sub, name = name.split("/", 1)
+                            registry = "worldgen/" + sub
                         # 1.21 uses singular folder names; older mods use plural
                         registry = {"items": "item", "blocks": "block", "entity_types": "entity_type",
                                     "fluids": "fluid", "mob_effects": "mob_effect"}.get(registry, registry)

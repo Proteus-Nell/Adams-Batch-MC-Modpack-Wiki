@@ -40,6 +40,7 @@
 ## Related
 
 - **Related skills:** [Spatial Domination](spatial-domination.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Spatial Domination](spatial-domination.md), [Spatial Motion](spatial-motion.md), [Elegy](../../../tr-nightmares/abilities/unique-skills/elegy.md), [｢ Uriel, Lord of Oaths ｣](../../../tr-nightmares/abilities/ultimate-skills/uriel-lord-of-oath.md)
 
 ## Stats (config defaults)

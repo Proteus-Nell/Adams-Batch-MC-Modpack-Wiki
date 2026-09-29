@@ -36,6 +36,10 @@
 - Can appear in rare tomes in ruined wizard towers
 - Can appear in uncommon tomes in burnt wizard towers
 
+## Related
+
+- **Related skills:** [Lightning Lance](../../../tensura-reincarnated/abilities/spiritual-magic/lightning-lance.md)
+
 ## Stats (config defaults)
 
 Set in [`config/nightmare/ability/magic/holy.toml`](../../configs/config-nightmare-ability-magic-holy.md).

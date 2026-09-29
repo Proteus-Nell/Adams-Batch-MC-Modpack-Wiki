@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Full Potion](full-potion.md), [High Potion](high-potion.md), [High Arcane Potion](high-arcane-potion.md) and [Medium Arcane Potion](medium-arcane-potion.md). It is smelted in a furnace, cooked on a campfire and cooked in a smoker.
+
 ## Obtaining
 
 ### Recipes

@@ -25,6 +25,10 @@ Sneak near a decorative grave to change the memorized location
 
 Hold right click to teleport
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

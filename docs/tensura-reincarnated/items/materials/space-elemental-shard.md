@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Element Core (Space)](../miscellaneous/element-core-space.md). It is dropped by [Akash](../../mobs/akash.md) and [Winged Cat](../../mobs/winged-cat.md).
+
 ## Obtaining
 
 ### Loot

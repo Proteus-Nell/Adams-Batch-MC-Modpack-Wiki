@@ -47,7 +47,7 @@
 
 - **Related skills:** [Possession](../../../tensura-reincarnated/abilities/intrinsic-skills/possession.md)
 - **Effects:** [Revenant's Horror](../../effects/revenants-horror.md), [Collective](../../effects/collective.md), [Sanctifying Light](../../effects/sanctifying-light.md), [Awakened Foresight](../../effects/awakened-foresight.md), [Unstable Requiem](../../effects/unstable-requiem.md), [Fragility](../../../tensura-reincarnated/effects/fragility.md)
-- **Summons / entities:** [Relapse Clone](../../mobs/relapse-clone.md)
+- **Summons / entities:** [Clone](../../../tensura-reincarnated/mobs/clone.md), [Relapse Clone](../../mobs/relapse-clone.md)
 
 ## Stats (config defaults)
 

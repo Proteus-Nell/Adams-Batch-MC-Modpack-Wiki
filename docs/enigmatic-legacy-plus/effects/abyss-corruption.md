@@ -16,6 +16,10 @@
 
 > A powerful negative buff that spreads with death.
 
+## What it does
+
+A harmful status effect. Each level changes armor toughness -100% and movement speed -10%.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

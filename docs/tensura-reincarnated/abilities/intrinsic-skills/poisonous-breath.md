@@ -29,14 +29,13 @@
 
 ## Obtaining
 
-- Intrinsic skill of: [Poison Toad](../../../ascension/races/poison-toad.md), [Swamp Sovereign](../../../ascension/races/swamp-sovereign.md), [Bog Ancient](../../../ascension/races/bog-ancient.md), [Venom Lord](../../../ascension/races/venom-lord.md), [Frog Monarch](../../../ascension/races/frog-monarch.md)
 - Innate to mobs: [Tempest Serpent](../../mobs/tempest-serpent.md)
 - Listed in the `intrinsicSkills` config option (config/nightmare/race/axolotl/salamander_config.toml): List of skills obtained by this race.
 - Listed in the `intrinsicSkills` config option (config/mysticism/race/wyrm_config.toml): The list of intrinsic skills that the race gets.
 
 ## Related
 
-- **Referenced by:** [Poison Transform](../../../tensura-mysticism/abilities/intrinsic-skills/poison-transform.md)
+- **Summons / entities:** [Poisonous Breath](poisonous-breath.md)
 
 ## Stats (config defaults)
 

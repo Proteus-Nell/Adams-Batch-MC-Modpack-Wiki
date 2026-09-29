@@ -28,6 +28,7 @@
 ## Related
 
 - **Related skills:** [Sound Manipulation](sound-manipulation.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Sound Manipulation](sound-manipulation.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md)
 
 ## Stats (config defaults)

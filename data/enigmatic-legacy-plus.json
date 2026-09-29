@@ -1111,18 +1111,14 @@
     "tags": [
      "curios:charm"
     ],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_eye.png"
-   },
-   {
-    "id": "enigmaticlegacyplus:enigmatic_eye_active",
-    "path": "enigmatic_eye_active",
-    "name": "Inscrutable Eye",
-    "class": null,
-    "category": "Miscellaneous",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_eye_active.png"
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/enigmatic_eye.png",
+    "alt_names": [
+     {
+      "id": "enigmaticlegacyplus:enigmatic_eye_active",
+      "name": "Inscrutable Eye",
+      "class": "auviotre.enigmatic.legacy.contents.item.legacy.EnigmaticEye"
+     }
+    ]
    },
    {
     "id": "enigmaticlegacyplus:escape_scroll",
@@ -1163,18 +1159,14 @@
      "curios:charm",
      "enigmaticlegacyplus:enchantable/etheric_resonance"
     ],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm.png"
-   },
-   {
-    "id": "enigmaticlegacyplus:ethereal_forging_charm_active",
-    "path": "ethereal_forging_charm_active",
-    "name": "Starlight Forging Charm",
-    "class": null,
-    "category": "Miscellaneous",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm_active.png"
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm.png",
+    "alt_names": [
+     {
+      "id": "enigmaticlegacyplus:ethereal_forging_charm_active",
+      "name": "Starlight Forging Charm",
+      "class": "auviotre.enigmatic.legacy.contents.item.charms.EtherealForgingCharm"
+     }
+    ]
    },
    {
     "id": "enigmaticlegacyplus:etherium_boots",
@@ -1241,18 +1233,14 @@
     "tags": [
      "curios:spellstone"
     ],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_core.png"
-   },
-   {
-    "id": "enigmaticlegacyplus:etherium_core_active",
-    "path": "etherium_core_active",
-    "name": "Starlight Core",
-    "class": null,
-    "category": "Miscellaneous",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_core_active.png"
+    "icon_url": "assets/icons/enigmaticlegacyplus/item/etherium_core.png",
+    "alt_names": [
+     {
+      "id": "enigmaticlegacyplus:etherium_core_active",
+      "name": "Starlight Core",
+      "class": "auviotre.enigmatic.legacy.contents.item.spellstones.EtheriumCore"
+     }
+    ]
    },
    {
     "id": "enigmaticlegacyplus:etherium_hammer",
@@ -3570,50 +3558,30 @@
   ],
   "mobs": [
    {
-    "id": "enigmaticlegacyplus:cobweb_ball",
-    "path": "cobweb_ball",
-    "name": "Cobweb Ball",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:dragon_breath_arrow",
-    "path": "dragon_breath_arrow",
-    "name": "Dragon Breath Arrow",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:engine_hook",
-    "path": "engine_hook",
-    "name": "Chain Blade",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:ichor_spear",
-    "path": "ichor_spear",
-    "name": "Ichor Spear",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
     "id": "enigmaticlegacyplus:ichor_sprite",
     "path": "ichor_sprite",
     "name": "Purified Ichor Spirit",
-    "info": {},
+    "info": {
+     "category": "Creature",
+     "size": [
+      0.35,
+      0.6
+     ],
+     "class": "auviotre.enigmatic.legacy.contents.entity.IchorSprite",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Follow range": 48.0,
+      "Attack damage": 4.0,
+      "Flying speed": 0.15,
+      "Speed": 0.16,
+      "Health": 32.0
+     },
+     "ancestors": [
+      "PathfinderMob",
+      "TraceableEntity"
+     ]
+    },
     "drops": [
      {
       "rolls": [
@@ -3664,7 +3632,27 @@
     "id": "enigmaticlegacyplus:piglin_wanderer",
     "path": "piglin_wanderer",
     "name": "Piglin Wanderer",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.95
+     ],
+     "class": "auviotre.enigmatic.legacy.contents.entity.PiglinWanderer",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Attack damage": 4.0,
+      "Attack knockback": 1.6,
+      "Speed": 0.34,
+      "Health": 32.0
+     },
+     "ancestors": [
+      "AbstractPiglin",
+      "SpearAttackMob",
+      "RangedAttackMob"
+     ]
+    },
     "drops": [
      {
       "rolls": [
@@ -3723,36 +3711,6 @@
     "tags": [
      "enigmaticlegacyplus:guardian_heart_excluded"
     ],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:soul_flame_ball",
-    "path": "soul_flame_ball",
-    "name": "Soul Flame Ball",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:starlight_meteor",
-    "path": "starlight_meteor",
-    "name": "Starlight Meteor",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "enigmaticlegacyplus:ultimate_wither_skull",
-    "path": "ultimate_wither_skull",
-    "name": "Ultimate Wither Skull",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
     "spawn_egg": null
    }
   ],

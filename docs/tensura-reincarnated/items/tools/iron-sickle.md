@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:iron_sickle` |
 | **Category** | Tools |
+| **Attack damage** | 5 |
+| **Attack speed** | 1.2 |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A sickle that deals **5** attack damage at **1.2** attack speed. Durability: **250**. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

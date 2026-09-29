@@ -47,6 +47,10 @@ fight without care toward their own wellbeing.
 
 Hold Alt to see Absorbed Curses.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

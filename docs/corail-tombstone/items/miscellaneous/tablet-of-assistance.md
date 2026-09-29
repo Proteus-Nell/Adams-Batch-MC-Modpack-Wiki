@@ -27,6 +27,10 @@ Engrave a player's name
 
 Hold right click to teleport to the player with the engraved name
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

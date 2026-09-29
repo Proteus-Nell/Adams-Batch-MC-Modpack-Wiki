@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Scroll of Aquatic Life](../miscellaneous/scroll-of-aquatic-life.md), [Scroll of Feather Falling](../miscellaneous/scroll-of-feather-fall.md), [Scroll of Frost Resistance](../miscellaneous/scroll-of-frost-resistance.md), [Scroll of Knowledge](../miscellaneous/scroll-of-knowledge.md), [Scroll of Lightning Resistance](../miscellaneous/scroll-of-lightning-resistance.md) and 6 more. It is crafted.
+
 ## Obtaining
 
 ### Recipes

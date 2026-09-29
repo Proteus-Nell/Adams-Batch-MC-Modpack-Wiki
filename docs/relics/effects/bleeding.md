@@ -13,3 +13,7 @@
 | **Color** | `#6836AA` |
 
 </div>
+
+## What it does
+
+Every second it deals magic damage equal to **5% of your current health** (at most 10). The [Rage Glove](../items/hands/rage-glove.md) inflicts it for 5 seconds.

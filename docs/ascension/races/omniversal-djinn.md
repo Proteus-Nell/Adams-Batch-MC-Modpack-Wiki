@@ -62,7 +62,6 @@ Granted automatically when you become this race.
 
 - ![](../../assets/icons/tensura/skill/giantification.png) [Giantification](../../tensura-reincarnated/abilities/intrinsic-skills/giantification.md)
 - ![](../../assets/icons/tensura/skill/drain.png) [Drain](../../tensura-reincarnated/abilities/intrinsic-skills/drain.md)
-- ![](../../assets/icons/tensura/skill/blood_mist.png) [Blood Mist](../../tensura-reincarnated/abilities/intrinsic-skills/blood-mist.md)
 - ![](../../assets/icons/tensura/skill/titanification.png) [Titanification](../../tensura-reincarnated/abilities/intrinsic-skills/titanification.md)
 - ![](../../assets/icons/tensura/skill/light_transform.png) [Light Transform](../../tensura-reincarnated/abilities/intrinsic-skills/light-transform.md)
 - ![](../../assets/icons/tensura/skill/divine_ki_release.png) [Divine Ki Release](../../tensura-reincarnated/abilities/intrinsic-skills/divine-ki-release.md)

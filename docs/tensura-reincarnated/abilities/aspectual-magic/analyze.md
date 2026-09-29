@@ -36,6 +36,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Analytical Appraisal](../extra-skills/analytical-appraisal.md)
 
 ## Stats (config defaults)

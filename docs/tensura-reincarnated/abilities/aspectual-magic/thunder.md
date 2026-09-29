@@ -39,6 +39,7 @@
 
 ## Related
 
+- **Summons / entities:** Lightning Bolt
 - **Referenced by:** [Thunder Orb](thunder-orb.md), [Thunder Rain](thunder-rain.md)
 
 ## Stats (config defaults)

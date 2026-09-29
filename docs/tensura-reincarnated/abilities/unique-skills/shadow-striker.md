@@ -56,6 +56,7 @@
 ## Related
 
 - **Effects:** [Presence Concealment](../../effects/presence-concealment.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Tsukiyomi, Lord of Moonshadow ｣](../../../tr-nightmares/abilities/ultimate-skills/tsukiyomi.md)
 
 ## Stats (config defaults)

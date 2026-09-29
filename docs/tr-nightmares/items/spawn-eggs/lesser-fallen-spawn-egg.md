@@ -11,3 +11,7 @@
 | **Stack size** | 64 |
 
 </div>
+
+## What it does
+
+Creative-mode spawn egg. Use it on a block to spawn [Lesser Fallen](../../mobs/lesser-fallen.md).

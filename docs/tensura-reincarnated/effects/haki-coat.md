@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Your haki or aura wrapped around your body. It gives **+1** physical resistance degradation, so your physical hits ignore physical resistances. It also lets physical attacks hurt beings that normally shrug them off (magic elementals and some bosses take only 1% from plain physical hits): **half** damage with Haki Coat I, **full** damage with Haki Coat II or higher.
+
+Sacred Haki and Demon Lord Haki toggle it (120 s), Villain keeps it on while active, and bosses such as Gazel Dwargo, Luminous Valentine and Carrion have level II.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -25,6 +25,10 @@
 
 </div>
 
+## What it does
+
+A dimension with generated terrain. Time never moves: it is always midnight. Respawn anchors don't work and compasses and clocks spin. Build height: Y 0 to 255.
+
 ## Biomes
 
 [Paths Plains](../biomes/paths-plains.md)

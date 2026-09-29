@@ -45,6 +45,7 @@
 
 ## Related
 
+- **Summons / entities:** Magic Explosion, Landmine
 - **Referenced by:** [Chain Explosion](chain-explosion.md)
 
 ## Stats (config defaults)

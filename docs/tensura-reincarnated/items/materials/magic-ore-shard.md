@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Block of Magic Ore](../../blocks/magic-ore-block.md) and [Pure Magisteel Nugget](pure-magisteel-nugget.md). It is crafted, made at the Mining Station, dropped by [Metal Slime](../../mobs/metal-slime.md), dropped when you break [Deepslate Magic Ore](../../blocks/deepslate-magic-ore.md), [Magic Ore](../../blocks/magic-ore.md), [Magic Cluster](../../../elite-tensura/blocks/magic-ore-cluster.md) and [Large Magic Bud](../../../elite-tensura/blocks/magic-ore-large-bud.md) and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

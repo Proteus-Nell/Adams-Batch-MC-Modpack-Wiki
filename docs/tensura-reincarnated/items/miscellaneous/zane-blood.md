@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Dubious Food](dubious-food.md). It is dropped by Luminous Valentine.
+
 ## Obtaining
 
 ### Loot

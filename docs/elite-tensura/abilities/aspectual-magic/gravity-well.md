@@ -31,6 +31,7 @@
 ## Related
 
 - **Related skills:** [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md)
+- **Summons / entities:** [Gravity Well](gravity-well.md)
 
 ## Stats (config defaults)
 

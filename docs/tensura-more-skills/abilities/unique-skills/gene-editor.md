@@ -37,6 +37,7 @@
 ## Related
 
 - **Items:** [Genetic Syringe](../../items/miscellaneous/genetic-syringe.md)
+- **Summons / entities:** Tensura
 
 ## In-game messages
 

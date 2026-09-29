@@ -49,7 +49,7 @@
 ## Related
 
 - **Effects:** [Diamond Dust](../../effects/albis-diamond-dust.md)
-- **Summons / entities:** [Ars Weiss Body](../../mobs/ars-weiss-clone.md)
+- **Summons / entities:** [Ars Weiss Body](../../mobs/ars-weiss-clone.md), Tensura
 
 ## In-game messages
 

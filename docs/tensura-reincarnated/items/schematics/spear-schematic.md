@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Adamantite Scythe](../weapons/adamantite-scythe.md), [Adamantite Spear](../weapons/adamantite-spear.md), [Beast Horn Spear](../weapons/beast-horn-spear.md), [Blade Tiger Scythe](../weapons/blade-tiger-scythe.md), [Diamond Scythe](../weapons/diamond-scythe.md), [Diamond Spear](../weapons/diamond-spear.md) and 25 more. It is found in 4 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

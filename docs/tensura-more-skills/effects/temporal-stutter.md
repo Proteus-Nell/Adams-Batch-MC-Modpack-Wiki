@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Time skipping around you. Per level: **-70%** movement and flying speed, **-65%** attack speed and **-55%** chant speed. Istaroth applies it through most of its techniques.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

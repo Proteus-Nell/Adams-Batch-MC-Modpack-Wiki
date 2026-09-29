@@ -49,6 +49,7 @@
 
 - **Related skills:** [Heat Nullification](../../../tensura-reincarnated/abilities/resistance-skills/heat-nullification.md), [Heat Resistance](../../../tensura-reincarnated/abilities/resistance-skills/heat-resistance.md)
 - **Effects:** [Overclock](../../effects/overclock.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

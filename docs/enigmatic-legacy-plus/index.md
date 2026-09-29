@@ -22,9 +22,9 @@ Mysterious rings, amulets, spellstones, scrolls and cursed items, with the Seven
 
 | Section | Entries |
 |---|---|
-| [Items](items/index.md) | 152 |
+| [Items](items/index.md) | 149 |
 | [Blocks](blocks/index.md) | 11 |
-| [Mobs](mobs/index.md) | 9 |
+| [Mobs](mobs/index.md) | 2 |
 | [Effects](effects/index.md) | 10 |
 | [Enchantments](enchantments/index.md) | 9 |
 | [Structures](structures/index.md) | 1 |

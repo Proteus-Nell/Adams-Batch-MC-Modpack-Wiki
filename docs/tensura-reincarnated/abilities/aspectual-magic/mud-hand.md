@@ -39,6 +39,7 @@
 ## Related
 
 - **Effects:** [Movement Interference](../../effects/movement-interference.md)
+- **Summons / entities:** Mud Hands
 - **Referenced by:** [Mud Spears](mud-spears.md)
 
 ## Stats (config defaults)

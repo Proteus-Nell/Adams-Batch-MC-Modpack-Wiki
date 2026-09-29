@@ -8,13 +8,17 @@
 |---|---|
 | **ID** | `tensura:hell/red_sand_ruin` |
 | **Type** | `tensura:jigsaw_min_height` |
-| **Biomes** | `#tensura:has_structure/hell_red_sand_ruin` |
+| **Biomes** | Underworld Red Sands |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 5 / 4 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Underworld Red Sands, about one every 5 chunks (at least 4 chunks apart).
 
 ## Loot
 

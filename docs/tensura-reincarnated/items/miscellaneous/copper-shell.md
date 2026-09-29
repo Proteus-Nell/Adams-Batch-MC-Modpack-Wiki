@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Sticky Steel Web Cartridge](sticky-steel-web-cartridge.md), [Sticky Web Cartridge](sticky-web-cartridge.md) and [Web Cartridge](web-cartridge.md). It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

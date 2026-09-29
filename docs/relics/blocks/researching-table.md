@@ -11,3 +11,7 @@
 | **ID** | `relics:researching_table` |
 
 </div>
+
+## What it does
+
+A decorative wooden table that gives off light level 15. In this version of Relics it has no function: nothing ever puts an item on it and right-clicking it does nothing.

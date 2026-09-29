@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Heart of the Earth](earth-heart.md) and [Unwitnessed Amulet](../amulets/unwitnessed-amulet.md). It is found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

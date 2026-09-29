@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+It is dropped by [Hell Caterpillar](../../mobs/hell-caterpillar.md) and [Hell Moth](../../mobs/hell-moth.md).
+
 ## Obtaining
 
 ### Loot

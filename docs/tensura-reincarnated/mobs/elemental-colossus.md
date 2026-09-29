@@ -1,17 +1,29 @@
 # Elemental Colossus
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:elemental_colossus` |
+| **Type** | Boss |
+| **Health** | 600 |
+| **Attack damage** | 50 |
+| **Armor** | 40 |
+| **Speed** | 0.2 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 330,000 - 350,000 |
 | **Spiritual health** | 4,500 |
+| **Hitbox** | 2 x 4 blocks |
 | **Spawn egg** |  [Elemental Colossus Spawn Egg](../items/spawn-eggs/elemental-colossus-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A boss with **600** health, **50** attack damage and **330,000-350,000** magicule. It has 1 skill you can take from it with Predator-type skills. Drops [Block of Pure Magisteel](../blocks/pure-magisteel-block.md) and [Elemental Essence](../items/materials/elemental-essence.md).
 
 ## Abilities
 

@@ -47,6 +47,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Stillness](../unique-skills/stillness.md)
 
 ## Stats (config defaults)

@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Chestplate](adamantite-chestplate.md) |
+| **Armor** | 13 |
+| **Armor toughness** | 7 |
+| **Knockback resistance** | 60% |
+| **Durability** | 960 |
 
 </div>
+
+## What it does
+
+Pure Magisteel armor for the chestplate slot: **13** armor, **7** toughness and **60%** knockback resistance. Durability: **960**. It is made at the Smithing Bench.
 
 ## Obtaining
 

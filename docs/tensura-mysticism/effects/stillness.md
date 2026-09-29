@@ -10,3 +10,7 @@
 | **Type** | Beneficial |
 
 </div>
+
+## What it does
+
+Your skills **cost no magicule or aura** while it lasts. Eternal Domain gives it.

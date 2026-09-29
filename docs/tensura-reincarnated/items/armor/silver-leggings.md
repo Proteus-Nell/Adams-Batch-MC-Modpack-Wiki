@@ -11,8 +11,13 @@
 | **ID** | `tensura:silver_leggings` |
 | **Category** | Armor |
 | **Gear EP** | 0 - 0 |
+| **Armor** | 5 |
 
 </div>
+
+## What it does
+
+Silver armor for the leggings slot: **5** armor. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

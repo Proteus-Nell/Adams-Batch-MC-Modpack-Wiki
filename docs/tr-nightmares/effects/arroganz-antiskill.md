@@ -11,3 +11,7 @@
 | **Color** | `#87CEFA` |
 
 </div>
+
+## What it does
+
+Shuts off skills. While you have it, you can't use or interact with any of your skills.

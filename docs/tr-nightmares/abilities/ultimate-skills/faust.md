@@ -55,6 +55,7 @@
 ## Related
 
 - **Related skills:** [Investigator](../unique-skills/investigator.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Investigator](../unique-skills/investigator.md), [｢ Nyarlathotep, King of Chaos ｣](nyarlathotep.md)
 
 ## Stats (config defaults)

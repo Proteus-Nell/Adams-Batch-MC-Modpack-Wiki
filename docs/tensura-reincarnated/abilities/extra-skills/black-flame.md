@@ -50,8 +50,9 @@
 
 ## Related
 
-- **Related skills:** [Black Lightning](black-lightning.md), [Molecular Manipulation](molecular-manipulation.md), [Flame Transform](../intrinsic-skills/flame-transform.md), [Ogre Flame](../battlewill/ogre-flame.md), [Ranged Barrier](../common-skills/ranged-barrier.md), [Flame Manipulation](flame-manipulation.md), [Flame Domination](flame-domination.md)
+- **Related skills:** [Black Lightning](black-lightning.md), [Molecular Manipulation](molecular-manipulation.md), [Flame Transform](../intrinsic-skills/flame-transform.md), [Ogre Flame](../battlewill/ogre-flame.md), [Flame Manipulation](flame-manipulation.md), [Flame Domination](flame-domination.md)
 - **Effects:** [Black Burn](../../effects/black-burn.md)
+- **Summons / entities:** [Ranged Barrier](../common-skills/ranged-barrier.md), Black Flame Breath, Black Flame Ball, Hell Flare
 - **Referenced by:** [Coffin of Darkness](../../../tr-nightmares/abilities/unique-skills/coffin-of-darkness.md), [Black Flame Thunder](../../../tr-nightmares/abilities/intrinsic-skills/black-flame-thunder.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md), [Godly Scientist](../../../tensura-more-skills/abilities/unique-skills/godly-scientist.md)
 
 ## Stats (config defaults)

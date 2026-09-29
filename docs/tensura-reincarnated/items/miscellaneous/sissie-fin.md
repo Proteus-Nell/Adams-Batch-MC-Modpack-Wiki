@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Sissie Fin](cooked-sissie-fin.md) and [Dubious Food](dubious-food.md). It is dropped by [Sissie](../../mobs/sissie.md).
+
 ## Obtaining
 
 ### Loot

@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `tensura:charybdis_cave/plains` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/charybdis_cave` |
+| **Biomes** | Ancient Forest |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 90 / 20 chunks |
 | **Terrain adaptation** | beard_box |
 | **Size (jigsaw depth)** | 7 |
 
 </div>
+
+## What it does
+
+Generates in Ancient Forest, about one every 90 chunks (at least 20 chunks apart).

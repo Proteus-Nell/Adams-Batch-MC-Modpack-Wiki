@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:wooden_tachi` |
 | **Category** | Weapons |
+| **Attack damage** | 6 (5 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Tier** | Wood |
+| **Durability** | 59 |
 
 </div>
+
+## What it does
+
+A tachi you can hold in one or both hands. Two-handed it deals **6** attack damage at **1.4** attack speed; one-handed **5** damage at **1.2** speed. It also has +1 block of reach, +20% critical hit chance and 25% sweeping damage. Durability: **59**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -25,6 +25,10 @@
 
 </div>
 
+## What it does
+
+A dimension with generated terrain. Time never moves: it is always noon. Beds explode if you try to sleep. Build height: Y -64 to 255.
+
 ## Biomes
 
 [Kamui Biome](../biomes/kamui-biome.md)

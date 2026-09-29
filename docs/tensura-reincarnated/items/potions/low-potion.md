@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Low Arcane Potion](low-arcane-potion.md).
+
 ## Used in
 
 [Low Arcane Potion](low-arcane-potion.md)

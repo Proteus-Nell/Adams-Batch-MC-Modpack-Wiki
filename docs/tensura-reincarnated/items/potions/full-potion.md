@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [High Arcane Potion](high-arcane-potion.md). It is made with Refining (Great Sage / Researcher).
+
 ## Obtaining
 
 ### Recipes

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dimensional Anchor](../../blocks/dimensional-anchor.md), [Dragon Breath Bow](../tools/dragon-breath-bow.md), [Ethereal Forging Charm](../charms/ethereal-forging-charm.md), [Ethereal Lantern](../../blocks/ethereal-lantern.md), [Etherium Block](../../blocks/etherium-block.md) and 11 more. It is smelted in a blast furnace, crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

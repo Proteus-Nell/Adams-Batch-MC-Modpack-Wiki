@@ -32,6 +32,10 @@ Current tuning: Absent.
 
 - Absent.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Magic Ore](../../tensura-reincarnated/items/materials/magic-ore-shard.md). You need a stone pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

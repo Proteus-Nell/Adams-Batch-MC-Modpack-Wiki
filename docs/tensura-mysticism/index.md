@@ -25,7 +25,7 @@ Tensura addon focused on races (wyrms, direwolves, insects, elementals, angels a
 | [Races](races/index.md) | 186 |
 | [Items](items/index.md) | 11 |
 | [Blocks](blocks/index.md) | 1 |
-| [Mobs](mobs/index.md) | 9 |
+| [Mobs](mobs/index.md) | 8 |
 | [Effects](effects/index.md) | 34 |
 | [Enchantments](enchantments/index.md) | 2 |
 | [Biomes](biomes/index.md) | 8 |

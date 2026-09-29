@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Armor** | 15 |
+| **Armor toughness** | 10 |
+| **Knockback resistance** | 100% |
+| **Durability** | 1,200 |
 
 </div>
+
+## What it does
+
+Hihiirokane armor for the leggings slot: **15** armor, **10** toughness and **100%** knockback resistance. Durability: **1,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

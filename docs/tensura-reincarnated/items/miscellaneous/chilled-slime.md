@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Slime Chunk](slime-chunk.md), [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion), [Chilled Slime Block](../../blocks/chilled-slime-block.md) and 1 more. It is crafted and dropped by [Slime](../../mobs/slime.md) and [Supermassive Slime](../../mobs/supermassive-slime.md).
+
 ## Obtaining
 
 ### Recipes

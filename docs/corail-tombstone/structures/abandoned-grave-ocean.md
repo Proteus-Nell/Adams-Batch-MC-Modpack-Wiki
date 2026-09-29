@@ -15,3 +15,7 @@
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in `#tombstone:has_structure/abandoned_grave_ocean`, about one every 32 chunks (at least 8 chunks apart).

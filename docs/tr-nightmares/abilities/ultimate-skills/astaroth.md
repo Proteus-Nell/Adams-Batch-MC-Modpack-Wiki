@@ -65,6 +65,7 @@
 
 - **Related skills:** [Hand of Creation](../extra-skills/hand-of-creation.md), [Hand of Destruction](../extra-skills/hand-of-destruction.md), [｢ Astarte, Lord of Heaven ｣](astarte.md), [｢ Belphegor, Lord of Sloth ｣](belphegor.md), [Spiritual Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/spiritual-attack-nullification.md), [Spiritual Attack Resistance](../../../tensura-reincarnated/abilities/resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Shadow Step](../../../tensura-reincarnated/effects/shadow-step.md), [Drowsiness](../../../tensura-reincarnated/effects/drowsiness.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -60,4 +60,5 @@
 ## Related
 
 - **Related skills:** [Authority of Greed](../unique-skills/authority-of-greed.md), [True Authority of Greed](true-authority-of-greed.md), [Satella](../unique-skills/satella.md), [Darkness](../../../tensura-reincarnated/abilities/spiritual-magic/darkness.md), [Shadow Bind](../../../tensura-reincarnated/abilities/spiritual-magic/shadow-bind.md), [Dark Cube](../../../tensura-reincarnated/abilities/spiritual-magic/dark-cube.md), [Darkness Cannon](../../../tensura-reincarnated/abilities/spiritual-magic/darkness-cannon.md), [True Darkness](../../../tensura-reincarnated/abilities/spiritual-magic/true-darkness.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Satella](../unique-skills/satella.md)

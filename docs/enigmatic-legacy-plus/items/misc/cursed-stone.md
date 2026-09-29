@@ -29,6 +29,10 @@ one of your Soul Crystals.
 
 This cannot be undone.
 
+## What it does
+
+Used to make [Holy Stone](bless-stone.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

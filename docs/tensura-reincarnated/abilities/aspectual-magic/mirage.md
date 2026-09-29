@@ -38,6 +38,7 @@
 ## Related
 
 - **Effects:** [Energy Blockade](../../effects/energy-blockade.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

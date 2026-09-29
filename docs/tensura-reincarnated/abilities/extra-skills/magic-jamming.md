@@ -43,6 +43,7 @@
 ## Related
 
 - **Effects:** [Magic Interference](../../effects/magic-interference.md)
+- **Summons / entities:** Tensura, [Charybdis](../../mobs/charybdis.md)
 - **Referenced by:** [Mana Manipulation](mana-manipulation.md)
 
 ## Stats (config defaults)

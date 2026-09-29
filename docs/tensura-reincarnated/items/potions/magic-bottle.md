@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Full Potion](full-potion.md), [High Potion](high-potion.md), [High Arcane Potion](high-arcane-potion.md) and [Medium Arcane Potion](medium-arcane-potion.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

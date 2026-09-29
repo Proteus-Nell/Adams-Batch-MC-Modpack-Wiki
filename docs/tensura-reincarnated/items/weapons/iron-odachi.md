@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:iron_odachi` |
 | **Category** | Weapons |
+| **Attack damage** | 9 (0 one-handed) |
+| **Attack speed** | 0.8 (0 one-handed) |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A odachi you can hold in one or both hands. Two-handed it deals **9** attack damage at **0.8** attack speed; one-handed **0** damage at **0** speed. It also has +2 blocks of reach, +20% critical hit chance and 50% sweeping damage. Durability: **250**. It is made at the Smithing Bench.
 
 ## Obtaining
 

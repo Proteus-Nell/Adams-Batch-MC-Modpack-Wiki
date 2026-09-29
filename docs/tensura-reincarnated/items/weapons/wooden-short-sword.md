@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:wooden_short_sword` |
 | **Category** | Weapons |
+| **Attack damage** | 2 |
+| **Attack speed** | 2 |
+| **Tier** | Wood |
+| **Durability** | 59 |
 
 </div>
+
+## What it does
+
+A short sword that deals **2** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **59**. It is made at the Smithing Bench.
 
 ## Obtaining
 

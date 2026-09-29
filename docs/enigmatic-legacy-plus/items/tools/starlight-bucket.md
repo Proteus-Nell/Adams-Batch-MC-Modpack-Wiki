@@ -21,6 +21,10 @@ None
 
 Current Fluid: ?.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

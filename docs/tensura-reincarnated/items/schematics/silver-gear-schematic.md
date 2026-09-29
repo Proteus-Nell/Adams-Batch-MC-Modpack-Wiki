@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Silver Apple](../food/silver-apple.md), [Silver Axe](../tools/silver-axe.md), [Silver Boots](../armor/silver-boots.md), [Silver Chestplate](../armor/silver-chestplate.md), [Silver Helmet](../armor/silver-helmet.md), [Silver Hoe](../tools/silver-hoe.md) and 14 more. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

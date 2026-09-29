@@ -60,6 +60,7 @@
 
 - **Related skills:** [Tempter](../unique-skills/tempter.md), [Seeker](../../../tensura-reincarnated/abilities/unique-skills/seeker.md), [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md)
 - **Effects:** [Mind Control](../../../tensura-reincarnated/effects/mind-control.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+**+50** armor per level. Milk and other cures don't remove it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

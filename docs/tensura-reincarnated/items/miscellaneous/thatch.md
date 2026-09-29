@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Tatami Block](../../blocks/tatami-block.md), [Thatch Bed](../../blocks/thatch-bed.md), [Thatch Block](../../blocks/thatch-block.md) and [Training Dummy](../../blocks/training-dummy.md). It is crafted and found in 13 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

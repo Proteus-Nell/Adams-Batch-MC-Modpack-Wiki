@@ -42,6 +42,7 @@
 ## Related
 
 - **Related skills:** [Icicle Lance](icicle-lance.md)
+- **Summons / entities:** Ice Lance
 
 ## Stats (config defaults)
 

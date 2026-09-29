@@ -25,6 +25,10 @@
 
 </div>
 
+## What it does
+
+A dimension with generated terrain. Time never moves: it is always noon. Beds explode if you try to sleep. Build height: Y -64 to 255.
+
 ## Biomes
 
 [Fire Biome](../biomes/fire-biome.md), [Water Biome](../biomes/water-biome.md), [Earth Biome](../biomes/earth-biome.md), [Wind Biome](../biomes/wind-biome.md), [Space Biome](../biomes/space-biome.md), [Light Biome](../biomes/light-biome.md), [Darkness Biome](../biomes/darkness-biome.md)

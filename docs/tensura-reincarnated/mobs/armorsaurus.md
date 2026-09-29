@@ -1,18 +1,29 @@
 # Armorsaurus
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:armorsaurus` |
+| **Type** | Monster |
+| **Health** | 80 |
+| **Attack damage** | 16 |
+| **Armor** | 20 |
+| **Speed** | 0.175 |
+| **Knockback resistance** | 0.7 |
 | **Magicule (EP)** | 2,000 - 2,500 |
 | **Aura** | 3,000 - 3,500 |
 | **Spiritual health** | 200 |
+| **Hitbox** | 1.5 x 2 blocks |
 | **Spawn egg** |  [Armorsaurus Spawn Egg](../items/spawn-eggs/armorsaurus-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **80** health, **16** attack damage and **2,000-2,500** magicule. Spawns naturally in Armorsaurus Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Raw Armorsaurus Meat](../items/miscellaneous/raw-armorsaurus-meat.md), [Armorsaurus Scale](../items/materials/armorsaurus-scale.md) and [Armorsaurus Shell](../items/miscellaneous/armorsaurus-shell.md).
 
 ## Abilities
 
@@ -24,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:armorsaurus_spawn` | 60 | 1-1 |
+| Is Badlands, Is Cave, Dripstone Caves, Lush Caves, Desert of Death | 60 | 1-1 |
 
 ## Drops
 

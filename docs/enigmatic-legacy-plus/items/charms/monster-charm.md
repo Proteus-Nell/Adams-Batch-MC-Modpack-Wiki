@@ -19,6 +19,10 @@
 
 Slain monsters drop double as much experience.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

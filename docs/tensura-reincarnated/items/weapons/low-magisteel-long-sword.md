@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Long Sword](high-magisteel-long-sword.md) |
+| **Attack damage** | 14 (13 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A long sword you can hold in one or both hands. Two-handed it deals **14** attack damage at **1.4** attack speed; one-handed **13** damage at **1.2** speed. It also has +1 block of reach and 25% sweeping damage. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

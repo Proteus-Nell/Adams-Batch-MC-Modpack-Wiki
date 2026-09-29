@@ -34,7 +34,8 @@
 
 ## Related
 
-- **Related skills:** [Ice Domination](ice-domination.md), [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
+- **Related skills:** [Ice Domination](ice-domination.md)
+- **Summons / entities:** Mysticism, [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
 - **Referenced by:** [Ice Domination](ice-domination.md)
 
 ## Stats (config defaults)

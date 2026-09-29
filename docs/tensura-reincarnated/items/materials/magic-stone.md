@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Character Reset Scroll](../books-scrolls/character-reset-scroll.md), [Daemon Core](daemon-core.md), [Dubious Food](../miscellaneous/dubious-food.md), [Empty Element Core](../miscellaneous/element-core-empty.md), [Race Reset Scroll](../books-scrolls/race-reset-scroll.md) and 11 more. It is made at the Smithing Bench, dropped by [Kirara Mizutani](../../mobs/kirara-mizutani.md) and found in 6 kinds of loot chest.
+
 ## Obtaining
 
 ### Recipes

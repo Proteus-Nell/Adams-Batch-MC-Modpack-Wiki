@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Condemned to repeat. Per level: **-65%** movement and flying speed. Istaroth's Condemned Repeat inflicts it at level V.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

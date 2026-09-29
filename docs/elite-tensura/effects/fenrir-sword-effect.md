@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Frostbite from the [Fenrir Sword](../items/weapons/fenrir-sword.md). Per level: **-20%** movement and swim speed, **-33%** jump strength, **-10%** attack speed and **-30%** mining speed. From level II you can't sprint. Abnormal Condition Nullification, while toggled on, counts it as one level lower. The Fenrir Sword applies level V on hit.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -39,4 +39,5 @@
 ## Related
 
 - **Related skills:** [Stasis](stasis.md), [Cadence](cadence.md), [｢ Gabriel, Lord of Patience ｣](../ultimate-skills/gabriel.md), [Time Traveler](time-traveler.md), [｢ Yog-Sothoth, Lord of Space-Time ｣](../ultimate-skills/yog-sothoth.md), [｢ Yog-Sotohort, God of Space-Time ｣](../ultimate-skills/yog-sotohort.md), [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md), [Spacetime Domination](../extra-skills/spacetime-domination.md)
+- **Summons / entities:** Judgment Cutter
 - **Referenced by:** [Witch's Envy](witches-envy.md), [Hive King](../ultimate-skills/hive-king.md)

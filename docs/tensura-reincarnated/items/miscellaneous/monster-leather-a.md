@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Character Reset Scroll](../books-scrolls/character-reset-scroll.md), [Coin Pouch (A)](pouch-a.md), [Race Reset Scroll](../books-scrolls/race-reset-scroll.md), [Skill Reset Scroll](../books-scrolls/skill-reset-scroll.md), [Monster Leather Boots (A)](../armor/monster-leather-boots-a.md) and 8 more. It is dropped by [Blade Tiger](../../mobs/blade-tiger.md) and [Pegacorn](../../mobs/pegacorn.md).
+
 ## Obtaining
 
 ### Loot

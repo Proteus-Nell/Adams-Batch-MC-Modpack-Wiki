@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 1,000 - 2,500 |
 | **Evolves into** | [Monster Leather Boots (C)](monster-leather-boots-c.md) |
+| **Armor** | 1 |
+| **Armor toughness** | 0.5 |
+| **Knockback resistance** | 10% |
 
 </div>
+
+## What it does
+
+Monster Leather D armor for the boots slot: **1** armor, **0.5** toughness and **10%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

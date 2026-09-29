@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+Mood Maker's Mood Booster: **+1** luck and **+10%** critical damage per level. Each cast adds a level (up to 5), and it lasts 30 seconds. When Mood Maker saves you from death, the boost is used up.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -11,8 +11,16 @@
 | **ID** | `tensura:hihiirokane_hoe` |
 | **Category** | Tools |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 52 |
+| **Attack speed** | 1 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A hoe that deals **52** attack damage at **1** attack speed. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

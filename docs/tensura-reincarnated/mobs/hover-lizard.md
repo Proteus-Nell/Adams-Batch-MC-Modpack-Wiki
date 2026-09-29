@@ -1,17 +1,28 @@
 # Hover Lizard
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:hover_lizard` |
+| **Type** | Monster |
+| **Health** | 30 |
+| **Attack damage** | 5 |
+| **Armor** | 2 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.01 |
 | **Magicule (EP)** | 3,000 - 6,000 |
 | **Spiritual health** | 100 |
+| **Hitbox** | 1 x 2.5 blocks |
 | **Spawn egg** |  [Hover Lizard Spawn Egg](../items/spawn-eggs/hover-lizard-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **30** health, **5** attack damage and **3,000-6,000** magicule. Spawns naturally in Hover Lizard Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Monster Leather (C)](../items/miscellaneous/monster-leather-c.md).
 
 ## Abilities
 
@@ -23,7 +34,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:hover_lizard_spawn` | 8 | 1-3 |
+| Is Swamp | 8 | 1-3 |
 
 ## Drops
 

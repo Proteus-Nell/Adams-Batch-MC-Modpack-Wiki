@@ -36,6 +36,7 @@
 ## Related
 
 - **Related skills:** [Water Manipulation](water-manipulation.md)
+- **Summons / entities:** Tensura, Water Ball
 - **Referenced by:** [Water Manipulation](water-manipulation.md)
 
 ## Stats (config defaults)

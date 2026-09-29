@@ -65,6 +65,7 @@
 ## Related
 
 - **Related skills:** [Phoenix](phoenix.md), [Sword Saint](sword-saint.md), [Death God](death-god.md), [Phoenix Next](phoenix-next.md), [Hero Banner Blessing](../extra-skills/hero-banner-blessing.md), [Glorious](../unique-skills/glorious.md), [Gift](../unique-skills/gift.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Blessing of Faith](../extra-skills/faith-blessing.md), [｢ Zehirete, God of Faith ｣](zehirete.md)
 
 ## Stats (config defaults)

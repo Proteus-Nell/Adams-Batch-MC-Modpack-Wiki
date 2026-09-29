@@ -17,3 +17,7 @@
 | **Foliage Color** | `#9E814D` |
 
 </div>
+
+## What it does
+
+A hot biome where it never rains or snows.

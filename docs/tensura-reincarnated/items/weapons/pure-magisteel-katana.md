@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Katana](adamantite-katana.md) |
+| **Attack damage** | 35 (34 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **35** attack damage at **1.8** attack speed; one-handed **34** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -15,3 +15,7 @@
 | **Water Color** | `#3F76E4` |
 
 </div>
+
+## What it does
+
+A temperate biome.

@@ -13,8 +13,15 @@
 | **Durability** | 100 |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [Medium Magic Staff](medium-magic-staff.md) |
+| **Attack damage** | 6 |
+| **Attack speed** | 1 |
+| **Tier** | Low Magisteel |
 
 </div>
+
+## What it does
+
+A Low Magisteel weapon that deals **6** attack damage at **1** attack speed. It also has +0.5 blocks of reach. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

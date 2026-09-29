@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Ice Essence](../items/materials/ice-essence.md). You need a diamond pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

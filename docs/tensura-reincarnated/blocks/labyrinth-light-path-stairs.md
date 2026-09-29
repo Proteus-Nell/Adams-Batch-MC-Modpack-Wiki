@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Decorative stairs made from [Labyrinth Light Path](labyrinth-light-path.md).
+
 ## Tags
 
 `tensura:labyrinth_blocks`

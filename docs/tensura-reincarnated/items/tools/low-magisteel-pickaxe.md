@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Pickaxe](high-magisteel-pickaxe.md) |
+| **Attack damage** | 10 |
+| **Attack speed** | 1.2 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A pickaxe that deals **10** attack damage at **1.2** attack speed. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

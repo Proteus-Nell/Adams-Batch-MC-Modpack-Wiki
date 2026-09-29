@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Ice Blade](../weapons/ice-blade.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

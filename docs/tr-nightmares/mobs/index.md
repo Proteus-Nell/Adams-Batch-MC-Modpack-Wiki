@@ -2,7 +2,7 @@
 
 <small>[TR: Nightmares](../index.md)</small>
 
-TR: Nightmares adds **60** mobs, including 27 bosses.
+TR: Nightmares adds **60** mobs, including 28 bosses.
 
 ## Bosses
 
@@ -14,6 +14,7 @@ TR: Nightmares adds **60** mobs, including 27 bosses.
 | [Primordial Blanc](sentient-boss-blanc.md) |  |  |  |
 | [Primordial Bleu](sentient-boss-bleu.md) |  |  |  |
 | [Primordial Jaune](sentient-boss-jaune.md) |  |  |  |
+| [Primordial Nior](sentient-boss-nior.md) |  |  |  |
 | [Primordial Vert](sentient-boss-vert.md) |  |  |  |
 | [Primordial Violet](sentient-boss-violet.md) |  |  |  |
 | [Sentient Boss Agera](sentient-boss-agera.md) |  |  | 1,050,000 - 1,050,000 |
@@ -73,7 +74,6 @@ TR: Nightmares adds **60** mobs, including 27 bosses.
 | [Lesser Phantom](lesser-phantom.md) |  |  | 18,000 - 20,000 |
 | [Mystic Oni](mystic-oni.md) | maxHp | attack | 40,000 - 100,000 |
 | [Ogre](ogre.md) | maxHp | attack | 300 - 600 |
-| [Primordial Nior](sentient-boss-nior.md) |  |  |  |
 | [Seraph](seraph.md) |  |  |  |
 | [Spirit Bird](spirit-bird.md) | maxHp | attack | 400,000 - 400,000 |
 | [Spirit Oni](spirit-oni.md) | maxHp | attack | 400,000 - 400,000 |

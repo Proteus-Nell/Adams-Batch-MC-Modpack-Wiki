@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Daemon Core](daemon-core.md), [Dubious Food](../miscellaneous/dubious-food.md), [High Arcane Potion](../potions/high-arcane-potion.md), [Medium Arcane Potion](../potions/medium-arcane-potion.md) and [Low Arcane Potion](../potions/low-arcane-potion.md). It is dropped by [Arch Daemon](../../mobs/arch-daemon.md), [Greater Daemon](../../mobs/greater-daemon.md) and [Lesser Daemon](../../mobs/lesser-daemon.md) and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

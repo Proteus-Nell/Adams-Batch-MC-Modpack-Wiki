@@ -1,14 +1,21 @@
 # Vaelthorn, the Hollow Sovereign
 
-<small>[Elite Tensura](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Elite Tensura](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `elitetensura:lich_boss` |
+| **Type** | Boss |
+| **Follow range** | 32 |
+| **Hitbox** | 1.4 x 2.9 blocks |
 
 </div>
+
+## What it does
+
+A boss. Drops [Hihi'Irokane Ingot](../../tensura-reincarnated/items/materials/hihiirokane-ingot.md), [Chronicle](../items/miscellaneous/chronicle.md) and [Potential Catalyst](../items/miscellaneous/potential-catalyst.md).
 
 ## Drops
 

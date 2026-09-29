@@ -51,7 +51,7 @@
 ## Related
 
 - **Effects:** [Frost](../../../tensura-reincarnated/effects/frost.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
-- **Summons / entities:** [Ars Weiss Body](../../mobs/ars-weiss-clone.md)
+- **Summons / entities:** [Ars Weiss Body](../../mobs/ars-weiss-clone.md), Tensura
 
 ## Stats (config defaults)
 

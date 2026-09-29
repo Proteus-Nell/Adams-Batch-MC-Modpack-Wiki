@@ -37,7 +37,7 @@
 ## Related
 
 - **Related skills:** [Heavy Slash](heavy-slash.md)
-- **Referenced by:** [Heavy Slash](heavy-slash.md), [Arthur, The Once and Future King](../../../tensura-more-skills/abilities/ultimate-skills/arthur-once-and-future-king.md)
+- **Summons / entities:** [Aura Slash](aura-slash.md)
 
 ## Stats (config defaults)
 

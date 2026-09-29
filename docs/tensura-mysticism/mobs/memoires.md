@@ -1,18 +1,30 @@
 # Memoires
 
-<small>[Tensura: Mysticism](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Mysticism](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `mysticism:memoires` |
+| **Type** | Boss |
+| **Health** | 1,800 |
+| **Attack damage** | 25 |
+| **Armor** | 100 |
+| **Speed** | 0.15 |
+| **Follow range** | 150 |
+| **Knockback resistance** | 0.8 |
 | **Magicule (EP)** | 325,000 - 350,000 |
 | **Aura** | 285,000 - 295,000 |
 | **Spiritual health** | 13,200 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Memoires Spawn Egg](../items/spawn-eggs/memoires-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A boss with **1,800** health, **25** attack damage and **325,000-350,000** magicule. It has 20 skills you can take from it with Predator-type skills.
 
 ## Abilities
 

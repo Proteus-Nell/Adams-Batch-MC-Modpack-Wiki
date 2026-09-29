@@ -11,8 +11,13 @@
 | **ID** | `tensura:silver_helmet` |
 | **Category** | Armor |
 | **Gear EP** | 0 - 0 |
+| **Armor** | 2 |
 
 </div>
+
+## What it does
+
+Silver armor for the helmet slot: **2** armor. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Hoe](adamantite-hoe.md) |
+| **Attack damage** | 17 |
+| **Attack speed** | 1 |
+| **Tier** | Mithril |
+| **Durability** | 2,700 |
 
 </div>
+
+## What it does
+
+A hoe that deals **17** attack damage at **1** attack speed. Durability: **2,700**. It is made at the Smithing Bench.
 
 ## Obtaining
 

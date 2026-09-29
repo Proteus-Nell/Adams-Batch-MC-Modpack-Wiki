@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Cooked Knight Spider Leg](cooked-knight-spider-leg.md), [Dubious Food](dubious-food.md), [Long Spider Bow](../weapons/long-spider-bow.md), [Short Spider Bow](../weapons/short-spider-bow.md), [Spider Bow](../weapons/spider-bow.md) and 1 more. It is dropped by [Knight Spider](../../mobs/knight-spider.md).
+
 ## Obtaining
 
 ### Loot

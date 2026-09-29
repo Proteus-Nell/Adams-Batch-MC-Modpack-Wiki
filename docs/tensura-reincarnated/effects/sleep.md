@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Forced sleep. Your movement, flight, jumping, reach, attack damage and speed, and dodge chances all drop to **zero**, your view goes dark, and you can't jump or interact. Sleeping mobs lose track of targets. Each time you're hurt the sleep gets one level lighter, and a hit at level I wakes you up.
+
+Hypnos magic puts targets to sleep at level 1 for 60 s (level 3 for 120 s mastered, and half as long if resisted). Merlin, Escanor, Solomon, Camael and angels are immune.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

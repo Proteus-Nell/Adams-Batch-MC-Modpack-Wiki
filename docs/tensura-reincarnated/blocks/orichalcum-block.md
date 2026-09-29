@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Orichalcum Ingot](../items/materials/orichalcum-ingot.md) packed into one block. Used to make [Orichalcum Ingot](../items/materials/orichalcum-ingot.md) and [Divine Axe Rhitta](../../tr-nightmares/items/weapons/divine-axe-rhitta.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -33,7 +33,8 @@
 
 ## Related
 
-- **Related skills:** [Ice Manipulation](ice-manipulation.md), [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
+- **Related skills:** [Ice Manipulation](ice-manipulation.md)
+- **Summons / entities:** Mysticism, [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
 - **Referenced by:** [Ice Manipulation](ice-manipulation.md)
 
 ## Stats (config defaults)

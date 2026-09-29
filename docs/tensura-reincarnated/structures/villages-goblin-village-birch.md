@@ -8,10 +8,14 @@
 |---|---|
 | **ID** | `tensura:villages/goblin_village/birch` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/goblin_village_birch` |
+| **Biomes** | Is Birch Forest, Birch Forest |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 34 / 16 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 10 |
 
 </div>
+
+## What it does
+
+Generates in Is Birch Forest, Birch Forest, about one every 34 chunks (at least 16 chunks apart).

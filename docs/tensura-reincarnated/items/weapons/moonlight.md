@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 60,000 - None |
+| **Attack damage** | 42 |
+| **Attack speed** | 1.8 |
+| **Tier** | Mithril |
+| **Durability** | 2,700 |
 
 </div>
+
+## What it does
+
+A Mithril sword that deals **42** attack damage at **1.8** attack speed. It also has +1 block of reach, +50% critical hit chance and 25% sweeping damage. Durability: **2,700**.
 
 ## Tags
 

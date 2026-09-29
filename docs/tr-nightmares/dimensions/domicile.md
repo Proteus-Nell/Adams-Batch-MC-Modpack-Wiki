@@ -23,3 +23,7 @@
 | **Coordinate scale** | 1.0 |
 
 </div>
+
+## What it does
+
+A flat, superflat-style dimension. Respawn anchors don't work. Build height: Y -64 to 319.

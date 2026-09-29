@@ -4,4 +4,4 @@
 
 | | Name | Description |
 |---|---|---|
-| ![](../../../assets/icons/relics/item/solid_snowball.png) | [Frozen snowball](solid-snowball.md) |  |
+| ![](../../../assets/icons/relics/item/solid_snowball.png) | [Frozen snowball](solid-snowball.md) | A packed snowball made with the wool mitten, which can keep packing more snow into it. |

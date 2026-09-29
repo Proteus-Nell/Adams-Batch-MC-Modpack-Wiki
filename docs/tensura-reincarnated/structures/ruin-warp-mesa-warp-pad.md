@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Generates in `#tensura:has_structure/ruin/mesa_warp_pad`, about one every 50 chunks (at least 20 chunks apart).
+
 ## Loot
 
 ### `tensura:chests/hell_ruins`

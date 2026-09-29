@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Warp Core](../materials/warp-core.md), [Dragon Sword: Reid (Locked)](../../../tr-nightmares/items/weapons/reinhard-locked.md), [Genesis Grade - The World](../../../tr-nightmares/items/weapons/the-world.md) and [Walpurgis Orb](../../../elite-tensura/items/miscellaneous/walpurgis-orb.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

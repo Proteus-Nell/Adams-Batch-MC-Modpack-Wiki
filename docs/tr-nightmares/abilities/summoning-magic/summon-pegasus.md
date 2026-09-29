@@ -28,6 +28,10 @@
 - Triggers when the held key is released
 - Triggers when one of your subordinates dies
 
+## Related
+
+- **Summons / entities:** [Pegasus](../../../tensura-reincarnated/mobs/pegasus.md)
+
 ## Stats (config defaults)
 
 Set in [`config/nightmare/ability/magic/summoning.toml`](../../configs/config-nightmare-ability-magic-summoning.md).

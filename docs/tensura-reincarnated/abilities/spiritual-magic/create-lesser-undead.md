@@ -49,6 +49,7 @@
 ## Related
 
 - **Related skills:** [Create Greater Undead](create-greater-undead.md)
+- **Summons / entities:** [Zombie](../../mobs/zombie.md), [Skeleton](../../mobs/skeleton.md)
 - **Referenced by:** [Create Greater Undead](create-greater-undead.md)
 
 ## Stats (config defaults)

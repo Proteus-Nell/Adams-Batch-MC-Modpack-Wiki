@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Amulet of Ascension](../amulets/ascension-amulet.md), [Sack of Astral Dust](../../blocks/astral-dust-sack.md), [Celestial Fruit](../food/astral-fruit.md), [The Eternal Cake](../../blocks/cosmic-cake.md), [Heart of the Cosmos](../miscellaneous/cosmic-heart.md) and 8 more. It is crafted, dropped by Shulker Addon and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

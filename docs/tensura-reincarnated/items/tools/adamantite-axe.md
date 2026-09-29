@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Axe](hihiirokane-axe.md) |
+| **Attack damage** | 52 |
+| **Attack speed** | 1.2 |
+| **Tier** | Adamantite |
+| **Durability** | 3,200 |
 
 </div>
+
+## What it does
+
+A axe that deals **52** attack damage at **1.2** attack speed. Durability: **3,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

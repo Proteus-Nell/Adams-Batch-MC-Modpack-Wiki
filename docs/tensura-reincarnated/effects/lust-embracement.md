@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Held in an embrace. Your movement, flight, jumping and reach drop to **zero**, you get full knockback resistance, and your view is locked. You can't be teleported or leave the dimension. Every second, whoever is embracing you drains **200** EP from you (level II also drains a percentage of your EP), and pain nullification stops protecting you. It ends early if the embracer dies. Lust's and Asmodeus's Embrace and Luminous Valentine inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -29,6 +29,7 @@
 ## Related
 
 - **Related skills:** [Flame Manipulation](flame-manipulation.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Black Flame](black-flame.md), [Flame Manipulation](flame-manipulation.md), [Oni Pyre](../../../tr-nightmares/abilities/battlewill/oni-pyre.md), [Phainon, The Deliverer](../../../tensura-more-skills/abilities/ultimate-skills/phainon.md)
 
 ## Stats (config defaults)

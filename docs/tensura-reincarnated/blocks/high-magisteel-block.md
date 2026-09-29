@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [High Magisteel Ingot](../items/materials/high-magisteel-ingot.md) packed into one block. Used to make [High Magisteel Ingot](../items/materials/high-magisteel-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

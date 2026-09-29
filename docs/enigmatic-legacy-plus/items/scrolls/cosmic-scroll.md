@@ -29,6 +29,10 @@ This ability has 600 seconds cooldown.
 
 Remaining Cooldown: 0s
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

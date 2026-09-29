@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Raw Silver](../items/miscellaneous/raw-silver.md) packed into one block. Used to make [Raw Silver](../items/miscellaneous/raw-silver.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

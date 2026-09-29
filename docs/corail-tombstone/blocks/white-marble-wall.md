@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative wall made from [White Marble](white-marble.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

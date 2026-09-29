@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Tome of Divination](../books/bless-amplifier.md), [Holy Stone](../misc/bless-stone.md), [Promise of the Earth](../rings/earth-promise.md), [Flawless Forging Gem](../charms/forger-crystal.md), [Amulet of Radiance](../amulets/redemption-amulet.md) and 4 more. It is dropped by [Purified Ichor Spirit](../../mobs/ichor-sprite.md).
+
 ## Obtaining
 
 ### Loot

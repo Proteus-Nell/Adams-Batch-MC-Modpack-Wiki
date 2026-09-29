@@ -18,3 +18,7 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+A boss with **100,000** health.

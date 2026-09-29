@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+A sentence waiting to land. Per level: **-35%** magicule and aura regeneration. Istaroth's Delayed Verdict inflicts it at level V.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

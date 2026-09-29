@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Element Core (Earth)](element-core-earth.md), [Element Core (Fire)](element-core-fire.md), [Element Core (Space)](element-core-space.md), [Element Core (Water)](element-core-water.md) and [Element Core (Wind)](element-core-wind.md). It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Charybdis Scalemail Boots](../armor/charybdis-scalemail-boots.md), [Charybdis Scalemail Chestplate](../armor/charybdis-scalemail-chestplate.md), [Charybdis Scalemail Helmet](../armor/charybdis-scalemail-helmet.md), [Charybdis Scalemail Leggings](../armor/charybdis-scalemail-leggings.md), [Tempest Scale Knife](../weapons/tempest-scale-knife.md) and 3 more. It is dropped by [Charybdis](../../mobs/charybdis.md).
+
 ## Obtaining
 
 ### Loot

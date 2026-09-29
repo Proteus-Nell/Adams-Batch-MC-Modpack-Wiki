@@ -1,14 +1,24 @@
 # Purified Ichor Spirit
 
-<small>[EnigmaticLegacy+](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[EnigmaticLegacy+](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Creature</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `enigmaticlegacyplus:ichor_sprite` |
+| **Type** | Creature |
+| **Health** | 32 |
+| **Attack damage** | 4 |
+| **Speed** | 0.16 |
+| **Follow range** | 48 |
+| **Hitbox** | 0.35 x 0.6 blocks |
 
 </div>
+
+## What it does
+
+A passive mob with **32** health and **4** attack damage. Drops [Sacred Crystal](../items/generic/sacred-crystal.md) and [Ichor Droplet](../items/generic/ichor-droplet.md).
 
 ## Drops
 

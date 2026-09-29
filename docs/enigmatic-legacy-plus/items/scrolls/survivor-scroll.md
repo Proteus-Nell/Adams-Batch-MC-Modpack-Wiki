@@ -24,6 +24,10 @@ Gain certain attribute improvements
 
 and accelerate eating speed.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -41,8 +41,8 @@
 
 ## Related
 
-- **Related skills:** [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md), [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md), [Thunder Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md)
 - **Effects:** [Strengthen](../../../tensura-reincarnated/effects/strengthen.md)
+- **Summons / entities:** [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md), [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md), [Thunder Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md), Tensura
 
 ## Stats (config defaults)
 

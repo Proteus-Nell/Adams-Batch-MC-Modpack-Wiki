@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Explosion](explosion.md)
+- **Summons / entities:** Magic Explosion, Landmine
 
 ## Stats (config defaults)
 

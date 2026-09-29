@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Building block. Used to make [Cut Sarasa Sandstone Slab](cut-sarasa-sandstone-slab.md), [Sarasa Sandstone](sarasa-sandstone.md) and [Sarasa Sandstone Warp Pad](sarasa-sandstone-warp-pad.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

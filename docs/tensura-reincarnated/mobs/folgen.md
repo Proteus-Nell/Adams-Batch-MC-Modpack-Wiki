@@ -1,18 +1,29 @@
 # Folgen
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:folgen` |
+| **Type** | Monster |
+| **Health** | 500 |
+| **Attack damage** | 20 |
+| **Armor** | 30 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.75 |
 | **Magicule (EP)** | 20,000 - 30,000 |
 | **Aura** | 100,000 - 110,000 |
 | **Spiritual health** | 1,000 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Folgen Spawn Egg](../items/spawn-eggs/folgen-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **500** health, **20** attack damage and **20,000-30,000** magicule. It has 3 skills you can take from it with Predator-type skills.
 
 ## Abilities
 

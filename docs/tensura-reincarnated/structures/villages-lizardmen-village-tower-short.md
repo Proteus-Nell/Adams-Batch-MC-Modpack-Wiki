@@ -8,9 +8,13 @@
 |---|---|
 | **ID** | `tensura:villages/lizardmen_village/tower_short` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/lizardman_village_underground` |
+| **Biomes** | Is Swamp, Mangrove Swamp, Swamp |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 40 / 30 chunks |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Is Swamp, Mangrove Swamp, Swamp, about one every 40 chunks (at least 30 chunks apart).

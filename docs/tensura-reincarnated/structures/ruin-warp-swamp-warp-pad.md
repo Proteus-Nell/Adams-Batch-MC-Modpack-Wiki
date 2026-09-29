@@ -8,12 +8,16 @@
 |---|---|
 | **ID** | `tensura:ruin/warp/swamp_warp_pad` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/ruin/swamp_warp_pad` |
+| **Biomes** | Mangrove Swamp, Miasmic Plains |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 50 / 20 chunks |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+Generates in Mangrove Swamp, Miasmic Plains, about one every 50 chunks (at least 20 chunks apart).
 
 ## Loot
 

@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Curse Bind](curse-bind.md)
+- **Summons / entities:** Miasmic Mist
 - **Referenced by:** [Curse Bind](curse-bind.md), [Survivor](../unique-skills/survivor.md), [Abnormal Condition Resistance](../resistance-skills/abnormal-condition-resistance.md), [Abnormal Condition Nullification](../resistance-skills/abnormal-condition-nullification.md), [Soul Shrine](../../../tr-nightmares/abilities/unique-skills/soul-shrine.md), [｢ Mammon, Lord of Greed ｣](../../../tr-nightmares/abilities/ultimate-skills/mammon.md), [Caedros, God of Conquest](../../../tensura-more-skills/abilities/ultimate-skills/caedros-god-of-conquest.md), [Pain, Lord of Six Paths](../../../tensura-more-skills/abilities/ultimate-skills/pain-lord-of-six-paths.md), [Schwi, Lord of True Computation](../../../tensura-more-skills/abilities/ultimate-skills/schwi-ex-machina.md)
 
 ## Stats (config defaults)

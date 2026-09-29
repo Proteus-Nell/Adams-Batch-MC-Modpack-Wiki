@@ -47,8 +47,8 @@
 
 ## Related
 
-- **Related skills:** [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
 - **Effects:** [Chill](../../../tensura-reincarnated/effects/chill.md)
+- **Summons / entities:** Mysticism, [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
 
 ## Stats (config defaults)
 

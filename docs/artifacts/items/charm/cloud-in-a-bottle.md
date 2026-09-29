@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Belt artifact. Lets you **double jump**: press jump again in mid-air to jump a second time. Sprinting while you double jump gives extra forward and upward speed. It also raises your safe fall distance by 3 blocks, and fall damage after a double jump is multiplied by 0.
+
 ## Obtaining
 
 ### Loot

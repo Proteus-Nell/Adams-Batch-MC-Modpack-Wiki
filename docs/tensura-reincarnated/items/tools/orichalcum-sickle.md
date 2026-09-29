@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Sickle](hihiirokane-sickle.md) |
+| **Attack damage** | 29 |
+| **Attack speed** | 1.2 |
+| **Tier** | Orichalcum |
+| **Durability** | 2,800 |
 
 </div>
+
+## What it does
+
+A sickle that deals **29** attack damage at **1.2** attack speed. Durability: **2,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

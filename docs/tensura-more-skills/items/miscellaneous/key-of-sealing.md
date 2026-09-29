@@ -13,5 +13,13 @@
 | **Stack size** | 1 |
 | **Rarity** | Epic |
 | **Fire resistant** | Yes |
+| **Attack damage** | 75 |
+| **Attack speed** | 1.6 |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
+
+## What it does
+
+A Netherite weapon that deals **75** attack damage at **1.6** attack speed. Durability: **2,031**.

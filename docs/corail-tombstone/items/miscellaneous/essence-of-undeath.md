@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Used to make Decorative Grave Cross, Decorative Grave Normal, Decorative Grave Original, Decorative Grave Simple, Decorative Subaraki Grave and 1 more.
+
 ## Used in
 
 Decorative Grave Cross, Decorative Grave Normal, Decorative Grave Original, Decorative Grave Simple, Decorative Subaraki Grave, Decorative Tombstone

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Element Core (Fire)](../miscellaneous/element-core-fire.md). It is dropped by [Ifrit](../../mobs/ifrit.md) and [Salamander](../../mobs/salamander.md).
+
 ## Obtaining
 
 ### Loot

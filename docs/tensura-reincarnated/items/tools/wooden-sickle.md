@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:wooden_sickle` |
 | **Category** | Tools |
+| **Attack damage** | 3 |
+| **Attack speed** | 1.2 |
+| **Tier** | Wood |
+| **Durability** | 59 |
 
 </div>
+
+## What it does
+
+A sickle that deals **3** attack damage at **1.2** attack speed. Durability: **59**. It is crafted.
 
 ## Obtaining
 

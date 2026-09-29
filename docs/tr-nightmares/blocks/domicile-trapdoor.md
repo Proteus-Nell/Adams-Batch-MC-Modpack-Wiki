@@ -9,3 +9,7 @@
 | **ID** | `trnightmare:domicile_trapdoor` |
 
 </div>
+
+## What it does
+
+Decorative trapdoor building block.

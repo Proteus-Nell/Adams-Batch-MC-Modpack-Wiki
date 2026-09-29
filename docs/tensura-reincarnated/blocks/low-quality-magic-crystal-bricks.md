@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Building block. Used to make [Chiseled Low Quality Magic Crystal Bricks](chiseled-low-quality-magic-crystal-bricks.md), [Low Quality Magic Crystal Brick Wall](low-quality-magic-crystal-brick-wall.md), [Low Quality Magic Crystal Brick Slab](low-quality-magic-crystal-brick-slab.md), [Low Quality Magic Crystal Brick Stairs](low-quality-magic-crystal-brick-stairs.md) and [Low Quality Magic Crystal Bricks Magic Engine](low-quality-magic-crystal-bricks-magic-engine.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

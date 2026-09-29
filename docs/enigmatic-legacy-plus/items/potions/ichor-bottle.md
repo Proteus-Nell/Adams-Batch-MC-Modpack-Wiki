@@ -20,6 +20,10 @@ To contempt the gods, one must know them...
 
 Consume to obtain +1 Charm Slot permanently.
 
+## What it does
+
+Food. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

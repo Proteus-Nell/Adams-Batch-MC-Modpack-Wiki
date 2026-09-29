@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Shovel](hihiirokane-shovel.md) |
+| **Attack damage** | 48.5 |
+| **Attack speed** | 1 |
+| **Tier** | Adamantite |
+| **Durability** | 3,200 |
 
 </div>
+
+## What it does
+
+A shovel that deals **48.5** attack damage at **1** attack speed. Durability: **3,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

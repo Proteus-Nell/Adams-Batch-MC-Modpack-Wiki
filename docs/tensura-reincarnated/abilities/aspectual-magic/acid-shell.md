@@ -41,6 +41,7 @@
 ## Related
 
 - **Effects:** [Corrosion](../../effects/corrosion.md)
+- **Summons / entities:** Acid Ball
 
 ## Stats (config defaults)
 

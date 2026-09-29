@@ -36,6 +36,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Magic Sense](magic-sense.md), [Sense Heat Source](sense-heat-source.md), [Sense Soundwave](sense-soundwave.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md)
 
 ## Stats (config defaults)

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Adamantite Nugget](adamantite-nugget.md), [Block of Adamantite](../../blocks/adamantite-block.md), [Adamantite Axe](../tools/adamantite-axe.md), [Adamantite Boots](../armor/adamantite-boots.md), [Adamantite Chestplate](../armor/adamantite-chestplate.md) and 16 more. It is crafted.
+
 ## Obtaining
 
 ### Recipes

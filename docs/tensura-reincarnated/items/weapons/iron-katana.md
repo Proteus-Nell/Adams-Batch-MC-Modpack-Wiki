@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:iron_katana` |
 | **Category** | Weapons |
+| **Attack damage** | 7 (6 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **7** attack damage at **1.8** attack speed; one-handed **6** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **250**. It is made at the Smithing Bench.
 
 ## Obtaining
 

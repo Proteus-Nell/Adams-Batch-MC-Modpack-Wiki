@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative wall made from [Thatch Block](thatch-block.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

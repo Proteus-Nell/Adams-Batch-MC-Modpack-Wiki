@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+A boss.
+
 ## Tags
 
 `tensura:can_be_named`, `tensura:no_charisma`, `tensura:no_charm`, `tensura:no_mind_control`, `tensura:no_possession`

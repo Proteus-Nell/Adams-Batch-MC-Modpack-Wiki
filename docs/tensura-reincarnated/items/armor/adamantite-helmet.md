@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Helmet](hihiirokane-helmet.md) |
+| **Armor** | 10 |
+| **Armor toughness** | 8 |
+| **Knockback resistance** | 80% |
+| **Durability** | 715 |
 
 </div>
+
+## What it does
+
+Adamantite armor for the helmet slot: **10** armor, **8** toughness and **80%** knockback resistance. Durability: **715**. It is made at the Smithing Bench.
 
 ## Obtaining
 

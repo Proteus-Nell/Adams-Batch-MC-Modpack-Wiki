@@ -38,6 +38,7 @@
 ## Related
 
 - **Related skills:** [Analyze](../aspectual-magic/analyze.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Divine Protection of Judgement](../../../tr-nightmares/abilities/extra-skills/judgement-blessing.md)
 
 ## Stats (config defaults)

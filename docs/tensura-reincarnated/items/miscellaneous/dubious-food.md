@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. It is crafted.
+
 ## Obtaining
 
 ### Recipes

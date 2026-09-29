@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. It is made with Refining (Great Sage / Researcher).
+
 ## Obtaining
 
 ### Recipes

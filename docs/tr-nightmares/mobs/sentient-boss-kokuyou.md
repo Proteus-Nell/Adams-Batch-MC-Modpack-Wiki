@@ -13,3 +13,7 @@
 | **Spiritual health** | 5,000 |
 
 </div>
+
+## What it does
+
+A boss with **450,000-750,000** magicule.

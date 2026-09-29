@@ -33,6 +33,7 @@
 
 - **Related skills:** [Possession](../aspectual-magic/possession-magic.md), [Spiritual Attack Nullification](../resistance-skills/spiritual-attack-nullification.md), [Spiritual Attack Resistance](../resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Energy Blockade](../../effects/energy-blockade.md)
+- **Summons / entities:** [Bone Golem](../../mobs/bone-golem.md), Tensura, [Clone](../../mobs/clone.md)
 - **Referenced by:** [Divine Wisdom Core](../../../tr-nightmares/abilities/intrinsic-skills/divine-wisdom-core.md), [Relapse](../../../tensura-mysticism/abilities/intrinsic-skills/relapse.md)
 
 ## Stats (config defaults)

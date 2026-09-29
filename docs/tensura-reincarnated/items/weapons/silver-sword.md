@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_sword` |
 | **Category** | Weapons |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 6 |
+| **Attack speed** | 1.6 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A sword that deals **6** attack damage at **1.6** attack speed. Durability: **150**. It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

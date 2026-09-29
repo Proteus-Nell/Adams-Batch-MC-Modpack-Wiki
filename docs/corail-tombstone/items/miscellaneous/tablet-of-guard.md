@@ -23,6 +23,10 @@ Right click on a Grave Soul to enchant
 
 Hold right click to summon
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

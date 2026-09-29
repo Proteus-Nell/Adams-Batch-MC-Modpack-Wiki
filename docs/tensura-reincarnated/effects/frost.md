@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Frozen solid. Your movement, swim speed, jump and reach all drop to **zero**, your view is locked where it was, flying stops, and you **can't heal** (unless you have Instant Regeneration II or higher). It shatters with a glass sound when it ends.
+
+Ice Wall (when broken), TR: Nightmares' Freezing Burn and several ice skills inflict it. An Ice Lance hitting a frozen target deals bonus damage per Frost level and breaks the ice. Cold Nullification and Thermal Fluctuation Nullification make you immune.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -14,5 +14,5 @@ Status effects added by EnigmaticLegacy+.
 | ![](../../assets/icons/enigmaticlegacyplus/effect/ichor_curse.png) | [Curse of Penance](ichor-curse.md) | Neutral | The Nether will resonate with you. |
 | ![](../../assets/icons/enigmaticlegacyplus/effect/ichor_corrosion.png) | [Ichor Corrosion](ichor-corrosion.md) | Harmful | Reduce your defense while increasing the damage you receive. |
 | ![](../../assets/icons/enigmaticlegacyplus/effect/molten_heart.png) | [Molten Heart](molten-heart.md) | Beneficial | Makes you immune to fire and grants you clear vision in lava. |
-| ![](../../assets/icons/enigmaticlegacyplus/effect/poison.png) | [Poison](poison.md) | Harmful |  |
+| ![](../../assets/icons/enigmaticlegacyplus/effect/poison.png) | [Poison](poison.md) | Harmful | A stronger Poison (it shows up as plain "Poison" in game). |
 | ![](../../assets/icons/enigmaticlegacyplus/effect/pure_resistance.png) | [Pure Resistance](pure-resistance.md) | Beneficial | Reduce the damage received while having a chance to block damage. |

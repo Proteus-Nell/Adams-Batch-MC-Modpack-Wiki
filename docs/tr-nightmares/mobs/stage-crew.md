@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+An entity with **20** health.
+
 ## Tags
 
 `tensura:no_charisma`, `tensura:no_charm`, `tensura:no_max_ep_plunder`, `tensura:no_mind_control`, `tensura:no_possession`, `tensura:no_skill_plunder`

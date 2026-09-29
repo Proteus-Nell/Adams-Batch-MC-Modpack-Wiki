@@ -22,6 +22,10 @@ to upgrade the enchantments on the item.
 
 Can break the level limit.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

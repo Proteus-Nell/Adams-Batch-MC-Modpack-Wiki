@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Thrown off balance by a counter. Your attack speed drops to **zero** and your attacks deal **no damage** at all while it lasts. Restricted's counter stance ([Countering](countering.md)) inflicts it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -26,6 +26,10 @@ and make your anvil more durable.
 
 Also can make the result more durable.
 
+## What it does
+
+Used to make [Ethereal Forging Charm](ethereal-forging-charm.md) and [Flawless Forging Gem](forger-crystal.md). It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

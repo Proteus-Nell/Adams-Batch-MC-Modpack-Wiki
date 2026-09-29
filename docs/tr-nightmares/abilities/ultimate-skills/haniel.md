@@ -56,6 +56,7 @@
 
 - **Related skills:** [Glorious](../unique-skills/glorious.md)
 - **Effects:** [Glorious Regen](../../effects/glorious-regen.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

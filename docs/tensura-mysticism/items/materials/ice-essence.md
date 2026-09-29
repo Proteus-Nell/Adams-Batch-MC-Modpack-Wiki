@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Food. It is dropped when you break [Ice Ore](../../blocks/ice-ore.md).
+
 ## Obtaining
 
 ### Loot

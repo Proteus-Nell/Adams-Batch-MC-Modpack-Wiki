@@ -52,6 +52,7 @@
 ## Related
 
 - **Effects:** [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Lust Drain](../../../tensura-reincarnated/effects/lust-drain.md), [Lust Embracement](../../../tensura-reincarnated/effects/lust-embracement.md), [Asmodeus](../../effects/asmodeus.md), [Asmodeusd](../../effects/asmodeusd.md), [Inked](../../effects/inked.md), [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Secretive Manas](secretive-manas.md)
 
 ## Stats (config defaults)

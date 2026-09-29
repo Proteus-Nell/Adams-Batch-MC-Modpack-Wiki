@@ -45,7 +45,7 @@
 
 - **Related skills:** [Heat Nullification](../../../tensura-reincarnated/abilities/resistance-skills/heat-nullification.md), [Flame Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/flame-attack-nullification.md)
 - **Effects:** [Magicule Poison](../../../tensura-reincarnated/effects/magicule-poison.md)
-- **Summons / entities:** Melting Heated Beam
+- **Summons / entities:** Tensura, Melting Heated Beam
 
 ## Stats (config defaults)
 

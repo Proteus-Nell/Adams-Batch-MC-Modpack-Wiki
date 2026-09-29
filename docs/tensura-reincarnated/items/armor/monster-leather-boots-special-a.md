@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 80,000 - None |
+| **Armor** | 9 |
+| **Armor toughness** | 7.5 |
+| **Knockback resistance** | 80% |
 
 </div>
+
+## What it does
+
+Monster Leather Special A armor for the boots slot: **9** armor, **7.5** toughness and **80%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -18,4 +18,6 @@
 
 </div>
 
-Found in: [Kingdom of Avalon](../dimensions/avalon.md)
+## What it does
+
+A warm biome in [Kingdom of Avalon](../dimensions/avalon.md) where it never rains or snows. It has no mob spawns and no terrain features of its own.

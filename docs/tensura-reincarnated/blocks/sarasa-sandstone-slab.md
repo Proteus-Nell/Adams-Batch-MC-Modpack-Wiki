@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Sarasa Sandstone](sarasa-sandstone.md). Used to make [Chiseled Sarasa Sandstone](chiseled-sarasa-sandstone.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

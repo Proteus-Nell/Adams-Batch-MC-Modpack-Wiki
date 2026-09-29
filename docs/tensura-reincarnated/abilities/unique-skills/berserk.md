@@ -48,6 +48,7 @@
 ## Related
 
 - **Effects:** [Mad Ogre](../../effects/mad-ogre.md), [Rampage](../../effects/rampage.md), [Strengthen](../../effects/strengthen.md)
+- **Summons / entities:** Tensura, Mad Orbs, Flame Orb
 
 ## Stats (config defaults)
 

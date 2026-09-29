@@ -55,6 +55,7 @@
 ## Related
 
 - **Related skills:** [Cook](../../../tensura-reincarnated/abilities/unique-skills/cook.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../extra-skills/alteration.md), [｢ Sariel, Lord of Hope ｣](sariel.md), [Envy Manas](envy-manas.md)
 
 ## Stats (config defaults)

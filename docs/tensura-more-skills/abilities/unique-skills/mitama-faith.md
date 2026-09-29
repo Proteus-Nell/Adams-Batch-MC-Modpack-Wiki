@@ -46,3 +46,7 @@
 - Triggers when you damage a target
 - Does something when first learned
 - Does something when mastered
+
+## Related
+
+- **Summons / entities:** Tensura

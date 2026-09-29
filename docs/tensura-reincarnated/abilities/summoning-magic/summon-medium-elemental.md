@@ -46,6 +46,10 @@
 - Innate to mobs: [Hinata Sakaguchi](../../mobs/hinata-sakaguchi.md)
 - Removed and re-rolled when you change race
 
+## Related
+
+- **Summons / entities:** [Beast Gnome](../../mobs/beast-gnome.md), [Salamander](../../mobs/salamander.md), [Winged Cat](../../mobs/winged-cat.md), [Aqua Frog](../../mobs/aqua-frog.md), [Feathered Serpent](../../mobs/feathered-serpent.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/summoning_config.toml`](../../configs/config-tensura-ability-magic-summoning-config.md).

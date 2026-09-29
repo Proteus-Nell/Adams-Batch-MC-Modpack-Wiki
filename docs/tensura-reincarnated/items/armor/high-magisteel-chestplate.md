@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [Pure Magisteel Chestplate](pure-magisteel-chestplate.md) |
+| **Armor** | 9 |
+| **Armor toughness** | 4 |
+| **Knockback resistance** | 20% |
+| **Durability** | 640 |
 
 </div>
+
+## What it does
+
+High Magisteel armor for the chestplate slot: **9** armor, **4** toughness and **20%** knockback resistance. Durability: **640**. It is made at the Smithing Bench.
 
 ## Obtaining
 

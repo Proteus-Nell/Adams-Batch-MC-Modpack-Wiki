@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Blade Tiger Scythe](../weapons/blade-tiger-scythe.md). It is dropped by [Blade Tiger](../../mobs/blade-tiger.md).
+
 ## Obtaining
 
 ### Loot

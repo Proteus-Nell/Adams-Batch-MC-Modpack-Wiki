@@ -44,7 +44,7 @@
 ## Related
 
 - **Related skills:** [Multilayer Barrier](../extra-skills/multilayer-barrier.md)
-- **Referenced by:** [Black Flame](../extra-skills/black-flame.md)
+- **Summons / entities:** Boss Killed, [Ifrit](../../mobs/ifrit.md), [Ranged Barrier](ranged-barrier.md)
 
 ## Stats (config defaults)
 

@@ -25,6 +25,10 @@
 
 </div>
 
+## What it does
+
+A dimension with generated terrain. Time never moves: it is always noon. Beds explode if you try to sleep. It is fully lit everywhere. Build height: Y -64 to 255.
+
 ## Biomes
 
 [Underworld Barrens](../biomes/underworld-barrens.md), [Underworld Red Sands](../biomes/underworld-red-sands.md), [Underworld Sands](../biomes/underworld-sands.md), [Underworld Spikes](../biomes/underworld-spikes.md)

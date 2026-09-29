@@ -17,3 +17,7 @@
 | **Hitbox** | 0.6 x 1.95 blocks |
 
 </div>
+
+## What it does
+
+An entity with **20** health and **4** attack damage.

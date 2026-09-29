@@ -11,8 +11,16 @@
 | **ID** | `tensura:ant_carapace_chestplate` |
 | **Category** | Armor |
 | **Gear EP** | 3,000 - None |
+| **Armor** | 7 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 10% |
+| **Durability** | 544 |
 
 </div>
+
+## What it does
+
+Ant Carapace armor for the chestplate slot: **7** armor, **2** toughness and **10%** knockback resistance. Durability: **544**. It is made at the Smithing Bench.
 
 ## Obtaining
 

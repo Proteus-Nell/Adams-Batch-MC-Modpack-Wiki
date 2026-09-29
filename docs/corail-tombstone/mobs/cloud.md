@@ -9,3 +9,7 @@
 | **ID** | `tombstone:cloud` |
 
 </div>
+
+## What it does
+
+A mob.

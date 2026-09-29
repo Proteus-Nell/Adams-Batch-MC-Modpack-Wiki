@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 78 |
+| **Attack speed** | 2 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A short sword that deals **78** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

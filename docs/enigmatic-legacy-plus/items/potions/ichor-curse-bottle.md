@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

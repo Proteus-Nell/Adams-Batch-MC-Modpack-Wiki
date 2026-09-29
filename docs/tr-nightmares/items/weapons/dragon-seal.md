@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+It is made at the Tensura Smithing.
+
 ## Obtaining
 
 ### Recipes

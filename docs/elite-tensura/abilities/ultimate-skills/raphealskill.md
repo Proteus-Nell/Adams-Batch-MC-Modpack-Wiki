@@ -61,6 +61,7 @@
 ## Related
 
 - **Related skills:** [Great Sage](../../../tensura-reincarnated/abilities/unique-skills/great-sage.md), [Godly Craftsman](../../../tensura-reincarnated/abilities/unique-skills/godly-craftsman.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

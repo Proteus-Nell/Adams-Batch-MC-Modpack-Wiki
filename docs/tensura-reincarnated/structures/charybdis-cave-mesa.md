@@ -15,3 +15,7 @@
 | **Size (jigsaw depth)** | 7 |
 
 </div>
+
+## What it does
+
+Generates in `#tensura:has_structure/charybdis_cave_mesa`, about one every 90 chunks (at least 20 chunks apart).

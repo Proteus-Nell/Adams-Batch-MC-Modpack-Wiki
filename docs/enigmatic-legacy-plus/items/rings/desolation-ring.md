@@ -30,6 +30,10 @@ Abyss Boost:
 
 - The first attack against an unprovoked creature applies an execution effect.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

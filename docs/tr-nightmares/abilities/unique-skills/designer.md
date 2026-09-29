@@ -52,7 +52,7 @@
 ## Related
 
 - **Related skills:** [Darkness Cannon](../../../tensura-reincarnated/abilities/spiritual-magic/darkness-cannon.md)
-- **Summons / entities:** Holy Cannon Projectile
+- **Summons / entities:** Tensura, Holy Cannon Projectile
 - **Referenced by:** [｢ Astarte, Lord of Heaven ｣](../ultimate-skills/astarte.md)
 
 ## Stats (config defaults)

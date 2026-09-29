@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_pickaxe` |
 | **Category** | Tools |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 4 |
+| **Attack speed** | 1.2 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A pickaxe that deals **4** attack damage at **1.2** attack speed. Durability: **150**. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

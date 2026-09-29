@@ -11,8 +11,16 @@
 | **ID** | `tensura:armorsaurus_scalemail_leggings` |
 | **Category** | Armor |
 | **Gear EP** | 6,000 - None |
+| **Armor** | 7 |
+| **Armor toughness** | 3 |
+| **Knockback resistance** | 40% |
+| **Durability** | 570 |
 
 </div>
+
+## What it does
+
+Armorsaurus Scalemail armor for the leggings slot: **7** armor, **3** toughness and **40%** knockback resistance. Durability: **570**. It is made at the Smithing Bench.
 
 ## Obtaining
 

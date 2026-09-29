@@ -36,8 +36,9 @@
 
 ## Related
 
-- **Related skills:** [Heat Wave](heat-wave.md), [Flame Domination](flame-domination.md), [Flame Breath](../intrinsic-skills/flame-breath.md)
+- **Related skills:** [Heat Wave](heat-wave.md), [Flame Domination](flame-domination.md)
 - **Effects:** [Black Burn](../../effects/black-burn.md)
+- **Summons / entities:** Tensura, [Flame Breath](../intrinsic-skills/flame-breath.md), Black Flame Breath
 - **Referenced by:** [Black Flame](black-flame.md), [Flame Domination](flame-domination.md), [Fire Blessing](../../../tr-nightmares/abilities/extra-skills/fire-blessing.md)
 
 ## Stats (config defaults)

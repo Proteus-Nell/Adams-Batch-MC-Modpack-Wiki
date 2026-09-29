@@ -20,6 +20,10 @@ To contempt the gods, one must know them...
 
 Consume to obtain +1 Charm Slot permanently.
 
+## What it does
+
+Food.
+
 ## Tags
 
 `c:drinks/magic`

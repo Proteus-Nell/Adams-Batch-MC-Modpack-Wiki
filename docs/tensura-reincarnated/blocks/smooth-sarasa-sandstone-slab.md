@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Smooth Sarasa Sandstone](smooth-sarasa-sandstone.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

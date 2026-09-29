@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Food. Used to make [Enchanted Silver Apple](enchanted-silver-apple.md) and [Dubious Food](../miscellaneous/dubious-food.md). It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

@@ -27,6 +27,10 @@ will be struck by lightning bolt.
 
 Deal more damage to armored targets.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

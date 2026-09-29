@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Used to make [Ancient History Book](ancient-history-book.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

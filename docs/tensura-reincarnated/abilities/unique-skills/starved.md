@@ -63,6 +63,7 @@
 
 - **Related skills:** [Gluttony](gluttony.md), [Predator](predator.md)
 - **Effects:** [Corrosion](../../effects/corrosion.md), [Rampage](../../effects/rampage.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Gluttony](gluttony.md), [Predator](predator.md), [Food Chain](../../../tr-nightmares/abilities/extra-skills/food-chain.md), [｢ Tenebrosum, God of Souls ｣](../../../tr-nightmares/abilities/ultimate-skills/tenebrosum.md)
 
 ## Stats (config defaults)

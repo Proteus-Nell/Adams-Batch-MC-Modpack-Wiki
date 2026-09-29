@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:stone_kodachi` |
 | **Category** | Weapons |
+| **Attack damage** | 3 |
+| **Attack speed** | 2 |
+| **Tier** | Stone |
+| **Durability** | 131 |
 
 </div>
+
+## What it does
+
+A kodachi that deals **3** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +20% critical hit chance, +0.5 critical damage multiplier and no sweeping attack. Durability: **131**. It is made at the Smithing Bench.
 
 ## Obtaining
 

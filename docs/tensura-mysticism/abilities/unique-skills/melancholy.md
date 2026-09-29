@@ -59,6 +59,8 @@
 
 - **Related skills:** [Thrower](../../../tensura-reincarnated/abilities/unique-skills/thrower.md), [Molecular Manipulation](../../../tensura-reincarnated/abilities/extra-skills/molecular-manipulation.md), [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md), [Gravity Domination](../../../tensura-reincarnated/abilities/extra-skills/gravity-domination.md), [Gravity Manipulation](../../../tensura-reincarnated/abilities/extra-skills/gravity-manipulation.md)
 - **Effects:** [True Blindness](../../../tensura-reincarnated/effects/true-blindness.md)
+- **Items:** [Kunai](../../../tensura-reincarnated/items/weapons/kunai.md)
+- **Summons / entities:** Web Bullet, Spear, Thrown Item
 
 ## Stats (config defaults)
 
