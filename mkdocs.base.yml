@@ -1,0 +1,78 @@
+site_name: Adam's Batch Modpack Wiki
+site_description: Skills, races, items, mobs, configs and mechanics for every major mod in Adam's Batch (Minecraft 1.21.1, NeoForge).
+site_url: https://proteus-nell.github.io/Adams-Batch-MC-Modpack-Wiki/
+repo_url: https://github.com/Proteus-Nell/Adams-Batch-MC-Modpack-Wiki
+repo_name: Adams-Batch-MC-Modpack-Wiki
+edit_uri: ""
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.prune
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - github-callouts
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/wiki.css
+
+validation:
+  omitted_files: ignore
+  absolute_links: ignore
+  unrecognized_links: warn
+  anchors: ignore
+  not_found: warn
+  nav:
+    omitted_files: ignore
+    not_found: warn

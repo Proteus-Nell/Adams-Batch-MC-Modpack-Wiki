@@ -1,0 +1,5 @@
+# Website build (render step + MkDocs). The render step only needs the Python standard library and PyYAML (installed with MkDocs).
+mkdocs>=1.6,<2
+mkdocs-material>=9.5,<10
+markdown-callouts>=0.4
+pymdown-extensions>=10.0
