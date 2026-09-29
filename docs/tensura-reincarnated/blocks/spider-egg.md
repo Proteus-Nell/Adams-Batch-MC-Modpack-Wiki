@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Black spider eggs, laid by [Black Spider](../mobs/black-spider.md)s. They hatch into baby black spiders over time. Breaking one without **Silk Touch**, blowing it up, landing on it or walking on it without sneaking hatches a hostile spider on the spot and sets off the eggs around it too. Spiders and other arthropods can walk on them safely.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

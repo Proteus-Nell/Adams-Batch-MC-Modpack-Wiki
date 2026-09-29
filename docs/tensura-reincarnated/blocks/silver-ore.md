@@ -16,6 +16,8 @@
 
 ## What it does
 
+Silver ore, found throughout the Overworld from Y −64 to 32 (most common around Y −16), with rare large veins deep down. It drops Raw Silver. Silver is used for Tensura's silver gear and, in a [Kiln](kiln.md), for Mithril.
+
 Ore block. Mining it drops [Raw Silver](../items/miscellaneous/raw-silver.md). You need a stone pickaxe or better. Used to make [Silver Ingot](../items/materials/silver-ingot.md) and [Raw Silver](../items/miscellaneous/raw-silver.md).
 
 ## Drops

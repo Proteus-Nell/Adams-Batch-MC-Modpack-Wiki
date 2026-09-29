@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A tough block of packed spider silk. Walking on it slows you to 40% and cuts your jump.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

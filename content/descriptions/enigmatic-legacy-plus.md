@@ -127,3 +127,52 @@ The core that spellstones are built on. Put it in the {{link:enigmaticlegacyplus
 Stardust from fallen **Starlight Meteors** (and some chests). It's the material for Starlight gear.
 
 {{auto}}
+
+<!-- kind: blocks -->
+
+## enigmaticlegacyplus:spellstone_table
+The crafting station for **spellstones**. Put Spellstone Debris in the left slot, a Spellcore in the middle and the recipe's seven ingredients around it, and the spellstone appears in the result slot (see each spellstone's page for its recipe). It also works the other way: put a spellstone alone in the right-hand slot to break it down into **4 Spellstone Debris**. Spellstone Huts have one.
+
+{{auto}}
+
+## enigmaticlegacyplus:dimensional_anchor
+A Respawn Anchor that works **in every dimension** and never explodes. Charge it with **Eyes of Ender** (up to 4 charges), then right-click it to set your spawn there. Each respawn uses one charge. It's very tough (like obsidian), the Ender Dragon can't break it, and a comparator reads its charge.
+
+{{auto}}
+
+## enigmaticlegacyplus:ethereal_lantern
+A lantern that protects the people around it. Every 5 seconds, players within 8 blocks whose **Ethereal Shield** is down get a new one, worth half of their Etherium shield threshold times their max health. The shield threshold comes from Etherium gear, so players without any get nothing from it. Hang it or stand it like a normal lantern.
+
+{{auto}}
+
+## enigmaticlegacyplus:cosmic_cake
+**The Eternal Cake.** Each slice fills you like a Golden Carrot (6 hunger, 14.4 saturation). You can eat up to 6 slices, but the last slice never goes away, and eaten slices **grow back** on their own over time. Sneak and right-click a whole cake with an empty hand to pick it back up; it drops nothing if you break it.
+
+{{auto}}
+
+## enigmaticlegacyplus:astral_glass, enigmaticlegacyplus:astral_glass_pane
+Glowing glass (light 10, or 9 for panes). **Hit it or right-click it** (with anything but a block you could place) to cycle through 4 colour styles, or power it with redstone: the signal strength picks the style. Use **Astral Dust** on it to lock it into a shifting, colourful look for good. It tints beacon beams to match its style. Smelting an Astral Dust Sack gives 4 Astral Glass.
+
+{{auto}}
+
+## enigmaticlegacyplus:etherium_ore
+The ore of Etherium, found in End Stone on the **outer End islands** (the biomes where End Cities generate), in small veins. It glows faintly, needs a diamond pickaxe, and drops Raw Etherium and some experience.
+
+{{auto}}
+
+## enigmaticlegacyplus:astral_dust_sack
+A storage block of 9 Astral Dust. It sparkles, and smelting it makes 4 {{link:enigmaticlegacyplus:astral_glass}}.
+
+{{auto}}
+
+## enigmaticlegacyplus:infernal_cinder_sack
+A storage block of 9 Infernal Cinder that gives off smoke and embers.
+
+{{auto}}
+
+<!-- kind: structures -->
+
+## enigmaticlegacyplus:spellstone_hut
+A small hut with a {{link:enigmaticlegacyplus:spellstone_table}} (for crafting spellstones) and a treasure chest.
+
+{{auto}}

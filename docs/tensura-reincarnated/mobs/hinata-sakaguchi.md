@@ -24,6 +24,8 @@
 
 ## What it does
 
+Hinata Sakaguchi, the Holy Knight captain, a boss otherworlder. When an otherworlder like [Kyoya Tachibana](kyoya-tachibana.md) spawns naturally, there's a 1 in 100 chance it's replaced by Hinata. In battle she can call greater spirits (Undine, Sylphide, War Gnome and Akash) to her side.
+
 A boss with **3,000** health, **60** attack damage and **536,331-536,332** magicule. It has 27 skills you can take from it with Predator-type skills.
 
 ## Abilities

@@ -20,4 +20,16 @@
 
 ## What it does
 
+**Avalon**, a Grand Magus holding back the power of Oblivion, and **Novari**, the desire sealed inside him. The fight has five phases, each with its own health and a speech between them:
+
+| Phase | Name | Health |
+|---|---|---|
+| 1 | Avalon, The Grand Magus | 15,000 |
+| 2 | Avalon, The Faltering Seal | 25,000 |
+| 3 | Novari of Desire | 35,000 |
+| 4 | Novari, The Shattered Seal | 55,000 |
+| 5 | Novari, Desire of Endlessness | 100,000 |
+
+Between phases the boss becomes a transition entity while it changes form. Novari tries to stop you flying and uses black-and-white magic. The boss doesn't spawn naturally in this version: use its spawn egg.
+
 A boss with **100,000** health.

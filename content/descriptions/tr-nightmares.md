@@ -497,3 +497,274 @@ A history book found in Ancient City chests. Its pages are too damaged to read; 
 A skill sealed in crystal. {{link:skill/trnightmare:pazuzu}} can crystallize one of its user's skills (the user forgets it). Whoever eats the crystal learns that skill without paying its learning cost. An empty crystal does nothing.
 
 {{auto}}
+
+<!-- kind: mobs -->
+
+## trnightmare:sentient_boss_gii_crimson
+**Primordial Rouge**, a demonic sentient boss: it attacks players and mobs that aren't majin (monster races).
+
+**Spawning:** in Hell biomes, each time a Lesser, Greater or Arch Daemon spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.crimsonRarity}} chance it's replaced by this boss.
+
+**Stats:** 850 health, 5,500 spiritual health, 40 armor, 15 attack damage, 1,500,000 to 6,666,666 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 6,666,666** (scaled by your alignment and the EP gain gamerule); it drops {{link:tensura:daemon_essence}} (1 to 3) and a 50% chance of {{link:trnightmare:elder_essence}}, and a Magic Tome with a random elemental spell; it can teach {{link:skill/tensura:pride}} (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_ancient_daemon
+An **Ancient Daemon**, a demonic sentient boss: it attacks players and mobs that aren't majin.
+
+**Spawning:** in Hell biomes, each time a Lesser Daemon spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.ancientDaemonRarity}} chance it's replaced by this boss.
+
+**Stats:** 650 health, 2,450 spiritual health, 10 armor, 10 attack damage, 400,000 to 850,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 850,000** (scaled by your alignment and the EP gain gamerule); it drops {{link:tensura:daemon_essence}} (1 to 3) and a Magic Tome with a random elemental spell.
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_agera
+**Agera**, a sentient boss swordsman.
+
+**Spawning:** in Hell biomes, each time a Lesser, Greater or Arch Daemon spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.ageraRarity}} chance it's replaced by this boss.
+
+**Stats:** 5,000 health, 8,000 spiritual health, 0 armor, 55 attack damage, 2,100,000 EP.
+
+**Rewards:** it drops {{link:tensura:daemon_essence}} (1 to 3) and a 5% chance of {{link:trnightmare:elder_essence}}.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_primordial_daemon
+A **Primordial Daemon**, a demonic sentient boss: it attacks players and mobs that aren't majin.
+
+**Spawning:** it isn't in the natural spawn rules in this version.
+
+**Stats:** 850 health, 5,500 spiritual health, 40 armor, 15 attack damage, 1,500,000 to 6,666,666 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 6,666,666** (scaled by your alignment and the EP gain gamerule); it drops {{link:tensura:daemon_essence}} (1 to 3) and a 50% chance of {{link:trnightmare:elder_essence}}, and a Magic Tome with a random elemental spell.
+
+It takes at most **500** damage from any one hit.
+
+{{auto}}
+
+## trnightmare:sentient_boss_milim_wrath
+**Milim Nava, the Dragon Princess**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.milimWrathRarity}} chance it's replaced by this boss.
+
+**Stats:** 10,000 health, 18,000 spiritual health, 15 armor, 75 attack damage, 7,000,000 to 7,600,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 7,000,000** (scaled by your alignment and the EP gain gamerule); it drops a 50% chance of {{link:tensura:dragon_essence}} (1 to 3) and a 45% chance of {{link:trnightmare:elder_essence}}; it can teach {{link:skill/tensura:wrath}} (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_yuuki_desire
+**Yuuki, the Grandmaster**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.yuukiRarity}} chance it's replaced by this boss.
+
+**Stats:** 4,000 health, 6,000 spiritual health, 0 armor, 45 attack damage, 3,500,000 to 4,500,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 2,100,000** (scaled by your alignment and the EP gain gamerule); it can teach Creator (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_mariabell_rosso
+**Mariabell Rosso**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.mariabellRarity}} chance it's replaced by this boss.
+
+**Stats:** 500 health, 1,500 spiritual health, 0 armor, 12 attack damage, 200,000 to 500,000 EP.
+
+**Rewards:** it can teach {{link:skill/tensura:greed}} (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_glenda
+**Glenda**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.glendaAriosRarity}} chance it's replaced by this boss. (Glenda or Arios, 50/50)
+
+**Stats:** 500 health, 650 spiritual health, 0 armor, 14 attack damage, 150,000 EP.
+
+**Rewards:** it can teach Sniper (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_arios
+**Arios**, a sentient boss. Killing Arios while you have {{link:skill/trnightmare:abaddon}} teaches you the Murderer unique skill.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.glendaAriosRarity}} chance it's replaced by this boss. (Glenda or Arios, 50/50)
+
+**Stats:** 900 health, 1,400 spiritual health, 0 armor, 18 attack damage, 450,000 EP.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_lucius
+**Lucius**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.luciusRaymondRarity}} chance it's replaced by this boss. (Lucius or Raymond, 50/50)
+
+**Stats:** 300 health, 400 spiritual health, 0 armor, 8 attack damage, 40,000 EP.
+
+**Rewards:** it can teach Fusionist (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_raymond
+**Raymond**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, each time a human-like mob spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.luciusRaymondRarity}} chance it's replaced by this boss. (Lucius or Raymond, 50/50)
+
+**Stats:** 300 health, 400 spiritual health, 0 armor, 10 attack damage, 40,000 EP.
+
+**Rewards:** it can teach Fighter (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_kokuyou
+**Kokuyou**, a sentient boss.
+
+**Spawning:** in otherworlder biomes, any natural spawn there has a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.kokuyouExtraChance}} chance to bring Kokuyou along.
+
+**Stats:** 2,800 health, 5,000 spiritual health, 55 armor, 38 attack damage, 900,000 to 1,500,000 EP.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_frey
+**Frey**, a flying sentient boss.
+
+**Spawning:** anywhere, each time a Phantom spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.freyPhantomRarity}} chance it's replaced by Frey.
+
+**Stats:** 3,500 health, 5,000 spiritual health, 45 armor, 40 attack damage, 1,948,734 to 2,000,000 EP.
+
+**Rewards:** it can teach Reflector (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_veldora
+**Veldora**, the Storm Dragon, a sentient boss.
+
+**Spawning:** in mountains or villages, each time a Leech Lizard spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.veldoraRarity}} chance it's replaced by Veldora.
+
+**Stats:** 10,000 health, 20,000 spiritual health, 60 armor, 90 attack damage, 30,000,000 to 40,000,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 30,000,000** (scaled by your alignment and the EP gain gamerule); it drops a 50% chance of {{link:tensura:dragon_essence}} (3 to 13) and an 80% chance of {{link:trnightmare:elder_essence}}; it can teach Investigator (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_velzard
+**Velzard**, the Ice Dragon, a sentient boss.
+
+**Spawning:** in snowy or icy biomes or villages, each time a Leech Lizard spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.velzardRarity}} chance it's replaced by Velzard.
+
+**Stats:** 12,000 health, 25,000 spiritual health, 65 armor, 95 attack damage, 30,000,000 to 60,000,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 30,000,000** (scaled by your alignment and the EP gain gamerule); it drops a 50% chance of {{link:tensura:dragon_essence}} (3 to 13) and an 80% chance of {{link:trnightmare:elder_essence}}; it can teach Stasis and {{link:skill/tensura:envy}} (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_velgrynd
+**Velgrynd**, the Scorch Dragon, a sentient boss.
+
+**Spawning:** in savannas, badlands or villages, each time a Leech Lizard spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.velgryndRarity}} chance it's replaced by Velgrynd.
+
+**Stats:** 12,000 health, 25,000 spiritual health, 65 armor, 100 attack damage, 30,000,000 to 60,000,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 30,000,000** (scaled by your alignment and the EP gain gamerule); it drops a 50% chance of {{link:tensura:dragon_essence}} (3 to 13) and an 80% chance of {{link:trnightmare:elder_essence}}; it can teach Endorse (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:sentient_boss_masayuuki
+**Masayuki, the Lightspeed Chosen Hero**, a sentient boss wielding a Hihi'irokane long sword. Killing him while you have the Gift or Astraea skill teaches you Hero Banner Blessing.
+
+**Spawning:** he isn't in the natural spawn rules in this version.
+
+**Stats:** 800 health, 4,500 spiritual health, 80 armor, 15 attack damage, 400,000 EP.
+
+**Rewards:** killing it raises your max magicule and aura by about **10% of 10,000,000** (scaled by your alignment and the EP gain gamerule); it drops a 50% chance of {{link:trnightmare:holy_essence}} (2 to 10); it can teach Absolute Severance (the chance is set by `otherworlderSkillDrop`, which is **0** in this pack, so it doesn't happen here).
+
+It takes at most **500** damage from any one hit.
+
+{{auto}}
+
+## trnightmare:sentient_boss_veldanava
+**Veldanava, the Star Dragon.** He doesn't spawn in the world: sleeping in a bed with a completed {{link:trnightmare:ancient_history_book}} takes you into your Inner World to meet him. There he is invulnerable and doesn't move.
+
+**Stats:** 99,999 health, 99,999 spiritual health, 20 armor, 99 attack damage, 90,000,000 to 99,999,999 EP.
+
+{{auto}}
+
+## trnightmare:sentient_boss_vert, trnightmare:sentient_boss_bleu, trnightmare:sentient_boss_jaune, trnightmare:sentient_boss_blanc, trnightmare:sentient_boss_violet, trnightmare:sentient_boss_noir, trnightmare:sentient_boss_nior
+One of the six **Primordial** demons (Vert, Bleu, Jaune, Blanc, Violet and Noir), demonic sentient bosses that attack players and mobs that aren't majin.
+
+**Spawning:** in Hell biomes, each time a Lesser, Greater or Arch Daemon spawns there's a 1 in {{cfg:serverconfig/nightmare/mechanic/spawns/nightmare_bosses.toml|boss_spawn_rates.primordialDaemonAspectRarity}} chance it's replaced by one of the six, picked at random.
+
+**Stats:** 850 health, 5,500 spiritual health, 40 armor, 15 attack damage, 1,500,000 to 6,666,666 EP.
+
+Sentient bosses only appear through natural spawns, never inside pillager outposts, never within 500 blocks of another of the same boss, and never within 500 blocks of a spot where any sentient boss appeared in the last 3 minutes. On the surface (under open sky or above sea level) they're 4 times as likely as the rate below, underground 4 times less likely.
+
+{{auto}}
+
+## trnightmare:dragon_clone_veldora, trnightmare:dragon_clone_velzard, trnightmare:dragon_clone_velgrynd
+A True Dragon's body in human form, for a True Dragon living in your {{link:dimension/trnightmare:inner_world}}. Once your bond with the dragon is strong enough, the {{link:skill/trnightmare:inner_world}} skill can let it inhabit a clone that fights beside you.
+
+{{auto}}
+
+<!-- kind: blocks -->
+
+## trnightmare:cadence_accel_glass
+The marker for **Block Acceleration**, a mode of {{link:skill/trnightmare:cadence}} and {{link:skill/trnightmare:gabriel}}. Using the mode on a block places this glass and speeds up time in an 8×8 area around it (from 2 blocks below to 3 above): every tick, plants and other randomly-ticking blocks get **{{cfg:config/nightmare/ability/skill/nightmare_unique.toml|cadence.blockAccelBonusRandomTicks}}** extra growth ticks, and furnaces and other machines run {{cfg:config/nightmare/ability/skill/nightmare_unique.toml|cadence.blockAccelBonusRandomTicks}} extra times, so crops grow and smelting finishes about 20 times faster. The zone lasts until the glass is broken (it breaks very easily) or you sneak and use the mode to clear your zones. Cooldown: {{cfg:config/nightmare/ability/skill/nightmare_unique.toml|cadence.blockAccelCooldownSeconds}} s with Cadence, {{cfg:config/nightmare/ability/skill/nightmare_ult.toml|Gabriel.blockAccelCooldownSeconds}} s with Gabriel.
+
+{{auto}}
+
+## trnightmare:domicile_door, trnightmare:domicile_trapdoor
+A door or trapdoor linked to someone's {{link:dimension/trnightmare:domicile}}, made when they use the {{link:skill/trnightmare:domicile}} skill on an ordinary door or trapdoor. **Walk through it while it's open** to enter the owner's Homestead or Shop (anyone can, with a 2-second cooldown between trips). Opening the door from inside takes you back out through it. Linking a new door turns the old one back into a plain oak door, and the linked doors can't be broken from inside.
+
+{{auto}}
+
+## trnightmare:gabriel_snow_crystal
+Unbreakable ice crystal made by {{link:skill/trnightmare:cessation}} and {{link:skill/trnightmare:gabriel}}. While you hold their ice abilities it forms either a hollow **shell** around you that moves with you, or an **ice wall** in front of you (5 wide, {{cfg:config/nightmare/ability/skill/nightmare_unique.toml|cessation.iceWallHeight}} high and {{cfg:config/nightmare/ability/skill/nightmare_unique.toml|cessation.iceWallThickness}} thick with Cessation). It only fills empty space and disappears as soon as you let go.
+
+{{auto}}

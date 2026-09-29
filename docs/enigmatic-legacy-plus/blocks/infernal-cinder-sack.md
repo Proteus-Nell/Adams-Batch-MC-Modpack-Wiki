@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A storage block of 9 Infernal Cinder that gives off smoke and embers.
+
+
+
 ## Obtaining
 
 ### Recipes

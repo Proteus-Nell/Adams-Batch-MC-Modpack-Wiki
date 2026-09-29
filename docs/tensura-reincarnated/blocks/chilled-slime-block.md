@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A frozen block of slime. Like the [Slime Chunk Block](slime-chunk-block.md) you sink into it, but it slows you more (to 50%), freezes you like powder snow and **puts out fire**.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

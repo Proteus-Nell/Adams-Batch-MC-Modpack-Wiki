@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+The crafting station for **spellstones**. Put Spellstone Debris in the left slot, a Spellcore in the middle and the recipe's seven ingredients around it, and the spellstone appears in the result slot (see each spellstone's page for its recipe). It also works the other way: put a spellstone alone in the right-hand slot to break it down into **4 Spellstone Debris**. Spellstone Huts have one.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

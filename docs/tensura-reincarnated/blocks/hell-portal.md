@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+The portal in a Hell Gate. It takes you to [Hell](../dimensions/hell.md), and the one in Hell takes you back to the Overworld, near the same coordinates. It can't be broken.
+
+
+
 ## Tags
 
 `tensura:magic_explosion_immune`

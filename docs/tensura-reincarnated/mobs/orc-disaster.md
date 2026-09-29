@@ -23,6 +23,8 @@
 
 ## What it does
 
+The Orc Lord's evolved form. An [Orc Lord](orc-lord.md) whose max EP reaches **200,000** (by eating and killing) stops, becomes invulnerable for 2 seconds and evolves into the Orc Disaster, keeping everything it had.
+
 A boss with **700** health, **60** attack damage and **224,435-250,000** magicule. It has 5 skills you can take from it with Predator-type skills. Drops [Bone](https://minecraft.wiki/w/Bone), [Porkchop](https://minecraft.wiki/w/Porkchop), [Orc Disaster Head](../blocks/orc-disaster-head.md) and [Royal Blood](../items/miscellaneous/royal-blood.md).
 
 ## Abilities

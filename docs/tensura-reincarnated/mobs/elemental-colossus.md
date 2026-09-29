@@ -23,6 +23,8 @@
 
 ## What it does
 
+The guardian of the [Labyrinth](../dimensions/labyrinth.md), a giant construct of the elements. Beating it in the Labyrinth marks you as having passed its trial, which some evolutions (like the Ogre line) ask for.
+
 A boss with **600** health, **50** attack damage and **330,000-350,000** magicule. It has 1 skill you can take from it with Predator-type skills. Drops [Block of Pure Magisteel](../blocks/pure-magisteel-block.md) and [Elemental Essence](../items/materials/elemental-essence.md).
 
 ## Abilities

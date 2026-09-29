@@ -23,6 +23,8 @@
 
 ## What it does
 
+A greater spirit of wind. When a [Feathered Serpent](feathered-serpent.md) spawns naturally, there's a 1 in 400 chance Sylphide appears in its place. It can also be summoned with [Summon Greater Elemental](../abilities/summoning-magic/summon-greater-elemental.md), and Hinata can call it.
+
 A boss with **400** health, **40** attack damage and **120,000-150,000** magicule. It has 6 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Wind)](../items/materials/wind-elemental-shard.md).
 
 ## Abilities

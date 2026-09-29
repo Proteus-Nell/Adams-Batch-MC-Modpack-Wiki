@@ -22,4 +22,6 @@
 
 ## What it does
 
+**Beretta**, a boss that circles you at range and dodges projectiles. Everyone within **40** blocks of Beretta is inside its arena: they **can't fly, can't heal and can't place blocks** until the fight ends. It doesn't spawn naturally in this version: use its spawn egg.
+
 A boss with **48,000** health and **480** attack damage.

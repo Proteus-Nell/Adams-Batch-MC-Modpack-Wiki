@@ -24,6 +24,8 @@
 
 ## What it does
 
+**Memoires**, a boss of the [Elemental Realm](../dimensions/elemental-realm.md). It spawns naturally (rarely) in the realm's biomes, wielding [Axiom](../items/weapons/axiom.md) and [Waltz](../items/weapons/waltz.md). If it falls below Y -60 it's teleported back up. Slaying it is one of the requirements to evolve into [Divine Inferius](../races/divine-inferius.md).
+
 A boss with **1,800** health, **25** attack damage and **325,000-350,000** magicule. It has 20 skills you can take from it with Predator-type skills.
 
 ## Abilities

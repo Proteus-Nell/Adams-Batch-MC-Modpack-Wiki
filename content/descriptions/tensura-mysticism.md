@@ -194,3 +194,24 @@ Ambient magicule **+500**, and magicule refills a little faster. Darkness portal
 The scythe of the {{link:skill/mysticism:spiritualist}} skill, which summons it into your hand. It deals no normal damage: a fully charged swing hurts the target's **spiritual health** directly for 30 up to 1,500 (scaling with your soul points, maxing at 50,000,000), and a weaker swing does a tenth of that.
 
 {{auto}}
+
+<!-- kind: mobs -->
+
+## mysticism:memoires
+**Memoires**, a boss of the {{link:dimension/mysticism:elemental_realm}}. It spawns naturally (rarely) in the realm's biomes, wielding {{link:mysticism:axiom}} and {{link:mysticism:waltz}}. If it falls below Y -60 it's teleported back up. Slaying it is one of the requirements to evolve into {{link:race/mysticism:divine_inferius}}.
+
+{{auto}}
+
+<!-- kind: structures -->
+
+## mysticism:elemental_realm/dark_portal_big, mysticism:elemental_realm/earth_portal, mysticism:elemental_realm/wind_portal
+A portal shrine in the {{link:dimension/mysticism:elemental_realm}} (in its Darkness, Earth or Wind biome), holding an Elemental Realm Portal that leads back to the Overworld.
+
+{{auto}}
+
+<!-- kind: blocks -->
+
+## mysticism:ice_ore
+The source of {{link:mysticism:ice_essence}}. It generates inside the ice of vanilla **Ice Spikes** biomes (between Y 55 and 100) and in the frozen blobs of the Elemental Realm's {{link:biome/mysticism:water_biome}}. Fortune gives more Ice Essence, and Silk Touch keeps the ore.
+
+{{auto}}

@@ -704,3 +704,347 @@ A massive shield made from Charybdis scales (3,964 durability, doesn't burn). Ho
 Seeds for {{link:tensura:hipokute_grass}}, the herb Tensura's potions are brewed from.
 
 {{auto}}
+
+<!-- kind: mobs -->
+
+## tensura:charybdis
+A colossal flying sky-fish boss, Tempest's calamity. It doesn't spawn on its own: it's awakened from a {{link:block/tensura:charybdis_core}}. Place the core and kill creatures near it; instead of dropping their EP, they feed it to the core. Once the core holds **{{cfg:config/tensura/block_config.toml|CharybdisCore.charybdisCoreActiveEP}}** EP it wakes up (with a Wither-like roar), and right-clicking it then releases Charybdis.
+
+{{auto}}
+
+## tensura:orc_disaster
+The Orc Lord's evolved form. An {{link:entity/tensura:orc_lord}} whose max EP reaches **200,000** (by eating and killing) stops, becomes invulnerable for 2 seconds and evolves into the Orc Disaster, keeping everything it had.
+
+{{auto}}
+
+## tensura:supermassive_slime
+A giant slime. When a {{link:entity/tensura:slime}} spawns naturally in a supermassive-slime biome, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.supermassiveSlimeChance}} chance it spawns as a Supermassive Slime instead. A slime in a bucket keeps being supermassive.
+
+{{auto}}
+
+## tensura:hinata_sakaguchi
+Hinata Sakaguchi, the Holy Knight captain, a boss otherworlder. When an otherworlder like {{link:entity/tensura:kyoya_tachibana}} spawns naturally, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.hinataChance}} chance it's replaced by Hinata. In battle she can call greater spirits (Undine, Sylphide, War Gnome and Akash) to her side.
+
+{{auto}}
+
+## tensura:ifrit
+The fire spirit sealed inside {{link:entity/tensura:shizu}}. When Shizu is pushed far enough in a fight, Ifrit bursts out of her as a boss. It can also be summoned with {{link:skill/tensura:summon_greater_elemental}}.
+
+{{auto}}
+
+## tensura:akash
+A greater spirit of space. When a {{link:entity/tensura:winged_cat}} spawns naturally in the Ancient Forest, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.greaterSpiritChance}} chance Akash appears in its place. It can also be summoned with {{link:skill/tensura:summon_greater_elemental}}, and Hinata can call it.
+
+{{auto}}
+
+## tensura:sylphide
+A greater spirit of wind. When a {{link:entity/tensura:feathered_serpent}} spawns naturally, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.greaterSpiritChance}} chance Sylphide appears in its place. It can also be summoned with {{link:skill/tensura:summon_greater_elemental}}, and Hinata can call it.
+
+{{auto}}
+
+## tensura:undine
+A greater spirit of water. When an {{link:entity/tensura:aqua_frog}} spawns naturally, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.greaterSpiritChance}} chance Undine appears in its place. It can also be summoned with {{link:skill/tensura:summon_greater_elemental}}, and Hinata can call it.
+
+{{auto}}
+
+## tensura:war_gnome
+A greater spirit of earth. When a {{link:entity/tensura:beast_gnome}} spawns naturally, there's a 1 in {{cfg:config/tensura/entity/spawn_rate_config.toml|SpecialVariant.greaterSpiritChance}} chance the War Gnome appears in its place. It can also be summoned with {{link:skill/tensura:summon_greater_elemental}}, and Hinata can call it.
+
+{{auto}}
+
+## tensura:gazel_dwargo
+Gazel Dwargo, the Dwarf King, fought in his own arena. Reach it through the warp pad at the top of the royal tower in a {{link:structure/tensura:villages/dwarf_village}}, which takes you to the {{link:dimension/tensura:boss_area}}. Operators can reset the fight with Tensura's boss fight command.
+
+{{auto}}
+
+## tensura:elemental_colossus
+The guardian of the {{link:dimension/tensura:labyrinth}}, a giant construct of the elements. Beating it in the Labyrinth marks you as having passed its trial, which some evolutions (like the Ogre line) ask for.
+
+{{auto}}
+
+<!-- kind: enchantments -->
+
+## minecraft:protection
+Tensura changes the vanilla Protection enchantment: it still reduces most damage (1 protection point per level, 4% each), but no longer protects against damage that Tensura marks as bypassing it (the `tensura:bypass_protection_enchantment` damage type tag).
+
+{{auto}}
+
+<!-- kind: structures -->
+
+## tensura:villages/dwarf_village
+A **Dwarf village**, home to {{link:entity/tensura:dwarf}}s (with some goblins, lizardmen and a pegasus about), built from a plaza, roads, homes, farms and a mine. Its buildings have their own loot chests: homes, the guard post, fisherman, library, magic trainer, smithy, market, merchant stalls, farms and the **royal tower**. The royal tower's royal warp pad takes you to the arena of {{link:entity/tensura:gazel_dwargo}}.
+
+{{auto}}
+
+## tensura:villages/goblin_village/acacia, tensura:villages/goblin_village/birch, tensura:villages/goblin_village/jungle, tensura:villages/goblin_village/oak, tensura:villages/goblin_village/palm, tensura:villages/goblin_village/spruce
+A **Goblin village** built from the local wood, home to {{link:entity/tensura:goblin}}s. It has a village loot chest and a goblin tower with its own chest.
+
+{{auto}}
+
+## tensura:villages/lizardmen_village/tower_short, tensura:villages/lizardmen_village/tower_tall, tensura:villages/lizardmen_village/underground, tensura:villages/lizardmen_village/water
+Part of a **Lizardman village**, home to {{link:entity/tensura:lizardman}}s and Hover Lizards. The towers have a tower chest, the water section storage and bedrooms, and the underground halls a throne room, jail, smithy, mess hall and bedrooms, each with its own loot.
+
+{{auto}}
+
+## tensura:villages/orc_village
+An **Orc camp** of tents and storage, each with loot. Orcs live here, led by an {{link:entity/tensura:orc_lord}}, which can evolve into the Orc Disaster if it grows strong enough.
+
+{{auto}}
+
+## tensura:ruin/wizard_tower/buried, tensura:ruin/wizard_tower/burnt, tensura:ruin/wizard_tower/frozen, tensura:ruin/wizard_tower/rotted, tensura:ruin/wizard_tower/ruined
+A ruined **wizard tower**. Each variant (buried, burnt, frozen, rotted or ruined) has its own loot chest.
+
+{{auto}}
+
+## tensura:ruin/warp/cold_warp_pad, tensura:ruin/warp/desert_warp_pad, tensura:ruin/warp/mesa_warp_pad, tensura:ruin/warp/plains_warp_pad, tensura:ruin/warp/swamp_warp_pad
+An old **warp pad** ruin, with a warp pad made from the local stone (see {{link:block/tensura:stone_warp_pad}} for how warp pads work).
+
+{{auto}}
+
+## tensura:hell/hell_gate
+A gate holding a {{link:block/tensura:hell_portal}}: stepping into it in the Overworld takes you to {{link:dimension/tensura:hell}}, and the one in Hell takes you back.
+
+{{auto}}
+
+## tensura:hell/red_sand_ruin
+A ruin in Hell's red sands, with a Hell ruins loot chest.
+
+{{auto}}
+
+## tensura:hell/sand_ruin
+A ruin in Hell's pale sands.
+
+{{auto}}
+
+## tensura:nests/black_spider
+A **Black Spider nest**, full of Black Spiders and {{link:block/tensura:spider_egg}}s, with a spider nest chest and a dungeon chest.
+
+{{auto}}
+
+## tensura:nests/giant_ant
+A **Giant Ant nest** where {{link:entity/tensura:giant_ant}}s live.
+
+{{auto}}
+
+## tensura:ancient_forest/tree
+A giant tree of the Ancient Forest. Some of them are **Labyrinth Trees**, with a {{link:block/tensura:labyrinth_portal}} to the {{link:dimension/tensura:labyrinth}} at their base.
+
+{{auto}}
+
+## tensura:ancient_forest/mushroom, tensura:ancient_forest/rock
+Scenery of the Ancient Forest: giant mushrooms and mossy rocks.
+
+{{auto}}
+
+## tensura:labyrinth/labyrinth_tree
+The **Labyrinth Tree**, with a {{link:block/tensura:labyrinth_portal}} at its base that leads into the {{link:dimension/tensura:labyrinth}}.
+
+{{auto}}
+
+## tensura:charybdis_cave/desert, tensura:charybdis_cave/ice, tensura:charybdis_cave/mesa, tensura:charybdis_cave/plains
+A cave holding a dormant {{link:block/tensura:charybdis_core}}, the seed of {{link:entity/tensura:charybdis}}. Feed the core EP by killing creatures around it to wake the boss.
+
+{{auto}}
+
+<!-- kind: blocks -->
+
+## class:io.github.manasmods.tensura.block.ToolRackBlock
+A wall rack that holds tools and weapons. Right-click a slot while holding a tool (anything that takes durability) to hang it there, and right-click a filled slot with an empty hand to take it back. Breaking the rack drops whatever was on it. Tool racks are the job site of Tensura's **Guard** profession.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.block.WarpPadBlock
+A teleporter pad. Place it normally for a 2×2 pad, or sneak while placing for a 3×3 one.
+
+- A pad only teleports once a destination has been set on it by command (a fixed spot, an offset, a random spot, a spawn point or a boss fight), as with the pads found in structures. Crouch on it to warp; players pay **20** magicules per use by default.
+- If you can save more than one warp point, sneak and right-click the pad to save it to your list of warp pads for spatial movement skills.
+- The pad in a Dwarf Village's royal tower starts the {{link:entity/tensura:gazel_dwargo}} fight. It only lets you in if your reputation with dwarves is at its maximum or minimum.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.block.MagicEngineBlock
+A device that drains the magic from the air. Right-click to switch it on or off. While it's on, it glows (light 15), gives off a full redstone signal and **lowers the ambient magicule** of the area within **{{cfg:config/tensura/area_magicule_config.toml|magicEngineRange}}** blocks by **{{cfg:config/tensura/area_magicule_config.toml|magicEngineReduction}}**. That protects weak players from {{link:effect/tensura:magicule_poison}}, and wherever the magicule drops below **{{cfg:config/tensura/area_magicule_config.toml|minimalMagiculeSpawn}}** (most areas start at 500) the area becomes a **safe zone**: no mobs spawn there naturally, and mobs outside won't target you or walk in unless you attacked them first.
+
+{{auto}}
+
+## tensura:labyrinth_bricks_magic_engine, tensura:cream_labyrinth_bricks_magic_engine, tensura:dark_labyrinth_bricks_magic_engine
+The Labyrinth's own magic engines. They work like the other {{link:tensura:stone_bricks_magic_engine}}s but reach **{{cfg:config/tensura/area_magicule_config.toml|labyrinthMagicEngineRange}}** blocks and remove **{{cfg:config/tensura/area_magicule_config.toml|labyrinthMagicEngineReduction}}** magicule, and only creative-mode players can switch them.
+
+{{auto}}
+
+## tensura:baffledil
+A hypnotic flower. Players within **{{cfg:config/tensura/block_config.toml|Baffledil.hypnosisRadius}}** blocks get {{link:effect/tensura:hypnosis}} for {{secs:config/tensura/block_config.toml|Baffledil.hypnosisDuration}} seconds, again and again; walking into it or breaking it triggers it too. (Races that don't need to breathe are immune.) **Use shears on it to disarm it** for good, after which it's harmless. It's brewed into Potions of Hypnosis.
+
+{{auto}}
+
+## tensura:black_fire
+Black flames, left by black flame attacks, black lightning, Amaterasu and Black Fire Charges. Anything standing in it takes 2 black flame damage, catches fire for 10 seconds and gets {{link:effect/tensura:black_burn}} for 10 seconds. It burns out over time, except on top of magic ore and magic metal blocks, where it **burns forever** like fire on netherrack.
+
+{{auto}}
+
+## tensura:slime_chunk_block
+A block of slime you sink into. It slows anything that isn't a slime-type mob (to 70% speed) and you can walk through it, but it catches you like a slime block if you fall onto it from more than 2.5 blocks. It sticks to pistons like slime.
+
+{{auto}}
+
+## tensura:chilled_slime_block
+A frozen block of slime. Like the {{link:tensura:slime_chunk_block}} you sink into it, but it slows you more (to 50%), freezes you like powder snow and **puts out fire**.
+
+{{auto}}
+
+## tensura:hipokute_grass
+The plant Hipokute Flowers grow on. Plant {{link:item/tensura:hipokute_seeds}} on grass, dirt or farmland; wet farmland nearby makes it grow faster. The first growth step is a gamble that depends on the **area's magicule**: in a normal area (500) it succeeds only about 1 time in 9, and otherwise the plant turns into ordinary wheat. Every 500 more magicule improves the odds, and from 4,500 up it always succeeds. Once fully grown, right-click it to pick a {{link:item/tensura:hipokute_flower}}; it then regrows.
+
+{{auto}}
+
+## tensura:kiln, tensura:kiln_mithril, tensura:kiln_orichalcum
+A two-block-tall smeltery for magic metals. Put furnace fuel in the fuel slot and metal in the input: it **melts** items into two tanks, one for ordinary metal (iron, gold, silver and so on) and one for magic material (magisteel from magic ore). Then pick a **mixing** recipe to cast the two into alloys, for example 8 iron + 4 magisteel into a Low Magisteel Ingot, or 4 silver + 20 magisteel into a Mithril Ingot.
+
+Each tank holds {{cfg:config/tensura/block_config.toml|Kiln.moltenDefault}} in a Kiln, {{cfg:config/tensura/block_config.toml|Kiln.moltenMithril}} in a Mithril Kiln and {{cfg:config/tensura/block_config.toml|Kiln.moltenOrichalcum}} in an Orichalcum Kiln. Right-click the kiln with a {{link:tensura:element_core_fire}} to charge it: it takes {{cfg:config/tensura/block_config.toml|Kiln.fireCoreCost}} of the core's durability and makes the kiln **melt twice as fast** for {{secs:config/tensura/block_config.toml|Kiln.chargeDuration}} seconds (charges stack).
+
+{{auto}}
+
+## tensura:mining_station
+An ore processor. Put ore (or a few stone blocks) in the input and every half second it breaks one down into its drops, with the leftover stone, into 9 output slots. For example Iron Ore gives 1 to 4 Raw Iron and a Cobblestone, Lapis Ore gives 4 to 8 Lapis, Magic Ore gives 1 or 2 Magic Ore Shards, Gravel gives Sand (with a 10% chance of Flint) and Cobblestone gives Gravel. It's the job site of Tensura's **Miner** profession.
+
+{{auto}}
+
+## tensura:moth_egg
+Hell moth eggs, laid on leaves or wool. They hatch into {{link:entity/tensura:hell_caterpillar}}s over time (mostly at dusk). Walking on them without sneaking tramples them and drops Hell Moth Silk; hell moths and caterpillars can walk on them safely. You can stack up to 4 in one block.
+
+{{auto}}
+
+## tensura:orc_disaster_head
+The Orc Disaster's head, dropped by {{link:entity/tensura:orc_disaster}}. Place it as a trophy, or right-click to wear it as a helmet (it can be enchanted).
+
+{{auto}}
+
+## tensura:sarasa_sand
+Pale sand that falls like normal sand. Liquidize magic turns it into {{link:tensura:sarasa_quicksand}}.
+
+{{auto}}
+
+## tensura:smithing_bench
+Tensura's crafting station for gear: most Tensura weapons, armor and tools are made here from ingots and parts. Right-click to open it. See each item's page for its Smithing Bench recipe.
+
+{{auto}}
+
+## tensura:woodcutter
+A stonecutter for wood: pick one log or plank and turn it into planks, stairs, slabs, fences and other wooden pieces with no waste. It's the job site of Tensura's **Lumberjack** profession.
+
+{{auto}}
+
+## tensura:spellbinding_table
+Binds spells to casting items. Put a spell-casting weapon (staff, grimoire and so on) in the slot to see the magic you've learned: pick a spell to **bind** it to the item (up to the item's spell slots) or to **unbind** one. Put in an {{link:tensura:unbound_tome}} instead and pick a spell you've **mastered** to turn it into a {{link:tensura:magic_tome}} of that spell. Only magic can be bound, and a few special spells can't. Spells already on the item that you haven't learned are listed too, so you can remove them. It's the job site of Tensura's **Magic Trainer** profession.
+
+{{auto}}
+
+## tensura:training_dummy
+A straw training dummy (two blocks tall). You can hit it as much as you like: after each hit it shows the total damage dealt in your action bar. It's the job site of Tensura's **Battlewill Trainer** profession.
+
+{{auto}}
+
+## tensura:thatch_bed
+A low straw bed. It works like a normal bed (sleep, set your spawn), and landing on it takes 25% off fall damage without bouncing you.
+
+{{auto}}
+
+## tensura:thatch_block
+Bundled straw. Like a hay bale, landing on it cuts fall damage by 80%.
+
+{{auto}}
+
+## tensura:spider_egg
+Black spider eggs, laid by {{link:entity/tensura:black_spider}}s. They hatch into baby black spiders over time. Breaking one without **Silk Touch**, blowing it up, landing on it or walking on it without sneaking hatches a hostile spider on the spot and sets off the eggs around it too. Spiders and other arthropods can walk on them safely.
+
+{{auto}}
+
+## tensura:sticky_cobweb
+Web left by a {{link:tensura:sticky_web_cartridge}}. It traps anything inside almost completely and dissolves on its own after a few seconds.
+
+{{auto}}
+
+## tensura:sticky_steel_cobweb
+Web left by a {{link:tensura:sticky_steel_web_cartridge}}. It traps like a {{link:tensura:sticky_cobweb}}, and anything that moves while caught takes **2** steel thread damage. Web-walking mobs aren't hurt.
+
+{{auto}}
+
+## tensura:web_block
+A tough block of packed spider silk. Walking on it slows you to 40% and cuts your jump.
+
+{{auto}}
+
+## tensura:webbed_cobblestone, tensura:webbed_stone_bricks
+Stone overgrown with web. Walking on it slows you a little (to 80%) and cuts your jump. Web bullets turn stone into webbed cobblestone.
+
+{{auto}}
+
+## tensura:solid_space
+The invisible platform made by Space Magic's **Solid Space**: sneak in mid-air to stand on it. It vanishes on its own after a while and can be broken instantly.
+
+{{auto}}
+
+## tensura:light_air
+Invisible light source (light 15) left by light magic. It has no collision and vanishes on its own. Hold a Light block item to see its outline.
+
+{{auto}}
+
+## tensura:labyrinth_barrier_block
+An invisible wall in the {{link:dimension/tensura:labyrinth}}. It holds you back (and pushes you toward the {{link:entity/tensura:elemental_colossus}}) until you've **passed the Colossus**; after that you can walk through. It always blocks projectiles (they bounce back) and the Labyrinth's spirit protectors, and some teleport skills can't land on it. It can't be broken; creative players can right-click to switch it off.
+
+{{auto}}
+
+## tensura:labyrinth_light_path, tensura:labyrinth_light_path_slab, tensura:labyrinth_light_path_stairs
+Glowing glass floor of the {{link:dimension/tensura:labyrinth}}. It can't be broken.
+
+{{auto}}
+
+## tensura:labyrinth_praying_path
+The spirits' altar in the {{link:dimension/tensura:labyrinth}}. **Sneak on it for {{secs:config/tensura/race/race_config.toml|Spirit.prayingTime}} seconds** (you're blinded while praying) to ask the elemental spirits for a contract. You get a random element, and the spirit's rank depends on your race: by default {{cfg:config/tensura/race/race_config.toml|Spirit.lesserSpiritPercentage}}% Lesser, {{cfg:config/tensura/race/race_config.toml|Spirit.mediumSpiritPercentage}}% Medium, {{cfg:config/tensura/race/race_config.toml|Spirit.greaterSpiritPercentage}}% Greater and {{cfg:config/tensura/race/race_config.toml|Spirit.lordSpiritPercentage}}% Spirit Lord (a Lord only if you already have at least a Medium spirit of that element), otherwise nothing. You can pray again after {{cfg:config/tensura/race/race_config.toml|Spirit.prayingCooldown}} seconds (20 minutes). It can't be broken.
+
+{{auto}}
+
+## tensura:labyrinth_portal
+The way into the {{link:dimension/tensura:labyrinth}}, found in Labyrinth Trees. It takes you to the Labyrinth's entrance, or past the {{link:entity/tensura:elemental_colossus}} if you've already beaten it. The portal inside takes you back to the Overworld (to your bed if it's there). It can't be broken.
+
+{{auto}}
+
+## tensura:hell_portal
+The portal in a Hell Gate. It takes you to {{link:dimension/tensura:hell}}, and the one in Hell takes you back to the Overworld, near the same coordinates. It can't be broken.
+
+{{auto}}
+
+## tensura:magic_ore, tensura:deepslate_magic_ore
+The source of magisteel. It needs a netherite pickaxe. Melt it in a {{link:tensura:kiln}} for magisteel, or process it in a {{link:tensura:mining_station}} for {{link:tensura:magic_ore_shard}}s. Black fire burns forever on top of it.
+
+{{auto}}
+
+## tensura:silver_ore, tensura:deepslate_silver_ore
+Silver ore, found throughout the Overworld from Y −64 to 32 (most common around Y −16), with rare large veins deep down. It drops Raw Silver. Silver is used for Tensura's silver gear and, in a {{link:tensura:kiln}}, for Mithril.
+
+{{auto}}
+
+## tensura:low_quality_magic_crystal_block, tensura:medium_quality_magic_crystal_block, tensura:high_quality_magic_crystal_block
+A storage block of 9 magic crystals of that quality. Craft it back into 9 crystals any time.
+
+{{auto}}
+
+## tensura:magic_ore_block
+A block of 9 {{link:tensura:magic_ore_shard}}s. Black fire burns forever on top of it.
+
+{{auto}}
+
+## tensura:palm_log, tensura:palm_wood, tensura:stripped_palm_log, tensura:stripped_palm_wood, tensura:palm_leaves, tensura:palm_sapling, tensura:palm_sign, tensura:palm_hanging_sign
+Palm wood. Palm trees grow on **beaches and along rivers**; plant a {{link:tensura:palm_sapling}} to grow your own. The wood works like any other (planks, signs, a {{link:tensura:palm_tool_rack}} and so on).
+
+{{auto}}
+
+## tensura:potted_baffledil, tensura:potted_hipokute_flower, tensura:potted_palm_sapling
+A flower pot holding that plant. A potted Baffledil is harmless, and a potted Hipokute Flower glows faintly.
+
+{{auto}}
+
+## tensura:tatami_block, tensura:tatami_carpet
+Woven tatami for Japanese-style floors. Four Tatami Blocks make four Single Tatami blocks, which make Single Tatami Carpets.
+
+{{auto}}

@@ -130,3 +130,65 @@ A sacred relic taken from {{link:entity/tensuramoreskills:feldway}} that still c
 The summoning modes have a cooldown after use.
 
 {{auto}}
+
+<!-- kind: mobs -->
+
+## tensuramoreskills:feldway
+**Feldway**, the leader of the angels and the boss of the {{link:dimension/tensuramoreskills:paths}}. He's summoned at a shrine in the Paths: a 3 × 3 floor of Pure Magisteel Blocks with a Mithril Block on the center (right-click the Mithril Block).
+
+The fight has three phases. Feldway calls angels to his side, dashes, and brings down Sky Judgement, Lance Rain, Solar Prison and Heavenfall, which hit much harder in phase three (Sky Judgement up to {{cfg:config/tensuramoreskills-entities.toml|feldway.sky_judgement.skyJudgementDamagePhaseThree}} damage). Partway through he releases {{link:entity/tensuramoreskills:michael_manas}}. Once Michael is dead and Feldway is brought down, he doesn't die: he **awakens** into a second boss ({{link:entity/tensuramoreskills:feldway_awakening}}, then {{link:entity/tensuramoreskills:feldway_awakened}}).
+
+{{auto}}
+
+## tensuramoreskills:feldway_awakening, tensuramoreskills:feldway_awakened
+Feldway's second form. When {{link:entity/tensuramoreskills:feldway}} is defeated after Michael has fallen, he rises again: first the awakening (a transition) and then the **Awakened Feldway**, a new boss that continues the fight against the same target.
+
+{{auto}}
+
+## tensuramoreskills:michael_manas
+**Michael**, the angel manas. {{link:entity/tensuramoreskills:feldway}} releases him during his fight, and the Ultimate mode of the {{link:tensuramoreskills:feldway_angel_summoner}} summons him on your side. Feldway can't awaken into his second form while Michael is alive.
+
+{{auto}}
+
+## tensuramoreskills:avalon_novari, tensuramoreskills:avalon_novari_transition
+**Avalon**, a Grand Magus holding back the power of Oblivion, and **Novari**, the desire sealed inside him. The fight has five phases, each with its own health and a speech between them:
+
+| Phase | Name | Health |
+|---|---|---|
+| 1 | Avalon, The Grand Magus | 15,000 |
+| 2 | Avalon, The Faltering Seal | 25,000 |
+| 3 | Novari of Desire | 35,000 |
+| 4 | Novari, The Shattered Seal | 55,000 |
+| 5 | Novari, Desire of Endlessness | 100,000 |
+
+Between phases the boss becomes a transition entity while it changes form. Novari tries to stop you flying and uses black-and-white magic. The boss doesn't spawn naturally in this version: use its spawn egg.
+
+{{auto}}
+
+## tensuramoreskills:beretta
+**Beretta**, a boss that circles you at range and dodges projectiles. Everyone within **{{cfg:config/tensuramoreskills-entities.toml|beretta.general.arenaRadius}}** blocks of Beretta is inside its arena: they **can't fly, can't heal and can't place blocks** until the fight ends. It doesn't spawn naturally in this version: use its spawn egg.
+
+{{auto}}
+
+<!-- kind: structures -->
+
+## tensuramoreskills:paths_gate
+A mossy stone gate in the plains holding the portal to the {{link:dimension/tensuramoreskills:paths}}. Stand in the portal for 5 seconds with at least **5,000,000 max EP** to enter.
+
+{{auto}}
+
+<!-- kind: blocks -->
+
+## tensuramoreskills:black_blood_mire, tensuramoreskills:infected_dirt, tensuramoreskills:infected_grass, tensuramoreskills:infected_leaves, tensuramoreskills:infected_wood
+Ground and trees corrupted by a **Black Blood Domain**, the territory a {{link:race/tensuramoreskills:crimson_progenitor}} spreads with {{link:skill/tensuramoreskills:black_communion}}. Grass, dirt, logs and leaves turn into their infected versions and everything else into Black Blood Mire. In a domain, Bloodfiends are healed and refilled with blood and magicules, while other creatures standing in it take damage.
+
+**This whole system is turned off in this pack** (`blockInfectionEnabled = false` in `tensuramoreskills-races.toml`, which is also the mod's default), so these blocks never spread and do nothing special.
+
+{{auto}}
+
+## tensuramoreskills:blood_altar
+The heart of a **Black Blood Domain** (see {{link:tensuramoreskills:black_blood_mire}}). Black Communion raises one near the progenitor once its domain is strong enough (only one can exist per world by default). Bloodfiends right-click it to **sacrifice blood** into it and sneak-right-click to see its status. Stored blood levels it up (1,000 blood for level 1, up to 10,000 for level 5), and a powered altar keeps spreading the infection and strengthens the domain's buffs around it.
+
+Like the rest of the Black Blood Domain, it's **turned off in this pack**, so it never appears and does nothing if placed.
+
+{{auto}}

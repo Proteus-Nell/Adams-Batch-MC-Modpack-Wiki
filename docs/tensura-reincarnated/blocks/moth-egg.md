@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Hell moth eggs, laid on leaves or wool. They hatch into [Hell Caterpillar](../mobs/hell-caterpillar.md)s over time (mostly at dusk). Walking on them without sneaking tramples them and drops Hell Moth Silk; hell moths and caterpillars can walk on them safely. You can stack up to 4 in one block.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

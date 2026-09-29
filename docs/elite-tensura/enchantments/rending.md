@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A weapon **engraving**: each hit gives the target [Rend](../effects/rend.md) (level = engraving level) for 3 seconds, stripping its armor.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

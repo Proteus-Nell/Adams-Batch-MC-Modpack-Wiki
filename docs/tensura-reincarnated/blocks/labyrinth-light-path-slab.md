@@ -14,6 +14,8 @@
 
 ## What it does
 
+Glowing glass floor of the [Labyrinth](../dimensions/labyrinth.md). It can't be broken.
+
 Decorative slab made from [Labyrinth Light Path](labyrinth-light-path.md).
 
 ## Tags

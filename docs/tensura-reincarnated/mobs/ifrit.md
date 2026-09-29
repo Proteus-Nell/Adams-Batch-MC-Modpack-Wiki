@@ -23,6 +23,8 @@
 
 ## What it does
 
+The fire spirit sealed inside [Shizu](shizu.md). When Shizu is pushed far enough in a fight, Ifrit bursts out of her as a boss. It can also be summoned with [Summon Greater Elemental](../abilities/summoning-magic/summon-greater-elemental.md).
+
 A boss with **400** health, **40** attack damage and **120,000-150,000** magicule. It has 8 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Fire)](../items/materials/fire-elemental-shard.md).
 
 ## Abilities

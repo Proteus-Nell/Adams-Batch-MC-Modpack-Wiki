@@ -17,6 +17,8 @@
 
 ## What it does
 
+An old **warp pad** ruin, with a warp pad made from the local stone (see [Stone Warp Pad](../blocks/stone-warp-pad.md) for how warp pads work).
+
 Generates in Is Forest, Is Plains, Ancient Forest, about one every 50 chunks (at least 20 chunks apart).
 
 ## Loot

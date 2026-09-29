@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A hypnotic flower. Players within **8** blocks get [Hypnosis](../effects/hypnosis.md) for 8 seconds, again and again; walking into it or breaking it triggers it too. (Races that don't need to breathe are immune.) **Use shears on it to disarm it** for good, after which it's harmless. It's brewed into Potions of Hypnosis.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

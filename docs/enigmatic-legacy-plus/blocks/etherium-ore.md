@@ -16,6 +16,8 @@
 
 ## What it does
 
+The ore of Etherium, found in End Stone on the **outer End islands** (the biomes where End Cities generate), in small veins. It glows faintly, needs a diamond pickaxe, and drops Raw Etherium and some experience.
+
 Ore block. Mining it drops [Raw Etherium](../items/miscellaneous/raw-etherium.md). You need a diamond pickaxe or better. Used to make [Raw Etherium](../items/miscellaneous/raw-etherium.md).
 
 ## Drops

@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+Tensura's crafting station for gear: most Tensura weapons, armor and tools are made here from ingots and parts. Right-click to open it. See each item's page for its Smithing Bench recipe.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -17,4 +17,6 @@
 
 ## What it does
 
+Scenery of the Ancient Forest: giant mushrooms and mossy rocks.
+
 Generates in Ancient Forest, about one every 2 chunks (at least 1 chunk apart).

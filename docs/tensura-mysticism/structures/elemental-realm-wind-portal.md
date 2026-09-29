@@ -17,4 +17,6 @@
 
 ## What it does
 
+A portal shrine in the [Elemental Realm](../dimensions/elemental-realm.md) (in its Darkness, Earth or Wind biome), holding an Elemental Realm Portal that leads back to the Overworld.
+
 Generates in Wind Biome, about one every 200 chunks (at least 50 chunks apart).

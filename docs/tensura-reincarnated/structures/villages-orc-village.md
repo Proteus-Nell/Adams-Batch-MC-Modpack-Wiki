@@ -18,4 +18,6 @@
 
 ## What it does
 
+An **Orc camp** of tents and storage, each with loot. Orcs live here, led by an [Orc Lord](../mobs/orc-lord.md), which can evolve into the Orc Disaster if it grows strong enough.
+
 Generates in Is Desert, about one every 40 chunks (at least 30 chunks apart).

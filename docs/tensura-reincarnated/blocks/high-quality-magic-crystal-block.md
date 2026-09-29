@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A storage block of 9 magic crystals of that quality. Craft it back into 9 crystals any time.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

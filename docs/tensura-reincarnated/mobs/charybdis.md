@@ -24,6 +24,8 @@
 
 ## What it does
 
+A colossal flying sky-fish boss, Tempest's calamity. It doesn't spawn on its own: it's awakened from a [Charybdis Core](../blocks/charybdis-core.md). Place the core and kill creatures near it; instead of dropping their EP, they feed it to the core. Once the core holds **100,000** EP it wakes up (with a Wither-like roar), and right-clicking it then releases Charybdis.
+
 A boss with **3,000** health, **100** attack damage and **1,200,000** magicule. It has 8 skills you can take from it with Predator-type skills. Drops [Dragon Essence](../items/materials/dragon-essence.md), [Charybdis Scale](../items/materials/charybdis-scale.md) and [Raw Charybdis Meat](../items/miscellaneous/raw-charybdis-meat.md).
 
 ## Abilities

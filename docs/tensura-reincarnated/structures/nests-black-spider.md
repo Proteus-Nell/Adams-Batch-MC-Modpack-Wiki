@@ -18,4 +18,6 @@
 
 ## What it does
 
+A **Black Spider nest**, full of Black Spiders and [Spider Egg](../blocks/spider-egg.md)s, with a spider nest chest and a dungeon chest.
+
 Generates in Dark Forest, Plains, about one every 70 chunks (at least 25 chunks apart).

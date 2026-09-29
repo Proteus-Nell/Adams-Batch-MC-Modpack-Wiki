@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A storage block of 9 Astral Dust. It sparkles, and smelting it makes 4 [Astral Glass](astral-glass.md).
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

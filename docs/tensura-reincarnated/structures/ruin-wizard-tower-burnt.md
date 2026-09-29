@@ -18,6 +18,8 @@
 
 ## What it does
 
+A ruined **wizard tower**. Each variant (buried, burnt, frozen, rotted or ruined) has its own loot chest.
+
 Generates in `#minecraft:is_badlands`, about one every 60 chunks (at least 20 chunks apart).
 
 ## Loot

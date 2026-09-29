@@ -23,6 +23,8 @@
 
 ## What it does
 
+A giant slime. When a [Slime](slime.md) spawns naturally in a supermassive-slime biome, there's a 1 in 1,000 chance it spawns as a Supermassive Slime instead. A slime in a bucket keeps being supermassive.
+
 A boss with **200** health, **20** attack damage and **50,000-100,000** magicule. It has 2 skills you can take from it with Predator-type skills. Drops [Slime Chunk](../items/miscellaneous/slime-chunk.md), [Chilled Slime](../items/miscellaneous/chilled-slime.md) and [Slime Core](../items/materials/slime-core.md).
 
 ## Abilities

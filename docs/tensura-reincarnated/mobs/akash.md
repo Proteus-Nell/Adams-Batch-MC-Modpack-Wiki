@@ -23,6 +23,8 @@
 
 ## What it does
 
+A greater spirit of space. When a [Winged Cat](winged-cat.md) spawns naturally in the Ancient Forest, there's a 1 in 400 chance Akash appears in its place. It can also be summoned with [Summon Greater Elemental](../abilities/summoning-magic/summon-greater-elemental.md), and Hinata can call it.
+
 A boss with **300** health, **20** attack damage and **120,000-150,000** magicule. It has 4 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Space)](../items/materials/space-elemental-shard.md).
 
 ## Abilities

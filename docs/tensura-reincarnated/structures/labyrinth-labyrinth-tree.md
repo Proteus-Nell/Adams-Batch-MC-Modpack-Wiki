@@ -17,4 +17,6 @@
 
 ## What it does
 
+The **Labyrinth Tree**, with a [Labyrinth Portal](../blocks/labyrinth-portal.md) at its base that leads into the [Labyrinth](../dimensions/labyrinth.md).
+
 Generates in Ancient Forest, about one every 100 chunks (at least 40 chunks apart).

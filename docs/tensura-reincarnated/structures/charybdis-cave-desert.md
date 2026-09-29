@@ -18,4 +18,6 @@
 
 ## What it does
 
+A cave holding a dormant [Charybdis Core](../blocks/charybdis-core.md), the seed of [Charybdis](../mobs/charybdis.md). Feed the core EP by killing creatures around it to wake the boss.
+
 Generates in Barren Land, Desert of Death, about one every 90 chunks (at least 20 chunks apart).

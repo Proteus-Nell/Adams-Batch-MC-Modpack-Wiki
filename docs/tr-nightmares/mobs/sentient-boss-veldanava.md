@@ -16,4 +16,8 @@
 
 ## What it does
 
+**Veldanava, the Star Dragon.** He doesn't spawn in the world: sleeping in a bed with a completed [Ancient History Book](../items/books-scrolls/ancient-history-book.md) takes you into your Inner World to meet him. There he is invulnerable and doesn't move.
+
+**Stats:** 99,999 health, 99,999 spiritual health, 20 armor, 99 attack damage, 90,000,000 to 99,999,999 EP.
+
 A boss with **45,000,000-5e+07** magicule.

@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A stonecutter for wood: pick one log or plank and turn it into planks, stairs, slabs, fences and other wooden pieces with no waste. It's the job site of Tensura's **Lumberjack** profession.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

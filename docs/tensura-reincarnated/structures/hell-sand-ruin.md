@@ -18,6 +18,8 @@
 
 ## What it does
 
+A ruin in Hell's pale sands.
+
 Generates in Underworld Sands, about one every 5 chunks (at least 4 chunks apart).
 
 ## Loot

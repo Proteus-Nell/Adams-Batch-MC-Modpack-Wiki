@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Stone overgrown with web. Walking on it slows you a little (to 80%) and cuts your jump. Web bullets turn stone into webbed cobblestone.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

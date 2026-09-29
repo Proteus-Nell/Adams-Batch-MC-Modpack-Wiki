@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+Tensura changes the vanilla Protection enchantment: it still reduces most damage (1 protection point per level, 4% each), but no longer protects against damage that Tensura marks as bypassing it (the `tensura:bypass_protection_enchantment` damage type tag).
+
+
+
 ## Effects
 
 | Component | Effect | Value |

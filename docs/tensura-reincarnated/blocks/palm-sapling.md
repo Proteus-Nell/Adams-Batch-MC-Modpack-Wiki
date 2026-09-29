@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+Palm wood. Palm trees grow on **beaches and along rivers**; plant a [Palm Sapling](palm-sapling.md) to grow your own. The wood works like any other (planks, signs, a [Palm Tool Rack](palm-tool-rack.md) and so on).
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

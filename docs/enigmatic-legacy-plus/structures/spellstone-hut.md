@@ -17,6 +17,8 @@
 
 ## What it does
 
+A small hut with a [Spellstone Table](../blocks/spellstone-table.md) (for crafting spellstones) and a treasure chest.
+
 Generates in Jungle, Mushroom Fields, Plains, Savanna, Snowy Plains, Ancient Forest, about one every 32 chunks (at least 11 chunks apart).
 
 ## Loot

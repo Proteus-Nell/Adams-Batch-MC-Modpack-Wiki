@@ -18,6 +18,8 @@
 
 ## What it does
 
+A ruin in Hell's red sands, with a Hell ruins loot chest.
+
 Generates in Underworld Red Sands, about one every 5 chunks (at least 4 chunks apart).
 
 ## Loot

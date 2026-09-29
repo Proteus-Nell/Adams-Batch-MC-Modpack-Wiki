@@ -16,6 +16,8 @@
 
 ## What it does
 
+The source of magisteel. It needs a netherite pickaxe. Melt it in a [Kiln](kiln.md) for magisteel, or process it in a [Mining Station](mining-station.md) for [Magic Ore](../items/materials/magic-ore-shard.md)s. Black fire burns forever on top of it.
+
 Ore block. Mining it drops [Magic Ore](../items/materials/magic-ore-shard.md). You need a diamond pickaxe or better. Used to make [Pure Magisteel Nugget](../items/materials/pure-magisteel-nugget.md) and [Magic Ore](../items/materials/magic-ore-shard.md).
 
 ## Drops

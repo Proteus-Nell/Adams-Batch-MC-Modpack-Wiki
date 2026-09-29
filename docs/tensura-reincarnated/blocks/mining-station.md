@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+An ore processor. Put ore (or a few stone blocks) in the input and every half second it breaks one down into its drops, with the leftover stone, into 9 output slots. For example Iron Ore gives 1 to 4 Raw Iron and a Cobblestone, Lapis Ore gives 4 to 8 Lapis, Magic Ore gives 1 or 2 Magic Ore Shards, Gravel gives Sand (with a 10% chance of Flint) and Cobblestone gives Gravel. It's the job site of Tensura's **Miner** profession.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

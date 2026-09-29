@@ -23,6 +23,8 @@
 
 ## What it does
 
+A greater spirit of earth. When a [Beast Gnome](beast-gnome.md) spawns naturally, there's a 1 in 400 chance the War Gnome appears in its place. It can also be summoned with [Summon Greater Elemental](../abilities/summoning-magic/summon-greater-elemental.md), and Hinata can call it.
+
 A boss with **400** health, **40** attack damage and **120,000-150,000** magicule. It has 6 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Earth)](../items/materials/earth-elemental-shard.md).
 
 ## Abilities

@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+Binds spells to casting items. Put a spell-casting weapon (staff, grimoire and so on) in the slot to see the magic you've learned: pick a spell to **bind** it to the item (up to the item's spell slots) or to **unbind** one. Put in an [Unbound Tome](../items/books-scrolls/unbound-tome.md) instead and pick a spell you've **mastered** to turn it into a [Magic Tome](../items/books-scrolls/magic-tome.md) of that spell. Only magic can be bound, and a few special spells can't. Spells already on the item that you haven't learned are listed too, so you can remove them. It's the job site of Tensura's **Magic Trainer** profession.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

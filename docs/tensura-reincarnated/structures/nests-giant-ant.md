@@ -17,4 +17,6 @@
 
 ## What it does
 
+A **Giant Ant nest** where [Giant Ant](../mobs/giant-ant.md)s live.
+
 Generates in Birch Forest, Forest, Savanna, about one every 80 chunks (at least 20 chunks apart).
