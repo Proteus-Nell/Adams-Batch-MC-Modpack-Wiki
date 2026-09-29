@@ -43,3 +43,21 @@ Torn armor. **-2** armor per level. Weapons with the {{link:elitetensura:rending
 
 ## elitetensura:starlight_judgment
 Judged by starlight, from the {{link:elitetensura:astral_edge}}'s dawn ability. Your attack damage drops by **{{pct:config/tensura/EliteTensura/WeaponConfig.toml|AstralEdgeWeapon.judgmentAttackDown}}** per level, you take **{{cfg:config/tensura/EliteTensura/WeaponConfig.toml|AstralEdgeWeapon.judgmentTickDamage}}** damage per level every second, and every hit you take is multiplied by **{{cfg:config/tensura/EliteTensura/WeaponConfig.toml|AstralEdgeWeapon.judgmentDamageTakenMultiplier}}**.
+
+<!-- kind: -->
+
+## elitetensura:walpurgis_hall
+The Council Hall where Demon Lords hold a **Walpurgis** banquet. Only players who count as Demon Lords can enter, and only while a banquet is running. The whole system can be switched off with the {{gamerule:ETWalpurgisEnabled}} gamerule.
+
+**Calling a Walpurgis:** a Demon Lord uses a {{link:elitetensura:walpurgis_orb}}. A gate to the hall opens where they stand, and the other Demon Lords have **{{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.CONVENE_WINDOW_MINS}} minutes** to answer by using their own orb. If at least **{{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.MIN_CONVENERS}}** answer, the banquet convenes; otherwise it's cancelled. Demon Lords get in by stepping into a gate or with `/etwalpurgis teleport`, and their nation gains reputation for attending.
+
+**How a banquet runs:**
+
+1. **Agenda** ({{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.AGENDA_PHASE_MINS}} minutes): Demon Lords submit motions: Territorial Claim, Declare Enemy, Declare Neutral, New Demon Lord Recognition, Expel Member, Treaty or Free Topic. If nobody submits one, the banquet dissolves.
+2. **Vote** ({{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.VOTE_PHASE_MINS}} minutes per motion, extended by {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.VOTE_EXTENSION_MINS}} minutes while votes are missing, up to {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.VOTE_HARD_CAP_MINS}} minutes): vote with `/etwalpurgis vote aye|nay|abstain`. A {{link:elitetensura:walpurgis_seal}} holder's vote counts {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|Seal.voteWeight}} times.
+3. **Combat Clause:** after a tied vote the council waits {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.DUEL_INVITE_SECONDS}} s for a challenge (`/etwalpurgis challenge <name>`). The defender has {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.ACCEPT_WINDOW_SECONDS}} s to accept, and the duel (first to fall to half a heart loses, at most {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.MAX_DUEL_MINS}} minutes) settles the motion. No challenge, a timeout or a disconnect means the motion fails.
+
+Passed motions take effect right away: territorial claims, public enemies and treaties are recorded (`/etwalpurgis territories`, `enemies` and `treaties` list them). When the banquet ends, everyone in the hall is sent back and the gates close. The council then rests for **{{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|WalpurgisCore.COOLDOWN_MINS}} minutes** before another Walpurgis can be called.
+
+## elitetensura:walpurgis_void
+{{auto}} It's the only biome of the {{link:dimension/elitetensura:walpurgis_hall}}.

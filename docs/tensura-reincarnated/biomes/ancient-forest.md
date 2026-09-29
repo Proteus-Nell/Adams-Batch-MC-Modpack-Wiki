@@ -18,4 +18,6 @@
 
 ## What it does
 
+An old, magic-rich forest in the Overworld (ambient magicule **+19,500**, refilling faster than normal). It's the only place **Labyrinth Trees** generate, which hold the entrance to the [Labyrinth](../dimensions/labyrinth.md).
+
 A temperate biome.

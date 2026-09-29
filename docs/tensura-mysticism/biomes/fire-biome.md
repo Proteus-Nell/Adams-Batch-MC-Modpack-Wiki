@@ -20,6 +20,8 @@
 
 A temperate biome in [Elemental Realm](../dimensions/elemental-realm.md) where it never rains or snows. Mobs that spawn here: [Blaze](https://minecraft.wiki/w/Blaze), [Allay](https://minecraft.wiki/w/Allay), [Salamander](../../tensura-reincarnated/mobs/salamander.md), [Memoires](../mobs/memoires.md) and [Vex](https://minecraft.wiki/w/Vex).
 
+Ambient magicule **+3,500**, and magicule refills a little faster. Now and then 1 to 3 extra Blazes appear on the surface.
+
 ## Mob spawns
 
 | Mob | Group | Weight | Group size |

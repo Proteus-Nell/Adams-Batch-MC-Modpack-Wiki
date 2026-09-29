@@ -20,6 +20,8 @@
 
 A temperate biome in [Elemental Realm](../dimensions/elemental-realm.md) where it never rains or snows. Mobs that spawn here: [Allay](https://minecraft.wiki/w/Allay), [Winged Cat](../../tensura-reincarnated/mobs/winged-cat.md), [Memoires](../mobs/memoires.md) and [Vex](https://minecraft.wiki/w/Vex).
 
+Ambient magicule **+3,500**, and magicule refills a little faster.
+
 ## Mob spawns
 
 | Mob | Group | Weight | Group size |

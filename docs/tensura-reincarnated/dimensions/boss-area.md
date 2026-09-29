@@ -27,4 +27,4 @@
 
 ## What it does
 
-A flat, superflat-style dimension. Time never moves: it is always tick 3,000. Beds explode if you try to sleep and respawn anchors don't work. Build height: Y -64 to 255.
+The arena for the **Gazel Dwargo** boss fight. You get there through the warp pad in the royal tower of a Dwarf Village, which starts the fight. Players in the arena get [Spatial Blockade](../effects/spatial-blockade.md) X, so they can't teleport out, and warp and portal skills don't work here. By default bosses here can't be named, mind-controlled or have their skills plundered (see the Boss settings in Tensura's behaviour config).

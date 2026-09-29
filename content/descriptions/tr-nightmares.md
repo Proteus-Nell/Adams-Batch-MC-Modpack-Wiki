@@ -372,3 +372,43 @@ Soul Shrine's and Izanagi's "Zone", entered through Flash strikes. While the ski
 
 While you're in the Zone, Flash chance goes up by {{cfg:config/nightmare/ability/skill/nightmare_unique.toml|SoulShrine.flashZoneChance}}%. At levels II to IV the Zone gives **+120%** base attack damage and attack speed; from level V up only **+20%**, because of how the formula rounds.
 
+
+<!-- kind: -->
+
+## trnightmare:domicile
+The template for the personal pocket worlds made by the {{link:skill/trnightmare:domicile}} skill. Every player who uses it gets two of their own: a **Homestead** (a house) and a **Shop**. They are built from a saved structure the first time you enter, then stay as you leave them.
+
+**Getting in:** look at any door or trapdoor within 5 blocks and use the skill. The door turns into a {{link:trnightmare:domicile_door}} (or {{link:trnightmare:domicile_trapdoor}}) linked to you, and you step inside: Homestead mode for the house, Shopkeeper mode for the shop. Linking a new door reverts your old one to a plain oak door. After that, **anyone** who walks through the open linked door is taken to your domicile. Use the skill again inside, or open the door inside, to go back out through your linked door.
+
+**Inside:**
+
+- Nothing can take damage.
+- Only you, your allies and your subordinates can place or break blocks, and only you can open chests, barrels, furnaces, hoppers and other containers. The linked doors can't be broken.
+- The chunk you stand in stays loaded while the skill is active.
+- In the shop, Shopkeeper mode summons an invulnerable Domicile Shopkeeper that sells what you stock in its chests and barrel (Shift + use on it to remove it). If you have {{link:skill/trnightmare:the_warden}}, it gains mastery for every visitor in your shop and every door you convert.
+
+**Commands:** `/domicile` (Homestead) and `/domicilestore` (Shop) let the owner kick a player, or everyone not on their whitelist, back to world spawn. The whitelist only matters for that kick: the blacklist, lock and safety settings are saved, but nothing reads them in this version, so they don't keep anyone out. Operators can rebuild someone's Homestead or Shop with `/resetdomicile <players> base|shop`.
+
+## trnightmare:inner_world
+The template for each player's own Inner World, a flat, dark world where time stands still at noon. Beds and respawn anchors don't work.
+
+**Getting in:**
+
+- The {{link:skill/trnightmare:inner_world}} skill takes you in if you have at least **90%** of your health and magicule. A hollow "echo" of you (your health, no gear, almost no EP) stays behind where you stood and keeps its chunk loaded. Use the skill again to leave and rejoin the echo. If the echo is killed while you're inside, you're thrown back out to where it fell.
+- Sleeping in a bed while holding a completed {{link:trnightmare:ancient_history_book}} pulls you into your Inner World to meet Veldanava.
+- Other skills can visit someone else's Inner World as a guest, such as {{link:skill/trnightmare:conceptual_existence}}'s and {{link:skill/trnightmare:pazuzu}}'s Enter Mind (Pazuzu only reaches players you have a deal with).
+- Several skills use it as a battlefield or prison, such as Abaddon, Samael's Death World and Temptation.
+
+True Dragons you've bonded with (Veldora, Velzard, Velgrynd, Velgaia) live in your Inner World and add extra modes to the skill.
+
+## trnightmare:imaginary_space
+The template for each player's own Imaginary Space, a flat, dark world where time stands still at noon. Beds and respawn anchors don't work.
+
+**Getting in:** the Imaginary Space mode of {{link:skill/trnightmare:azathoth}} (and of {{link:skill/trnightmare:nodens}}, which borrows it). Pressing the skill opens your spatial storage; **Shift + press** enters and drags every living thing within **6 blocks** in with you.
+
+**Inside:**
+
+- Look at a creature within 8 blocks and press to throw it back out.
+- Shift + press to leave, taking everything within 6 blocks of you along.
+- Mobs you leave behind are saved and put back the next time you enter, so it doubles as a prison.
+- Azathoth's Imaginary Blade can cut enemies straight into your Imaginary Space, and a {{link:skill/trnightmare:divine_wisdom_core}} can follow its host in.

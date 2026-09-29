@@ -20,4 +20,6 @@
 
 ## What it does
 
+Dusty wasteland in the Overworld with the strongest ambient magicule of Tensura's surface biomes (**+45,500**). It's foggy, and in rain or thunder a **sandstorm** closes visibility right down. Hell Gates can generate here.
+
 A hot biome where it never rains or snows.

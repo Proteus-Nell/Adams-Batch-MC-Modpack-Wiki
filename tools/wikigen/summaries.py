@@ -10,7 +10,8 @@ Two sources, in order of preference:
    category, for ids that name both an effect and a skill. A
    `<!-- kind: effects -->` line gives that prefix to every note after it.
    Notes may use the same placeholders as other hand-written pages
-   ({{link:ns:id}}, {{cfg:file|path.key}}, ...).
+   ({{link:ns:id}}, {{cfg:file|path.key}}, ...), plus {{link:kind/ns:id}} to
+   pick a category and {{auto}} to include the generated summary below.
 
 2. A short summary generated from the extracted data (stats, recipes, loot,
    spawns, dimension properties). It only states facts the data shows, so an
@@ -92,7 +93,7 @@ class Notes:
 
 def first_sentence(md: str, n=150) -> str:
     """Plain first sentence of a note, for index tables."""
-    s = re.sub(r"\{\{link:[a-z0-9_.-]+:([a-z0-9_./-]+)\}\}", lambda m: m.group(1).rsplit("/", 1)[-1].replace("_", " "), md or "")
+    s = re.sub(r"\{\{link:(?:[a-z]+/)?[a-z0-9_.-]+:([a-z0-9_./-]+)\}\}", lambda m: m.group(1).rsplit("/", 1)[-1].replace("_", " "), md or "")
     s = re.sub(r"\{\{[^}]*\}\}", "", s)
     s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
     s = re.sub(r"[*_`>#]", "", s).strip()

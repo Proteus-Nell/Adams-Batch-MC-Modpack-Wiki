@@ -20,4 +20,6 @@
 
 ## What it does
 
+A deadly desert in the Overworld (ambient magicule **+29,500**). In rain or thunder a **sandstorm** closes visibility right down. Hell Gates can generate here.
+
 A hot biome where it never rains or snows.

@@ -20,4 +20,4 @@
 
 ## What it does
 
-A temperate biome where it never rains or snows. It has no mob spawns and no terrain features of its own.
+A temperate biome where it never rains or snows. It has no mob spawns and no terrain features of its own. It's the only biome of the [Walpurgis Hall](../dimensions/walpurgis-hall.md).

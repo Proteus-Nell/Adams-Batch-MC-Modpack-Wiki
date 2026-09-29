@@ -381,3 +381,74 @@ Stuck in webbing. Your movement and swim speed drop by **99%**, jumping, reach a
 
 ## tensura:wind_protection
 A wrapping of wind. Per level: **+{{pct:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectSpeed}}** movement speed and **+{{cfg:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectDodge}}%** projectile dodge chance, so projectiles almost never hit you. From level II, each level above I also gives **{{pct:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectBurn}}** shorter burning, **+{{cfg:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectKnockback}}** knockback resistance and **+{{cfg:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectFlameBoost}}** flame boost. Wind Protection magic gives level {{cfg:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectLevel}} for {{secs:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectDuration}} s, or level {{cfg:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectLevelMastered}} for {{secs:config/tensura/ability/magic/aspectual_config.toml|WindProtection.effectDurationMastered}} s once mastered.
+
+<!-- kind: -->
+
+## tensura:hell
+The Underworld, a spiritual world of barren stone and red sand under a permanent noon, with thick fog everywhere. Its ambient magicule is **100,000** higher than normal and refills twice as fast, so weak players can get {{link:effect/tensura:magicule_poison}} here.
+
+**Getting there:**
+
+- **Hell Gate** structures hold a Hell Portal. They generate in flat lands, badlands, savannas, the {{link:tensura:barren_land}} and the {{link:tensura:desert_of_death}}, and in Hell itself. Stepping into a portal in the Overworld takes you to Hell, and the one in Hell takes you back to the Overworld.
+- Ascension's Hell Passage skill (learned by mastering Gate and having Demon Lord Haki) opens a temporary portal.
+- Phantoms and Lesser Daemons respawn in Hell.
+
+Daemons live here: Summon Daemon magic pulls them out of Hell, and it can't be cast while you're in Hell. As a spiritual world, spirit-form creatures don't lose magicule here.
+
+## tensura:labyrinth
+Ramiris's Labyrinth, a spiritual world. Its ambient magicule is **29,500** higher than normal and refills twice as fast.
+
+**Getting in:** step into the Labyrinth Portal inside a Labyrinth Tree, a structure that generates in the {{link:tensura:ancient_forest}}. Leaving takes you back to the Overworld.
+
+**Rules inside:**
+
+- Survival players are switched to **Adventure mode** (and back when they leave), and skills can't break blocks.
+- You **can't die** here unless the `labyrinthDeath` gamerule is on: a lethal hit leaves you at almost no health and sends you back to the Overworld. PvP follows the `labyrinthPvp` gamerule.
+- Warping and portal skills don't work inside.
+- The **Elemental Colossus** guards the way. Losing to it (or beating it) marks you as having *passed* and moves you to the inner entrance, where the Labyrinth's spirits are.
+
+## tensura:boss_area
+The arena for the **Gazel Dwargo** boss fight. You get there through the warp pad in the royal tower of a Dwarf Village, which starts the fight. Players in the arena get {{link:tensura:spatial_blockade}} X, so they can't teleport out, and warp and portal skills don't work here. By default bosses here can't be named, mind-controlled or have their skills plundered (see the Boss settings in Tensura's behaviour config).
+
+## tensura:ancient_forest
+An old, magic-rich forest in the Overworld (ambient magicule **+19,500**, refilling faster than normal). It's the only place **Labyrinth Trees** generate, which hold the entrance to the {{link:tensura:labyrinth}}.
+
+{{auto}}
+
+## tensura:barren_land
+Dusty wasteland in the Overworld with the strongest ambient magicule of Tensura's surface biomes (**+45,500**). It's foggy, and in rain or thunder a **sandstorm** closes visibility right down. Hell Gates can generate here.
+
+{{auto}}
+
+## tensura:desert_of_death
+A deadly desert in the Overworld (ambient magicule **+29,500**). In rain or thunder a **sandstorm** closes visibility right down. Hell Gates can generate here.
+
+{{auto}}
+
+## tensura:miasmic_plains
+Plains shrouded in miasma (ambient magicule **+19,500**), always foggy. The miasma changes the rules:
+
+- Monsters can spawn here even in daylight, and undead don't burn in the sun (vampire races aren't hurt by it either).
+- When the ambient magicule is too strong for you, you get {{link:effect/tensura:curse}} here instead of {{link:effect/tensura:magicule_poison}} (undead get magicule poison as usual).
+
+{{auto}}
+
+## tensura:underworld_barrens
+Hell's rocky barrens (ambient magicule +3,500), always foggy.
+
+{{auto}}
+
+## tensura:underworld_spikes
+Hell's field of stone spikes (ambient magicule +2,500), always foggy.
+
+{{auto}}
+
+## tensura:underworld_red_sands
+Hell's red sand dunes (ambient magicule +1,500). Sand ruins can generate here.
+
+{{auto}}
+
+## tensura:underworld_sands
+Hell's pale sand dunes (ambient magicule +500). Sand ruins can generate here.
+
+{{auto}}

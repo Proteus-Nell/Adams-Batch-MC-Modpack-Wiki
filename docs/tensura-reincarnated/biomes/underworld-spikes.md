@@ -18,6 +18,8 @@
 
 ## What it does
 
+Hell's field of stone spikes (ambient magicule +2,500), always foggy.
+
 A temperate biome in [Hell](../dimensions/hell.md) where it never rains or snows. Mobs that spawn here: [Hound Dog](../mobs/hound-dog.md), [Lesser Daemon](../mobs/lesser-daemon.md) and [Greater Daemon](../mobs/greater-daemon.md).
 
 ## Mob spawns

@@ -118,3 +118,67 @@ It drains Jinchuriki's energy every second and ends when that runs out.
 
 ## mysticism:unstable_requiem
 Relapse's Divine Excelsius mode. You **can't be hurt at all** while it lasts ({{cfg:config/mysticism/ability/skill/intrinsic_config.toml|Relapse.alephNullExcelsiusInvincibility}} s). When it ends you **explode**: a 15-block magic explosion that deals 250 damage (50 to the outer area). A mob with this effect is destroyed by its own explosion.
+
+<!-- kind: -->
+
+## mysticism:elemental_realm
+The realm of spirits and elementals, made of seven biomes, one per element: Fire, Water, Earth, Wind, Space, Light and Darkness. It's always noon and beds don't work. It counts as a spiritual world: ambient magicule is **100,000** higher than normal and refills twice as fast, and spirit-form creatures don't lose magicule here.
+
+**Getting there:**
+
+- From Tensura's {{link:dimension/tensura:labyrinth}}: fly up to between **Y 158 and 210** and you're pulled into the Elemental Realm, with a few seconds of Slow Falling.
+- {{link:race/mysticism:lesser_elemental}} and {{link:race/mysticism:lesser_angel}} players respawn here.
+
+**Getting out:**
+
+- Fall below **Y -60** and you drop into the Labyrinth (at 17, 109, 683).
+- Elemental Realm Portals lead to the Overworld. They sit in portal structures in the Wind, Earth and Darkness biomes (each kind is spread about 3,200 blocks apart, so they are rare). A portal in the Overworld or the Labyrinth would lead back here, but portals only generate inside the realm.
+
+The {{link:entity/mysticism:memoires}} can spawn anywhere in the realm. If it falls below Y -60 it's teleported back up to Y 150.
+
+## mysticism:kamui_dimension
+The pocket world of the {{link:skill/mysticism:phaser}} skill, a dark, empty land where it's always noon.
+
+**Getting in and out:** use Phaser's Authority of the Gods mode while holding **Shift** and keep it held for {{secs:config/mysticism/ability/skill/unique_config.toml|Phaser.kamuiWarpTicks}} s (half that once mastered; bigger bodies take longer). It costs {{cfg:config/mysticism/ability/skill/unique_config.toml|Phaser.kamuiCost}} magicule and has a {{cfg:config/mysticism/ability/skill/unique_config.toml|Phaser.kamuiCooldown}} s cooldown. Do it again inside Kamui to go back to the dimension you came from. Falling below **Y -60** in Kamui drops you into the Overworld.
+
+Distances in Kamui are **10×** shorter than in the Overworld (the Nether is 8×), so it works as a shortcut: walk 100 blocks inside and you come out 1,000 blocks away.
+
+Once Phaser is mastered, charging it without Shift while looking at a creature moves that creature. Inside Kamui it throws the creature out to the Overworld. Outside, the code is meant to pull the creature in, but in this version it moves **you** into Kamui at the creature's position instead.
+
+## mysticism:kamui_biome
+{{auto}} It's the only biome of the {{link:dimension/mysticism:kamui_dimension}}.
+
+## mysticism:fire_biome
+{{auto}}
+
+Ambient magicule **+3,500**, and magicule refills a little faster. Now and then 1 to 3 extra Blazes appear on the surface.
+
+## mysticism:water_biome
+{{auto}}
+
+Ambient magicule **+1,500**, and magicule refills a little faster.
+
+## mysticism:earth_biome
+{{auto}}
+
+Ambient magicule **+500**, and magicule refills a little faster. Earth portal structures (a way back to the Overworld) generate here.
+
+## mysticism:wind_biome
+{{auto}}
+
+Ambient magicule **+2,500**, and magicule refills a little faster. Lightning strikes at random around players here, and each strike has a **10%** chance to drop {{link:mysticism:lightning_essence}}. Now and then 1 to 3 extra Breezes appear on the surface. Wind portal structures (a way back to the Overworld) generate here.
+
+## mysticism:space_biome
+{{auto}}
+
+Ambient magicule **+3,500**, and magicule refills a little faster.
+
+## mysticism:light_biome
+{{auto}}
+
+Ambient magicule **+1,500**, and magicule refills a little faster.
+
+## mysticism:darkness_biome
+{{auto}}
+
+Ambient magicule **+500**, and magicule refills a little faster. Darkness portal structures (a way back to the Overworld) generate here.

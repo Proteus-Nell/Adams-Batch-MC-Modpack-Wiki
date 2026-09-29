@@ -20,4 +20,4 @@
 
 ## What it does
 
-A warm biome in [Kingdom of Avalon](../dimensions/avalon.md) where it never rains or snows. It has no mob spawns and no terrain features of its own.
+A warm biome in [Kingdom of Avalon](../dimensions/avalon.md) where it never rains or snows. It has no mob spawns and no terrain features of its own. It's the only biome of the [Kingdom of Avalon](../dimensions/avalon.md).

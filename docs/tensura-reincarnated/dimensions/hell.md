@@ -27,7 +27,15 @@
 
 ## What it does
 
-A dimension with generated terrain. Time never moves: it is always noon. Beds explode if you try to sleep. It is fully lit everywhere. Build height: Y -64 to 255.
+The Underworld, a spiritual world of barren stone and red sand under a permanent noon, with thick fog everywhere. Its ambient magicule is **100,000** higher than normal and refills twice as fast, so weak players can get [Magicule Poison](../effects/magicule-poison.md) here.
+
+**Getting there:**
+
+- **Hell Gate** structures hold a Hell Portal. They generate in flat lands, badlands, savannas, the [Barren Land](../biomes/barren-land.md) and the [Desert of Death](../biomes/desert-of-death.md), and in Hell itself. Stepping into a portal in the Overworld takes you to Hell, and the one in Hell takes you back to the Overworld.
+- Ascension's Hell Passage skill (learned by mastering Gate and having Demon Lord Haki) opens a temporary portal.
+- Phantoms and Lesser Daemons respawn in Hell.
+
+Daemons live here: Summon Daemon magic pulls them out of Hell, and it can't be cast while you're in Hell. As a spiritual world, spirit-form creatures don't lose magicule here.
 
 ## Biomes
 

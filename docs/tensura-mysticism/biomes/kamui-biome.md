@@ -18,4 +18,4 @@
 
 ## What it does
 
-A temperate biome in [Kamui Dimension](../dimensions/kamui-dimension.md) where it never rains or snows.
+A temperate biome in [Kamui Dimension](../dimensions/kamui-dimension.md) where it never rains or snows. It's the only biome of the [Kamui Dimension](../dimensions/kamui-dimension.md).

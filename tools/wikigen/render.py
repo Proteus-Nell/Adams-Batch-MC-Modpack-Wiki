@@ -1037,6 +1037,8 @@ class Site:
         """Hand-written note from content/descriptions if there is one, else the generated summary."""
         note = self.notes.get(ident, cls, name, page.path.split("/")[1])
         if note:
+            # {{auto}} keeps the generated summary inside a hand-written note
+            note = note.replace("{{auto}}", " ".join(auto or []))
             page.add("## What it does", "", self.expand_content(page, note), "")
         elif auto:
             page.add("## What it does", "", " ".join(auto), "")
@@ -1046,7 +1048,7 @@ class Site:
             if f:
                 return f
         note = self.notes.get(ident, cls, name, kind)
-        return first_sentence(note) if note else ""
+        return first_sentence(note.replace("{{auto}}", "").strip()) if note else ""
 
     def gear_rows(self, it):
         rows = []
@@ -1435,7 +1437,8 @@ class Site:
             self.infobox(page, None, [(k, str(v) if v is not None else None) for k, v in rows], b["name"])
             dims = [d for mm in self.mods for d in mm["categories"].get("dimensions", []) if b["id"] in d.get("biomes", []) or d["id"] == b["id"]]
             self.what_it_does(page, b["id"], None, b["name"], self.summ.biome(page, b, dims))
-            if dims and self.notes.get(b["id"], kind="biomes"):
+            note = self.notes.get(b["id"], kind="biomes")
+            if dims and note and "{{auto}}" not in note:
                 page.add("Found in: " + ", ".join(self.link(page.path, d["id"], "dimension") for d in dims), "")
             if b.get("spawns"):
                 page.add("## Mob spawns", "")
@@ -1786,7 +1789,8 @@ class Site:
         page_kind = next((k for k, c in KIND_CAT.items() if c == cat), None)
 
         def link(m):
-            return self.link(page.path, m.group(1), page_kind)
+            # {{link:skill/ns:id}} picks the category explicitly
+            return self.link(page.path, m.group(2), m.group(1) or page_kind)
 
         def cfg(m):
             f, k = m.group(1), m.group(2)
@@ -1838,7 +1842,7 @@ class Site:
         body = re.sub(r"\{\{gamerule:([A-Za-z0-9_]+)\}\}", gamerule, body)
         body = re.sub(r"\{\{langtable:([^|}]+)(?:\|([^}]+))?\}\}", langtable, body)
         body = re.sub(r"\{\{langlist:([^}]+)\}\}", langlist, body)
-        body = re.sub(r"\{\{link:([a-z0-9_.-]+:[a-z0-9_./-]+)\}\}", link, body)
+        body = re.sub(r"\{\{link:(?:([a-z]+)/)?([a-z0-9_.-]+:[a-z0-9_./-]+)\}\}", link, body)
         body = re.sub(r"\{\{cfg:([^|}]+)\|([^}]+)\}\}", cfg, body)
         body = re.sub(r"\{\{secs:([^|}]+)\|([^}]+)\}\}", secs, body)
         body = re.sub(r"\{\{pct:([^|}]+)\|([^}]+)\}\}", pct, body)
