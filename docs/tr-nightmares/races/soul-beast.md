@@ -9,13 +9,13 @@
 | **ID** | `trnightmare:soul_beast` |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 2,000 - 4,000 |
-| **Health bonus** | 15 |
-| **Spiritual health bonus** | 60 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
-| **EP to evolve into** | 0 |
+| **Aura** | 360,000 - 650,000 |
+| **Magicule** | 700,000 - 1,250,000 |
+| **Health bonus** | 600 |
+| **Spiritual health bonus** | 4,200 |
+| **Attack damage bonus** | 2.9 |
+| **Movement speed bonus** | 0.055 |
+| **EP to evolve into** | 900,000 |
 
 </div>
 
@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 900,000 | 100% |
 
 ### Evolution tree
 
@@ -63,14 +63,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 600 | add |
+| Max Spiritual Health | 4,200 | add |
+| Attack Damage | 2.9 | add |
+| Attack Speed | 0.35 | add |
+| Knockback Resistance | 0.7 | add |
+| Movement Speed | 0.055 | add |
+| Swim Speed Multiplier | 0.12 | add |
 
 ## Stats (config defaults)
 
@@ -78,19 +78,6 @@ Set in [`config/nightmare/race/mystic_fox_config.toml`](../configs/config-nightm
 
 | Option | Default | Description |
 |---|---|---|
-| `SoulBeast.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `SoulBeast.minAura` | 1,000 | Minimal aura. |
-| `SoulBeast.maxAura` | 2,000 | Maximum aura. |
-| `SoulBeast.minMagicule` | 2,000 | Minimal magicule. |
-| `SoulBeast.maxMagicule` | 4,000 | Maximum magicule. |
-| `SoulBeast.size` | 0 | Bonus Size. |
-| `SoulBeast.maxHealth` | 15 | Bonus Max Health. |
-| `SoulBeast.maxSpiritualHealth` | 60 | Bonus Max Spiritual Health. |
-| `SoulBeast.attack` | 0 | Bonus Attack Damage. |
-| `SoulBeast.attackSpeed` | 0 | Bonus Attack Speed. |
-| `SoulBeast.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `SoulBeast.movementSpeed` | 0 | Bonus Movement Speed. |
-| `SoulBeast.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `SoulBeast.epRequirement` | 900,000 |  |
 | `SoulBeast.minAura` | 360,000 |  |
 | `SoulBeast.maxAura` | 650,000 |  |

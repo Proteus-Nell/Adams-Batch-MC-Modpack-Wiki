@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 700,000 | 100% |
 
 ### Evolution tree
 
@@ -75,14 +75,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 580 | add |
+| Max Spiritual Health | 1,940 | add |
+| Attack Damage | 12 | add |
+| Attack Speed | 0 | add |
+| Knockback Resistance | 0.7 | add |
+| Movement Speed | 0.09 | add |
+| Swim Speed Multiplier | 0.09 | add |
 
 ## Stats (config defaults)
 

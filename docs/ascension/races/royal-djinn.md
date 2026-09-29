@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of royal_djinn (evolution ep) | 50% |
+| Reach Existence Points of 200,000 | 50% |
 | Consume 8 of [Elemental Essence](../../tensura-reincarnated/items/materials/elemental-essence.md) | 50% |
 
 ### Evolution tree

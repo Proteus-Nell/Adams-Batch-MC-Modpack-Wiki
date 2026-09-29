@@ -26970,7 +26970,7 @@
     },
     "requirements": [
      {
-      "text": "Evolution",
+      "text": "Battle description(-s)",
       "weight": "100"
      }
     ],
@@ -27067,7 +27067,7 @@
     },
     "requirements": [
      {
-      "text": "Evolution",
+      "text": "Obtain a Spirit",
       "weight": "100"
      }
     ],
@@ -29317,7 +29317,7 @@
       "weight": "50"
      },
      {
-      "text": "Master name",
+      "text": "Master [[tensura:starved]]",
       "weight": "50"
      }
     ],
@@ -31075,7 +31075,7 @@
     },
     "requirements": [
      {
-      "text": "Evolution",
+      "text": "Get cured with Weakness and Enchanted Golden Apple",
       "weight": "100"
      }
     ],

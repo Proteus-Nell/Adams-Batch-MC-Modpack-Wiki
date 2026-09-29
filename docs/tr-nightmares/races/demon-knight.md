@@ -27,6 +27,15 @@
 - **On awakening (True Demon Lord / True Hero):** [Knight of Black](knight-black.md)
 - **During the Harvest Festival:** [Knight of Black](knight-black.md)
 
+### Requirements to evolve into Demon Knight
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 150,000 | 50% |
+| Consume 30 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -61,14 +70,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.05 | add |
+| Max Health | 700 | add |
+| Max Spiritual Health | 4,800 | add |
+| Attack Damage | 5.9 | add |
+| Attack Speed | 0.05 | add |
+| Knockback Resistance | 0.2 | add |
+| Movement Speed | 0.015 | add |
+| Swim Speed Multiplier | 0.03 | add |
 
 ## Stats (config defaults)
 

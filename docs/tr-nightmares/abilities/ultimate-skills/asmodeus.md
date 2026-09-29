@@ -11,7 +11,9 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:asmodeus` |
 | **Modes** | 6 |
+| **Acquisition cost (MP)** | 1,200,000 |
 | **Max mastery** | 15,000 |
+| **Cooldowns (s)** | 400, 100 mastered, 10 otherwise, 40, 60 |
 | **Activation** | Toggle, Press, Hold |
 
 </div>

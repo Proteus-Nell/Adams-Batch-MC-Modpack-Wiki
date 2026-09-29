@@ -27,12 +27,12 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `magiculeCost` | 0 |  | Current MP (magicule) cost to use this mode or segment. |
+| `magiculeCost` | 50 |  | Current MP (magicule) cost to use this mode or segment. |
 | `durationTicks` | 0 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
 | `level` | 0 |  | Effect amplifier level (0 = I) when applicable. |
 | `cooldownTicks` | 0 |  | Cooldown in ticks after this mode activates. |
-| `damage` | 0 |  | Primary damage when this mode deals damage. |
-| `damageMastered` | 0 |  | Damage when mastered; if 0, 'damage' is used for both. |
+| `damage` | 10 |  | Primary damage when this mode deals damage. |
+| `damageMastered` | 20 |  | Damage when mastered; if 0, 'damage' is used for both. |
 | `scalar` | 0 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
 | `scalar2` | 0 |  | Second scalar (e.g. secondary radius) when applicable. |
 
@@ -40,13 +40,13 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `magiculeCost` | 0 |  | Current MP (magicule) cost to use this mode or segment. |
+| `magiculeCost` | 100 |  | Current MP (magicule) cost to use this mode or segment. |
 | `durationTicks` | 0 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
 | `level` | 0 |  | Effect amplifier level (0 = I) when applicable. |
 | `cooldownTicks` | 0 |  | Cooldown in ticks after this mode activates. |
-| `damage` | 0 |  | Primary damage when this mode deals damage. |
+| `damage` | 50 |  | Primary damage when this mode deals damage. |
 | `damageMastered` | 0 |  | Damage when mastered; if 0, 'damage' is used for both. |
-| `scalar` | 0 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
+| `scalar` | 1 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
 | `scalar2` | 0 |  | Second scalar (e.g. secondary radius) when applicable. |
 
 ## `[Hellblaze.hellFlareArea]`
@@ -54,12 +54,12 @@
 | Option | Default | Range | Description |
 |---|---|---|---|
 | `magiculeCost` | 0 |  | Current MP (magicule) cost to use this mode or segment. |
-| `durationTicks` | 0 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
+| `durationTicks` | 60 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
 | `level` | 0 |  | Effect amplifier level (0 = I) when applicable. |
 | `cooldownTicks` | 0 |  | Cooldown in ticks after this mode activates. |
-| `damage` | 0 |  | Primary damage when this mode deals damage. |
+| `damage` | 750 |  | Primary damage when this mode deals damage. |
 | `damageMastered` | 0 |  | Damage when mastered; if 0, 'damage' is used for both. |
-| `scalar` | 0 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
+| `scalar` | 15 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
 | `scalar2` | 0 |  | Second scalar (e.g. secondary radius) when applicable. |
 
 ## `[Hellblaze.limitedHellFlare]`
@@ -67,12 +67,12 @@
 | Option | Default | Range | Description |
 |---|---|---|---|
 | `magiculeCost` | 0 |  | Current MP (magicule) cost to use this mode or segment. |
-| `durationTicks` | 0 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
+| `durationTicks` | 60 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
 | `level` | 0 |  | Effect amplifier level (0 = I) when applicable. |
 | `cooldownTicks` | 0 |  | Cooldown in ticks after this mode activates. |
-| `damage` | 0 |  | Primary damage when this mode deals damage. |
+| `damage` | 2,500 |  | Primary damage when this mode deals damage. |
 | `damageMastered` | 0 |  | Damage when mastered; if 0, 'damage' is used for both. |
-| `scalar` | 0 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
+| `scalar` | 2.5 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
 | `scalar2` | 0 |  | Second scalar (e.g. secondary radius) when applicable. |
 
 ## `[Hellblaze.hellFlarePlasma]`
@@ -83,8 +83,8 @@
 | `durationTicks` | 0 |  | Duration in ticks (effects, zones, projectiles) when applicable. |
 | `level` | 0 |  | Effect amplifier level (0 = I) when applicable. |
 | `cooldownTicks` | 0 |  | Cooldown in ticks after this mode activates. |
-| `damage` | 0 |  | Primary damage when this mode deals damage. |
-| `damageMastered` | 0 |  | Damage when mastered; if 0, 'damage' is used for both. |
+| `damage` | 50 |  | Primary damage when this mode deals damage. |
+| `damageMastered` | 125 |  | Damage when mastered; if 0, 'damage' is used for both. |
 | `scalar` | 0 |  | Extra scalar: explosion radius, AoE radius, etc. when applicable. |
 | `scalar2` | 0 |  | Second scalar (e.g. secondary radius) when applicable. |
 

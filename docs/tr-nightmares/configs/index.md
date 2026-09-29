@@ -4,6 +4,9 @@
 
 Every config option TR: Nightmares defines, with its default value. Files under `config/` are shared by the whole instance; files under `serverconfig/` live inside each world's folder (put copies in `defaultconfigs/` to apply them to new worlds).
 
+> [!NOTE]
+> Values this pack changes are shown in the **This pack** column of each table.
+
 | File | Options |
 |---|---|
 | [`config/nightmare/ability/battlewill/nightmare_battlewill.toml`](config-nightmare-ability-battlewill-nightmare-battlewill.md) | 75 |
@@ -26,13 +29,13 @@ Every config option TR: Nightmares defines, with its default value. Files under 
 | [`config/nightmare/race/axolotl/salamander_config.toml`](config-nightmare-race-axolotl-salamander-config.md) | 101 |
 | [`config/nightmare/race/chimera_config.toml`](config-nightmare-race-chimera-config.md) | 72 |
 | [`config/nightmare/race/demon_clan_config.toml`](config-nightmare-race-demon-clan-config.md) | 142 |
-| [`config/nightmare/race/dragon_config.toml`](config-nightmare-race-dragon-config.md) | 978 |
+| [`config/nightmare/race/dragon_config.toml`](config-nightmare-race-dragon-config.md) | 492 |
 | [`config/nightmare/race/fairy_clan_config.toml`](config-nightmare-race-fairy-clan-config.md) | 149 |
 | [`config/nightmare/race/giant_clan_config.toml`](config-nightmare-race-giant-clan-config.md) | 155 |
 | [`config/nightmare/race/god_man_race_config.toml`](config-nightmare-race-god-man-race-config.md) | 12 |
 | [`config/nightmare/race/goddess_clan_config.toml`](config-nightmare-race-goddess-clan-config.md) | 165 |
 | [`config/nightmare/race/manas_race_config.toml`](config-nightmare-race-manas-race-config.md) | 50 |
-| [`config/nightmare/race/mystic_fox_config.toml`](config-nightmare-race-mystic-fox-config.md) | 155 |
+| [`config/nightmare/race/mystic_fox_config.toml`](config-nightmare-race-mystic-fox-config.md) | 78 |
 | [`config/nightmare/race/scholar_config.toml`](config-nightmare-race-scholar-config.md) | 153 |
 | [`config/trnightmare-common.toml`](config-trnightmare-common.md) | 218 |
 | [`serverconfig/nightmare/mechanic/UltimateSlotConfig.toml`](serverconfig-nightmare-mechanic-ultimateslotconfig.md) | 14 |

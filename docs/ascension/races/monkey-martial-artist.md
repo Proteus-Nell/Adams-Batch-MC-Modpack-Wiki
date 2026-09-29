@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of monkey_martial_artist (evolution ep) | 100% |
+| Reach Existence Points of 100,000 | 100% |
 
 ### Evolution tree
 

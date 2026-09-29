@@ -36,9 +36,9 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 10,000 | 20% |
-| Acquire name | 20% |
-| Acquire name | 20% |
-| Acquire name | 20% |
+| Acquire [Flame Manipulation](../../tensura-reincarnated/abilities/extra-skills/flame-manipulation.md) | 20% |
+| Acquire [Earth Manipulation](../../tensura-reincarnated/abilities/extra-skills/earth-manipulation.md) | 20% |
+| Acquire [Wind Manipulation](../../tensura-reincarnated/abilities/extra-skills/wind-manipulation.md) | 20% |
 | Be in any of the following biomes: list comp | 20% |
 
 ### Evolution tree

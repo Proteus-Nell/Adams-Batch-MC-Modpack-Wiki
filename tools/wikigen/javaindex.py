@@ -558,6 +558,10 @@ class JavaIndex:
             if env is not None and s in env:
                 return env[s]
             f = self.find_field(ctx, s)
+            if f is not None and f.value is None and "static" not in f.modifiers:
+                v = self._assigned_value(f, depth)
+                if v is not _NOVAL:
+                    return v
             if f is not None and f.value is not None:
                 try:
                     return self.eval(f.value, f.cls, None, depth + 1)
@@ -581,6 +585,13 @@ class JavaIndex:
             fname = text(node.child_by_field_name("field"))
             if text(obj) == "this" and env is not None and ("this." + fname) in env:
                 return env["this." + fname]
+            if text(obj) == "this":
+                tc = self.classes.get((env or {}).get("__this__")) or ctx
+                ff = self.find_field(tc, fname) or self.find_field(ctx, fname)
+                if ff is not None and ff.value is None:
+                    v = self._assigned_value(ff, depth)
+                    if v is not _NOVAL:
+                        return v
             if obj.type != "identifier" or self.find_field(ctx, text(obj)) is not None or (env and text(obj) in env):
                 try:
                     ov = self.eval(obj, ctx, env, depth + 1)
@@ -676,6 +687,9 @@ class JavaIndex:
                 x = self.eval(argv[0], ctx, env, depth + 1)
                 n = self.eval(argv[1], ctx, env, depth + 1)
                 return round(float(x), int(n))
+            if name in ("ceil", "floor") and obj in ("Mth",) and argv:
+                import math
+                return int(getattr(math, name)(self.eval(argv[0], ctx, env, depth + 1)))
             if name in ("max", "min", "abs", "round", "floor", "ceil", "pow", "sqrt") and obj in ("Math", "Mth", "MathUtils") and argv:
                 vals = [self.eval(a, ctx, env, depth + 1) for a in argv]
                 import math
@@ -735,6 +749,50 @@ class JavaIndex:
                             return self.eval(rets[0], m.cls, {"__this__": target.fqcn}, depth + 1)
             if name in ("secondsToTicks",) and argv:
                 return int(self.eval(argv[0], ctx, env, depth + 1) * 20)
+            if argv and depth < 20 and (objn is None or obj == "this"):
+                # instance helper on `this`, e.g. readTierValue("minAura", this.minAura)
+                tc = self.classes.get((env or {}).get("__this__")) or ctx
+                cand = None
+                c = tc
+                while c is not None and cand is None:
+                    for mm in c.methods.get(name, []):
+                        if len(mm.params) == len(argv) and "static" not in text(mm.node).split("(")[0]:
+                            cand = mm
+                    c = self.resolve(c.superclass, c) if c.superclass else None
+                if cand is not None:
+                    src_ = cand.src
+                    if ("getDeclaredField" in src_ or "getField(" in src_) and argv:
+                        fname_ = self.eval(argv[0], ctx, env, depth + 1)
+                        if isinstance(fname_, str):
+                            ff = self.find_field(tc, fname_)
+                            if ff is not None and ff.value is not None:
+                                return self.eval(ff.value, ff.cls, {"__this__": tc.fqcn}, depth + 1)
+                            if len(argv) > 1:
+                                return self.eval(argv[1], ctx, env, depth + 1)
+                    rets = cand.returns()
+                    if len(rets) == 1:
+                        e2 = {pn: self.eval(a, ctx, env, depth + 1) for pn, a in zip(cand.params, argv)}
+                        e2["__this__"] = tc.fqcn
+                        return self.eval(rets[0], cand.cls, e2, depth + 1)
+            if argv and depth < 20:
+                owner = None
+                if objn is None:
+                    owner = ctx
+                elif objn.type == "identifier" and self.find_field(ctx, obj) is None and not (env and obj in env):
+                    owner = self.resolve(obj, ctx)
+                if owner is not None:
+                    cand = None
+                    c = owner
+                    while c is not None and cand is None:
+                        for mm in c.methods.get(name, []):
+                            if len(mm.params) == len(argv) and "static" in text(mm.node).split("(")[0]:
+                                cand = mm
+                        c = c.outer
+                    if cand is not None:
+                        rets = cand.returns()
+                        if len(rets) == 1:
+                            e2 = {pn: self.eval(a, ctx, env, depth + 1) for pn, a in zip(cand.params, argv)}
+                            return self.eval(rets[0], cand.cls, e2, depth + 1)
             raise Unknown(s)
         if t == "object_creation_expression":
             rc = self.resolve(text(node.child_by_field_name("type")), ctx)
@@ -742,6 +800,40 @@ class JavaIndex:
                 return InstanceOf(rc.fqcn)
             raise Unknown(s)
         raise Unknown(t)
+
+    def _assigned_value(self, f, depth):
+        """Value of a field that has no initializer but is assigned in a method (lazy caches)."""
+        if depth > 18:
+            return _NOVAL
+        base = f.type.split(".")[-1]
+        if not base[:1].isupper() or base in ("String", "Integer", "Double", "Float", "Long", "Boolean", "List", "Map", "Set",
+                                               "UUID", "Component", "ItemStack", "LivingEntity", "Player", "Entity", "Level"):
+            return _NOVAL
+        key = (f.cls.fqcn, f.name)
+        cache = self.__dict__.setdefault("_assign_cache", {})
+        if key in cache:
+            return cache[key]
+        cache[key] = _NOVAL  # guards against cycles while we compute
+        cache[key] = self._assigned_value_uncached(f, depth)
+        return cache[key]
+
+    def _assigned_value_uncached(self, f, depth):
+        for ms in f.cls.methods.values():
+            for m in ms:
+                if f.name not in m.src:
+                    continue
+                for n in walk(m.node):
+                    if n.type != "assignment_expression":
+                        continue
+                    lt = text(n.child_by_field_name("left"))
+                    if lt not in (f.name, "this." + f.name):
+                        continue
+                    rhs = n.child_by_field_name("right")
+                    try:
+                        return self.eval(rhs, f.cls, self.locals_env(n, f.cls), depth + 1)
+                    except Unknown:
+                        continue
+        return _NOVAL
 
     def locals_env(self, node, ctx, this_fqcn=None) -> dict:
         """Evaluate local variables declared before `node` in its enclosing method."""
@@ -778,6 +870,16 @@ class JavaIndex:
                     oc2 = self.classes.get(ov.fqcn)
                     f = self.find_field(oc2, fname) if oc2 else None
                     return (f.cls.fqcn + "." + f.name) if f else ov.fqcn + "." + fname
+            if objn.type == "field_access":
+                # e.g. NightmareRacesConfig.INSTANCE.EPToTrueDwarf -> type of INSTANCE
+                inner_owner = self.resolve(text(objn.child_by_field_name("object")), ctx)
+                if inner_owner is not None:
+                    inst = self.find_field(inner_owner, text(objn.child_by_field_name("field")))
+                    if inst is not None:
+                        tc = self.resolve(inst.type, inst.cls)
+                        if tc is not None:
+                            f = self.find_field(tc, fname)
+                            return (f.cls.fqcn + "." + f.name) if f else tc.fqcn + "." + fname
             oc = self.resolve(text(objn), ctx)
             if oc is not None:
                 f = self.find_field(oc, fname)
@@ -806,6 +908,9 @@ JAVA_CONSTANTS = {
     "Math.PI": 3.141592653589793,
     "Double.POSITIVE_INFINITY": float("inf"), "Float.POSITIVE_INFINITY": float("inf"),
 }
+
+
+_NOVAL = object()
 
 
 class Unknown(Exception):

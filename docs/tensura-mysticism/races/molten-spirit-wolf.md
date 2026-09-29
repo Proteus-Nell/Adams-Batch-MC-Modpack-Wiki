@@ -36,7 +36,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 800,000 | 50% |
-| Master name | 50% |
+| Master [Profaned Prominence](../abilities/extra-skills/profaned-prominence.md) | 50% |
 
 ### Evolution tree
 

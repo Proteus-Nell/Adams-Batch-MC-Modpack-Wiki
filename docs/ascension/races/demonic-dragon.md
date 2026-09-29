@@ -32,7 +32,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of demonic_dragon (evolution ep) | 50% |
+| Reach Existence Points of 1,000,000 | 50% |
 | True Demon Lord. | 50% |
 
 ### Evolution tree

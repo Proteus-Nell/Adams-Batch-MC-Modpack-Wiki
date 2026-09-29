@@ -30,7 +30,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 2,000,000 | 100% |
 
 ### Evolution tree
 
@@ -77,14 +77,14 @@ flowchart LR
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 1,080 | add |
+| Max Spiritual Health | 5,840 | add |
+| Attack Damage | 5.5 | add |
+| Attack Speed | -3 | add |
+| Knockback Resistance | 3 | add |
+| Movement Speed | 0.1 | add |
+| Swim Speed Multiplier | 0.2 | add |
 
 ## Stats (config defaults)
 

@@ -607,26 +607,75 @@ class AbilityExtractor:
         return rec
 
     def requirements(self, cls) -> list:
-        m = self.ix.find_method(cls, "getEvolutionRequirements")
-        if m is None:
-            return []
+        # TR: Nightmares routes through getNightmareEvolutionRequirements; others override
+        # getEvolutionRequirements directly. Take the first that yields anything.
+        for mname in ("getNightmareEvolutionRequirements", "getEvolutionRequirements"):
+            m = self.ix.find_method(cls, mname)
+            if m is None:
+                continue
+            out = self._reqs_in(m, cls, {}, 0)
+            if out:
+                return out
+        return []
+
+    def _is_req_class(self, rc):
+        return rc is not None and (self.ix.is_a(rc, "EvolutionRequirement") or rc.simple == "EvolutionRequirement")
+
+    def _reqs_in(self, m, cls, penv, depth):
         out = []
-        env = None
-        for n in walk(m.body):
-            if n.type != "object_creation_expression":
-                continue
-            rc = self.ix.resolve(text(n.child_by_field_name("type")), m.cls)
-            if rc is None or not (self.ix.is_a(rc, "EvolutionRequirement") or rc.simple == "EvolutionRequirement" or rc.simple.endswith("Requirement")):
-                continue
-            weight = None
-            par = n.parent
-            if par is not None and par.type == "argument_list":
-                sib = list(par.named_children)
-                i = sib.index(n) if n in sib else -1
-                if 0 <= i < len(sib) - 1:
-                    weight = self.describe(sib[i + 1], m.cls, self.ix.locals_env(n, m.cls, cls.fqcn))
-            out.append({"text": self.requirement_text(n, m.cls, self.ix.locals_env(n, m.cls, cls.fqcn)), "weight": weight})
+        body = m.body
+        if body is None:
+            return out
+        for n in walk(body):
+            if n.type == "object_creation_expression":
+                rc = self.ix.resolve(text(n.child_by_field_name("type")), m.cls)
+                if not self._is_req_class(rc):
+                    continue
+                env = self.ix.locals_env(n, m.cls, cls.fqcn)
+                env.update(penv)
+                weight = None
+                par = n.parent
+                if par is not None and par.type == "argument_list":
+                    sib = list(par.named_children)
+                    i = sib.index(n) if n in sib else -1
+                    if 0 <= i < len(sib) - 1:
+                        weight = self.describe(sib[i + 1], m.cls, env)
+                out.append({"text": self.requirement_text(n, m.cls, env), "weight": weight})
+            elif n.type == "method_invocation" and depth < 3:
+                target = self._helper_target(n, m.cls)
+                if target is None or target is m:
+                    continue
+                env = self.ix.locals_env(n, m.cls, cls.fqcn)
+                env.update(penv)
+                env2 = {"__this__": cls.fqcn}
+                for pn, a in zip(target.params, call_args(n)):
+                    try:
+                        env2[pn] = self.ix.eval(a, m.cls, env)
+                    except Exception:
+                        pass
+                out += self._reqs_in(target, cls, env2, depth + 1)
         return out
+
+    def _helper_target(self, inv, ctx):
+        """A called method whose declared return type mentions EvolutionRequirement."""
+        name = text(inv.child_by_field_name("name"))
+        if name in ("getNightmareEvolutionRequirements", "getEvolutionRequirements", "put", "of", "putAll"):
+            return None
+        obj = inv.child_by_field_name("object")
+        owner = ctx
+        if obj is not None and text(obj) != "this":
+            owner = self.ix.resolve(text(obj), ctx)
+            if owner is None:
+                return None
+        argc = len(call_args(inv))
+        c = owner
+        while c is not None:
+            for cand in c.methods.get(name, []):
+                head = text(cand.node).split("{", 1)[0]
+                if len(cand.params) == argc and "EvolutionRequirement" in head:
+                    return cand
+            c = self.ix.resolve(c.superclass, c) if c.superclass else None
+        return None
 
     def requirement_text(self, creation, ctx, env=None) -> str:
         ix = self.ix
@@ -637,9 +686,23 @@ class AbilityExtractor:
         if rc is None:
             return "%s(%s)" % (ty.split(".")[-1], ", ".join(self._arg_str(a, ctx) for a in args))
         comp = ix.find_method(rc, "getRequirementComponent")
-        if comp is None:
+        anon = [c for c in creation.children if c.type == "class_body"]
+        comp_node = comp.node if comp is not None else None
+        if anon:
+            # anonymous subclass: new EvolutionRequirement() { getRequirementComponent() {...} }
+            for mdecl in anon[0].named_children:
+                if mdecl.type == "method_declaration" and text(mdecl.child_by_field_name("name")) == "getRequirementComponent":
+                    comp_node = mdecl
+                    rc = ctx
+        if comp_node is None:
             return ty.split(".")[-1]
-        keys = self.translatable_keys(comp.node, rc)
+        keys = self.translatable_keys(comp_node, rc)
+        self._comp_locals = {}
+        for n in walk(comp_node):
+            if n.type == "local_variable_declaration":
+                for d in n.named_children:
+                    if d.type == "variable_declarator" and d.child_by_field_name("value") is not None:
+                        self._comp_locals[text(d.child_by_field_name("name"))] = d.child_by_field_name("value")
         if not keys:
             return _humanize_class(rc.simple)
         # map ctor params -> call-site args
@@ -658,7 +721,7 @@ class AbilityExtractor:
         # pick the translatable key; for ternaries on a boolean field, choose the branch
         key, targs, node = keys[0]
         if len(keys) > 1:
-            for n in walk(comp.node):
+            for n in walk(comp_node):
                 if n.type == "ternary_expression":
                     cond = text(n.child_by_field_name("condition"))
                     fld = re.sub(r"^this\.|\(\)$|^is|^get", "", cond.replace("this.", "")).strip("()")
@@ -684,6 +747,9 @@ class AbilityExtractor:
 
     def _template_arg(self, node, rc, field_to_arg, ctx):
         s = text(node)
+        loc = getattr(self, "_comp_locals", {}).get(s)
+        if loc is not None:
+            node, s = loc, text(loc)
         # nested translatable
         for k, _a, _n in self.translatable_keys(node, rc):
             return self.res.tr(k) or k

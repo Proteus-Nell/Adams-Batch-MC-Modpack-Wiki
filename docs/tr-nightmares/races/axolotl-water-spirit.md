@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 200,000 | 34% |
-| Master name | 33% |
+| Master [Water Domination](../../tensura-reincarnated/abilities/extra-skills/water-domination.md) | 33% |
 | Consume 60 of COD | 33% |
 
 ### Evolution tree

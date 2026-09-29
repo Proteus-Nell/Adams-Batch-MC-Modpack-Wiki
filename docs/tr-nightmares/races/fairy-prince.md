@@ -33,8 +33,8 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 50% |
-| Consume essence requirement life of [Life Essence](../items/materials/life-essence.md) | 50% |
+| Reach Existence Points of 120,000 | 50% |
+| Consume 20 of [Life Essence](../items/materials/life-essence.md) | 50% |
 
 ### Evolution tree
 
@@ -76,14 +76,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | -1 | add |
+| Max Health | 330 | add |
+| Max Spiritual Health | 940 | add |
+| Attack Damage | 0 | add |
+| Attack Speed | 0 | add |
+| Knockback Resistance | 0.5 | add |
+| Movement Speed | 0.07 | add |
+| Swim Speed Multiplier | 0.07 | add |
 
 ## Stats (config defaults)
 

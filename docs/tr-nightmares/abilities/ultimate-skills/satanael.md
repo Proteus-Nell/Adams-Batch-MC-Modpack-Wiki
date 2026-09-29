@@ -11,6 +11,7 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:satanael` |
 | **Modes** | 2 |
+| **Acquisition cost (MP)** | 1,500,000 |
 | **Max mastery** | 15,000 |
 | **Activation** | Hold |
 

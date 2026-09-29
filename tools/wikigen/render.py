@@ -806,6 +806,16 @@ class Site:
         lines.append("```")
         return "\n".join(lines)
 
+    def resolve_req_text(self, mod, t):
+        """Fill in values the code reads from per-race config tables (Ascension's getEvolutionEp("id"))."""
+        def rep(m):
+            rid = m.group(1)
+            for o in self.options:
+                if o.get("mod") == mod["mod"]["slug"] and o.get("key") == "evolutionEpRequirement" and (o.get("path") or [None])[-1] == rid:
+                    return num(self.overrides.get(o["oid"], o.get("default")))
+            return m.group(0)
+        return re.sub(r"\b([a-z0-9_]+) \(evolution ep\)", rep, t)
+
     def render_race(self, mod, r):
         page = Page(self.entry_path(mod, "races", r["id"]), r["name"])
         page.add("# %s" % esc(r["name"]), "")
@@ -845,7 +855,7 @@ class Site:
             page.add("Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.", "")
             page.add("| Requirement | Weight |", "|---|---|")
             for q in reqs:
-                page.add("| %s | %s%% |" % (self.expand_refs(page.path, cell(q["text"])), cell(q.get("weight") or "?")))
+                page.add("| %s | %s%% |" % (self.expand_refs(page.path, cell(self.resolve_req_text(mod, q["text"]))), cell(q.get("weight") or "?")))
             page.add("")
         fam = [f for f in self.race_families([x[1] for x in self.race_by_id.values()]) if r["id"] in f]
         if fam and len(fam[0]) <= 40:
@@ -1864,8 +1874,21 @@ def _range(o):
 
 
 def _same(a, b):
+    if b is None:
+        return True  # we couldn't read the default, so we can't claim the pack changed it
+    if isinstance(b, str) and (b.startswith("`") or "(" in b):
+        return True  # default is computed at runtime (e.g. a random seed); nothing to compare
+    if isinstance(a, str) and isinstance(b, str):
+        return a.strip().lower() == b.strip().lower()
+    if isinstance(a, list) and isinstance(b, str):
+        return _same(a, [x.strip() for x in b.split(",") if x.strip()])
+    if isinstance(b, list) and isinstance(a, str):
+        return _same([x.strip() for x in a.split(",") if x.strip()], b)
+    if isinstance(a, bool) or isinstance(b, bool):
+        return bool(a) == bool(b) if isinstance(a, bool) and isinstance(b, bool) else str(a).lower() == str(b).lower()
     if isinstance(a, (int, float)) and isinstance(b, (int, float)):
-        return abs(float(a) - float(b)) < 1e-9
+        # float fields are written as 32-bit floats (0.06 -> 0.0599999986...)
+        return abs(float(a) - float(b)) <= 1e-6 * max(1.0, abs(float(a)), abs(float(b)))
     if isinstance(a, list) and isinstance(b, list):
         return len(a) == len(b) and all(_same(x, y) for x, y in zip(a, b))
     return str(a) == str(b)

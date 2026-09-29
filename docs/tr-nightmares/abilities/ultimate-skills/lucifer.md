@@ -11,8 +11,9 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:lucifer` |
 | **Modes** | 6 |
+| **Acquisition cost (MP)** | 1,700,000 |
 | **Max mastery** | 15,000 |
-| **Cooldowns (s)** | max((copy cooldown fail × mastery), 1) |
+| **Cooldowns (s)** | max((4.5 × mastery), 1) |
 | **Activation** | Press, Hold |
 
 </div>

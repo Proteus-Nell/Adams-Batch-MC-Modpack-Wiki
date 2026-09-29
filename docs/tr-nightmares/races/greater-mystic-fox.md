@@ -9,13 +9,13 @@
 | **ID** | `trnightmare:greater_mystic_fox` |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 2,000 - 4,000 |
-| **Health bonus** | 15 |
-| **Spiritual health bonus** | 60 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
-| **EP to evolve into** | 0 |
+| **Aura** | 18,000 - 34,000 |
+| **Magicule** | 36,000 - 72,000 |
+| **Health bonus** | 155 |
+| **Spiritual health bonus** | 230 |
+| **Attack damage bonus** | 1.1 |
+| **Movement speed bonus** | 0.04 |
+| **EP to evolve into** | 45,000 |
 
 </div>
 
@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 45,000 | 100% |
 
 ### Evolution tree
 
@@ -62,14 +62,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | -0.5 | add |
+| Max Health | 155 | add |
+| Max Spiritual Health | 230 | add |
+| Attack Damage | 1.1 | add |
+| Attack Speed | 0.2 | add |
+| Knockback Resistance | 0.2 | add |
+| Movement Speed | 0.04 | add |
+| Swim Speed Multiplier | 0.05 | add |
 
 ## Stats (config defaults)
 
@@ -77,19 +77,6 @@ Set in [`config/nightmare/race/mystic_fox_config.toml`](../configs/config-nightm
 
 | Option | Default | Description |
 |---|---|---|
-| `GreaterMysticFox.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `GreaterMysticFox.minAura` | 1,000 | Minimal aura. |
-| `GreaterMysticFox.maxAura` | 2,000 | Maximum aura. |
-| `GreaterMysticFox.minMagicule` | 2,000 | Minimal magicule. |
-| `GreaterMysticFox.maxMagicule` | 4,000 | Maximum magicule. |
-| `GreaterMysticFox.size` | 0 | Bonus Size. |
-| `GreaterMysticFox.maxHealth` | 15 | Bonus Max Health. |
-| `GreaterMysticFox.maxSpiritualHealth` | 60 | Bonus Max Spiritual Health. |
-| `GreaterMysticFox.attack` | 0 | Bonus Attack Damage. |
-| `GreaterMysticFox.attackSpeed` | 0 | Bonus Attack Speed. |
-| `GreaterMysticFox.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `GreaterMysticFox.movementSpeed` | 0 | Bonus Movement Speed. |
-| `GreaterMysticFox.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `GreaterMysticFox.epRequirement` | 45,000 |  |
 | `GreaterMysticFox.minAura` | 18,000 |  |
 | `GreaterMysticFox.maxAura` | 34,000 |  |

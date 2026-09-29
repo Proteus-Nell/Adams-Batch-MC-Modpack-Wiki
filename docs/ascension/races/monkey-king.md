@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of monkey_king (evolution ep) | 50% |
+| Reach Existence Points of 400,000 | 50% |
 | Consume 1 of [Royal Blood](../../tensura-reincarnated/items/miscellaneous/royal-blood.md) | 50% |
 
 ### Evolution tree

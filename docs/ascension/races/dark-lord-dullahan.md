@@ -30,7 +30,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of dark_lord_dullahan (evolution ep) | 50% |
+| Reach Existence Points of 4,000,000 | 50% |
 | True Demon Lord | 50% |
 
 ### Evolution tree

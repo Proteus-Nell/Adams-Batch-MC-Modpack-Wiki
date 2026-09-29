@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Evolution | 100% |
+| Obtain a Spirit | 100% |
 
 ### Evolution tree
 

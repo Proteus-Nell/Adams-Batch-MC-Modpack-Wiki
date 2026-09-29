@@ -6,33 +6,33 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `corner` | - |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
-| `offsetX` | - |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
-| `offsetY` | - |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
+| `corner` | "TOP_RIGHT" |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
+| `offsetX` | 4 |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
+| `offsetY` | 4 |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
 
 ## `[GEAR_COOLDOWN_HUD]`
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `corner` | - |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
-| `offsetX` | - |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
-| `offsetY` | - |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
+| `corner` | "BOTTOM_CENTER" |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
+| `offsetX` | 0 |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
+| `offsetY` | 47 |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
 
 ## `[BOSS_CONTRIBUTION_HUD]`
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `corner` | - |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
-| `offsetX` | - |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
-| `offsetY` | - |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
+| `corner` | "MIDDLE_RIGHT" |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
+| `offsetX` | 4 |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
+| `offsetY` | 0 |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
 
 ## `[PARTY_HUD]`
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `corner` | - |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
-| `offsetX` | - |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
-| `offsetY` | - |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
+| `corner` | "MIDDLE_LEFT" |  | Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT. |
+| `offsetX` | 4 |  | Horizontal offset in pixels from the anchor (signed shift from center for \*_CENTER). |
+| `offsetY` | 0 |  | Vertical offset in pixels from the anchored screen edge (signed shift from center for MIDDLE_\*). |
 
 ## Top level
 

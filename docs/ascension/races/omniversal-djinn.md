@@ -24,7 +24,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of omniversal_djinn (evolution ep) | 20% |
+| Reach Existence Points of 10,000,000 | 20% |
 | Kill 4 bosses | 20% |
 | Consume 50 of [Elemental Essence](../../tensura-reincarnated/items/materials/elemental-essence.md) | 20% |
 | Consume 50 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 20% |

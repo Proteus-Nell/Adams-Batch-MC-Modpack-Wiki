@@ -23,6 +23,15 @@
 
 - **Evolves from:** [High-Class Demon](high-class-demon.md)
 
+### Requirements to evolve into Hell Rizer
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 200,000 | 50% |
+| Consume 45 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -61,14 +70,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.04 | add |
+| Max Health | 1,000 | add |
+| Max Spiritual Health | 6,000 | add |
+| Attack Damage | 1.2 | add |
+| Attack Speed | 0.1 | add |
+| Knockback Resistance | 0.26 | add |
+| Movement Speed | 0.02 | add |
+| Swim Speed Multiplier | 0.04 | add |
 
 ## Stats (config defaults)
 

@@ -11,7 +11,9 @@
 | **Type** | Ultimate Skill |
 | **ID** | `trnightmare:susanoo` |
 | **Modes** | 2 |
+| **Acquisition cost (MP)** | 600,000 |
 | **Max mastery** | 5,000 |
+| **Cooldowns (s)** | 25 |
 | **Activation** | Toggle, Press |
 
 </div>
@@ -37,11 +39,11 @@
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| degrade | toggle resist bonus | add |
-| critical | toggle crit bonus | add |
-| dodgeNegate | toggle dodge bonus | add |
-| learning | toggle learn bonus | add |
-| mastery | toggle mastery bonus | add |
+| degrade | 1 | add |
+| critical | 100 | add |
+| dodgeNegate | 1 | add |
+| learning | 8 | add |
+| mastery | 8 | add |
 
 ## Obtaining
 

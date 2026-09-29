@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of lich (evolution ep) | 40% |
+| Reach Existence Points of 2,000,000 | 40% |
 | Consume 10 of [Daemon Essence](../../tensura-reincarnated/items/materials/daemon-essence.md) | 30% |
 | Kill 3 bosses | 30% |
 

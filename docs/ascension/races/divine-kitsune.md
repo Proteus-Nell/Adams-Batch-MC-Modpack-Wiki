@@ -30,7 +30,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of divine_kitsune (evolution ep) | 50% |
+| Reach Existence Points of 2,200,000 | 50% |
 | Consume 10 of [Elemental Essence](../../tensura-reincarnated/items/materials/elemental-essence.md) | 50% |
 
 ### Evolution tree

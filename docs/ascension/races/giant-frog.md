@@ -34,7 +34,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of giant_frog (evolution ep) | 100% |
+| Reach Existence Points of 75,000 | 100% |
 
 ### Evolution tree
 

@@ -80,6 +80,18 @@ Set in [`config/tensuramoreskills-grand.toml`](../../configs/config-tensuramores
 | `outgoing_stage_damage.stage4DamageMultiplier` | 1.45 (0 to 100) | Outgoing damage multiplier at learned stage 4. |
 | `outgoing_stage_damage.stage5TensuraDamageMultiplier` | 1.9 (0 to 100) | Outgoing damage multiplier at learned stage 5 for Tensura resistance buckets. |
 | `outgoing_stage_damage.stage5DamageMultiplier` | 1.7 (0 to 100) | Outgoing damage multiplier at learned stage 5 for non-Tensura-typed buckets. |
+| `blade_enchantments.severanceBladeLevel` | 5 (0 to 255) |  |
+| `blade_enchantments.severanceBladeLevelMastered` | 10 (0 to 255) |  |
+| `blade_enchantments.tsukumogamiLevel` | 5 (0 to 255) |  |
+| `blade_enchantments.tsukumogamiLevelMastered` | 10 (0 to 255) |  |
+| `blade_enchantments.unbreakingLevel` | 5 (0 to 255) |  |
+| `blade_enchantments.sharpnessLevel` | 8 (0 to 255) |  |
+| `blade_enchantments.deadEndRainbowLevel` | 2 (0 to 255) |  |
+| `blade_enchantments.soulEaterLevel` | 5 (0 to 255) |  |
+| `blade_enchantments.soulEaterLevelMastered` | 10 (0 to 255) |  |
+| `blade_enchantments.energyStealLevel` | 2 (0 to 255) |  |
+| `blade_enchantments.holyWeaponLevel` | 2 (0 to 255) |  |
+| `blade_enchantments.holyCoatLevel` | 3 (0 to 255) |  |
 
 ## In-game messages
 

@@ -36,9 +36,9 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 10,000 | 17% |
-| Acquire name | 17% |
-| Acquire name | 17% |
-| Acquire name | 17% |
+| Acquire [Water Manipulation](../../tensura-reincarnated/abilities/extra-skills/water-manipulation.md) | 17% |
+| Acquire [Wind Manipulation](../../tensura-reincarnated/abilities/extra-skills/wind-manipulation.md) | 17% |
+| Acquire [Spatial Manipulation](../../tensura-reincarnated/abilities/extra-skills/spatial-manipulation.md) | 17% |
 | Be in any of the following biomes: list comp | 17% |
 | Be mode word (literal) Y-level 120 | 17% |
 

@@ -9,13 +9,13 @@
 | **ID** | `trnightmare:ninetail` |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 2,000 - 4,000 |
-| **Health bonus** | 15 |
-| **Spiritual health bonus** | 60 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
-| **EP to evolve into** | 0 |
+| **Aura** | 170,000 - 300,000 |
+| **Magicule** | 320,000 - 580,000 |
+| **Health bonus** | 450 |
+| **Spiritual health bonus** | 720 |
+| **Attack damage bonus** | 2.2 |
+| **Movement speed bonus** | 0.05 |
+| **EP to evolve into** | 420,000 |
 
 </div>
 
@@ -33,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of 420,000 | 100% |
 
 ### Evolution tree
 
@@ -63,14 +63,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 450 | add |
+| Max Spiritual Health | 720 | add |
+| Attack Damage | 2.2 | add |
+| Attack Speed | 0.3 | add |
+| Knockback Resistance | 0.5 | add |
+| Movement Speed | 0.05 | add |
+| Swim Speed Multiplier | 0.1 | add |
 
 ## Stats (config defaults)
 
@@ -78,19 +78,6 @@ Set in [`config/nightmare/race/mystic_fox_config.toml`](../configs/config-nightm
 
 | Option | Default | Description |
 |---|---|---|
-| `Ninetail.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `Ninetail.minAura` | 1,000 | Minimal aura. |
-| `Ninetail.maxAura` | 2,000 | Maximum aura. |
-| `Ninetail.minMagicule` | 2,000 | Minimal magicule. |
-| `Ninetail.maxMagicule` | 4,000 | Maximum magicule. |
-| `Ninetail.size` | 0 | Bonus Size. |
-| `Ninetail.maxHealth` | 15 | Bonus Max Health. |
-| `Ninetail.maxSpiritualHealth` | 60 | Bonus Max Spiritual Health. |
-| `Ninetail.attack` | 0 | Bonus Attack Damage. |
-| `Ninetail.attackSpeed` | 0 | Bonus Attack Speed. |
-| `Ninetail.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `Ninetail.movementSpeed` | 0 | Bonus Movement Speed. |
-| `Ninetail.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `Ninetail.epRequirement` | 420,000 |  |
 | `Ninetail.minAura` | 170,000 |  |
 | `Ninetail.maxAura` | 300,000 |  |

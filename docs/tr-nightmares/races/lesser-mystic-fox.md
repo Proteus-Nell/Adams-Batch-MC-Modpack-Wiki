@@ -9,12 +9,12 @@
 | **ID** | `trnightmare:lesser_mystic_fox` |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
-| **Aura** | 1,000 - 2,000 |
-| **Magicule** | 2,000 - 4,000 |
-| **Health bonus** | 15 |
-| **Spiritual health bonus** | 60 |
-| **Attack damage bonus** | 0 |
-| **Movement speed bonus** | 0 |
+| **Aura** | 4,000 - 9,000 |
+| **Magicule** | 8,000 - 16,000 |
+| **Health bonus** | 25 |
+| **Spiritual health bonus** | 100 |
+| **Attack damage bonus** | 0.7 |
+| **Movement speed bonus** | 0.03 |
 | **EP to evolve into** | 0 |
 
 </div>
@@ -53,14 +53,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | -0.5 | add |
+| Max Health | 25 | add |
+| Max Spiritual Health | 100 | add |
+| Attack Damage | 0.7 | add |
+| Attack Speed | 0.15 | add |
+| Knockback Resistance | 0.1 | add |
+| Movement Speed | 0.03 | add |
+| Swim Speed Multiplier | 0.02 | add |
 
 ## Stats (config defaults)
 
@@ -69,18 +69,6 @@ Set in [`config/nightmare/race/mystic_fox_config.toml`](../configs/config-nightm
 | Option | Default | Description |
 |---|---|---|
 | `LesserMysticFox.epRequirement` | 0 | EP requirement to evolve into this tier. |
-| `LesserMysticFox.minAura` | 1,000 | Minimal aura. |
-| `LesserMysticFox.maxAura` | 2,000 | Maximum aura. |
-| `LesserMysticFox.minMagicule` | 2,000 | Minimal magicule. |
-| `LesserMysticFox.maxMagicule` | 4,000 | Maximum magicule. |
-| `LesserMysticFox.size` | 0 | Bonus Size. |
-| `LesserMysticFox.maxHealth` | 15 | Bonus Max Health. |
-| `LesserMysticFox.maxSpiritualHealth` | 60 | Bonus Max Spiritual Health. |
-| `LesserMysticFox.attack` | 0 | Bonus Attack Damage. |
-| `LesserMysticFox.attackSpeed` | 0 | Bonus Attack Speed. |
-| `LesserMysticFox.knockbackResistance` | 0 | Bonus Knockback Resistance. |
-| `LesserMysticFox.movementSpeed` | 0 | Bonus Movement Speed. |
-| `LesserMysticFox.swimSpeed` | 0 | Bonus Swimming Speed Multiplier. |
 | `LesserMysticFox.minAura` | 4,000 |  |
 | `LesserMysticFox.maxAura` | 9,000 |  |
 | `LesserMysticFox.minMagicule` | 8,000 |  |

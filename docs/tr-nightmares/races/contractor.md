@@ -76,14 +76,14 @@ flowchart LR
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0 | add |
+| Max Health | 180 | add |
+| Max Spiritual Health | 1,540 | add |
+| Attack Damage | 3 | add |
+| Attack Speed | -1.5 | add |
+| Knockback Resistance | 0.3 | add |
+| Movement Speed | 0.06 | add |
+| Swim Speed Multiplier | 0.06 | add |
 
 ## Stats (config defaults)
 

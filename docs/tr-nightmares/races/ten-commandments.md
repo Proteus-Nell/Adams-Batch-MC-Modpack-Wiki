@@ -23,6 +23,15 @@
 
 - **Evolves from:** [High-Class Demon](high-class-demon.md)
 
+### Requirements to evolve into Ten Commandment
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of 350,000 | 50% |
+| Consume 75 of [Soul Essence](../items/materials/soul-essence.md) | 50% |
+
 ### Evolution tree
 
 ```mermaid
@@ -65,14 +74,14 @@ Granted automatically when you become this race.
 
 | Attribute | Amount | Operation |
 |---|---|---|
-| Scale | size | add |
-| Max Health | max HP | add |
-| Max Spiritual Health | max spiritual HP | add |
-| Attack Damage | attack | add |
-| Attack Speed | attack speed | add |
-| Knockback Resistance | knockback resistance | add |
-| Movement Speed | movement speed | add |
-| Swim Speed Multiplier | swim speed | add |
+| Scale | 0.02 | add |
+| Max Health | 1,100 | add |
+| Max Spiritual Health | 4,500 | add |
+| Attack Damage | 8.25 | add |
+| Attack Speed | 0.12 | add |
+| Knockback Resistance | 0.28 | add |
+| Movement Speed | 0.02 | add |
+| Swim Speed Multiplier | 0.05 | add |
 
 ## Stats (config defaults)
 

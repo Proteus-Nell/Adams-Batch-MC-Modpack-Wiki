@@ -7,18 +7,6 @@
 | Option | Default | Range | Description |
 |---|---|---|---|
 | `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `minAura` | 4,000 |  |  |
 | `maxAura` | 9,000 |  |  |
 | `minMagicule` | 8,000 |  |  |
@@ -36,19 +24,6 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `epRequirement` | 45,000 |  |  |
 | `minAura` | 18,000 |  |  |
 | `maxAura` | 34,000 |  |  |
@@ -67,19 +42,6 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `epRequirement` | 160,000 |  |  |
 | `minAura` | 70,000 |  |  |
 | `maxAura` | 130,000 |  |  |
@@ -98,19 +60,6 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `epRequirement` | 420,000 |  |  |
 | `minAura` | 170,000 |  |  |
 | `maxAura` | 300,000 |  |  |
@@ -129,19 +78,6 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `epRequirement` | 900,000 |  |  |
 | `minAura` | 360,000 |  |  |
 | `maxAura` | 650,000 |  |  |
@@ -160,19 +96,6 @@
 
 | Option | Default | Range | Description |
 |---|---|---|---|
-| `epRequirement` | 0 |  | EP requirement to evolve into this tier. |
-| `minAura` | 1,000 |  | Minimal aura. |
-| `maxAura` | 2,000 |  | Maximum aura. |
-| `minMagicule` | 2,000 |  | Minimal magicule. |
-| `maxMagicule` | 4,000 |  | Maximum magicule. |
-| `size` | 0 |  | Bonus Size. |
-| `maxHealth` | 15 |  | Bonus Max Health. |
-| `maxSpiritualHealth` | 60 |  | Bonus Max Spiritual Health. |
-| `attack` | 0 |  | Bonus Attack Damage. |
-| `attackSpeed` | 0 |  | Bonus Attack Speed. |
-| `knockbackResistance` | 0 |  | Bonus Knockback Resistance. |
-| `movementSpeed` | 0 |  | Bonus Movement Speed. |
-| `swimSpeed` | 0 |  | Bonus Swimming Speed Multiplier. |
 | `epRequirement` | 2,000,000 |  |  |
 | `minAura` | 800,000 |  |  |
 | `maxAura` | 1,400,000 |  |  |
