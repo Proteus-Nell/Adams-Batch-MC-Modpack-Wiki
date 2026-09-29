@@ -28195,9 +28195,19 @@
       "trnightmare:lesser_holy_dragon",
       "trnightmare:lesser_daemonic_dragon",
       "trnightmare:lesser_ender_dragon",
-      "trnightmare:lesser_nether_dragon"
+      "trnightmare:lesser_nether_dragon",
+      "trnightmare:lesser_zombie_dragon",
+      "trnightmare:medium_dragon"
      ],
      "default": [
+      "trnightmare:lesser_zombie_dragon",
+      "trnightmare:medium_dragon"
+     ],
+     "awakening": [
+      "trnightmare:lesser_zombie_dragon",
+      "trnightmare:medium_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:lesser_zombie_dragon",
       "trnightmare:medium_dragon"
      ]
@@ -28290,7 +28300,15 @@
     "difficulty": "Easy",
     "alignment": "Default",
     "evolutions": {
+     "next": [
+      "trnightmare:medium_zombie_dragon",
+      "trnightmare:arch_dragon"
+     ],
      "default": [
+      "trnightmare:medium_zombie_dragon",
+      "trnightmare:arch_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:medium_zombie_dragon",
       "trnightmare:arch_dragon"
      ],
@@ -28526,6 +28544,10 @@
       "trnightmare:death_dragon",
       "trnightmare:element_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:death_dragon",
+      "trnightmare:element_dragon"
+     ],
      "previous": [
       "trnightmare:medium_dragon"
      ]
@@ -28757,6 +28779,10 @@
       "trnightmare:death_dragon",
       "trnightmare:dragon_lord"
      ],
+     "harvest_festival": [
+      "trnightmare:death_dragon",
+      "trnightmare:dragon_lord"
+     ],
      "previous": [
       "trnightmare:arch_dragon"
      ]
@@ -28985,7 +29011,15 @@
     "difficulty": "Hard",
     "alignment": "Default",
     "evolutions": {
+     "next": [
+      "trnightmare:gehenna_dragon",
+      "trnightmare:divine_dragon_lord"
+     ],
      "default": [
+      "trnightmare:gehenna_dragon",
+      "trnightmare:divine_dragon_lord"
+     ],
+     "harvest_festival": [
       "trnightmare:gehenna_dragon",
       "trnightmare:divine_dragon_lord"
      ],
@@ -29219,6 +29253,9 @@
      "default": [
       "trnightmare:divine_gehenna_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:divine_gehenna_dragon"
+     ],
      "previous": [
       "trnightmare:dragon_lord"
      ]
@@ -29449,6 +29486,9 @@
       "trnightmare:medium_daemonic_dragon"
      ],
      "default": [
+      "trnightmare:medium_daemonic_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:medium_daemonic_dragon"
      ],
      "previous": [
@@ -29700,6 +29740,9 @@
      "default": [
       "trnightmare:arch_daemonic_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:arch_daemonic_dragon"
+     ],
      "previous": [
       "trnightmare:lesser_daemonic_dragon"
      ]
@@ -29949,6 +29992,9 @@
      "default": [
       "trnightmare:daemonic_dragon_lord"
      ],
+     "harvest_festival": [
+      "trnightmare:daemonic_dragon_lord"
+     ],
      "previous": [
       "trnightmare:medium_daemonic_dragon"
      ]
@@ -30196,6 +30242,9 @@
       "trnightmare:devil_dragon_lord"
      ],
      "default": [
+      "trnightmare:devil_dragon_lord"
+     ],
+     "harvest_festival": [
       "trnightmare:devil_dragon_lord"
      ],
      "previous": [
@@ -30686,6 +30735,9 @@
      "default": [
       "trnightmare:medium_holy_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:medium_holy_dragon"
+     ],
      "previous": [
       "trnightmare:lesser_dragon"
      ]
@@ -30934,6 +30986,9 @@
       "trnightmare:saint_dragon"
      ],
      "default": [
+      "trnightmare:saint_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:saint_dragon"
      ],
      "previous": [
@@ -31186,6 +31241,9 @@
      "default": [
       "trnightmare:heavenly_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:heavenly_dragon"
+     ],
      "previous": [
       "trnightmare:medium_holy_dragon"
      ]
@@ -31434,6 +31492,9 @@
       "trnightmare:divine_heavenly_dragon"
      ],
      "default": [
+      "trnightmare:divine_heavenly_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:divine_heavenly_dragon"
      ],
      "previous": [
@@ -31928,6 +31989,9 @@
      "default": [
       "trnightmare:medium_nether_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:medium_nether_dragon"
+     ],
      "previous": [
       "trnightmare:lesser_dragon"
      ]
@@ -32176,6 +32240,9 @@
       "trnightmare:scrap_dragon"
      ],
      "default": [
+      "trnightmare:scrap_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:scrap_dragon"
      ],
      "previous": [
@@ -32428,6 +32495,9 @@
      "default": [
       "trnightmare:netherite_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:netherite_dragon"
+     ],
      "previous": [
       "trnightmare:medium_nether_dragon"
      ]
@@ -32676,6 +32746,9 @@
       "trnightmare:divine_netherite_dragon"
      ],
      "default": [
+      "trnightmare:divine_netherite_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:divine_netherite_dragon"
      ],
      "previous": [
@@ -33172,6 +33245,9 @@
      "default": [
       "trnightmare:medium_ender_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:medium_ender_dragon"
+     ],
      "previous": [
       "trnightmare:lesser_dragon"
      ]
@@ -33420,6 +33496,9 @@
      "default": [
       "trnightmare:ender_dragon_prince"
      ],
+     "harvest_festival": [
+      "trnightmare:ender_dragon_prince"
+     ],
      "previous": [
       "trnightmare:lesser_ender_dragon"
      ]
@@ -33658,6 +33737,9 @@
       "trnightmare:void_dragon"
      ],
      "default": [
+      "trnightmare:void_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:void_dragon"
      ],
      "previous": [
@@ -33900,6 +33982,9 @@
       "trnightmare:divine_void_dragon"
      ],
      "default": [
+      "trnightmare:divine_void_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:divine_void_dragon"
      ],
      "previous": [
@@ -34378,6 +34463,9 @@
      "default": [
       "trnightmare:medium_zombie_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:medium_zombie_dragon"
+     ],
      "previous": [
       "trnightmare:lesser_dragon"
      ]
@@ -34474,6 +34562,9 @@
       "trnightmare:death_dragon"
      ],
      "default": [
+      "trnightmare:death_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:death_dragon"
      ],
      "previous": [
@@ -34706,6 +34797,9 @@
      "default": [
       "trnightmare:gehenna_dragon"
      ],
+     "harvest_festival": [
+      "trnightmare:gehenna_dragon"
+     ],
      "previous": [
       "trnightmare:medium_zombie_dragon",
       "trnightmare:arch_dragon",
@@ -34935,6 +35029,9 @@
       "trnightmare:divine_gehenna_dragon"
      ],
      "default": [
+      "trnightmare:divine_gehenna_dragon"
+     ],
+     "harvest_festival": [
       "trnightmare:divine_gehenna_dragon"
      ],
      "previous": [
@@ -35387,7 +35484,23 @@
     "class": "com.github.hvnbael.trnightmare.main.races.dragonrace.LesserThrallDragonRace",
     "difficulty": "Intermediate",
     "alignment": "Default",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "trnightmare:greater_thrall_dragon"
+     ],
+     "default": [
+      "trnightmare:greater_thrall_dragon"
+     ],
+     "awakening": [
+      "trnightmare:greater_thrall_dragon"
+     ],
+     "harvest_festival": [
+      "trnightmare:greater_thrall_dragon"
+     ],
+     "previous": [
+      "trnightmare:lesser_dragon"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -35629,7 +35742,23 @@
     "class": "com.github.hvnbael.trnightmare.main.races.dragonrace.GreaterThrallDragonRace",
     "difficulty": "Easy",
     "alignment": "Default",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "trnightmare:vampiric_dragon"
+     ],
+     "default": [
+      "trnightmare:vampiric_dragon"
+     ],
+     "awakening": [
+      "trnightmare:vampiric_dragon"
+     ],
+     "harvest_festival": [
+      "trnightmare:vampiric_dragon"
+     ],
+     "previous": [
+      "trnightmare:lesser_thrall_dragon"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -35867,7 +35996,23 @@
     "class": "com.github.hvnbael.trnightmare.main.races.dragonrace.VampiricDragonRace",
     "difficulty": "Intermediate",
     "alignment": "Default",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "trnightmare:vampiric_dragon_lord"
+     ],
+     "default": [
+      "trnightmare:vampiric_dragon_lord"
+     ],
+     "awakening": [
+      "trnightmare:vampiric_dragon_lord"
+     ],
+     "harvest_festival": [
+      "trnightmare:vampiric_dragon_lord"
+     ],
+     "previous": [
+      "trnightmare:greater_thrall_dragon"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -36109,7 +36254,23 @@
     "class": "com.github.hvnbael.trnightmare.main.races.dragonrace.VampiricDragonLordRace",
     "difficulty": "Easy",
     "alignment": "Default",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "trnightmare:divine_vampiric_dragon_lord"
+     ],
+     "default": [
+      "trnightmare:divine_vampiric_dragon_lord"
+     ],
+     "awakening": [
+      "trnightmare:divine_vampiric_dragon_lord"
+     ],
+     "harvest_festival": [
+      "trnightmare:divine_vampiric_dragon_lord"
+     ],
+     "previous": [
+      "trnightmare:vampiric_dragon"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -36351,7 +36512,11 @@
     "class": "com.github.hvnbael.trnightmare.main.races.dragonrace.DivineVampiricDragonLordRace",
     "difficulty": "Easy",
     "alignment": "Default",
-    "evolutions": {},
+    "evolutions": {
+     "previous": [
+      "trnightmare:vampiric_dragon_lord"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -36601,6 +36766,12 @@
      ],
      "default": [
       "trnightmare:greater_mystic_fox"
+     ],
+     "awakening": [
+      "trnightmare:greater_mystic_fox"
+     ],
+     "harvest_festival": [
+      "trnightmare:greater_mystic_fox"
      ]
     },
     "requirements": [
@@ -36688,6 +36859,9 @@
       "trnightmare:ninehead"
      ],
      "default": [
+      "trnightmare:ninehead"
+     ],
+     "harvest_festival": [
       "trnightmare:ninehead"
      ],
      "previous": [
@@ -36779,6 +36953,9 @@
       "trnightmare:ninetail"
      ],
      "default": [
+      "trnightmare:ninetail"
+     ],
+     "harvest_festival": [
       "trnightmare:ninetail"
      ],
      "previous": [
@@ -36873,6 +37050,9 @@
      "default": [
       "trnightmare:soul_beast"
      ],
+     "harvest_festival": [
+      "trnightmare:soul_beast"
+     ],
      "previous": [
       "trnightmare:ninehead"
      ]
@@ -36963,6 +37143,9 @@
       "trnightmare:divine_fox"
      ],
      "default": [
+      "trnightmare:divine_fox"
+     ],
+     "harvest_festival": [
       "trnightmare:divine_fox"
      ],
      "previous": [

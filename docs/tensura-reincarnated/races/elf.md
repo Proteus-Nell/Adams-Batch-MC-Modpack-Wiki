@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:elf` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 320 - 600 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:archangel` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 500,000 - 1,000,000 |

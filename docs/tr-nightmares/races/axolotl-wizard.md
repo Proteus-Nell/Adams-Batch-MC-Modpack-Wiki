@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:axolotl_wizard` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Holy |
 | **Aura** | 500 - 1,500 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:slayer_fairy` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 250,000 - 500,000 |

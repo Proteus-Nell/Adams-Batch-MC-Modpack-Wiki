@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:soul_shrieker` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 1,500 - 1,500 |

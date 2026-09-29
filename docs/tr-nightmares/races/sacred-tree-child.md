@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:sacred_tree_child` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 210,000 - 420,000 |

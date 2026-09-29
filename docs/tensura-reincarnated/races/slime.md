@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:slime` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 200 - 500 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:axolotl` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 1,500 |
@@ -23,7 +24,7 @@
 
 ## Evolution
 
-This race has no evolutions.
+- **Evolves into:** [Axolotl Knight](axolotl-knight.md), [Axolotl Wizard](axolotl-wizard.md)
 
 ### Evolution tree
 

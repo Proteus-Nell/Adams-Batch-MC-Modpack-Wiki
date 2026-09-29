@@ -189,9 +189,11 @@ class Site:
                     if key == "previous":
                         for p in lst:
                             self.reverse[r["id"]]["evolves_from"].append(p)
+                            self.reverse[p]["evolves_into"].append(r["id"])
                         continue
                     for t in lst:
                         self.reverse[t]["evolves_from"].append(r["id"])
+                        self.reverse[r["id"]]["evolves_into"].append(t)
             for e in c.get("mobs", []):
                 for ab in (e.get("existence") or {}).get("abilities", []) or []:
                     self.reverse[ab]["innate_to_mob"].append(e["id"])
@@ -727,22 +729,48 @@ class Site:
                 found[stat_keys[o["key"]]] = v
         return found
 
+    STAGES = ("Starting", "In-between", "Final")
+
+    def race_stage(self, rid):
+        """Where a race sits in its evolution line, across every mod in the pack.
+        A race nothing evolves into and that evolves into nothing is both Starting and Final."""
+        rel = self.reverse.get(rid, {})
+        prev = [p for p in rel.get("evolves_from", []) if p != rid]
+        nxt = [n for n in rel.get("evolves_into", []) if n != rid]
+        if prev and nxt:
+            return ["In-between"]
+        return (["Starting"] if not prev else []) + (["Final"] if not nxt else [])
+
+    @staticmethod
+    def stage_cell(stages):
+        return " / ".join('<span class="stage stage-%s">%s</span>' % (s.lower(), s) for s in stages)
+
     def render_races(self, mod):
         slug = mod["mod"]["slug"]
         races = mod["categories"]["races"]
         index = Page("%s/races/index.md" % slug, "Races")
         index.add("# Races", "")
         self.breadcrumb(index, mod)
-        index.add("%s adds **%d** races. Starting races can be chosen or rolled when you reincarnate; the rest are reached by evolving." % (esc(mod["mod"]["name"]), len(races)), "")
-        # starting races: no evolves_from
-        ids = {r["id"] for r in races}
-        base = [r for r in races if not self.reverse.get(r["id"], {}).get("evolves_from")]
-        index.add("| Race | Difficulty | Alignment | Evolves into |", "|---|---|---|---|")
+        stages = {r["id"]: self.race_stage(r["id"]) for r in races}
+        counts = {s: sum(1 for v in stages.values() if s in v) for s in self.STAGES}
+        both = sum(1 for v in stages.values() if len(v) > 1)
+        index.add("%s adds **%d** races: **%d** starting, **%d** in-between and **%d** final.%s" % (
+            esc(mod["mod"]["name"]), len(races), counts["Starting"], counts["In-between"], counts["Final"],
+            (" %s no evolutions at all, so %s both starting and final." % ("1 race has" if both == 1 else "%d races have" % both, "it counts as" if both == 1 else "they count as")) if both else ""), "")
+        index.add("- **Starting:** the first race of its evolution line. Nothing evolves into it, so you get it by reincarnating into it or through a special item, skill or event.",
+                  "- **In-between:** reached by evolving, and can evolve further.",
+                  "- **Final:** the last step of its line. It does not evolve any further.", "")
+        index.add("Races that link to other mods' races (for example an addon race that evolves from a Tensura race) are placed using the whole pack's evolution trees.", "")
+        index.add('<div class="filter-table" data-filter="Stage" data-order="%s" markdown>' % ",".join(self.STAGES), "")
+        index.add("| Race | Stage | Difficulty | Alignment | Evolves from | Evolves into |", "|---|---|---|---|---|---|")
         for r in sorted(races, key=lambda r: r["name"].lower()):
-            nxt = r.get("evolutions", {}).get("next") or r.get("evolutions", {}).get("default") or []
-            index.add("| %s | %s | %s | %s |" % (self.link(index.path, r["id"], "race"), cell(r.get("difficulty") or ""), cell(r.get("alignment") or ""),
-                                                self.links(index.path, nxt, "race", limit=6)))
-        index.add("")
+            rel = self.reverse.get(r["id"], {})
+            prev = list(dict.fromkeys(p for p in rel.get("evolves_from", []) if p != r["id"]))
+            nxt = list(dict.fromkeys(n for n in rel.get("evolves_into", []) if n != r["id"]))
+            index.add("| %s | %s | %s | %s | %s | %s |" % (
+                self.link(index.path, r["id"], "race"), self.stage_cell(stages[r["id"]]), cell(r.get("difficulty") or ""),
+                cell(r.get("alignment") or ""), self.links(index.path, prev, "race", limit=6), self.links(index.path, nxt, "race", limit=6)))
+        index.add("", "</div>", "")
         # evolution trees (mermaid), one per connected family
         fams = self.race_families(races)
         if fams:
@@ -821,7 +849,8 @@ class Site:
         page.add("# %s" % esc(r["name"]), "")
         self.breadcrumb(page, mod, "races")
         stats = self.race_stats(r)
-        rows = [("ID", "`%s`" % r["id"]), ("Difficulty", esc(r.get("difficulty") or "")), ("Alignment", esc(r.get("alignment") or ""))]
+        rows = [("ID", "`%s`" % r["id"]), ("Stage", self.stage_cell(self.race_stage(r["id"]))),
+                ("Difficulty", esc(r.get("difficulty") or "")), ("Alignment", esc(r.get("alignment") or ""))]
         if "Min aura" in stats or "Max aura" in stats:
             rows.append(("Aura", "%s - %s" % (num(stats.get("Min aura")), num(stats.get("Max aura")))))
         if "Min magicule" in stats or "Max magicule" in stats:
@@ -838,15 +867,17 @@ class Site:
         page.add("## Evolution", "")
         if prev:
             page.add("- **Evolves from:** " + self.links(page.path, prev, "race"))
-        if ev.get("next"):
-            page.add("- **Evolves into:** " + self.links(page.path, ev["next"], "race"))
+        listed = {x for k, lst in ev.items() if k != "previous" for x in lst}
+        nxt = list(OrderedDict.fromkeys((ev.get("next") or []) + [x for x in self.reverse.get(r["id"], {}).get("evolves_into", []) if x not in listed]))
+        if nxt:
+            page.add("- **Evolves into:** " + self.links(page.path, nxt, "race"))
         if ev.get("default"):
             page.add("- **Default evolution:** " + self.links(page.path, ev["default"], "race"))
         if ev.get("awakening"):
             page.add("- **On awakening (True Demon Lord / True Hero):** " + self.links(page.path, ev["awakening"], "race"))
         if ev.get("harvest_festival"):
             page.add("- **During the Harvest Festival:** " + self.links(page.path, ev["harvest_festival"], "race"))
-        if not (prev or any(ev.values())):
+        if not (prev or nxt or any(ev.values())):
             page.add("This race has no evolutions.")
         page.add("")
         reqs = r.get("requirements") or []

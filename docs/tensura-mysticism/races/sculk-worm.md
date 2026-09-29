@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:sculk_worm` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 100 - 250 |

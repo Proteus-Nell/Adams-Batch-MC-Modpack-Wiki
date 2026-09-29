@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:wight` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 100 - 500 |
@@ -22,7 +23,7 @@
 
 ## Evolution
 
-- **Evolves into:** [Human](human.md), [Wight King](wight-king.md)
+- **Evolves into:** [Human](human.md), [Wight King](wight-king.md), [Cursed Mariner](../../ascension/races/cursed-mariner.md), [Zombie](../../ascension/races/zombie.md)
 - **Default evolution:** [Wight King](wight-king.md)
 - **On awakening (True Demon Lord / True Hero):** [Spirit Skeleton](spirit-skeleton.md)
 - **During the Harvest Festival:** [Wight King](wight-king.md)

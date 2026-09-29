@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:vampire_overcomer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 50,000 - 70,000 |

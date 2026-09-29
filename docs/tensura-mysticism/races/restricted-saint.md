@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:restricted_saint` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 280,000 - 280,000 |

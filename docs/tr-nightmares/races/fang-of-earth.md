@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:fang_of_earth` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 250,000 - 500,000 |

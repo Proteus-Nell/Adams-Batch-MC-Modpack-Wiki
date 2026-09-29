@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:disciple` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Chaos |
 | **Aura** | 100,000 - 2,000,000 |

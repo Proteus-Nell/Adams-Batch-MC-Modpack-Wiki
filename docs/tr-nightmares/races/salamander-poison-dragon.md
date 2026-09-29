@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:salamander_poison_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 500 |

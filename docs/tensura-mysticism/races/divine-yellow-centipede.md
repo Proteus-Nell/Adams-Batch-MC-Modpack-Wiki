@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:divine_yellow_centipede` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,000,000 - 1,000,000 |

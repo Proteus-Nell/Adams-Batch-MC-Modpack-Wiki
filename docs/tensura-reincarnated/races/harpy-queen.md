@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:harpy_queen` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 150,000 - 150,000 |

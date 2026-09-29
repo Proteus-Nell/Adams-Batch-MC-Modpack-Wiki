@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:ninehead` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 70,000 - 130,000 |
@@ -26,6 +27,7 @@
 - **Evolves from:** [Greater Mystic Fox](greater-mystic-fox.md)
 - **Evolves into:** [Ninetail](ninetail.md)
 - **Default evolution:** [Ninetail](ninetail.md)
+- **During the Harvest Festival:** [Ninetail](ninetail.md)
 
 ### Requirements to evolve into Ninehead
 

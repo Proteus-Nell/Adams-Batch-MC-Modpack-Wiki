@@ -137,3 +137,69 @@
 	topN = 5
 	#Treasury pool (in CENTS) split among the top siege nations pro-rata by damage. Requires the nation economy (UBS). 0 disables the payout.
 	siegeSpoilsCents = 5000000
+
+[Raid]
+	#Master switch for /etnation raid summon (admin 'season raid start' ignores this).
+	enabled = true
+	#Treasury fee to summon, in cents. Ignored when the nation economy is inactive.
+	summonCostCents = 50000000
+	#Nation summons allowed per season (admin start does not count).
+	maxRaidsPerSeason = 1
+	#Online players required to summon.
+	minOnlinePlayers = 2
+	#Minutes between the announcement and the Leviathan emerging.
+	countdownMinutes = 5
+	#Minutes from emerge until the raid times out (loss).
+	raidTimeoutMinutes = 45
+	#Minutes from emerge until soft enrage (regrow halves, Coil CD 12s, twin bolts).
+	enrageMinutes = 15
+	#Legacy Points pool split pro-rata by damage on a win.
+	raidLegacyPool = 60
+	#Minimum Legacy Points for any player with tracked damage on a win.
+	raidMinLegacy = 2
+	#Nation ladder points pool split pro-rata by nation damage share on a win.
+	raidLadderPool = 120
+	#Body segments (armour plates).
+	segmentCount = 8
+	#Distance in blocks between consecutive plate centres (plates are ~1.5 wide; <1.5 overlaps like scales).
+	segmentSpacing = 1.2
+	#Plate HP.
+	segmentHp = 1000.0
+	#Seconds for a shattered plate to regrow (halved when enraged; paused while the head is exposed).
+	regrowSeconds = 60
+	#Plate damage multiplier for non-player sources (pets, summons).
+	nonPlayerPlateDamageMult = 0.0
+	#Head is vulnerable while intact plates <= this.
+	exposeIntactMax = 4
+	#Head attributes.
+	headHp = 16000.0
+	headArmor = 150.0
+	headDamage = 140.0
+	#Base magicule/aura pools (kill EP payout derives from these).
+	headMagicule = 8000000.0
+	headAura = 2000000.0
+	#Head spiritual health.
+	headSpiritualHealth = 88666.0
+	#Multiplier on spiritual-health damage the head takes (Tensura SPIRITUAL_HURT_EVENT; 0 = immune).
+	spiritualDamageMult = 0.15
+	#Multiplier on armour durability loss from Leviathan hits (vanilla = damage/4 per piece; 1.0 = vanilla).
+	armorDamageMult = 0.0
+	#Percent of max HP healed on each submerge. Submerges trigger at 75/50/25% HP.
+	submergeHealPercent = 15.0
+	#Only initiates attacks on targets with at least this max EP.
+	targetEpGate = 400000.0
+	#Multiplier on every special-ability hit (whip, slam, bolt, wave, pressure/undertow dps, depth charge, coil, maw); the Bite uses headDamage unscaled.
+	abilityDamageMult = 1.8
+	#Fraction of CURRENT magicule and aura the Abyssal Maw drains from everyone inside its 12-block pull on the bite tick.
+	mawDrainFraction = 0.5
+	#Body-contact damage from a moving segment.
+	segmentContactDamage = 80.0
+	#Maelstrom damage per second.
+	maelstromDps = 88.0
+	#Coil Lock radius (blocks).
+	coilRadius = 5.0
+	#Value applied to every Tensura *_DEGRADATION attribute on the head (law, resistance, physical + 9 elements).
+	degradationLevel = 2.5
+	#Tensura bypass levels stamped on every Leviathan damage source (0 = off). Resistance: >=1.0 bypasses Resistance skills, >=2.0 bypasses Nullification skills (Anti-Skill still blocks unless barrier >=3.0). Barrier: 1.0 Reflector, 1.5 Guardian, 1.75 Pride/Instant Regen, 2.0 Infinity Prison/Falsifier/shield block, 3.0 Anti-Skill/Tuner. The *_DEGRADATION attributes are capped at 1.0 by Tensura and only ever grant resistance level 1.0.
+	resistanceBypassLevel = 3.0
+	barrierBypassLevel = 3.0

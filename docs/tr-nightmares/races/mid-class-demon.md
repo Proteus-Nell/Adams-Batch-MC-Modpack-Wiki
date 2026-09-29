@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:mid_class_demon` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 14,000 |

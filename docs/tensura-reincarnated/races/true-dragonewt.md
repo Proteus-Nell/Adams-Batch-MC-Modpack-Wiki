@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:true_dragonewt` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 600,000 - 600,000 |

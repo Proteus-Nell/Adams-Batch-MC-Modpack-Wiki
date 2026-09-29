@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:royal_demon` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 200,000 - 450,000 |

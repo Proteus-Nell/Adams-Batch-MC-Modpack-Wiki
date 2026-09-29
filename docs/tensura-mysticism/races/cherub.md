@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:cherub` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 205,000 - 215,000 |
@@ -24,7 +25,7 @@
 ## Evolution
 
 - **Evolves from:** [Arch Angel](arch-angel.md), [Lesser Angel](lesser-angel.md), [Greater Angel](greater-angel.md)
-- **Evolves into:** [Seraph](seraph.md)
+- **Evolves into:** [Seraph](seraph.md), [Divine Tengu](divine-tengu.md)
 - **Default evolution:** [Seraph](seraph.md)
 - **On awakening (True Demon Lord / True Hero):** [Seraph](seraph.md)
 

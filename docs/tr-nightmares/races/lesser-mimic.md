@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lesser_mimic` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Alignment** | Default |
 
 </div>

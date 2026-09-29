@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:death_tyrant` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 300 - 300 |

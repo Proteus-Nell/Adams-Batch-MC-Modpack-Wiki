@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:ghoul` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 1,000 - 2,000 |

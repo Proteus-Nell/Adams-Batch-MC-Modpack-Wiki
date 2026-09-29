@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:ninetail` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 170,000 - 300,000 |
@@ -26,6 +27,7 @@
 - **Evolves from:** [Ninehead](ninehead.md)
 - **Evolves into:** [Soul Beast](soul-beast.md)
 - **Default evolution:** [Soul Beast](soul-beast.md)
+- **During the Harvest Festival:** [Soul Beast](soul-beast.md)
 
 ### Requirements to evolve into Ninetail
 

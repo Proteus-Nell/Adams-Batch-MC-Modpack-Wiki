@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:restricted_human` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 1,520 - 2,280 |

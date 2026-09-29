@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:three_tail_fox` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |

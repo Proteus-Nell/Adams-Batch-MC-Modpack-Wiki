@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lower_class_demon` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 2,000 - 6,000 |

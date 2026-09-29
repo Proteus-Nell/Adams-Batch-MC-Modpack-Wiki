@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:fallen_cherub` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 165,000 - 170,000 |

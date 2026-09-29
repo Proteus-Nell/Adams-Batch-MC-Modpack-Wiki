@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:demon_knight` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 45,000 - 95,000 |

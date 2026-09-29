@@ -5417,7 +5417,17 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodfiendRace",
     "difficulty": "Intermediate",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:elder_bloodfiend"
+     ],
+     "default": [
+      "tensuramoreskills:elder_bloodfiend"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:elder_bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5605,7 +5615,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.ElderBloodfiendRace",
     "difficulty": "Intermediate",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "default": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "previous": [
+      "tensuramoreskills:bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5793,7 +5816,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodNobleRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "default": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "previous": [
+      "tensuramoreskills:elder_bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5981,7 +6017,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodMonarchRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "default": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "previous": [
+      "tensuramoreskills:blood_noble"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -6169,7 +6218,11 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.CrimsonProgenitorRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "previous": [
+      "tensuramoreskills:blood_monarch"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",

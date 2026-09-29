@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:frog` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

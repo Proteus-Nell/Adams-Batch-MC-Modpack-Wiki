@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:enlightened_ogre` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 100,000 - 100,000 |

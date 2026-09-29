@@ -7,9 +7,9 @@
 	magiculeCost = 120.0
 	#Magicule cost for the charged (mastered, held-longer) cast.
 	magiculeCostCharged = 200.0
-	#Cooldown in ticks.
+	#Cooldown in seconds.
 	cooldown = 0
-	#Cooldown in ticks when mastered.
+	#Cooldown in seconds when mastered.
 	cooldownMastered = 0
 	#Magic damage dealt to the first target (decays each hop).
 	baseDamage = 20.0
@@ -35,6 +35,8 @@
 	slowDuration = 30
 	#Slowness amplifier (0-indexed; 2 = Slowness III).
 	slowAmplifier = 2
+	#If true the arc also chains onto players in the caster's own nation or hunt party. The deliberately-aimed first target is never filtered.
+	friendlyFire = false
 
 [Kamehameha]
 	#Cast (charge) time in ticks (20 = 1s).
@@ -99,5 +101,5 @@
 	pullStrength = 0.15
 	#Max distance (blocks) at which the well can be anchored along the caster's aim.
 	castRange = 24.0
-	#If true the well also pulls and crushes players in the caster's own nation.
+	#If true the well also pulls and crushes players in the caster's own nation or hunt party.
 	friendlyFire = false

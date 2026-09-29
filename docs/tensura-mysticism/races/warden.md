@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:warden` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 35,000 - 35,000 |

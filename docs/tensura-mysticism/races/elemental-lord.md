@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:elemental_lord` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500,000 - 500,000 |

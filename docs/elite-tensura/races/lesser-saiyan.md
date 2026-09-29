@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `elitetensura:lesser_saiyan` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Default |
 | **Aura** | 2,000 - 3,000 |

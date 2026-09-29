@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:void_dragonewt` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 6,000 |

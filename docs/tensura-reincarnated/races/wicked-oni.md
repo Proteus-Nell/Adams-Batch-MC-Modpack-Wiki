@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:wicked_oni` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 40,000 - 100,000 |

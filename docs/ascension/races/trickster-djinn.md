@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:trickster_djinn` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

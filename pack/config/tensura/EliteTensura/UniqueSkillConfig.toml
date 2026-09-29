@@ -1,0 +1,160 @@
+[VoidEdge]
+	mpAcquirement = 8000.0
+	cloakAuraDrainPerTick = 2.0
+	cloakConcealmentLevel = 1
+	cloakConcealmentLevelMastered = 3
+	cloakDodgeBonus = 10.0
+	cloakChantSpeedMultiplier = 1.4
+	voidEdgeMagiculeCost = 800.0
+	voidEdgeDamage = 25.0
+	voidEdgeDamageMastered = 50.0
+	voidEdgeSize = 1.0
+	voidEdgeSizeMastered = 1.4
+	voidEdgeDuration = 60
+	voidEdgeDurationMastered = 90
+	voidEdgeCooldownSeconds = 4
+	voidEdgeCooldownMasteredSeconds = 3
+
+[Hecate]
+	#In-slot passive: multiplier applied to every spell's magicule cost (0.0 = floored to free/minimum). Blacklisted spells (see costFloorBlacklist) keep their normal cost.
+	inSlotCostMultiplier = 0.1
+	#Spell registry IDs excluded from the in-slot cost floor (kept at full cost).
+	costFloorBlacklist = ["tensura:reincarnation"]
+	#Magicule drained per tick while the toggle is active.
+	magiculeCostPerTick = 50.0
+	#Bonus learning gain (ADD_VALUE) while toggled.
+	learningPoint = 1.0
+	#Bonus mastery gain (ADD_VALUE) while toggled.
+	masteryPoint = 1.0
+	#In-slot passive: flat bonus to learning-point gain for Magic (spells) only, always active while Hecate is slotted (stacks with the toggle's learningPoint bonus).
+	passiveLearningBonus = 1.0
+	#In-slot passive: flat bonus to mastery-point gain for Magic (spells) only, always active while Hecate is slotted (stacks with the toggle's masteryPoint bonus).
+	passiveMasteryBonus = 1.0
+	#Flat bonus damage added to all spell (magic) damage while toggled.
+	spellDamageBonus = 30.0
+	#Flat bonus spell damage while toggled, when Hecate is mastered.
+	spellDamageBonusMastered = 75.0
+
+[Brain]
+	#Log Brain's per-evaluation AI decisions to the server console/log (skills toggled, skills pressed, magic buckets, cast attempts and why a cast did/didn't fire). Off by default — turn on to diagnose why a mob isn't using its abilities.
+	debug = false
+	#Number of skill-tick passes between Brain evaluations. ManasCore ticks passive skills every 100 game ticks (~5 seconds), so 1 = evaluate every ~5s (default), 2 = ~10s, etc. This is NOT in game ticks — the native passive-tick cadence is the floor.
+	evalInterval = 1
+	#Health fraction (0-1) below which the mob is treated as hurt: prioritises recovery magic and enables pressing active skills defensively.
+	lowHealthFraction = 0.5
+
+[Stillness]
+	#Master enable. When false the skill can never be acquired.
+	enabled = true
+	#Max EP required to evolve Meditation into Stillness.
+	epAcquirement = 50000.0
+	#Total boss kills required (Tensura bossesCounter bosses + world calamities).
+	bossKillsRequired = 3
+	#Magicule drained per tick while Serenity is toggled on.
+	magiculeCost = 30.0
+	#Aura/magicule/SHP regeneration added while Serenity is active (Meditation is 0.5).
+	regenRate = 1.0
+	#Serenity regeneration when mastered.
+	regenRateMastered = 1.5
+	#Inner Calm: percent of MAX magicule and aura restored instantly (0-100).
+	restorePercent = 25.0
+	#Inner Calm restore percent when mastered.
+	restorePercentMastered = 40.0
+	#Inner Calm cooldown in SECONDS.
+	calmCooldownSeconds = 300
+	#Inner Calm cooldown in SECONDS when mastered.
+	calmCooldownMasteredSeconds = 180
+
+[FortunesEye]
+	#Master enable. When false the skill can never be acquired.
+	enabled = true
+	#Max EP required to evolve Scavenger into Fortune's Eye.
+	epAcquirement = 100000.0
+	#Total boss kills required (Tensura bossesCounter bosses + world calamities).
+	bossKillsRequired = 5
+	#Passive Luck amplifier (2 = Luck III, 0-indexed). Scavenger's passive is Luck II.
+	baseLuckAmplifier = 2
+	#Passive Luck amplifier when mastered (3 = Luck IV).
+	masteredLuckAmplifier = 3
+	#Loot Sense: radius in blocks that dropped items are revealed in.
+	senseRadius = 24.0
+	#Loot Sense radius when mastered.
+	senseRadiusMastered = 40.0
+	#Loot Sense: how long revealed items glow, in ticks.
+	senseDurationTicks = 200
+	#Loot Sense cooldown in SECONDS.
+	senseCooldownSeconds = 60
+	#Loot Sense cooldown in SECONDS when mastered.
+	senseCooldownMasteredSeconds = 30
+	#Loot Sense magicule cost per press.
+	senseMagiculeCost = 100.0
+
+[Unbreakable]
+	#Master enable. When false the skill can never be acquired.
+	enabled = true
+	#Max EP required to evolve Iron Resolve into Unbreakable.
+	epAcquirement = 150000.0
+	#Total boss kills required (Tensura bossesCounter bosses + world calamities).
+	bossKillsRequired = 8
+	#Vein Sense Haste amplifier (9 = Haste 10, 0-indexed).
+	hasteAmplifier = 9
+	#Iron Aegis: maximum incoming-damage reduction percent at full magicule (Iron Resolve caps at 40).
+	aegisMaxReduction = 50.0
+	#Resolute Surge magicule cost per activation.
+	surgeMagiculeCost = 2000.0
+	#Resolute Surge Strength amplifier (3 = Strength IV, 0-indexed).
+	surgeStrengthAmplifier = 3
+	#Resolute Surge duration in ticks.
+	surgeDurationTicks = 6000
+	#Resolute Surge duration in ticks when mastered.
+	surgeDurationMasteredTicks = 12000
+	#Resolute Surge cooldown in SECONDS.
+	surgeCooldownSeconds = 360
+	#Resolute Surge cooldown in SECONDS when mastered. Deliberately longer: duration doubles too (6000→12000t), holding uptime at ~83% — mastery buys fewer activations, not more uptime.
+	surgeCooldownMasteredSeconds = 720
+	#Undying Will: percent of max health restored when a fatal hit is cheated (0-100).
+	undyingSurviveHealthPct = 10.0
+	#Undying Will: full-immunity duration in ticks after triggering (Resistance V).
+	undyingImmunityTicks = 60
+	#Undying Will internal cooldown in SECONDS.
+	undyingCooldownSeconds = 600
+	#Undying Will internal cooldown in SECONDS when mastered.
+	undyingCooldownMasteredSeconds = 360
+
+[ElderSoul]
+	#Master enable. When false the skill can never be acquired.
+	enabled = true
+	#Max EP required to evolve Ancient Soul into Elder Soul.
+	epAcquirement = 100000.0
+	#Total boss kills required (Tensura bossesCounter bosses + world calamities).
+	bossKillsRequired = 5
+	#Magicule drained per tick while the aura is toggled on (Ancient Soul is 2).
+	magiculeDrainPerTick = 4.0
+	#Ally-buff aura radius in blocks (Ancient Soul is 25).
+	buffRadius = 40.0
+	#Ally-buff aura radius when mastered.
+	buffRadiusMastered = 50.0
+	#Soul Sight ESP radius in blocks for the holder (covers the mastered aura).
+	soulSightRadius = 50.0
+	#Aura Strength amplifier (2 = Strength III).
+	strengthAmplifier = 2
+	#Aura Regeneration amplifier (2 = Regeneration III).
+	regenAmplifier = 2
+	#Aura Resistance amplifier (1 = Resistance II; Ancient Soul gives I).
+	resistanceAmplifier = 1
+	#Duration in ticks of each aura effect application. Keep >= 100: ManasCore refreshes toggle skills every 100 game ticks.
+	effectDurationTicks = 120
+	#Revealing Presence: glow lease per sweep = this + revealLingerTicks (sweeps run every 100-tick skill tick).
+	refreshIntervalTicks = 120
+	#Revealing Presence: ticks an enemy keeps glowing after leaving the aura.
+	revealLingerTicks = 40
+
+[CrocodileSkin]
+	#Is this Skill Enabled? When false it can never be acquired.
+	IsEnabled = true
+	#Max EP at which the armour becomes Pure Magisteel (below: High Magisteel).
+	epTierPureMagisteel = 100000.0
+	#Max EP at which the armour becomes Adamantite.
+	epTierAdamantite = 500000.0
+	#Max EP at which the armour becomes Hihiirokane.
+	epTierHihiirokane = 900000.0

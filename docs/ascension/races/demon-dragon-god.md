@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:demon_dragon_god` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 6,000 |

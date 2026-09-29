@@ -1,0 +1,228 @@
+[AetherforgedSpear]
+	#Master toggle for the Piercing Vector active.
+	enabled = true
+	#Aura cost on release.
+	auraCost = 300.0
+	#Magicule cost on release.
+	magiculeCost = 300.0
+	#Cooldown in game ticks (160 = 8s).
+	cooldown = 160
+	#Hold ticks for a full charge (30 = 1.5s).
+	fullChargeTicks = 30
+	#Minimum hold ticks before release fires at all (10 = 0.5s).
+	minChargeTicks = 10
+	#Damage = ATTACK_DAMAGE * factor, scaled min->max by charge fraction.
+	minDamageFactor = 1.5
+	maxDamageFactor = 3.0
+	#Forward lunge velocity scale at full charge.
+	lungeStrength = 1.6
+	#Hit-scan reach of the released thrust, in blocks.
+	strikeRange = 6.0
+	#If true, Piercing Vector also hits players in the user's own nation or hunt party.
+	friendlyFire = false
+
+[AetherforgedKatana]
+	#Master toggle for the Phase Cut active.
+	enabled = true
+	#Aura cost when arming the cut.
+	auraCost = 250.0
+	#Magicule cost when arming the cut.
+	magiculeCost = 250.0
+	#Cooldown in game ticks (200 = 10s), starts when armed.
+	cooldown = 200
+	#Window in game ticks during which the next hit phases (100 = 5s).
+	windowTicks = 100
+	#Bonus phase damage = ATTACK_DAMAGE * this factor, dealt armor-bypassing.
+	bonusFactor = 0.5
+
+[AetherforgedWarHammer]
+	#Master toggle for the Crushing Impact active.
+	enabled = true
+	#Aura cost per slam.
+	auraCost = 400.0
+	#Magicule cost per slam.
+	magiculeCost = 400.0
+	#Cooldown in game ticks (240 = 12s).
+	cooldown = 240
+	#AoE radius in blocks around the player.
+	radius = 4.0
+	#Damage = ATTACK_DAMAGE * this factor.
+	damageFactor = 1.2
+	#Upward knock velocity applied to victims.
+	knockup = 0.6
+	#Slowness duration in ticks (60 = 3s).
+	slownessTicks = 60
+	#Slowness amplifier (1 = Slowness II).
+	slownessAmplifier = 1
+	#If true, Crushing Impact also hits players in the user's own nation or hunt party.
+	friendlyFire = false
+
+[AetherforgedGauntlets]
+	#Master toggle for the Aether Burst active.
+	enabled = true
+	#Aura cost per burst.
+	auraCost = 200.0
+	#Magicule cost per burst.
+	magiculeCost = 200.0
+	#Cooldown in game ticks (160 = 8s).
+	cooldown = 160
+	#Shockwave radius in blocks.
+	radius = 3.5
+	#Damage = ATTACK_DAMAGE * this factor.
+	damageFactor = 0.8
+	#Outward horizontal knockback strength.
+	knockbackStrength = 1.5
+	#Upward knockback component.
+	knockbackUp = 0.4
+	#If true, Aether Burst also hits players in the user's own nation or hunt party.
+	friendlyFire = false
+
+[VoidEdgeWeapon]
+	#Master toggle for all three Void Edge weapon abilities.
+	enabled = true
+	#Whether Void Edge abilities announce via Voice of the World.
+	useVoiceOfTheWorld = false
+	#Spatial Cut: damage = ATTACK_DAMAGE * this factor + flat.
+	spatialDamageFactor = 1.5
+	spatialDamageFlat = 30.0
+	#Spatial Cut: line length in blocks (passes through walls).
+	spatialRange = 24.0
+	#Spatial Cut: hit radius around each point of the line.
+	spatialRadius = 1.5
+	#Spatial Cut: cooldown in ticks.
+	spatialCooldown = 40
+	#Spatial Cut: aura cost.
+	spatialAuraCost = 200.0
+	#Spatial Cut: magicule cost.
+	spatialMagiculeCost = 200.0
+	#Teleport Slash: max target range in blocks.
+	teleportRange = 20.0
+	#Teleport Slash: damage = ATTACK_DAMAGE * factor + flat.
+	teleportDamageFactor = 1.5
+	teleportDamageFlat = 40.0
+	#Teleport Slash: damage multiplier when the target carries a Dimensional Mark.
+	teleportMarkBonus = 1.5
+	#Teleport Slash: invulnerability frames (ticks) granted on arrival.
+	teleportInvulnTicks = 15
+	#Teleport Slash: delay (ticks) before the follow-up slash lands.
+	teleportSlashDelay = 5
+	#Teleport Slash: cooldown in ticks.
+	teleportCooldown = 80
+	#Teleport Slash: aura cost.
+	teleportAuraCost = 300.0
+	#Teleport Slash: magicule cost.
+	teleportMagiculeCost = 100.0
+	#Reality Fracture: damage = ATTACK_DAMAGE * factor + flat.
+	fractureDamageFactor = 2.0
+	fractureDamageFlat = 80.0
+	#Reality Fracture: AOE radius in blocks.
+	fractureRadius = 6.0
+	#Reality Fracture: max cast range when targeting a look point.
+	fractureCastRange = 20.0
+	#Reality Fracture: cooldown in ticks.
+	fractureCooldown = 600
+	#Reality Fracture: magicule cost.
+	fractureMagiculeCost = 3000.0
+	#Reality Fracture: aura cost.
+	fractureAuraCost = 3000.0
+	#Fractured Reality debuff duration (ticks) applied to caught targets.
+	fractureDebuffDuration = 200
+	#Fractured Reality debuff amplifier (0 = level I).
+	fractureDebuffAmplifier = 1
+	#Fractured Reality: Void damage dealt per second, scaled by (amplifier+1).
+	fractureTickDamage = 8.0
+	#Fractured Reality: incoming-damage multiplier on afflicted targets.
+	fractureDamageTakenMultiplier = 1.25
+	#Fractured Reality: movement-speed modifier (negative = slow), ADD_MULTIPLIED_TOTAL.
+	fractureSlow = -0.3
+	#Dimensional Mark duration (ticks) applied by Spatial Cut.
+	markDuration = 120
+	#Combo window (ticks) linking Spatial -> Teleport -> Fracture.
+	comboWindow = 100
+	#Reality Fracture radius multiplier when chained from a recent Teleport Slash.
+	comboRadiusBonus = 1.5
+	#Reality Fracture damage multiplier when the full resonance combo lands.
+	resonanceDamageBonus = 1.5
+	#If true, Spatial Cut and Reality Fracture also hit players in the wielder's own nation or hunt party.
+	friendlyFire = false
+
+[AstralEdgeWeapon]
+	#Master toggle for all three Astral Edge weapon abilities.
+	enabled = true
+	#Whether Astral Edge abilities announce via Voice of the World.
+	useVoiceOfTheWorld = false
+	#Starlight Lance: damage = ATTACK_DAMAGE * this factor + flat.
+	lanceDamageFactor = 1.5
+	lanceDamageFlat = 30.0
+	#Starlight Lance: line length in blocks (passes through walls).
+	lanceRange = 24.0
+	#Starlight Lance: hit radius around each point of the line.
+	lanceRadius = 1.5
+	#Starlight Lance: cooldown in ticks.
+	lanceCooldown = 40
+	#Starlight Lance: aura cost.
+	lanceAuraCost = 200.0
+	#Starlight Lance: magicule cost.
+	lanceMagiculeCost = 200.0
+	#Starlight Lance: damage multiplier when purging void effects (Dimensional Mark / Fractured Reality) off a target.
+	purgeBonus = 1.5
+	#Astral Step: max target range in blocks.
+	stepRange = 20.0
+	#Astral Step: damage = ATTACK_DAMAGE * factor + flat.
+	stepDamageFactor = 1.5
+	stepDamageFlat = 40.0
+	#Astral Step: damage multiplier when the target carries a Celestial Mark.
+	stepMarkBonus = 1.5
+	#Astral Step: invulnerability frames (ticks) granted on arrival.
+	stepInvulnTicks = 15
+	#Astral Step: delay (ticks) before the follow-up slash lands.
+	stepSlashDelay = 5
+	#Astral Step: Absorption duration (ticks) granted to the wielder on arrival.
+	stepAbsorptionDuration = 100
+	#Astral Step: Absorption amplifier (0 = level I).
+	stepAbsorptionAmplifier = 1
+	#Astral Step: cooldown in ticks.
+	stepCooldown = 80
+	#Astral Step: aura cost.
+	stepAuraCost = 300.0
+	#Astral Step: magicule cost.
+	stepMagiculeCost = 100.0
+	#Creation's Dawn: damage = ATTACK_DAMAGE * factor + flat.
+	dawnDamageFactor = 2.0
+	dawnDamageFlat = 80.0
+	#Creation's Dawn: AOE radius in blocks.
+	dawnRadius = 6.0
+	#Creation's Dawn: max cast range when targeting a look point.
+	dawnCastRange = 20.0
+	#Creation's Dawn: flat healing granted to the wielder and allies in the radius.
+	dawnHealAmount = 40.0
+	#Creation's Dawn: Regeneration duration (ticks) granted to the wielder and allies.
+	dawnRegenDuration = 200
+	#Creation's Dawn: Regeneration amplifier (0 = level I).
+	dawnRegenAmplifier = 1
+	#Creation's Dawn: cooldown in ticks.
+	dawnCooldown = 600
+	#Creation's Dawn: magicule cost.
+	dawnMagiculeCost = 3000.0
+	#Creation's Dawn: aura cost.
+	dawnAuraCost = 3000.0
+	#Starlight Judgment debuff duration (ticks) applied to caught targets.
+	dawnDebuffDuration = 200
+	#Starlight Judgment debuff amplifier (0 = level I).
+	dawnDebuffAmplifier = 1
+	#Starlight Judgment: Celestial damage dealt per second, scaled by (amplifier+1).
+	judgmentTickDamage = 8.0
+	#Starlight Judgment: incoming-damage multiplier on afflicted targets.
+	judgmentDamageTakenMultiplier = 1.25
+	#Starlight Judgment: attack-damage modifier (negative = weaker), ADD_MULTIPLIED_TOTAL.
+	judgmentAttackDown = -0.3
+	#Celestial Mark duration (ticks) applied by Starlight Lance.
+	markDuration = 120
+	#Combo window (ticks) linking Lance -> Step -> Dawn.
+	comboWindow = 100
+	#Creation's Dawn radius multiplier when chained from a recent Astral Step.
+	comboRadiusBonus = 1.5
+	#Creation's Dawn damage multiplier when the full resonance combo lands.
+	resonanceDamageBonus = 1.5
+	#If true, Starlight Lance hits nation/hunt-party members, and Creation's Dawn damages them instead of healing them.
+	friendlyFire = false

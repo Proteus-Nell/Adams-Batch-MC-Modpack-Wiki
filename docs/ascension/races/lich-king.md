@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:lich_king` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 100 - 500 |

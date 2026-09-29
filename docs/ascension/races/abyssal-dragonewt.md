@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:abyssal_dragonewt` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 6,000 |

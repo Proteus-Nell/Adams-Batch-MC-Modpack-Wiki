@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:salamander` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 1,500 |

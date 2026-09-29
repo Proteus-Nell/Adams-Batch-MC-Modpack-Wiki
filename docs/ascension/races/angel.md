@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:angel` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Holy |
 | **Aura** | 300 - 600 |

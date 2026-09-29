@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:giant_king` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 50,000 - 100,000 |

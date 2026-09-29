@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:brother_of_chaos` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 600,000 - 1,200,000 |

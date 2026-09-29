@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:insect` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,000 - 2,000 |
@@ -22,7 +23,7 @@
 
 ## Evolution
 
-This race has no evolutions.
+- **Evolves into:** [Ant](ant.md), [Beetle](beetle.md), [Centipede](centipede.md), [Mantis](mantis.md), [Scorpion](scorpion.md), [Wasp](wasp.md), [Yellow Centipede](yellow-centipede.md)
 
 ## Attribute modifiers
 

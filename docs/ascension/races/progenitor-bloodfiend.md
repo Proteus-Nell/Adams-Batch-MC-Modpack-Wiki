@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:progenitor_bloodfiend` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

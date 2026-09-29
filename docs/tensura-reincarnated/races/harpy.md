@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:harpy` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 300 - 600 |

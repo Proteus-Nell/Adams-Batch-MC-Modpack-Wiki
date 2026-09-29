@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:soul_aberration` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 400,000 - 400,000 |

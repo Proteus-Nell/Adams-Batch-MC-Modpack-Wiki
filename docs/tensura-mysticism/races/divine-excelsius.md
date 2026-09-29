@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:divine_excelsius` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Holy |
 | **Aura** | 1,000,000 - 1,000,000 |

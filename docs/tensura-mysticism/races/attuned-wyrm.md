@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:attuned_wyrm` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 1,000 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:enforcer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Chaos |
 | **Aura** | 100,000 - 1,000,000 |

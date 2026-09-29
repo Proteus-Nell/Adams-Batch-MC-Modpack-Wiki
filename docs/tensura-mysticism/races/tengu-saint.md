@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:tengu_saint` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 800,000 - 900,000 |

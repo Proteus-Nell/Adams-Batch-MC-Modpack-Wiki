@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:dragonewt` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 6,000 - 6,000 |
@@ -23,7 +24,7 @@
 ## Evolution
 
 - **Evolves from:** [Lizardman](lizardman.md)
-- **Evolves into:** [True Dragonewt](true-dragonewt.md)
+- **Evolves into:** [True Dragonewt](true-dragonewt.md), [Corrupted Dragonkin](../../ascension/races/corrupted-dragonkin.md), [Ender Dragonewt](../../ascension/races/ender-dragonewt.md)
 - **Default evolution:** [True Dragonewt](true-dragonewt.md)
 - **On awakening (True Demon Lord / True Hero):** [True Dragonewt](true-dragonewt.md)
 

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:amped_guitar_wolf` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 125,000 - 125,000 |

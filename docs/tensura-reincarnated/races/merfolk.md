@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:merfolk` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 400 - 600 |

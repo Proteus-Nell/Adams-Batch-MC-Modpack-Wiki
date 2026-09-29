@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:lesser_daemon` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 2,000 - 3,000 |

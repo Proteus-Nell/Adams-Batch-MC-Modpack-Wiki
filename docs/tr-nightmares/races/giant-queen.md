@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:giant_queen` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 1,250,000 - 2,500,000 |

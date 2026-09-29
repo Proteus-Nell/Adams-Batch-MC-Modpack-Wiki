@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:mystic_angel` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Chaos |
 | **Aura** | 1,100,000 - 1,150,000 |

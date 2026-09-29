@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:revenant` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 500,000 - 500,000 |

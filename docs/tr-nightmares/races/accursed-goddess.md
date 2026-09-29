@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:accursed_goddess` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 750,000 - 1,500,000 |

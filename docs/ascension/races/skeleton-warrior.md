@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:skeleton_warrior` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 100 - 500 |

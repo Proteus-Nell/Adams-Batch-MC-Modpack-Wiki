@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:empty` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 200,000 - 200,000 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:hobgoblin` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 1,400 - 1,400 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:perfect_doppelganger` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Alignment** | Default |
 
 </div>

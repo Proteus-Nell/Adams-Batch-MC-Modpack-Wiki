@@ -2,78 +2,88 @@
 
 <small>[Tensura: Reincarnated](../index.md)</small>
 
-Tensura: Reincarnated adds **68** races. Starting races can be chosen or rolled when you reincarnate; the rest are reached by evolving.
+Tensura: Reincarnated adds **68** races: **13** starting, **42** in-between and **13** final.
 
-| Race | Difficulty | Alignment | Evolves into |
-|---|---|---|---|
-| [Ancient Giant](ancient-giant.md) | Easy | Majin | [Divine Giant](divine-giant.md) |
-| [Arch Daemon](arch-daemon.md) | Easy | Majin | [Daemon Lord](daemon-lord.md) |
-| [Beast Lord](beast-lord.md) | Easy | Default | [Spirit Beast](spirit-beast.md) |
-| [Beastfolk](beastfolk.md) | Easy | Default | [Beast Lord](beast-lord.md) |
-| [Daemon Lord](daemon-lord.md) | Easy | Majin | [Devil Lord](devil-lord.md) |
-| [Death Oni](death-oni.md) | Easy | Majin | [Divine Oni](divine-oni.md), [Divine Fighter](divine-fighter.md) |
-| [Demon Slime](demon-slime.md) | Easy | Majin | [God Slime](god-slime.md) |
-| [Devil Lord](devil-lord.md) | Easy | Majin |  |
-| [Divine Beast](divine-beast.md) | Easy | Holy |  |
-| [Divine Bird](divine-bird.md) | Easy | Majin |  |
-| [Divine Boar](divine-boar.md) | Easy | Holy |  |
-| [Divine Dragon](divine-dragon.md) | Easy | Holy |  |
-| [Divine Dwarf](divine-dwarf.md) | Easy | Holy |  |
-| [Divine Elf](divine-elf.md) | Easy | Holy |  |
-| [Divine Fighter](divine-fighter.md) | Easy | Majin |  |
-| [Divine Fish](divine-fish.md) | Easy | Holy |  |
-| [Divine Giant](divine-giant.md) | Easy | Majin |  |
-| [Divine Human](divine-human.md) | Easy | Holy |  |
-| [Divine Oni](divine-oni.md) | Easy | Holy |  |
-| [Divine Skeleton](divine-skeleton.md) | Easy | Majin |  |
-| [Divine Vampire](divine-vampire.md) | Easy | Majin |  |
-| [Dragonewt](dragonewt.md) | Easy | Default | [True Dragonewt](true-dragonewt.md) |
-| [Dwarf](dwarf.md) | Hard | Default | [Enlightened Dwarf](enlightened-dwarf.md) |
-| [Dwarf Saint](dwarf-saint.md) | Easy | Holy | [Divine Dwarf](divine-dwarf.md) |
-| [Elf](elf.md) | Hard | Default | [Enlightened Elf](enlightened-elf.md) |
-| [Elf Saint](elf-saint.md) | Easy | Holy | [Divine Elf](divine-elf.md) |
-| [Enlightened Dwarf](enlightened-dwarf.md) | Easy | Default | [Dwarf Saint](dwarf-saint.md) |
-| [Enlightened Elf](enlightened-elf.md) | Easy | Default | [Elf Saint](elf-saint.md) |
-| [Enlightened Hobgoblin](enlightened-hobgoblin.md) | Easy | Default | [Hobgoblin Saint](hobgoblin-saint.md) |
-| [Enlightened Human](enlightened-human.md) | Easy | Default | [Human Saint](human-saint.md) |
-| [Enlightened Merfolk](enlightened-merfolk.md) | Easy | Default | [Merfolk Saint](merfolk-saint.md) |
-| [Enlightened Ogre](enlightened-ogre.md) | Easy | Default | [Mystic Oni](mystic-oni.md), [Wicked Oni](wicked-oni.md) |
-| [Ghoul](ghoul.md) | Hard | Majin | [Vampire](vampire.md) |
-| [Giant](giant.md) | Easy | Majin | [Ancient Giant](ancient-giant.md) |
-| [Goblin](goblin.md) | Hard | Default | [Hobgoblin](hobgoblin.md) |
-| [God Slime](god-slime.md) | Easy | Majin |  |
-| [Greater Daemon](greater-daemon.md) | Easy | Majin | [Arch Daemon](arch-daemon.md) |
-| [Harpy](harpy.md) | Easy | Majin | [Harpy Queen](harpy-queen.md) |
-| [Harpy Queen](harpy-queen.md) | Easy | Majin | [Spirit Bird](spirit-bird.md) |
-| [High Orc](high-orc.md) | Easy | Default | [Spirit Boar](spirit-boar.md), [Orc Lord](orc-lord.md) |
-| [Hobgoblin](hobgoblin.md) | Easy | Default | [Enlightened Hobgoblin](enlightened-hobgoblin.md), [Ogre](ogre.md) |
-| [Hobgoblin Saint](hobgoblin-saint.md) | Easy | Holy | [Divine Oni](divine-oni.md) |
-| [Human](human.md) | Hard | Default | [Enlightened Human](enlightened-human.md), [Vampire](vampire.md) |
-| [Human Saint](human-saint.md) | Easy | Holy | [Divine Human](divine-human.md) |
-| [Kijin](kijin.md) | Easy | Default | [Mystic Oni](mystic-oni.md), [Wicked Oni](wicked-oni.md) |
-| [Lesser Daemon](lesser-daemon.md) | Intermediate | Majin | [Greater Daemon](greater-daemon.md) |
-| [Lizardman](lizardman.md) | Hard | Default | [Dragonewt](dragonewt.md) |
-| [Merfolk](merfolk.md) | Hard | Default | [Enlightened Merfolk](enlightened-merfolk.md) |
-| [Merfolk Saint](merfolk-saint.md) | Easy | Holy | [Divine Fish](divine-fish.md) |
-| [Metal Slime](metal-slime.md) | Easy | Majin | [Demon Slime](demon-slime.md) |
-| [Mystic Oni](mystic-oni.md) | Easy | Default | [Spirit Oni](spirit-oni.md) |
-| [Ogre](ogre.md) | Easy | Default | [Enlightened Ogre](enlightened-ogre.md), [Kijin](kijin.md) |
-| [Orc](orc.md) | Intermediate | Default | [High Orc](high-orc.md) |
-| [Orc Disaster](orc-disaster.md) | Easy | Majin | [Spirit Boar](spirit-boar.md) |
-| [Orc Lord](orc-lord.md) | Easy | Majin | [Orc Disaster](orc-disaster.md) |
-| [Slime](slime.md) | Extreme | Majin | [Demon Slime](demon-slime.md), [Metal Slime](metal-slime.md) |
-| [Spirit Beast](spirit-beast.md) | Easy | Holy | [Divine Beast](divine-beast.md) |
-| [Spirit Bird](spirit-bird.md) | Easy | Majin | [Divine Bird](divine-bird.md) |
-| [Spirit Boar](spirit-boar.md) | Easy | Holy | [Divine Boar](divine-boar.md) |
-| [Spirit Oni](spirit-oni.md) | Easy | Holy | [Divine Oni](divine-oni.md) |
-| [Spirit Skeleton](spirit-skeleton.md) | Easy | Majin | [Divine Skeleton](divine-skeleton.md) |
-| [True Dragonewt](true-dragonewt.md) | Easy | Holy | [Divine Dragon](divine-dragon.md) |
-| [Vampire](vampire.md) | Easy | Majin | [Vampire Overcomer](vampire-overcomer.md) |
-| [Vampire Lord](vampire-lord.md) | Easy | Majin | [Divine Vampire](divine-vampire.md) |
-| [Vampire Overcomer](vampire-overcomer.md) | Easy | Majin | [Vampire Lord](vampire-lord.md) |
-| [Wicked Oni](wicked-oni.md) | Easy | Majin | [Death Oni](death-oni.md) |
-| [Wight](wight.md) | Hard | Majin | [Human](human.md), [Wight King](wight-king.md) |
-| [Wight King](wight-king.md) | Easy | Majin | [Spirit Skeleton](spirit-skeleton.md) |
+- **Starting:** the first race of its evolution line. Nothing evolves into it, so you get it by reincarnating into it or through a special item, skill or event.
+- **In-between:** reached by evolving, and can evolve further.
+- **Final:** the last step of its line. It does not evolve any further.
+
+Races that link to other mods' races (for example an addon race that evolves from a Tensura race) are placed using the whole pack's evolution trees.
+
+<div class="filter-table" data-filter="Stage" data-order="Starting,In-between,Final" markdown>
+
+| Race | Stage | Difficulty | Alignment | Evolves from | Evolves into |
+|---|---|---|---|---|---|
+| [Ancient Giant](ancient-giant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Giant](giant.md) | [Divine Giant](divine-giant.md) |
+| [Arch Daemon](arch-daemon.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lesser Daemon](lesser-daemon.md), [Greater Daemon](greater-daemon.md) | [Daemon Lord](daemon-lord.md) |
+| [Beast Lord](beast-lord.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Beastfolk](beastfolk.md) | [Spirit Beast](spirit-beast.md) |
+| [Beastfolk](beastfolk.md) | <span class="stage stage-starting">Starting</span> | Easy | Default |  | [Beast Lord](beast-lord.md), [Spirit Beast](spirit-beast.md) |
+| [Daemon Lord](daemon-lord.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Arch Daemon](arch-daemon.md) | [Devil Lord](devil-lord.md) |
+| [Death Oni](death-oni.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wicked Oni](wicked-oni.md) | [Divine Oni](divine-oni.md), [Divine Fighter](divine-fighter.md) |
+| [Demon Slime](demon-slime.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Slime](slime.md), [Metal Slime](metal-slime.md) | [God Slime](god-slime.md) |
+| [Devil Lord](devil-lord.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Daemon Lord](daemon-lord.md) |  |
+| [Divine Beast](divine-beast.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Spirit Beast](spirit-beast.md) |  |
+| [Divine Bird](divine-bird.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Spirit Bird](spirit-bird.md) |  |
+| [Divine Boar](divine-boar.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Spirit Boar](spirit-boar.md) |  |
+| [Divine Dragon](divine-dragon.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [True Dragonewt](true-dragonewt.md) |  |
+| [Divine Dwarf](divine-dwarf.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Dwarf Saint](dwarf-saint.md) |  |
+| [Divine Elf](divine-elf.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Elf Saint](elf-saint.md) |  |
+| [Divine Fighter](divine-fighter.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Death Oni](death-oni.md) |  |
+| [Divine Fish](divine-fish.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Merfolk Saint](merfolk-saint.md) |  |
+| [Divine Giant](divine-giant.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Ancient Giant](ancient-giant.md) |  |
+| [Divine Human](divine-human.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Human Saint](human-saint.md) |  |
+| [Divine Oni](divine-oni.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Spirit Oni](spirit-oni.md), [Death Oni](death-oni.md), [Hobgoblin Saint](hobgoblin-saint.md) |  |
+| [Divine Skeleton](divine-skeleton.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Spirit Skeleton](spirit-skeleton.md) | [Wight King](wight-king.md) |
+| [Divine Vampire](divine-vampire.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Vampire Lord](vampire-lord.md) | [Vampire](vampire.md) |
+| [Dragonewt](dragonewt.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Lizardman](lizardman.md) | [True Dragonewt](true-dragonewt.md), [Corrupted Dragonkin](../../ascension/races/corrupted-dragonkin.md), [Ender Dragonewt](../../ascension/races/ender-dragonewt.md) |
+| [Dwarf](dwarf.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Enlightened Dwarf](enlightened-dwarf.md), [Dwarf Saint](dwarf-saint.md) |
+| [Dwarf Saint](dwarf-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Dwarf](dwarf.md), [Enlightened Dwarf](enlightened-dwarf.md) | [Divine Dwarf](divine-dwarf.md) |
+| [Elf](elf.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Enlightened Elf](enlightened-elf.md), [Elf Saint](elf-saint.md) |
+| [Elf Saint](elf-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Elf](elf.md), [Enlightened Elf](enlightened-elf.md) | [Divine Elf](divine-elf.md) |
+| [Enlightened Dwarf](enlightened-dwarf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Dwarf](dwarf.md) | [Dwarf Saint](dwarf-saint.md) |
+| [Enlightened Elf](enlightened-elf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Elf](elf.md) | [Elf Saint](elf-saint.md) |
+| [Enlightened Hobgoblin](enlightened-hobgoblin.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Hobgoblin](hobgoblin.md) | [Hobgoblin Saint](hobgoblin-saint.md) |
+| [Enlightened Human](enlightened-human.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Human](human.md) | [Human Saint](human-saint.md) |
+| [Enlightened Merfolk](enlightened-merfolk.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Merfolk](merfolk.md) | [Merfolk Saint](merfolk-saint.md) |
+| [Enlightened Ogre](enlightened-ogre.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Ogre](ogre.md) | [Mystic Oni](mystic-oni.md), [Wicked Oni](wicked-oni.md), [Spirit Oni](spirit-oni.md) |
+| [Ghoul](ghoul.md) | <span class="stage stage-starting">Starting</span> | Hard | Majin |  | [Vampire](vampire.md), [Vampire Lord](vampire-lord.md) |
+| [Giant](giant.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Ancient Giant](ancient-giant.md) |
+| [Goblin](goblin.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Hobgoblin](hobgoblin.md), [Hobgoblin Saint](hobgoblin-saint.md) |
+| [God Slime](god-slime.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Demon Slime](demon-slime.md) |  |
+| [Greater Daemon](greater-daemon.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lesser Daemon](lesser-daemon.md) | [Arch Daemon](arch-daemon.md), [Greater Doll](../../tensura-mysticism/races/greater-doll.md) |
+| [Harpy](harpy.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Harpy Queen](harpy-queen.md), [Spirit Bird](spirit-bird.md) |
+| [Harpy Queen](harpy-queen.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Harpy](harpy.md), [Angel](../../ascension/races/angel.md), [Archangel](../../ascension/races/archangel.md) | [Spirit Bird](spirit-bird.md) |
+| [High Orc](high-orc.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Orc](orc.md) | [Spirit Boar](spirit-boar.md), [Orc Lord](orc-lord.md) |
+| [Hobgoblin](hobgoblin.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Goblin](goblin.md) | [Enlightened Hobgoblin](enlightened-hobgoblin.md), [Ogre](ogre.md), [Hobgoblin Saint](hobgoblin-saint.md) |
+| [Hobgoblin Saint](hobgoblin-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Goblin](goblin.md), [Hobgoblin](hobgoblin.md), [Enlightened Hobgoblin](enlightened-hobgoblin.md) | [Divine Oni](divine-oni.md) |
+| [Human](human.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Wight](wight.md) | [Enlightened Human](enlightened-human.md), [Vampire](vampire.md), [Human Saint](human-saint.md) |
+| [Human Saint](human-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Human](human.md), [Enlightened Human](enlightened-human.md) | [Divine Human](divine-human.md) |
+| [Kijin](kijin.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Ogre](ogre.md) | [Mystic Oni](mystic-oni.md), [Wicked Oni](wicked-oni.md), [Spirit Oni](spirit-oni.md) |
+| [Lesser Daemon](lesser-daemon.md) | <span class="stage stage-starting">Starting</span> | Intermediate | Majin |  | [Greater Daemon](greater-daemon.md), [Arch Daemon](arch-daemon.md) |
+| [Lizardman](lizardman.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Dragonewt](dragonewt.md), [True Dragonewt](true-dragonewt.md) |
+| [Merfolk](merfolk.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Enlightened Merfolk](enlightened-merfolk.md), [Merfolk Saint](merfolk-saint.md) |
+| [Merfolk Saint](merfolk-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Merfolk](merfolk.md), [Enlightened Merfolk](enlightened-merfolk.md) | [Divine Fish](divine-fish.md) |
+| [Metal Slime](metal-slime.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Slime](slime.md) | [Demon Slime](demon-slime.md) |
+| [Mystic Oni](mystic-oni.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Kijin](kijin.md), [Enlightened Ogre](enlightened-ogre.md) | [Spirit Oni](spirit-oni.md) |
+| [Ogre](ogre.md) | <span class="stage stage-in-between">In-between</span> | Easy | Default | [Hobgoblin](hobgoblin.md) | [Enlightened Ogre](enlightened-ogre.md), [Kijin](kijin.md), [Spirit Oni](spirit-oni.md) |
+| [Orc](orc.md) | <span class="stage stage-starting">Starting</span> | Intermediate | Default |  | [High Orc](high-orc.md), [Spirit Boar](spirit-boar.md) |
+| [Orc Disaster](orc-disaster.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Orc Lord](orc-lord.md) | [Spirit Boar](spirit-boar.md) |
+| [Orc Lord](orc-lord.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [High Orc](high-orc.md) | [Orc Disaster](orc-disaster.md), [Spirit Boar](spirit-boar.md) |
+| [Slime](slime.md) | <span class="stage stage-starting">Starting</span> | Extreme | Majin |  | [Demon Slime](demon-slime.md), [Metal Slime](metal-slime.md) |
+| [Spirit Beast](spirit-beast.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Beastfolk](beastfolk.md), [Beast Lord](beast-lord.md) | [Divine Beast](divine-beast.md) |
+| [Spirit Bird](spirit-bird.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Harpy](harpy.md), [Harpy Queen](harpy-queen.md), [Angel](../../ascension/races/angel.md), [Archangel](../../ascension/races/archangel.md) | [Divine Bird](divine-bird.md) |
+| [Spirit Boar](spirit-boar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Orc](orc.md), [High Orc](high-orc.md), [Orc Disaster](orc-disaster.md), [Orc Lord](orc-lord.md) | [Divine Boar](divine-boar.md) |
+| [Spirit Oni](spirit-oni.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Ogre](ogre.md), [Kijin](kijin.md), [Enlightened Ogre](enlightened-ogre.md), [Mystic Oni](mystic-oni.md), [Wicked Oni](wicked-oni.md) | [Divine Oni](divine-oni.md) |
+| [Spirit Skeleton](spirit-skeleton.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wight](wight.md), [Wight King](wight-king.md) | [Divine Skeleton](divine-skeleton.md), [Wight King](wight-king.md) |
+| [True Dragonewt](true-dragonewt.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Lizardman](lizardman.md), [Dragonewt](dragonewt.md) | [Divine Dragon](divine-dragon.md) |
+| [Vampire](vampire.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Human](human.md), [Ghoul](ghoul.md), [Vampire Overcomer](vampire-overcomer.md), [Vampire Lord](vampire-lord.md), [Divine Vampire](divine-vampire.md) | [Vampire Overcomer](vampire-overcomer.md), [Vampire Lord](vampire-lord.md) |
+| [Vampire Lord](vampire-lord.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Ghoul](ghoul.md), [Vampire](vampire.md), [Vampire Overcomer](vampire-overcomer.md) | [Divine Vampire](divine-vampire.md), [Vampire](vampire.md) |
+| [Vampire Overcomer](vampire-overcomer.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Vampire](vampire.md) | [Vampire Lord](vampire-lord.md), [Vampire](vampire.md) |
+| [Wicked Oni](wicked-oni.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Kijin](kijin.md), [Enlightened Ogre](enlightened-ogre.md) | [Death Oni](death-oni.md), [Spirit Oni](spirit-oni.md) |
+| [Wight](wight.md) | <span class="stage stage-starting">Starting</span> | Hard | Majin |  | [Human](human.md), [Wight King](wight-king.md), [Spirit Skeleton](spirit-skeleton.md), [Cursed Mariner](../../ascension/races/cursed-mariner.md), [Zombie](../../ascension/races/zombie.md) |
+| [Wight King](wight-king.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wight](wight.md), [Spirit Skeleton](spirit-skeleton.md), [Divine Skeleton](divine-skeleton.md) | [Spirit Skeleton](spirit-skeleton.md) |
+
+</div>
 
 ## Evolution trees
 

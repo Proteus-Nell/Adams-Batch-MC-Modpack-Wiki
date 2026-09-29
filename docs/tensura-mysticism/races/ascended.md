@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:ascended` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Holy |
 | **Aura** | 500,000 - 500,000 |

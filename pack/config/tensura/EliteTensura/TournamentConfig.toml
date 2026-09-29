@@ -1,0 +1,35 @@
+[Tournament]
+	#Master switch — no gamerule: tournaments only run when an admin schedules one
+	enabled = true
+	#Default signup cap when the schedule command gives none (hard cap 32)
+	maxPlayers = 16
+	#Seconds a match may run before the damage-dealt tiebreak decides it
+	matchTimeCapSeconds = 300
+	#Blocks from the arena anchor a fighter may stray before the boundary grace countdown starts
+	arenaRadius = 24
+	#Blocks from the anchor each fighter is placed at match start (opposing sides)
+	spawnDistance = 8
+	#Seconds a fighter has to return inside the arena before forfeiting
+	boundaryGraceSeconds = 5
+	#Seconds of pre-match countdown before fighter-vs-fighter damage is allowed
+	preMatchCountdownSeconds = 5
+	#Seconds between one match ending and the next starting
+	betweenMatchSeconds = 20
+	#Seconds a dead fighter has to respawn at match start before their opponent walks over
+	respawnGraceSeconds = 30
+	#Nation season-ladder points banked for the champion's nation (0 = none)
+	nationLadderPoints = 50
+	#Post the scheduled and champion announcements to the Discord world-event webhook
+	announceDiscord = true
+	#Nation-format squad size when the schedule command gives none
+	squadSizeDefault = 3
+
+[Wagers]
+	#Champion wager pool during signups (needs Ultimate Banking System installed)
+	enabled = true
+	#Minimum single bet, whole dollars
+	minBet = 100
+	#Maximum total stake per bettor, whole dollars
+	maxBet = 100000
+	#Percent of the losing stakes kept by the house (central bank reserve) at settlement
+	houseCutPercent = 10.0

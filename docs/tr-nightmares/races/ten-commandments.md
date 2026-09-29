@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:ten_commandments` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 150,000 - 320,000 |

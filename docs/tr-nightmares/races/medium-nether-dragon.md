@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:medium_nether_dragon` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 62,000 - 115,000 |
@@ -24,6 +25,7 @@
 - **Evolves from:** [Lesser Nether Dragon](lesser-nether-dragon.md)
 - **Evolves into:** [Scrap Dragon](scrap-dragon.md)
 - **Default evolution:** [Scrap Dragon](scrap-dragon.md)
+- **During the Harvest Festival:** [Scrap Dragon](scrap-dragon.md)
 
 ### Requirements to evolve into Medium Nether Dragon
 
@@ -47,64 +49,74 @@ flowchart LR
   r6["Divine Gehenna Dragon"]
   r7["Divine Heavenly Dragon"]
   r8["Divine Netherite Dragon"]
-  r9["Divine Void Dragon"]
-  r10["Dragon Lord"]
-  r11["Element Dragon"]
-  r12["Ender Dragon Prince"]
-  r13["Gehenna Dragon"]
-  r14["Heavenly Dragon"]
-  r15["Lesser Daemonic Dragon"]
-  r16["Lesser Dragon"]
-  r17["Lesser Ender Dragon"]
-  r18["Lesser Holy Dragon"]
-  r19["Lesser Nether Dragon"]
-  r20["Lesser Zombie Dragon"]
-  r21["Medium Daemonic Dragon"]
-  r22["Medium Dragon"]
-  r23["Medium Ender Dragon"]
-  r24["Medium Holy Dragon"]
-  r25["Medium Nether Dragon"]
-  r26["Medium Zombie Dragon"]
-  r27["Netherite Dragon"]
-  r28["Saint Dragon"]
-  r29["Scrap Dragon"]
-  r30["Void Dragon"]
+  r9["Divine Vampiric Dragon Lord"]
+  r10["Divine Void Dragon"]
+  r11["Dragon Lord"]
+  r12["Element Dragon"]
+  r13["Ender Dragon Prince"]
+  r14["Gehenna Dragon"]
+  r15["Greater Thrall Dragon"]
+  r16["Heavenly Dragon"]
+  r17["Lesser Daemonic Dragon"]
+  r18["Lesser Dragon"]
+  r19["Lesser Ender Dragon"]
+  r20["Lesser Holy Dragon"]
+  r21["Lesser Nether Dragon"]
+  r22["Lesser Thrall Dragon"]
+  r23["Lesser Zombie Dragon"]
+  r24["Medium Daemonic Dragon"]
+  r25["Medium Dragon"]
+  r26["Medium Ender Dragon"]
+  r27["Medium Holy Dragon"]
+  r28["Medium Nether Dragon"]
+  r29["Medium Zombie Dragon"]
+  r30["Netherite Dragon"]
+  r31["Saint Dragon"]
+  r32["Scrap Dragon"]
+  r33["Vampiric Dragon"]
+  r34["Vampiric Dragon Lord"]
+  r35["Void Dragon"]
   r0 --> r2
   r1 --> r3
-  r1 --> r10
   r1 --> r11
+  r1 --> r12
   r2 --> r4
-  r3 --> r13
+  r3 --> r14
   r5 --> r6
-  r10 --> r5
-  r10 --> r13
-  r11 --> r3
-  r11 --> r10
-  r12 --> r30
-  r13 --> r6
-  r14 --> r7
-  r15 --> r21
-  r16 --> r15
-  r16 --> r17
-  r16 --> r18
-  r16 --> r19
-  r16 --> r20
-  r16 --> r22
-  r17 --> r23
-  r18 --> r24
-  r19 --> r25
-  r20 --> r26
-  r21 --> r0
-  r22 --> r1
-  r22 --> r26
-  r23 --> r12
-  r24 --> r28
+  r11 --> r5
+  r11 --> r14
+  r12 --> r3
+  r12 --> r11
+  r13 --> r35
+  r14 --> r6
+  r15 --> r33
+  r16 --> r7
+  r17 --> r24
+  r18 --> r17
+  r18 --> r19
+  r18 --> r20
+  r18 --> r21
+  r18 --> r22
+  r18 --> r23
+  r18 --> r25
+  r19 --> r26
+  r20 --> r27
+  r21 --> r28
+  r22 --> r15
+  r23 --> r29
+  r24 --> r0
+  r25 --> r1
   r25 --> r29
-  r26 --> r3
-  r27 --> r8
-  r28 --> r14
-  r29 --> r27
-  r30 --> r9
+  r26 --> r13
+  r27 --> r31
+  r28 --> r32
+  r29 --> r3
+  r30 --> r8
+  r31 --> r16
+  r32 --> r30
+  r33 --> r34
+  r34 --> r9
+  r35 --> r10
 ```
 
 ## Intrinsic skills

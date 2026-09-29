@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:enlightened_merfolk` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 140,000 - 140,000 |

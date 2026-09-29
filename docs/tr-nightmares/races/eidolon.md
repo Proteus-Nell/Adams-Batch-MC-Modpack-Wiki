@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:eidolon` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Alignment** | Default |
 
 </div>

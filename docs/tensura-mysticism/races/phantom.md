@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:phantom` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 2,500 - 3,500 |

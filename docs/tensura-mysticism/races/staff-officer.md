@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:staff_officer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Chaos |
 | **Aura** | 455,000 - 460,000 |

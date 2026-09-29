@@ -149,7 +149,7 @@
 	upkeepMaxDebtPeriods = 7
 	#Pay the nation treasury interest on a positive balance. Requires 'enabled' and Ultimate Banking System — the payout is injected into UBS's own savings-interest tick, so nation treasuries and member savings accrue together.
 	treasuryInterestEnabled = true
-	#Interest rate on the nation treasury, as a percent per 365 payouts. One payout happens per UBS savings-interest tick (its SavingsInterestIntervalTicks, default 24000 = one Minecraft day), so at defaults this is 1.8% per 365 Minecraft days, NOT per real year — lowering SavingsInterestIntervalTicks multiplies the real yield. Only nations with a member online at that tick are paid; a treasury at or below zero earns nothing and debt never compounds. Sub-cent yield is dropped, so a balance below about 10139 cents earns nothing.
+	#Interest rate on the nation treasury, as a percent per 365 payouts. One payout happens per UBS savings-interest tick (its SavingsInterestIntervalTicks, default 24000 = one Minecraft day), so at defaults this is 1.8% per 365 Minecraft days, NOT per real year — lowering SavingsInterestIntervalTicks multiplies the real yield. Paid only to nations with a member active within the current or previous upkeepPeriodHours window (same activity signal as upkeep, not an instant online check); a treasury at or below zero earns nothing and debt never compounds. Sub-cent yield is dropped, so a balance below about 10139 cents earns nothing.
 	treasuryInterestApyPercent = 1.8
 
 [Missions]
@@ -191,6 +191,12 @@
 	minBountyCents = 5000
 	#Bounty announcements: BROADCAST (server-wide), SILENT (board only), BROADCAST_AND_DM (server-wide plus a direct warning to the target). Unknown values fall back to BROADCAST. Note: switching the economy off with cash bounties open evaporates their escrow, same as cash contracts.
 	bountyVisibility = "BROADCAST"
+	#Allow any player (in a nation or not) to post contracts and bounties funded from their OWN bank and inventory. Nation-funded rows are unaffected. Requires 'enabled'.
+	personalEnabled = true
+	#Maximum simultaneously open personal contracts per player.
+	maxOpenPerPlayer = 3
+	#Allow FORGED (quality-gated) commission contracts. Off = posting denied; already-open commissions stay fulfillable.
+	forgedCommissionsEnabled = true
 
 [Perks]
 	#spawner_overclock: extra effective nation levels for the spawner unlock gate and mob cap.
@@ -207,5 +213,119 @@
 	defenderKillPointBonus = 0.5
 	#magicule_attunement: fraction of max magicule and aura restored per pulse while inside the nation's own claim (0.01 = 1%).
 	attunementRestoreFraction = 0.01
-	#magicule_attunement: ticks between restore pulses (200 = 10s).
+	#magicule_attunement: ticks between restore pulses (400 = 20s).
 	attunementIntervalTicks = 200
+
+[Core]
+	#Master switch for the Nation Core block (placement, aura, siege).
+	enabled = true
+	#Core hit points.
+	maxHp = 5000.0
+	#Aura radius in chunks (Chebyshev) around the core; the member must also stand in own-nation claims.
+	auraRadiusChunks = 8
+	#Aura: additive bonus to tensura magicule/aura regeneration multiplier (0.10 = +10%).
+	auraRegenBonus = 0.1
+	#Aura: flat bonus to generic.armor while inside the aura.
+	auraArmorBonus = 4.0
+	#Siege: attacker ATTACK_DAMAGE attribute is multiplied by this per hit.
+	damageScale = 1.0
+	#Siege: per-player ticks between counted hits.
+	hitCooldownTicks = 10
+	#Siege: cap on total core damage per tick as a fraction of maxHp (multi-hit weapons).
+	maxDamagePerTickPct = 0.02
+	#War score awarded to the attacking side when the core falls.
+	fallWarPoints = 200
+	#Nation season-ladder points awarded to the attacking nation when the core falls.
+	fallSeasonPoints = 25
+	#At war resolution, extra percentage of the loser's treasury moved to the winner if the loser's core fell (0-100).
+	spoilsPercent = 10.0
+	#Repair cost in cents per missing HP (economy active).
+	repairCentsPerHp = 100
+	#When the nation economy is inactive, repair is free.
+	repairFreeWithoutEconomy = true
+	#Boss bar radius in blocks around a core under siege.
+	bossBarRadius = 32
+	#Upgrade cost per tier in whole dollars; entry 1 is the placed tier (ignored). Entry count = tier count. Blank = one tier, no upgrades. DEFAULT: 0,500000,1500000,3000000
+	tierCostDollars = "0,500000,1500000,3000000"
+	#Core HP per tier; fallback maxHp. DEFAULT: 5000,8000,12000,16000
+	tierMaxHp = "5000,8000,12000,16000"
+	#Aura radius in chunks per tier; fallback auraRadiusChunks. DEFAULT: 8,10,12,14
+	tierAuraRadiusChunks = "8,10,12,14"
+	#Aura regen bonus per tier; fallback auraRegenBonus. DEFAULT: 0.10,0.15,0.20,0.25
+	tierAuraRegenBonus = "0.10,0.15,0.20,0.25"
+	#Aura armor bonus per tier; fallback auraArmorBonus. DEFAULT: 4,6,8,10
+	tierAuraArmorBonus = "4,6,8,10"
+	#War score for toppling the core, per tier; fallback fallWarPoints. DEFAULT: 200,300,400,500
+	tierFallWarPoints = "200,300,400,500"
+	#A core that falls in war drops one tier (never below 1). DEFAULT: true
+	fallDropsTier = true
+
+[Wonders]
+	#Master switch for Nation Wonders.
+	enabled = true
+	#Fraction (0-1) of the CURRENT stage's paid cash refunded on cancel. Deposited items are never refunded.
+	cancelRefundPercent = 0.5
+	#Nation season-ladder points awarded when a wonder completes.
+	seasonPoints = 50
+	#Joint Wonders: allied nations may be invited into a build as partners. false PAUSES invites/joins and partner payments/deposits; existing partners are kept and still receive the wonder.
+	jointEnabled = true
+	#Joint Wonders: maximum partner nations per build (the lead is not counted).
+	maxPartners = 2
+	#grand_forge: extra crit-upgrade chance on forge quality rolls for members.
+	forgeCritBonus = 0.05
+	#aether_spire: multiplier on the Nation Core aura radius (chunks) and aura regen bonus.
+	spireAuraMultiplier = 2.0
+	#war_academy: multiplier bonus on war kill points (0.15 = +15%).
+	warPointBonus = 0.15
+	#hall_of_records: extra active synergy slots for members.
+	synergySlotBonus = 1
+	#hall_of_records: ADD_MULTIPLIED_BASE bonus to tensura magicule_gain and aura_gain.
+	epGainBonus = 0.05
+	#sanctum_of_the_world (unique): ADD_VALUE bonus to magicule/aura regeneration multiplier for EVERY online player.
+	sanctumRegen = 0.05
+	#eternal_beacon (unique): fraction of damage from calamity bosses (BOSS_TAG) removed for everyone.
+	beaconDamageReduction = 0.1
+
+[Personal]
+	#Enable personal perks for players not in a founded nation (bought from their own bank).
+	perksEnabled = true
+	#Enable personal missions for players not in a founded nation.
+	missionsEnabled = true
+	#Personal missions rolled per cycle (shares the nation mission cycle period).
+	missionsPerCycle = 2
+	#Crate id given per completed personal mission (blank = none).
+	missionCrateId = "common"
+	#Crate id given when every personal mission of the cycle is complete (blank = none).
+	cycleClearCrateId = "rare"
+	#Announce personal mission completions to the player (Voice of the World notice).
+	announceCompletions = true
+
+[Doctrines]
+	#Master switch. Off: no doctrine effects, command and Codex block hidden. DEFAULT: true
+	enabled = true
+	#Nation level required to choose a doctrine. DEFAULT: 3
+	unlockLevel = 3
+	#Treasury fee in whole dollars to switch doctrine (first pick is free; free when the economy is off). DEFAULT: 1000000
+	switchCostDollars = 1000000
+	#Days a nation is locked to its doctrine after choosing it. DEFAULT: 14
+	switchLockDays = 14
+	#Militarist: war kill-point bonus (0.25 = +25%). DEFAULT: 0.25
+	militaristKillPointBonus = 0.25
+	#Militarist: upkeep penalty (0.25 = +25%). DEFAULT: 0.25
+	militaristUpkeepPenalty = 0.25
+	#Mercantile: treasury interest bonus (0.5 = +50%). DEFAULT: 0.5
+	mercantileInterestBonus = 0.5
+	#Mercantile: territory income bonus (0.15 = +15%). DEFAULT: 0.15
+	mercantileIncomeBonus = 0.15
+	#Mercantile: war kill-point penalty (0.25 = -25%). DEFAULT: 0.25
+	mercantileKillPointPenalty = 0.25
+	#Arcane: multiplier on the Core aura's regen and armor bonuses. DEFAULT: 1.5
+	arcaneAuraMultiplier = 1.5
+	#Arcane: nation spawner mob-cap penalty (0.25 = -25%). DEFAULT: 0.25
+	arcaneSpawnerCapPenalty = 0.25
+	#Builder: discount on wonder stage cash (0.2 = -20%). DEFAULT: 0.2
+	builderWonderDiscount = 0.2
+	#Builder: territory income penalty (0.2 = -20%). DEFAULT: 0.2
+	builderIncomePenalty = 0.2
+	#Draw-weight multiplier for missions matching the doctrine's metrics. DEFAULT: 2
+	missionWeightMultiplier = 2

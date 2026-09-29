@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:lesser_angel` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 5,500 - 6,500 |

@@ -95,3 +95,110 @@
 .md-typeset h2 {
   clear: none;
 }
+
+/* Filterable tables (races) */
+.md-typeset .filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1em 0 0.6em;
+}
+.md-typeset .filter-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-right: 0.1rem;
+}
+.md-typeset .filter-chip {
+  font: inherit;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  transition: background-color 125ms, border-color 125ms, color 125ms;
+}
+.md-typeset .filter-chip:hover {
+  border-color: var(--md-accent-fg-color);
+}
+.md-typeset .filter-chip[aria-pressed="true"] {
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+.md-typeset .filter-chip:focus-visible,
+.md-typeset .filter-search:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.md-typeset .filter-chip-count {
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .filter-search {
+  font: inherit;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.6rem;
+  flex: 1 1 10rem;
+  max-width: 16rem;
+  min-width: 8rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+.md-typeset .filter-count {
+  margin-left: auto;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .filter-empty {
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Race stage badges */
+.md-typeset .stage {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 0 0.5em;
+  border-radius: 0.8em;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+.md-typeset .stage-starting {
+  color: #1b6b3a;
+  background: #dff3e6;
+  border-color: #a8dcb9;
+}
+.md-typeset .stage-in-between {
+  color: #7a5200;
+  background: #fbefd2;
+  border-color: #eed08a;
+}
+.md-typeset .stage-final {
+  color: #7d1f3f;
+  background: #f8e0e8;
+  border-color: #e7a9be;
+}
+[data-md-color-scheme="slate"] .md-typeset .stage-starting {
+  color: #9be0b3;
+  background: #173424;
+  border-color: #2d6343;
+}
+[data-md-color-scheme="slate"] .md-typeset .stage-in-between {
+  color: #f0cf82;
+  background: #3a2e12;
+  border-color: #6b5520;
+}
+[data-md-color-scheme="slate"] .md-typeset .stage-final {
+  color: #f2a9c0;
+  background: #3b1a26;
+  border-color: #6e3147;
+}

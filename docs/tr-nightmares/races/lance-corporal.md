@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lance_corporal` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 375,000 - 750,000 |

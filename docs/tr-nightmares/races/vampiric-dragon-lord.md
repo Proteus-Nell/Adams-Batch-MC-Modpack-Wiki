@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:vampiric_dragon_lord` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 320,000 - 620,000 |
@@ -23,7 +24,104 @@
 
 ## Evolution
 
-This race has no evolutions.
+- **Evolves from:** [Vampiric Dragon](vampiric-dragon.md)
+- **Evolves into:** [Divine Vampiric Dragon Lord](divine-vampiric-dragon-lord.md)
+- **Default evolution:** [Divine Vampiric Dragon Lord](divine-vampiric-dragon-lord.md)
+- **On awakening (True Demon Lord / True Hero):** [Divine Vampiric Dragon Lord](divine-vampiric-dragon-lord.md)
+- **During the Harvest Festival:** [Divine Vampiric Dragon Lord](divine-vampiric-dragon-lord.md)
+
+### Requirements to evolve into Vampiric Dragon Lord
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of ep requirement | 100% |
+| Reach Existence Points of ep requirement | 5% |
+| Consume blood requirement of [Zane Blood](../../tensura-reincarnated/items/miscellaneous/zane-blood.md) | 50% |
+
+### Evolution tree
+
+```mermaid
+flowchart LR
+  r0["Arch Daemonic Dragon"]
+  r1["Arch Dragon"]
+  r2["Daemonic Dragon Lord"]
+  r3["Death Dragon"]
+  r4["Devil Dragon Lord"]
+  r5["Divine Dragon Lord"]
+  r6["Divine Gehenna Dragon"]
+  r7["Divine Heavenly Dragon"]
+  r8["Divine Netherite Dragon"]
+  r9["Divine Vampiric Dragon Lord"]
+  r10["Divine Void Dragon"]
+  r11["Dragon Lord"]
+  r12["Element Dragon"]
+  r13["Ender Dragon Prince"]
+  r14["Gehenna Dragon"]
+  r15["Greater Thrall Dragon"]
+  r16["Heavenly Dragon"]
+  r17["Lesser Daemonic Dragon"]
+  r18["Lesser Dragon"]
+  r19["Lesser Ender Dragon"]
+  r20["Lesser Holy Dragon"]
+  r21["Lesser Nether Dragon"]
+  r22["Lesser Thrall Dragon"]
+  r23["Lesser Zombie Dragon"]
+  r24["Medium Daemonic Dragon"]
+  r25["Medium Dragon"]
+  r26["Medium Ender Dragon"]
+  r27["Medium Holy Dragon"]
+  r28["Medium Nether Dragon"]
+  r29["Medium Zombie Dragon"]
+  r30["Netherite Dragon"]
+  r31["Saint Dragon"]
+  r32["Scrap Dragon"]
+  r33["Vampiric Dragon"]
+  r34["Vampiric Dragon Lord"]
+  r35["Void Dragon"]
+  r0 --> r2
+  r1 --> r3
+  r1 --> r11
+  r1 --> r12
+  r2 --> r4
+  r3 --> r14
+  r5 --> r6
+  r11 --> r5
+  r11 --> r14
+  r12 --> r3
+  r12 --> r11
+  r13 --> r35
+  r14 --> r6
+  r15 --> r33
+  r16 --> r7
+  r17 --> r24
+  r18 --> r17
+  r18 --> r19
+  r18 --> r20
+  r18 --> r21
+  r18 --> r22
+  r18 --> r23
+  r18 --> r25
+  r19 --> r26
+  r20 --> r27
+  r21 --> r28
+  r22 --> r15
+  r23 --> r29
+  r24 --> r0
+  r25 --> r1
+  r25 --> r29
+  r26 --> r13
+  r27 --> r31
+  r28 --> r32
+  r29 --> r3
+  r30 --> r8
+  r31 --> r16
+  r32 --> r30
+  r33 --> r34
+  r34 --> r9
+  r35 --> r10
+```
 
 ## Intrinsic skills
 

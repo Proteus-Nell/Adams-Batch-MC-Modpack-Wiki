@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:myrddin` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Chaos |
 | **Aura** | 500,000 - 2,000,000 |

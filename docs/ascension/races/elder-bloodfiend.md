@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:elder_bloodfiend` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

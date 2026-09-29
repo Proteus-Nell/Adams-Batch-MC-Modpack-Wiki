@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:salamander_fire_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 500 - 500 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:salamander_assassin` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 500 |

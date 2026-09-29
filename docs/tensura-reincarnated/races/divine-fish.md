@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:divine_fish` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 1,000,000 - 1,000,000 |

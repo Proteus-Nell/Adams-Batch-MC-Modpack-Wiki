@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensuramoreskills:parasite` |
+| **Stage** | <span class="stage stage-starting">Starting</span> / <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 

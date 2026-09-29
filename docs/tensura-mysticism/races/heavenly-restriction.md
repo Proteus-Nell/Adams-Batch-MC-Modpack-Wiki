@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:heavenly_restriction` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 2,000,000 - 2,000,000 |

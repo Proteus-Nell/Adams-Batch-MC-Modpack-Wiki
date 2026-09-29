@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:direwolf` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,834 - 2,166 |

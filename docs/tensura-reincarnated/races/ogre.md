@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:ogre` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |

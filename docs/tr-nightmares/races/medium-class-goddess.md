@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:medium_class_goddess` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 40,000 - 80,000 |

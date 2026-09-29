@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensuramoreskills:blood_noble` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 700,000 - 950,000 |
@@ -23,7 +24,36 @@
 
 ## Evolution
 
-This race has no evolutions.
+- **Evolves from:** [Elder Bloodfiend](elder-bloodfiend.md)
+- **Evolves into:** [Blood Monarch](blood-monarch.md)
+- **Default evolution:** [Blood Monarch](blood-monarch.md)
+- **During the Harvest Festival:** [Blood Monarch](blood-monarch.md)
+
+### Requirements to evolve into Blood Noble
+
+Each requirement adds its weight to the evolution progress bar; you can evolve at 100%.
+
+| Requirement | Weight |
+|---|---|
+| Reach Existence Points of ep requirement | 45% |
+| Kill boss requirement bosses | 20% |
+| Blood | 20% |
+| Thrall | 15% |
+
+### Evolution tree
+
+```mermaid
+flowchart LR
+  r0["Blood Monarch"]
+  r1["Blood Noble"]
+  r2["Bloodfiend"]
+  r3["Crimson Progenitor"]
+  r4["Elder Bloodfiend"]
+  r0 --> r3
+  r1 --> r0
+  r2 --> r4
+  r4 --> r1
+```
 
 ## Intrinsic skills
 

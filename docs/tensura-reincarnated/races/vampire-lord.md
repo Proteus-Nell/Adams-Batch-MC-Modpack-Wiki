@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:vampire_lord` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 250,000 - 250,000 |

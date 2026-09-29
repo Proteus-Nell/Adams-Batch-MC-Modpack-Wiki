@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:field_officer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 15,000 - 25,000 |

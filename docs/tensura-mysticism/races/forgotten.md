@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:forgotten` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 100 - 600 |

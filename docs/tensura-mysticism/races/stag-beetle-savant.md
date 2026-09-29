@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:stag_beetle_savant` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 400,000 - 400,000 |

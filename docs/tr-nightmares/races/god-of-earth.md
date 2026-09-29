@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:god_of_earth` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 375,000 - 750,000 |

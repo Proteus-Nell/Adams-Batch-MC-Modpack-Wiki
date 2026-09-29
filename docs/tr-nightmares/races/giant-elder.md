@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:giant_elder` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 24,000 - 48,000 |

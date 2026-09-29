@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:gazer` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 300 - 300 |

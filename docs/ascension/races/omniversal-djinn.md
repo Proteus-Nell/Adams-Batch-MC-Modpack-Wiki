@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:omniversal_djinn` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Holy |
 

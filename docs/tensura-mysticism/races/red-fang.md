@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:red_fang` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 5,250 - 5,250 |

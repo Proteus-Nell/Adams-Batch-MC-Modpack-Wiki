@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:majin_lord` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 400,000 - 400,000 |

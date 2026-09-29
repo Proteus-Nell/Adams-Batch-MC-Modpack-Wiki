@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:greater_chimera` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 8,000 - 15,000 |

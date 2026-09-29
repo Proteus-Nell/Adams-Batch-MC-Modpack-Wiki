@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:greater_daemon` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 10,000 - 20,000 |
@@ -24,7 +25,7 @@
 ## Evolution
 
 - **Evolves from:** [Lesser Daemon](lesser-daemon.md)
-- **Evolves into:** [Arch Daemon](arch-daemon.md)
+- **Evolves into:** [Arch Daemon](arch-daemon.md), [Greater Doll](../../tensura-mysticism/races/greater-doll.md)
 - **Default evolution:** [Arch Daemon](arch-daemon.md)
 - **On awakening (True Demon Lord / True Hero):** [Arch Daemon](arch-daemon.md)
 - **During the Harvest Festival:** [Arch Daemon](arch-daemon.md)

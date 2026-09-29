@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:sundeity_loong` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 600,000 - 600,000 |

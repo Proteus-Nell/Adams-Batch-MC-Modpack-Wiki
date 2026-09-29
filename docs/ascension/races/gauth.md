@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:gauth` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 300 - 300 |

@@ -51,3 +51,53 @@
 	declareLevelGapPenalty = 0.25
 	#Log war evaluation to the server log.
 	debug = false
+	#Server kill switch for the FTB Chunks map war overlay: enemy claim tint + Nation Core pins. DEFAULT: true
+	mapOverlayEnabled = true
+	#Hex colour (#RRGGBB) used to tint enemy-nation claims on the FTB map while at war. DEFAULT: #D62828
+	mapEnemyColor = "#D62828"
+	#Ley Nexus war-front objectives: spawn contested sites between the belligerents while a war is ACTIVE. DEFAULT: true
+	nexusEnabled = true
+	#Combined claim count of both principals needed for a 2nd and a 3rd Nexus site (comma list). DEFAULT: 40,120
+	nexusSiteThresholds = "40,120"
+	#Radius in blocks around a Nexus that counts as standing on it. DEFAULT: 16
+	nexusRadiusBlocks = 16
+	#Seconds of uncontested majority presence to capture (or fully flip) a Nexus. DEFAULT: 60
+	nexusCaptureSeconds = 60
+	#War points a held Nexus pays per minute while a holder stands inside (a kill is killPoints). DEFAULT: 2
+	nexusPointsPerMinute = 2
+	#Chunk halo around a candidate site that must be free of FTB claims. DEFAULT: 2
+	nexusMinClaimDistanceChunks = 2
+	#Minimum distance in blocks between two Nexus sites. DEFAULT: 160
+	nexusSpacingBlocks = 160
+	#Random scatter of a site around its target point on the line between territories: minimum blocks. DEFAULT: 32
+	nexusScatterMinBlocks = 32
+	#Random scatter of a site around its target point: maximum blocks. DEFAULT: 128
+	nexusScatterMaxBlocks = 128
+	#Never place a Nexus within this many blocks of world spawn (square box). DEFAULT: 128
+	nexusSpawnExclusionBlocks = 128
+	#Announce Nexus reveal / capture / loss through the Voice of the World (the Chronicle always records). DEFAULT: true
+	nexusAnnounceVoice = true
+	#Post Nexus reveal / capture to the Discord nation webhook. DEFAULT: true
+	nexusAnnounceDiscord = true
+	#Peace terms: the victor of a resolved war picks lasting terms (pact / tribute / vassalage) capped by the score margin. DEFAULT: true
+	termsEnabled = true
+	#Real hours the victor's sovereign has to pick terms after a war resolves; unpicked = non-aggression pact. DEFAULT: 24
+	termsPickHours = 24
+	#Real days peace terms last once chosen. DEFAULT: 7
+	termsDays = 7
+	#Winner/loser score ratio that unlocks tribute. DEFAULT: 1.25
+	termsTributeRatio = 1.25
+	#Winner/loser score ratio that unlocks vassalage (a voluntary surrender always does). DEFAULT: 2.0
+	termsVassalRatio = 2.0
+	#Daily tribute as a percent of the vanquished nation's projected hourly income x 24, frozen when the tier is chosen. DEFAULT: 10.0
+	termsTributePercent = 10.0
+	#Floor for daily tribute in cents (20000 = $200). DEFAULT: 20000
+	termsTributeMinDailyCents = 20000
+	#Tribute days settled per minute-tick after downtime; days beyond the budget are still marked settled (forfeit). DEFAULT: 1
+	termsTributeCatchUpDays = 1
+	#Vassals auto-join their liege's wars and a liege auto-joins wars declared on its vassal (skipped at the war cap). DEFAULT: true
+	termsVassalAutoJoin = true
+	#Announce imposed / expired terms and vassal releases through the Voice of the World (the Chronicle always records). DEFAULT: true
+	termsAnnounceVoice = true
+	#Post imposed / expired terms to the Discord nation webhook. DEFAULT: true
+	termsAnnounceDiscord = true

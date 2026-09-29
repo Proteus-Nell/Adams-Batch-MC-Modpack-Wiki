@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:greater_mystic_fox` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 18,000 - 34,000 |
@@ -26,6 +27,7 @@
 - **Evolves from:** [Lesser Mystic Fox](lesser-mystic-fox.md)
 - **Evolves into:** [Ninehead](ninehead.md)
 - **Default evolution:** [Ninehead](ninehead.md)
+- **During the Harvest Festival:** [Ninehead](ninehead.md)
 
 ### Requirements to evolve into Greater Mystic Fox
 

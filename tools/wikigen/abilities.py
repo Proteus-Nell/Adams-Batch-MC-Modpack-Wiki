@@ -566,7 +566,7 @@ class AbilityExtractor:
             m = ix.find_method(cls, mname)
             if m is None:
                 continue
-            ids = self.rr.refs(m.body, m.cls, ("race",))
+            ids = self._race_refs(m, cls, 0)
             ids = [i for i in ids if i != full]
             if ids:
                 evo[key] = ids
@@ -605,6 +605,30 @@ class AbilityExtractor:
         rec["config"] = self.config_links(cls)
         rec["icon"] = None
         return rec
+
+    def _race_refs(self, m, cls, depth) -> list:
+        """Race ids a method returns, following this.helper() calls on the concrete class
+        (shared base classes route getNextEvolutions through abstract nextRace()-style hooks)."""
+        ids = list(self.rr.refs(m.body, m.cls, ("race",)))
+        if depth >= 3 or m.body is None:
+            return ids
+        for n in walk(m.body):
+            if n.type != "method_invocation":
+                continue
+            obj = n.child_by_field_name("object")
+            if obj is not None and text(obj) != "this":
+                continue
+            name = text(n.child_by_field_name("name"))
+            if name == m.name:
+                continue
+            h = self.ix.find_method(cls, name)
+            rtype = h.node.child_by_field_name("type") if h is not None else None
+            if h is None or h is m or rtype is None or "Race" not in text(rtype):
+                continue
+            for i in self._race_refs(h, cls, depth + 1):
+                if i not in ids:
+                    ids.append(i)
+        return ids
 
     def requirements(self, cls) -> list:
         # TR: Nightmares routes through getNightmareEvolutionRequirements; others override
