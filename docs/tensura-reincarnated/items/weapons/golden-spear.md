@@ -12,6 +12,8 @@
 | **Category** | Weapons |
 | **Attack damage** | 4 (3 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Gold |
 | **Durability** | 32 |
 

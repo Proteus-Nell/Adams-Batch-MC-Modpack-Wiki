@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cooked Spear Toro Meat](cooked-spear-toro-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Spear Toro](../../mobs/spear-toro.md).
+Food that restores **5** hunger (2.5 shanks) and **3.6** saturation. Used to make [Cooked Spear Toro Meat](cooked-spear-toro-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Spear Toro](../../mobs/spear-toro.md).
 
 ## Obtaining
 

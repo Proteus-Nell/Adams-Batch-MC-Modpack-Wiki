@@ -14,6 +14,9 @@
 | **Gear EP** | 18,000 - None |
 | **Attack damage** | 16 (13 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
+| **Critical chance** | +0.2% |
 | **Tier** | Low Magisteel |
 
 </div>

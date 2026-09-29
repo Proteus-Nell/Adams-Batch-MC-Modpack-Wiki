@@ -14,6 +14,8 @@
 | **Evolves into** | [High Magisteel Great Sword](high-magisteel-great-sword.md) |
 | **Attack damage** | 15 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
 | **Tier** | Low Magisteel |
 | **Durability** | 1,800 |
 

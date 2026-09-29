@@ -15,6 +15,8 @@
 
 ## What it does
 
+A blank tablet for making **Magic Tablets** by combining it in your inventory: Gunpowder makes a Tablet of Assistance, a Golden Carrot a Tablet of Cupidity, a Red Mushroom a Tablet of Home, Bone Meal a [Tablet of Recall](tablet-of-recall.md) and Bones a Tablet of Guard.
+
 Used to make [Tablet of Assistance](tablet-of-assistance.md), [Tablet of Cupidity](tablet-of-cupidity.md), [Tablet of Guard](tablet-of-guard.md), [Tablet of Home](tablet-of-home.md) and [Tablet of Recall](tablet-of-recall.md). It is crafted.
 
 ## Obtaining

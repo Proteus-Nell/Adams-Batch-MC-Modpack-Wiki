@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food.
+Edible, but it doesn't fill you up. Eating it gives [Paralysis](../../../tensura-reincarnated/effects/paralysis.md) for 5 s.
 
 ## Tags
 

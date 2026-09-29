@@ -16,6 +16,8 @@
 
 ## What it does
 
+A Heart of the Earth corrupted by the Seven Curses. While a player bearing the Ring of the Seven Curses carries it, it becomes **tainted**, which some recipes (such as the Annihilating recipes) need. It's used in many cursed items.
+
 Used to make [Pact of Infinite Avarice](../scrolls/avarice-scroll.md), [Emblem of Bloodstained Valor](../charms/berserk-emblem.md), [Scroll of a Thousand Curses](../scrolls/cursed-scroll.md), [Unholy Stone](../misc/cursed-stone.md), [Scroll of Ignorance Curse](../scrolls/cursed-xp-scroll.md) and 8 more. It is made at the Crafting (cursed).
 
 ## Obtaining

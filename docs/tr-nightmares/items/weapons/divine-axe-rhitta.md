@@ -11,12 +11,18 @@
 | **ID** | `trnightmare:divine_axe_rhitta` |
 | **Category** | Weapons |
 | **Stack size** | 1 |
+| **Attack damage** | 126 |
+| **Attack speed** | 5 |
+| **Tier** | Sacred Treasure |
+| **Durability** | 10,000 |
 
 </div>
 
 ## What it does
 
-It is made at the Tensura Smithing.
+Escanor's divine axe. Holding it in either hand powers up [Sunshine](../../abilities/unique-skills/sunshine.md): Sunshine's bonus to physical, light, fire and heat damage rises from **10%** to **25%**, and you keep Fire Resistance while Sunshine is on. The axe never breaks, can't be repaired, doesn't burn and can't be put in shulker boxes or bundles.
+
+A Sacred Treasure axe that deals **126** attack damage at **5** attack speed. Durability: **10,000**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

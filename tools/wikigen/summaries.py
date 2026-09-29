@@ -103,7 +103,12 @@ def first_sentence(md: str, n=150) -> str:
     return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "..."
 
 
+ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+
+
 def _n(v):
+    if v == float("inf"):
+        return "infinite"
     if isinstance(v, float) and v == int(v):
         return "{:,}".format(int(v))
     if isinstance(v, (int, float)):
@@ -178,6 +183,32 @@ class Summarizer:
         return outs
 
     # -------------------------------------------------------------- items
+    def _food(self, page, f) -> str:
+        n = f.get("nutrition") or 0
+        sat = round(n * (f.get("saturation") or 0) * 2, 1)
+        if n:
+            txt = "Food that restores **%s** hunger (%s) and **%s** saturation" % (_n(n), "%s shank%s" % (_n(n / 2), "" if n == 2 else "s"), _n(sat))
+        else:
+            txt = "Edible, but it doesn't fill you up"
+        if f.get("always_edible") and n:
+            txt += ", and can be eaten even when you're full"
+        txt += "."
+        effs = []
+        for e in f.get("effects") or []:
+            if not e.get("effect"):
+                continue
+            lv = e.get("amplifier") or 0
+            d = e.get("duration")
+            bit = self.site.link(page.path, e["effect"], "effect") + (" " + ROMAN[lv + 1] if 0 < lv < 10 else "")
+            if d:
+                bit += " for %s s" % _n(d / 20)
+            if e.get("chance", 1.0) < 1.0:
+                bit += " (%s%% chance)" % _n(round(e["chance"] * 100, 1))
+            effs.append(bit)
+        if effs:
+            txt += " Eating it gives %s." % _list(effs)
+        return txt
+
     def item(self, page, it) -> list:
         s = self.site
         ident = it["id"]
@@ -192,6 +223,8 @@ class Summarizer:
         if g:
             wt = next((w for k, w in WEAPON_WORDS if k in cls), None) or next((w for k, w in WEAPON_WORDS if k.lower() in ident), "weapon")
             tier = g.get("tier")
+            if tier and (len(tier) <= 2 or tier == "Tier"):
+                tier = None  # obfuscated or generic field names say nothing
             two, one, main = g.get("two_handed"), g.get("one_handed"), g.get("main")
             head = "A %s%s" % ((tier + " ") if tier and tier.lower() not in ident.replace("_", " ") else "", wt)
             if two and one:
@@ -199,6 +232,10 @@ class Summarizer:
                            "one-handed **%s** damage at **%s** speed." % (head, _n(two.get("attack_damage", "?")), _n(two.get("attack_speed", "?")),
                                                                         _n(one.get("attack_damage", "?")), _n(one.get("attack_speed", "?"))))
                 main = two
+            elif main and main.get("attack_damage") is None:
+                # damage set by a multiplier or in code we can't read
+                if main.get("attack_speed") is not None:
+                    out.append("%s with **%s** attack speed." % (head, _n(main["attack_speed"])))
             elif main:
                 out.append("%s that deals **%s** attack damage at **%s** attack speed." % (head, _n(main.get("attack_damage", "?")), _n(main.get("attack_speed", "?"))))
             extra = []
@@ -233,7 +270,9 @@ class Summarizer:
             makes = list(dict.fromkeys(m for m in makes if m))
             if makes:
                 out.append("Smithing schematic. You need it to forge %s." % self._links(page, makes, "item", 6))
-        if not out and (it.get("props") or {}).get("food"):
+        if not out and it.get("food"):
+            out.append(self._food(page, it["food"]))
+        elif not out and (it.get("props") or {}).get("food"):
             out.append("Food.")
         obtain = self._obtain(page, ident)
         uses = self._uses(page, ident)

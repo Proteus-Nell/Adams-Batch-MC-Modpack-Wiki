@@ -12,12 +12,17 @@
 | **Category** | Weapons |
 | **Stack size** | 1 |
 | **Durability** | 10,000 |
+| **Attack damage** | 267 |
+| **Attack speed** | 7 |
+| **Tier** | Divine Tools |
 
 </div>
 
 ## What it does
 
-It is made at the Tensura Smithing.
+A divine-tier sword with no ability of its own: a stat weapon (see the stats box) with 10,000 durability.
+
+A Divine Tools weapon that deals **267** attack damage at **7** attack speed. Durability: **10,000**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

@@ -15,6 +15,8 @@
 | **Evolves into** | [Hihi'Irokane Long Sword](hihiirokane-long-sword.md) |
 | **Attack damage** | 32 (31 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Orichalcum |
 | **Durability** | 2,800 |
 

@@ -13,12 +13,17 @@
 | **Stack size** | 1 |
 | **Durability** | 10,000 |
 | **Gear EP** | 10,000,000 - 100,000,000 |
+| **Attack damage** | 110 |
+| **Attack speed** | 1.5 |
+| **Tier** | Divine Tools |
 
 </div>
 
 ## What it does
 
-It is made at the Tensura Smithing.
+A divine-tier sword (see the stats box). While a player holds it in either hand, their attacks go straight through [Infinity Prison](../../../tensura-reincarnated/abilities/unique-skills/infinity-prison.md)'s protection. [｢ Nodens, God of Abyss ｣](../../abilities/ultimate-skills/nodens.md) can upgrade it into [Nodens: The World](nodens-the-world.md).
+
+A Divine Tools sword that deals **110** attack damage at **1.5** attack speed. Durability: **10,000**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

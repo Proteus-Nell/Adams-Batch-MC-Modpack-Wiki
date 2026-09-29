@@ -16,9 +16,9 @@
 | ![](../../../assets/icons/tombstone/item/book_of_scribe.png) | [Book of Scribe](book-of-scribe.md) | Can magically create multiple copies of a magic scroll |
 | ![](../../../assets/icons/tombstone/item/book_of_soulbound.png) | [Book of Soulbound](book-of-soulbound.md) | Enchants an item with Soulbound |
 | ![](../../../assets/icons/tombstone/item/christmas_gift.png) | [Christmas Gift](christmas-gift.md) | This gift has appeared mysteriously and doesn't seem to want to open. A message is written there: "Cannot be opened... |
-| ![](../../../assets/icons/tombstone/item/dust_of_frost.png) | [Dust of Frost](dust-of-frost.md) |  |
+| ![](../../../assets/icons/tombstone/item/dust_of_frost.png) | [Dust of Frost](dust-of-frost.md) | An easy retreat. |
 | ![](../../../assets/icons/tombstone/item/dust_of_vanishing.png) | [Dust of Vanishing](dust-of-vanishing.md) | Allows for an easy retreat |
-| ![](../../../assets/icons/tombstone/item/essence_of_undeath.png) | [Essence of Undeath](essence-of-undeath.md) |  |
+| ![](../../../assets/icons/tombstone/item/essence_of_undeath.png) | [Essence of Undeath](essence-of-undeath.md) | A crafting ingredient for decorative graves. |
 |  | [Fishing Rod of Misadventure](fishing-rod-of-misadventure.md) | Presages unlucky fishing |
 |  | [Flying Carpet](flying-carpet.md) | The carpet can carry you through the air or underwater in the direction of your gaze |
 | ![](../../../assets/icons/tombstone/item/gemstone_of_familiar.png) | [Gemstone of Familiar](gemstone-of-familiar.md) | Theses rare magic gemstones allow to bring back to life your last dead familiar |
@@ -26,10 +26,10 @@
 | ![](../../../assets/icons/tombstone/item/gemstone_of_merchant.png) | [Gemstone of Merchant](gemstone-of-merchant.md) | Theses rare magic gemstones allow to obtain better exchanges with a merchant |
 | ![](../../../assets/icons/tombstone/item/gemstone_of_prayer.png) | [Gemstone of Prayer](gemstone-of-prayer.md) | Theses rare magic gemstones allow to reset your Ankh ability |
 | ![](../../../assets/icons/tombstone/item/grave_key.png) | [Grave Key](grave-key.md) | Allows you to see your grave at a distance |
-|  | [Impregnated Diamond](impregnated-diamond.md) |  |
+|  | [Impregnated Diamond](impregnated-diamond.md) | A crafting ingredient for the receptacle of familiar. |
 | ![](../../../assets/icons/tombstone/item/lost_tablet.png) | [Lost Tablet](lost-tablet.md) | This tablet must have possessed a great power long ago |
 | ![](../../../assets/icons/tombstone/item/lollipop.png) | [Magic Lollipop](lollipop.md) | The effects are unpredictable |
-| ![](../../../assets/icons/tombstone/item/grave_plate.png) | [Memorial Plaque](grave-plate.md) |  |
+| ![](../../../assets/icons/tombstone/item/grave_plate.png) | [Memorial Plaque](grave-plate.md) | Memorial Plaque. |
 | ![](../../../assets/icons/tombstone/item/receptacle_of_familiar.png) | [Receptacle of Familiar](receptacle-of-familiar.md) | This receptacle allows to capture the soul of one of your dead familiars |
 | ![](../../../assets/icons/tombstone/item/receptacle_of_soul.png) | [Receptacle of Soul](receptacle-of-soul.md) | A soul is trapped in this magical container |
 | ![](../../../assets/icons/tombstone/item/gift.png) | [Reward](gift.md) | Reward received by completing advancements in Corail Tombstone |
@@ -49,7 +49,7 @@
 |  | [Seeker Rod](seeker-rod.md) | A slightly special rod guiding you to places holding secret knowledges |
 |  | [Smoke Ball](smoke-ball.md) | Has no use except producing smoke |
 | ![](../../../assets/icons/tombstone/item/christmas_hat.png) | [Strange Christmas Hat](christmas-hat.md) | A strange hat that brings good luck and slightly increase your running speed |
-| ![](../../../assets/icons/tombstone/item/strange_tablet.png) | [Strange Tablet](strange-tablet.md) |  |
+| ![](../../../assets/icons/tombstone/item/strange_tablet.png) | [Strange Tablet](strange-tablet.md) | A blank tablet for making Magic Tablets by combining it in your inventory: Gunpowder makes a Tablet of Assistance, a... |
 | ![](../../../assets/icons/tombstone/item/tablet_of_assistance.png) | [Tablet of Assistance](tablet-of-assistance.md) | Allows you to teleport to another player |
 | ![](../../../assets/icons/tombstone/item/tablet_of_cupidity.png) | [Tablet of Cupidity](tablet-of-cupidity.md) | Can bring you fortune, even if few have returned |
 | ![](../../../assets/icons/tombstone/item/tablet_of_guard.png) | [Tablet of Guard](tablet-of-guard.md) | Invoke a spectral wolf to protect the place for a short time |

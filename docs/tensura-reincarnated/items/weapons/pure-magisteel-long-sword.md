@@ -15,6 +15,8 @@
 | **Evolves into** | [Adamantite Long Sword](adamantite-long-sword.md) |
 | **Attack damage** | 36 (35 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Pure Magisteel |
 | **Durability** | 3,000 |
 

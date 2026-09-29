@@ -12,6 +12,10 @@
 | **Category** | Weapons |
 | **Attack damage** | 3 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical chance** | +20% |
+| **Critical damage** | +0.5× |
 | **Tier** | Stone |
 | **Durability** | 131 |
 

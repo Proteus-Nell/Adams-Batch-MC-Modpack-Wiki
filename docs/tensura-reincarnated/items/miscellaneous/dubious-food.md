@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. It is crafted.
+Food that restores **100** hunger (50 shanks) and **0** saturation, and can be eaten even when you're full. Eating it gives [Fatal Poison](../../effects/fatal-poison.md) II for 10 s (80% chance), [Poison](https://minecraft.wiki/w/Poison) III for 10 s (80% chance), [Paralysis](../../effects/paralysis.md) for 5 s (80% chance), [Hunger](https://minecraft.wiki/w/Hunger) II for 10 s (80% chance), [Slowness](https://minecraft.wiki/w/Slowness) II for 10 s (80% chance), [Weakness](https://minecraft.wiki/w/Weakness) for 10 s (80% chance), [Blindness](https://minecraft.wiki/w/Blindness) for 10 s (80% chance), [Nausea](https://minecraft.wiki/w/Nausea) for 10 s (80% chance) and [Mining Fatigue](https://minecraft.wiki/w/Mining_Fatigue) II for 10 s (80% chance). It is crafted.
 
 ## Obtaining
 

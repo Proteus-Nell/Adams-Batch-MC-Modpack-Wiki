@@ -15,6 +15,8 @@
 | **Evolves into** | [Hihi'Irokane Great Sword](hihiirokane-great-sword.md) |
 | **Attack damage** | 53 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

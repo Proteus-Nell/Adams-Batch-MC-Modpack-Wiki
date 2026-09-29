@@ -15,7 +15,9 @@
 
 ## What it does
 
-Food. It is crafted.
+A root that also removes **one random harmful effect** when you eat it.
+
+Food that restores **3** hunger (1.5 shanks) and **5.4** saturation, and can be eaten even when you're full. Eating it gives [Pure Resistance](../../effects/pure-resistance.md) for 18 s (25% chance) and [Absorption](https://minecraft.wiki/w/Absorption) for 18 s (50% chance). It is crafted.
 
 ## Obtaining
 

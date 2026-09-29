@@ -14,6 +14,9 @@
 | **Evolves into** | [Hihi'Irokane Scythe](hihiirokane-scythe.md) |
 | **Attack damage** | 52 (51 one-handed) |
 | **Attack speed** | 0.8 (0.6 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +75% (+50% one-handed) |
+| **Critical chance** | +50% |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

@@ -13,12 +13,17 @@
 | **Durability** | 4,000 |
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - None |
+| **Attack speed** | 1 |
+| **Sweep damage** | -100% |
+| **Tier** | High Magisteel |
 
 </div>
 
 ## What it does
 
-It is made at the Smithing Bench.
+A dragon-bone knuckle duster. It's a multitool that breaks blocks very fast (speed 20) and cuts cobwebs, and it can shear sheep and grow vines to full length. As a weapon it's weak: it cuts your attack damage by **90%**, attacks slowly and doesn't sweep.
+
+A High Magisteel weapon with **1** attack speed. It also has no sweeping attack. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

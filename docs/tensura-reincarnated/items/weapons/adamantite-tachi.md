@@ -15,6 +15,9 @@
 | **Evolves into** | [Hihi'Irokane Tachi](hihiirokane-tachi.md) |
 | **Attack damage** | 52 (51 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

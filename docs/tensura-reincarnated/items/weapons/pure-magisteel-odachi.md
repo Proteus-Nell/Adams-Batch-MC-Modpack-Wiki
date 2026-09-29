@@ -15,6 +15,9 @@
 | **Evolves into** | [Adamantite Odachi](adamantite-odachi.md) |
 | **Attack damage** | 37 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
+| **Critical chance** | +20% |
 | **Tier** | Pure Magisteel |
 | **Durability** | 3,000 |
 

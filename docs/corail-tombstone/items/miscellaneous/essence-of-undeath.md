@@ -15,6 +15,8 @@
 
 ## What it does
 
+A crafting ingredient for decorative graves. Undead creatures rarely drop it, and you can also get it by fishing in deep water or from cats' morning gifts.
+
 Used to make Decorative Grave Cross, Decorative Grave Normal, Decorative Grave Original, Decorative Grave Simple, Decorative Subaraki Grave and 1 more.
 
 ## Used in

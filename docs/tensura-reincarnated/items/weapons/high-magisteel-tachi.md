@@ -15,6 +15,9 @@
 | **Evolves into** | [Pure Magisteel Tachi](pure-magisteel-tachi.md) |
 | **Attack damage** | 22 (21 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | High Magisteel |
 | **Durability** | 2,500 |
 

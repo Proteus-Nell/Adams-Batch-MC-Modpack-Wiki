@@ -452,3 +452,255 @@ Hell's red sand dunes (ambient magicule +1,500). Sand ruins can generate here.
 Hell's pale sand dunes (ambient magicule +500). Sand ruins can generate here.
 
 {{auto}}
+
+<!-- kind: items -->
+
+## class:io.github.manasmods.tensura.item.misc.BoneGolemItem
+Places a **Bone Golem** of this metal where you click (sneak while placing it and it floats instead of falling). A bone golem is a posable body, like an armor stand: sneak + right-click cycles its pose, and it can hold gear. Its EP and stats depend on the metal. Spirits can take it over with the {{link:skill/tensura:possession}} skill. Two quick hits break it and drop the item again.
+
+{{auto}}
+
+## tensura:ant_crossbow
+A crossbow made from giant ant parts. It loads in **1 second** (a vanilla crossbow takes 1.25), fires arrows harder (power 4, vanilla 3.15) and more accurately (spread 0.6, vanilla 1), and has 960 durability. Dwarf fletchers sell it.
+
+{{auto}}
+
+## tensura:short_bow, tensura:long_bow, tensura:war_bow, tensura:short_spider_bow, tensura:spider_bow, tensura:long_spider_bow, tensura:war_spider_bow
+A Tensura bow. Bows differ in how long a full draw takes, how much damage their arrows start with and how much the arrows spread (a vanilla bow draws in 1 s, deals base damage 2 and has spread 1):
+
+| Bow | Full draw | Base arrow damage | Spread | Durability |
+|---|---|---|---|---|
+| Short Bow | 0.5 s | 2 | 0.5 | 231 |
+| Long Bow | 1.5 s | 2.5 | 1.2 | 500 |
+| War Bow | 3 s | 7 | 1.4 | 615 |
+| Short Spider Bow | 0.75 s | 3 | 0.2 | 578 |
+| Spider Bow | 1.25 s | 3.5 | 0.5 | 980 |
+| Long Spider Bow | 2.25 s | 5.5 | 0.7 | 1,250 |
+| War Spider Bow | 4 s | 14 | 1 | 1,538 |
+
+{{auto}}
+
+## tensura:armorsaurus_gauntlet
+A multitool gauntlet: it mines the blocks in Tensura's multitool tag, digs monster-diggable blocks very fast and cuts cobwebs. It adds **+2** attack knockback but no sweep. Hold right-click to raise it like a guard. The {{link:skill/tensura:body_armor}} skill uses it for its armored fist.
+
+{{auto}}
+
+## tensura:armorsaurus_shield
+A heavy off-hand shield made from Armorsaurus scales (2,000 durability). Hold right-click to block. Repair it with Armorsaurus Shell or Armorsaurus Scale.
+
+{{auto}}
+
+## tensura:bat_glider
+Bat wings worn in the chest slot. They work like an elytra (jump while falling to glide) with **+50%** glide speed, and lose durability while you glide. Repair them with Giant Bat Wings. Dwarf leatherworkers sell them.
+
+{{auto}}
+
+## tensura:battlewill_manual
+A manual that teaches a battlewill (a combat art). Hold right-click for at least half a second: you learn the battlewill written in it, or a random one from the config's battlewill list if the manual is blank. If you already know it, the manual is still used up. After reading, manuals are on a 10-second cooldown. Mobs can drop them and dwarf battlewill trainers sell them.
+
+{{auto}}
+
+## tensura:black_fire_charge
+A creative-only fire charge that sets {{link:tensura:black_fire}} (or lights campfires and candles).
+
+{{auto}}
+
+## tensura:blade_tiger_scythe
+A two-handed scythe made from a Blade Tiger's tail, with long reach and a high critical chance (see the stats box). Repair it with Blade Tiger Tails. Orc Lords carry one.
+
+{{auto}}
+
+## tensura:bucket_of_cattledeer_milk
+Works like a bucket of milk: drinking it clears your effects. It also cures {{link:effect/trnightmare:demon_burned}} (from TR: Nightmares).
+
+{{auto}}
+
+## tensura:centipede_dagger
+A short dagger with a high critical chance. Every hit **paralyzes** the target ({{link:effect/tensura:paralysis}} for 5 seconds). Repair it with Centipede Stingers.
+
+{{auto}}
+
+## tensura:race_reset_scroll
+Hold right-click to read it. It resets your statistics, naming, awakening, spirits, resistances and **race**, along with the race's intrinsic skills, so you can choose again.
+
+{{link:tensura:skill_reset_scroll}} and {{link:tensura:character_reset_scroll}} work the same way. None of them work in spectator mode, in spiritual worlds (Hell, the Labyrinth and so on) or in biomes unsafe for spawning, and they have a 5-second cooldown. Servers can limit which scrolls are allowed. If the `resetIncompletePenalty` gamerule is on, resetting before you've met the Reset Counter requirements costs reset points.
+
+{{auto}}
+
+## tensura:skill_reset_scroll
+Hold right-click to read it. It removes **every skill** you have, of every type, except your race's intrinsic skills. It doesn't refund the magicule cost of unique skills, so you can end up without any. The same limits as the {{link:tensura:race_reset_scroll}} apply.
+
+{{auto}}
+
+## tensura:character_reset_scroll
+Hold right-click to read it. It resets **everything**: race, skills and statistics, as if you had just started, and counts toward your Reset Counter if you've met its requirements. The same limits as the {{link:tensura:race_reset_scroll}} apply.
+
+{{auto}}
+
+## tensura:dragon_knuckle
+A dragon-bone knuckle duster. It's a multitool that breaks blocks very fast (speed 20) and cuts cobwebs, and it can shear sheep and grow vines to full length. As a weapon it's weak: it cuts your attack damage by **90%**, attacks slowly and doesn't sweep.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.item.misc.ElementCoreItem
+An **element core**, a crystal holding one element's power (500 uses). What it's for:
+
+- A **Fire** core fuels a {{link:tensura:kiln_mithril}} or {{link:tensura:kiln_orichalcum}}: using it on the kiln drains 100 durability and boosts the kiln for a while.
+- Feeding a core to a Black Fang direwolf turns it into a Brown (Earth), Red (Fire), Green (Wind), Blue (Water) or Purple (Space) Fang.
+- Some spirit races, such as the Salamander line, need cores to evolve.
+
+The **Empty** core is what's left when a core runs out.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.item.consumable.HealingPotionItem
+A healing potion. Drinking it restores a share of your **max health** and some magicule:
+
+| Potion | Health | Magicule |
+|---|---|---|
+| Low Potion | 33% | 100 |
+| High Potion | 66% | 1,000 |
+| Full Potion | 99% | 10,000 |
+| Revival Elixir | 100% | 20,000 |
+
+Sneak + right-click to throw it instead (it splashes nearby creatures), or use it on another creature to make it drink. You get the magic bottle back.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.item.consumable.ManaPotionItem
+A magicule potion. Drinking it restores magicule:
+
+| Potion | Magicule |
+|---|---|
+| Low Arcane Potion | 5% of max |
+| Medium Arcane Potion | 10% of max |
+| High Arcane Potion | 20% of max |
+| Vacuumed Magic Bottle of Water | 10 |
+| Magic Bottle of Water | none (it's the base for brewing) |
+
+Sneak + right-click to throw it instead, or use it on another creature to make it drink. You get the magic bottle back.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.item.weapon.spell.SimpleSpellCastItem
+A **grimoire**, a spellbook you cast magic from. Bind spells to it at a {{link:tensura:spellbinding_table}}; you can then cast them by holding right-click, even spells you haven't learned yourself (some are excluded). Scroll to switch spells and modes. Grimoires differ in how many spells they hold (the Magic Capacity enchantment adds more), their cooldown after a cast and the chant speed they give:
+
+| Grimoire | Spells | Cooldown | Chant speed |
+|---|---|---|---|
+| Grimoire (D) | 3 | 2 s | none |
+| Grimoire (C) | 4 | 1.5 s | +0.05 |
+| Grimoire (B) | 5 | 1 s | +0.1 |
+| Grimoire (A) | 6 | 0.75 s | +0.15 |
+| Grimoire (Special A) | 7 | 0.5 s | +0.2 |
+
+{{auto}}
+
+## tensura:hipokute_flower
+The flower of Hipokute grass (right-click a grown {{link:tensura:hipokute_grass}} to pick it). It's used to brew Tensura's potions and can be put in a flower pot, where it glows faintly. Dwarf alchemists sell it.
+
+{{auto}}
+
+## tensura:ice_blade
+A two-handed ice sword. Every hit gives the target {{link:effect/tensura:chill}} II for 5 seconds, freezes it (like powder snow) and puts out fire. Hold right-click for a moment and release to fire an **ice lance** that deals your weapon damage and gives Chill III for 10 seconds; each lance costs 100 of the blade's EP.
+
+{{auto}}
+
+## tensura:meat_crusher
+A heavy two-handed club (the Orc Lord's weapon). Hold right-click and release to **slam** the ground in front of you: everything along the line takes your attack damage, gets {{link:effect/tensura:corrosion}} II for 3 seconds and is knocked up, and blocks may be thrown around if skill griefing is on. The slam costs 10 durability and has a 2-second cooldown.
+
+With the **Soul Eater** enchantment and {{link:skill/tensura:starved}} toggled on, using it instead launches 4 Chaos Eater projectiles at your target. Holding it while {{link:skill/trnightmare:beelzebub}} (TR: Nightmares) is mastered adds **200** damage to Beelzebub's corrosion.
+
+{{auto}}
+
+## tensura:vortex_spear
+A two-handed spear with the power of Riptide, usable anywhere. Hold right-click for half a second and release to **launch** yourself forward in a spinning attack (stronger with the Riptide enchantment). Creatures you crash into take your attack damage, and so does everything within 2 blocks, and blocks may be thrown around if skill griefing is on. Hitting something also resets your fall distance. Each launch costs 1 durability and 200 of the spear's EP (+100 per Riptide level).
+
+{{auto}}
+
+## tensura:invisible_arrow
+An arrow that can't be seen in flight. Dwarf fletchers sell them.
+
+{{auto}}
+
+## tensura:speared_fin_arrow
+An arrow tipped with a Spear Toro fin. Dwarf fletchers sell them.
+
+{{auto}}
+
+## tensura:unicorn_horn
+A unicorn's horn, dropped by Unicorns. Hold it in your **off hand** with a crossbow in your main hand and the crossbow fires the horn like an arrow. Dwarf merchants buy them.
+
+{{auto}}
+
+## tensura:magic_bottle
+Tensura's glass bottle. Use it on water to fill it into a {{link:tensura:magic_bottle_of_water}} (the base for Tensura potions), or on dragon's breath to collect it. Drinking a Tensura potion gives the bottle back.
+
+{{auto}}
+
+## tensura:magic_tome
+A tome that teaches a spell. Hold right-click for at least half a second: you learn the spell written in it, or a random **aspectual magic** if the tome is blank. If you already know it, the tome is still used up. After reading, tomes are on a 10-second cooldown. Dwarf magic trainers sell them.
+
+{{auto}}
+
+## tensura:orb_of_domination
+An orb that forces a creature to serve you. Hit a creature with it and, if you have **less than 800,000 max EP**, the creature is tamed on the spot: it becomes your subordinate and sits. The orb is used up. As a weapon it cuts your damage by 80%.
+
+{{auto}}
+
+## class:io.github.manasmods.tensura.item.misc.PouchItem
+A **coin pouch**: a bundle that only holds coins. Right-click coins onto it (or it onto coins) to store them, and coins you pick up go straight into it. It can't be put inside other containers. Pouches differ in capacity, counted in full stacks of coins: Coin Pouch (D) holds 4, (C) 8, (B) 12, (A) 16 and (Special A) 20.
+
+{{auto}}
+
+## tensura:slime_in_a_bucket
+A slime scooped up in a bucket. Use it on a block to release the slime again (Metal and Supermassive slimes stay what they were). It can also be dissolved for 1,000 magicule.
+
+{{auto}}
+
+## tensura:slime_staff
+A staff for commanding your slimes. It's a grimoire too (3 spell slots, 0.5-second cooldown, +0.1 chant speed), but its own mode is **Summon Slime**:
+
+- Look at a creature within 32 blocks and use it: every slime you own within 25 blocks attacks that target, and the target glows.
+- Sneak + use: all your slimes nearby switch between staying and following.
+
+Repair it with Slime Chunks, Slime Cores or High Magisteel Ingots.
+
+{{auto}}
+
+## tensura:spatial_bag
+A bag linked to a spatial storage. The Spatial Storage magic creates one when you release it; using the bag opens that storage, as long as you still have the skill.
+
+{{auto}}
+
+## tensura:sissie_tooth_pickaxe
+A pickaxe made from Sissie teeth that mines much faster **underwater** (+80% submerged mining speed). Repair it with Sissie Teeth.
+
+{{auto}}
+
+## tensura:spider_dagger
+A short dagger with a high critical chance. Every hit gives the target {{link:effect/tensura:fatal_poison}} for 5 seconds. Repair it with Spider Fangs.
+
+{{auto}}
+
+## tensura:web_cartridge, tensura:sticky_web_cartridge, tensura:sticky_steel_web_cartridge
+Ammunition for the {{link:tensura:web_gun}} (dispensers can fire it too). A web bullet gives the creature it hits {{link:effect/tensura:webbed}} and {{link:effect/tensura:silence}}, and leaves webs where it lands:
+
+| Cartridge | Webbed | Silence | Web left behind |
+|---|---|---|---|
+| Web Cartridge | 5 s | 5 s | Cobweb; also turns stone into webbed stone |
+| Sticky Web Cartridge | 10 s | 10 s | {{link:tensura:sticky_cobweb}}, gone after 8 s |
+| Sticky Steel Web Cartridge | 10 s | 10 s | {{link:tensura:sticky_steel_cobweb}}, gone after 12 s |
+
+(Silence is meant to be a 25% chance, but because of a mix-up in the code it always applies.)
+
+{{auto}}
+
+## tensura:tempest_scale_shield
+A massive shield made from Charybdis scales (3,964 durability, doesn't burn). Hold right-click to block, and it hits hard as a weapon. Repair it with Charybdis Scales.
+
+{{auto}}
+
+## tensura:hipokute_seeds
+Seeds for {{link:tensura:hipokute_grass}}, the herb Tensura's potions are brewed from.
+
+{{auto}}

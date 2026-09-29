@@ -16,6 +16,8 @@
 
 ## What it does
 
+**Nefarious Essence**, a scrap of the Wither's soul that Withers drop. Combine it with a Totem of Malice in an anvil to fully restore the totem. Like other cursed items, only a bearer of the Ring of the Seven Curses can use it.
+
 Used to make [The Arrogance of Chaos](../tools/chaos-elytra.md), [Tome of Devoured Malignancy](../books/curse-transposer.md), [Unholy Stone](../misc/cursed-stone.md), [Scroll of Ignorance Curse](../scrolls/cursed-xp-scroll.md), [The Burden of Desolation](../rings/desolation-ring.md) and 8 more.
 
 ## Used in

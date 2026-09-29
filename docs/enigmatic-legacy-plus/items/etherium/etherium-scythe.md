@@ -11,6 +11,9 @@
 | **ID** | `enigmaticlegacyplus:etherium_scythe` |
 | **Category** | Etherium |
 | **Fire resistant** | Yes |
+| **Attack damage** | 9 |
+| **Attack speed** | 2 |
+| **Durability** | 2,794 |
 
 </div>
 
@@ -24,7 +27,7 @@ Enhancement: Capable of automatic range harvesting.
 
 ## What it does
 
-It is crafted.
+A scythe that deals **9** attack damage at **2** attack speed. Durability: **2,794**. It is crafted.
 
 ## Obtaining
 

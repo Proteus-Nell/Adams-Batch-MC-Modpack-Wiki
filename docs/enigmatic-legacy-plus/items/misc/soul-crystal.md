@@ -14,3 +14,7 @@
 | **Fire resistant** | Yes |
 
 </div>
+
+## What it does
+
+A piece of your soul. With the Ring of the Seven Curses ("Every death tears your soul apart"), each death takes a crystal from you and each lost crystal lowers your max health by **10%**; up to 9 can be lost (the config decides whether you need the ring, NEED_CURSE_RING). Use a Soul Crystal to take it back and restore that health.

@@ -11,12 +11,18 @@
 | **ID** | `tensura:sissie_tooth_pickaxe` |
 | **Category** | Tools |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 14 |
+| **Attack speed** | 1 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
 
 ## What it does
 
-It is made at the Smithing Bench.
+A pickaxe made from Sissie teeth that mines much faster **underwater** (+80% submerged mining speed). Repair it with Sissie Teeth.
+
+A Low Magisteel pickaxe that deals **14** attack damage at **1** attack speed. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

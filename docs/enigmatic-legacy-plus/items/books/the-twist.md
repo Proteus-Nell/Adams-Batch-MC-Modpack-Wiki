@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_twist` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 9 |
+| **Attack speed** | 2.2 |
 
 </div>
 
@@ -38,7 +40,7 @@ incinerate those who refuse to embrace it.
 
 ## What it does
 
-Used to make [The Infinitum](the-infinitum.md). It is made at the Crafting (cursed).
+A weapon that deals **9** attack damage at **2.2** attack speed. It is made at the Crafting (cursed).
 
 ## Obtaining
 

@@ -27,7 +27,7 @@ Knowledge is the greatest gift.
 
 ## What it does
 
-Food. Used to make [The Forbidden Juice](../potions/forbidden-juice.md). It is found in 1 kind of loot chest.
+Food that restores **2** hunger (1 shank) and **2** saturation, and can be eaten even when you're full. Eating it gives [Wither](https://minecraft.wiki/w/Wither) IV for 20 s, [Nausea](https://minecraft.wiki/w/Nausea) III for 20 s, [Weakness](https://minecraft.wiki/w/Weakness) IV for 24 s and [Slowness](https://minecraft.wiki/w/Slowness) III for 32 s. Used to make [The Forbidden Juice](../potions/forbidden-juice.md). It is found in 1 kind of loot chest.
 
 ## Obtaining
 

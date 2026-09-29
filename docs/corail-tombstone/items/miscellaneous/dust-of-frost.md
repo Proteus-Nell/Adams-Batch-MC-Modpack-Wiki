@@ -15,6 +15,8 @@
 
 ## What it does
 
+An easy retreat. Use it to vanish and reappear a few steps **behind** you, leaving a wall of powder snow (about 5 blocks wide and 3 high) where you stood. The snow melts away after 10 seconds. It has a 10-second cooldown. Make it by combining Grave Dust with Blue Ice in your inventory; servers can disable it.
+
 It is crafted.
 
 ## Obtaining

@@ -18,6 +18,8 @@
 
 ## What it does
 
+A tome that teaches a spell. Hold right-click for at least half a second: you learn the spell written in it, or a random **aspectual magic** if the tome is blank. If you already know it, the tome is still used up. After reading, tomes are on a 10-second cooldown. Dwarf magic trainers sell them.
+
 It is found in 24 kinds of loot chest.
 
 ## Obtaining

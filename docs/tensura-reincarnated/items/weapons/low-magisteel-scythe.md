@@ -14,6 +14,9 @@
 | **Evolves into** | [High Magisteel Scythe](high-magisteel-scythe.md) |
 | **Attack damage** | 14 (13 one-handed) |
 | **Attack speed** | 0.8 (0.6 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +75% (+50% one-handed) |
+| **Critical chance** | +50% |
 | **Tier** | Low Magisteel |
 | **Durability** | 1,800 |
 

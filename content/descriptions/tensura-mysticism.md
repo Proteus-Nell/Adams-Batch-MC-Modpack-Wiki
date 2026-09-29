@@ -182,3 +182,15 @@ Ambient magicule **+1,500**, and magicule refills a little faster.
 {{auto}}
 
 Ambient magicule **+500**, and magicule refills a little faster. Darkness portal structures (a way back to the Overworld) generate here.
+
+<!-- kind: items -->
+
+## mysticism:axiom, mysticism:waltz
+**Axiom** and **Waltz** are a matched pair of Hihi'irokane long swords (30,000 durability) carried by {{link:entity/mysticism:memoires}}. Waltz's hits give the target {{link:effect/tensura:chill}} III for 10 seconds. The {{link:skill/mysticism:repeater}} skill has a storehouse that holds the pair: use it with Axiom in your main hand and Waltz in your off hand to put them away, and again to draw both at once.
+
+{{auto}}
+
+## mysticism:ritual_scythe
+The scythe of the {{link:skill/mysticism:spiritualist}} skill, which summons it into your hand. It deals no normal damage: a fully charged swing hurts the target's **spiritual health** directly for 30 up to 1,500 (scaling with your soul points, maxing at 50,000,000), and a weaker swing does a tenth of that.
+
+{{auto}}

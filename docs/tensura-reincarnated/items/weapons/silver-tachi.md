@@ -13,6 +13,9 @@
 | **Gear EP** | 0 - 0 |
 | **Attack damage** | 8 (7 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | Silver |
 | **Durability** | 150 |
 

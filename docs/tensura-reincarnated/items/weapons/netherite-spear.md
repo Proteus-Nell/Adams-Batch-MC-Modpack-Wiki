@@ -13,6 +13,8 @@
 | **Fire resistant** | Yes |
 | **Attack damage** | 8 (7 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Netherite |
 | **Durability** | 2,031 |
 

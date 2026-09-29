@@ -108,3 +108,25 @@ The **Paths**, a world of eternal midnight guarded by {{link:entity/tensuramores
 
 ## tensuramoreskills:paths_plains
 {{auto}} It's the only biome of the {{link:dimension/tensuramoreskills:paths}}.
+
+<!-- kind: items -->
+
+## tensuramoreskills:extermination_blade
+The **Extermination Blade** summoned by {{link:skill/tensuramoreskills:adaptability}} (and Divine General Mahoraga). It comes with Severance, Tsukumogami, Unbreaking and Sharpness, and it can't be dropped (if it ends up on the ground anyway it can't be destroyed).
+
+It holds up to **{{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade EP.bladeMaxEp}}** EP. Each hit spends {{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade EP.bladeHitCost}} EP ({{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade EP.bladeHitCostAdapted}} once you've adapted to severance) to deal a second, bonus hit of {{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade Damage.bladeBonusBase}} + up to {{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade Damage.bladeBonusEpCap}} from the blade's EP + {{pct:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade Damage.bladeBonusAttackDamagePercent}} of your attack damage, capped at **{{cfg:config/tensuramoreskills-grand.toml|Adaptability.Extermination Blade Damage.bladeBonusCap}}**.
+
+{{auto}}
+
+## tensuramoreskills:feldway_angel_summoner
+A sacred relic taken from {{link:entity/tensuramoreskills:feldway}} that still calls his angels. Sneak + use cycles its seven modes:
+
+- **Summon / Army / Cathedral:** aim at solid ground within 48 blocks and hold to charge a summoning circle that calls angels. You can control up to 3 angels in Summon mode, 9 in Army mode and 30 in Cathedral mode (with a much bigger circle).
+- **Ultimate:** summons Michael.
+- **Attack:** look at a creature to send your summons after it.
+- **Despawn:** dismisses your summons.
+- **Immunity:** toggles immunity to Magicule Poison while you carry it.
+
+The summoning modes have a cooldown after use.
+
+{{auto}}

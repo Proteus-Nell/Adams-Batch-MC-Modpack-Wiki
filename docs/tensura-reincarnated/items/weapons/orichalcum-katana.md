@@ -15,6 +15,8 @@
 | **Evolves into** | [Hihi'Irokane Katana](hihiirokane-katana.md) |
 | **Attack damage** | 31 (30 one-handed) |
 | **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | Orichalcum |
 | **Durability** | 2,800 |
 

@@ -12,6 +12,10 @@
 | **Category** | Tools |
 | **Rarity** | Uncommon |
 | **Fire resistant** | Yes |
+| **Attack damage** | 10 |
+| **Attack speed** | 1.6 |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
 
@@ -27,7 +31,7 @@ to the overall beheading chance.
 
 ## What it does
 
-It is crafted.
+A Netherite axe that deals **10** attack damage at **1.6** attack speed. Durability: **2,031**. It is crafted.
 
 ## Obtaining
 

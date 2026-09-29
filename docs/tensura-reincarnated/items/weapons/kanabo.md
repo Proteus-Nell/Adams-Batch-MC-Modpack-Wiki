@@ -15,6 +15,8 @@
 | **Gear EP** | 6,000 - None |
 | **Attack damage** | 10 |
 | **Attack speed** | 1 |
+| **Reach** | +1 blocks |
+| **Critical damage** | +0.5× |
 | **Tier** | Wood |
 
 </div>

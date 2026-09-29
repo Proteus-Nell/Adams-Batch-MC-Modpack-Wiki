@@ -6614,6 +6614,23 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 33.0,
+      "attack_speed": 1.2,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "two_handed": {
+      "attack_damage": 35.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "tier": "Pure Magisteel",
+     "durability": 3000,
+     "mining_speed": 20.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/tensuramoreskills/item/extermination_blade.png"

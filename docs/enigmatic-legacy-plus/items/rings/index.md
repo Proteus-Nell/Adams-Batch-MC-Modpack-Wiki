@@ -5,9 +5,9 @@
 | | Name | Description |
 |---|---|---|
 | ![](../../../assets/icons/enigmaticlegacyplus/item/dislocation_ring.png) | [Dislocation Ring](dislocation-ring.md) | Instantly collects any dropped items |
-| ![](../../../assets/icons/enigmaticlegacyplus/item/golden_ring.png) | [Exquisite Ring](golden-ring.md) |  |
-| ![](../../../assets/icons/enigmaticlegacyplus/item/iron_ring.png) | [Iron Ring](iron-ring.md) |  |
-| ![](../../../assets/icons/enigmaticlegacyplus/item/quartz_ring.png) | [Magic Quartz Ring](quartz-ring.md) |  |
+| ![](../../../assets/icons/enigmaticlegacyplus/item/golden_ring.png) | [Exquisite Ring](golden-ring.md) | Exquisite Ring, a ring (Curios slot) that gives +1 Luck, keeps piglins neutral and counts as gold to them. |
+| ![](../../../assets/icons/enigmaticlegacyplus/item/iron_ring.png) | [Iron Ring](iron-ring.md) | A plain ring (Curios slot) that gives +1 armor. |
+| ![](../../../assets/icons/enigmaticlegacyplus/item/quartz_ring.png) | [Magic Quartz Ring](quartz-ring.md) | Magic Quartz Ring (Curios slot): +2 armor, +1.5 Luck and % less magic damage. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/magnet_ring.png) | [Magnetic Ring](magnet-ring.md) | Attracts items within ? blocks radius. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/miner_ring.png) | [Miner's Ring](miner-ring.md) | Consumes fuel bar to smelt items as blast furnace. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/earth_promise.png) | [Promise of the Earth](earth-promise.md) | Alteration of the ?: |

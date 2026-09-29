@@ -181,8 +181,93 @@ class GearReader:
             v = self.ev(node.named_children[0], ctx, env)
             if isinstance(v, (int, float)):
                 return -v
+        if t == "identifier" and ctx is not None and text(node) not in env:
+            ff = self.ix.find_field(ctx, text(node))
+            tv = self._tier_of_field(ff) if ff is not None else None
+            if tv is not None:
+                return tv
+        if t == "field_access":
+            tv = self._field_tier(node, ctx)
+            if tv is not None:
+                return tv
+            # grade.tier where grade is an enum constant: Grade.a(ETToolTiers.b, ...) with this.d = var3
+            ov = self._try(node.child_by_field_name("object"), ctx, env)
+            if isinstance(ov, EnumConst):
+                v = self._enum_field(ov, text(node.child_by_field_name("field")))
+                if v is not None:
+                    return v
         plain = {k: v for k, v in env.items() if not isinstance(v, TierVal)}
         return self.ix.eval(node, ctx, plain)
+
+    def _enum_field(self, v: EnumConst, fld: str):
+        ec = self.enum_class(v.owner, v.name)
+        node = next((n for nm, n in ec.enum_constants if nm == v.name), None) if ec is not None else None
+        if node is None or node.child_by_field_name("arguments") is None:
+            return None
+        args = call_args(node)
+        for ctor in ec.methods.get("<init>", []):
+            if len(ctor.params) != len(args) or ctor.body is None:
+                continue
+            for n in walk(ctor.body):
+                if n.type == "assignment_expression" and text(n.child_by_field_name("left")).replace("this.", "") == fld:
+                    rhs = text(n.child_by_field_name("right"))
+                    if rhs in ctor.params:
+                        try:
+                            return self.ix.eval(args[ctor.params.index(rhs)], ec)
+                        except Exception:
+                            return None
+        return None
+
+    def _field_tier(self, node, ctx) -> Optional[TierVal]:
+        oc = self.ix.resolve(text(node.child_by_field_name("object")), ctx)
+        ff = self.ix.find_field(oc, text(node.child_by_field_name("field"))) if oc is not None else None
+        return self._tier_of_field(ff) if ff is not None else None
+
+    def _tier_of_field(self, ff) -> Optional[TierVal]:
+        """Tier TIER = new SimpleTier(tag, uses, speed, damage, enchant, repair);
+        public static final Tier DIVINE = tier(10000, 14.0F, 6.0F, 30);  with  tier(...) { return new Tier() { getUses() { return uses; } ... } }"""
+        if ff.value is None or ff.value.type not in ("method_invocation", "object_creation_expression"):
+            return None
+        key = (ff.cls.fqcn, ff.name)
+        if key in self._tiers:
+            return self._tiers[key]
+        if ff.value.type == "object_creation_expression":
+            t = None
+            a = call_args(ff.value)
+            if text(ff.value.child_by_field_name("type")).rsplit(".", 1)[-1] == "SimpleTier" and len(a) >= 5:
+                try:
+                    u, sp, d, e = (float(self.ix.eval(x, ff.cls)) for x in a[1:5])
+                    t = TierVal(ff.name, u, sp, d, e)
+                except Exception:
+                    t = None
+            self._tiers[key] = t
+            return t
+        fname = ff.name
+        args = call_args(ff.value)
+        m = next((m for m in ff.cls.methods.get(text(ff.value.child_by_field_name("name")), []) if len(m.params) == len(args)), None)
+        t = None
+        if m is not None and m.body is not None:
+            t = TierVal(fname)
+            for n in walk(m.body):
+                if n.type != "method_declaration":
+                    continue
+                attr = TierVal.GETTERS.get(text(n.child_by_field_name("name")))
+                body = n.child_by_field_name("body")
+                ret = next((r for r in walk(body) if r.type == "return_statement"), None) if body is not None else None
+                if attr is None or ret is None or not ret.named_children:
+                    continue
+                rv = text(ret.named_children[0])
+                if rv in m.params:
+                    try:
+                        val = self.ix.eval(args[m.params.index(rv)], ff.cls)
+                    except Exception:
+                        continue
+                    if isinstance(val, (int, float)) and not isinstance(val, bool):
+                        setattr(t, attr, float(val))
+            if t.damage is None and t.uses is None:
+                t = None
+        self._tiers[key] = t
+        return t
 
     def _try(self, node, ctx, env):
         try:
@@ -196,8 +281,9 @@ class GearReader:
         out = {}
         # vanilla style: new SwordItem(Tiers.DIAMOND, props.attributes(SwordItem.createAttributes(Tiers.DIAMOND, 3, -2.4F)))
         self._scan_calls(reg.node, reg.ctx, {}, out, None)
-        if cls is not None and reg.ctor_args:
-            vals = [self._try(a, reg.ctx, {}) for a in reg.ctor_args]
+        if cls is not None:
+            # Foo::new registrations have no arguments and use the no-arg constructor
+            vals = [self._try(a, reg.ctx, {}) for a in reg.ctor_args or []]
             self._ctor(cls, vals, out, 0)
         return self._finish(out)
 
@@ -209,6 +295,10 @@ class GearReader:
             if tv is not None and "tier" not in out:
                 out["tier"] = tv
         ctor = next((m for m in cls.methods.get("<init>", []) if len(m.params) == len(vals)), None)
+        if ctor is None and not vals and not cls.methods.get("<init>") and cls.superclass:
+            # implicit default constructor: class ArkSwordItem extends GenesisSwordItem {}
+            self._ctor(self.ix.resolve(cls.superclass, cls), [], out, depth + 1)
+            return
         if ctor is None or ctor.body is None:
             return
         env = dict(zip(ctor.params, vals))
@@ -296,6 +386,9 @@ class GearReader:
                 continue
             ma = call_args(a[1])
             if len(ma) < 2:
+                continue
+            if len(ma) > 2 and "ADD_VALUE" not in text(ma[2]):
+                # ADD_MULTIPLIED_TOTAL -0.9 is "x0.1 damage", not a flat 0.1
                 continue
             v = self._try(ma[1], m.cls, env)
             if isinstance(v, (int, float)) and not isinstance(v, bool):

@@ -12,8 +12,18 @@
 | **Category** | Weapons |
 | **Durability** | 100 |
 | **Gear EP** | 4,800 - None |
+| **Attack damage** | 8 |
+| **Attack speed** | 1.2 |
+| **Sweep damage** | -100% |
+| **Tier** | High Magisteel |
 
 </div>
+
+## What it does
+
+A multitool gauntlet: it mines the blocks in Tensura's multitool tag, digs monster-diggable blocks very fast and cuts cobwebs. It adds **+2** attack knockback but no sweep. Hold right-click to raise it like a guard. The [Body Armor](../../abilities/intrinsic-skills/body-armor.md) skill uses it for its armored fist.
+
+A High Magisteel weapon that deals **8** attack damage at **1.2** attack speed. It also has no sweeping attack and +2 knockback. Durability: **2,500**.
 
 ## Tags
 

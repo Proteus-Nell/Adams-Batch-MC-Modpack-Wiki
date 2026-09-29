@@ -61,3 +61,40 @@ Passed motions take effect right away: territorial claims, public enemies and tr
 
 ## elitetensura:walpurgis_void
 {{auto}} It's the only biome of the {{link:dimension/elitetensura:walpurgis_hall}}.
+
+<!-- kind: items -->
+
+## class:com.johnadmin.elitetensura.items.armor.AetherforgedArmorItem
+A piece of **Aetherforged Plate**. Wearing all four pieces reduces the damage you take by up to **{{cfg:config/tensura/EliteTensura/MiscConfigs.toml|AETHERFORGED_PLATE.maxReductionPercent}}%**, scaling with your EP: you get the full reduction at 10,000,000 max EP (half of it at 5,000,000, and so on).
+
+{{auto}}
+
+## elitetensura:fenrir_sword
+A frost sword. Every hit gives the target {{link:effect/elitetensura:fenrir_sword_effect}} V for 3 seconds. When you swing at a creature, every non-ally within 5 blocks gets Fenrir's frost V for 5 seconds and water within 2 blocks of the target freezes into ice. Repair it with Stellar Gold Coins.
+
+{{auto}}
+
+## elitetensura:chronicle
+Opens your **Chronicle** in the Elite Tensura codex: your daily objectives and season progress. Each completed daily gives {{cfg:config/tensura/EliteTensura/SeasonConfig.toml|Chronicle.dailyCrateCount}} {{cfg:config/tensura/EliteTensura/SeasonConfig.toml|Chronicle.dailyCrateId}} crate key, and you get {{cfg:config/tensura/EliteTensura/SeasonConfig.toml|Chronicle.dailiesPerDay}} dailies per real day.
+
+{{auto}}
+
+## elitetensura:common_key, elitetensura:rare_key, elitetensura:elite_key
+A key for the matching Elite Tensura **crate** ({{link:elitetensura:common_crate}}, {{link:elitetensura:rare_crate}} or {{link:elitetensura:elite_crate}}): use it on the crate to open it for a random reward. Chronicle dailies give Common keys.
+
+{{auto}}
+
+## elitetensura:potential_catalyst
+Unlocks the hidden potential of a forged item. Hold a forged item (from the Forge Station) in your **off hand** and use the catalyst: if the item's potential is at least 30%, it gains a permanent bonus to its main stat (attack damage for weapons, armor for armor, max health otherwise) equal to its potential × {{cfg:config/tensura/EliteTensura/CraftingConfigs.toml|POTENTIAL_CATALYST.weakScale}} (weak, under 50%), × {{cfg:config/tensura/EliteTensura/CraftingConfigs.toml|POTENTIAL_CATALYST.moderateScale}} (moderate, 50 to 75%) or × {{cfg:config/tensura/EliteTensura/CraftingConfigs.toml|POTENTIAL_CATALYST.strongScale}} (strong, 75% and up). Moderate and strong unlocks also add **+{{cfg:config/tensura/EliteTensura/CraftingConfigs.toml|POTENTIAL_CATALYST.bonusHealth}}** max health, and a strong unlock gives you Luck for {{cfg:config/tensura/EliteTensura/CraftingConfigs.toml|POTENTIAL_CATALYST.strongLuckSeconds}} s. Calamity raids can drop them.
+
+{{auto}}
+
+## elitetensura:walpurgis_orb
+Used to call a **Walpurgis** banquet (only Demon Lords can use it): see the {{link:dimension/elitetensura:walpurgis_hall}}.
+
+{{auto}}
+
+## elitetensura:walpurgis_seal
+The mark of a Demon Lord recognised by the council. When a **New Demon Lord Recognition** motion passes at a Walpurgis, the recognised player gets a seal (on their next login if they're offline). It's soul-bound to its owner. While you carry your own seal, your magicule and aura regenerate **{{pct:config/tensura/EliteTensura/WalpurgisConfig.toml|Seal.magiculeRegenBonus}}** faster, and your Walpurgis votes count {{cfg:config/tensura/EliteTensura/WalpurgisConfig.toml|Seal.voteWeight}} times.
+
+{{auto}}

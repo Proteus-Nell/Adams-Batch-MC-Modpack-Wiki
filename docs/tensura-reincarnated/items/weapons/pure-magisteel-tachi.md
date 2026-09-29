@@ -15,6 +15,9 @@
 | **Evolves into** | [Adamantite Tachi](adamantite-tachi.md) |
 | **Attack damage** | 36 (35 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | Pure Magisteel |
 | **Durability** | 3,000 |
 

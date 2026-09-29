@@ -15,7 +15,7 @@
 
 ## What it does
 
-Food.
+Edible, but it doesn't fill you up. Eating it gives [Fire Resistance](https://minecraft.wiki/w/Fire_Resistance) for 5 s.
 
 ## Tags
 

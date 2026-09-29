@@ -15,6 +15,8 @@
 
 ## What it does
 
+Tensura's glass bottle. Use it on water to fill it into a [Magic Bottle of Water](magic-bottle-of-water.md) (the base for Tensura potions), or on dragon's breath to collect it. Drinking a Tensura potion gives the bottle back.
+
 Used to make [Full Potion](full-potion.md), [High Potion](high-potion.md), [High Arcane Potion](high-arcane-potion.md) and [Medium Arcane Potion](medium-arcane-potion.md). It is crafted.
 
 ## Obtaining

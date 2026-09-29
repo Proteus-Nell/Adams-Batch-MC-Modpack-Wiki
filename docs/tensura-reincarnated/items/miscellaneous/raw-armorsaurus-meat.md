@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cooked Armorsaurus Meat](cooked-armorsaurus-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Armorsaurus](../../mobs/armorsaurus.md).
+Food that restores **5** hunger (2.5 shanks) and **3.6** saturation. Used to make [Cooked Armorsaurus Meat](cooked-armorsaurus-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Armorsaurus](../../mobs/armorsaurus.md).
 
 ## Obtaining
 

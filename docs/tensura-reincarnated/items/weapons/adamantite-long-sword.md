@@ -15,6 +15,8 @@
 | **Evolves into** | [Hihi'Irokane Long Sword](hihiirokane-long-sword.md) |
 | **Attack damage** | 52 (51 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

@@ -14,6 +14,9 @@
 | **Evolves into** | [High Magisteel Short Sword](high-magisteel-short-sword.md) |
 | **Attack damage** | 10 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
 | **Tier** | Low Magisteel |
 | **Durability** | 1,800 |
 

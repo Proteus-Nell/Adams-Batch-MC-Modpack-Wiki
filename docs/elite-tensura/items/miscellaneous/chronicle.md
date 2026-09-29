@@ -16,6 +16,8 @@
 
 ## What it does
 
+Opens your **Chronicle** in the Elite Tensura codex: your daily objectives and season progress. Each completed daily gives 1 common crate key, and you get 2 dailies per real day.
+
 It is crafted and dropped by [Vaelthorn, the Hollow Sovereign](../../mobs/lich-boss.md).
 
 ## Obtaining

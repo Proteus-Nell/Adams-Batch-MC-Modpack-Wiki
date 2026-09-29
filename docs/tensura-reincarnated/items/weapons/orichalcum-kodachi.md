@@ -15,6 +15,10 @@
 | **Evolves into** | [Hihi'Irokane Kodachi](hihiirokane-kodachi.md) |
 | **Attack damage** | 28 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical chance** | +20% |
+| **Critical damage** | +0.5× |
 | **Tier** | Orichalcum |
 | **Durability** | 2,800 |
 

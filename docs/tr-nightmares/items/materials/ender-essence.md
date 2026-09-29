@@ -19,7 +19,7 @@ Warped power from the void beyond.
 
 ## What it does
 
-Food. It is dropped by [Enderman](https://minecraft.wiki/w/Enderman) and [Endermite](https://minecraft.wiki/w/Endermite).
+Food that restores **4** hunger (2 shanks) and **2.4** saturation, and can be eaten even when you're full. It is dropped by [Enderman](https://minecraft.wiki/w/Enderman) and [Endermite](https://minecraft.wiki/w/Endermite).
 
 ## Obtaining
 

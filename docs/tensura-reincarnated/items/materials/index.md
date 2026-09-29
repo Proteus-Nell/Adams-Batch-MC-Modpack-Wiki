@@ -42,5 +42,5 @@
 | ![](../../../assets/icons/tensura/item/silver_nugget.png) | [Silver Nugget](silver-nugget.md) |  |
 | ![](../../../assets/icons/tensura/item/slime_core.png) | [Slime Core](slime-core.md) |  |
 | ![](../../../assets/icons/tensura/item/spider_fang.png) | [Spider Fang](spider-fang.md) |  |
-| ![](../../../assets/icons/tensura/item/unicorn_horn.png) | [Unicorn Horn](unicorn-horn.md) |  |
+| ![](../../../assets/icons/tensura/item/unicorn_horn.png) | [Unicorn Horn](unicorn-horn.md) | A unicorn's horn, dropped by Unicorns. |
 | ![](../../../assets/icons/tensura/item/warp_core.png) | [Warp Core](warp-core.md) |  |

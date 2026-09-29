@@ -48,6 +48,6 @@
 | ![](../../../assets/icons/tensura/item/silver_pickaxe.png) | [Silver Pickaxe](silver-pickaxe.md) |  |
 | ![](../../../assets/icons/tensura/item/silver_shovel.png) | [Silver Shovel](silver-shovel.md) |  |
 | ![](../../../assets/icons/tensura/item/silver_sickle.png) | [Silver Sickle](silver-sickle.md) |  |
-| ![](../../../assets/icons/tensura/item/sissie_tooth_pickaxe.png) | [Sissie Tooth Pickaxe](sissie-tooth-pickaxe.md) |  |
+| ![](../../../assets/icons/tensura/item/sissie_tooth_pickaxe.png) | [Sissie Tooth Pickaxe](sissie-tooth-pickaxe.md) | A pickaxe made from Sissie teeth that mines much faster underwater (+80% submerged mining speed). |
 | ![](../../../assets/icons/tensura/item/stone_sickle.png) | [Stone Sickle](stone-sickle.md) |  |
 | ![](../../../assets/icons/tensura/item/wooden_sickle.png) | [Wooden Sickle](wooden-sickle.md) |  |

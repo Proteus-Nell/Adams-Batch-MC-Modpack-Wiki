@@ -1054,13 +1054,23 @@ class Site:
         rows = []
         g = it.get("gear") or {}
         main = g.get("two_handed") or g.get("main") or {}
-        if main.get("attack_damage") is not None:
+        if main.get("attack_damage") == float("inf"):
+            rows.append(("Attack damage", "Infinite"))
+        elif main.get("attack_damage") is not None:
             one = (g.get("one_handed") or {}).get("attack_damage")
             rows.append(("Attack damage", num(main["attack_damage"]) + (" (%s one-handed)" % num(one) if one is not None and g.get("two_handed") else "")))
         if main.get("attack_speed") is not None:
             one = (g.get("one_handed") or {}).get("attack_speed")
             rows.append(("Attack speed", num(main["attack_speed"]) + (" (%s one-handed)" % num(one) if one is not None and g.get("two_handed") else "")))
-        if g.get("tier"):
+        for key, label, fmt in (("reach", "Reach", lambda v: "%+g blocks" % v), ("sweep", "Sweep damage", lambda v: "%+g%%" % (v * 100)),
+                                ("crit_chance", "Critical chance", lambda v: "%+g%%" % v), ("crit_multiplier", "Critical damage", lambda v: "%+g×" % v)):
+            v = main.get(key)
+            if v:
+                one = (g.get("one_handed") or {}).get(key)
+                extra = " (%s one-handed)" % fmt(one) if g.get("two_handed") and one is not None and one != v else ""
+                rows.append((label, fmt(v) + extra))
+        if g.get("tier") and len(g["tier"]) > 2 and g["tier"] != "Tier":
+            # obfuscated enum names (ETToolTiers.b) say nothing
             rows.append(("Tier", esc(g["tier"])))
         if g.get("durability"):
             rows.append(("Durability", num(g["durability"])))
@@ -1092,7 +1102,7 @@ class Site:
         if title:
             page.add("%s %s" % ("#" * level, title), "")
         lv = rel.get("leveling") or {}
-        if lv:
+        if lv and lv.get("max_level"):
             page.add("Relic levelling: up to level **%s**, first level costs **%s** XP, +%s XP per level." % (
                 lv.get("max_level", "?"), lv.get("initial_cost", "?"), lv.get("step", "?")), "")
         if rel.get("description"):

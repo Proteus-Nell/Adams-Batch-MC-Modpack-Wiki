@@ -16,6 +16,8 @@
 
 ## What it does
 
+A plain ring (Curios slot) that gives **+1 armor**. One per player.
+
 Used to make [Ring of Ender](ender-ring.md), [Exquisite Ring](golden-ring.md), [Ring of Quenching](infernal-ring.md), [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot), [Magnetic Ring](magnet-ring.md) and 2 more. It is crafted and found in 1 kind of loot chest.
 
 ## Obtaining

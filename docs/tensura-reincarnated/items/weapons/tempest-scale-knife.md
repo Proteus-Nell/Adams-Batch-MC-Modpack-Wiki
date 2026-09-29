@@ -14,6 +14,9 @@
 | **Gear EP** | 60,000 - None |
 | **Attack damage** | 32 |
 | **Attack speed** | 1.8 |
+| **Reach** | -0.5 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.2× |
 | **Tier** | Pure Magisteel |
 
 </div>

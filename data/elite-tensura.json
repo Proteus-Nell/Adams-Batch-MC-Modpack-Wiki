@@ -3352,6 +3352,18 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedGauntletsItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 195.0,
+      "attack_speed": 5.2,
+      "reach": -0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 3.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3382,6 +3394,18 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedKatanaItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 198.0,
+      "attack_speed": 4.4,
+      "sweep": 0.5,
+      "crit_chance": 1.2,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3412,6 +3436,19 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedSpearItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 199.0,
+      "attack_speed": 3.6,
+      "reach": 1.5,
+      "sweep": 0.3,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3425,6 +3462,19 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedWarHammerItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 204.0,
+      "attack_speed": 3.0,
+      "sweep": 0.6,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0,
+      "knockback": 1.5
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3442,11 +3492,15 @@
     },
     "gear": {
      "main": {
+      "attack_damage": 35.0,
       "attack_speed": 4.0,
       "sweep": 0.5,
       "crit_chance": 0.8,
       "crit_multiplier": 2.0
-     }
+     },
+     "tier": "B",
+     "durability": 600,
+     "mining_speed": 20.0
     },
     "tooltips": [],
     "tags": [
@@ -3468,6 +3522,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 200.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
     },
     "tooltips": [
      "Armed Ability: ?",
@@ -3548,6 +3614,18 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 180.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [],
     "tags": [
      "minecraft:enchantable/durability",
@@ -3605,11 +3683,15 @@
     },
     "gear": {
      "main": {
+      "attack_damage": 80.0,
       "attack_speed": 4.0,
       "sweep": 0.5,
       "crit_chance": 0.8,
       "crit_multiplier": 2.0
-     }
+     },
+     "tier": "D",
+     "durability": 1500,
+     "mining_speed": 35.0
     },
     "tooltips": [],
     "tags": [
@@ -3660,11 +3742,15 @@
     },
     "gear": {
      "main": {
+      "attack_damage": 60.0,
       "attack_speed": 4.0,
       "sweep": 0.5,
       "crit_chance": 0.8,
       "crit_multiplier": 2.0
-     }
+     },
+     "tier": "C",
+     "durability": 1000,
+     "mining_speed": 30.0
     },
     "tooltips": [],
     "tags": [
@@ -3714,6 +3800,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 200.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
     },
     "tooltips": [
      "Armed Ability: ?",

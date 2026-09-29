@@ -12,12 +12,20 @@
 | **Category** | Weapons |
 | **Durability** | 2,000 |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 24 (23 one-handed) |
+| **Attack speed** | 1 (0.8 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +75% (+50% one-handed) |
+| **Critical chance** | +20% (+50% one-handed) |
+| **Tier** | High Magisteel |
 
 </div>
 
 ## What it does
 
-It is made at the Smithing Bench.
+A two-handed scythe made from a Blade Tiger's tail, with long reach and a high critical chance (see the stats box). Repair it with Blade Tiger Tails. Orc Lords carry one.
+
+A High Magisteel scythe you can hold in one or both hands. Two-handed it deals **24** attack damage at **1** attack speed; one-handed **23** damage at **0.8** speed. It also has +2 blocks of reach, +20% critical hit chance and 75% sweeping damage. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

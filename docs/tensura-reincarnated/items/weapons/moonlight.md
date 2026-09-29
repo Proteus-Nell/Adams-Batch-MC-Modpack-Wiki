@@ -14,6 +14,9 @@
 | **Gear EP** | 60,000 - None |
 | **Attack damage** | 42 |
 | **Attack speed** | 1.8 |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Critical chance** | +50% |
 | **Tier** | Mithril |
 | **Durability** | 2,700 |
 

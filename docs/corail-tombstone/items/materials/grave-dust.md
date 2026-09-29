@@ -15,6 +15,16 @@
 
 ## What it does
 
+A crafting ingredient for Grave Marble, scrolls and tablets. Undead creatures drop it, cats bring it as morning gifts, and lost tablets sometimes leave some when they break.
+
+You can also **combine it in your inventory**: right-click a stack of Grave Dust onto one of these to turn each pair into something new:
+
+| Combine with | Result |
+|---|---|
+| Blue Ice | [Dust of Frost](../miscellaneous/dust-of-frost.md) |
+| Gunpowder | [Dust of Vanishing](../miscellaneous/dust-of-vanishing.md) |
+| Snowball | 3 [Smoke Ball](../miscellaneous/smoke-ball.md) |
+
 Used to make [Ankh of Prayer](../miscellaneous/ankh-of-prayer.md), [Blue Marble](../../blocks/blue-marble.md), [Bone Needle](../miscellaneous/bone-needle.md), [Bone Scepter](../miscellaneous/bone-scepter.md), [Book of Disenchantment](../miscellaneous/book-of-disenchantment.md) and 19 more.
 
 ## Used in

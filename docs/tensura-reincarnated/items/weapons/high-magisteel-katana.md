@@ -15,6 +15,8 @@
 | **Evolves into** | [Pure Magisteel Katana](pure-magisteel-katana.md) |
 | **Attack damage** | 21 (20 one-handed) |
 | **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | High Magisteel |
 | **Durability** | 2,500 |
 

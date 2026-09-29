@@ -15,7 +15,7 @@
 
 ## What it does
 
-Food. It is dropped when you break [Ice Ore](../../blocks/ice-ore.md).
+Edible, but it doesn't fill you up. Eating it gives [Frost](../../../tensura-reincarnated/effects/frost.md) for 5 s. It is dropped when you break [Ice Ore](../../blocks/ice-ore.md).
 
 ## Obtaining
 

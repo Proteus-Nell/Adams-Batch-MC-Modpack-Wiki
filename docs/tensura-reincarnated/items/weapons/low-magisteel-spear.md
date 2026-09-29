@@ -14,6 +14,8 @@
 | **Evolves into** | [High Magisteel Spear](high-magisteel-spear.md) |
 | **Attack damage** | 12 (11 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Low Magisteel |
 | **Durability** | 1,800 |
 

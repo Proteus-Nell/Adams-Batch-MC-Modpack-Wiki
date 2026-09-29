@@ -15,6 +15,8 @@
 | **Evolves into** | [Hihi'Irokane Spear](hihiirokane-spear.md) |
 | **Attack damage** | 50 (49 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

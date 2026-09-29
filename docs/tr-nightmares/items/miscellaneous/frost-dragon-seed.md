@@ -20,4 +20,4 @@ Edible. Imprints a True Dragon into your Inner World.
 
 ## What it does
 
-Food.
+Food that restores **1** hunger (0.5 shanks) and **0.2** saturation, and can be eaten even when you're full.

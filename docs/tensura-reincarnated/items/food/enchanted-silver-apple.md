@@ -17,7 +17,7 @@
 
 ## What it does
 
-Food. Used to make [Dubious Food](../miscellaneous/dubious-food.md). It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
+Food that restores **4** hunger (2 shanks) and **9.6** saturation, and can be eaten even when you're full. Eating it gives [Magicule Regeneration](../../effects/magicule-regeneration.md) IV for 60 s, [Resistance](https://minecraft.wiki/w/Resistance) for 300 s and [Haste](https://minecraft.wiki/w/Haste) II for 120 s. Used to make [Dubious Food](../miscellaneous/dubious-food.md). It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

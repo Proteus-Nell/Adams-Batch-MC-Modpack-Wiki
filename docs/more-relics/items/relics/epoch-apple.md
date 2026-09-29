@@ -17,7 +17,7 @@
 
 ## What it does
 
-Food.
+Edible, but it doesn't fill you up.
 
 ## Relic abilities
 

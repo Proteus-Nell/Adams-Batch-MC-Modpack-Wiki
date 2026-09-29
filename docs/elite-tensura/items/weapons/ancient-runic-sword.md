@@ -13,13 +13,18 @@
 | **Stack size** | 1 |
 | **Gear EP** | 100 - 60,000 |
 | **Evolves into** | [Renewed Runic Sword](renewed-runic-sword.md) |
+| **Attack damage** | 35 |
 | **Attack speed** | 4 |
+| **Sweep damage** | +50% |
+| **Critical chance** | +0.8% |
+| **Critical damage** | +2× |
+| **Durability** | 600 |
 
 </div>
 
 ## What it does
 
-A sword that deals **?** attack damage at **4** attack speed. It also has +0.8% critical hit chance, +2 critical damage multiplier and 50% sweeping damage.
+A sword that deals **35** attack damage at **4** attack speed. It also has +0.8% critical hit chance, +2 critical damage multiplier and 50% sweeping damage. Durability: **600**.
 
 ## Tags
 

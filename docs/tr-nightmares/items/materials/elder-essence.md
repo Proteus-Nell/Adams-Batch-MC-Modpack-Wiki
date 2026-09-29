@@ -19,7 +19,7 @@ A fragment of an ancient soul, forgotten strength... Desirable strength.
 
 ## What it does
 
-Food. It is dropped by [Elder Guardian](https://minecraft.wiki/w/Elder_Guardian), [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon), [Guardian](https://minecraft.wiki/w/Guardian), [Wither](https://minecraft.wiki/w/Wither) and 2 more.
+Food that restores **4** hunger (2 shanks) and **2.4** saturation, and can be eaten even when you're full. It is dropped by [Elder Guardian](https://minecraft.wiki/w/Elder_Guardian), [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon), [Guardian](https://minecraft.wiki/w/Guardian), [Wither](https://minecraft.wiki/w/Wither) and 2 more.
 
 ## Obtaining
 

@@ -422,6 +422,10 @@
      "food": true,
      "rarity": "Rare"
     },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/morerelics/item/epoch_apple.png",

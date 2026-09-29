@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cooked Megalodon Meat](cooked-megalodon-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Megalodon](../../mobs/megalodon.md).
+Food that restores **6** hunger (3 shanks) and **4.8** saturation. Used to make [Cooked Megalodon Meat](cooked-megalodon-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Megalodon](../../mobs/megalodon.md).
 
 ## Obtaining
 

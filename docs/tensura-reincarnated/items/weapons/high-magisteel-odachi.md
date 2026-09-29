@@ -15,6 +15,9 @@
 | **Evolves into** | [Pure Magisteel Odachi](pure-magisteel-odachi.md) |
 | **Attack damage** | 23 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
+| **Critical chance** | +20% |
 | **Tier** | High Magisteel |
 | **Durability** | 2,500 |
 

@@ -550,3 +550,106 @@ def gamerules(ix: JavaIndex, mod_keys: set, res=None) -> list:
     for g in out:
         uniq.setdefault(g["name"], g)
     return sorted(uniq.values(), key=lambda g: g["name"].lower())
+
+
+# vanilla MobEffects constants whose registry id differs from the lower-cased name
+VANILLA_EFFECT_IDS = {
+    "MOVEMENT_SPEED": "speed", "MOVEMENT_SLOWDOWN": "slowness", "DIG_SPEED": "haste", "DIG_SLOWDOWN": "mining_fatigue",
+    "DAMAGE_BOOST": "strength", "HEAL": "instant_health", "HARM": "instant_damage", "JUMP": "jump_boost",
+    "CONFUSION": "nausea", "DAMAGE_RESISTANCE": "resistance",
+}
+
+
+def _food_node(ix: JavaIndex, reg: Reg):
+    """The FoodProperties builder chain an item uses: `.food(X)` or a FoodProperties constant passed to the item."""
+    roots = [(reg.node, reg.ctx)]
+    c = ix.classes.get(reg.cls) if reg.cls else None
+    depth = 0
+    while c is not None and depth < 4:
+        for m in c.methods.get("<init>", []):
+            roots.append((m.node, c))
+        for mn in ("getFoodProperties",):
+            for m in c.methods.get(mn, []):
+                roots.append((m.node, c))
+        c = ix.resolve(c.superclass, c) if c.superclass else None
+        depth += 1
+    for root, ctx in roots:
+        for n in walk(root):
+            if n.type == "method_invocation" and text(n.child_by_field_name("name")) in ("nutrition", "saturationModifier"):
+                # an inline builder: climb to the top of the chain
+                top = n
+                while top.parent is not None and top.parent.type == "method_invocation":
+                    top = top.parent
+                return top, ctx
+            ff = None
+            if n.type == "identifier" and n.parent is not None and n.parent.type == "argument_list" \
+                    and n.parent.parent is not None and text(n.parent.parent.child_by_field_name("name")) == "food":
+                # .food(PROPERTIES) with a constant of the item class
+                ff = ix.find_field(ctx, text(n))
+            if n.type == "field_access":
+                oc = ix.resolve(text(n.child_by_field_name("object")), ctx)
+                ff = ix.find_field(oc, text(n.child_by_field_name("field"))) if oc is not None else None
+            if ff is not None:
+                if ff is not None and ff.value is not None and "FoodProperties" in (ff.type or "") + text(ff.value)[:80]:
+                    val = ff.value
+                    if val.type == "method_invocation" and val.child_by_field_name("object") is None and not call_args(val):
+                        # LIFE_ESSENCE = createEssenceProperties();
+                        fm = ff.cls.method(text(val.child_by_field_name("name")))
+                        rets = fm.returns() if fm is not None else []
+                        val = rets[0] if rets else val
+                    if re.search(r"nutrition|\.effect\(|alwaysEdible", text(val)):
+                        return val, ff.cls
+    return None, None
+
+
+def food_facts(ix: JavaIndex, reg: Reg, effect_ids: dict) -> dict:
+    """nutrition, saturation, always edible, eat effects: {"nutrition": 4, "saturation": 1.2, "effects": [...]}.
+
+    effect_ids maps "owner.fqcn.FIELD" to a registry id for mod effects."""
+    node, ctx = _food_node(ix, reg)
+    if node is None:
+        return {}
+    out = {}
+    effects = []
+    for n in walk(node):
+        if n.type != "method_invocation":
+            continue
+        name = text(n.child_by_field_name("name"))
+        a = call_args(n)
+        if name == "nutrition" and a:
+            v = ix.try_eval(a[0], ctx)
+            if isinstance(v, (int, float)):
+                out["nutrition"] = v
+        elif name == "saturationModifier" and a:
+            v = ix.try_eval(a[0], ctx)
+            if isinstance(v, (int, float)):
+                out["saturation"] = round(float(v), 3)
+        elif name == "alwaysEdible":
+            out["always_edible"] = True
+        elif name == "fast":
+            out["fast"] = True
+        elif name == "effect" and a:
+            inst = next((x for x in walk(a[0]) if x.type == "object_creation_expression" and "MobEffectInstance" in text(x.child_by_field_name("type"))), None)
+            if inst is None:
+                continue
+            ia = call_args(inst)
+            if not ia:
+                continue
+            consts = re.findall(r"([A-Za-z_][\w.]*?)\.([A-Z][A-Z0-9_]+)\b", text(ia[0]))
+            eid = None
+            if consts:
+                owner, const = consts[-1]
+                if owner.rsplit(".", 1)[-1] == "MobEffects":
+                    eid = "minecraft:" + VANILLA_EFFECT_IDS.get(const, const.lower())
+                else:
+                    oc = ix.resolve(owner, ctx)
+                    eid = effect_ids.get("%s.%s" % (oc.fqcn if oc is not None else owner, const))
+            dur = ix.try_eval(ia[1], ctx) if len(ia) > 1 else None
+            amp = ix.try_eval(ia[2], ctx) if len(ia) > 2 else 0
+            prob = ix.try_eval(a[1], ctx) if len(a) > 1 else 1.0
+            effects.append({"effect": eid, "duration": dur if isinstance(dur, (int, float)) else None,
+                            "amplifier": amp if isinstance(amp, int) else 0,
+                            "chance": float(prob) if isinstance(prob, (int, float)) else 1.0})
+    if effects:
+        out["effects"] = effects[::-1]  # the walk sees the builder chain inside out
+    return out

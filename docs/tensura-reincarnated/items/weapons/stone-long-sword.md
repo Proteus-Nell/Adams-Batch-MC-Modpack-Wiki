@@ -12,6 +12,8 @@
 | **Category** | Weapons |
 | **Attack damage** | 7 (6 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Stone |
 | **Durability** | 131 |
 

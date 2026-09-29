@@ -14,11 +14,11 @@
 | ![](../../../assets/icons/tensura/item/adamantite_spear.png) | [Adamantite Spear](adamantite-spear.md) |  |
 | ![](../../../assets/icons/tensura/item/adamantite_sword.png) | [Adamantite Sword](adamantite-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/adamantite_tachi.png) | [Adamantite Tachi](adamantite-tachi.md) |  |
-| ![](../../../assets/icons/tensura/item/ant_crossbow.png) | [Ant Crossbow](ant-crossbow.md) |  |
-| ![](../../../assets/icons/tensura/item/armorsaurus_gauntlet.png) | [Armorsaurus Gauntlet](armorsaurus-gauntlet.md) |  |
+| ![](../../../assets/icons/tensura/item/ant_crossbow.png) | [Ant Crossbow](ant-crossbow.md) | A crossbow made from giant ant parts. |
+| ![](../../../assets/icons/tensura/item/armorsaurus_gauntlet.png) | [Armorsaurus Gauntlet](armorsaurus-gauntlet.md) | A multitool gauntlet: it mines the blocks in Tensura's multitool tag, digs monster-diggable blocks very fast and cuts... |
 | ![](../../../assets/icons/tensura/item/beast_horn_spear.png) | [Beast Horn Spear](beast-horn-spear.md) |  |
-| ![](../../../assets/icons/tensura/item/blade_tiger_scythe.png) | [Blade Tiger Scythe](blade-tiger-scythe.md) |  |
-| ![](../../../assets/icons/tensura/item/centipede_dagger.png) | [Centipede Dagger](centipede-dagger.md) |  |
+| ![](../../../assets/icons/tensura/item/blade_tiger_scythe.png) | [Blade Tiger Scythe](blade-tiger-scythe.md) | A two-handed scythe made from a Blade Tiger's tail, with long reach and a high critical chance (see the stats box). |
+| ![](../../../assets/icons/tensura/item/centipede_dagger.png) | [Centipede Dagger](centipede-dagger.md) | A short dagger with a high critical chance. |
 | ![](../../../assets/icons/tensura/item/dead_end_rainbow.png) | [Dead End Rainbow](dead-end-rainbow.md) |  |
 | ![](../../../assets/icons/tensura/item/diamond_great_sword.png) | [Diamond Great Sword](diamond-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/diamond_katana.png) | [Diamond Katana](diamond-katana.md) |  |
@@ -39,7 +39,7 @@
 | ![](../../../assets/icons/tensura/item/golden_short_sword.png) | [Golden Short Sword](golden-short-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/golden_spear.png) | [Golden Spear](golden-spear.md) |  |
 | ![](../../../assets/icons/tensura/item/golden_tachi.png) | [Golden Tachi](golden-tachi.md) |  |
-| ![](../../../assets/icons/tensura/item/high_magic_staff.png) | [High Magic Staff](high-magic-staff.md) |  |
+| ![](../../../assets/icons/tensura/item/high_magic_staff.png) | [High Magic Staff](high-magic-staff.md) | A grimoire, a spellbook you cast magic from. |
 | ![](../../../assets/icons/tensura/item/high_magisteel_great_sword.png) | [High Magisteel Great Sword](high-magisteel-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/high_magisteel_katana.png) | [High Magisteel Katana](high-magisteel-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/high_magisteel_kodachi.png) | [High Magisteel Kodachi](high-magisteel-kodachi.md) |  |
@@ -60,7 +60,7 @@
 | ![](../../../assets/icons/tensura/item/hihiirokane_spear.png) | [Hihi'Irokane Spear](hihiirokane-spear.md) |  |
 | ![](../../../assets/icons/tensura/item/hihiirokane_sword.png) | [Hihi'Irokane Sword](hihiirokane-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/hihiirokane_tachi.png) | [Hihi'Irokane Tachi](hihiirokane-tachi.md) |  |
-| ![](../../../assets/icons/tensura/item/ice_blade.png) | [Ice Blade](ice-blade.md) |  |
+| ![](../../../assets/icons/tensura/item/ice_blade.png) | [Ice Blade](ice-blade.md) | A two-handed ice sword. |
 | ![](../../../assets/icons/tensura/item/iron_great_sword.png) | [Iron Great Sword](iron-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/iron_katana.png) | [Iron Katana](iron-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/iron_kodachi.png) | [Iron Kodachi](iron-kodachi.md) |  |
@@ -72,9 +72,9 @@
 | ![](../../../assets/icons/tensura/item/iron_tachi.png) | [Iron Tachi](iron-tachi.md) |  |
 | ![](../../../assets/icons/tensura/item/kanabo.png) | [Kanabo](kanabo.md) |  |
 | ![](../../../assets/icons/tensura/item/kunai.png) | [Kunai](kunai.md) |  |
-| ![](../../../assets/icons/tensura/item/long_bow.png) | [Long Bow](long-bow.md) |  |
-| ![](../../../assets/icons/tensura/item/long_spider_bow.png) | [Long Spider Bow](long-spider-bow.md) |  |
-| ![](../../../assets/icons/tensura/item/low_magic_staff.png) | [Low Magic Staff](low-magic-staff.md) |  |
+| ![](../../../assets/icons/tensura/item/long_bow.png) | [Long Bow](long-bow.md) | A Tensura bow. |
+| ![](../../../assets/icons/tensura/item/long_spider_bow.png) | [Long Spider Bow](long-spider-bow.md) | A Tensura bow. |
+| ![](../../../assets/icons/tensura/item/low_magic_staff.png) | [Low Magic Staff](low-magic-staff.md) | A grimoire, a spellbook you cast magic from. |
 | ![](../../../assets/icons/tensura/item/low_magisteel_great_sword.png) | [Low Magisteel Great Sword](low-magisteel-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/low_magisteel_katana.png) | [Low Magisteel Katana](low-magisteel-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/low_magisteel_kodachi.png) | [Low Magisteel Kodachi](low-magisteel-kodachi.md) |  |
@@ -85,8 +85,8 @@
 | ![](../../../assets/icons/tensura/item/low_magisteel_spear.png) | [Low Magisteel Spear](low-magisteel-spear.md) |  |
 | ![](../../../assets/icons/tensura/item/low_magisteel_sword.png) | [Low Magisteel Sword](low-magisteel-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/low_magisteel_tachi.png) | [Low Magisteel Tachi](low-magisteel-tachi.md) |  |
-| ![](../../../assets/icons/tensura/item/meat_crusher.png) | [Meat Crusher](meat-crusher.md) |  |
-| ![](../../../assets/icons/tensura/item/medium_magic_staff.png) | [Medium Magic Staff](medium-magic-staff.md) |  |
+| ![](../../../assets/icons/tensura/item/meat_crusher.png) | [Meat Crusher](meat-crusher.md) | A heavy two-handed club (the Orc Lord's weapon). |
+| ![](../../../assets/icons/tensura/item/medium_magic_staff.png) | [Medium Magic Staff](medium-magic-staff.md) | A grimoire, a spellbook you cast magic from. |
 | ![](../../../assets/icons/tensura/item/mithril_great_sword.png) | [Mithril Great Sword](mithril-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/mithril_katana.png) | [Mithril Katana](mithril-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/mithril_kodachi.png) | [Mithril Kodachi](mithril-kodachi.md) |  |
@@ -130,8 +130,8 @@
 | ![](../../../assets/icons/tensura/item/pure_magisteel_tachi.png) | [Pure Magisteel Tachi](pure-magisteel-tachi.md) |  |
 | ![](../../../assets/icons/tensura/item/ruhk.png) | [Ruhk](ruhk.md) |  |
 | ![](../../../assets/icons/tensura/item/severer_blade.png) | [Severer Blade](severer-blade.md) |  |
-| ![](../../../assets/icons/tensura/item/short_bow.png) | [Short Bow](short-bow.md) |  |
-| ![](../../../assets/icons/tensura/item/short_spider_bow.png) | [Short Spider Bow](short-spider-bow.md) |  |
+| ![](../../../assets/icons/tensura/item/short_bow.png) | [Short Bow](short-bow.md) | A Tensura bow. |
+| ![](../../../assets/icons/tensura/item/short_spider_bow.png) | [Short Spider Bow](short-spider-bow.md) | A Tensura bow. |
 | ![](../../../assets/icons/tensura/item/silver_great_sword.png) | [Silver Great Sword](silver-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/silver_katana.png) | [Silver Katana](silver-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/silver_kodachi.png) | [Silver Kodachi](silver-kodachi.md) |  |
@@ -143,9 +143,9 @@
 | ![](../../../assets/icons/tensura/item/silver_sword.png) | [Silver Sword](silver-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/silver_tachi.png) | [Silver Tachi](silver-tachi.md) |  |
 | ![](../../../assets/icons/tensura/item/spatial_blade.png) | [Spatial Blade](spatial-blade.md) | Blade Mode: Right-click to shoot out blades. |
-| ![](../../../assets/icons/tensura/item/spider_bow.png) | [Spider Bow](spider-bow.md) |  |
-| ![](../../../assets/icons/tensura/item/spider_dagger.png) | [Spider Dagger](spider-dagger.md) |  |
-| ![](../../../assets/icons/tensura/item/slime_staff.png) | [Staff of Slime](slime-staff.md) |  |
+| ![](../../../assets/icons/tensura/item/spider_bow.png) | [Spider Bow](spider-bow.md) | A Tensura bow. |
+| ![](../../../assets/icons/tensura/item/spider_dagger.png) | [Spider Dagger](spider-dagger.md) | A short dagger with a high critical chance. |
+| ![](../../../assets/icons/tensura/item/slime_staff.png) | [Staff of Slime](slime-staff.md) | A staff for commanding your slimes. |
 | ![](../../../assets/icons/tensura/item/stone_great_sword.png) | [Stone Great Sword](stone-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/stone_katana.png) | [Stone Katana](stone-katana.md) |  |
 | ![](../../../assets/icons/tensura/item/stone_kodachi.png) | [Stone Kodachi](stone-kodachi.md) |  |
@@ -158,10 +158,10 @@
 | ![](../../../assets/icons/tensura/item/tempest_scale_knife.png) | [Tempest Scale Knife](tempest-scale-knife.md) |  |
 | ![](../../../assets/icons/tensura/item/tempest_scale_sword.png) | [Tempest Scale Sword](tempest-scale-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/unicorn_horn_spear.png) | [Unicorn Horn Spear](unicorn-horn-spear.md) |  |
-| ![](../../../assets/icons/tensura/item/vortex_spear.png) | [Vortex Spear](vortex-spear.md) |  |
+| ![](../../../assets/icons/tensura/item/vortex_spear.png) | [Vortex Spear](vortex-spear.md) | A two-handed spear with the power of Riptide, usable anywhere. |
 | ![](../../../assets/icons/tensura/item/walther_p99.png) | [Walther P99](walther-p99.md) | Mode: Magic Bullet. |
-| ![](../../../assets/icons/tensura/item/war_bow.png) | [War Bow](war-bow.md) |  |
-| ![](../../../assets/icons/tensura/item/war_spider_bow.png) | [War Spider Bow](war-spider-bow.md) |  |
+| ![](../../../assets/icons/tensura/item/war_bow.png) | [War Bow](war-bow.md) | A Tensura bow. |
+| ![](../../../assets/icons/tensura/item/war_spider_bow.png) | [War Spider Bow](war-spider-bow.md) | A Tensura bow. |
 | ![](../../../assets/icons/tensura/item/web_gun.png) | [Web Gun](web-gun.md) | Projectile: |
 | ![](../../../assets/icons/tensura/item/wooden_great_sword.png) | [Wooden Great Sword](wooden-great-sword.md) |  |
 | ![](../../../assets/icons/tensura/item/wooden_katana.png) | [Wooden Katana](wooden-katana.md) |  |

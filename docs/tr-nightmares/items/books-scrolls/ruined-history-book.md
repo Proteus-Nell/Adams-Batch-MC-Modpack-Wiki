@@ -14,6 +14,8 @@
 
 ## What it does
 
+A history book found in Ancient City chests. Its pages are too damaged to read; craft it with essence to restore it into the [Ancient History Book](ancient-history-book.md).
+
 Used to make [Ancient History Book](ancient-history-book.md). It is found in 1 kind of loot chest.
 
 ## Obtaining

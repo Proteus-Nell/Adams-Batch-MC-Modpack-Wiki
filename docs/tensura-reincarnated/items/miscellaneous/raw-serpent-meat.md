@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cooked Serpent Meat](cooked-serpent-meat.md), [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion) and [Dubious Food](dubious-food.md). It is dropped by [Tempest Serpent](../../mobs/tempest-serpent.md).
+Food that restores **5** hunger (2.5 shanks) and **3.6** saturation. Used to make [Cooked Serpent Meat](cooked-serpent-meat.md), [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion) and [Dubious Food](dubious-food.md). It is dropped by [Tempest Serpent](../../mobs/tempest-serpent.md).
 
 ## Obtaining
 

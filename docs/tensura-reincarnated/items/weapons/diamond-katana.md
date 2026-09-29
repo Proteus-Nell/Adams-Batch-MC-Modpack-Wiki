@@ -12,6 +12,8 @@
 | **Category** | Weapons |
 | **Attack damage** | 8 (7 one-handed) |
 | **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
 | **Tier** | Diamond |
 | **Durability** | 1,561 |
 

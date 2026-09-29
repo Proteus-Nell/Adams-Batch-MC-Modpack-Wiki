@@ -12,12 +12,17 @@
 | **Category** | Tools |
 | **Stack size** | 1 |
 | **Durability** | 10,000 |
+| **Attack damage** | 7.5 |
+| **Attack speed** | 1 |
+| **Tier** | Sacred Treasure |
 
 </div>
 
 ## What it does
 
-It is made at the Tensura Smithing.
+Despite the name, the Terrablade is a **shovel** (Sacred Treasure tier, 10,000 durability) with no special ability.
+
+A Sacred Treasure weapon that deals **7.5** attack damage at **1** attack speed. Durability: **10,000**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

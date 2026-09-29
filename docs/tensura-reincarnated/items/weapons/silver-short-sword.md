@@ -13,6 +13,9 @@
 | **Gear EP** | 0 - 0 |
 | **Attack damage** | 4 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
 | **Tier** | Silver |
 | **Durability** | 150 |
 

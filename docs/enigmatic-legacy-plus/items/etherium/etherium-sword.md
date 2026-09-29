@@ -11,6 +11,9 @@
 | **ID** | `enigmaticlegacyplus:etherium_sword` |
 | **Category** | Etherium |
 | **Fire resistant** | Yes |
+| **Attack damage** | 12 |
+| **Attack speed** | 1.4 |
+| **Durability** | 2,794 |
 
 </div>
 
@@ -22,7 +25,7 @@ Enhancement: Right click to parry.
 
 ## What it does
 
-It is crafted.
+A sword that deals **12** attack damage at **1.4** attack speed. Durability: **2,794**. It is crafted.
 
 ## Obtaining
 

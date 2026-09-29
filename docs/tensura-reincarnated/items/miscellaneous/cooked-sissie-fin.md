@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. It is smelted in a furnace, cooked on a campfire and cooked in a smoker.
+Food that restores **4** hunger (2 shanks) and **10.2** saturation. It is smelted in a furnace, cooked on a campfire and cooked in a smoker.
 
 ## Obtaining
 

@@ -797,6 +797,35 @@
      "rarity": "Rare",
      "food": true
     },
+    "food": {
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:absorption",
+       "duration": 1200,
+       "amplifier": 4,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:regeneration",
+       "duration": 600,
+       "amplifier": 2,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:fire_resistance",
+       "duration": 3200,
+       "amplifier": 0,
+       "chance": 1.0
+      },
+      {
+       "effect": "enigmaticlegacyplus:pure_resistance",
+       "duration": 1200,
+       "amplifier": 2,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [
      "To contempt the gods, one must know them...",
      "Consume to obtain +1 Charm Slot permanently."
@@ -886,6 +915,15 @@
     "props": {
      "rarity": "Rare",
      "fire_resistant": true
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 8.0,
+      "attack_speed": 1.4
+     },
+     "tier": "Tier",
+     "durability": 1876,
+     "mining_speed": 8.5
     },
     "tooltips": [
      "+150% Damage against dwellers of The End.",
@@ -1251,6 +1289,15 @@
     "props": {
      "fire_resistant": true
     },
+    "gear": {
+     "main": {
+      "attack_damage": 15.0,
+      "attack_speed": 1.0
+     },
+     "tier": "Tier",
+     "durability": 2794,
+     "mining_speed": 8.0
+    },
     "tooltips": [
      "Breaks blocks in 3x3x1 area.",
      "Hold Shift to suppress this effect.",
@@ -1341,6 +1388,15 @@
     "props": {
      "fire_resistant": true
     },
+    "gear": {
+     "main": {
+      "attack_damage": 9.0,
+      "attack_speed": 2.0
+     },
+     "tier": "Tier",
+     "durability": 2794,
+     "mining_speed": 8.0
+    },
     "tooltips": [
      "Breaks blocks in 3x3x3 area.",
      "Hold Shift to suppress this effect.",
@@ -1361,6 +1417,15 @@
     "category": "Etherium",
     "props": {
      "fire_resistant": true
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 12.0,
+      "attack_speed": 1.4
+     },
+     "tier": "Tier",
+     "durability": 2794,
+     "mining_speed": 8.0
     },
     "tooltips": [
      "When held, provides ? Chance to avoid damage.",
@@ -1410,6 +1475,15 @@
      "rarity": "Uncommon",
      "fire_resistant": true
     },
+    "gear": {
+     "main": {
+      "attack_damage": 10.0,
+      "attack_speed": 1.6
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
+    },
     "tooltips": [
      "Has a chance to behead slain monsters.",
      "Each level of Looting applied adds +5%",
@@ -1446,6 +1520,11 @@
     "category": "Food",
     "props": {
      "food": true
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.7,
+     "nutrition": 7
     },
     "tooltips": [],
     "tags": [],
@@ -1533,6 +1612,37 @@
      "rarity": "Rare",
      "food": true
     },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.5,
+     "nutrition": 2,
+     "effects": [
+      {
+       "effect": "minecraft:wither",
+       "duration": 400,
+       "amplifier": 3,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:nausea",
+       "duration": 400,
+       "amplifier": 2,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:weakness",
+       "duration": 480,
+       "amplifier": 3,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:slowness",
+       "duration": 640,
+       "amplifier": 2,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [
      "After consuming the fruit you shall never",
      "experience hunger again, but any form of",
@@ -1552,6 +1662,35 @@
      "fire_resistant": true,
      "rarity": "Rare",
      "food": true
+    },
+    "food": {
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:wither",
+       "duration": 400,
+       "amplifier": 3,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:nausea",
+       "duration": 400,
+       "amplifier": 2,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:weakness",
+       "duration": 480,
+       "amplifier": 3,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:slowness",
+       "duration": 640,
+       "amplifier": 2,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [],
@@ -1778,6 +1917,35 @@
      "rarity": "Rare",
      "food": true
     },
+    "food": {
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:absorption",
+       "duration": 1200,
+       "amplifier": 4,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:regeneration",
+       "duration": 600,
+       "amplifier": 2,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:fire_resistance",
+       "duration": 3200,
+       "amplifier": 0,
+       "chance": 1.0
+      },
+      {
+       "effect": "enigmaticlegacyplus:pure_resistance",
+       "duration": 1200,
+       "amplifier": 2,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [
      "To contempt the gods, one must know them...",
      "Consume to obtain +1 Charm Slot permanently."
@@ -1796,6 +1964,35 @@
     "props": {
      "rarity": "Rare",
      "food": true
+    },
+    "food": {
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "enigmaticlegacyplus:ichor_curse",
+       "duration": 38400,
+       "amplifier": 0,
+       "chance": 1.0
+      },
+      {
+       "effect": "enigmaticlegacyplus:ichor_corrosion",
+       "duration": 1200,
+       "amplifier": 0,
+       "chance": 0.8
+      },
+      {
+       "effect": "enigmaticlegacyplus:ichor_corrosion",
+       "duration": 1200,
+       "amplifier": 0,
+       "chance": 0.4
+      },
+      {
+       "effect": "enigmaticlegacyplus:ichor_corrosion",
+       "duration": 1200,
+       "amplifier": 0,
+       "chance": 0.2
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -1836,6 +2033,25 @@
     "category": "Food",
     "props": {
      "food": true
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.9,
+     "nutrition": 3,
+     "effects": [
+      {
+       "effect": "enigmaticlegacyplus:pure_resistance",
+       "duration": 360,
+       "amplifier": 0,
+       "chance": 0.25
+      },
+      {
+       "effect": "minecraft:absorption",
+       "duration": 360,
+       "amplifier": 0,
+       "chance": 0.5
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -2751,6 +2967,12 @@
     "props": {
      "rarity": "Epic"
     },
+    "gear": {
+     "main": {
+      "attack_damage": 4.5,
+      "attack_speed": 1.9
+     }
+    },
     "tooltips": [
      "Alteration of the ?:",
      "Fourth Curse",
@@ -2773,6 +2995,12 @@
     "category": "Books",
     "props": {
      "rarity": "Epic"
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 7.0,
+      "attack_speed": 2.4
+     }
     },
     "tooltips": [
      "Alteration of the ?:",
@@ -2842,6 +3070,12 @@
     "props": {
      "rarity": "Epic"
     },
+    "gear": {
+     "main": {
+      "attack_damage": 16.0,
+      "attack_speed": 2.0
+     }
+    },
     "tooltips": [
      "Alteration of the ?:",
      "Fourth Curse",
@@ -2881,6 +3115,12 @@
     "props": {
      "rarity": "Epic"
     },
+    "gear": {
+     "main": {
+      "attack_damage": Infinity,
+      "attack_speed": 32.0
+     }
+    },
     "tooltips": [
      "Upon attack, deals damage to every",
      "creature within a radius of 64 blocks",
@@ -2901,6 +3141,12 @@
     "category": "Books",
     "props": {
      "rarity": "Epic"
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 9.0,
+      "attack_speed": 2.2
+     }
     },
     "tooltips": [
      "Alteration of the ?:",

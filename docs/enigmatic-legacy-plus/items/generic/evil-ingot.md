@@ -16,6 +16,8 @@
 
 ## What it does
 
+**Nefarious Ingot**, a cursed metal. It's the centerpiece of the Annihilating (abyssal) recipes.
+
 Used to make [The Arrogance of Chaos](../tools/chaos-elytra.md). It is made at the Crafting (cursed).
 
 ## Obtaining

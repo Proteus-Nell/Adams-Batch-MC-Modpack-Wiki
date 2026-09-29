@@ -412,3 +412,88 @@ The template for each player's own Imaginary Space, a flat, dark world where tim
 - Shift + press to leave, taking everything within 6 blocks of you along.
 - Mobs you leave behind are saved and put back the next time you enter, so it doubles as a prison.
 - Azathoth's Imaginary Blade can cut enemies straight into your Imaginary Space, and a {{link:skill/trnightmare:divine_wisdom_core}} can follow its host in.
+
+<!-- kind: items -->
+
+## class:com.github.hvnbael.trnightmare.main.weapon.GenesisSwordItem, class:com.github.hvnbael.trnightmare.main.weapon.ArkSwordItem
+One of the divine-tier **Genesis** swords. It has no ability of its own: it's a stat weapon with long reach, a strong sweep and a 20% critical chance (see the stats box), and 10,000 durability.
+
+{{auto}}
+
+## trnightmare:memory
+**Memory**, a Genesis sword with the same stats as the others. {{link:skill/trnightmare:astral_light}} forges it (its fifth mode) if you have a named Amnesiac ego. Only one Memory exists per world: copies that don't match the world's forged Memory are deleted from inventories.
+
+{{auto}}
+
+## trnightmare:gilgamesh_ea
+**Ea**, Gilgamesh's Genesis sword, summoned by the Gilgamesh skills. It has the Genesis sword stats, plus:
+
+- **Enuma Elish:** use it (right-click) to fire a beam that reaches 96 blocks and deals **2,000** damage. It costs **1,500,000** magicule and **1,500,000** aura and has a 2-minute cooldown.
+- Its hits do nothing to a target with more than **twice your EP**.
+
+{{auto}}
+
+## trnightmare:gilgamesh_marduk_axe
+**Marduk**, Gilgamesh's Genesis axe, summoned by the Gilgamesh skills. It's a divine-tier axe with no ability of its own (see the stats box).
+
+{{auto}}
+
+## trnightmare:mystic_code_book
+A spellbook summoned by the Gilgamesh skills. Held in either hand it gives **+5** chant speed.
+
+{{auto}}
+
+## trnightmare:divine_axe_rhitta
+Escanor's divine axe. Holding it in either hand powers up {{link:skill/trnightmare:sunshine}}: Sunshine's bonus to physical, light, fire and heat damage rises from **{{cfg:config/nightmare/ability/skill/nightmare_unique.toml|Sunshine.noRhittaDamagePercentage}}%** to **{{cfg:config/nightmare/ability/skill/nightmare_unique.toml|Sunshine.hasRhittaDamagePercentage}}%**, and you keep Fire Resistance while Sunshine is on. The axe never breaks, can't be repaired, doesn't burn and can't be put in shulker boxes or bundles.
+
+{{auto}}
+
+## trnightmare:lostvayne_sword, trnightmare:zeldris_sword, trnightmare:galand_halberd, trnightmare:dragon_seal
+A treasure weapon with no ability of its own (see the stats box). It never breaks, can't be repaired, doesn't burn and can't be put in shulker boxes or bundles.
+
+{{auto}}
+
+## trnightmare:excalibur, trnightmare:caliburn, trnightmare:the_asura
+A divine-tier sword with no ability of its own: a stat weapon (see the stats box) with 10,000 durability.
+
+{{auto}}
+
+## trnightmare:the_world
+A divine-tier sword (see the stats box). While a player holds it in either hand, their attacks go straight through {{link:skill/tensura:infinity_prison}}'s protection. {{link:skill/trnightmare:nodens}} can upgrade it into {{link:trnightmare:nodens_the_world}}.
+
+{{auto}}
+
+## trnightmare:terrablade
+Despite the name, the Terrablade is a **shovel** (Sacred Treasure tier, 10,000 durability) with no special ability.
+
+{{auto}}
+
+## trnightmare:ending_sealed_sword
+The sealed form of the {{link:skill/trnightmare:ending}} skill's sword; the skill creates it. If you have Ending, every hit gives the target {{link:effect/trnightmare:core_damage}} II for 5 seconds. If you don't, trying to use it destroys it. Repair it with Daemon Essence.
+
+{{auto}}
+
+## trnightmare:ending_unsealed_sword
+The unsealed form of the {{link:skill/trnightmare:ending}} skill's sword. If you have Ending, every hit gives the target {{link:effect/trnightmare:ending}} for 5 seconds, and holding it in your main hand fully masters Ending (mastery 1,500). If you don't have Ending, trying to use it destroys it. Repair it with Daemon Essence.
+
+{{auto}}
+
+## trnightmare:evil_attribute_stick
+A testing stick that raises **every** attribute in the game (vanilla, ManasCore and Tensura) while held: **+0.08** flat, **+3%** of base and **+3%** of total in the main hand, or +0.06, +2.5% and +2.5% in the off hand. (It also lists bonuses for armor slots, but a stick can't be worn.)
+
+{{auto}}
+
+## trnightmare:life_essence
+Life energy gathered from crops: bone-mealing a crop that's still growing has a **50%** chance to drop one, and harvesting a fully grown crop a **10%** chance. It can also be a raid reward. Fairy races have to eat it to evolve, and some skills count how many you've eaten.
+
+{{auto}}
+
+## trnightmare:ruined_history_book
+A history book found in Ancient City chests. Its pages are too damaged to read; craft it with essence to restore it into the {{link:trnightmare:ancient_history_book}}.
+
+{{auto}}
+
+## trnightmare:skill_crystal
+A skill sealed in crystal. {{link:skill/trnightmare:pazuzu}} can crystallize one of its user's skills (the user forgets it). Whoever eats the crystal learns that skill without paying its learning cost. An empty crystal does nothing.
+
+{{auto}}

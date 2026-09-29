@@ -15,6 +15,8 @@
 | **Evolves into** | [Adamantite Great Sword](adamantite-great-sword.md) |
 | **Attack damage** | 29 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
 | **Tier** | Mithril |
 | **Durability** | 2,700 |
 

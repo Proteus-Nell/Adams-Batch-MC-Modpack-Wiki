@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cooked Charybdis Meat](cooked-charybdis-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Charybdis](../../mobs/charybdis.md).
+Food that restores **8** hunger (4 shanks) and **8.5** saturation. Used to make [Cooked Charybdis Meat](cooked-charybdis-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Charybdis](../../mobs/charybdis.md).
 
 ## Obtaining
 

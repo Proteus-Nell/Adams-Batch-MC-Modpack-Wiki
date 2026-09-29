@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Blade Tiger Steak](blade-tiger-steak.md) and [Dubious Food](dubious-food.md). It is dropped by [Blade Tiger](../../mobs/blade-tiger.md).
+Food that restores **7** hunger (3.5 shanks) and **5** saturation. Used to make [Blade Tiger Steak](blade-tiger-steak.md) and [Dubious Food](dubious-food.md). It is dropped by [Blade Tiger](../../mobs/blade-tiger.md).
 
 ## Obtaining
 

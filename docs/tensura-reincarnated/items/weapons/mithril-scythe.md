@@ -14,6 +14,9 @@
 | **Evolves into** | [Adamantite Scythe](adamantite-scythe.md) |
 | **Attack damage** | 28 (27 one-handed) |
 | **Attack speed** | 0.8 (0.6 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +75% (+50% one-handed) |
+| **Critical chance** | +50% |
 | **Tier** | Mithril |
 | **Durability** | 2,700 |
 

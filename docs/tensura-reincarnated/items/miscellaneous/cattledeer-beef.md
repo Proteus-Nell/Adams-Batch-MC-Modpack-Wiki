@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Cattledeer Steak](cattledeer-steak.md) and [Dubious Food](dubious-food.md). It is dropped by [Cattledeer](../../mobs/cattledeer.md).
+Food that restores **5** hunger (2.5 shanks) and **3.3** saturation. Used to make [Cattledeer Steak](cattledeer-steak.md) and [Dubious Food](dubious-food.md). It is dropped by [Cattledeer](../../mobs/cattledeer.md).
 
 ## Obtaining
 

@@ -16,7 +16,7 @@
 
 ## What it does
 
-Food. Used to make [Dubious Food](dubious-food.md). It is dropped by Luminous Valentine.
+Edible, but it doesn't fill you up. Eating it gives [Fragility](../../effects/fragility.md) III for 5 s. Used to make [Dubious Food](dubious-food.md). It is dropped by Luminous Valentine.
 
 ## Obtaining
 

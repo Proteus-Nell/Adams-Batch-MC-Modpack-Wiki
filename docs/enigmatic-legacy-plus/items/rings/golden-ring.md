@@ -16,6 +16,8 @@
 
 ## What it does
 
+**Exquisite Ring**, a ring (Curios slot) that gives **+1 Luck**, keeps piglins neutral and counts as gold to them. One per player.
+
 Used to make [Pact of Infinite Avarice](../scrolls/avarice-scroll.md), [The Burden of Desolation](desolation-ring.md), [Promise of the Earth](earth-promise.md), [Gold Ingot](https://minecraft.wiki/w/Gold_Ingot) and [Magic Quartz Ring](quartz-ring.md). It is crafted and found in 1 kind of loot chest.
 
 ## Obtaining

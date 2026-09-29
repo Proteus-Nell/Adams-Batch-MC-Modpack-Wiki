@@ -11,6 +11,9 @@
 | **ID** | `enigmaticlegacyplus:etherium_hammer` |
 | **Category** | Etherium |
 | **Fire resistant** | Yes |
+| **Attack damage** | 15 |
+| **Attack speed** | 1 |
+| **Durability** | 2,794 |
 
 </div>
 
@@ -26,7 +29,7 @@ Enhancement: Can cause area damage.
 
 ## What it does
 
-Used to make [Ethereal Forging Charm](../charms/ethereal-forging-charm.md). It is crafted.
+A hammer that deals **15** attack damage at **1** attack speed. Durability: **2,794**. It is crafted.
 
 ## Obtaining
 

@@ -17,4 +17,4 @@
 | ![](../../../assets/icons/enigmaticlegacyplus/item/ender_slayer.png) | [The Ender Slayer](ender-slayer.md) | +150% Damage against dwellers of The End. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/totem_of_malice.png) | [Totem of Malice](totem-of-malice.md) | When in the inventory or curio slot: |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/twisted_mirror.png) | [Twisted Mirror](twisted-mirror.md) | Gaze into the mirror to return to your bed |
-| ![](../../../assets/icons/enigmaticlegacyplus/item/soul_compass.png) | [Wayfinder of the Damned](soul-compass.md) |  |
+| ![](../../../assets/icons/enigmaticlegacyplus/item/soul_compass.png) | [Wayfinder of the Damned](soul-compass.md) | Wayfinder of the Damned. |

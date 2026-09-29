@@ -47129,6 +47129,25 @@
     "class": "com.github.hvnbael.trnightmare.main.weapon.ArkSwordItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/ark.png"
@@ -47142,6 +47161,25 @@
     "props": {
      "durability": 10000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/artha_cane.png"
@@ -47154,6 +47192,25 @@
     "category": "Weapons",
     "props": {
      "durability": 10000
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -47248,6 +47305,15 @@
     "props": {
      "durability": 10000,
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 267.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -47483,6 +47549,25 @@
     "props": {
      "durability": 10000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/deva.png"
@@ -47495,6 +47580,25 @@
     "category": "Weapons",
     "props": {
      "durability": 10000
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -47509,6 +47613,15 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 126.0,
+      "attack_speed": 5.0
+     },
+     "tier": "Sacred Treasure",
+     "durability": 10000,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/divine_axe_rhitta.png"
@@ -47520,6 +47633,15 @@
     "class": "com.github.hvnbael.trnightmare.main.weapon.DragonSeal",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 12.0,
+      "attack_speed": 1.6
+     },
+     "tier": "Low Magisteel",
+     "durability": 1800,
+     "mining_speed": 8.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/dragon_seal.png"
@@ -47550,6 +47672,11 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 4,
+     "always_edible": true
+    },
     "tooltips": [
      "A fragment of an ancient soul, forgotten strength... Desirable strength."
     ],
@@ -47564,6 +47691,11 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 4,
+     "always_edible": true
     },
     "tooltips": [
      "Warped power from the void beyond."
@@ -47582,6 +47714,22 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 35.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 36.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Pure Magisteel",
+     "durability": 3000,
+     "mining_speed": 20.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/ending_sealed_sword.png"
@@ -47595,6 +47743,22 @@
     "props": {
      "rarity": "Epic",
      "fire_resistant": true
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 81.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 82.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [],
@@ -47623,6 +47787,15 @@
      "durability": 10000,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 267.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/excalibur.png"
@@ -47636,6 +47809,11 @@
     "props": {
      "food": true,
      "stack": 16
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.1,
+     "nutrition": 1
     },
     "tooltips": [
      "Edible. Imprints a True Dragon into your Inner World."
@@ -47668,6 +47846,15 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 105.0,
+      "attack_speed": 5.0
+     },
+     "tier": "Demon Treasures",
+     "durability": 10000,
+     "mining_speed": 11.0
     },
     "tooltips": [],
     "tags": [],
@@ -47722,6 +47909,25 @@
     "class": "com.github.hvnbael.trnightmare.main.weapon.GilgameshGenesisWeaponItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/gilgamesh_ea.png"
@@ -47776,6 +47982,15 @@
     "category": "Tools",
     "props": {
      "durability": 10000
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 19.0,
+      "attack_speed": 1.6
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -47846,6 +48061,11 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 4,
+     "always_edible": true
+    },
     "tooltips": [
      "A symbol of peace brought by death."
     ],
@@ -47878,6 +48098,25 @@
     "category": "Weapons",
     "props": {
      "durability": 10000
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -47931,6 +48170,11 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 4,
+     "always_edible": true
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/life_essence.png"
@@ -47944,6 +48188,15 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 106.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Sacred Treasure",
+     "durability": 10000,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/lostvayne_sword.png"
@@ -47955,6 +48208,25 @@
     "class": "com.github.hvnbael.trnightmare.main.weapon.MemorySwordItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "one_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/memory.png"
@@ -48159,6 +48431,11 @@
      "food": true,
      "stack": 16
     },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.1,
+     "nutrition": 1
+    },
     "tooltips": [
      "Edible. Imprints a True Dragon into your Inner World."
     ],
@@ -48228,6 +48505,11 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 4,
+     "always_edible": true
+    },
     "tooltips": [
      "A soul hums with lingering life essence."
     ],
@@ -48262,6 +48544,11 @@
      "food": true,
      "stack": 16
     },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.1,
+     "nutrition": 1
+    },
     "tooltips": [
      "Edible. Imprints a True Dragon into your Inner World."
     ],
@@ -48295,6 +48582,15 @@
      "durability": 10000,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 7.5,
+      "attack_speed": 1.0
+     },
+     "tier": "Sacred Treasure",
+     "durability": 10000,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/terrablade.png"
@@ -48309,6 +48605,15 @@
      "durability": 10000,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/trnightmare/item/the_asura.png"
@@ -48322,6 +48627,15 @@
     "props": {
      "durability": 10000,
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 110.0,
+      "attack_speed": 1.5
+     },
+     "tier": "Divine Tools",
+     "durability": 10000,
+     "mining_speed": 14.0
     },
     "tooltips": [],
     "tags": [],
@@ -48415,6 +48729,15 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 166.0,
+      "attack_speed": 7.0
+     },
+     "tier": "Demon Treasures",
+     "durability": 10000,
+     "mining_speed": 11.0
     },
     "tooltips": [],
     "tags": [],

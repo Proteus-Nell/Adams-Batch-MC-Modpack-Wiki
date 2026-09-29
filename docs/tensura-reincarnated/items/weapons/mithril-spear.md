@@ -15,6 +15,8 @@
 | **Evolves into** | [Adamantite Spear](adamantite-spear.md) |
 | **Attack damage** | 26 (25 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Mithril |
 | **Durability** | 2,700 |
 

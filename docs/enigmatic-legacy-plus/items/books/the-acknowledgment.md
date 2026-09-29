@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_acknowledgment` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 4.5 |
+| **Attack speed** | 1.9 |
 
 </div>
 
@@ -28,7 +30,7 @@ incinerate those who refuse to embrace it.
 
 ## What it does
 
-Used to make [The Bless](the-bless.md) and [The Twist](the-twist.md). It is crafted.
+A weapon that deals **4.5** attack damage at **1.9** attack speed. It is crafted.
 
 ## Obtaining
 

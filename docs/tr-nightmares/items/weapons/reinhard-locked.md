@@ -14,6 +14,8 @@
 | **Durability** | 10,000 |
 | **Attack damage** | 117 (116 one-handed) |
 | **Attack speed** | 7 (6.8 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Hihiirokane |
 
 </div>

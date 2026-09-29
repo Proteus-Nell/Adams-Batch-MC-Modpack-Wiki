@@ -14,6 +14,8 @@
 | **Gear EP** | 750,000 - None |
 | **Attack damage** | 82 (81 one-handed) |
 | **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
 | **Tier** | Hihiirokane |
 | **Durability** | 3,600 |
 

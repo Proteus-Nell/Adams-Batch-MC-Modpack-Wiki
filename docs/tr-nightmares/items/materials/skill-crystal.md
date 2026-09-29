@@ -14,3 +14,7 @@
 | **Fire resistant** | Yes |
 
 </div>
+
+## What it does
+
+A skill sealed in crystal. [｢ Pazuzu, Lord of Mischief ｣](../../abilities/ultimate-skills/pazuzu.md) can crystallize one of its user's skills (the user forgets it). Whoever eats the crystal learns that skill without paying its learning cost. An empty crystal does nothing.

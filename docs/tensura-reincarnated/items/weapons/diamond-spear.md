@@ -12,6 +12,8 @@
 | **Category** | Weapons |
 | **Attack damage** | 7 (6 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Diamond |
 | **Durability** | 1,561 |
 

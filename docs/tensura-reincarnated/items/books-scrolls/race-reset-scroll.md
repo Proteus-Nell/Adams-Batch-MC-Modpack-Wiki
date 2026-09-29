@@ -16,6 +16,10 @@
 
 ## What it does
 
+Hold right-click to read it. It resets your statistics, naming, awakening, spirits, resistances and **race**, along with the race's intrinsic skills, so you can choose again.
+
+[Skill Reset Scroll](skill-reset-scroll.md) and [Character Reset Scroll](character-reset-scroll.md) work the same way. None of them work in spectator mode, in spiritual worlds (Hell, the Labyrinth and so on) or in biomes unsafe for spawning, and they have a 5-second cooldown. Servers can limit which scrolls are allowed. If the `resetIncompletePenalty` gamerule is on, resetting before you've met the Reset Counter requirements costs reset points.
+
 It is crafted and made at the Smithing Bench.
 
 ## Obtaining

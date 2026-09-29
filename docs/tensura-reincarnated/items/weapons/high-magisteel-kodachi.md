@@ -15,6 +15,10 @@
 | **Evolves into** | [Pure Magisteel Kodachi](pure-magisteel-kodachi.md) |
 | **Attack damage** | 18 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical chance** | +20% |
+| **Critical damage** | +0.5× |
 | **Tier** | High Magisteel |
 | **Durability** | 2,500 |
 

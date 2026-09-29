@@ -35,3 +35,95 @@ A stronger Poison (it shows up as plain "Poison" in game). It deals **1.5 + 0.12
 The Revival Leaf gives it (Poison II for 10 s) to anything that hits its wearer, and its wearer is immune to it. A Spellstone Sword resonating with the Revival Leaf turns a target's vanilla Poison into this one and stacks it up to level V.
 
 This mod also stops **any** poison damage from killing: a creature that would die to poison is left at 1 health instead.
+
+<!-- kind: items -->
+
+## enigmaticlegacyplus:earth_heart_fragment
+A shard of the Heart of the Earth, found in chests and sold by wandering traders. Brewing it into an Awkward Potion makes a Potion of Luck, and it's a crafting material.
+
+{{auto}}
+
+## enigmaticlegacyplus:evil_essence
+**Nefarious Essence**, a scrap of the Wither's soul that Withers drop. Combine it with a Totem of Malice in an anvil to fully restore the totem. Like other cursed items, only a bearer of the Ring of the Seven Curses can use it.
+
+{{auto}}
+
+## enigmaticlegacyplus:evil_ingot
+**Nefarious Ingot**, a cursed metal. It's the centerpiece of the Annihilating (abyssal) recipes.
+
+{{auto}}
+
+## enigmaticlegacyplus:sacred_crystal
+The core of a Pure Ichor Spirit, dropped when you kill one in the Nether. A cursed material used for defensive items.
+
+{{auto}}
+
+## enigmaticlegacyplus:twisted_heart
+A Heart of the Earth corrupted by the Seven Curses. While a player bearing the Ring of the Seven Curses carries it, it becomes **tainted**, which some recipes (such as the Annihilating recipes) need. It's used in many cursed items.
+
+{{auto}}
+
+## enigmaticlegacyplus:pure_heart
+A heart that holds both hidden corruption and faint divinity. While carried by a player bearing either the Ring of the Seven Curses or the Ring of Redemption, it becomes **tainted** for recipes that need it. Brewing it into a Honey Bottle makes a Blessing Potion.
+
+{{auto}}
+
+## enigmaticlegacyplus:exterminato
+A snack that gives Blazing Might (a random level from I to III) for 30 seconds when eaten.
+
+{{auto}}
+
+## enigmaticlegacyplus:ichoroot
+A root that also removes **one random harmful effect** when you eat it.
+
+{{auto}}
+
+## enigmaticlegacyplus:forbidden_juice
+A drink version of the Forbidden Fruit, only enabled when the Thirst mod is installed. You can only drink it once: afterwards you're marked as cursed by it and can't drink another.
+
+{{auto}}
+
+## enigmaticlegacyplus:ichor_curse_bottle
+**Bottle of Penance.** Drinking it gives the Ichor Curse for 32 minutes. A blessed player (one bearing the Ring of Redemption) also gets Absorption V for 2 minutes. It's both cursed and blessed.
+
+{{auto}}
+
+## enigmaticlegacyplus:golden_ring
+**Exquisite Ring**, a ring (Curios slot) that gives **+1 Luck**, keeps piglins neutral and counts as gold to them. One per player.
+
+{{auto}}
+
+## enigmaticlegacyplus:iron_ring
+A plain ring (Curios slot) that gives **+1 armor**. One per player.
+
+{{auto}}
+
+## enigmaticlegacyplus:quartz_ring
+**Magic Quartz Ring** (Curios slot): **+2 armor**, **+1.5 Luck** and **{{cfg:serverconfig/enigmaticlegacyplus-server.toml|else.quartzRing.specialDamageResistance}}%** less magic damage. One per player.
+
+{{auto}}
+
+## enigmaticlegacyplus:soul_compass
+**Wayfinder of the Damned.** While you carry it, it points to the nearest of your lost Soul Crystals. It spins aimlessly in a Soul Sand Valley or if you can't use it (it's a cursed item).
+
+{{auto}}
+
+## enigmaticlegacyplus:soul_crystal
+A piece of your soul. With the Ring of the Seven Curses ("Every death tears your soul apart"), each death takes a crystal from you and each lost crystal lowers your max health by **10%**; up to {{cfg:serverconfig/enigmaticlegacyplus-server.toml|sevenCurses.maxSoulCrystalLoss}} can be lost (the config decides whether you need the ring, {{cfg:serverconfig/enigmaticlegacyplus-server.toml|sevenCurses.soulCrystalsMode}}). Use a Soul Crystal to take it back and restore that health.
+
+{{auto}}
+
+## enigmaticlegacyplus:storage_crystal
+**Extradimensional Vessel.** When you die while soul loss applies to you, your items, curios and experience are packed into one of these (with your Soul Crystal) instead of scattering. Picking it up gives everything back, puts items in the slots they came from and returns the soul. It can't be destroyed.
+
+{{auto}}
+
+## enigmaticlegacyplus:spellcore
+The core that spellstones are built on. Put it in the {{link:enigmaticlegacyplus:spellstone_table}} to craft spellstones. Holding one in your off hand while using a Spellstone Sword lets you pull out the spell resonance stored in the sword.
+
+{{auto}}
+
+## enigmaticlegacyplus:starlight_particle, enigmaticlegacyplus:starlight_ingot
+Stardust from fallen **Starlight Meteors** (and some chests). It's the material for Starlight gear.
+
+{{auto}}

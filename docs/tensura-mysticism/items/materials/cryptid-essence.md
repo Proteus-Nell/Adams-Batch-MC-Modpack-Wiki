@@ -15,7 +15,7 @@
 
 ## What it does
 
-Food.
+Edible, but it doesn't fill you up. Eating it gives [Nausea](https://minecraft.wiki/w/Nausea) for 5 s.
 
 ## Tags
 

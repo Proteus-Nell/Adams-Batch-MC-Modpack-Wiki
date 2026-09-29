@@ -15,6 +15,9 @@
 | **Evolves into** | [Hihi'Irokane Odachi](hihiirokane-odachi.md) |
 | **Attack damage** | 33 (0 one-handed) |
 | **Attack speed** | 0.8 (0 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +50% |
+| **Critical chance** | +20% |
 | **Tier** | Orichalcum |
 | **Durability** | 2,800 |
 

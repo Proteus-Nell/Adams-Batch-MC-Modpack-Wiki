@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+A bag linked to a spatial storage. The Spatial Storage magic creates one when you release it; using the bag opens that storage, as long as you still have the skill.
+
+
+
 ## Tags
 
 `tensura:dummy_remove_on_leaving_hand`

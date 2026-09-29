@@ -12,6 +12,8 @@
 | **Category** | Weapons |
 | **Attack damage** | 6 (5 one-handed) |
 | **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
 | **Tier** | Iron |
 | **Durability** | 250 |
 

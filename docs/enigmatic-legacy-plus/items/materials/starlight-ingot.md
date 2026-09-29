@@ -16,6 +16,8 @@
 
 ## What it does
 
+Stardust from fallen **Starlight Meteors** (and some chests). It's the material for Starlight gear.
+
 Used to make [Amulet of Ascension](../amulets/ascension-amulet.md), [The Architect's Favor](../scrolls/cosmic-scroll.md), [Starlight Block](../../blocks/starlight-block.md), [Starlight Bucket](../tools/starlight-bucket.md), [Astral Pearl](../misc/starlight-pearl.md) and 1 more. It is crafted.
 
 ## Obtaining

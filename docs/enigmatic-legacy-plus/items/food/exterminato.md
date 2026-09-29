@@ -15,7 +15,9 @@
 
 ## What it does
 
-Food. It is crafted.
+A snack that gives Blazing Might (a random level from I to III) for 30 seconds when eaten.
+
+Food that restores **7** hunger (3.5 shanks) and **9.8** saturation, and can be eaten even when you're full. It is crafted.
 
 ## Obtaining
 

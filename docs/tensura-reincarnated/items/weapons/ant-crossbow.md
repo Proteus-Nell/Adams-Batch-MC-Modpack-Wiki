@@ -17,6 +17,8 @@
 
 ## What it does
 
+A crossbow made from giant ant parts. It loads in **1 second** (a vanilla crossbow takes 1.25), fires arrows harder (power 4, vanilla 3.15) and more accurately (spread 0.6, vanilla 1), and has 960 durability. Dwarf fletchers sell it.
+
 It is made at the Smithing Bench.
 
 ## Obtaining

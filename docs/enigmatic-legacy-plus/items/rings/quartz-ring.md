@@ -16,6 +16,8 @@
 
 ## What it does
 
+**Magic Quartz Ring** (Curios slot): **+2 armor**, **+1.5 Luck** and **25%** less magic damage. One per player.
+
 Used to make [The Forger's Gem](../charms/forger-gem.md), [Ring of Starlight](starlight-ring.md) and [Angel's Blessing](../spellstones/angel-blessing.md). It is crafted.
 
 ## Obtaining

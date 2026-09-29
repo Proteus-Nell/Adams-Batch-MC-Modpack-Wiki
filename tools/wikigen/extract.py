@@ -197,6 +197,7 @@ def main(argv=None):
         if k:
             known.setdefault(r.full_id, k)
     rr = ab.RefResolver(ix, all_regs, known)
+    effect_holders = {r.holder: r.full_id for r in all_regs if kind_of(r) == "effect"}
 
     # ---- configs
     print("configs")
@@ -393,6 +394,10 @@ def main(argv=None):
                 if "item" in pk and pk.index("item") + 1 < len(pk):
                     rec["category"] = pk[pk.index("item") + 1].replace("_", " ").title()
             rec["props"] = codeinfo.item_properties(ix, r) if r else {}
+            if r is not None and rec["props"].get("food") or r is not None and "Food" in (r.cls or ""):
+                food = codeinfo.food_facts(ix, r, effect_holders)
+                if food:
+                    rec["food"] = food
             if r is not None:
                 try:
                     g = gear_reader.stats(r)

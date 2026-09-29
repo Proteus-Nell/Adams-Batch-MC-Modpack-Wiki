@@ -31203,6 +31203,22 @@
     "props": {
      "durability": 30000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 81.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 82.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:long_swords"
@@ -31217,6 +31233,19 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:nausea",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31250,6 +31279,19 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:fire_resistance",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [],
     "tags": [
      "ascension:essences",
@@ -31265,6 +31307,19 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:frost",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31282,6 +31337,19 @@
     "props": {
      "fire_resistant": true,
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:paralysis",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31322,6 +31390,25 @@
     "props": {
      "durability": 2000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 20.0,
+      "attack_speed": 0.8,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 30.0,
+      "attack_speed": 1.0,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/mysticism/item/ritual_scythe.png"
@@ -31345,6 +31432,22 @@
     "category": "Weapons",
     "props": {
      "durability": 30000
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 81.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 82.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [

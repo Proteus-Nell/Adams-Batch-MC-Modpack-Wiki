@@ -15,6 +15,9 @@
 | **Evolves into** | [Hihi'Irokane Short Sword](hihiirokane-short-sword.md) |
 | **Attack damage** | 48 |
 | **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
 | **Tier** | Adamantite |
 | **Durability** | 3,200 |
 

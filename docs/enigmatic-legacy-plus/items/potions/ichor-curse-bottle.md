@@ -16,7 +16,9 @@
 
 ## What it does
 
-Food. It is found in 1 kind of loot chest.
+**Bottle of Penance.** Drinking it gives the Ichor Curse for 32 minutes. A blessed player (one bearing the Ring of Redemption) also gets Absorption V for 2 minutes. It's both cursed and blessed.
+
+Edible, but it doesn't fill you up. Eating it gives [Curse of Penance](../../effects/ichor-curse.md) for 1,920 s, [Ichor Corrosion](../../effects/ichor-corrosion.md) for 60 s (80% chance), [Ichor Corrosion](../../effects/ichor-corrosion.md) for 60 s (40% chance) and [Ichor Corrosion](../../effects/ichor-corrosion.md) for 60 s (20% chance). It is found in 1 kind of loot chest.
 
 ## Obtaining
 

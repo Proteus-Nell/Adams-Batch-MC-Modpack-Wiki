@@ -16,6 +16,8 @@
 
 ## What it does
 
+Hold right-click to read it. It removes **every skill** you have, of every type, except your race's intrinsic skills. It doesn't refund the magicule cost of unique skills, so you can end up without any. The same limits as the [Race Reset Scroll](race-reset-scroll.md) apply.
+
 It is crafted and made at the Smithing Bench.
 
 ## Obtaining

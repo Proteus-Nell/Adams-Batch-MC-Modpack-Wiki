@@ -35644,6 +35644,17 @@
     "props": {
      "durability": 100
     },
+    "gear": {
+     "main": {
+      "attack_damage": 8.0,
+      "attack_speed": 1.2,
+      "sweep": -1.0,
+      "knockback": 2.0
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:body_armor_items",
@@ -35829,6 +35840,13 @@
     "category": "Miscellaneous",
     "props": {
      "durability": 2000
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 6.0,
+      "attack_speed": 1.0,
+      "sweep": -1.0
+     }
     },
     "tooltips": [],
     "tags": [
@@ -36016,6 +36034,25 @@
     "props": {
      "durability": 2000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 23.0,
+      "attack_speed": 0.8,
+      "reach": 2.0,
+      "sweep": 0.5,
+      "crit_chance": 50.0
+     },
+     "two_handed": {
+      "attack_damage": 24.0,
+      "attack_speed": 1.0,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:scythes"
@@ -36041,6 +36078,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.67,
+     "nutrition": 14
     },
     "tooltips": [],
     "tags": [
@@ -36097,6 +36138,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.33,
+     "nutrition": 5
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -36125,6 +36170,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.67,
+     "nutrition": 10
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -36141,6 +36190,18 @@
     "category": "Weapons",
     "props": {
      "durability": 150
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 10.0,
+      "attack_speed": 2.0,
+      "reach": -1.0,
+      "sweep": -1.0,
+      "crit_chance": 50.0
+     },
+     "tier": "Low Magisteel",
+     "durability": 1800,
+     "mining_speed": 8.0
     },
     "tooltips": [],
     "tags": [
@@ -36316,6 +36377,11 @@
     "props": {
      "food": true
     },
+    "food": {
+     "always_edible": true,
+     "saturation": 2.0,
+     "nutrition": 1
+    },
     "tooltips": [],
     "tags": [
      "tensura:raw_monster_consumables",
@@ -36332,6 +36398,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -36347,6 +36417,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 1.33,
+     "nutrition": 20
     },
     "tooltips": [],
     "tags": [
@@ -36365,6 +36439,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
+    },
     "tooltips": [],
     "tags": [
      "tensura:cooked_monster_consumables"
@@ -36379,6 +36457,18 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12,
+     "effects": [
+      {
+       "effect": "tensura:infection",
+       "duration": 900,
+       "amplifier": 0,
+       "chance": 0.03
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -36396,6 +36486,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
+    },
     "tooltips": [],
     "tags": [
      "tensura:cooked_monster_consumables"
@@ -36410,6 +36504,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 1.07,
+     "nutrition": 16
     },
     "tooltips": [],
     "tags": [
@@ -36428,6 +36526,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -36443,6 +36545,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 1.27,
+     "nutrition": 4
     },
     "tooltips": [],
     "tags": [
@@ -36461,6 +36567,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
+    },
     "tooltips": [],
     "tags": [
      "c:foods/cooked_fish",
@@ -36478,6 +36588,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 1.27,
+     "nutrition": 4
+    },
     "tooltips": [],
     "tags": [
      "c:foods/cooked_fish",
@@ -36493,6 +36607,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 12
     },
     "tooltips": [],
     "tags": [
@@ -36563,6 +36681,19 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:fear",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -37008,6 +37139,19 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:magicule_poison",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [],
     "tags": [
      "ascension:dragon_essences",
@@ -37027,6 +37171,15 @@
     "props": {
      "fire_resistant": true,
      "durability": 4000
+    },
+    "gear": {
+     "main": {
+      "attack_speed": 1.0,
+      "sweep": -1.0
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
     },
     "tooltips": [],
     "tags": [
@@ -37069,6 +37222,67 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 0.0,
+     "nutrition": 100,
+     "effects": [
+      {
+       "effect": "tensura:fatal_poison",
+       "duration": 200,
+       "amplifier": 1,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:poison",
+       "duration": 200,
+       "amplifier": 2,
+       "chance": 0.8
+      },
+      {
+       "effect": "tensura:paralysis",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:hunger",
+       "duration": 200,
+       "amplifier": 1,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:slowness",
+       "duration": 200,
+       "amplifier": 1,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:weakness",
+       "duration": 200,
+       "amplifier": 0,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:blindness",
+       "duration": 200,
+       "amplifier": 0,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:nausea",
+       "duration": 200,
+       "amplifier": 0,
+       "chance": 0.8
+      },
+      {
+       "effect": "minecraft:mining_fatigue",
+       "duration": 200,
+       "amplifier": 1,
+       "chance": 0.8
+      }
+     ]
     },
     "tooltips": [],
     "tags": [],
@@ -37233,6 +37447,19 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:insanity",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [],
     "tags": [
      "ascension:essences",
@@ -37251,6 +37478,31 @@
     "props": {
      "food": true,
      "rarity": "Epic"
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 1.2,
+     "nutrition": 4,
+     "effects": [
+      {
+       "effect": "tensura:magicule_regeneration",
+       "duration": 1200,
+       "amplifier": 3,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:resistance",
+       "duration": 6000,
+       "amplifier": 0,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:haste",
+       "duration": 2400,
+       "amplifier": 1,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -37363,6 +37615,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
     },
     "tooltips": [],
     "tags": [
@@ -39363,6 +39619,22 @@
     "props": {
      "fire_resistant": true
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 20.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 21.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:long_swords"
@@ -39894,6 +40166,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
     },
     "tooltips": [],
     "tags": [
@@ -40804,6 +41080,11 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_speed": 1.0
+     }
+    },
     "tooltips": [
      "A rare magic item that can turn the user into a Majin with the cost of half their max HP in damage and most of their current Magicule."
     ],
@@ -40831,6 +41112,23 @@
     "category": "Weapons",
     "props": {
      "fire_resistant": true
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 24.0,
+      "attack_speed": 0.8,
+      "reach": 0.5,
+      "sweep": 0.1
+     },
+     "two_handed": {
+      "attack_damage": 26.0,
+      "attack_speed": 1.0,
+      "reach": 0.5,
+      "sweep": 0.25
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
     },
     "tooltips": [],
     "tags": [
@@ -42393,6 +42691,11 @@
      "fire_resistant": true,
      "rarity": "Epic"
     },
+    "gear": {
+     "main": {
+      "attack_speed": 1.0
+     }
+    },
     "tooltips": [],
     "tags": [
      "minecraft:indestructible_by_environmental_cause"
@@ -43804,6 +44107,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -43820,6 +44127,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 7
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -43835,6 +44146,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.53,
+     "nutrition": 8
     },
     "tooltips": [],
     "tags": [
@@ -43853,6 +44168,18 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5,
+     "effects": [
+      {
+       "effect": "tensura:infection",
+       "duration": 900,
+       "amplifier": 0,
+       "chance": 0.05
+      }
+     ]
+    },
     "tooltips": [],
     "tags": [
      "minecraft:meat",
@@ -43870,6 +44197,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.4,
+     "nutrition": 6
+    },
     "tooltips": [],
     "tags": [
      "c:foods/raw_fish",
@@ -43886,6 +44217,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
     },
     "tooltips": [],
     "tags": [
@@ -43917,6 +44252,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
+    },
     "tooltips": [],
     "tags": [
      "c:foods/raw_fish",
@@ -43933,6 +44272,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.36,
+     "nutrition": 5
     },
     "tooltips": [],
     "tags": [
@@ -43963,6 +44306,19 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:corrosion",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -44282,6 +44638,25 @@
     "props": {
      "food": true,
      "rarity": "Rare"
+    },
+    "food": {
+     "always_edible": true,
+     "saturation": 1.2,
+     "nutrition": 4,
+     "effects": [
+      {
+       "effect": "tensura:magicule_regeneration",
+       "duration": 1200,
+       "amplifier": 1,
+       "chance": 1.0
+      },
+      {
+       "effect": "minecraft:haste",
+       "duration": 2400,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -44830,6 +45205,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.7,
+     "nutrition": 1
+    },
     "tooltips": [],
     "tags": [
      "c:foods/raw_fish",
@@ -44867,6 +45246,15 @@
     "class": "io.github.manasmods.tensura.item.weapon.custom.SissieToothPickaxe",
     "category": "Tools",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 14.0,
+      "attack_speed": 1.0
+     },
+     "tier": "Low Magisteel",
+     "durability": 1800,
+     "mining_speed": 8.0
+    },
     "tooltips": [],
     "tags": [
      "minecraft:enchantable/sharp_weapon",
@@ -44960,6 +45348,16 @@
      "rarity": "Epic",
      "durability": 1000
     },
+    "gear": {
+     "main": {
+      "attack_damage": 10.0,
+      "attack_speed": 1.0,
+      "reach": 0.5
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:magic_staves",
@@ -45010,6 +45408,15 @@
      "fire_resistant": true,
      "rarity": "Rare",
      "durability": 2500
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 13.0,
+      "attack_speed": 1.6
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
     },
     "tooltips": [
      "Blade Mode: Right-click to shoot out blades.",
@@ -45064,6 +45471,10 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.7,
+     "nutrition": 1
     },
     "tooltips": [],
     "tags": [
@@ -45140,6 +45551,18 @@
     "category": "Weapons",
     "props": {
      "durability": 150
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 10.0,
+      "attack_speed": 2.0,
+      "reach": -1.0,
+      "sweep": -1.0,
+      "crit_chance": 50.0
+     },
+     "tier": "Low Magisteel",
+     "durability": 1800,
+     "mining_speed": 8.0
     },
     "tooltips": [],
     "tags": [
@@ -45591,6 +46014,13 @@
      "fire_resistant": true,
      "durability": 3964
     },
+    "gear": {
+     "main": {
+      "attack_damage": 15.0,
+      "attack_speed": 1.0,
+      "sweep": -1.0
+     }
+    },
     "tooltips": [],
     "tags": [
      "c:tools/shield",
@@ -45763,6 +46193,23 @@
     "category": "Weapons",
     "props": {
      "fire_resistant": true
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 33.0,
+      "attack_speed": 1.2,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "two_handed": {
+      "attack_damage": 34.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "tier": "Pure Magisteel",
+     "durability": 3000,
+     "mining_speed": 20.0
     },
     "tooltips": [],
     "tags": [
@@ -46286,6 +46733,19 @@
     "category": "Miscellaneous",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:fragility",
+       "duration": 100,
+       "amplifier": 2,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [

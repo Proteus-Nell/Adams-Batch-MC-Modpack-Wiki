@@ -13,6 +13,7 @@
 | **Rarity** | Rare |
 | **Attack damage** | 3 |
 | **Attack speed** | 1.5 |
+| **Critical damage** | +0.5× |
 | **Tier** | Wood |
 | **Durability** | 59 |
 
