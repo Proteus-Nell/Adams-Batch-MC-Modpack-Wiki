@@ -1,17 +1,28 @@
 # Feathered Serpent
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:feathered_serpent` |
+| **Type** | Monster |
+| **Health** | 60 |
+| **Attack damage** | 20 |
+| **Armor** | 10 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.5 |
 | **Magicule (EP)** | 6,000 - 9,000 |
 | **Spiritual health** | 500 |
+| **Hitbox** | 0.9 x 1.5 blocks |
 | **Spawn egg** |  [Feathered Serpent Spawn Egg](../items/spawn-eggs/feathered-serpent-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **60** health, **20** attack damage and **6,000-9,000** magicule. Spawns naturally in Feathered Serpent Spawn. It has 3 skills you can take from it with Predator-type skills. Drops [Elemental Shard (Wind)](../items/materials/wind-elemental-shard.md) and [Elemental Essence](../items/materials/elemental-essence.md).
 
 ## Abilities
 
@@ -25,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:feathered_serpent_spawn` | 5 | 1-1 |
+| Is Mountain, Ancient Forest | 5 | 1-1 |
 
 ## Drops
 

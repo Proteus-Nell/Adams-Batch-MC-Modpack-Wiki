@@ -59,6 +59,7 @@
 
 - **Related skills:** [Spatial Domination](../../../tensura-reincarnated/abilities/extra-skills/spatial-domination.md)
 - **Effects:** [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Spatial Blockade](../../../tensura-reincarnated/effects/spatial-blockade.md)
+- **Summons / entities:** Tensura, Spatial Ray
 - **Referenced by:** [Witch's Greed](../unique-skills/witches-greed.md), [Spacetime Domination](spacetime-domination.md), [｢ Azazel, Lord of Temptation ｣](../ultimate-skills/azazel.md), [｢ Lilith, Lord of Heresy ｣](../ultimate-skills/lilith.md), [｢ Samael, Lord of Deadly Poison ｣](../ultimate-skills/samael.md), [｢ Abaddon, King of Destruction ｣](../ultimate-skills/abaddon.md), [｢ Cthugha, King of Divine Flame ｣](../ultimate-skills/cthugha.md), [｢ Nyarlathotep, King of Chaos ｣](../ultimate-skills/nyarlathotep.md), [｢ Nodens, God of Abyss ｣](../ultimate-skills/nodens.md), [｢ Yog-Sotohort, God of Space-Time ｣](../ultimate-skills/yog-sotohort.md)
 
 ## Stats (config defaults)

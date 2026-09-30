@@ -67,6 +67,7 @@
 - **Related skills:** [Greed](../../../tensura-reincarnated/abilities/unique-skills/greed.md), [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md), [Curse](../../../tensura-reincarnated/abilities/spiritual-magic/curse.md), [｢ Astral Light, Lord of Creation ｣](astral-light.md), [｢ Akashic Records, God of Origin ｣](akashic-records.md)
 - **Effects:** [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md), [Fragility](../../../tensura-reincarnated/effects/fragility.md), [Fatal Poison](../../../tensura-reincarnated/effects/fatal-poison.md), [Paralysis](../../../tensura-reincarnated/effects/paralysis.md), [Petrification](../../../tensura-reincarnated/effects/petrification.md), [Hypnosis](../../../tensura-reincarnated/effects/hypnosis.md), [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
 - **Items:** [Magic Ore](../../../tensura-reincarnated/items/materials/magic-ore-shard.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Divine Wisdom Core](../intrinsic-skills/divine-wisdom-core.md), [Greedy Manas](greedy-manas.md)
 
 ## Stats (config defaults)

@@ -56,7 +56,7 @@
 
 - **Related skills:** [Survivor](../../../tensura-reincarnated/abilities/unique-skills/survivor.md), [Gourmet](../../../tensura-reincarnated/abilities/unique-skills/gourmet.md)
 - **Effects:** [Eternal Renewal](../../effects/eternal-renewal.md), [Cycle's End](../../effects/cycle-armed.md), [Cycle Debt](../../effects/cycle-debt.md)
-- **Summons / entities:** [Severance](../../../tensura-reincarnated/enchantments/severance.md)
+- **Summons / entities:** Tensura, [Severance](../../../tensura-reincarnated/enchantments/severance.md)
 
 ## Stats (config defaults)
 

@@ -51,6 +51,7 @@
 
 - **Related skills:** [Witch's Greed](witches-greed.md)
 - **Effects:** [Witch's Curse](../../effects/witches-curse.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

@@ -38,6 +38,7 @@
 ## Related
 
 - **Effects:** [Costless](../../effects/costless.md), [Chill](../../../tensura-reincarnated/effects/chill.md), [Rest](../../../tensura-reincarnated/effects/rest.md), [Sleep](../../../tensura-reincarnated/effects/sleep.md), [Fragility](../../../tensura-reincarnated/effects/fragility.md), [Strengthen](../../../tensura-reincarnated/effects/strengthen.md), [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md)
+- **Summons / entities:** No Max Ep Plunder
 
 ## Stats (config defaults)
 

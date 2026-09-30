@@ -12,8 +12,18 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - None |
+| **Attack damage** | 36 |
+| **Attack speed** | 1.6 |
+| **Reach** | +1 blocks |
+| **Sweep damage** | -100% |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A Pure Magisteel sword that deals **36** attack damage at **1.6** attack speed. It also has +1 block of reach and no sweeping attack. Durability: **3,000**.
 
 ## Tags
 

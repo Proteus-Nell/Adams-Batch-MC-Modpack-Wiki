@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:bound_enlightenment` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 800,000 - 800,000 |

@@ -40,7 +40,8 @@
 
 ## Related
 
-- **Related skills:** [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md), [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md), [Thunder Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md), [Dragon Skin](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-skin.md), [Dragon Ear](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-ear.md), [Dragon Eye](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-eye.md)
+- **Related skills:** [Dragon Skin](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-skin.md), [Dragon Ear](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-ear.md), [Dragon Eye](../../../tensura-reincarnated/abilities/intrinsic-skills/dragon-eye.md)
+- **Summons / entities:** [Ice Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md), [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md), [Thunder Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md), Tensura
 
 ## Stats (config defaults)
 

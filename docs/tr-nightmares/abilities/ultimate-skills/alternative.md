@@ -47,6 +47,7 @@
 
 - **Related skills:** [Wrath](../../../tensura-reincarnated/abilities/unique-skills/wrath.md), [Divine Ki Release](../../../tensura-reincarnated/abilities/intrinsic-skills/divine-ki-release.md)
 - **Effects:** [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md), [Soul Protect](../../effects/soul-protect.md), [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Insanity](../../../tensura-reincarnated/effects/insanity.md), [Fear](../../../tensura-reincarnated/effects/fear.md), [Rampage](../../../tensura-reincarnated/effects/rampage.md), [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md)
+- **Summons / entities:** Tensura, Sacred Haki
 - **Referenced by:** [Divine Wisdom Core](../intrinsic-skills/divine-wisdom-core.md)
 
 ## Stats (config defaults)

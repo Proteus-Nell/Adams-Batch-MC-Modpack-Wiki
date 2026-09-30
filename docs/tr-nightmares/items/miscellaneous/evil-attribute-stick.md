@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A testing stick that raises **every** attribute in the game (vanilla, ManasCore and Tensura) while held: **+0.08** flat, **+3%** of base and **+3%** of total in the main hand, or +0.06, +2.5% and +2.5% in the off hand. (It also lists bonuses for armor slots, but a stick can't be worn.)
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

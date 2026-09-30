@@ -264,7 +264,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/ultimate_skills"
@@ -561,6 +563,7 @@
     ],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "tensura:severance"
     ],
     "tags": [
@@ -726,7 +729,10 @@
      "tensura:severance_blade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:severance_cutter",
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/ultimate_skills"
@@ -891,7 +897,9 @@
      "tensura:soul_drain"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "elitetensura:beelzebuth_mist"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/ultimate_skills"
@@ -1571,7 +1579,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/extra_skills"
     ],
@@ -2038,7 +2048,10 @@
      "tensura:presence_concealment"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:severance_cutter",
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/unique_skills"
@@ -2132,7 +2145,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/unique_skills"
@@ -2228,7 +2243,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/no_plundering",
      "tensura:skills/unique_skills"
@@ -2637,7 +2654,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:lightning_bolt"
+    ],
     "tags": [
      "tensura:skills/aspectual_magic",
      "tensura:skills/lightning_skills"
@@ -2784,7 +2803,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "elitetensura:gravity_well"
+    ],
     "tags": [
      "tensura:skills/aspectual_magic",
      "tensura:skills/gravity_skills"
@@ -3331,6 +3352,18 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedGauntletsItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 195.0,
+      "attack_speed": 5.2,
+      "reach": -0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 3.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3361,6 +3394,18 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedKatanaItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 198.0,
+      "attack_speed": 4.4,
+      "sweep": 0.5,
+      "crit_chance": 1.2,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3391,6 +3436,19 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedSpearItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 199.0,
+      "attack_speed": 3.6,
+      "reach": 1.5,
+      "sweep": 0.3,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3404,6 +3462,19 @@
     "class": "com.johnadmin.elitetensura.items.ability.AetherforgedWarHammerItem",
     "category": "Weapons",
     "props": {},
+    "gear": {
+     "main": {
+      "attack_damage": 204.0,
+      "attack_speed": 3.0,
+      "sweep": 0.6,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0,
+      "knockback": 1.5
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [
      "Star-Iron Divine Alloy — Aetherforged"
     ],
@@ -3418,6 +3489,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 35.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "B",
+     "durability": 600,
+     "mining_speed": 20.0
     },
     "tooltips": [],
     "tags": [
@@ -3439,6 +3522,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 200.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
     },
     "tooltips": [
      "Armed Ability: ?",
@@ -3519,6 +3614,18 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 180.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
+    },
     "tooltips": [],
     "tags": [
      "minecraft:enchantable/durability",
@@ -3574,6 +3681,18 @@
     "props": {
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 80.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "D",
+     "durability": 1500,
+     "mining_speed": 35.0
+    },
     "tooltips": [],
     "tags": [
      "minecraft:enchantable/durability",
@@ -3585,50 +3704,6 @@
      "tensura:handheld_enchantable"
     ],
     "icon_url": "assets/icons/elitetensura/item/mythical_runic_sword.png"
-   },
-   {
-    "id": "elitetensura:nightingale_boots",
-    "path": "nightingale_boots",
-    "name": "Nightingale Boots",
-    "class": null,
-    "category": "Armor",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": null
-   },
-   {
-    "id": "elitetensura:nightingale_chestplate",
-    "path": "nightingale_chestplate",
-    "name": "Nightingale Armor",
-    "class": null,
-    "category": "Armor",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": null
-   },
-   {
-    "id": "elitetensura:nightingale_helmet",
-    "path": "nightingale_helmet",
-    "name": "Nightingale Helmet",
-    "class": null,
-    "category": "Armor",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": null
-   },
-   {
-    "id": "elitetensura:nightingale_leggings",
-    "path": "nightingale_leggings",
-    "name": "Nightingale Leggings",
-    "class": null,
-    "category": "Armor",
-    "props": {},
-    "tooltips": [],
-    "tags": [],
-    "icon_url": null
    },
    {
     "id": "elitetensura:potential_catalyst",
@@ -3664,6 +3739,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 60.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "C",
+     "durability": 1000,
+     "mining_speed": 30.0
     },
     "tooltips": [],
     "tags": [
@@ -3713,6 +3800,18 @@
     "category": "Weapons",
     "props": {
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 200.0,
+      "attack_speed": 4.0,
+      "sweep": 0.5,
+      "crit_chance": 0.8,
+      "crit_multiplier": 2.0
+     },
+     "tier": "F",
+     "durability": 5000,
+     "mining_speed": 80.0
     },
     "tooltips": [
      "Armed Ability: ?",
@@ -3791,7 +3890,7 @@
     "id": "elitetensura:common_crate",
     "path": "common_crate",
     "name": "Common Crate",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.ability.CrateBlock",
     "tags": [],
     "item_tags": [],
     "icon_url": "assets/icons/elitetensura/item/common_crate.png",
@@ -3821,7 +3920,7 @@
     "id": "elitetensura:elite_crate",
     "path": "elite_crate",
     "name": "Elite Crate",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.ability.CrateBlock",
     "tags": [],
     "item_tags": [],
     "icon_url": "assets/icons/elitetensura/item/elite_crate.png",
@@ -3851,7 +3950,7 @@
     "id": "elitetensura:forge_station_basic",
     "path": "forge_station_basic",
     "name": "Basic Forge Station",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.tournament.ArenaAnchorBlockItem",
     "tags": [],
     "item_tags": [],
     "icon_url": null,
@@ -3862,7 +3961,7 @@
     "id": "elitetensura:forge_station_dragonforge",
     "path": "forge_station_dragonforge",
     "name": "Dragonforge Station",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.tournament.ArenaAnchorBlockItem",
     "tags": [],
     "item_tags": [],
     "icon_url": null,
@@ -3873,7 +3972,7 @@
     "id": "elitetensura:forge_station_magisteel",
     "path": "forge_station_magisteel",
     "name": "Magisteel Forge Station",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.tournament.ArenaAnchorBlockItem",
     "tags": [],
     "item_tags": [],
     "icon_url": null,
@@ -3884,7 +3983,7 @@
     "id": "elitetensura:forge_station_mythril",
     "path": "forge_station_mythril",
     "name": "Mithril Forge Station",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.tournament.ArenaAnchorBlockItem",
     "tags": [],
     "item_tags": [],
     "icon_url": null,
@@ -3906,7 +4005,7 @@
     "id": "elitetensura:magic_ore_cluster",
     "path": "magic_ore_cluster",
     "name": "Magic Cluster",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.block.MagicOreClusterBlock",
     "tags": [
      "minecraft:mineable/pickaxe",
      "minecraft:needs_stone_tool"
@@ -3939,7 +4038,7 @@
     "id": "elitetensura:magic_ore_large_bud",
     "path": "magic_ore_large_bud",
     "name": "Large Magic Bud",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.block.MagicOreBudBlock",
     "tags": [
      "minecraft:mineable/pickaxe",
      "minecraft:needs_stone_tool"
@@ -3972,7 +4071,7 @@
     "id": "elitetensura:magic_ore_medium_bud",
     "path": "magic_ore_medium_bud",
     "name": "Medium Magic Bud",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.block.MagicOreBudBlock",
     "tags": [
      "minecraft:mineable/pickaxe",
      "minecraft:needs_stone_tool"
@@ -4020,7 +4119,7 @@
     "id": "elitetensura:magic_ore_small_bud",
     "path": "magic_ore_small_bud",
     "name": "Small Magic Bud",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.block.MagicOreBudBlock",
     "tags": [
      "minecraft:mineable/pickaxe",
      "minecraft:needs_stone_tool"
@@ -4045,7 +4144,7 @@
     "id": "elitetensura:plushie_albis",
     "path": "plushie_albis",
     "name": "Albis Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4077,7 +4176,7 @@
     "id": "elitetensura:plushie_allay",
     "path": "plushie_allay",
     "name": "Allay Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4109,7 +4208,7 @@
     "id": "elitetensura:plushie_alvis",
     "path": "plushie_alvis",
     "name": "Alvis Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4141,7 +4240,7 @@
     "id": "elitetensura:plushie_apito",
     "path": "plushie_apito",
     "name": "Apito Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4173,7 +4272,7 @@
     "id": "elitetensura:plushie_armadillo",
     "path": "plushie_armadillo",
     "name": "Armadillo Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4205,7 +4304,7 @@
     "id": "elitetensura:plushie_axolotl",
     "path": "plushie_axolotl",
     "name": "Axolotl Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4237,7 +4336,7 @@
     "id": "elitetensura:plushie_bat",
     "path": "plushie_bat",
     "name": "Bat Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4269,7 +4368,7 @@
     "id": "elitetensura:plushie_bee",
     "path": "plushie_bee",
     "name": "Bee Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4301,7 +4400,7 @@
     "id": "elitetensura:plushie_benimaru",
     "path": "plushie_benimaru",
     "name": "Benimaru Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4333,7 +4432,7 @@
     "id": "elitetensura:plushie_beretta",
     "path": "plushie_beretta",
     "name": "Beretta Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4365,7 +4464,7 @@
     "id": "elitetensura:plushie_blaze",
     "path": "plushie_blaze",
     "name": "Blaze Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4397,7 +4496,7 @@
     "id": "elitetensura:plushie_breeze",
     "path": "plushie_breeze",
     "name": "Breeze Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4429,7 +4528,7 @@
     "id": "elitetensura:plushie_camel",
     "path": "plushie_camel",
     "name": "Camel Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4461,7 +4560,7 @@
     "id": "elitetensura:plushie_carrera",
     "path": "plushie_carrera",
     "name": "Carrera Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4493,7 +4592,7 @@
     "id": "elitetensura:plushie_cat",
     "path": "plushie_cat",
     "name": "Cat Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4525,7 +4624,7 @@
     "id": "elitetensura:plushie_cave_spider",
     "path": "plushie_cave_spider",
     "name": "Cave Spider Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4557,7 +4656,7 @@
     "id": "elitetensura:plushie_chewie",
     "path": "plushie_chewie",
     "name": "Chewie Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4589,7 +4688,7 @@
     "id": "elitetensura:plushie_chicken",
     "path": "plushie_chicken",
     "name": "Chicken Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4621,7 +4720,7 @@
     "id": "elitetensura:plushie_cow",
     "path": "plushie_cow",
     "name": "Cow Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4653,7 +4752,7 @@
     "id": "elitetensura:plushie_creeper",
     "path": "plushie_creeper",
     "name": "Creeper Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4685,7 +4784,7 @@
     "id": "elitetensura:plushie_dan_rolo",
     "path": "plushie_dan_rolo",
     "name": "Dan Rolo Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4717,7 +4816,7 @@
     "id": "elitetensura:plushie_dark_father",
     "path": "plushie_dark_father",
     "name": "Darth Vader Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4749,7 +4848,7 @@
     "id": "elitetensura:plushie_diablo",
     "path": "plushie_diablo",
     "name": "Diablo Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4781,7 +4880,7 @@
     "id": "elitetensura:plushie_dolphin",
     "path": "plushie_dolphin",
     "name": "Dolphin Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4813,7 +4912,7 @@
     "id": "elitetensura:plushie_donkey",
     "path": "plushie_donkey",
     "name": "Donkey Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4845,7 +4944,7 @@
     "id": "elitetensura:plushie_drowned",
     "path": "plushie_drowned",
     "name": "Drowned Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4877,7 +4976,7 @@
     "id": "elitetensura:plushie_elder_guardian",
     "path": "plushie_elder_guardian",
     "name": "Elder Guardian Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4909,7 +5008,7 @@
     "id": "elitetensura:plushie_emperor",
     "path": "plushie_emperor",
     "name": "Emperor Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4941,7 +5040,7 @@
     "id": "elitetensura:plushie_enderdragon",
     "path": "plushie_enderdragon",
     "name": "Enderdragon Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -4973,7 +5072,7 @@
     "id": "elitetensura:plushie_enderman",
     "path": "plushie_enderman",
     "name": "Enderman Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5005,7 +5104,7 @@
     "id": "elitetensura:plushie_eren",
     "path": "plushie_eren",
     "name": "Eren Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5037,7 +5136,7 @@
     "id": "elitetensura:plushie_evoker",
     "path": "plushie_evoker",
     "name": "Evoker Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5069,7 +5168,7 @@
     "id": "elitetensura:plushie_fox",
     "path": "plushie_fox",
     "name": "Fox Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5101,7 +5200,7 @@
     "id": "elitetensura:plushie_frog",
     "path": "plushie_frog",
     "name": "Frog Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5133,7 +5232,7 @@
     "id": "elitetensura:plushie_gabiru",
     "path": "plushie_gabiru",
     "name": "Gabiru Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5165,7 +5264,7 @@
     "id": "elitetensura:plushie_gazel",
     "path": "plushie_gazel",
     "name": "Gazel Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5197,7 +5296,7 @@
     "id": "elitetensura:plushie_geld",
     "path": "plushie_geld",
     "name": "Geld Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5229,7 +5328,7 @@
     "id": "elitetensura:plushie_ghast",
     "path": "plushie_ghast",
     "name": "Ghast Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5261,7 +5360,7 @@
     "id": "elitetensura:plushie_glow_squid",
     "path": "plushie_glow_squid",
     "name": "Glow Squid Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5293,7 +5392,7 @@
     "id": "elitetensura:plushie_goat",
     "path": "plushie_goat",
     "name": "Goat Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5325,7 +5424,7 @@
     "id": "elitetensura:plushie_gobta",
     "path": "plushie_gobta",
     "name": "Gobta Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5357,7 +5456,7 @@
     "id": "elitetensura:plushie_grucius",
     "path": "plushie_grucius",
     "name": "Grucius Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5389,7 +5488,7 @@
     "id": "elitetensura:plushie_guardian",
     "path": "plushie_guardian",
     "name": "Guardian Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5421,7 +5520,7 @@
     "id": "elitetensura:plushie_guy_crimson",
     "path": "plushie_guy_crimson",
     "name": "Guy Crimson Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5453,7 +5552,7 @@
     "id": "elitetensura:plushie_hakurou",
     "path": "plushie_hakurou",
     "name": "Hakurou Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5485,7 +5584,7 @@
     "id": "elitetensura:plushie_hinata",
     "path": "plushie_hinata",
     "name": "Hinata Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5517,7 +5616,7 @@
     "id": "elitetensura:plushie_hoglin",
     "path": "plushie_hoglin",
     "name": "Hoglin Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5549,7 +5648,7 @@
     "id": "elitetensura:plushie_horse",
     "path": "plushie_horse",
     "name": "Horse Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5581,7 +5680,7 @@
     "id": "elitetensura:plushie_husk",
     "path": "plushie_husk",
     "name": "Husk Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5613,7 +5712,7 @@
     "id": "elitetensura:plushie_iron_golem",
     "path": "plushie_iron_golem",
     "name": "Iron Golem Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5645,7 +5744,7 @@
     "id": "elitetensura:plushie_kumara",
     "path": "plushie_kumara",
     "name": "Kumara Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5677,7 +5776,7 @@
     "id": "elitetensura:plushie_kurobe",
     "path": "plushie_kurobe",
     "name": "Kurobe Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5709,7 +5808,7 @@
     "id": "elitetensura:plushie_leon",
     "path": "plushie_leon",
     "name": "Leon Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5741,7 +5840,7 @@
     "id": "elitetensura:plushie_llama",
     "path": "plushie_llama",
     "name": "Llama Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5773,7 +5872,7 @@
     "id": "elitetensura:plushie_luminous",
     "path": "plushie_luminous",
     "name": "Luminous Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5805,7 +5904,7 @@
     "id": "elitetensura:plushie_magma_cube",
     "path": "plushie_magma_cube",
     "name": "Magma Cube Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5837,7 +5936,7 @@
     "id": "elitetensura:plushie_milim",
     "path": "plushie_milim",
     "name": "Milim Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5869,7 +5968,7 @@
     "id": "elitetensura:plushie_mooshroom",
     "path": "plushie_mooshroom",
     "name": "Mooshroom Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5901,7 +6000,7 @@
     "id": "elitetensura:plushie_moss",
     "path": "plushie_moss",
     "name": "Moss Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5933,7 +6032,7 @@
     "id": "elitetensura:plushie_mule",
     "path": "plushie_mule",
     "name": "Mule Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5965,7 +6064,7 @@
     "id": "elitetensura:plushie_panda",
     "path": "plushie_panda",
     "name": "Panda Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -5997,7 +6096,7 @@
     "id": "elitetensura:plushie_parrot",
     "path": "plushie_parrot",
     "name": "Parrot Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6029,7 +6128,7 @@
     "id": "elitetensura:plushie_peter",
     "path": "plushie_peter",
     "name": "Peter Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6061,7 +6160,7 @@
     "id": "elitetensura:plushie_phantom",
     "path": "plushie_phantom",
     "name": "Phantom Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6093,7 +6192,7 @@
     "id": "elitetensura:plushie_pig",
     "path": "plushie_pig",
     "name": "Pig Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6125,7 +6224,7 @@
     "id": "elitetensura:plushie_piglin",
     "path": "plushie_piglin",
     "name": "Piglin Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6157,7 +6256,7 @@
     "id": "elitetensura:plushie_piglin_brute",
     "path": "plushie_piglin_brute",
     "name": "Piglin Brute Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6189,7 +6288,7 @@
     "id": "elitetensura:plushie_pillager",
     "path": "plushie_pillager",
     "name": "Pillager Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6221,7 +6320,7 @@
     "id": "elitetensura:plushie_polar_bear",
     "path": "plushie_polar_bear",
     "name": "Polar Bear Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6253,7 +6352,7 @@
     "id": "elitetensura:plushie_pufferfish",
     "path": "plushie_pufferfish",
     "name": "Pufferfish Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6285,7 +6384,7 @@
     "id": "elitetensura:plushie_rabbit",
     "path": "plushie_rabbit",
     "name": "Rabbit Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6317,7 +6416,7 @@
     "id": "elitetensura:plushie_ramiris",
     "path": "plushie_ramiris",
     "name": "Ramiris Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6349,7 +6448,7 @@
     "id": "elitetensura:plushie_ranga",
     "path": "plushie_ranga",
     "name": "Ranga Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6381,7 +6480,7 @@
     "id": "elitetensura:plushie_ravanger",
     "path": "plushie_ravanger",
     "name": "Ravanger Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6413,7 +6512,7 @@
     "id": "elitetensura:plushie_rimuru",
     "path": "plushie_rimuru",
     "name": "Rimuru Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6445,7 +6544,7 @@
     "id": "elitetensura:plushie_rimuru_slime",
     "path": "plushie_rimuru_slime",
     "name": "Rimuru Slime Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6477,7 +6576,7 @@
     "id": "elitetensura:plushie_sheep",
     "path": "plushie_sheep",
     "name": "Sheep Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6509,7 +6608,7 @@
     "id": "elitetensura:plushie_shion",
     "path": "plushie_shion",
     "name": "Shion Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6541,7 +6640,7 @@
     "id": "elitetensura:plushie_shulker",
     "path": "plushie_shulker",
     "name": "Shulker Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6573,7 +6672,7 @@
     "id": "elitetensura:plushie_shuna",
     "path": "plushie_shuna",
     "name": "Shuna Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6605,7 +6704,7 @@
     "id": "elitetensura:plushie_skeleton",
     "path": "plushie_skeleton",
     "name": "Skeleton Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6637,7 +6736,7 @@
     "id": "elitetensura:plushie_skeleton_horse",
     "path": "plushie_skeleton_horse",
     "name": "Skeleton Horse Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6669,7 +6768,7 @@
     "id": "elitetensura:plushie_slime",
     "path": "plushie_slime",
     "name": "Slime Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6701,7 +6800,7 @@
     "id": "elitetensura:plushie_sniffer",
     "path": "plushie_sniffer",
     "name": "Sniffer Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6733,7 +6832,7 @@
     "id": "elitetensura:plushie_souei",
     "path": "plushie_souei",
     "name": "Souei Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6765,7 +6864,7 @@
     "id": "elitetensura:plushie_spider",
     "path": "plushie_spider",
     "name": "Spider Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6797,7 +6896,7 @@
     "id": "elitetensura:plushie_squid",
     "path": "plushie_squid",
     "name": "Squid Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6829,7 +6928,7 @@
     "id": "elitetensura:plushie_storm_soldier",
     "path": "plushie_storm_soldier",
     "name": "Storm Soldier Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6861,7 +6960,7 @@
     "id": "elitetensura:plushie_stray",
     "path": "plushie_stray",
     "name": "Stray Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6893,7 +6992,7 @@
     "id": "elitetensura:plushie_strider",
     "path": "plushie_strider",
     "name": "Strider Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6925,7 +7024,7 @@
     "id": "elitetensura:plushie_suphia",
     "path": "plushie_suphia",
     "name": "Suphia Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6957,7 +7056,7 @@
     "id": "elitetensura:plushie_testarossa",
     "path": "plushie_testarossa",
     "name": "Testarossa Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -6989,7 +7088,7 @@
     "id": "elitetensura:plushie_trader_lama",
     "path": "plushie_trader_lama",
     "name": "Trader Lama Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7021,7 +7120,7 @@
     "id": "elitetensura:plushie_treyni",
     "path": "plushie_treyni",
     "name": "Treyni Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7053,7 +7152,7 @@
     "id": "elitetensura:plushie_turtle",
     "path": "plushie_turtle",
     "name": "Turtle Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieCommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7085,7 +7184,7 @@
     "id": "elitetensura:plushie_ultima",
     "path": "plushie_ultima",
     "name": "Ultima Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7117,7 +7216,7 @@
     "id": "elitetensura:plushie_veldora",
     "path": "plushie_veldora",
     "name": "Veldora Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7149,7 +7248,7 @@
     "id": "elitetensura:plushie_veldora_human",
     "path": "plushie_veldora_human",
     "name": "Veldora (Human Form) Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7181,7 +7280,7 @@
     "id": "elitetensura:plushie_velzard",
     "path": "plushie_velzard",
     "name": "Velzard Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7213,7 +7312,7 @@
     "id": "elitetensura:plushie_vex",
     "path": "plushie_vex",
     "name": "Vex Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7245,7 +7344,7 @@
     "id": "elitetensura:plushie_villager",
     "path": "plushie_villager",
     "name": "Villager Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7277,7 +7376,7 @@
     "id": "elitetensura:plushie_vindicator",
     "path": "plushie_vindicator",
     "name": "Vindicator Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7309,7 +7408,7 @@
     "id": "elitetensura:plushie_wandering_trader",
     "path": "plushie_wandering_trader",
     "name": "Wandering Trader Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7341,7 +7440,7 @@
     "id": "elitetensura:plushie_warden",
     "path": "plushie_warden",
     "name": "Warden Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7373,7 +7472,7 @@
     "id": "elitetensura:plushie_witch",
     "path": "plushie_witch",
     "name": "Witch Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7405,7 +7504,7 @@
     "id": "elitetensura:plushie_wither",
     "path": "plushie_wither",
     "name": "Wither Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7437,7 +7536,7 @@
     "id": "elitetensura:plushie_wither_skeleton",
     "path": "plushie_wither_skeleton",
     "name": "Wither Skeleton Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7469,7 +7568,7 @@
     "id": "elitetensura:plushie_wolf",
     "path": "plushie_wolf",
     "name": "Wolf Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieUncommon",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7501,7 +7600,7 @@
     "id": "elitetensura:plushie_yoga",
     "path": "plushie_yoga",
     "name": "Yoda Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7533,7 +7632,7 @@
     "id": "elitetensura:plushie_zegion",
     "path": "plushie_zegion",
     "name": "Zegion Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieLegendary",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7565,7 +7664,7 @@
     "id": "elitetensura:plushie_zoglin",
     "path": "plushie_zoglin",
     "name": "Zoglin Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7597,7 +7696,7 @@
     "id": "elitetensura:plushie_zombie",
     "path": "plushie_zombie",
     "name": "Zombie Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7629,7 +7728,7 @@
     "id": "elitetensura:plushie_zombie_villager",
     "path": "plushie_zombie_villager",
     "name": "Zombie Villager Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieRare",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7661,7 +7760,7 @@
     "id": "elitetensura:plushie_zombified_piglin",
     "path": "plushie_zombified_piglin",
     "name": "Zombified Piglin Plushie",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.plushie.PlushieEpic",
     "tags": [
      "elitetensura:elitetensura"
     ],
@@ -7693,7 +7792,7 @@
     "id": "elitetensura:rare_crate",
     "path": "rare_crate",
     "name": "Rare Crate",
-    "class": null,
+    "class": "com.johnadmin.elitetensura.items.ability.CrateBlock",
     "tags": [],
     "item_tags": [],
     "icon_url": "assets/icons/elitetensura/item/rare_crate.png",
@@ -7767,20 +7866,30 @@
   ],
   "mobs": [
    {
-    "id": "elitetensura:black_sword_master",
-    "path": "black_sword_master",
-    "name": "Black Sword Master",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
     "id": "elitetensura:choir_heart",
     "path": "choir_heart",
     "name": "The Choir Heart",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      1.6,
+      3.2
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.ChoirHeart",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "EliteBossEntity",
+      "GeoEntity",
+      "TensuraTamableEntity",
+      "TamableAnimal",
+      "NeutralMob"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [],
@@ -7790,27 +7899,27 @@
     "id": "elitetensura:choir_voice",
     "path": "choir_voice",
     "name": "Hollow Voice",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:etskeleton",
-    "path": "etskeleton",
-    "name": "Ninja Skeleton",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:gaia_spike",
-    "path": "gaia_spike",
-    "name": "Tectonic Spike",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.8,
+      2.0
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.ChoirVoice",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "EliteBossEntity",
+      "GeoEntity",
+      "TensuraTamableEntity",
+      "TamableAnimal",
+      "NeutralMob"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [],
@@ -7820,7 +7929,27 @@
     "id": "elitetensura:gravebound_colossus",
     "path": "gravebound_colossus",
     "name": "Gravebound Colossus",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      3.0,
+      6.0
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.GraveboundColossus",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "EliteBossEntity",
+      "GeoEntity",
+      "TensuraTamableEntity",
+      "TamableAnimal",
+      "NeutralMob"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [
@@ -7847,17 +7976,28 @@
     "id": "elitetensura:leviathan",
     "path": "leviathan",
     "name": "The Leviathan",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:leviathan_fx",
-    "path": "leviathan_fx",
-    "name": "Abyssal Surge",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      3.0,
+      3.0
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.leviathan.LeviathanHead",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "EliteBossEntity",
+      "SmartBrainOwner",
+      "GeoEntity",
+      "TensuraTamableEntity",
+      "TamableAnimal",
+      "NeutralMob"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [],
@@ -7867,7 +8007,28 @@
     "id": "elitetensura:leviathan_segment",
     "path": "leviathan_segment",
     "name": "Leviathan Plate",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      1.6,
+      1.6
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.leviathan.LeviathanSegment",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "LivingMultipartBody",
+      "GeoEntity",
+      "TensuraMountEntity",
+      "ILivingPartEntity",
+      "TensuraRideableEntity",
+      "HasCustomInventoryScreen"
+     ]
+    },
     "drops": null,
     "spawns": [],
     "tags": [],
@@ -7877,7 +8038,28 @@
     "id": "elitetensura:lich_boss",
     "path": "lich_boss",
     "name": "Vaelthorn, the Hollow Sovereign",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      1.4,
+      2.9
+     ],
+     "class": "com.johnadmin.elitetensura.entity.boss.LichBoss",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Swim Speed Multiplier": 2.0,
+      "Follow range": 32.0
+     },
+     "ancestors": [
+      "EliteBossEntity",
+      "SmartBrainOwner",
+      "GeoEntity",
+      "TensuraTamableEntity",
+      "TamableAnimal",
+      "NeutralMob"
+     ]
+    },
     "drops": [
      {
       "rolls": [
@@ -7955,56 +8137,6 @@
      "tensura:no_skill_plunder",
      "tensura:no_synthesise"
     ],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:login_aura",
-    "path": "login_aura",
-    "name": "Dawnrise Aura",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:meteor",
-    "path": "meteor",
-    "name": "Fallen Star",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:occultistsummon",
-    "path": "occultistsummon",
-    "name": "Summons",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:tide_spit",
-    "path": "tide_spit",
-    "name": "Tide Spit",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
-   },
-   {
-    "id": "elitetensura:void_bolt",
-    "path": "void_bolt",
-    "name": "Void Bolt",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
     "spawn_egg": null
    }
   ],
@@ -14855,5 +14987,15 @@
    ]
   }
  ],
- "extra": {}
+ "extra": {
+  "phantoms": [
+   "elitetensura:black_sword_master",
+   "elitetensura:etskeleton",
+   "elitetensura:nightingale_boots",
+   "elitetensura:nightingale_chestplate",
+   "elitetensura:nightingale_helmet",
+   "elitetensura:nightingale_leggings",
+   "elitetensura:occultistsummon"
+  ]
+ }
 }

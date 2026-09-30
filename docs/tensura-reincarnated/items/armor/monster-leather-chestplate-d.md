@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 1,000 - 2,500 |
 | **Evolves into** | [Monster Leather Chestplate (C)](monster-leather-chestplate-c.md) |
+| **Armor** | 5 |
+| **Armor toughness** | 0.5 |
+| **Knockback resistance** | 10% |
 
 </div>
+
+## What it does
+
+Monster Leather D armor for the chestplate slot: **5** armor, **0.5** toughness and **10%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

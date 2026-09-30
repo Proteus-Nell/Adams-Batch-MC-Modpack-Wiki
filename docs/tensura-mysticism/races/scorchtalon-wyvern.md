@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:scorchtalon_wyvern` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 750,000 - 750,000 |

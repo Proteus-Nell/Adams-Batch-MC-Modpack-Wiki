@@ -12,3 +12,7 @@
 | **Type** | Harmful |
 
 </div>
+
+## What it does
+
+**-15%** movement speed per level. Every second it also gives vanilla Nausea and Darkness at the same level. Confusion magic inflicts it on everything within 10 blocks (level 1+, up to 3).

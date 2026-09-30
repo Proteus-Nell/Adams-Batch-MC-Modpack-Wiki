@@ -16,4 +16,6 @@
 
 </div>
 
-Found in: [Paths](../dimensions/paths.md)
+## What it does
+
+A temperate biome in [Paths](../dimensions/paths.md) where it never rains or snows. It has no mob spawns and no terrain features of its own. It's the only biome of the [Paths](../dimensions/paths.md).

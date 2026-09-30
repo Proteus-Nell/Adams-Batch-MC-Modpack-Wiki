@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:orc` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 400 - 600 |

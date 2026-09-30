@@ -32,7 +32,7 @@
 
 ## Related
 
-- **Related skills:** [Ogre Flame](../../../tensura-reincarnated/abilities/battlewill/ogre-flame.md), [Flame Domination](../../../tensura-reincarnated/abilities/extra-skills/flame-domination.md)
+- **Related skills:** [Ogre Flame](../../../tensura-reincarnated/abilities/battlewill/ogre-flame.md), [Flame Domination](../../../tensura-reincarnated/abilities/extra-skills/flame-domination.md), [Flare Circle](../../../tensura-reincarnated/abilities/spiritual-magic/flare-circle.md)
 
 ## Stats (config defaults)
 

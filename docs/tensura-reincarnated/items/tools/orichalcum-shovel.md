@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Shovel](hihiirokane-shovel.md) |
+| **Attack damage** | 28.5 |
+| **Attack speed** | 1 |
+| **Tier** | Orichalcum |
+| **Durability** | 2,800 |
 
 </div>
+
+## What it does
+
+A shovel that deals **28.5** attack damage at **1** attack speed. Durability: **2,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

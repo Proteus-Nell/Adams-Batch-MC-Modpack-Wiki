@@ -13,5 +13,13 @@
 | **Stack size** | 1 |
 | **Rarity** | Epic |
 | **Fire resistant** | Yes |
+| **Attack damage** | 800,000,005 |
+| **Attack speed** | 1 |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
+
+## What it does
+
+A Netherite sword that deals **800,000,005** attack damage at **1** attack speed. Durability: **2,031**.

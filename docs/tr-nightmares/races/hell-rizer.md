@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:hell_rizer` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 240,000 |

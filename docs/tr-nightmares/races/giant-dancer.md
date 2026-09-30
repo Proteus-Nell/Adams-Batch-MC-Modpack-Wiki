@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:giant_dancer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 25,000 - 50,000 |

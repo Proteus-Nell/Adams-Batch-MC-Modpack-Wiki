@@ -17,6 +17,6 @@
 | ![](../../../assets/icons/enigmaticlegacyplus/item/spellstone_sword.png) | [Resonator of Spell](spellstone-sword.md) | Right-click to resonate with the Spellstone in the off hand. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/revival_leaf.png) | [Revival Leaves](revival-leaf.md) | Active ability: |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/illusion_lantern.png) | [Soul Lantern of Illusion](illusion-lantern.md) | Active ability: |
-| ![](../../../assets/icons/enigmaticlegacyplus/item/spellcore.png) | [Spellcore](spellcore.md) |  |
+| ![](../../../assets/icons/enigmaticlegacyplus/item/spellcore.png) | [Spellcore](spellcore.md) | The core that spellstones are built on. |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/spelltuner.png) | [Spelltuner](spelltuner.md) | Right click the Spellstone in the inventory to |
 | ![](../../../assets/icons/enigmaticlegacyplus/item/ocean_stone.png) | [Will of the Ocean](ocean-stone.md) | Active ability: |

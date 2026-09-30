@@ -44,6 +44,7 @@
 
 - **Related skills:** [Gravity Domination](gravity-domination.md)
 - **Effects:** [Magic Interference](../../effects/magic-interference.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Oppressor](../unique-skills/oppressor.md), [Thrower](../unique-skills/thrower.md), [Gravity Domination](gravity-domination.md), [Molecular Manipulation](molecular-manipulation.md), [Gravity Hammer](../../../tr-nightmares/abilities/battlewill/gravity-hammer.md), [Pain, Lord of Six Paths](../../../tensura-more-skills/abilities/ultimate-skills/pain-lord-of-six-paths.md), [Melancholy](../../../tensura-mysticism/abilities/unique-skills/melancholy.md)
 
 ## Stats (config defaults)

@@ -36,6 +36,7 @@
 ## Related
 
 - **Effects:** [Energy Blockade](../../effects/energy-blockade.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Possession](../intrinsic-skills/possession.md)
 
 ## Stats (config defaults)

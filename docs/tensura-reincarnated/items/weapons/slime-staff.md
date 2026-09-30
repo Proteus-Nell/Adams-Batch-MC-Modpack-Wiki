@@ -13,8 +13,23 @@
 | **Durability** | 1,000 |
 | **Rarity** | Epic |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 10 |
+| **Attack speed** | 1 |
+| **Reach** | +0.5 blocks |
+| **Tier** | High Magisteel |
 
 </div>
+
+## What it does
+
+A staff for commanding your slimes. It's a grimoire too (3 spell slots, 0.5-second cooldown, +0.1 chant speed), but its own mode is **Summon Slime**:
+
+- Look at a creature within 32 blocks and use it: every slime you own within 25 blocks attacks that target, and the target glows.
+- Sneak + use: all your slimes nearby switch between staying and following.
+
+Repair it with Slime Chunks, Slime Cores or High Magisteel Ingots.
+
+A High Magisteel weapon that deals **10** attack damage at **1** attack speed. It also has +0.5 blocks of reach. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

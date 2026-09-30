@@ -1,18 +1,29 @@
 # Spear Toro
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Water Creature</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:spear_toro` |
+| **Type** | Water Creature |
+| **Health** | 50 |
+| **Attack damage** | 18 |
+| **Armor** | 4 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.5 |
 | **Magicule (EP)** | 6,000 - 6,500 |
 | **Aura** | 3,000 - 3,500 |
 | **Spiritual health** | 160 |
+| **Hitbox** | 2.5 x 2.5 blocks |
 | **Spawn egg** |  [Spear Toro Spawn Egg](../items/spawn-eggs/spear-toro-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A water mob with **50** health, **18** attack damage and **6,000-6,500** magicule. Spawns naturally in Spear Toro Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Spear Toro Fin](../items/miscellaneous/spear-toro-fin.md), [Raw Spear Toro Meat](../items/miscellaneous/raw-spear-toro-meat.md) and [Bone](https://minecraft.wiki/w/Bone).
 
 ## Abilities
 
@@ -24,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:spear_toro_spawn` | 2 | 1-1 |
+| Is Ocean | 2 | 1-1 |
 
 ## Drops
 

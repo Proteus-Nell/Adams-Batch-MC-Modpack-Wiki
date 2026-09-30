@@ -52,6 +52,7 @@
 
 - **Effects:** [Webbed](../../effects/webbed.md), [Silence](../../effects/silence.md)
 - **Items:** [Sticky Web Cartridge](../../items/miscellaneous/sticky-web-cartridge.md), [Sticky Steel Web Cartridge](../../items/miscellaneous/sticky-steel-web-cartridge.md), [Web Cartridge](../../items/miscellaneous/web-cartridge.md), [Steel Thread](../../items/miscellaneous/steel-thread.md)
+- **Summons / entities:** Web Bullet
 
 ## Stats (config defaults)
 

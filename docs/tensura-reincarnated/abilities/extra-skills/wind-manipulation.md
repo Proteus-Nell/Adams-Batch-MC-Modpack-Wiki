@@ -40,6 +40,7 @@
 ## Related
 
 - **Related skills:** [Wind Domination](wind-domination.md)
+- **Summons / entities:** Tensura, Wind Sphere, Wind Blow
 - **Referenced by:** [Black Lightning](black-lightning.md), [Wind Domination](wind-domination.md), [Weather Manipulation](weather-manipulation.md), [Wind Blessing](../../../tr-nightmares/abilities/extra-skills/wind-blessing.md)
 
 ## Stats (config defaults)

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Character Reset Scroll](../books-scrolls/character-reset-scroll.md), [Dragon Knuckle](../miscellaneous/dragon-knuckle.md), [High Magic Staff](../weapons/high-magic-staff.md), [Pure Magisteel Axe](../tools/pure-magisteel-axe.md), [Pure Magisteel Boots](../armor/pure-magisteel-boots.md), [Pure Magisteel Chestplate](../armor/pure-magisteel-chestplate.md) and 17 more.
+
 ## Obtaining
 
 ### Loot

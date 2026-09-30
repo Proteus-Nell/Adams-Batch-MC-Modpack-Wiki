@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+An arrow tipped with a Spear Toro fin. Dwarf fletchers sell them.
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

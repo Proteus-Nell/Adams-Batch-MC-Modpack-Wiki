@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **16** hunger (8 shanks) and **34.2** saturation. It is smelted in a furnace, cooked on a campfire and cooked in a smoker.
+
 ## Obtaining
 
 ### Recipes

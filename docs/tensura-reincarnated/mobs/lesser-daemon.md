@@ -1,18 +1,29 @@
 # Lesser Daemon
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:lesser_daemon` |
+| **Type** | Monster |
+| **Health** | 40 |
+| **Attack damage** | 10 |
+| **Armor** | 10 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.2 |
 | **Magicule (EP)** | 7,500 - 8,000 |
 | **Aura** | 500 - 1,000 |
 | **Spiritual health** | 200 |
+| **Hitbox** | 1.2 x 4.8 blocks |
 | **Spawn egg** |  [Lesser Daemon Spawn Egg](../items/spawn-eggs/lesser-daemon-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **40** health, **10** attack damage and **7,500-8,000** magicule. Spawns naturally in Lesser Daemon Spawn. It has 11 skills you can take from it with Predator-type skills. Drops [Daemon Essence](../items/materials/daemon-essence.md).
 
 ## Abilities
 
@@ -34,7 +45,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:lesser_daemon_spawn` | 60 | 1-1 |
+| Underworld Barrens, Underworld Red Sands, Underworld Sands, Underworld Spikes | 60 | 1-1 |
 
 ## Drops
 

@@ -35,6 +35,10 @@ Abyss Boost:
 
 - Improves all aspects of this item.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

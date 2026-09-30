@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:rimefang_drake` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 150,000 - 150,000 |

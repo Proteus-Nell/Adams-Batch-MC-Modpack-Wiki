@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A unicorn's horn, dropped by Unicorns. Hold it in your **off hand** with a crossbow in your main hand and the crossbow fires the horn like an arrow. Dwarf merchants buy them.
+
+Used to make [Unicorn Horn Spear](../weapons/unicorn-horn-spear.md). It is dropped by [Pegacorn](../../mobs/pegacorn.md) and [Unicorn](../../mobs/unicorn.md).
+
 ## Obtaining
 
 ### Loot

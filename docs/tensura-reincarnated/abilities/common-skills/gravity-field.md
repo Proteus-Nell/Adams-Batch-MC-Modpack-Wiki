@@ -41,6 +41,10 @@
 - Innate to mobs: [War Gnome](../../mobs/war-gnome.md)
 - Listed in the `allowedSkills` config option (config/nightmare/ability/skill/nightmare_unique.toml): List of skills Handler is allowed to upgrade. (is every skill it can by default)
 
+## Related
+
+- **Summons / entities:** [Gravity Field](gravity-field.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill/common_config.toml`](../../configs/config-tensura-ability-skill-common-config.md).

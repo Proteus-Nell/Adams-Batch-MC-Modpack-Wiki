@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A weapon **engraving**: **+0.15 attack speed per level**.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

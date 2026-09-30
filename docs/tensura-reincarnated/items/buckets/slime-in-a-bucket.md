@@ -14,3 +14,7 @@
 | **Magicule when dissolved** | 1,000 |
 
 </div>
+
+## What it does
+
+A slime scooped up in a bucket. Use it on a block to release the slime again (Metal and Supermassive slimes stay what they were). It can also be dissolved for 1,000 magicule.

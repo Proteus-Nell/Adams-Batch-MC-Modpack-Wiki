@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Daemon Core](../materials/daemon-core.md), [Empty Element Core](../miscellaneous/element-core-empty.md), [Low Quality Magic Crystal](../materials/low-quality-magic-crystal.md), [Medium Quality Magic Crystal](../materials/medium-quality-magic-crystal.md), [Warp Core](../materials/warp-core.md), [Kanabo](../weapons/kanabo.md) and 22 more.
+
 ## Obtaining
 
 ### Loot

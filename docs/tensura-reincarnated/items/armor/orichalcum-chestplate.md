@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Chestplate](hihiirokane-chestplate.md) |
+| **Armor** | 11 |
+| **Armor toughness** | 6 |
+| **Knockback resistance** | 40% |
+| **Durability** | 800 |
 
 </div>
+
+## What it does
+
+Orichalcum armor for the chestplate slot: **11** armor, **6** toughness and **40%** knockback resistance. Durability: **800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

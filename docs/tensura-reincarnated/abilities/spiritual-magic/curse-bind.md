@@ -37,6 +37,7 @@
 
 - **Related skills:** [Curse](curse.md)
 - **Effects:** [Paralysis](../../effects/paralysis.md), [Corrosion](../../effects/corrosion.md)
+- **Summons / entities:** Curse Bind Hands
 - **Referenced by:** [Curse](curse.md)
 
 ## Stats (config defaults)

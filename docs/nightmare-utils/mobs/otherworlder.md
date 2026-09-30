@@ -17,6 +17,12 @@
 
 </div>
 
+## What it does
+
+A customizable **otherworlder**. Each one is built from an "otherworlder profile", a JSON file in a world datapack's `otherworlders` folder that sets its name, look, stats and skills, and which mob it spawns like or replaces (and how rarely). Nightmare Utils writes an example datapack to `config/nightmareutils/exampleotherworlderdatapack`. Profiles marked as test profiles only spawn while the `nightmareutilstest` gamerule is on. Its stats depend on its profile.
+
+A boss with **40** health and **6** attack damage.
+
 ## Tags
 
 `apothic_spawners:blacklisted_from_spawners`, `c:capturing_not_supported`

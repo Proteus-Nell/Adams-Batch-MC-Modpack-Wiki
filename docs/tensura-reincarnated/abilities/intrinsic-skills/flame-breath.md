@@ -29,13 +29,12 @@
 
 ## Obtaining
 
-- Intrinsic skill of: [Dragonewt](../../races/dragonewt.md), [True Dragonewt](../../races/true-dragonewt.md), [Divine Dragon](../../races/divine-dragon.md), [Lesser Nether Dragon](../../../tr-nightmares/races/lesser-nether-dragon.md), [Medium Nether Dragon](../../../tr-nightmares/races/medium-nether-dragon.md), [Scrap Dragon](../../../tr-nightmares/races/scrap-dragon.md), [Netherite Dragon](../../../tr-nightmares/races/netherite-dragon.md), [Divine Netherite Dragon](../../../tr-nightmares/races/divine-netherite-dragon.md), [Corrupted Dragonkin](../../../ascension/races/corrupted-dragonkin.md), [Corrupted Dragon](../../../ascension/races/corrupted-dragon.md), [Cursed Dragon](../../../ascension/races/cursed-dragon.md), [Demonic Dragon](../../../ascension/races/demonic-dragon.md), [Demon Dragon God](../../../ascension/races/demon-dragon-god.md), [Ender Dragonewt](../../../ascension/races/ender-dragonewt.md), [Void Dragonewt](../../../ascension/races/void-dragonewt.md), [Abyssal Dragonewt](../../../ascension/races/abyssal-dragonewt.md), [Chaos Dragon](../../../ascension/races/chaos-dragon.md)
 - Innate to mobs: [Salamander](../../mobs/salamander.md)
 - Listed in the `intrinsicSkills` config option (config/mysticism/race/sculk_config.toml): The list of intrinsic skills that the race gets.
 
 ## Related
 
-- **Referenced by:** [Fire Breath](../spiritual-magic/fire-breath.md), [Flame Manipulation](../extra-skills/flame-manipulation.md), [Profaned Prominence](../../../tensura-mysticism/abilities/extra-skills/profaned-prominence.md), [Reshiram](../../../tensura-mysticism/abilities/unique-skills/reshiram.md), [Dragon Slayer](../../../ascension/abilities/unique-skills/dragon-slayer.md), [The Slayer of Dragons](../../../ascension/abilities/ultimate-skills/slayer-of-dragons.md)
+- **Summons / entities:** [Flame Breath](flame-breath.md)
 
 ## Stats (config defaults)
 

@@ -23,6 +23,10 @@ When done, combine with any item in Anvil
 
 to attach those writings to that item.
 
+## What it does
+
+It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -50,6 +50,7 @@
 ## Related
 
 - **Effects:** [Salvation](../../effects/salvation.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

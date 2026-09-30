@@ -32,6 +32,10 @@ Memories about something important...
 
 Right-click to convert it.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -19,6 +19,10 @@
 
 Projectile:
 
+## What it does
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

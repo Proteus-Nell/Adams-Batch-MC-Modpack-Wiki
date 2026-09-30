@@ -77,7 +77,7 @@
 - **Related skills:** [Gourmet](../../../tensura-reincarnated/abilities/unique-skills/gourmet.md), [Guardian](../../../tensura-reincarnated/abilities/unique-skills/guardian.md)
 - **Effects:** [Guarded](../../../tensura-reincarnated/effects/guarded.md), [Corrosion](../../../tensura-reincarnated/effects/corrosion.md)
 - **Items:** [Meat Crusher](../../../tensura-reincarnated/items/weapons/meat-crusher.md)
-- **Summons / entities:** Beelzebuth Mist
+- **Summons / entities:** Beelzebuth Mist, Chaos Eater
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

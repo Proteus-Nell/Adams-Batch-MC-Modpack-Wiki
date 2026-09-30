@@ -11,3 +11,7 @@
 | **Color** | `#4CAF50` |
 
 </div>
+
+## What it does
+
+You take **half damage** from everything, and spiritual damage is halved again (a quarter in total).

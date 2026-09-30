@@ -60,6 +60,7 @@
 
 - **Related skills:** [Void Edge](../unique-skills/voidedge.md)
 - **Effects:** [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md), [Severance Blade](../../../tensura-reincarnated/effects/severance-blade.md)
+- **Summons / entities:** Severance Cutter, Tensura
 
 ## Stats (config defaults)
 

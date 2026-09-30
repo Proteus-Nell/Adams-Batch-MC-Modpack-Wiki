@@ -25,6 +25,10 @@
 - Triggers when an effect is applied to you
 - Does something when first learned
 
+## Related
+
+- **Summons / entities:** Trnightmare
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill_config.toml`](../../../tensura-reincarnated/configs/config-tensura-ability-skill-config.md).

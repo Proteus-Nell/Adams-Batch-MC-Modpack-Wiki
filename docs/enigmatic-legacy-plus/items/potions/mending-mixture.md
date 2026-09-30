@@ -19,6 +19,10 @@ Right-click on any tool, weapon or armor
 
 to fully restore its durability.
 
+## What it does
+
+It is made at the Shapeless No Remain and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

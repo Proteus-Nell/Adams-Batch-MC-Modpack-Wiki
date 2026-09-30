@@ -12,8 +12,18 @@
 | **Category** | Weapons |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Katana](high-magisteel-katana.md) |
+| **Attack damage** | 13 (12 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **13** attack damage at **1.8** attack speed; one-handed **12** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

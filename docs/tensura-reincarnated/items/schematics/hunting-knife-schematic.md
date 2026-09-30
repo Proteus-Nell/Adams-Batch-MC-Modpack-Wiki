@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Centipede Dagger](../weapons/centipede-dagger.md) and [Spider Dagger](../weapons/spider-dagger.md).
+
 ## Tags
 
 `tensura:schematics`

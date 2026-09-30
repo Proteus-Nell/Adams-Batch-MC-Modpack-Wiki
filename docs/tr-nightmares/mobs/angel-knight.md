@@ -9,3 +9,7 @@
 | **ID** | `trnightmare:angel_knight` |
 
 </div>
+
+## What it does
+
+A mob.

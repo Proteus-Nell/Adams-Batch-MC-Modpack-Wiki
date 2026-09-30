@@ -25,6 +25,10 @@ Right click on a Grave Soul to store your experience
 
 Hold right click to receive this knowledge
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

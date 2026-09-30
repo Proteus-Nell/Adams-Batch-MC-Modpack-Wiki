@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Edible, but it doesn't fill you up.
+
 ## Relic abilities
 
 Relic levelling: up to level **12**, first level costs **100** XP, +40 XP per level.

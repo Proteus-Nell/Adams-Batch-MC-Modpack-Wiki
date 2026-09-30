@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A Respawn Anchor that works **in every dimension** and never explodes. Charge it with **Eyes of Ender** (up to 4 charges), then right-click it to set your spawn there. Each respawn uses one charge. It's very tough (like obsidian), the Ender Dragon can't break it, and a comparator reads its charge.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -24,6 +24,10 @@ something so alien, so unholy, so unknowable
 
 and madness-inducing.
 
+## What it does
+
+Used to make [The Arrogance of Chaos](../tools/chaos-elytra.md), [The Burden of Desolation](../rings/desolation-ring.md), [The Testament of Contempt](../amulets/eldritch-amulet.md), [The Infinitum](../books/the-infinitum.md) and [The Curse of Violence](../scrolls/violence-scroll.md).
+
 ## Used in
 
 [The Arrogance of Chaos](../tools/chaos-elytra.md), [The Burden of Desolation](../rings/desolation-ring.md), [The Testament of Contempt](../amulets/eldritch-amulet.md), [The Infinitum](../books/the-infinitum.md), [The Curse of Violence](../scrolls/violence-scroll.md)

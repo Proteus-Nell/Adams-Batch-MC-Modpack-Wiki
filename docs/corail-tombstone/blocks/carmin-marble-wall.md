@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative wall made from [Carmin Marble](carmin-marble.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

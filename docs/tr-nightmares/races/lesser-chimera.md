@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lesser_chimera` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |

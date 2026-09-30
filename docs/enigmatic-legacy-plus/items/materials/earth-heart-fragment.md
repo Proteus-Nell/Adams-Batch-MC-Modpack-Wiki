@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+A shard of the Heart of the Earth, found in chests and sold by wandering traders. Brewing it into an Awkward Potion makes a Potion of Luck, and it's a crafting material.
+
+Used to make [Heart of the Earth](earth-heart.md) and [Unwitnessed Amulet](../amulets/unwitnessed-amulet.md). It is found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:spectator_gazer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 300 - 300 |

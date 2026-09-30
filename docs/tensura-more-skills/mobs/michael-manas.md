@@ -19,3 +19,9 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+**Michael**, the angel manas. [Feldway](feldway.md) releases him during his fight, and the Ultimate mode of the [Angel Summoner](../items/miscellaneous/feldway-angel-summoner.md) summons him on your side. Feldway can't awaken into his second form while Michael is alive.
+
+A boss with **8,500** health and **175** attack damage.

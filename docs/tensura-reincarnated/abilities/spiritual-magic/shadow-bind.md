@@ -36,6 +36,7 @@
 
 - **Related skills:** [Darkness Attack Nullification](../resistance-skills/darkness-attack-nullification.md), [Darkness Attack Resistance](../resistance-skills/darkness-attack-resistance.md)
 - **Effects:** [Movement Interference](../../effects/movement-interference.md)
+- **Summons / entities:** Shadow Bind Hands, Tensura
 - **Referenced by:** [Witch of Envy, Satella](../../../tensura-more-skills/abilities/ultimate-skills/witch-of-envy-satella.md), [Satella](../../../tensura-more-skills/abilities/unique-skills/satella.md)
 
 ## Stats (config defaults)

@@ -30,6 +30,7 @@
 ## Related
 
 - **Effects:** [Fate Change](../../../tensura-reincarnated/effects/fate-change.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Gift](../unique-skills/gift.md), [｢ Astraea, Lord of Gifts ｣](astraea.md), [｢ Zehirete, God of Faith ｣](zehirete.md)
 
 ## Stats (config defaults)

@@ -42,6 +42,7 @@
 ## Related
 
 - **Items:** [Slime Core](../../items/materials/slime-core.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

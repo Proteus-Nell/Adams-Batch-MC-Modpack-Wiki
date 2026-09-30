@@ -58,6 +58,7 @@
 
 - **Related skills:** [Creator](../../../tensura-reincarnated/abilities/unique-skills/creator.md)
 - **Effects:** [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Mammon, Lord of Greed ｣](mammon.md), [｢ Akashic Records, God of Origin ｣](akashic-records.md)
 
 ## Stats (config defaults)

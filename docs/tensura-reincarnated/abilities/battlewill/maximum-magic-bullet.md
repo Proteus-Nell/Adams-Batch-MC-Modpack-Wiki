@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Magic Bullet](magic-bullet.md), [Death March Dance](death-march-dance.md)
+- **Summons / entities:** Aura Bullet
 - **Referenced by:** [Death March Dance](death-march-dance.md), [Magic Bullet](magic-bullet.md)
 
 ## Stats (config defaults)

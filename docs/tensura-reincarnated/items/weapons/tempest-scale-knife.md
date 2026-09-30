@@ -12,8 +12,18 @@
 | **Category** | Weapons |
 | **Durability** | 3,964 |
 | **Gear EP** | 60,000 - None |
+| **Attack damage** | 32 |
+| **Attack speed** | 1.8 |
+| **Reach** | -0.5 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.2× |
+| **Tier** | Pure Magisteel |
 
 </div>
+
+## What it does
+
+A Pure Magisteel knife that deals **32** attack damage at **1.8** attack speed. It also has -0.5 blocks of reach, +0.2 critical damage multiplier and no sweeping attack. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

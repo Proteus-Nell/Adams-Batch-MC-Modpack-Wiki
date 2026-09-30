@@ -42,6 +42,10 @@ When equipped as Amulet:
 
 +15% Lifesteal
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

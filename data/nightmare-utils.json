@@ -578,6 +578,53 @@
   "blocks": [],
   "mobs": [
    {
+    "id": "nightmareutils:dummy_workstation_trader",
+    "path": "dummy_workstation_trader",
+    "name": "Dummy Workstation Trader",
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.95
+     ],
+     "class": "dev.shadowako.nightmareutils.entity.DummyWorkstationTraderEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {},
+     "ancestors": [
+      "Zombie",
+      "Merchant"
+     ]
+    },
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
+    "id": "nightmareutils:hihiirokane_barter_trader",
+    "path": "hihiirokane_barter_trader",
+    "name": "Hihiirokane Barter Trader",
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.95
+     ],
+     "class": "dev.shadowako.nightmareutils.entity.HihiirokaneBarterTraderEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {},
+     "ancestors": [
+      "Zombie"
+     ]
+    },
+    "drops": null,
+    "spawns": [],
+    "tags": [],
+    "spawn_egg": null
+   },
+   {
     "id": "nightmareutils:otherworlder",
     "path": "otherworlder",
     "name": "Otherworlder",

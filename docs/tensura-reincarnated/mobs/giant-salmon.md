@@ -1,18 +1,29 @@
 # Giant Salmon
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:giant_salmon` |
+| **Type** | Monster |
+| **Health** | 15 |
+| **Attack damage** | 4 |
+| **Armor** | 1 |
+| **Speed** | 0.2 |
+| **Follow range** | 16 |
 | **Magicule (EP)** | 500 - 1,000 |
 | **Aura** | 500 - 1,000 |
 | **Spiritual health** | 30 |
+| **Hitbox** | 0.7 x 0.7 blocks |
 | **Spawn egg** |  [Giant Salmon Spawn Egg](../items/spawn-eggs/giant-salmon-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **15** health, **4** attack damage and **500-1,000** magicule. Spawns naturally in Giant Salmon Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Salmon](https://minecraft.wiki/w/Salmon) and [Bone](https://minecraft.wiki/w/Bone).
 
 ## Abilities
 
@@ -24,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:giant_salmon_spawn` | 2 | 1-1 |
+| Is Ocean, Is River | 2 | 1-1 |
 
 ## Drops
 

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Adamantite Kodachi](../weapons/adamantite-kodachi.md), [Adamantite Short Sword](../weapons/adamantite-short-sword.md), [Diamond Kodachi](../weapons/diamond-kodachi.md), [Diamond Short Sword](../weapons/diamond-short-sword.md), [Golden Kodachi](../weapons/golden-kodachi.md), [Golden Short Sword](../weapons/golden-short-sword.md) and 22 more. It is found in 7 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -39,12 +39,20 @@
 	mobCashDropAlerts = false
 	#Max transactions kept per UBS bank account; oldest are deleted on save. UBS has no cap of its own, so history grows forever and bank saves become lag spikes. 0 disables trimming. DEFAULT: 50
 	transactionHistoryCap = 50
+	#Show the Ultimate Banking System 'Balance' popup on every account gain/loss (auto-pickup makes this per-kill spam). DEFAULT: false
+	balanceChangeAlerts = false
 
 [ENGRAVING]
 	#Enable replacing natural Rare/Epic engraving rolls with Elite Tensura custom engravings. DEFAULT: true
 	enabled = true
 	#Percent chance a natural Rare/Epic engraving roll is replaced by a custom engraving. DEFAULT: 25.0
 	replaceChance = 25.0
+	#Enable the cursed engravings (strong buff + real drawback): both acquisition paths — native curse-roll substitution and forge critical outcomes. DEFAULT: true
+	cursedEnabled = true
+	#Percent of Tensura's native curse rolls substituted with an Elite Tensura cursed engraving. DEFAULT: 50.0
+	cursedSubstituteChance = 50.0
+	#Percent chance a forge craft whose quality roll fired at least one critical upgrade also gains a cursed engraving. DEFAULT: 15.0
+	cursedForgeCritChance = 15.0
 
 [PVP]
 	#Block EP transfer on player-vs-player kills: killer gains no EP, victim loses no EP/soul points. PvE deaths are unaffected. DEFAULT: true
@@ -55,3 +63,105 @@
 	enabled = true
 	#How many recent damage instances to keep per player. DEFAULT: 8
 	historySize = 8
+
+[BOSS_CONTRIBUTION]
+	#Send the live boss-contribution HUD panel (your damage + share vs the top three) to contributors during calamities, nation raids and finale sieges. DEFAULT: true
+	enabled = true
+	#Ticks between contribution updates, clamped to 1-120 (the client drops the panel 120 ticks after the last update). All three events only check once a second, so the effective cadence is the next multiple of 20 at or above this value. DEFAULT: 40
+	intervalTicks = 40
+
+[CHRONICLE]
+	#Enable the server chronicle feed (Codex Events tab): world-firsts, wars, calamities, awakenings, nation lifecycle, season closes, Walpurgis motions. DEFAULT: true
+	enabled = true
+	#Maximum feed entries kept in the world save; the oldest is evicted past the cap. DEFAULT: 150
+	maxEntries = 150
+
+[PROCLAMATIONS]
+	#Enable /etproclaim — players pay to push a message into the chronicle feed, the Voice banner and Discord. DEFAULT: true
+	enabled = true
+	#Fee in whole dollars, charged from the poster's own bank. 0 = free (and works without Ultimate Banking System installed). DEFAULT: 10000
+	feeDollars = 10000
+	#Hours a player must wait between proclamations (game time — survives restarts). 0 or less = no cooldown. DEFAULT: 6
+	cooldownHours = 6
+	#Maximum message length in characters after formatting codes are stripped. 0 or less = no cap. DEFAULT: 200
+	maxLength = 200
+	#Restrict proclamations to nation sovereigns. DEFAULT: false
+	sovereignsOnly = false
+	#Also announce each proclamation as a Voice of the World banner (still subject to the Voice system's own enableWorldEvents). DEFAULT: true
+	announceVoice = true
+	#Also post each proclamation to the Discord WORLD webhook. DEFAULT: true
+	announceDiscord = true
+
+[AETHERFORGED_PLATE]
+	#Max damage reduction % from wearing the full 4-piece Aetherforged Plate set, scaled by wearer EP up to Refs.ultimateUnlockEPCost (linear ramp, 0% at 0 EP to this value at ultimateUnlockEPCost+). DEFAULT: 25.0
+	maxReductionPercent = 25.0
+
+[CRATES]
+	#Enable crate pity: at most N opens of one crate without a reward at/above pityFloor — the Nth consecutive dry open rolls only from that pool. DEFAULT: true
+	pityEnabled = true
+	#Rarity that counts as a pity hit and forms the forced pool. One of COMMON, UNCOMMON, RARE, EPIC, LEGENDARY. DEFAULT: RARE
+	pityFloor = "RARE"
+	#Per-crate hard pity thresholds as crateId=N pairs. 0 disables pity for that crate. Rare/Elite default off — their natural Rare+ rate (29% / 62%) makes a guarantee meaningless. DEFAULT: common=15,rare=0,elite=0
+	pityThresholds = "common=15,rare=0,elite=0"
+	#Threshold for any crate id not listed in pityThresholds. 0 disables. DEFAULT: 10
+	pityDefaultThreshold = 10
+	#Minimum reward rarity for totem particles + level-up sound at the crate block. DEFAULT: RARE
+	fxFloor = "RARE"
+	#Minimum reward rarity for a firework burst at the crate block. DEFAULT: EPIC
+	fireworkFloor = "EPIC"
+
+[NAMEPLATE]
+	#Master switch for showcase titles (the line above player nameplates and the tab-list suffix). DEFAULT: true
+	enabled = true
+	#Draw each player's showcase title as a line above their nameplate. DEFAULT: true
+	nameplate = true
+	#Append the showcase title after the name in the tab list: Name [Title]. DEFAULT: true
+	tabList = true
+	#Scale of the nameplate title line relative to the name text. DEFAULT: 0.85
+	nameplateScale = 0.85
+
+[SCHEDULES]
+	#Master switch for /etadmin schedule. Off: nothing fires; the list can still be edited. DEFAULT: true
+	enabled = true
+	#Minutes before a scheduled event to announce it. DEFAULT: 10
+	announceLeadMinutes = 10
+	#Announce upcoming scheduled events through the Voice of the World banner. DEFAULT: true
+	announceVoice = true
+	#Announce upcoming scheduled events (and skipped fires) on the Discord WORLD webhook. DEFAULT: true
+	announceDiscord = true
+
+[WORLD_LEDGER]
+	#Master switch for the World Ledger (server-wide lifetime counters with tier rewards). Off: no polling, no Codex Stats group, /etadmin ledger reports disabled. DEFAULT: true
+	enabled = true
+	#Ticks between ledger polls (each poll sums every player's counters). Clamped to >= 200. DEFAULT: 1200
+	pollIntervalTicks = 1200
+	#Minimum Legacy points paid to any contributor with a non-zero count when a tier completes, even if their share rounds to 0. DEFAULT: 1
+	minLegacy = 1
+	#Announce tier completions through the Voice of the World banner. DEFAULT: true
+	announceVoice = true
+	#Announce tier completions on the Discord WORLD webhook. DEFAULT: true
+	announceDiscord = true
+	#Kills tier thresholds. DEFAULT: 10000,100000,1000000
+	killsTiers = "10000,100000,1000000"
+	#Legacy pool split among contributors per kills tier. DEFAULT: 50,150,500
+	killsLegacy = "50,150,500"
+	#Nation-ladder pool split among contributing nations per kills tier (active season only). DEFAULT: 25,75,250
+	killsLadder = "25,75,250"
+	#Calamities-slain tier thresholds. DEFAULT: 10,50,200
+	calamitiesTiers = "10,50,200"
+	#Legacy pool per calamities tier. DEFAULT: 50,150,500
+	calamitiesLegacy = "50,150,500"
+	#Nation-ladder pool per calamities tier. DEFAULT: 25,75,250
+	calamitiesLadder = "25,75,250"
+	#Items-forged tier thresholds. DEFAULT: 500,5000,50000
+	forgeCraftsTiers = "500,5000,50000"
+	#Legacy pool per forge tier. DEFAULT: 50,150,500
+	forgeCraftsLegacy = "50,150,500"
+	#Nation-ladder pool per forge tier. DEFAULT: 25,75,250
+	forgeCraftsLadder = "25,75,250"
+	#Titles-unlocked tier thresholds (sum of every player's earned titles). DEFAULT: 200,1000,5000
+	titlesTiers = "200,1000,5000"
+	#Legacy pool per titles tier. DEFAULT: 50,150,500
+	titlesLegacy = "50,150,500"
+	#Nation-ladder pool per titles tier. DEFAULT: 25,75,250
+	titlesLadder = "25,75,250"

@@ -33,6 +33,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Martial Master](../unique-skills/martial-master.md)
 
 ## Stats (config defaults)

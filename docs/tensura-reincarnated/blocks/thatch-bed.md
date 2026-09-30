@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A low straw bed. It works like a normal bed (sleep, set your spawn), and landing on it takes 25% off fall damage without bouncing you.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

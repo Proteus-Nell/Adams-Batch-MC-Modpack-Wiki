@@ -43,6 +43,7 @@
 
 - **Related skills:** [Villain](../../../tensura-reincarnated/abilities/unique-skills/villain.md), [Spiritual Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/spiritual-attack-nullification.md), [Spiritual Attack Resistance](../../../tensura-reincarnated/abilities/resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Fear](../../../tensura-reincarnated/effects/fear.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

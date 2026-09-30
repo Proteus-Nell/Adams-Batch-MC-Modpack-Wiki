@@ -14,6 +14,20 @@
 
 </div>
 
+## What it does
+
+Ammunition for the [Web Gun](../weapons/web-gun.md) (dispensers can fire it too). A web bullet gives the creature it hits [Webbed](../../effects/webbed.md) and [Silence](../../effects/silence.md), and leaves webs where it lands:
+
+| Cartridge | Webbed | Silence | Web left behind |
+|---|---|---|---|
+| Web Cartridge | 5 s | 5 s | Cobweb; also turns stone into webbed stone |
+| Sticky Web Cartridge | 10 s | 10 s | [Sticky Cobweb](../../blocks/sticky-cobweb.md), gone after 8 s |
+| Sticky Steel Web Cartridge | 10 s | 10 s | [Sticky Steel Cobweb](../../blocks/sticky-steel-cobweb.md), gone after 12 s |
+
+(Silence is meant to be a 25% chance, but because of a mix-up in the code it always applies.)
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

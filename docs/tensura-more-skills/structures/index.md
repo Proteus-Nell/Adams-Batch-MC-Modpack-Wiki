@@ -4,4 +4,4 @@
 
 | Structure | Biomes | Spacing |
 |---|---|---|
-| [Paths Gate](paths-gate.md) | `#tensuramoreskills:has_structure/paths_gate` | 64 chunks |
+| [Paths Gate](paths-gate.md) | Plains, Sunflower Plains | 64 chunks |

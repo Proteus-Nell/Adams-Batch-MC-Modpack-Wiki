@@ -14,3 +14,7 @@
 | **Hitbox** | 0.6 x 1.8 blocks |
 
 </div>
+
+## What it does
+
+An entity with **1,000,000** health.

@@ -25,6 +25,7 @@
 ## Related
 
 - **Related skills:** [｢ Mammon, Lord of Greed ｣](../ultimate-skills/mammon.md), [Possession](../../../tensura-reincarnated/abilities/intrinsic-skills/possession.md), [｢ Alternative, Proxy Rights ｣](../ultimate-skills/alternative.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Robotnic](../unique-skills/robotnic.md)
 
 ## Stats (config defaults)

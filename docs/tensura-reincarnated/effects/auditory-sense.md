@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Hearing boost: **+5** presence-sense radius. Ultrasonic Waves (sense mode) and Exploiter grant it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

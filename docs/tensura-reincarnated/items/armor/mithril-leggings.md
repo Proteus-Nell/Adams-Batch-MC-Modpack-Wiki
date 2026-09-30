@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Leggings](adamantite-leggings.md) |
+| **Armor** | 9 |
+| **Armor toughness** | 5 |
+| **Knockback resistance** | 30% |
+| **Durability** | 675 |
 
 </div>
+
+## What it does
+
+Mithril armor for the leggings slot: **9** armor, **5** toughness and **30%** knockback resistance. Durability: **675**. It is made at the Smithing Bench.
 
 ## Obtaining
 

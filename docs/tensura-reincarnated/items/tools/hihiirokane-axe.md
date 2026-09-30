@@ -11,8 +11,16 @@
 | **ID** | `tensura:hihiirokane_axe` |
 | **Category** | Tools |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 82 |
+| **Attack speed** | 1.3 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A axe that deals **82** attack damage at **1.3** attack speed. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

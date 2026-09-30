@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_judgement` |
 | **Category** | Op |
 | **Rarity** | Epic |
+| **Attack damage** | Infinite |
+| **Attack speed** | 32 |
 
 </div>
 
@@ -29,3 +31,7 @@ drops in the attack radius.
 Mode: ?
 
 Hold Shift to see details.
+
+## What it does
+
+A weapon that deals **infinite** attack damage at **32** attack speed.

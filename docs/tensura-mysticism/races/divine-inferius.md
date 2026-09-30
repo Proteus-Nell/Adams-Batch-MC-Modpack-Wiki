@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:divine_inferius` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 1,000,000 - 1,000,000 |
@@ -32,7 +33,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 | Requirement | Weight |
 |---|---|
 | Reach Existence Points of 2,000,000 | 50% |
-| Slay 1 of m e m o i r e s. | 50% |
+| Slay 1 of [Memoires](../mobs/memoires.md). | 50% |
 
 ### Evolution tree
 

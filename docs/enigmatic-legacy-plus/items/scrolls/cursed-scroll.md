@@ -35,6 +35,10 @@ Current traits:
 
 +? Health Regeneration
 
+## What it does
+
+Used to make [The Curse of Violence](violence-scroll.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

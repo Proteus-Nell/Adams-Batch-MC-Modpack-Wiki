@@ -34,6 +34,7 @@
 ## Related
 
 - **Effects:** [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
+- **Summons / entities:** Disintegration
 
 ## Stats (config defaults)
 

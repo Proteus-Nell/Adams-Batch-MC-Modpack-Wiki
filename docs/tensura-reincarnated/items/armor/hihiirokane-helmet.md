@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Armor** | 12 |
+| **Armor toughness** | 10 |
+| **Knockback resistance** | 100% |
+| **Durability** | 880 |
 
 </div>
+
+## What it does
+
+Hihiirokane armor for the helmet slot: **12** armor, **10** toughness and **100%** knockback resistance. Durability: **880**. It is made at the Smithing Bench.
 
 ## Obtaining
 

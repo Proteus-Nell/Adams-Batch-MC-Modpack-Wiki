@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dragon Breath Bow](../tools/dragon-breath-bow.md), [Ethereal Forging Charm](../charms/ethereal-forging-charm.md), [Ethereal Lantern](../../blocks/ethereal-lantern.md), [Etherium Sledgehammer](../etherium/etherium-hammer.md), [Etherium Scythe](../etherium/etherium-scythe.md) and 3 more. It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

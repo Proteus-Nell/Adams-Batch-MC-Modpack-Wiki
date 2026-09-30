@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Sword](adamantite-sword.md) |
+| **Attack damage** | 34 |
+| **Attack speed** | 1.6 |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A sword that deals **34** attack damage at **1.6** attack speed. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

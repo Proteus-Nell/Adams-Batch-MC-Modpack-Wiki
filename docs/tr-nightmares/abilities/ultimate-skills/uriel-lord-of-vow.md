@@ -59,7 +59,7 @@
 
 - **Related skills:** [Infinity Prison](../../../tensura-reincarnated/abilities/unique-skills/infinity-prison.md)
 - **Effects:** [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md)
-- **Summons / entities:** [Severance](../../../tensura-reincarnated/enchantments/severance.md)
+- **Summons / entities:** Severance Cutter, [Severance](../../../tensura-reincarnated/enchantments/severance.md), Tensura
 - **Referenced by:** [｢ Uriel, Lord of Oaths ｣](uriel-lord-of-oath.md), [Paladin Manas](paladin-manas.md)
 
 ## Stats (config defaults)

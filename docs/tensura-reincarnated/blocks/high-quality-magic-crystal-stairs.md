@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative stairs made from [High Quality Magic Crystal Block](high-quality-magic-crystal-block.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

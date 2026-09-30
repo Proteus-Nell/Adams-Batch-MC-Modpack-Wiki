@@ -16,7 +16,11 @@
 
 </div>
 
-Found in: [Elemental Realm](../dimensions/elemental-realm.md)
+## What it does
+
+A temperate biome in [Elemental Realm](../dimensions/elemental-realm.md) where it never rains or snows. Mobs that spawn here: [Allay](https://minecraft.wiki/w/Allay), [Memoires](../mobs/memoires.md) and [Vex](https://minecraft.wiki/w/Vex).
+
+Ambient magicule **+1,500**, and magicule refills a little faster.
 
 ## Mob spawns
 

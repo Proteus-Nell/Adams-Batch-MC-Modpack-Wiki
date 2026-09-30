@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:purple_centipede_insectar` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 100,000 |
@@ -24,7 +25,7 @@
 ## Evolution
 
 - **Evolves from:** [Purple Centipede](purple-centipede.md)
-- **Evolves into:** [Purple Centipede Savant](purple-centipede-savant.md), [Spatial Soul Insect](spatial-soul-insect.md)
+- **Evolves into:** [Purple Centipede Savant](purple-centipede-savant.md), [Spatial Soul Insect](spatial-soul-insect.md), [Purple Centipede](purple-centipede.md)
 - **Default evolution:** [Purple Centipede Savant](purple-centipede-savant.md)
 - **On awakening (True Demon Lord / True Hero):** [Spatial Soul Insect](spatial-soul-insect.md)
 

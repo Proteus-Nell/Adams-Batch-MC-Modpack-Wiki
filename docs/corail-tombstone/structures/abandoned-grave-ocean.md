@@ -15,3 +15,9 @@
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+A small spot with an [Abandoned Grave](../blocks/abandoned-grave.md) to raid, on land or on the ocean floor.
+
+Generates in `#tombstone:has_structure/abandoned_grave_ocean`, about one every 32 chunks (at least 8 chunks apart).

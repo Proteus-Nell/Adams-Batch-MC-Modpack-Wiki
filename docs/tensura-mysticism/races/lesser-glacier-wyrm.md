@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:lesser_glacier_wyrm` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 1,000 - 1,500 |

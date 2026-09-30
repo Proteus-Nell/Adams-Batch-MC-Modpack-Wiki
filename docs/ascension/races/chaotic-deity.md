@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:chaotic_deity` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 300 - 600 |

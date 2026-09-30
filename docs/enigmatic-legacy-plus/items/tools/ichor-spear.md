@@ -19,6 +19,10 @@ A one-time corruption throwing spear
 
 Not consuming
 
+## What it does
+
+Used to make [Infernal Blazing Spear](infernal-spear.md). It is crafted and dropped by [Piglin Wanderer](../../mobs/piglin-wanderer.md).
+
 ## Obtaining
 
 ### Recipes

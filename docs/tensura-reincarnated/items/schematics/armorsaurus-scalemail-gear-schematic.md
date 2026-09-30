@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Armorsaurus Scalemail Boots](../armor/armorsaurus-scalemail-boots.md), [Armorsaurus Scalemail Chestplate](../armor/armorsaurus-scalemail-chestplate.md), [Armorsaurus Scalemail Helmet](../armor/armorsaurus-scalemail-helmet.md), [Armorsaurus Scalemail Leggings](../armor/armorsaurus-scalemail-leggings.md) and [Armorsaurus Shield](../miscellaneous/armorsaurus-shield.md).
+
 ## Obtaining
 
 ### Loot

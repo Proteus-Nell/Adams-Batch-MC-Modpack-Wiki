@@ -24,6 +24,10 @@ The tome will be transformed into Enchanted Book.
 
 to transfer all enchantments from item to the tome.
 
+## What it does
+
+Used to make [The Curse of Violence](../scrolls/violence-scroll.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

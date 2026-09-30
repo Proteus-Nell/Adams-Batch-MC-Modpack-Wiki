@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Binding. Per level: **-10%** movement, swim, lava and glide speed, jump strength and attack speed, and **+0.1** knockback resistance. You also can't use your race's abilities while it lasts.
+
+Mud Hand, Earth Jail, Shadow Bind, Demon Marionette, Greed, Dark Cube and death blessing fields inflict it. Disintegration and several holy judgement skills use level X or higher to pin their target in place.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

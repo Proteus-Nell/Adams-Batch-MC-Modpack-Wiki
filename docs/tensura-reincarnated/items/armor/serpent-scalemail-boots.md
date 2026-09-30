@@ -11,8 +11,16 @@
 | **ID** | `tensura:serpent_scalemail_boots` |
 | **Category** | Armor |
 | **Gear EP** | 9,000 - None |
+| **Armor** | 2 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 10% |
+| **Durability** | 481 |
 
 </div>
+
+## What it does
+
+Ant Carapace armor for the boots slot: **2** armor, **2** toughness and **10%** knockback resistance. Durability: **481**. It is made at the Smithing Bench.
 
 ## Obtaining
 

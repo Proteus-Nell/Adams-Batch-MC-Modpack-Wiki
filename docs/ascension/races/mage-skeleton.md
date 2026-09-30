@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:mage_skeleton` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 100 - 500 |

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Relapse's Divine Inferius mode. It raises almost everything by **50%**: max health, attack damage, attack speed, movement speed, mining speed, reach, step height, water movement, max magicule and aura, their regeneration, and max spiritual health and its regeneration.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

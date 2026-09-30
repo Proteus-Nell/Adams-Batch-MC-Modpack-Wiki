@@ -49,7 +49,7 @@
 
 - **Effects:** [Severance Blade](../../effects/severance-blade.md)
 - **Items:** [Spatial Blade](../../items/weapons/spatial-blade.md)
-- **Summons / entities:** [Severance](../../enchantments/severance.md)
+- **Summons / entities:** [Severance](../../enchantments/severance.md), Severer Blade
 - **Referenced by:** [Pride Manas](../../../tr-nightmares/abilities/ultimate-skills/pride-manas.md)
 
 ## Stats (config defaults)

@@ -40,6 +40,10 @@ When equipped as Amulet:
 
 +8 Armor Toughness
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+An arrow that can't be seen in flight. Dwarf fletchers sell them.
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

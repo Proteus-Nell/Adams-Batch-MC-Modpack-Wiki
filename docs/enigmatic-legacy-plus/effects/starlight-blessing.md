@@ -16,6 +16,10 @@
 
 > Etherium Threshold will increase damage dealt and restoring health when the effect ends.
 
+## What it does
+
+A beneficial status effect. Each level changes etherium shield +10%.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

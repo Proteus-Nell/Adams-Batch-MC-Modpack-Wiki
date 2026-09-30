@@ -28,6 +28,10 @@ Trigger lifesteal when attacking a target on fire.
 
 ? chance to resist the attack damage.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -48,6 +48,7 @@
 
 ## Related
 
+- **Summons / entities:** Ice Lance
 - **Referenced by:** [Icicle Rain](icicle-rain.md), [Ice Breaker](ice-breaker.md)
 
 ## Stats (config defaults)

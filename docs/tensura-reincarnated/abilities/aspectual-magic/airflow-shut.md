@@ -46,6 +46,7 @@
 ## Related
 
 - **Effects:** [Silence](../../effects/silence.md)
+- **Summons / entities:** Air Jail
 
 ## Stats (config defaults)
 

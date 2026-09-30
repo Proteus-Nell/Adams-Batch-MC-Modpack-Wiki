@@ -57,6 +57,10 @@ Current Keybind: ?
 
 Arcane Scroll Active Ability
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

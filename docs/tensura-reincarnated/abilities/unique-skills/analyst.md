@@ -52,6 +52,7 @@
 ## Related
 
 - **Related skills:** [Law Manipulation](../extra-skills/law-manipulation.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

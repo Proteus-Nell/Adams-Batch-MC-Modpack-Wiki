@@ -25,6 +25,12 @@ Further enhances the effects of this item.
 
 Enhancement: Increase the probability of reducing.
 
+## What it does
+
+It is crafted.
+
+**Other names:** in some states this item shows a different name: **Starlight Forging Charm**.
+
 ## Obtaining
 
 ### Recipes

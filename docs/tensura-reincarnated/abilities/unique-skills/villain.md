@@ -61,6 +61,7 @@
 
 - **Related skills:** [Spiritual Attack Resistance](../resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Haki Coat](../../effects/haki-coat.md), [Ally Boost](../../effects/ally-boost.md), [Mind Control](../../effects/mind-control.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Tantalous, King of Evil ｣](../../../tr-nightmares/abilities/ultimate-skills/tantalus.md)
 
 ## Stats (config defaults)

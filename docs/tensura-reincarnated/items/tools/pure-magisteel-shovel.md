@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Shovel](adamantite-shovel.md) |
+| **Attack damage** | 32.5 |
+| **Attack speed** | 1 |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A shovel that deals **32.5** attack damage at **1** attack speed. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

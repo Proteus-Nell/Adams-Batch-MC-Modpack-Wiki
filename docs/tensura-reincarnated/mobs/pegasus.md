@@ -1,24 +1,34 @@
 # Pegasus
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:pegasus` |
+| **Type** | Monster |
+| **Health** | 40 |
+| **Attack damage** | 20 |
+| **Speed** | 0.18 |
+| **Knockback resistance** | 0.01 |
 | **Magicule (EP)** | 2,000 - 4,000 |
 | **Aura** | 1,000 - 2,000 |
 | **Spiritual health** | 80 |
+| **Hitbox** | 1.3965 x 1.6 blocks |
 | **Spawn egg** |  [Pegasus Spawn Egg](../items/spawn-eggs/pegasus-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **40** health, **20** attack damage and **2,000-4,000** magicule. Spawns naturally in Pegasus Spawn. Drops [Feather](https://minecraft.wiki/w/Feather) and [Monster Leather (C)](../items/miscellaneous/monster-leather-c.md).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:pegasus_spawn` | 7 | 1-3 |
+| Is Mountain | 7 | 1-3 |
 
 ## Drops
 

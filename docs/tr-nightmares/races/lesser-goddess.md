@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lesser_goddess` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 2,000 - 4,000 |

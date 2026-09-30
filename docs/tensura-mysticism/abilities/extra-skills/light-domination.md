@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Light Manipulation](light-manipulation.md)
+- **Summons / entities:** Tensura, Light Arrow
 - **Referenced by:** [Light Manipulation](light-manipulation.md)
 
 ## Stats (config defaults)

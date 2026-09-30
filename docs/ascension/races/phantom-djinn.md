@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:phantom_djinn` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

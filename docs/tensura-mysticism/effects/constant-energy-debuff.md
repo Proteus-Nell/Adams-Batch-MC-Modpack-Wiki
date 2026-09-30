@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+The price for overspending with [Constant: Energy](constant-energy.md): your magicule and aura **don't regenerate** at all for 180 s.
+
 ## Applied by
 
 [Constant](../abilities/unique-skills/constant.md)

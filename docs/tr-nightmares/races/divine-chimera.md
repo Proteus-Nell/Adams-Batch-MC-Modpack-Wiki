@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:divine_chimera` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 150,000 - 300,000 |

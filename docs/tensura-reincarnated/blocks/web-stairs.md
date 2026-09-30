@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Decorative stairs made from [Web Block](web-block.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -35,6 +35,10 @@ lost memories...
 
 Name is engraved upon it: ?
 
+## What it does
+
+Used to make [Amulet of Ascension](ascension-amulet.md), [Amulet of Radiance](redemption-amulet.md) and [Unwitnessed Amulet](unwitnessed-amulet.md).
+
 ## Used in
 
 [Amulet of Ascension](ascension-amulet.md), [Amulet of Radiance](redemption-amulet.md), [Unwitnessed Amulet](unwitnessed-amulet.md)

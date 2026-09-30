@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Golden Sickle](../tools/golden-sickle.md), [Blade Tiger Scythe](../weapons/blade-tiger-scythe.md), [Golden Great Sword](../weapons/golden-great-sword.md), [Golden Katana](../weapons/golden-katana.md), [Golden Kodachi](../weapons/golden-kodachi.md), [Golden Long Sword](../weapons/golden-long-sword.md) and 5 more. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -29,17 +29,23 @@
 	masterworkEngravingSlots = 2
 	legendaryEngravingSlots = 3
 	mythicalEngravingSlots = 4
+	#Extra critical-upgrade chance per minigame score point above the neutral point — the only way skilled play improves LEGENDARY/MYTHICAL odds. Score below neutral adds nothing (the weight table already punishes it). Hephaestus Reforge is exempt: its score is random, not earned. Set 0 to disable. DEFAULT: 0.003 (+15% crit at score 100)
+	critChancePerScoreOverNeutral = 0.003
+	#Minigame score at or above which the craft cannot come out below FINE. Reforge is exempt. Set above 100 to disable. DEFAULT: 90.0
+	fineFloorScore = 90.0
+	#Minigame score at or above which the craft cannot come out below SUPERIOR. Reforge is exempt. Set above 100 to disable. DEFAULT: 98.0
+	superiorFloorScore = 98.0
 
 [MINIGAMES]
-	#Minimum ticks between two minigame inputs; faster is rejected as implausible. DEFAULT: 4
+	#Minimum ticks between two minigame inputs; faster is rejected as implausible. Input times are now measured to sub-tick precision instead of being rounded to a whole tick, so this gate bites exactly rather than approximately — lowered from 4 to keep the effective strictness the same and avoid voiding fast legitimate play. DEFAULT: 3
 	minReactionTicks = 4
 	#Hammer: base number of strikes at difficulty 1. DEFAULT: 4
 	hammerBaseStrikes = 4
 	#Hammer: extra strikes per difficulty level. DEFAULT: 1
 	hammerStrikesPerDifficulty = 1
-	#Hammer: bar sweep period in ticks at difficulty 1 (one full left-right-left cycle). DEFAULT: 40
+	#Hammer: bar sweep period in ticks at difficulty 1 (one full left-right-left cycle). This is the real difficulty knob: it sets how far the cursor travels per unit of human timing error. DEFAULT: 80
 	hammerBasePeriodTicks = 40
-	#Hammer: ticks removed from the sweep period per difficulty level. DEFAULT: 5
+	#Hammer: ticks removed from the sweep period per difficulty level. DEFAULT: 6
 	hammerPeriodReductionPerDifficulty = 5
 	#Hammer: sweet spot width (fraction of bar, 0-1) at difficulty 1. DEFAULT: 0.18
 	hammerBaseSweetSpotWidth = 0.18
@@ -53,7 +59,7 @@
 	flowBaseDurationTicks = 200
 	#Flow: ticks added to duration per difficulty level. DEFAULT: 40
 	flowDurationPerDifficulty = 40
-	#Flow: ticks between gauge samples. DEFAULT: 5
+	#Flow: ticks between gauge samples. 1 = score every tick (finest). Raising this coarsens scoring and shrinks the packet. DEFAULT: 1
 	flowSampleInterval = 5
 	#Flow: number of band-center keyframes (drift waypoints) at difficulty 1. DEFAULT: 4
 	flowBaseKeyframes = 4
@@ -65,7 +71,7 @@
 	flowBandReductionPerDifficulty = 0.02
 	#Flow: minimum band half-width regardless of difficulty. DEFAULT: 0.05
 	flowMinBandHalfWidth = 0.05
-	#Flow: maximum plausible gauge change per sample (anti-cheat). DEFAULT: 0.45
+	#Flow: maximum plausible gauge change per TICK (anti-cheat); the validator multiplies by flowSampleInterval. The needle really moves 0.05/tick, so this leaves headroom for rounding. DEFAULT: 0.08
 	flowMaxSlew = 0.45
 	#Flow: magicule drained per duration tick (cost = this x durationTicks x difficulty). DEFAULT: 1.0
 	flowMagiculeDrainPerTick = 1.0
@@ -193,3 +199,31 @@
 	requireOwnTerritory = true
 	#Station-upgrade craft threshold reduction per nation level for stations in the crafter's own claim (0.05 = -5%/level, floored at 50% of the base threshold). 0 disables. DEFAULT: 0.05
 	upgradeDiscountPerLevel = 0.05
+
+[WEAPON_LEGEND]
+	#Count kills on forged items and show tier flair. DEFAULT: true
+	enabled = true
+	#Kills for tier 1 (Blooded — lore line appears). DEFAULT: 100
+	tier1Kills = 100
+	#Kills for tier 2 (Renowned — ✯ name suffix). DEFAULT: 1000
+	tier2Kills = 1000
+	#Kills for tier 3 (Legendary — gold name + ✯✯). DEFAULT: 10000
+	tier3Kills = 10000
+	#Boss kills that grant the one-time extra engraving. DEFAULT: 25
+	bossKillsForEngraving = 25
+	#Player kills count toward the tally. DEFAULT: true
+	countPvp = true
+
+[SALVAGE]
+	#Enable the Salvage button on the Forge Station menu (dismantle + engraving reroll). DEFAULT: true
+	enabled = true
+	#Percent of each item ingredient refunded on salvage, per quality rank POOR..MYTHICAL (7 comma-separated entries; floored per ingredient; tag ingredients never refund). DEFAULT: 20,25,30,40,50,60,75
+	refundPercentByRank = "20,25,30,40,50,60,75"
+	#Percent chance, rolled per engraving on the salvaged item until one hits, that an Engraving Scroll capturing it drops. Max one scroll per salvage. DEFAULT: 25
+	scrollChancePercent = 25
+	#Maximum engraving rerolls per forged item (stored on the item, survives Reforge). DEFAULT: 3
+	rerollCap = 3
+	#Percent of each recipe ingredient charged per reroll (ceil, minimum 1 of each). Creative players pay no materials. DEFAULT: 25
+	rerollMaterialPercent = 25
+	#Cash charged per reroll in whole dollars, per quality rank POOR..MYTHICAL (7 entries). Requires Ultimate Banking System; skipped entirely without it. DEFAULT: 0,0,0,2500,7500,20000,50000
+	rerollDollarsByRank = "0,0,0,2500,7500,20000,50000"

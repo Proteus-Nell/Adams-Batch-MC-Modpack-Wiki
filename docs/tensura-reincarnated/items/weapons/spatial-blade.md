@@ -14,6 +14,9 @@
 | **Rarity** | Rare |
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 13 |
+| **Attack speed** | 1.6 |
+| **Tier** | High Magisteel |
 
 </div>
 
@@ -22,6 +25,10 @@
 Blade Mode: Right-click to shoot out blades.
 
 Hilt Mode: Right-click to replenish blades.
+
+## What it does
+
+A High Magisteel weapon that deals **13** attack damage at **1.6** attack speed. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

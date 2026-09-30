@@ -38,3 +38,4 @@
 ## Related
 
 - **Items:** [Spatial Blade](../../../tensura-reincarnated/items/weapons/spatial-blade.md), [Blade of The End](../../items/weapons/ending-sealed-sword.md), [Blade of The End](../../items/weapons/ending-unsealed-sword.md)
+- **Summons / entities:** Gluttony Mist

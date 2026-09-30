@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lesser_fairy` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 500 |

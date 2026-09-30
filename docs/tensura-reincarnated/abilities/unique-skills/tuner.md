@@ -31,6 +31,7 @@
 ## Related
 
 - **Effects:** [Fate Change](../../effects/fate-change.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Mood Maker, Lord of Psychology ｣](../../../tr-nightmares/abilities/ultimate-skills/mood-maker.md)
 
 ## Stats (config defaults)

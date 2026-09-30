@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Coin Pouch (Special A)](pouch-special-a.md), [Monster Leather Boots (Special A)](../armor/monster-leather-boots-special-a.md), [Monster Leather Chestplate (Special A)](../armor/monster-leather-chestplate-special-a.md), [Monster Leather Helmet (Special A)](../armor/monster-leather-helmet-special-a.md) and [Monster Leather Leggings (Special A)](../armor/monster-leather-leggings-special-a.md).
+
 ## Used in
 
 [Coin Pouch (Special A)](pouch-special-a.md), [Monster Leather Boots (Special A)](../armor/monster-leather-boots-special-a.md), [Monster Leather Chestplate (Special A)](../armor/monster-leather-chestplate-special-a.md), [Monster Leather Helmet (Special A)](../armor/monster-leather-helmet-special-a.md), [Monster Leather Leggings (Special A)](../armor/monster-leather-leggings-special-a.md)

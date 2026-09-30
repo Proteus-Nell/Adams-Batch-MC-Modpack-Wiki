@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative trapdoor made from [Palm Planks](palm-planks.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

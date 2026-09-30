@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:demon_dragon_god` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 6,000 |
@@ -73,14 +74,11 @@ Granted automatically when you become this race.
 - ![](../../assets/icons/tensura/skill/dragon_skin.png) [Dragon Skin](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-skin.md)
 - ![](../../assets/icons/tensura/skill/dragon_ear.png) [Dragon Ear](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-ear.md)
 - ![](../../assets/icons/tensura/skill/dragon_eye.png) [Dragon Eye](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-eye.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
 - ![](../../assets/icons/tensura/skill/magic_darkness_transform.png) [Magic Darkness Transform](../../tensura-reincarnated/abilities/extra-skills/magic-darkness-transform.md)
 - ![](../../assets/icons/tensura/skill/black_flame.png) [Black Flame](../../tensura-reincarnated/abilities/extra-skills/black-flame.md)
 - ![](../../assets/icons/tensura/skill/darkness_attack_nullification.png) [Darkness Attack Nullification](../../tensura-reincarnated/abilities/resistance-skills/darkness-attack-nullification.md)
 - ![](../../assets/icons/tensura/skill/flame_attack_nullification.png) [Flame Attack Nullification](../../tensura-reincarnated/abilities/resistance-skills/flame-attack-nullification.md)
 - ![](../../assets/icons/ascension/skill/purple_lightning.png) [Purple Lightning](../abilities/aspectual-magic/purple-lightning.md)
-- ![](../../assets/icons/tensura/skill/ice_breath.png) [Ice Breath](../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
-- ![](../../assets/icons/tensura/skill/thunder_breath.png) [Thunder Breath](../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md)
 - ![](../../assets/icons/tensura/skill/magic_resistance.png) [Magic Resistance](../../tensura-reincarnated/abilities/resistance-skills/magic-resistance.md)
 - ![](../../assets/icons/tensura/skill/scale_armor.png) [Scale Armor](../../tensura-reincarnated/abilities/intrinsic-skills/scale-armor.md)
 

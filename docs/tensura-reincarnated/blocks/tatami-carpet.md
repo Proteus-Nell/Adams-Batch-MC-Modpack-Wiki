@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Woven tatami for Japanese-style floors. Four Tatami Blocks make four Single Tatami blocks, which make Single Tatami Carpets.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

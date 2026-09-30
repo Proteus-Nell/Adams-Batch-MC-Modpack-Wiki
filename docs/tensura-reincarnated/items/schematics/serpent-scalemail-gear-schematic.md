@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Serpent Scalemail Boots](../armor/serpent-scalemail-boots.md), [Serpent Scalemail Chestplate](../armor/serpent-scalemail-chestplate.md), [Serpent Scalemail Helmet](../armor/serpent-scalemail-helmet.md) and [Serpent Scalemail Leggings](../armor/serpent-scalemail-leggings.md).
+
 ## Obtaining
 
 ### Loot

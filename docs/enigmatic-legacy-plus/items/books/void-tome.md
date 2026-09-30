@@ -18,6 +18,10 @@
 
 Use to obtain +1 Arcane Scroll Slot.
 
+## What it does
+
+It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

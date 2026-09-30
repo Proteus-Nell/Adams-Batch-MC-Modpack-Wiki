@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:divine_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 1,000,000 - 1,000,000 |
@@ -71,9 +72,6 @@ Granted automatically when you become this race.
 
 - ![](../../assets/icons/tensura/skill/divine_ki_release.png) [Divine Ki Release](../abilities/intrinsic-skills/divine-ki-release.md)
 - ![](../../assets/icons/tensura/skill/dragon_skin.png) [Dragon Skin](../abilities/intrinsic-skills/dragon-skin.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../abilities/intrinsic-skills/flame-breath.md)
-- ![](../../assets/icons/tensura/skill/ice_breath.png) [Ice Breath](../abilities/intrinsic-skills/ice-breath.md)
-- ![](../../assets/icons/tensura/skill/thunder_breath.png) [Thunder Breath](../abilities/intrinsic-skills/thunder-breath.md)
 - ![](../../assets/icons/tensura/skill/dragon_eye.png) [Dragon Eye](../abilities/intrinsic-skills/dragon-eye.md)
 - ![](../../assets/icons/tensura/skill/dragon_ear.png) [Dragon Ear](../abilities/intrinsic-skills/dragon-ear.md)
 - ![](../../assets/icons/tensura/skill/magic_resistance.png) [Magic Resistance](../abilities/resistance-skills/magic-resistance.md)

@@ -13,6 +13,14 @@
 
 </div>
 
+## What it does
+
+A sealing prison. While it lasts your movement, flight, jumping, swimming, reach, attack damage and attack speed, dodge chances, and magicule and aura regeneration all drop to **zero**. Every half second it also drains **500** magicule per level, and it knocks you out of flight.
+
+You can't heal (not even with Instant Regeneration), use skills or race abilities, learn skills, cast from slotted items, be teleported, or travel to another dimension. Imprisoned mobs lose their target.
+
+Yog-Sothoth's Infinity Prison, Uriel, Lord of Myth, Chrono Leech, Kronairos and Avalon's Law of the Closed Prison inflict it. Merlin, Tornado, Solomon, Sunshine Grace, Camael, Hamiel and angels are immune.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

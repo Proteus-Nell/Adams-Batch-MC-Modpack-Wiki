@@ -10,8 +10,18 @@
 |---|---|
 | **ID** | `trnightmare:dragon_seal` |
 | **Category** | Weapons |
+| **Attack damage** | 12 |
+| **Attack speed** | 1.6 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A treasure weapon with no ability of its own (see the stats box). It never breaks, can't be repaired, doesn't burn and can't be put in shulker boxes or bundles.
+
+A Low Magisteel weapon that deals **12** attack damage at **1.6** attack speed. Durability: **1,800**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

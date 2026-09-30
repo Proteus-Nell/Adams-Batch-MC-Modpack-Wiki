@@ -12,6 +12,10 @@
 | **Category** | Tools |
 | **Rarity** | Uncommon |
 | **Fire resistant** | Yes |
+| **Attack damage** | 10 |
+| **Attack speed** | 1.6 |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
 
@@ -24,6 +28,10 @@ Each level of Looting applied adds +5%
 to the overall beheading chance.
 
 +10% Beheading Chance
+
+## What it does
+
+A Netherite axe that deals **10** attack damage at **1.6** attack speed. Durability: **2,031**. It is crafted.
 
 ## Obtaining
 

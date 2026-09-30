@@ -11,8 +11,14 @@
 | **ID** | `tensura:teary_pierrot_mask` |
 | **Category** | Armor |
 | **Gear EP** | 10,000 - None |
+| **Armor** | 4 |
+| **Durability** | 165 |
 
 </div>
+
+## What it does
+
+Pierrot Mask armor for the helmet slot: **4** armor. Durability: **165**. It is made at the Smithing Bench.
 
 ## Obtaining
 

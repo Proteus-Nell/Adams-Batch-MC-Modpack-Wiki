@@ -58,6 +58,7 @@
 ## Related
 
 - **Related skills:** [Investigator](../unique-skills/investigator.md), [｢ Faust, Lord of Investigation ｣](faust.md), [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

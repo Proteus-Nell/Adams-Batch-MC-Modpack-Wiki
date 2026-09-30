@@ -35,6 +35,7 @@
 ## Related
 
 - **Related skills:** [Lightning Manipulation](lightning-manipulation.md)
+- **Summons / entities:** Tensura, Lightning Bolt
 - **Referenced by:** [Lightning Manipulation](lightning-manipulation.md)
 
 ## Stats (config defaults)

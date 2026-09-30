@@ -38,6 +38,7 @@
 ## Related
 
 - **Effects:** [Chill](../../effects/chill.md), [Frost](../../effects/frost.md)
+- **Summons / entities:** Ice Pillar
 
 ## Stats (config defaults)
 

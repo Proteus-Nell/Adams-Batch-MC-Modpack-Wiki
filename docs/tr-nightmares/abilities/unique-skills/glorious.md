@@ -33,6 +33,7 @@
 ## Related
 
 - **Effects:** [Glorious Regen](../../effects/glorious-regen.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Astraea, Lord of Gifts ｣](../ultimate-skills/astraea.md), [｢ Haniel, Lord of Glory ｣](../ultimate-skills/haniel.md)
 
 ## Stats (config defaults)

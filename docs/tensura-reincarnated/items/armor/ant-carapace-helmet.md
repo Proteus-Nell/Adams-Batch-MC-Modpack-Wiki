@@ -11,8 +11,16 @@
 | **ID** | `tensura:ant_carapace_helmet` |
 | **Category** | Armor |
 | **Gear EP** | 3,000 - None |
+| **Armor** | 2 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 10% |
+| **Durability** | 374 |
 
 </div>
+
+## What it does
+
+Ant Carapace armor for the helmet slot: **2** armor, **2** toughness and **10%** knockback resistance. Durability: **374**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -36,6 +36,10 @@ lost memories...
 
 Name is engraved upon it: ?
 
+## What it does
+
+Used to make [The Testament of Contempt](eldritch-amulet.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

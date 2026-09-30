@@ -1,18 +1,29 @@
 # Phantaspore
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:phantaspore` |
+| **Type** | Monster |
+| **Health** | 20 |
+| **Attack damage** | 10 |
+| **Armor** | 1 |
+| **Speed** | 0.2 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 2,500 - 5,000 |
 | **Aura** | 500 - 1,000 |
 | **Spiritual health** | 80 |
+| **Hitbox** | 1.8 x 3.3 blocks |
 | **Spawn egg** |  [Phantaspore Spawn Egg](../items/spawn-eggs/phantaspore-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **20** health, **10** attack damage and **2,500-5,000** magicule. Spawns naturally in Phantaspore Spawn. It has 2 skills you can take from it with Predator-type skills. Drops [Red Mushroom Block](https://minecraft.wiki/w/Red_Mushroom_Block), [Red Mushroom](https://minecraft.wiki/w/Red_Mushroom), [Brown Mushroom Block](https://minecraft.wiki/w/Brown_Mushroom_Block), [Brown Mushroom](https://minecraft.wiki/w/Brown_Mushroom) and 4 more.
 
 ## Abilities
 
@@ -25,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:phantaspore_spawn` | 5 | 1-1 |
+| Is Forest, Is Mushroom, Crimson Forest, Mushroom Fields, Warped Forest, Ancient Forest | 5 | 1-1 |
 
 ## Drops
 

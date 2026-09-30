@@ -24,3 +24,7 @@
 | **Coordinate scale** | 1.0 |
 
 </div>
+
+## What it does
+
+The arena for the **Gazel Dwargo** boss fight. You get there through the warp pad in the royal tower of a Dwarf Village, which starts the fight. Players in the arena get [Spatial Blockade](../effects/spatial-blockade.md) X, so they can't teleport out, and warp and portal skills don't work here. By default bosses here can't be named, mind-controlled or have their skills plundered (see the Boss settings in Tensura's behaviour config).

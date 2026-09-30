@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Building block.
+
 ## Tags
 
 `tensura:labyrinth_blocks`

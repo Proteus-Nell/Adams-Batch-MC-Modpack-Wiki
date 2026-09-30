@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Adamantite Axe](../tools/adamantite-axe.md), [Adamantite Boots](../armor/adamantite-boots.md), [Adamantite Chestplate](../armor/adamantite-chestplate.md), [Adamantite Great Sword](../weapons/adamantite-great-sword.md), [Adamantite Helmet](../armor/adamantite-helmet.md), [Adamantite Hoe](../tools/adamantite-hoe.md) and 14 more.
+
 ## Obtaining
 
 ### Loot

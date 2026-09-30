@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Adamantite Bone Golem](../miscellaneous/adamantite-bone-golem.md), [Dubious Food](../miscellaneous/dubious-food.md), [High Magisteel Bone Golem](../miscellaneous/high-magisteel-bone-golem.md), [Hihi'irokane Bone Golem](../miscellaneous/hihiirokane-bone-golem.md), [Low Magisteel Bone Golem](../miscellaneous/low-magisteel-bone-golem.md) and 4 more. It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

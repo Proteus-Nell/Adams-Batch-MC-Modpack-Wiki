@@ -24,6 +24,10 @@ This can be disabled by holding Shift.
 
 Attracts items within ? blocks radius.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

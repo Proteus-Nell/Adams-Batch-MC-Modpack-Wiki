@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Amulet of Ascension](../amulets/ascension-amulet.md), [The Arrogance of Chaos](../tools/chaos-elytra.md), [The Eternal Cake](../../blocks/cosmic-cake.md), [The Architect's Favor](../scrolls/cosmic-scroll.md), [The Burden of Desolation](../rings/desolation-ring.md) and 3 more. It is crafted.
+
 ## Obtaining
 
 ### Recipes

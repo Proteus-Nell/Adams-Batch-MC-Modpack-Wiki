@@ -65,6 +65,10 @@ reversed, and the scroll transfers all
 
 stored experience back to you.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

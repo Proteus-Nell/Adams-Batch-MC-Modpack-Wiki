@@ -36,6 +36,7 @@
 
 - **Related skills:** [Gravity Manipulation](gravity-manipulation.md)
 - **Effects:** [Magic Interference](../../effects/magic-interference.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Thrower](../unique-skills/thrower.md), [Gravity Manipulation](gravity-manipulation.md), [Molecular Manipulation](molecular-manipulation.md), [Melancholy](../../../tensura-mysticism/abilities/unique-skills/melancholy.md)
 
 ## Stats (config defaults)

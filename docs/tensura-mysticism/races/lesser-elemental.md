@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:lesser_elemental` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 300 - 500 |

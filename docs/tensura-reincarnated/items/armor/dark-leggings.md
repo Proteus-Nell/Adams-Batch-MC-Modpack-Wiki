@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 5,000 - None |
+| **Armor** | 7 |
+| **Armor toughness** | 4 |
+| **Durability** | 525 |
 
 </div>
+
+## What it does
+
+Dark armor for the leggings slot: **7** armor and **4** toughness. Durability: **525**. It is made at the Smithing Bench.
 
 ## Obtaining
 

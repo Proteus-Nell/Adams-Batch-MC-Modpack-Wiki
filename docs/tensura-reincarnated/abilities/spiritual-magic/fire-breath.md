@@ -36,7 +36,7 @@
 
 ## Related
 
-- **Related skills:** [Flame Breath](../intrinsic-skills/flame-breath.md)
+- **Summons / entities:** [Flame Breath](../intrinsic-skills/flame-breath.md)
 
 ## Stats (config defaults)
 

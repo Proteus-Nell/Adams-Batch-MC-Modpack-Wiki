@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lesser_mystic_fox` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Default |
 | **Aura** | 4,000 - 9,000 |
@@ -25,6 +26,8 @@
 
 - **Evolves into:** [Greater Mystic Fox](greater-mystic-fox.md)
 - **Default evolution:** [Greater Mystic Fox](greater-mystic-fox.md)
+- **On awakening (True Demon Lord / True Hero):** [Greater Mystic Fox](greater-mystic-fox.md)
+- **During the Harvest Festival:** [Greater Mystic Fox](greater-mystic-fox.md)
 
 ### Evolution tree
 

@@ -33,6 +33,10 @@
 
 - Removed and re-rolled when you change race
 
+## Related
+
+- **Summons / entities:** Light Arrow
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/spiritual_config.toml`](../../configs/config-tensura-ability-magic-spiritual-config.md).

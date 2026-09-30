@@ -34,6 +34,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Ranged Barrier](../common-skills/ranged-barrier.md), [Elegy](../../../tr-nightmares/abilities/unique-skills/elegy.md), [｢ Hastur, Lord of Starwind ｣](../../../tr-nightmares/abilities/ultimate-skills/hastur.md)
 
 ## Stats (config defaults)

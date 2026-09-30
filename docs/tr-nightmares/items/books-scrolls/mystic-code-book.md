@@ -12,3 +12,7 @@
 | **Fire resistant** | Yes |
 
 </div>
+
+## What it does
+
+A spellbook summoned by the Gilgamesh skills. Held in either hand it gives **+5** chant speed.

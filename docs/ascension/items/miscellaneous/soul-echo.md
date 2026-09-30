@@ -18,6 +18,10 @@
 
 Drops from slain bosses or named creatures with Max EP at or above 200,000. Used in Ultimate Catalyst recipes.
 
+## What it does
+
+Used to make [Ultimate Catalyst](ultimate-catalyst.md).
+
 ## Used in
 
 [Ultimate Catalyst](ultimate-catalyst.md)

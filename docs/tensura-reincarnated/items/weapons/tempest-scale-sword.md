@@ -12,8 +12,17 @@
 | **Category** | Weapons |
 | **Durability** | 3,964 |
 | **Gear EP** | 60,000 - None |
+| **Attack damage** | 34 (33 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Tier** | Pure Magisteel |
 
 </div>
+
+## What it does
+
+A Pure Magisteel sword you can hold in one or both hands. Two-handed it deals **34** attack damage at **1.4** attack speed; one-handed **33** damage at **1.2** speed. It also has +1 block of reach and 25% sweeping damage. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

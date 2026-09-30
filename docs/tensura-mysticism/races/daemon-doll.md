@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:daemon_doll` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 105,000 - 310,000 |

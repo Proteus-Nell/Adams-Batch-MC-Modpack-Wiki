@@ -46,6 +46,10 @@
 - Listed in the `learnableMagics` config option (config/tensura/race/daemon_config.toml): List of Magics that players automatically get as learnable.
 - Listed in the `learnableMagics` config option (config/tensura/EliteTensura/Races.toml)
 
+## Related
+
+- **Summons / entities:** Wind Blow
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/aspectual_config.toml`](../../configs/config-tensura-ability-magic-aspectual-config.md).

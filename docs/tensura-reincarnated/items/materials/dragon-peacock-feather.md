@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion), [Winged Shoes](../armor/winged-shoes.md), [Terra Dagger](../../../tr-nightmares/items/tools/terrablade.md) and 3 more. It is dropped by [Dragon Peacock](../../mobs/dragon-peacock.md).
+
 ## Obtaining
 
 ### Loot

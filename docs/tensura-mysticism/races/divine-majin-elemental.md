@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:divine_majin_elemental` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 1,000,000 - 1,000,000 |

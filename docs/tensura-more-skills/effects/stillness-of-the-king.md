@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Istaroth's kingly stillness. Per level: **+40** armor and full knockback resistance, but your spiritual health doesn't regenerate. Istaroth gives it at level III (V mastered).
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

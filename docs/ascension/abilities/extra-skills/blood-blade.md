@@ -26,6 +26,10 @@
 
 - Activated by pressing the skill key
 
+## Related
+
+- **Summons / entities:** [Blood Blade](blood-blade.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ascension-skills.toml`](../../configs/config-tensura-ascension-skills.md).

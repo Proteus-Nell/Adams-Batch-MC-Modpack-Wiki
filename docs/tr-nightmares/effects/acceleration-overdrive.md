@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Speeds you up at a cost: **+5%** movement speed, **+5** attack damage and **+5%** attack speed per level. It counts as a harmful effect, and milk and other cures don't remove it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

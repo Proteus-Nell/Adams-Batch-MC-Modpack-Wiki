@@ -47,6 +47,7 @@
 ## Related
 
 - **Effects:** [Glorious Regen](../../effects/glorious-regen.md), [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Infection](../../../tensura-reincarnated/effects/infection.md), [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

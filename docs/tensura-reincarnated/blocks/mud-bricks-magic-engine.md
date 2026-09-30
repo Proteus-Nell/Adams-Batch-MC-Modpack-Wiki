@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A device that drains the magic from the air. Right-click to switch it on or off. While it's on, it glows (light 15), gives off a full redstone signal and **lowers the ambient magicule** of the area within **16** blocks by **1,000**. That protects weak players from [Magicule Poison](../effects/magicule-poison.md), and wherever the magicule drops below **10** (most areas start at 500) the area becomes a **safe zone**: no mobs spawn there naturally, and mobs outside won't target you or walk in unless you attacked them first.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

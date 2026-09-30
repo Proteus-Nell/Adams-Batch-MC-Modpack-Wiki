@@ -32,6 +32,10 @@ of an active Beacon, at the cost of slowly
 
 consuming your experience.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

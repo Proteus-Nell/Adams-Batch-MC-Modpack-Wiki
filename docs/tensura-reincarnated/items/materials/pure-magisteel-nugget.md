@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Pure Magisteel Ingot](pure-magisteel-ingot.md), [Monster Saddle](../miscellaneous/monster-saddle.md), [Pure Magisteel Kunai](../weapons/pure-magisteel-kunai.md), [High Magisteel Ingot](high-magisteel-ingot.md), [Low Magisteel Ingot](low-magisteel-ingot.md) and 2 more. It is crafted, smelted in a blast furnace, smelted in a furnace, made with Refining (Great Sage / Researcher), made at the Kiln (mixing), made with Create's compacting and made with Create's crushing wheels.
+
 ## Obtaining
 
 ### Recipes

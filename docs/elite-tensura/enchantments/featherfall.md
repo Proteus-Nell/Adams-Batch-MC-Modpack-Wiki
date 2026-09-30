@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A boots **engraving**: **25% less fall damage per level** (it stacks with other protection up to the usual cap).
+
+
+
 ## Effects
 
 | Component | Effect | Value |

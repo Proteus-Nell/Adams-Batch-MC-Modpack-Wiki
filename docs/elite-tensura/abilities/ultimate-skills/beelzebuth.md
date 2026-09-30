@@ -57,6 +57,7 @@
 
 - **Related skills:** [Gluttony](../../../tensura-reincarnated/abilities/unique-skills/gluttony.md), [Merciless](../../../tensura-reincarnated/abilities/unique-skills/merciless.md)
 - **Effects:** [Fear](../../../tensura-reincarnated/effects/fear.md), [Soul Drain](../../../tensura-reincarnated/effects/soul-drain.md)
+- **Summons / entities:** Beelzebuth Mist
 
 ## Stats (config defaults)
 

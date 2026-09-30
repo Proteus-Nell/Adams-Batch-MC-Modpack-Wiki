@@ -30,6 +30,7 @@
 ## Related
 
 - **Related skills:** [Sense Soundwave](sense-soundwave.md), [Magic Sense](magic-sense.md), [Universal Perception](universal-perception.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Magic Sense](magic-sense.md), [Sense Soundwave](sense-soundwave.md)
 
 ## Stats (config defaults)

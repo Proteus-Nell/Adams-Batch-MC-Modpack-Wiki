@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:scorchtail_salamander` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 100,000 |

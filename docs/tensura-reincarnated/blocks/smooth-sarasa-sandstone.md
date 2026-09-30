@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Building block. Used to make [Smooth Sarasa Sandstone Slab](smooth-sarasa-sandstone-slab.md), [Smooth Sarasa Sandstone Stairs](smooth-sarasa-sandstone-stairs.md) and [Sarasa Sandstone Warp Pad](sarasa-sandstone-warp-pad.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

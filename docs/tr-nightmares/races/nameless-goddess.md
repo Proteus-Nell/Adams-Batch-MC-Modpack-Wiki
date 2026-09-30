@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:nameless_goddess` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 210,000 - 420,000 |

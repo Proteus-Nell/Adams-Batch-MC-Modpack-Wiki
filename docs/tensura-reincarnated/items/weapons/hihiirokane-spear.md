@@ -12,8 +12,18 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 80 (79 one-handed) |
+| **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A spear you can hold in one or both hands. Two-handed it deals **80** attack damage at **1.4** attack speed; one-handed **79** damage at **1** speed. It also has +2 blocks of reach and no sweeping attack. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

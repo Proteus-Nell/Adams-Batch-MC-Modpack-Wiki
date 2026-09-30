@@ -34,6 +34,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Nodens, God of Abyss ｣](../ultimate-skills/nodens.md)
 
 ## Stats (config defaults)

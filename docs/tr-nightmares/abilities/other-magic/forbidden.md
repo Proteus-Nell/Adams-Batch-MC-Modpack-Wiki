@@ -29,6 +29,10 @@
 - Can appear in epic tomes from wizard towers
 - Can be found in skill tomes
 
+## Related
+
+- **Summons / entities:** Forbidden Blast Projectile
+
 ## Stats (config defaults)
 
 Set in [`config/nightmare/ability/magic/nuclear.toml`](../../configs/config-nightmare-ability-magic-nuclear.md).

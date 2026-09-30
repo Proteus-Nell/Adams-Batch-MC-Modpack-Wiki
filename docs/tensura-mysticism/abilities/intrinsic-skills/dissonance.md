@@ -31,6 +31,10 @@
 
 - Listed in the `intrinsicSkills` config option (config/mysticism/race/sculk_config.toml): The list of intrinsic skills that the race gets.
 
+## Related
+
+- **Summons / entities:** Lightning Bolt
+
 ## Stats (config defaults)
 
 Set in [`config/mysticism/ability/skill/intrinsic_config.toml`](../../configs/config-mysticism-ability-skill-intrinsic-config.md).

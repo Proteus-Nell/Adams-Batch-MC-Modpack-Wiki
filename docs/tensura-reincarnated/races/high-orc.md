@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:high_orc` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 2,000 - 2,000 |

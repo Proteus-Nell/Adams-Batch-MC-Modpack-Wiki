@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Boots](adamantite-boots.md) |
+| **Armor** | 8 |
+| **Armor toughness** | 7 |
+| **Knockback resistance** | 60% |
+| **Durability** | 780 |
 
 </div>
+
+## What it does
+
+Pure Magisteel armor for the boots slot: **8** armor, **7** toughness and **60%** knockback resistance. Durability: **780**. It is made at the Smithing Bench.
 
 ## Obtaining
 

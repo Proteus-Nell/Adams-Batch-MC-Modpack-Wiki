@@ -47,6 +47,7 @@
 ## Related
 
 - **Related skills:** [Earth Manipulation](earth-manipulation.md)
+- **Summons / entities:** Tensura, Earth Pillar
 - **Referenced by:** [Earth Manipulation](earth-manipulation.md)
 
 ## Stats (config defaults)

@@ -40,6 +40,10 @@ from being protected by this item.
 
 Use to appease animals and restore protective effects.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

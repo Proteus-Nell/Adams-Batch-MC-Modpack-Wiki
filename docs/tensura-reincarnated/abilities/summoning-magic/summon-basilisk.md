@@ -30,6 +30,10 @@
 - Triggers when the held key is released
 - Triggers when one of your subordinates dies
 
+## Related
+
+- **Summons / entities:** [Basilisk](../../mobs/basilisk.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/summoning_config.toml`](../../configs/config-tensura-ability-magic-summoning-config.md).

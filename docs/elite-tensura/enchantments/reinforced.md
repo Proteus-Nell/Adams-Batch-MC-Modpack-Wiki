@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+An armor **engraving**: **+0.5 armor per level**.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+Bat wings worn in the chest slot. They work like an elytra (jump while falling to glide) with **+50%** glide speed, and lose durability while you glide. Repair them with Giant Bat Wings. Dwarf leatherworkers sell them.
+
+It is made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

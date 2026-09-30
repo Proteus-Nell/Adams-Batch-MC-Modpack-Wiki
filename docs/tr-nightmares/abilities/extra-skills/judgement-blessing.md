@@ -30,6 +30,7 @@
 ## Related
 
 - **Related skills:** [Analytical Appraisal](../../../tensura-reincarnated/abilities/extra-skills/analytical-appraisal.md)
+- **Summons / entities:** Tensura
 
 ## Tags
 

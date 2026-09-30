@@ -43,6 +43,10 @@
 - Can appear in uncommon tomes in buried wizard towers
 - Listed in the `learnableMagics` config option (config/tensura/race/daemon_config.toml): List of Magics that players automatically get as learnable.
 
+## Related
+
+- **Summons / entities:** Float Sphere
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/aspectual_config.toml`](../../configs/config-tensura-ability-magic-aspectual-config.md).

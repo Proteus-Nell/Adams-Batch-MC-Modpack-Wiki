@@ -24,6 +24,10 @@ Current Keybind: ?
 
 Ring of Ender
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

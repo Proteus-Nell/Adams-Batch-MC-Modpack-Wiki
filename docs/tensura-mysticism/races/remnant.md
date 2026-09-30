@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:remnant` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 50,000 - 50,000 |

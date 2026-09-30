@@ -34,6 +34,7 @@
 ## Related
 
 - **Effects:** [Corrosion](../../effects/corrosion.md)
+- **Summons / entities:** [Tempest Serpent](../../mobs/tempest-serpent.md)
 
 ## Stats (config defaults)
 

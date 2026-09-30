@@ -1,24 +1,33 @@
 # Horned Rabbit
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:horned_rabbit` |
+| **Type** | Monster |
+| **Health** | 20 |
+| **Attack damage** | 10 |
+| **Speed** | 0.3 |
 | **Magicule (EP)** | 2,000 - 3,000 |
 | **Aura** | 1,000 - 3,000 |
 | **Spiritual health** | 50 |
+| **Hitbox** | 0.5 x 0.8 blocks |
 | **Spawn egg** |  [Horned Rabbit Spawn Egg](../items/spawn-eggs/horned-rabbit-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **20** health, **10** attack damage and **2,000-3,000** magicule. Spawns naturally in Horned Rabbit Spawn. Drops [Monster Leather (C)](../items/miscellaneous/monster-leather-c.md), [Beast Horn](../items/materials/beast-horn.md) and [Rabbit Foot](https://minecraft.wiki/w/Rabbit_Foot).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:horned_rabbit_spawn` | 20 | 1-2 |
+| Is Taiga, Cherry Grove | 20 | 1-2 |
 
 ## Drops
 

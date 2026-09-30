@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Staff of Slime](../weapons/slime-staff.md), [Walpurgis Orb](../../../elite-tensura/items/miscellaneous/walpurgis-orb.md) and [Awakening Altar](../../../ascension/blocks/awakening-altar.md). It is dropped by [Metal Slime](../../mobs/metal-slime.md), [Slime](../../mobs/slime.md), [Supermassive Slime](../../mobs/supermassive-slime.md) and Rimuru Tempest.
+
 ## Obtaining
 
 ### Loot

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative wall made from [Sarasa Sandstone](sarasa-sandstone.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Pure Magisteel Nugget](pure-magisteel-nugget.md), [Adamantite Bone Golem](../miscellaneous/adamantite-bone-golem.md), [Bricks Magic Engine](../../blocks/bricks-magic-engine.md), [Character Reset Scroll](../books-scrolls/character-reset-scroll.md), [Deepslate Bricks Magic Engine](../../blocks/deepslate-bricks-magic-engine.md) and 42 more. It is crafted, made with Refining (Great Sage / Researcher), made at the Kiln (mixing), made with Create's compacting and made with Create's crushing wheels.
+
 ## Obtaining
 
 ### Recipes

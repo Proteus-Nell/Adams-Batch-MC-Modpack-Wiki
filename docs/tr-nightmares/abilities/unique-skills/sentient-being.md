@@ -38,6 +38,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Ruler](ruler.md), [Carnation](carnation.md)
 
 ## Stats (config defaults)

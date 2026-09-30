@@ -51,8 +51,9 @@
 
 ## Related
 
-- **Related skills:** [Zekrom](zekrom.md), [Kyurem](kyurem.md), [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
+- **Related skills:** [Zekrom](zekrom.md), [Kyurem](kyurem.md)
 - **Items:** [Flame Essence](../../items/materials/flame-essence.md), [Dragon Essence](../../../tensura-reincarnated/items/materials/dragon-essence.md)
+- **Summons / entities:** Tensura, Blue Flare Projectile, Draconic Meteor, [Flame Breath](../../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
 - **Referenced by:** [Kyurem](kyurem.md), [Zekrom](zekrom.md)
 
 ## Stats (config defaults)

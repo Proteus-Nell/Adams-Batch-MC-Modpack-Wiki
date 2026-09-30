@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion) and [Spider Dagger](../weapons/spider-dagger.md). It is dropped by [Black Spider](../../mobs/black-spider.md).
+
 ## Obtaining
 
 ### Loot

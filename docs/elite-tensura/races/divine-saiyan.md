@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `elitetensura:divine_saiyan` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Default |
 | **Aura** | 1,000,000 - 1,000,000 |

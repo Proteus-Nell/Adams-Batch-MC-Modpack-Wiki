@@ -49,6 +49,10 @@
 - Can be learned by: [Lich King](../../../ascension/races/lich-king.md)
 - Innate to mobs: [Kyoya Tachibana](../../mobs/kyoya-tachibana.md)
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill/extra_config.toml`](../../configs/config-tensura-ability-skill-extra-config.md).

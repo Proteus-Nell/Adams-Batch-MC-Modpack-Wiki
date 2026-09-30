@@ -13,3 +13,7 @@
 | **Rarity** | Uncommon |
 
 </div>
+
+## What it does
+
+A throwable bottle, like a Bottle o' Enchanting, but for relics. Where it lands it bursts into 10 to 19 **relic experience orbs** (1 to 3 experience each). Picking the orbs up levels the relics you're wearing that aren't at max level yet. Dispensers can fire it too.

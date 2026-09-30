@@ -13,8 +13,18 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [Pure Magisteel Spear](pure-magisteel-spear.md) |
+| **Attack damage** | 20 (19 one-handed) |
+| **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
+| **Tier** | High Magisteel |
+| **Durability** | 2,500 |
 
 </div>
+
+## What it does
+
+A spear you can hold in one or both hands. Two-handed it deals **20** attack damage at **1.4** attack speed; one-handed **19** damage at **1** speed. It also has +2 blocks of reach and no sweeping attack. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+Used to call a **Walpurgis** banquet (only Demon Lords can use it): see the [Walpurgis Hall](../../dimensions/walpurgis-hall.md).
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

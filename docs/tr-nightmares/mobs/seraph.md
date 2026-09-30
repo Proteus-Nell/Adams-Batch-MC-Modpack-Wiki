@@ -9,3 +9,7 @@
 | **ID** | `trnightmare:seraph` |
 
 </div>
+
+## What it does
+
+A mob.

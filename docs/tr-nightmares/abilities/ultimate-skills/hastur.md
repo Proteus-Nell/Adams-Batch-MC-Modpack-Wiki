@@ -55,6 +55,7 @@
 
 - **Related skills:** [Multilayer Barrier](../../../tensura-reincarnated/abilities/extra-skills/multilayer-barrier.md), [Black Flame](../../../tensura-reincarnated/abilities/extra-skills/black-flame.md), [Wind Domination](../../../tensura-reincarnated/abilities/extra-skills/wind-domination.md), [Sound Domination](../../../tensura-reincarnated/abilities/extra-skills/sound-domination.md), [Thought Acceleration](../../../tensura-reincarnated/abilities/extra-skills/thought-acceleration.md), [Universal Perception](../../../tensura-reincarnated/abilities/extra-skills/universal-perception.md), [Demon Lord Haki](../../../tensura-reincarnated/abilities/extra-skills/demon-lord-haki.md), [Weather Domination](../../../tensura-reincarnated/abilities/extra-skills/weather-domination.md), [Spatial Domination](../../../tensura-reincarnated/abilities/extra-skills/spatial-domination.md), [Voice Cannon](../../../tensura-reincarnated/abilities/common-skills/voice-cannon.md)
 - **Effects:** [Black Burn](../../../tensura-reincarnated/effects/black-burn.md)
+- **Summons / entities:** Tensura, Black Lightning Bolt
 
 ## Stats (config defaults)
 

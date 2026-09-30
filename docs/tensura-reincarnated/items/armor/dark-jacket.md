@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 5,000 - None |
+| **Armor** | 9 |
+| **Armor toughness** | 4 |
+| **Durability** | 560 |
 
 </div>
+
+## What it does
+
+Dark armor for the chestplate slot: **9** armor and **4** toughness. Durability: **560**. It is made at the Smithing Bench.
 
 ## Obtaining
 

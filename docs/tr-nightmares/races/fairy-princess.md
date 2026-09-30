@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:fairy_princess` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 225,000 - 450,000 |

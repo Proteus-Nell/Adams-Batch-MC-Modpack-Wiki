@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative wall made from [High Quality Magic Crystal Bricks](high-quality-magic-crystal-bricks.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

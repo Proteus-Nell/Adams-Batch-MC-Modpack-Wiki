@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:dragonewt` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 6,000 - 6,000 |
@@ -23,7 +24,7 @@
 ## Evolution
 
 - **Evolves from:** [Lizardman](lizardman.md)
-- **Evolves into:** [True Dragonewt](true-dragonewt.md)
+- **Evolves into:** [True Dragonewt](true-dragonewt.md), [Corrupted Dragonkin](../../ascension/races/corrupted-dragonkin.md), [Ender Dragonewt](../../ascension/races/ender-dragonewt.md)
 - **Default evolution:** [True Dragonewt](true-dragonewt.md)
 - **On awakening (True Demon Lord / True Hero):** [True Dragonewt](true-dragonewt.md)
 
@@ -73,9 +74,6 @@ Granted automatically when you become this race.
 
 - ![](../../assets/icons/tensura/skill/dragon_eye.png) [Dragon Eye](../abilities/intrinsic-skills/dragon-eye.md)
 - ![](../../assets/icons/tensura/skill/dragon_ear.png) [Dragon Ear](../abilities/intrinsic-skills/dragon-ear.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../abilities/intrinsic-skills/flame-breath.md)
-- ![](../../assets/icons/tensura/skill/ice_breath.png) [Ice Breath](../abilities/intrinsic-skills/ice-breath.md)
-- ![](../../assets/icons/tensura/skill/thunder_breath.png) [Thunder Breath](../abilities/intrinsic-skills/thunder-breath.md)
 - ![](../../assets/icons/tensura/skill/magic_resistance.png) [Magic Resistance](../abilities/resistance-skills/magic-resistance.md)
 - ![](../../assets/icons/tensura/skill/scale_armor.png) [Scale Armor](../abilities/intrinsic-skills/scale-armor.md)
 

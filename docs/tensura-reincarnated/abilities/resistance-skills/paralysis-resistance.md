@@ -37,6 +37,7 @@
 
 - **Related skills:** [Paralysis Nullification](paralysis-nullification.md)
 - **Effects:** [Paralysis](../../effects/paralysis.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

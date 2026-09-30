@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Leggings](hihiirokane-leggings.md) |
+| **Armor** | 13 |
+| **Armor toughness** | 8 |
+| **Knockback resistance** | 80% |
+| **Durability** | 975 |
 
 </div>
+
+## What it does
+
+Adamantite armor for the leggings slot: **13** armor, **8** toughness and **80%** knockback resistance. Durability: **975**. It is made at the Smithing Bench.
 
 ## Obtaining
 

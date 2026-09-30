@@ -2,196 +2,206 @@
 
 <small>[Tensura: Mysticism](../index.md)</small>
 
-Tensura: Mysticism adds **186** races. Starting races can be chosen or rolled when you reincarnate; the rest are reached by evolving.
+Tensura: Mysticism adds **186** races: **12** starting, **142** in-between and **32** final.
 
-| Race | Difficulty | Alignment | Evolves into |
-|---|---|---|---|
-| [Amped Guitar Wolf](amped-guitar-wolf.md) | Easy | Majin | [String Spirit Wolf](string-spirit-wolf.md) |
-| [Ant](ant.md) | Easy | Majin | [Fire Ant](fire-ant.md), [Hardshell Ant](hardshell-ant.md) |
-| [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Arch Angel](arch-angel.md) | Easy | Holy | [Cherub](cherub.md) |
-| [Arch Doll](arch-doll.md) | Easy | Majin | [Daemon Doll](daemon-doll.md), [Chaos Doll](chaos-doll.md) |
-| [Arch Fallen](arch-fallen.md) | Easy | Majin | [Fallen Lord](fallen-lord.md) |
-| [Army Wasp](army-wasp.md) | Easy | Majin | [Army Wasp Insectar](army-wasp-insectar.md) |
-| [Army Wasp Insectar](army-wasp-insectar.md) | Easy | Majin | [Army Wasp Savant](army-wasp-savant.md), [Wind Soul Insect](wind-soul-insect.md) |
-| [Army Wasp Savant](army-wasp-savant.md) | Easy | Majin | [Divine Army Wasp](divine-army-wasp.md) |
-| [Ascended](ascended.md) | Intermediate | Holy | [Divine Excelsius](divine-excelsius.md) |
-| [Attuned Wyrm](attuned-wyrm.md) | Hard | Default | [Lesser Glacier Wyrm](lesser-glacier-wyrm.md), [Lesser Pyre Wyrm](lesser-pyre-wyrm.md) |
-| [Beetle](beetle.md) | Easy | Majin | [Stag Beetle](stag-beetle.md), [Drone Beetle](drone-beetle.md) |
-| [Black Fang](black-fang.md) | Easy | Majin | [Mystical Black Fang](mystical-black-fang.md) |
-| [Blazing Scorch Wolf](blazing-scorch-wolf.md) | Easy | Majin | [Molten Spirit Wolf](molten-spirit-wolf.md) |
-| [Blue Centipede](blue-centipede.md) | Easy | Majin | [Blue Centipede Insectar](blue-centipede-insectar.md) |
-| [Blue Centipede Insectar](blue-centipede-insectar.md) | Easy | Majin | [Blue Centipede Savant](blue-centipede-savant.md), [Water Soul Insect](water-soul-insect.md) |
-| [Blue Centipede Savant](blue-centipede-savant.md) | Easy | Majin | [Divine Blue Centipede](divine-blue-centipede.md) |
-| [Blue Fang](blue-fang.md) | Easy | Majin | [Mystical Black Fang](mystical-blue-fang.md) |
-| [Bound Enlightenment](bound-enlightenment.md) | Hard | Default | [Heavenly Restriction](heavenly-restriction.md) |
-| [Brown Fang](brown-fang.md) | Easy | Majin | [Mystical Brown Fang](mystical-brown-fang.md) |
-| [Centipede](centipede.md) | Easy | Majin | [Yellow Centipede](yellow-centipede.md), [Blue Centipede](blue-centipede.md), [Purple Centipede](purple-centipede.md) |
-| [Chaos Doll](chaos-doll.md) | Easy | Majin | [Chaos Metalloid](chaos-metalloid.md) |
-| [Chaos Metalloid](chaos-metalloid.md) | Easy | Majin |  |
-| [Charged Perforator](charged-perforator.md) | Extreme | Majin | [Overloading Worm](overloading-worm.md) |
-| [Cherub](cherub.md) | Easy | Holy | [Seraph](seraph.md) |
-| [Corrosion Soul Insect](corrosion-soul-insect.md) | Easy | Majin | [Divine Lixivant Mantis](divine-lixivant-mantis.md) |
-| [Daemon Doll](daemon-doll.md) | Easy | Majin | [Devil Doll](devil-doll.md) |
-| [Darkness Fang](darkness-fang.md) | Easy | Majin | [Mystical Darkness Fang](mystical-darkness-fang.md) |
-| [Devil Doll](devil-doll.md) | Easy | Majin |  |
-| [Direwolf](direwolf.md) | Easy | Majin | [Black Fang](black-fang.md), [Blue Fang](blue-fang.md), [Brown Fang](brown-fang.md), [Darkness Fang](darkness-fang.md), [Frost Wolf](frost-wolf.md), [Green Fang](green-fang.md) and 6 more |
-| [Dissonance Deity](dissonance-deity.md) | Extreme | Majin |  |
-| [Divine Army Wasp](divine-army-wasp.md) | Easy | Majin |  |
-| [Divine Blue Centipede](divine-blue-centipede.md) | Easy | Majin |  |
-| [Divine Drone Beetle](divine-drone-beetle.md) | Easy | Majin |  |
-| [Divine Elemental](divine-elemental.md) | Hard | Default |  |
-| [Divine Excelsius](divine-excelsius.md) | Intermediate | Holy |  |
-| [Divine Fire Ant](divine-fire-ant.md) | Easy | Majin |  |
-| [Divine Hardshell Ant](divine-hardshell-ant.md) | Easy | Majin |  |
-| [Divine Inferius](divine-inferius.md) | Intermediate | Majin |  |
-| [Divine Lixivant Mantis](divine-lixivant-mantis.md) | Easy | Majin |  |
-| [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) | Easy | Majin |  |
-| [Divine Majin Elemental](divine-majin-elemental.md) | Hard | Majin |  |
-| [Divine Preying Mantis](divine-preying-mantis.md) | Easy | Majin |  |
-| [Divine Purple Centipede](divine-purple-centipede.md) | Easy | Majin |  |
-| [Divine Queen Wasp](divine-queen-wasp.md) | Easy | Majin |  |
-| [Divine Singularity Scorpion](divine-singularity-scorpion.md) | Easy | Majin |  |
-| [Divine Stag Beetle](divine-stag-beetle.md) | Easy | Majin |  |
-| [Divine Tengu](divine-tengu.md) | Easy | Holy |  |
-| [Divine Wolf](divine-wolf.md) | Easy | Majin |  |
-| [Divine Yellow Centipede](divine-yellow-centipede.md) | Easy | Majin |  |
-| [Dragonoid](dragonoid.md) | Easy | Majin | [True Dragonoid](true-dragonoid.md) |
-| [Drone Beetle](drone-beetle.md) | Easy | Majin | [Drone Beetle Insectar](drone-beetle-insectar.md) |
-| [Drone Beetle Insectar](drone-beetle-insectar.md) | Easy | Majin | [Drone Beetle Savant](drone-beetle-savant.md), [Lightning Soul Insect](lightning-soul-insect.md) |
-| [Drone Beetle Savant](drone-beetle-savant.md) | Easy | Majin | [Divine Drone Beetle](divine-drone-beetle.md) |
-| [Earth Soul Insect](earth-soul-insect.md) | Easy | Majin | [Divine Hardshell Ant](divine-hardshell-ant.md) |
-| [Elemental Lord](elemental-lord.md) | Hard | Default | [Divine Elemental](divine-elemental.md) |
-| [Empty](empty.md) | Intermediate | Majin | [Revenant](revenant.md) |
-| [Enflamed Aberration](enflamed-aberration.md) | Extreme | Majin | [Violence Deity](violence-deity.md) |
-| [Fallen](fallen.md) | Easy | Majin |  |
-| [Fallen Arch Angel](fallen-arch-angel.md) | Easy | Majin | [Fallen SoulAberration](fallen-cherub.md) |
-| [Fallen Greater Angel](fallen-greater-angel.md) | Easy | Majin | [Fallen Arch Angel](fallen-arch-angel.md) |
-| [Fallen Lesser Angel](fallen-lesser-angel.md) | Easy | Majin | [Fallen Greater Angel](fallen-greater-angel.md) |
-| [Fallen Lord](fallen-lord.md) | Easy | Majin | [Fallen](fallen.md) |
-| [Fallen ReaperAberration](fallen-seraph.md) | Easy | Majin |  |
-| [Fallen SoulAberration](fallen-cherub.md) | Easy | Majin | [Fallen ReaperAberration](fallen-seraph.md) |
-| [Fantasy Soul Insect](fantasy-soul-insect.md) | Easy | Majin | [Divine Stag Beetle](divine-stag-beetle.md) |
-| [Field Officer](field-officer.md) | Hard | Majin | [General](general.md) |
-| [Fire Ant](fire-ant.md) | Easy | Majin | [Fire Ant Insectar](fire-ant-insectar.md) |
-| [Fire Ant Insectar](fire-ant-insectar.md) | Easy | Majin | [Fire Ant Savant](fire-ant-savant.md), [Flame Soul Insect](flame-soul-insect.md) |
-| [Fire Ant Savant](fire-ant-savant.md) | Easy | Majin | [Divine Fire Ant](divine-fire-ant.md) |
-| [Flame Soul Insect](flame-soul-insect.md) | Easy | Majin | [Divine Fire Ant](divine-fire-ant.md) |
-| [Forgotten](forgotten.md) | Intermediate | Majin | [Remnant](remnant.md) |
-| [Frost Wolf](frost-wolf.md) | Easy | Majin | [Nivalis Frost Wolf](nivalis-frost-wolf.md) |
-| [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) | Hard | Default | [Frostwrought Leviathan](frostwrought-leviathan.md) |
-| [Frostwrought Leviathan](frostwrought-leviathan.md) | Hard | Default |  |
-| [General](general.md) | Hard | Majin | [Staff Officer](staff-officer.md) |
-| [Glacier Spirit Wolf](glacier-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Gravity Soul Insect](gravity-soul-insect.md) | Easy | Majin | [Divine Singularity Scorpion](divine-singularity-scorpion.md) |
-| [Greater Angel](greater-angel.md) | Easy | Holy | [Arch Angel](arch-angel.md) |
-| [Greater Doll](greater-doll.md) | Easy | Majin | [Arch Doll](arch-doll.md) |
-| [Greater Elemental](greater-elemental.md) | Hard | Default | [Elemental Lord](elemental-lord.md), [Majin Elemental Lord](majin-lord.md) |
-| [Greater Fallen](greater-fallen.md) | Easy | Majin | [Arch Fallen](arch-fallen.md) |
-| [Greater Glacier Wyrm](greater-glacier-wyrm.md) | Hard | Default | [Frostcoil Sea Serpent](frostcoil-sea-serpent.md), [Rimefang Drake](rimefang-drake.md) |
-| [Greater Pyre Wyrm](greater-pyre-wyrm.md) | Hard | Default | [Scorchtail Salamander](scorchtail-salamander.md), [Sunfire Lindwurm](sunfire-lindwurm.md) |
-| [Green Fang](green-fang.md) | Easy | Majin | [Mystical Green Fang](mystical-green-fang.md) |
-| [Guitar Wolf](guitar-wolf.md) | Easy | Majin | [Amped Guitar Wolf](amped-guitar-wolf.md) |
-| [Hardshell Ant](hardshell-ant.md) | Easy | Majin | [Hardshell Ant Insectar](hardshell-ant-insectar.md) |
-| [Hardshell Ant Insectar](hardshell-ant-insectar.md) | Easy | Majin | [Hardshell Ant Savant](hardshell-ant-savant.md), [Earth Soul Insect](earth-soul-insect.md) |
-| [Hardshell Ant Savant](hardshell-ant-savant.md) | Easy | Majin | [Divine Hardshell Ant](divine-hardshell-ant.md) |
-| [Heavenly Restriction](heavenly-restriction.md) | Hard | Default |  |
-| [Insect](insect.md) | Easy | Majin |  |
-| [Lesser Angel](lesser-angel.md) | Easy | Holy | [Greater Angel](greater-angel.md) |
-| [Lesser Elemental](lesser-elemental.md) | Hard | Default | [Medium Elemental](medium-elemental.md) |
-| [Lesser Fallen](lesser-fallen.md) | Easy | Majin | [Greater Fallen](greater-fallen.md) |
-| [Lesser Glacier Wyrm](lesser-glacier-wyrm.md) | Hard | Default | [Greater Glacier Wyrm](greater-glacier-wyrm.md) |
-| [Lesser Pyre Wyrm](lesser-pyre-wyrm.md) | Hard | Default | [Greater Pyre Wyrm](greater-pyre-wyrm.md) |
-| [Light Fang](light-fang.md) | Easy | Majin | [Mystical Light Fang](mystical-light-fang.md) |
-| [Lightning Aberration](lightning-aberration.md) | Extreme | Majin | [Dissonance Deity](dissonance-deity.md) |
-| [Lightning Soul Insect](lightning-soul-insect.md) | Easy | Majin | [Divine Drone Beetle](divine-drone-beetle.md) |
-| [Lixivant Mantis](lixivant-mantis.md) | Easy | Majin | [Lixivant Mantis Insectar](lixivant-mantis-insectar.md) |
-| [Lixivant Mantis Insectar](lixivant-mantis-insectar.md) | Easy | Majin | [Lixivant Mantis Savant](lixivant-mantis-savant.md), [Corrosion Soul Insect](corrosion-soul-insect.md) |
-| [Lixivant Mantis Savant](lixivant-mantis-savant.md) | Easy | Majin | [Divine Lixivant Mantis](divine-lixivant-mantis.md) |
-| [Loxodrome Scorpion](loxodrome-scorpion.md) | Easy | Majin | [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md) |
-| [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md) | Easy | Majin | [Loxodrome Scorpion Savant](loxodrome-scorpion-savant.md), [Poison Soul Insect](poison-soul-insect.md) |
-| [Loxodrome Scorpion Savant](loxodrome-scorpion-savant.md) | Easy | Majin | [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) |
-| [Magic Spirit Wolf](magic-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Magic Spirit Wolf](ocean-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Magic Spirit Wolf](gale-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Magma Worm](magma-worm.md) | Extreme | Majin | [Enflamed Aberration](enflamed-aberration.md) |
-| [Majin Elemental Lord](majin-lord.md) | Hard | Majin | [Divine Majin Elemental](divine-majin-elemental.md) |
-| [Mantis](mantis.md) | Easy | Majin | [Preying Mantis](preying-mantis.md), [Lixivant Mantis](lixivant-mantis.md) |
-| [Medium Elemental](medium-elemental.md) | Hard | Default | [Greater Elemental](greater-elemental.md) |
-| [Molten Perforator](molten-perforator.md) | Extreme | Majin | [Magma Worm](magma-worm.md) |
-| [Molten Spirit Wolf](molten-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Mountain Spirit Wolf](mountain-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Mystic Angel](mystic-angel.md) | Hard | Chaos |  |
-| [Mystical Black Fang](mystical-black-fang.md) | Easy | Majin | [Magic Spirit Wolf](magic-spirit-wolf.md) |
-| [Mystical Black Fang](mystical-blue-fang.md) | Easy | Majin | [Magic Spirit Wolf](ocean-spirit-wolf.md) |
-| [Mystical Brown Fang](mystical-brown-fang.md) | Easy | Majin | [Mountain Spirit Wolf](mountain-spirit-wolf.md) |
-| [Mystical Darkness Fang](mystical-darkness-fang.md) | Easy | Majin | [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) |
-| [Mystical Green Fang](mystical-green-fang.md) | Easy | Majin | [Magic Spirit Wolf](gale-spirit-wolf.md) |
-| [Mystical Light Fang](mystical-light-fang.md) | Easy | Majin | [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) |
-| [Mystical Purple Fang](mystical-purple-fang.md) | Easy | Majin | [Planet Spirit Wolf](planet-spirit-wolf.md) |
-| [Mystical Red Fang](mystical-red-fang.md) | Easy | Majin | [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) |
-| [Nivalis Frost Wolf](nivalis-frost-wolf.md) | Easy | Majin | [Glacier Spirit Wolf](glacier-spirit-wolf.md) |
-| [Overloading Worm](overloading-worm.md) | Extreme | Majin | [Lightning Aberration](lightning-aberration.md) |
-| [Paralysis Soul Insect](paralysis-soul-insect.md) | Easy | Majin | [Divine Yellow Centipede](divine-yellow-centipede.md) |
-| [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Phantom](phantom.md) | Hard | Majin | [Field Officer](field-officer.md) |
-| [Planet Spirit Wolf](planet-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Poison Soul Insect](poison-soul-insect.md) | Easy | Majin | [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) |
-| [Preying Mantis](preying-mantis.md) | Easy | Majin | [Preying Mantis Insectar](preying-mantis-insectar.md) |
-| [Preying Mantis Insectar](preying-mantis-insectar.md) | Easy | Majin | [Preying Mantis Savant](preying-mantis-savant.md), [Steel Soul Insect](steel-soul-insect.md) |
-| [Preying Mantis Savant](preying-mantis-savant.md) | Easy | Majin | [Divine Preying Mantis](divine-preying-mantis.md) |
-| [Purple Centipede](purple-centipede.md) | Easy | Majin | [Purple Centipede Insectar](purple-centipede-insectar.md) |
-| [Purple Centipede Insectar](purple-centipede-insectar.md) | Easy | Majin | [Purple Centipede Savant](purple-centipede-savant.md), [Spatial Soul Insect](spatial-soul-insect.md) |
-| [Purple Centipede Savant](purple-centipede-savant.md) | Easy | Majin | [Divine Purple Centipede](divine-purple-centipede.md) |
-| [Purple Fang](purple-fang.md) | Easy | Majin | [Mystical Purple Fang](mystical-purple-fang.md) |
-| [Queen Wasp](queen-wasp.md) | Easy | Majin | [Queen Wasp Insectar](queen-wasp-insectar.md) |
-| [Queen Wasp Insectar](queen-wasp-insectar.md) | Easy | Majin | [Queen Wasp Savant](queen-wasp-savant.md), [Star Soul Insect](star-soul-insect.md) |
-| [Queen Wasp Savant](queen-wasp-savant.md) | Easy | Majin | [Divine Queen Wasp](divine-queen-wasp.md) |
-| [Reaper Aberration](reaper-aberration.md) | Extreme | Majin |  |
-| [Red Fang](red-fang.md) | Easy | Majin | [Mystical Red Fang](mystical-red-fang.md) |
-| [Remnant](remnant.md) | Intermediate | Majin | [Empty](empty.md), [Whole](whole.md) |
-| [Restricted Human](restricted-human.md) | Hard | Default | [Restricted Saint](restricted-saint.md) |
-| [Restricted Saint](restricted-saint.md) | Hard | Default | [Bound Enlightenment](bound-enlightenment.md) |
-| [Revenant](revenant.md) | Intermediate | Majin | [Divine Inferius](divine-inferius.md) |
-| [Rimeblight Hydra](rimeblight-hydra.md) | Hard | Majin |  |
-| [Rimefang Drake](rimefang-drake.md) | Hard | Majin | [Rimeblight Hydra](rimeblight-hydra.md) |
-| [Scorch Wolf](scorch-wolf.md) | Easy | Majin | [Blazing Scorch Wolf](blazing-scorch-wolf.md) |
-| [Scorchtail Salamander](scorchtail-salamander.md) | Hard | Majin | [Scorchtalon Wyvern](scorchtalon-wyvern.md) |
-| [Scorchtalon Wyvern](scorchtalon-wyvern.md) | Hard | Majin |  |
-| [Scorpion](scorpion.md) | Easy | Majin | [Loxodrome Scorpion](loxodrome-scorpion.md), [Singularity Scorpion](singularity-scorpion.md) |
-| [Sculk Worm](sculk-worm.md) | Extreme | Majin | [Soul Shrieker](soul-shrieker.md), [Molten Perforator](molten-perforator.md), [Charged Perforator](charged-perforator.md) |
-| [Seraph](seraph.md) | Easy | Holy |  |
-| [Singularity Scorpion](singularity-scorpion.md) | Easy | Majin | [Singularity Scorpion Insectar](singularity-scorpion-insectar.md) |
-| [Singularity Scorpion Insectar](singularity-scorpion-insectar.md) | Easy | Majin | [Singularity Scorpion Savant](singularity-scorpion-savant.md), [Gravity Soul Insect](gravity-soul-insect.md) |
-| [Singularity Scorpion Savant](singularity-scorpion-savant.md) | Easy | Majin | [Divine Singularity Scorpion](divine-singularity-scorpion.md) |
-| [Soul Aberration](soul-aberration.md) | Extreme | Majin | [Reaper Aberration](reaper-aberration.md) |
-| [Soul Shrieker](soul-shrieker.md) | Extreme | Majin | [Warden](warden.md) |
-| [Spatial Soul Insect](spatial-soul-insect.md) | Easy | Majin | [Divine Purple Centipede](divine-purple-centipede.md) |
-| [Staff Officer](staff-officer.md) | Hard | Chaos | [Mystic Angel](mystic-angel.md) |
-| [Stag Beetle](stag-beetle.md) | Easy | Majin | [Stag Beetle Insectar](stag-beetle-insectar.md) |
-| [Stag Beetle Insectar](stag-beetle-insectar.md) | Easy | Majin | [Stag Beetle Savant](stag-beetle-savant.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |
-| [Stag Beetle Savant](stag-beetle-savant.md) | Easy | Majin | [Divine Stag Beetle](divine-stag-beetle.md) |
-| [Star Soul Insect](star-soul-insect.md) | Easy | Majin | [Divine Queen Wasp](divine-queen-wasp.md) |
-| [Star Wolf](star-wolf.md) | Easy | Majin | [Tempest Star Wolf](tempest-star-wolf.md) |
-| [Steel Soul Insect](steel-soul-insect.md) | Easy | Majin | [Divine Preying Mantis](divine-preying-mantis.md) |
-| [Storm Spirit Wolf](storm-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [String Spirit Wolf](string-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Sundeity Loong](sundeity-loong.md) | Hard | Default |  |
-| [Sunfire Lindwurm](sunfire-lindwurm.md) | Hard | Default | [Sundeity Loong](sundeity-loong.md) |
-| [Tempest Star Wolf](tempest-star-wolf.md) | Easy | Majin | [Storm Spirit Wolf](storm-spirit-wolf.md) |
-| [Tengu](tengu.md) | Easy | Holy | [Tengu Saint](tengu-saint.md) |
-| [Tengu Saint](tengu-saint.md) | Easy | Holy | [Divine Tengu](divine-tengu.md) |
-| [True Dragonoid](true-dragonoid.md) | Easy | Majin |  |
-| [Violence Deity](violence-deity.md) | Extreme | Majin |  |
-| [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) | Easy | Majin | [Divine Wolf](divine-wolf.md) |
-| [Warden](warden.md) | Extreme | Majin | [Soul Aberration](soul-aberration.md) |
-| [Wasp](wasp.md) | Easy | Majin | [Army Wasp](army-wasp.md), [Queen Wasp](queen-wasp.md) |
-| [Water Soul Insect](water-soul-insect.md) | Easy | Majin | [Divine Blue Centipede](divine-blue-centipede.md) |
-| [Whole](whole.md) | Intermediate | Holy | [Ascended](ascended.md) |
-| [Wind Soul Insect](wind-soul-insect.md) | Easy | Majin | [Divine Army Wasp](divine-army-wasp.md) |
-| [Yellow Centipede](yellow-centipede.md) | Easy | Majin | [Yellow Centipede Insectar](yellow-centipede-insectar.md) |
-| [Yellow Centipede Insectar](yellow-centipede-insectar.md) | Easy | Majin | [Yellow Centipede Savant](yellow-centipede-savant.md), [Paralysis Soul Insect](paralysis-soul-insect.md) |
-| [Yellow Centipede Savant](yellow-centipede-savant.md) | Easy | Majin | [Divine Yellow Centipede](divine-yellow-centipede.md) |
+- **Starting:** the first race of its evolution line. Nothing evolves into it, so you get it by reincarnating into it or through a special item, skill or event.
+- **In-between:** reached by evolving, and can evolve further.
+- **Final:** the last step of its line. It does not evolve any further.
+
+Races that link to other mods' races (for example an addon race that evolves from a Tensura race) are placed using the whole pack's evolution trees.
+
+<div class="filter-table" data-filter="Stage" data-order="Starting,In-between,Final" markdown>
+
+| Race | Stage | Difficulty | Alignment | Evolves from | Evolves into |
+|---|---|---|---|---|---|
+| [Amped Guitar Wolf](amped-guitar-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Guitar Wolf](guitar-wolf.md), [String Spirit Wolf](string-spirit-wolf.md) | [String Spirit Wolf](string-spirit-wolf.md) |
+| [Ant](ant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Fire Ant](fire-ant.md), [Hardshell Ant](hardshell-ant.md), [Earth Soul Insect](earth-soul-insect.md) |
+| [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Light Fang](light-fang.md), [Mystical Light Fang](mystical-light-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Light Fang](mystical-light-fang.md) |
+| [Arch Angel](arch-angel.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Greater Angel](greater-angel.md) | [Cherub](cherub.md), [Tengu](tengu.md) |
+| [Arch Doll](arch-doll.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Greater Doll](greater-doll.md) | [Daemon Doll](daemon-doll.md), [Chaos Doll](chaos-doll.md) |
+| [Arch Fallen](arch-fallen.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Greater Fallen](greater-fallen.md) | [Fallen Lord](fallen-lord.md) |
+| [Army Wasp](army-wasp.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wasp](wasp.md) | [Army Wasp Insectar](army-wasp-insectar.md), [Star Soul Insect](star-soul-insect.md) |
+| [Army Wasp Insectar](army-wasp-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Army Wasp](army-wasp.md) | [Army Wasp Savant](army-wasp-savant.md), [Wind Soul Insect](wind-soul-insect.md), [Star Soul Insect](star-soul-insect.md) |
+| [Army Wasp Savant](army-wasp-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Army Wasp Insectar](army-wasp-insectar.md) | [Divine Army Wasp](divine-army-wasp.md) |
+| [Ascended](ascended.md) | <span class="stage stage-in-between">In-between</span> | Intermediate | Holy | [Whole](whole.md) | [Divine Excelsius](divine-excelsius.md) |
+| [Attuned Wyrm](attuned-wyrm.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Lesser Glacier Wyrm](lesser-glacier-wyrm.md), [Lesser Pyre Wyrm](lesser-pyre-wyrm.md), [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) |
+| [Beetle](beetle.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Stag Beetle](stag-beetle.md), [Drone Beetle](drone-beetle.md), [Lightning Soul Insect](lightning-soul-insect.md) |
+| [Black Fang](black-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md), [Magic Spirit Wolf](magic-spirit-wolf.md), [Divine Wolf](divine-wolf.md) | [Mystical Black Fang](mystical-black-fang.md), [Magic Spirit Wolf](magic-spirit-wolf.md) |
+| [Blazing Scorch Wolf](blazing-scorch-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Scorch Wolf](scorch-wolf.md), [Molten Spirit Wolf](molten-spirit-wolf.md) | [Molten Spirit Wolf](molten-spirit-wolf.md), [Storm Spirit Wolf](storm-spirit-wolf.md) |
+| [Blue Centipede](blue-centipede.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Centipede](centipede.md) | [Blue Centipede Insectar](blue-centipede-insectar.md), [Water Soul Insect](water-soul-insect.md) |
+| [Blue Centipede Insectar](blue-centipede-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blue Centipede](blue-centipede.md) | [Blue Centipede Savant](blue-centipede-savant.md), [Water Soul Insect](water-soul-insect.md) |
+| [Blue Centipede Savant](blue-centipede-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blue Centipede Insectar](blue-centipede-insectar.md) | [Divine Blue Centipede](divine-blue-centipede.md) |
+| [Blue Fang](blue-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Black Fang](mystical-blue-fang.md), [Magic Spirit Wolf](ocean-spirit-wolf.md) |
+| [Bound Enlightenment](bound-enlightenment.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Restricted Human](restricted-human.md), [Restricted Saint](restricted-saint.md) | [Heavenly Restriction](heavenly-restriction.md) |
+| [Brown Fang](brown-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Brown Fang](mystical-brown-fang.md), [Mountain Spirit Wolf](mountain-spirit-wolf.md) |
+| [Centipede](centipede.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Yellow Centipede](yellow-centipede.md), [Blue Centipede](blue-centipede.md), [Purple Centipede](purple-centipede.md), [Paralysis Soul Insect](paralysis-soul-insect.md) |
+| [Chaos Doll](chaos-doll.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Arch Doll](arch-doll.md) | [Chaos Metalloid](chaos-metalloid.md) |
+| [Chaos Metalloid](chaos-metalloid.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Chaos Doll](chaos-doll.md) |  |
+| [Charged Perforator](charged-perforator.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Sculk Worm](sculk-worm.md) | [Overloading Worm](overloading-worm.md), [Lightning Aberration](lightning-aberration.md) |
+| [Cherub](cherub.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Lesser Angel](lesser-angel.md), [Greater Angel](greater-angel.md), [Arch Angel](arch-angel.md) | [Seraph](seraph.md), [Divine Tengu](divine-tengu.md) |
+| [Corrosion Soul Insect](corrosion-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lixivant Mantis](lixivant-mantis.md), [Lixivant Mantis Insectar](lixivant-mantis-insectar.md) | [Divine Lixivant Mantis](divine-lixivant-mantis.md) |
+| [Daemon Doll](daemon-doll.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Greater Doll](greater-doll.md), [Arch Doll](arch-doll.md) | [Devil Doll](devil-doll.md) |
+| [Darkness Fang](darkness-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Darkness Fang](mystical-darkness-fang.md), [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) |
+| [Devil Doll](devil-doll.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Daemon Doll](daemon-doll.md) |  |
+| [Direwolf](direwolf.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Black Fang](black-fang.md), [Blue Fang](blue-fang.md), [Brown Fang](brown-fang.md), [Darkness Fang](darkness-fang.md), [Frost Wolf](frost-wolf.md), [Green Fang](green-fang.md) and 7 more |
+| [Dissonance Deity](dissonance-deity.md) | <span class="stage stage-final">Final</span> | Extreme | Majin | [Lightning Aberration](lightning-aberration.md) |  |
+| [Divine Army Wasp](divine-army-wasp.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Army Wasp Savant](army-wasp-savant.md), [Wind Soul Insect](wind-soul-insect.md) |  |
+| [Divine Blue Centipede](divine-blue-centipede.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Blue Centipede Savant](blue-centipede-savant.md), [Water Soul Insect](water-soul-insect.md) |  |
+| [Divine Drone Beetle](divine-drone-beetle.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Drone Beetle Savant](drone-beetle-savant.md), [Lightning Soul Insect](lightning-soul-insect.md) |  |
+| [Divine Elemental](divine-elemental.md) | <span class="stage stage-final">Final</span> | Hard | Default | [Elemental Lord](elemental-lord.md) |  |
+| [Divine Excelsius](divine-excelsius.md) | <span class="stage stage-final">Final</span> | Intermediate | Holy | [Ascended](ascended.md) |  |
+| [Divine Fire Ant](divine-fire-ant.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Fire Ant Savant](fire-ant-savant.md), [Flame Soul Insect](flame-soul-insect.md) |  |
+| [Divine Hardshell Ant](divine-hardshell-ant.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Hardshell Ant Savant](hardshell-ant-savant.md), [Earth Soul Insect](earth-soul-insect.md) |  |
+| [Divine Inferius](divine-inferius.md) | <span class="stage stage-final">Final</span> | Intermediate | Majin | [Revenant](revenant.md) |  |
+| [Divine Lixivant Mantis](divine-lixivant-mantis.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Lixivant Mantis Savant](lixivant-mantis-savant.md), [Corrosion Soul Insect](corrosion-soul-insect.md) |  |
+| [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Loxodrome Scorpion Savant](loxodrome-scorpion-savant.md), [Poison Soul Insect](poison-soul-insect.md) |  |
+| [Divine Majin Elemental](divine-majin-elemental.md) | <span class="stage stage-final">Final</span> | Hard | Majin | [Majin Elemental Lord](majin-lord.md) |  |
+| [Divine Preying Mantis](divine-preying-mantis.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Preying Mantis Savant](preying-mantis-savant.md), [Steel Soul Insect](steel-soul-insect.md) |  |
+| [Divine Purple Centipede](divine-purple-centipede.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Purple Centipede Savant](purple-centipede-savant.md), [Spatial Soul Insect](spatial-soul-insect.md) |  |
+| [Divine Queen Wasp](divine-queen-wasp.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Queen Wasp Savant](queen-wasp-savant.md), [Star Soul Insect](star-soul-insect.md) |  |
+| [Divine Singularity Scorpion](divine-singularity-scorpion.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Singularity Scorpion Savant](singularity-scorpion-savant.md), [Gravity Soul Insect](gravity-soul-insect.md) |  |
+| [Divine Stag Beetle](divine-stag-beetle.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Stag Beetle Savant](stag-beetle-savant.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |  |
+| [Divine Tengu](divine-tengu.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Tengu Saint](tengu-saint.md), [Cherub](cherub.md) |  |
+| [Divine Wolf](divine-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Magic Spirit Wolf](magic-spirit-wolf.md), [Magic Spirit Wolf](ocean-spirit-wolf.md), [Mountain Spirit Wolf](mountain-spirit-wolf.md), [Penumbra Spirit Wolf](penumbra-spirit-wolf.md), [Glacier Spirit Wolf](glacier-spirit-wolf.md), [Magic Spirit Wolf](gale-spirit-wolf.md) and 6 more | [Black Fang](black-fang.md) |
+| [Divine Yellow Centipede](divine-yellow-centipede.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Yellow Centipede Savant](yellow-centipede-savant.md), [Paralysis Soul Insect](paralysis-soul-insect.md) |  |
+| [Dragonoid](dragonoid.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [True Dragonoid](true-dragonoid.md) |
+| [Drone Beetle](drone-beetle.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Beetle](beetle.md) | [Drone Beetle Insectar](drone-beetle-insectar.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |
+| [Drone Beetle Insectar](drone-beetle-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Drone Beetle](drone-beetle.md) | [Drone Beetle Savant](drone-beetle-savant.md), [Lightning Soul Insect](lightning-soul-insect.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |
+| [Drone Beetle Savant](drone-beetle-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Drone Beetle Insectar](drone-beetle-insectar.md) | [Divine Drone Beetle](divine-drone-beetle.md) |
+| [Earth Soul Insect](earth-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Ant](ant.md), [Fire Ant](fire-ant.md), [Hardshell Ant](hardshell-ant.md), [Hardshell Ant Insectar](hardshell-ant-insectar.md) | [Divine Hardshell Ant](divine-hardshell-ant.md) |
+| [Elemental Lord](elemental-lord.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Lesser Elemental](lesser-elemental.md), [Medium Elemental](medium-elemental.md), [Greater Elemental](greater-elemental.md), [Majin Elemental Lord](majin-lord.md) | [Divine Elemental](divine-elemental.md) |
+| [Empty](empty.md) | <span class="stage stage-in-between">In-between</span> | Intermediate | Majin | [Remnant](remnant.md) | [Revenant](revenant.md) |
+| [Enflamed Aberration](enflamed-aberration.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Molten Perforator](molten-perforator.md), [Magma Worm](magma-worm.md) | [Violence Deity](violence-deity.md) |
+| [Fallen](fallen.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Fallen Lord](fallen-lord.md) |  |
+| [Fallen Arch Angel](fallen-arch-angel.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fallen Greater Angel](fallen-greater-angel.md) | [Fallen SoulAberration](fallen-cherub.md) |
+| [Fallen Greater Angel](fallen-greater-angel.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fallen Lesser Angel](fallen-lesser-angel.md) | [Fallen Arch Angel](fallen-arch-angel.md), [Fallen SoulAberration](fallen-cherub.md) |
+| [Fallen Lesser Angel](fallen-lesser-angel.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Fallen Greater Angel](fallen-greater-angel.md), [Fallen SoulAberration](fallen-cherub.md) |
+| [Fallen Lord](fallen-lord.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lesser Fallen](lesser-fallen.md), [Greater Fallen](greater-fallen.md), [Arch Fallen](arch-fallen.md) | [Fallen](fallen.md) |
+| [Fallen ReaperAberration](fallen-seraph.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Fallen SoulAberration](fallen-cherub.md) |  |
+| [Fallen SoulAberration](fallen-cherub.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fallen Lesser Angel](fallen-lesser-angel.md), [Fallen Greater Angel](fallen-greater-angel.md), [Fallen Arch Angel](fallen-arch-angel.md) | [Fallen ReaperAberration](fallen-seraph.md) |
+| [Fantasy Soul Insect](fantasy-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Stag Beetle](stag-beetle.md), [Stag Beetle Insectar](stag-beetle-insectar.md), [Drone Beetle](drone-beetle.md), [Drone Beetle Insectar](drone-beetle-insectar.md) | [Divine Stag Beetle](divine-stag-beetle.md) |
+| [Field Officer](field-officer.md) | <span class="stage stage-in-between">In-between</span> | Hard | Majin | [Phantom](phantom.md) | [General](general.md), [Staff Officer](staff-officer.md) |
+| [Fire Ant](fire-ant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Ant](ant.md) | [Fire Ant Insectar](fire-ant-insectar.md), [Earth Soul Insect](earth-soul-insect.md) |
+| [Fire Ant Insectar](fire-ant-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fire Ant](fire-ant.md) | [Fire Ant Savant](fire-ant-savant.md), [Flame Soul Insect](flame-soul-insect.md) |
+| [Fire Ant Savant](fire-ant-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fire Ant Insectar](fire-ant-insectar.md) | [Divine Fire Ant](divine-fire-ant.md) |
+| [Flame Soul Insect](flame-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Fire Ant Insectar](fire-ant-insectar.md) | [Divine Fire Ant](divine-fire-ant.md) |
+| [Forgotten](forgotten.md) | <span class="stage stage-starting">Starting</span> | Intermediate | Majin |  | [Remnant](remnant.md), [Revenant](revenant.md) |
+| [Frost Wolf](frost-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Nivalis Frost Wolf](nivalis-frost-wolf.md), [Glacier Spirit Wolf](glacier-spirit-wolf.md) |
+| [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Attuned Wyrm](attuned-wyrm.md), [Lesser Glacier Wyrm](lesser-glacier-wyrm.md), [Greater Glacier Wyrm](greater-glacier-wyrm.md), [Lesser Pyre Wyrm](lesser-pyre-wyrm.md), [Greater Pyre Wyrm](greater-pyre-wyrm.md) | [Frostwrought Leviathan](frostwrought-leviathan.md) |
+| [Frostwrought Leviathan](frostwrought-leviathan.md) | <span class="stage stage-final">Final</span> | Hard | Default | [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) |  |
+| [General](general.md) | <span class="stage stage-in-between">In-between</span> | Hard | Majin | [Field Officer](field-officer.md) | [Staff Officer](staff-officer.md) |
+| [Glacier Spirit Wolf](glacier-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Frost Wolf](frost-wolf.md), [Nivalis Frost Wolf](nivalis-frost-wolf.md) | [Divine Wolf](divine-wolf.md), [Nivalis Frost Wolf](nivalis-frost-wolf.md) |
+| [Gravity Soul Insect](gravity-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Singularity Scorpion](singularity-scorpion.md), [Singularity Scorpion Insectar](singularity-scorpion-insectar.md) | [Divine Singularity Scorpion](divine-singularity-scorpion.md) |
+| [Greater Angel](greater-angel.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Lesser Angel](lesser-angel.md) | [Arch Angel](arch-angel.md), [Cherub](cherub.md), [Tengu](tengu.md) |
+| [Greater Doll](greater-doll.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Greater Daemon](../../tensura-reincarnated/races/greater-daemon.md) | [Arch Doll](arch-doll.md), [Daemon Doll](daemon-doll.md) |
+| [Greater Elemental](greater-elemental.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Medium Elemental](medium-elemental.md) | [Elemental Lord](elemental-lord.md), [Majin Elemental Lord](majin-lord.md) |
+| [Greater Fallen](greater-fallen.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lesser Fallen](lesser-fallen.md) | [Arch Fallen](arch-fallen.md), [Fallen Lord](fallen-lord.md) |
+| [Greater Glacier Wyrm](greater-glacier-wyrm.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Lesser Glacier Wyrm](lesser-glacier-wyrm.md) | [Frostcoil Sea Serpent](frostcoil-sea-serpent.md), [Rimefang Drake](rimefang-drake.md) |
+| [Greater Pyre Wyrm](greater-pyre-wyrm.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Lesser Pyre Wyrm](lesser-pyre-wyrm.md) | [Scorchtail Salamander](scorchtail-salamander.md), [Sunfire Lindwurm](sunfire-lindwurm.md), [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) |
+| [Green Fang](green-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Green Fang](mystical-green-fang.md), [Magic Spirit Wolf](gale-spirit-wolf.md) |
+| [Guitar Wolf](guitar-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Amped Guitar Wolf](amped-guitar-wolf.md), [String Spirit Wolf](string-spirit-wolf.md) |
+| [Hardshell Ant](hardshell-ant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Ant](ant.md) | [Hardshell Ant Insectar](hardshell-ant-insectar.md), [Earth Soul Insect](earth-soul-insect.md) |
+| [Hardshell Ant Insectar](hardshell-ant-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Hardshell Ant](hardshell-ant.md) | [Hardshell Ant Savant](hardshell-ant-savant.md), [Earth Soul Insect](earth-soul-insect.md) |
+| [Hardshell Ant Savant](hardshell-ant-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Hardshell Ant Insectar](hardshell-ant-insectar.md) | [Divine Hardshell Ant](divine-hardshell-ant.md) |
+| [Heavenly Restriction](heavenly-restriction.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Bound Enlightenment](bound-enlightenment.md) | [Restricted Saint](restricted-saint.md) |
+| [Insect](insect.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Ant](ant.md), [Beetle](beetle.md), [Centipede](centipede.md), [Mantis](mantis.md), [Scorpion](scorpion.md), [Wasp](wasp.md) and 1 more |
+| [Lesser Angel](lesser-angel.md) | <span class="stage stage-starting">Starting</span> | Easy | Holy |  | [Greater Angel](greater-angel.md), [Cherub](cherub.md) |
+| [Lesser Elemental](lesser-elemental.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Medium Elemental](medium-elemental.md), [Elemental Lord](elemental-lord.md) |
+| [Lesser Fallen](lesser-fallen.md) | <span class="stage stage-starting">Starting</span> | Easy | Majin |  | [Greater Fallen](greater-fallen.md), [Fallen Lord](fallen-lord.md) |
+| [Lesser Glacier Wyrm](lesser-glacier-wyrm.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Attuned Wyrm](attuned-wyrm.md) | [Greater Glacier Wyrm](greater-glacier-wyrm.md), [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) |
+| [Lesser Pyre Wyrm](lesser-pyre-wyrm.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Attuned Wyrm](attuned-wyrm.md) | [Greater Pyre Wyrm](greater-pyre-wyrm.md), [Frostcoil Sea Serpent](frostcoil-sea-serpent.md) |
+| [Light Fang](light-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Light Fang](mystical-light-fang.md), [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) |
+| [Lightning Aberration](lightning-aberration.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Charged Perforator](charged-perforator.md), [Overloading Worm](overloading-worm.md) | [Dissonance Deity](dissonance-deity.md) |
+| [Lightning Soul Insect](lightning-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Beetle](beetle.md), [Drone Beetle Insectar](drone-beetle-insectar.md) | [Divine Drone Beetle](divine-drone-beetle.md) |
+| [Lixivant Mantis](lixivant-mantis.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Mantis](mantis.md) | [Lixivant Mantis Insectar](lixivant-mantis-insectar.md), [Corrosion Soul Insect](corrosion-soul-insect.md) |
+| [Lixivant Mantis Insectar](lixivant-mantis-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lixivant Mantis](lixivant-mantis.md) | [Lixivant Mantis Savant](lixivant-mantis-savant.md), [Corrosion Soul Insect](corrosion-soul-insect.md) |
+| [Lixivant Mantis Savant](lixivant-mantis-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Lixivant Mantis Insectar](lixivant-mantis-insectar.md) | [Divine Lixivant Mantis](divine-lixivant-mantis.md) |
+| [Loxodrome Scorpion](loxodrome-scorpion.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Scorpion](scorpion.md) | [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md), [Poison Soul Insect](poison-soul-insect.md) |
+| [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Loxodrome Scorpion](loxodrome-scorpion.md) | [Loxodrome Scorpion Savant](loxodrome-scorpion-savant.md), [Poison Soul Insect](poison-soul-insect.md) |
+| [Loxodrome Scorpion Savant](loxodrome-scorpion-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md) | [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) |
+| [Magic Spirit Wolf](magic-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md), [Black Fang](black-fang.md), [Mystical Black Fang](mystical-black-fang.md) | [Divine Wolf](divine-wolf.md), [Black Fang](black-fang.md) |
+| [Magic Spirit Wolf](ocean-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blue Fang](blue-fang.md), [Mystical Black Fang](mystical-blue-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Black Fang](mystical-blue-fang.md) |
+| [Magic Spirit Wolf](gale-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Green Fang](green-fang.md), [Mystical Green Fang](mystical-green-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Green Fang](mystical-green-fang.md) |
+| [Magma Worm](magma-worm.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Molten Perforator](molten-perforator.md) | [Enflamed Aberration](enflamed-aberration.md) |
+| [Majin Elemental Lord](majin-lord.md) | <span class="stage stage-in-between">In-between</span> | Hard | Majin | [Greater Elemental](greater-elemental.md) | [Divine Majin Elemental](divine-majin-elemental.md), [Elemental Lord](elemental-lord.md) |
+| [Mantis](mantis.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Preying Mantis](preying-mantis.md), [Lixivant Mantis](lixivant-mantis.md), [Steel Soul Insect](steel-soul-insect.md) |
+| [Medium Elemental](medium-elemental.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Lesser Elemental](lesser-elemental.md) | [Greater Elemental](greater-elemental.md), [Elemental Lord](elemental-lord.md) |
+| [Molten Perforator](molten-perforator.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Sculk Worm](sculk-worm.md) | [Magma Worm](magma-worm.md), [Enflamed Aberration](enflamed-aberration.md) |
+| [Molten Spirit Wolf](molten-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blazing Scorch Wolf](blazing-scorch-wolf.md) | [Divine Wolf](divine-wolf.md), [Blazing Scorch Wolf](blazing-scorch-wolf.md) |
+| [Mountain Spirit Wolf](mountain-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Brown Fang](brown-fang.md), [Mystical Brown Fang](mystical-brown-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Brown Fang](mystical-brown-fang.md) |
+| [Mystic Angel](mystic-angel.md) | <span class="stage stage-final">Final</span> | Hard | Chaos | [Staff Officer](staff-officer.md) |  |
+| [Mystical Black Fang](mystical-black-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Black Fang](black-fang.md) | [Magic Spirit Wolf](magic-spirit-wolf.md) |
+| [Mystical Black Fang](mystical-blue-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blue Fang](blue-fang.md), [Magic Spirit Wolf](ocean-spirit-wolf.md) | [Magic Spirit Wolf](ocean-spirit-wolf.md) |
+| [Mystical Brown Fang](mystical-brown-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Brown Fang](brown-fang.md), [Mountain Spirit Wolf](mountain-spirit-wolf.md) | [Mountain Spirit Wolf](mountain-spirit-wolf.md) |
+| [Mystical Darkness Fang](mystical-darkness-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Darkness Fang](darkness-fang.md), [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) | [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) |
+| [Mystical Green Fang](mystical-green-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Green Fang](green-fang.md), [Magic Spirit Wolf](gale-spirit-wolf.md) | [Magic Spirit Wolf](gale-spirit-wolf.md) |
+| [Mystical Light Fang](mystical-light-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Light Fang](light-fang.md), [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) | [Antumbra Spirit Wolf](antumbra-spirit-wolf.md) |
+| [Mystical Purple Fang](mystical-purple-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Purple Fang](purple-fang.md), [Planet Spirit Wolf](planet-spirit-wolf.md) | [Planet Spirit Wolf](planet-spirit-wolf.md) |
+| [Mystical Red Fang](mystical-red-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Red Fang](red-fang.md), [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) | [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) |
+| [Nivalis Frost Wolf](nivalis-frost-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Frost Wolf](frost-wolf.md), [Glacier Spirit Wolf](glacier-spirit-wolf.md) | [Glacier Spirit Wolf](glacier-spirit-wolf.md) |
+| [Overloading Worm](overloading-worm.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Charged Perforator](charged-perforator.md) | [Lightning Aberration](lightning-aberration.md) |
+| [Paralysis Soul Insect](paralysis-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Centipede](centipede.md), [Yellow Centipede](yellow-centipede.md), [Yellow Centipede Insectar](yellow-centipede-insectar.md) | [Divine Yellow Centipede](divine-yellow-centipede.md) |
+| [Penumbra Spirit Wolf](penumbra-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Darkness Fang](darkness-fang.md), [Mystical Darkness Fang](mystical-darkness-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Darkness Fang](mystical-darkness-fang.md) |
+| [Phantom](phantom.md) | <span class="stage stage-starting">Starting</span> | Hard | Majin |  | [Field Officer](field-officer.md), [Staff Officer](staff-officer.md) |
+| [Planet Spirit Wolf](planet-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Purple Fang](purple-fang.md), [Mystical Purple Fang](mystical-purple-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Purple Fang](mystical-purple-fang.md) |
+| [Poison Soul Insect](poison-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Scorpion](scorpion.md), [Loxodrome Scorpion](loxodrome-scorpion.md), [Loxodrome Scorpion Insectar](loxodrome-scorpion-insectar.md) | [Divine Loxodrome Scorpion](divine-loxodrome-scorpion.md) |
+| [Preying Mantis](preying-mantis.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Mantis](mantis.md) | [Preying Mantis Insectar](preying-mantis-insectar.md), [Steel Soul Insect](steel-soul-insect.md) |
+| [Preying Mantis Insectar](preying-mantis-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Preying Mantis](preying-mantis.md) | [Preying Mantis Savant](preying-mantis-savant.md), [Steel Soul Insect](steel-soul-insect.md) |
+| [Preying Mantis Savant](preying-mantis-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Preying Mantis Insectar](preying-mantis-insectar.md) | [Divine Preying Mantis](divine-preying-mantis.md) |
+| [Purple Centipede](purple-centipede.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Centipede](centipede.md), [Purple Centipede Insectar](purple-centipede-insectar.md) | [Purple Centipede Insectar](purple-centipede-insectar.md), [Spatial Soul Insect](spatial-soul-insect.md) |
+| [Purple Centipede Insectar](purple-centipede-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Purple Centipede](purple-centipede.md) | [Purple Centipede](purple-centipede.md), [Purple Centipede Savant](purple-centipede-savant.md), [Spatial Soul Insect](spatial-soul-insect.md) |
+| [Purple Centipede Savant](purple-centipede-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Purple Centipede Insectar](purple-centipede-insectar.md) | [Divine Purple Centipede](divine-purple-centipede.md) |
+| [Purple Fang](purple-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Purple Fang](mystical-purple-fang.md), [Planet Spirit Wolf](planet-spirit-wolf.md) |
+| [Queen Wasp](queen-wasp.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wasp](wasp.md) | [Queen Wasp Insectar](queen-wasp-insectar.md), [Star Soul Insect](star-soul-insect.md) |
+| [Queen Wasp Insectar](queen-wasp-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Queen Wasp](queen-wasp.md) | [Queen Wasp Savant](queen-wasp-savant.md), [Star Soul Insect](star-soul-insect.md) |
+| [Queen Wasp Savant](queen-wasp-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Queen Wasp Insectar](queen-wasp-insectar.md) | [Divine Queen Wasp](divine-queen-wasp.md) |
+| [Reaper Aberration](reaper-aberration.md) | <span class="stage stage-final">Final</span> | Extreme | Majin | [Soul Aberration](soul-aberration.md) |  |
+| [Red Fang](red-fang.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Mystical Red Fang](mystical-red-fang.md), [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) |
+| [Remnant](remnant.md) | <span class="stage stage-in-between">In-between</span> | Intermediate | Majin | [Forgotten](forgotten.md) | [Empty](empty.md), [Whole](whole.md), [Revenant](revenant.md) |
+| [Restricted Human](restricted-human.md) | <span class="stage stage-starting">Starting</span> | Hard | Default |  | [Restricted Saint](restricted-saint.md), [Bound Enlightenment](bound-enlightenment.md) |
+| [Restricted Saint](restricted-saint.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Restricted Human](restricted-human.md), [Heavenly Restriction](heavenly-restriction.md) | [Bound Enlightenment](bound-enlightenment.md) |
+| [Revenant](revenant.md) | <span class="stage stage-in-between">In-between</span> | Intermediate | Majin | [Forgotten](forgotten.md), [Remnant](remnant.md), [Empty](empty.md) | [Divine Inferius](divine-inferius.md) |
+| [Rimeblight Hydra](rimeblight-hydra.md) | <span class="stage stage-final">Final</span> | Hard | Majin | [Rimefang Drake](rimefang-drake.md) |  |
+| [Rimefang Drake](rimefang-drake.md) | <span class="stage stage-in-between">In-between</span> | Hard | Majin | [Greater Glacier Wyrm](greater-glacier-wyrm.md) | [Rimeblight Hydra](rimeblight-hydra.md) |
+| [Scorch Wolf](scorch-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Blazing Scorch Wolf](blazing-scorch-wolf.md), [Storm Spirit Wolf](storm-spirit-wolf.md) |
+| [Scorchtail Salamander](scorchtail-salamander.md) | <span class="stage stage-in-between">In-between</span> | Hard | Majin | [Greater Pyre Wyrm](greater-pyre-wyrm.md) | [Scorchtalon Wyvern](scorchtalon-wyvern.md) |
+| [Scorchtalon Wyvern](scorchtalon-wyvern.md) | <span class="stage stage-final">Final</span> | Hard | Majin | [Scorchtail Salamander](scorchtail-salamander.md) |  |
+| [Scorpion](scorpion.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Loxodrome Scorpion](loxodrome-scorpion.md), [Singularity Scorpion](singularity-scorpion.md), [Poison Soul Insect](poison-soul-insect.md) |
+| [Sculk Worm](sculk-worm.md) | <span class="stage stage-starting">Starting</span> | Extreme | Majin |  | [Soul Shrieker](soul-shrieker.md), [Molten Perforator](molten-perforator.md), [Charged Perforator](charged-perforator.md), [Soul Aberration](soul-aberration.md) |
+| [Seraph](seraph.md) | <span class="stage stage-final">Final</span> | Easy | Holy | [Cherub](cherub.md) |  |
+| [Singularity Scorpion](singularity-scorpion.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Scorpion](scorpion.md) | [Singularity Scorpion Insectar](singularity-scorpion-insectar.md), [Gravity Soul Insect](gravity-soul-insect.md) |
+| [Singularity Scorpion Insectar](singularity-scorpion-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Singularity Scorpion](singularity-scorpion.md) | [Singularity Scorpion Savant](singularity-scorpion-savant.md), [Gravity Soul Insect](gravity-soul-insect.md) |
+| [Singularity Scorpion Savant](singularity-scorpion-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Singularity Scorpion Insectar](singularity-scorpion-insectar.md) | [Divine Singularity Scorpion](divine-singularity-scorpion.md) |
+| [Soul Aberration](soul-aberration.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Sculk Worm](sculk-worm.md), [Soul Shrieker](soul-shrieker.md), [Warden](warden.md) | [Reaper Aberration](reaper-aberration.md), [Warden](warden.md) |
+| [Soul Shrieker](soul-shrieker.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Sculk Worm](sculk-worm.md) | [Warden](warden.md), [Soul Aberration](soul-aberration.md) |
+| [Spatial Soul Insect](spatial-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Purple Centipede](purple-centipede.md), [Purple Centipede Insectar](purple-centipede-insectar.md) | [Divine Purple Centipede](divine-purple-centipede.md) |
+| [Staff Officer](staff-officer.md) | <span class="stage stage-in-between">In-between</span> | Hard | Chaos | [Phantom](phantom.md), [Field Officer](field-officer.md), [General](general.md) | [Mystic Angel](mystic-angel.md) |
+| [Stag Beetle](stag-beetle.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Beetle](beetle.md) | [Stag Beetle Insectar](stag-beetle-insectar.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |
+| [Stag Beetle Insectar](stag-beetle-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Stag Beetle](stag-beetle.md) | [Stag Beetle Savant](stag-beetle-savant.md), [Fantasy Soul Insect](fantasy-soul-insect.md) |
+| [Stag Beetle Savant](stag-beetle-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Stag Beetle Insectar](stag-beetle-insectar.md) | [Divine Stag Beetle](divine-stag-beetle.md) |
+| [Star Soul Insect](star-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Queen Wasp](queen-wasp.md), [Queen Wasp Insectar](queen-wasp-insectar.md), [Army Wasp](army-wasp.md), [Army Wasp Insectar](army-wasp-insectar.md) | [Divine Queen Wasp](divine-queen-wasp.md) |
+| [Star Wolf](star-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Direwolf](direwolf.md) | [Tempest Star Wolf](tempest-star-wolf.md), [Storm Spirit Wolf](storm-spirit-wolf.md) |
+| [Steel Soul Insect](steel-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Mantis](mantis.md), [Preying Mantis](preying-mantis.md), [Preying Mantis Insectar](preying-mantis-insectar.md) | [Divine Preying Mantis](divine-preying-mantis.md) |
+| [Storm Spirit Wolf](storm-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Scorch Wolf](scorch-wolf.md), [Blazing Scorch Wolf](blazing-scorch-wolf.md), [Star Wolf](star-wolf.md), [Tempest Star Wolf](tempest-star-wolf.md) | [Divine Wolf](divine-wolf.md), [Tempest Star Wolf](tempest-star-wolf.md) |
+| [String Spirit Wolf](string-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Guitar Wolf](guitar-wolf.md), [Amped Guitar Wolf](amped-guitar-wolf.md) | [Divine Wolf](divine-wolf.md), [Amped Guitar Wolf](amped-guitar-wolf.md) |
+| [Sundeity Loong](sundeity-loong.md) | <span class="stage stage-final">Final</span> | Hard | Default | [Sunfire Lindwurm](sunfire-lindwurm.md) |  |
+| [Sunfire Lindwurm](sunfire-lindwurm.md) | <span class="stage stage-in-between">In-between</span> | Hard | Default | [Greater Pyre Wyrm](greater-pyre-wyrm.md) | [Sundeity Loong](sundeity-loong.md) |
+| [Tempest Star Wolf](tempest-star-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Star Wolf](star-wolf.md), [Storm Spirit Wolf](storm-spirit-wolf.md) | [Storm Spirit Wolf](storm-spirit-wolf.md) |
+| [Tengu](tengu.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Greater Angel](greater-angel.md), [Arch Angel](arch-angel.md) | [Tengu Saint](tengu-saint.md) |
+| [Tengu Saint](tengu-saint.md) | <span class="stage stage-in-between">In-between</span> | Easy | Holy | [Tengu](tengu.md) | [Divine Tengu](divine-tengu.md) |
+| [True Dragonoid](true-dragonoid.md) | <span class="stage stage-final">Final</span> | Easy | Majin | [Dragonoid](dragonoid.md) |  |
+| [Violence Deity](violence-deity.md) | <span class="stage stage-final">Final</span> | Extreme | Majin | [Enflamed Aberration](enflamed-aberration.md) |  |
+| [Volcanic Spirit Wolf](volcanic-spirit-wolf.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Red Fang](red-fang.md), [Mystical Red Fang](mystical-red-fang.md) | [Divine Wolf](divine-wolf.md), [Mystical Red Fang](mystical-red-fang.md) |
+| [Warden](warden.md) | <span class="stage stage-in-between">In-between</span> | Extreme | Majin | [Soul Shrieker](soul-shrieker.md), [Soul Aberration](soul-aberration.md) | [Soul Aberration](soul-aberration.md) |
+| [Wasp](wasp.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Insect](insect.md) | [Army Wasp](army-wasp.md), [Queen Wasp](queen-wasp.md), [Wind Soul Insect](wind-soul-insect.md) |
+| [Water Soul Insect](water-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Blue Centipede](blue-centipede.md), [Blue Centipede Insectar](blue-centipede-insectar.md) | [Divine Blue Centipede](divine-blue-centipede.md) |
+| [Whole](whole.md) | <span class="stage stage-in-between">In-between</span> | Intermediate | Holy | [Remnant](remnant.md) | [Ascended](ascended.md) |
+| [Wind Soul Insect](wind-soul-insect.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Wasp](wasp.md), [Army Wasp Insectar](army-wasp-insectar.md) | [Divine Army Wasp](divine-army-wasp.md) |
+| [Yellow Centipede](yellow-centipede.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Centipede](centipede.md), [Insect](insect.md) | [Yellow Centipede Insectar](yellow-centipede-insectar.md), [Paralysis Soul Insect](paralysis-soul-insect.md) |
+| [Yellow Centipede Insectar](yellow-centipede-insectar.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Yellow Centipede](yellow-centipede.md) | [Yellow Centipede Savant](yellow-centipede-savant.md), [Paralysis Soul Insect](paralysis-soul-insect.md) |
+| [Yellow Centipede Savant](yellow-centipede-savant.md) | <span class="stage stage-in-between">In-between</span> | Easy | Majin | [Yellow Centipede Insectar](yellow-centipede-insectar.md) | [Divine Yellow Centipede](divine-yellow-centipede.md) |
+
+</div>
 
 ## Evolution trees
 

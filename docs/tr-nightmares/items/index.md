@@ -2,7 +2,7 @@
 
 <small>[TR: Nightmares](../index.md)</small>
 
-TR: Nightmares adds **83** items.
+TR: Nightmares adds **80** items.
 
 | Group | Count |
 |---|---|
@@ -11,8 +11,8 @@ TR: Nightmares adds **83** items.
 | [Materials](materials/index.md) | 14 |
 | [Spawn Eggs](spawn-eggs/index.md) | 9 |
 | [Tools](tools/index.md) | 2 |
-| [Weapons](weapons/index.md) | 26 |
-| [Miscellaneous](miscellaneous/index.md) | 9 |
+| [Weapons](weapons/index.md) | 25 |
+| [Miscellaneous](miscellaneous/index.md) | 7 |
 
 ## Armor
 
@@ -97,7 +97,6 @@ TR: Nightmares adds **83** items.
 | ![](../../assets/icons/trnightmare/item/ending_sealed_sword.png) | [Blade of The End](weapons/ending-sealed-sword.md) | `trnightmare:ending_sealed_sword` |
 | ![](../../assets/icons/trnightmare/item/ending_unsealed_sword.png) | [Blade of The End](weapons/ending-unsealed-sword.md) | `trnightmare:ending_unsealed_sword` |
 | ![](../../assets/icons/trnightmare/item/courechouse.png) | [Courechouse](weapons/courechouse.md) | `trnightmare:courechouse` |
-| ![](../../assets/icons/trnightmare/item/atropos_sword.png) | [Death's Door](weapons/atropos-sword.md) | `trnightmare:atropos_sword` |
 | ![](../../assets/icons/trnightmare/item/demon_king_sword.png) | [Demon King's Sword](weapons/demon-king-sword.md) | `trnightmare:demon_king_sword` |
 | ![](../../assets/icons/trnightmare/item/deva.png) | [Deva](weapons/deva.md) | `trnightmare:deva` |
 | ![](../../assets/icons/trnightmare/item/dharma.png) | [Dharma](weapons/dharma.md) | `trnightmare:dharma` |
@@ -123,11 +122,9 @@ TR: Nightmares adds **83** items.
 | | Name | ID |
 |---|---|---|
 |  | [EVIL ATTRIBUTE STICK](miscellaneous/evil-attribute-stick.md) | `trnightmare:evil_attribute_stick` |
-| ![](../../assets/icons/trnightmare/item/fragment_akasha.png) | [Fragment of Akasha](miscellaneous/fragment-akasha.md) | `trnightmare:fragment_akasha` |
 | ![](../../assets/icons/trnightmare/item/frost_dragon_seed.png) | [Frost Dragon Seed](miscellaneous/frost-dragon-seed.md) | `trnightmare:frost_dragon_seed` |
 | ![](../../assets/icons/trnightmare/item/heroic_memory.png) | [Heroic Memory](miscellaneous/heroic-memory.md) | `trnightmare:heroic_memory` |
 | ![](../../assets/icons/trnightmare/item/scorch_dragon_seed.png) | [Scorch Dragon Seed](miscellaneous/scorch-dragon-seed.md) | `trnightmare:scorch_dragon_seed` |
 |  | [Signed Contract](miscellaneous/deal-contract.md) | `trnightmare:deal_contract` |
 | ![](../../assets/icons/trnightmare/item/soul.png) | [Soul](miscellaneous/soul.md) | `trnightmare:soul` |
 | ![](../../assets/icons/trnightmare/item/storm_dragon_seed.png) | [Storm Dragon Seed](miscellaneous/storm-dragon-seed.md) | `trnightmare:storm_dragon_seed` |
-|  | [Writable Contract](miscellaneous/writable-contract.md) | `trnightmare:writable_contract` |

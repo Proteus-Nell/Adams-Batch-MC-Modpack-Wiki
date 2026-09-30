@@ -8,13 +8,19 @@
 |---|---|
 | **ID** | `tensura:ruin/wizard_tower/buried` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:is_desert` |
+| **Biomes** | Is Desert, Barren Land, Desert of Death |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 60 / 20 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+A ruined **wizard tower**. Each variant (buried, burnt, frozen, rotted or ruined) has its own loot chest.
+
+Generates in Is Desert, Barren Land, Desert of Death, about one every 60 chunks (at least 20 chunks apart).
 
 ## Loot
 

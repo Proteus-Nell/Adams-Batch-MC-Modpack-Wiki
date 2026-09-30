@@ -21,6 +21,10 @@ to transfer all enchantments from item to the tome.
 
 The tome will be transformed into Enchanted Book.
 
+## What it does
+
+Used to make [Tome of Divination](bless-amplifier.md) and [Tome of Devoured Malignancy](curse-transposer.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

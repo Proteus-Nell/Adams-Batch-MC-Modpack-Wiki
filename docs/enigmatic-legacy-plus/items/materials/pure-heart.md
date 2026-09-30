@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A heart that holds both hidden corruption and faint divinity. While carried by a player bearing either the Ring of the Seven Curses or the Ring of Redemption, it becomes **tainted** for recipes that need it. Brewing it into a Honey Bottle makes a Blessing Potion.
+
+Used to make [Holy Stone](../misc/bless-stone.md), [Promise of the Earth](../rings/earth-promise.md), [Amulet of Radiance](../amulets/redemption-amulet.md), [Charm of Scorched Sun](../charms/scorched-charm.md) and [The Bless](../books/the-bless.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

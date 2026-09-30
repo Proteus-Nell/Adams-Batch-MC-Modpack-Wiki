@@ -37,4 +37,5 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Livyatan, Lord of Floods ｣](../ultimate-skills/livyatan.md)

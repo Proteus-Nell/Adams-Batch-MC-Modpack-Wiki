@@ -1,0 +1,39 @@
+[Kaioken]
+	#Transformation duration in ticks (unmastered).
+	transformationDuration = 3600
+	#Transformation duration in ticks (mastered).
+	transformationDurationMastered = 7200
+	#Cooldown in SECONDS after activating Kaioken (ManasCore decrements 1 per 20 ticks).
+	cooldown = 60
+	#Energy-pool multiplier bonus for tier 0 / Kaioken x2 (ADD_MULTIPLIED_TOTAL: 1.0 = double the max magicule & aura).
+	mode0EnergyMultiplier = 1.0
+	#Energy-pool multiplier bonus for tier 1 / Kaioken x3 (2.0 = triple).
+	mode1EnergyMultiplier = 2.0
+	#Energy-pool multiplier bonus for tier 2 / Kaioken x10 (9.0 = ten times).
+	mode2EnergyMultiplier = 9.0
+	#Energy-pool multiplier bonus for tier 3 / Kaioken x20 (19.0 = twenty times).
+	mode3EnergyMultiplier = 19.0
+	#Live EP required to unlock Kaioken x3 (tier 1).
+	mode1EP = 100000.0
+	#Live EP required to unlock Kaioken x10 (tier 2).
+	mode2EP = 1000000.0
+	#Live EP required to unlock Kaioken x20 (tier 3). Also requires the skill be mastered.
+	mode3EP = 1.0E7
+	#Flat attack-damage bonus per tier (multiplied by tier+1: x2 = +this, x20 = +4x this).
+	attackBonusPerTier = 8.0
+	#Flat armor bonus per tier (multiplied by tier+1).
+	armorBonusPerTier = 5.0
+	#Flat movement-speed bonus per tier (multiplied by tier+1).
+	speedBonusPerTier = 0.02
+	#Health drained each drain-interval per tier (the body-strain of Kaioken). Floored by minHealthFraction so drain alone won't kill.
+	healthDrainPerTick = 1.0
+	#Magicule and aura drained each drain-interval per tier.
+	energyDrainPerTick = 50.0
+	#Interval in ticks between strain drains and red-aura particle emission.
+	drainIntervalTicks = 20
+	#Minimum health fraction (0-1) that Kaioken strain will not drain below.
+	minHealthFraction = 0.1
+	#Duration in ticks of the exhaustion debuff (Weakness + Fragility + Paralysis) applied when Kaioken ends. Kaioken cannot be re-ignited until it clears. Default 12000 = 10 minutes (Tensura's transformation default).
+	exhaustionDurationTicks = 12000
+	#Magicule threshold per tier required to enter a Kaioken tier (multiplied by tier+1). 0 = no entry cost; the drain is the real cost.
+	activationMagiculeCostPerTier = 0.0

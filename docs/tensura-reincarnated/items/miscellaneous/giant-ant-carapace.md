@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Ant Carapace Boots](../armor/ant-carapace-boots.md), [Ant Carapace Chestplate](../armor/ant-carapace-chestplate.md), [Ant Carapace Helmet](../armor/ant-carapace-helmet.md) and [Ant Carapace Leggings](../armor/ant-carapace-leggings.md). It is dropped by [Giant Ant](../../mobs/giant-ant.md).
+
 ## Obtaining
 
 ### Loot

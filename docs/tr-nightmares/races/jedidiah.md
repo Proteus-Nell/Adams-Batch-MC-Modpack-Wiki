@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:jedidiah` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Chaos |
 | **Aura** | 500,000 - 4,000,000 |

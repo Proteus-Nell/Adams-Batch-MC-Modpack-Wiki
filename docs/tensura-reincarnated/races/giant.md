@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:giant` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 4,000 - 6,000 |

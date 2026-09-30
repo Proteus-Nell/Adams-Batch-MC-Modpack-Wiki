@@ -47,6 +47,7 @@
 ## Related
 
 - **Related skills:** [Heavenly Eye](../extra-skills/heavenly-eye.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

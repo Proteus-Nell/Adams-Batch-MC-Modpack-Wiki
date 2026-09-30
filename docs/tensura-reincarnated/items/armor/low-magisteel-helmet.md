@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Helmet](high-magisteel-helmet.md) |
+| **Armor** | 3 |
+| **Armor toughness** | 2.5 |
+| **Knockback resistance** | 10% |
+| **Durability** | 385 |
 
 </div>
+
+## What it does
+
+Low Magisteel armor for the helmet slot: **3** armor, **2.5** toughness and **10%** knockback resistance. Durability: **385**. It is made at the Smithing Bench.
 
 ## Obtaining
 

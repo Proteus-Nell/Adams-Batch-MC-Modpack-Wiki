@@ -35,6 +35,7 @@
 ## Related
 
 - **Related skills:** [Sense Heat Source](sense-heat-source.md), [Magic Sense](magic-sense.md), [Universal Perception](universal-perception.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Danger Sense](danger-sense.md), [Magic Sense](magic-sense.md), [Sense Heat Source](sense-heat-source.md)
 
 ## Stats (config defaults)

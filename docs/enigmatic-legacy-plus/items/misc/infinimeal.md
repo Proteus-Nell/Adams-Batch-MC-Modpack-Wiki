@@ -22,6 +22,10 @@ Effective on Cactus, Chorus Plants,
 
 Nether Wart, Sugar Cane and Vines.
 
+## What it does
+
+Used to make [Revival Leaves](../spellstones/revival-leaf.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

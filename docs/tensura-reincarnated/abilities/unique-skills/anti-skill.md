@@ -30,6 +30,7 @@
 ## Related
 
 - **Effects:** [Anti-Skill](../../effects/anti-skill.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

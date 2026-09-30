@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 78 |
+| **Attack speed** | 1.2 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A pickaxe that deals **78** attack damage at **1.2** attack speed. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

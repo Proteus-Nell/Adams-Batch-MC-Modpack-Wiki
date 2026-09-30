@@ -13,3 +13,7 @@
 | **Color** | `#FFD966` |
 
 </div>
+
+## What it does
+
+A mark left by the [Astral Edge](../items/weapons/astral-edge.md). It does nothing by itself, but the Astral Edge's step ability teleports you behind the nearest marked enemy within 20 blocks and strikes harder against it. Lasts 6 s.

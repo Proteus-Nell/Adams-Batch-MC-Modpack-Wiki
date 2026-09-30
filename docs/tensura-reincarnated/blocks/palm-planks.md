@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Building block. Used to make [Bowl](https://minecraft.wiki/w/Bowl), [Ladder](https://minecraft.wiki/w/Ladder), [Palm Button](palm-button.md), [Palm Fence](palm-fence.md), [Palm Slab](palm-slab.md) and 21 more.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

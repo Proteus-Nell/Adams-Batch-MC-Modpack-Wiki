@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Element Core (Earth)](../miscellaneous/element-core-earth.md). It is dropped by [Beast Gnome](../../mobs/beast-gnome.md) and [War Gnome](../../mobs/war-gnome.md).
+
 ## Obtaining
 
 ### Loot

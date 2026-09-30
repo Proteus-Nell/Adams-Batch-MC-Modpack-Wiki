@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Armorsaurus Shield](armorsaurus-shield.md). It is dropped by [Armorsaurus](../../mobs/armorsaurus.md).
+
 ## Obtaining
 
 ### Loot

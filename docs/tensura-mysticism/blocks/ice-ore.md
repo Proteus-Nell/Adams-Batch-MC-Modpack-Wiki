@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+The source of [Ice Essence](../items/materials/ice-essence.md). It generates inside the ice of vanilla **Ice Spikes** biomes (between Y 55 and 100) and in the frozen blobs of the Elemental Realm's [Water Biome](../biomes/water-biome.md). Fortune gives more Ice Essence, and Silk Touch keeps the ore.
+
+Ore block. Mining it drops [Ice Essence](../items/materials/ice-essence.md). You need a diamond pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

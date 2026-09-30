@@ -17,6 +17,10 @@
 
 </div>
 
+## What it does
+
+An entity with **20** health and **1** attack damage.
+
 ## Tags
 
 `tensura:no_charm`, `tensura:no_possession`, `tensura:no_spiritual_damage`, `tensura:non_living`

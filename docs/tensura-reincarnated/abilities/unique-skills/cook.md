@@ -50,6 +50,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Sariel, Lord of Hope ｣](../../../tr-nightmares/abilities/ultimate-skills/sariel.md), [｢ Susanoo, Lord of Tyranny ｣](../../../tr-nightmares/abilities/ultimate-skills/susanoo.md)
 
 ## Stats (config defaults)

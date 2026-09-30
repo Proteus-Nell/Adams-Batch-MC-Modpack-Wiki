@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Slime Ball](https://minecraft.wiki/w/Slime_Ball), [Chilled Slime](chilled-slime.md) and [Slime Chunk Block](../../blocks/slime-chunk-block.md). It is smelted in a furnace, cooked on a campfire, cooked in a smoker, crafted and dropped by [Slime](../../mobs/slime.md), [Supermassive Slime](../../mobs/supermassive-slime.md) and Rimuru Tempest.
+
 ## Obtaining
 
 ### Recipes

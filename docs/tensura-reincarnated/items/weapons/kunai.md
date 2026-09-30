@@ -11,8 +11,19 @@
 | **ID** | `tensura:kunai` |
 | **Category** | Weapons |
 | **Stack size** | 16 |
+| **Attack damage** | 4 |
+| **Attack speed** | 1.7 |
+| **Reach** | -1 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A Iron kunai that deals **4** attack damage at **1.7** attack speed. It also has -1 block of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **250**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:dark_fairy` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 24,000 - 48,000 |

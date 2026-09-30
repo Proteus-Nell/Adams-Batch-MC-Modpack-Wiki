@@ -53,6 +53,10 @@ health to 30% and applies powerful buffs if successful.
 
 Hold Shift to see details.
 
+## What it does
+
+It is made at the Spellstone Table.
+
 ## Obtaining
 
 ### Recipes

@@ -13,3 +13,7 @@
 | **Color** | `#6836AA` |
 
 </div>
+
+## What it does
+
+Reverses your movement controls: forward walks you backward and left moves you right.

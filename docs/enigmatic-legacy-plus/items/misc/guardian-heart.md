@@ -41,6 +41,10 @@ Some monsters are immune to being enraged.
 
 This ability has 10 seconds cooldown.
 
+## What it does
+
+It is dropped by Elder Guardian Addon.
+
 ## Obtaining
 
 ### Loot

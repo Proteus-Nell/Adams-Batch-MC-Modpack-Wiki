@@ -12,8 +12,20 @@
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
 | **Gear EP** | 18,000 - None |
+| **Attack damage** | 21 (20 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Tier** | High Magisteel |
+| **Durability** | 2,500 |
 
 </div>
+
+## What it does
+
+A two-handed ice sword. Every hit gives the target [Chill](../../effects/chill.md) II for 5 seconds, freezes it (like powder snow) and puts out fire. Hold right-click for a moment and release to fire an **ice lance** that deals your weapon damage and gives Chill III for 10 seconds; each lance costs 100 of the blade's EP.
+
+A High Magisteel weapon you can hold in one or both hands. Two-handed it deals **21** attack damage at **1.4** attack speed; one-handed **20** damage at **1.2** speed. It also has +1 block of reach and 25% sweeping damage. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

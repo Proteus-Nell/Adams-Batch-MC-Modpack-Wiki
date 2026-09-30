@@ -1,18 +1,28 @@
 # Pegacorn
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:pegacorn` |
+| **Type** | Monster |
+| **Health** | 40 |
+| **Attack damage** | 20 |
+| **Speed** | 0.2 |
+| **Knockback resistance** | 0.01 |
 | **Magicule (EP)** | 6,500 - 7,000 |
 | **Aura** | 2,500 - 3,000 |
 | **Spiritual health** | 120 |
+| **Hitbox** | 1.3965 x 1.6 blocks |
 | **Spawn egg** |  [Pegacorn Spawn Egg](../items/spawn-eggs/pegacorn-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **40** health, **20** attack damage and **6,500-7,000** magicule. Drops [Unicorn Horn](../items/materials/unicorn-horn.md), [Feather](https://minecraft.wiki/w/Feather) and [Monster Leather (A)](../items/miscellaneous/monster-leather-a.md).
 
 ## Drops
 

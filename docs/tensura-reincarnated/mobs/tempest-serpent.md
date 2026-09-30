@@ -1,18 +1,29 @@
 # Tempest Serpent
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:tempest_serpent` |
+| **Type** | Monster |
+| **Health** | 70 |
+| **Attack damage** | 20 |
+| **Armor** | 10 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.25 |
 | **Magicule (EP)** | 8,000 - 8,500 |
 | **Aura** | 1,000 - 1,500 |
 | **Spiritual health** | 160 |
+| **Hitbox** | 1.1 x 1 blocks |
 | **Spawn egg** |  [Tempest Serpent Spawn Egg](../items/spawn-eggs/tempest-serpent-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **70** health, **20** attack damage and **8,000-8,500** magicule. Spawns naturally in Tempest Serpent Spawn. It has 2 skills you can take from it with Predator-type skills. Drops [Serpent Scale](../items/materials/serpent-scale.md) and [Raw Serpent Meat](../items/miscellaneous/raw-serpent-meat.md).
 
 ## Abilities
 
@@ -25,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:tempest_serpent_spawn` | 40 | 1-1 |
+| Is Cave, Dripstone Caves, Lush Caves, Desert of Death | 40 | 1-1 |
 
 ## Drops
 

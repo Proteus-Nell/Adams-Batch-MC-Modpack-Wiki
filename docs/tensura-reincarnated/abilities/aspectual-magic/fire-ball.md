@@ -39,6 +39,7 @@
 ## Related
 
 - **Related skills:** [Fire](fire-aspectual.md)
+- **Referenced by:** [Fire Bolt](../spiritual-magic/fire-bolt.md), [｢ Galatine, Sword of the Sun ｣](../../../tr-nightmares/abilities/ultimate-skills/galatine.md)
 
 ## Stats (config defaults)
 

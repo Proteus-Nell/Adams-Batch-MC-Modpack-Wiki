@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:fairy_druid` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 50,000 - 100,000 |

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Resonator of Spell](../spellstones/spellstone-sword.md) and [Spelltuner](../spellstones/spelltuner.md). It is found in 11 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

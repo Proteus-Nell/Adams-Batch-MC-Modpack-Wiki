@@ -6,4 +6,4 @@ Status effects added by Artifacts.
 
 | | Effect | Type | Description |
 |---|---|---|---|
-| ![](../../assets/icons/artifacts/effect/magnetism.png) | [Magnetism](magnetism.md) | Beneficial |  |
+| ![](../../assets/icons/artifacts/effect/magnetism.png) | [Magnetism](magnetism.md) | Beneficial | Pulls nearby dropped items toward you. |

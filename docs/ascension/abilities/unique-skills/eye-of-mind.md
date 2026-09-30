@@ -39,7 +39,7 @@
 
 ## Related
 
-- **Summons / entities:** Ray Of Death
+- **Summons / entities:** Tensura, Ray Of Death
 
 ## Stats (config defaults)
 

@@ -26,6 +26,10 @@ Automatically smelt dropped items during mining.
 
 Hold Shift to smelt nearby dropped items.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

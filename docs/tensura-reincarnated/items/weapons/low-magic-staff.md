@@ -13,8 +13,26 @@
 | **Durability** | 100 |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [Medium Magic Staff](medium-magic-staff.md) |
+| **Attack damage** | 6 |
+| **Attack speed** | 1 |
+| **Reach** | +0.5 blocks |
+| **Tier** | Low Magisteel |
 
 </div>
+
+## What it does
+
+A **grimoire**, a spellbook you cast magic from. Bind spells to it at a [Spellbinding Table](../../blocks/spellbinding-table.md); you can then cast them by holding right-click, even spells you haven't learned yourself (some are excluded). Scroll to switch spells and modes. Grimoires differ in how many spells they hold (the Magic Capacity enchantment adds more), their cooldown after a cast and the chant speed they give:
+
+| Grimoire | Spells | Cooldown | Chant speed |
+|---|---|---|---|
+| Grimoire (D) | 3 | 2 s | none |
+| Grimoire (C) | 4 | 1.5 s | +0.05 |
+| Grimoire (B) | 5 | 1 s | +0.1 |
+| Grimoire (A) | 6 | 0.75 s | +0.15 |
+| Grimoire (Special A) | 7 | 0.5 s | +0.2 |
+
+A Low Magisteel weapon that deals **6** attack damage at **1** attack speed. It also has +0.5 blocks of reach. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

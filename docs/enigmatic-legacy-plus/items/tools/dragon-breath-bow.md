@@ -23,6 +23,10 @@ Right-click with a Splash Potion on
 
 this bow to absorb the potion effect.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

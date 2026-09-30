@@ -11,8 +11,16 @@
 | **ID** | `tensura:armorsaurus_scalemail_chestplate` |
 | **Category** | Armor |
 | **Gear EP** | 6,000 - None |
+| **Armor** | 9 |
+| **Armor toughness** | 3 |
+| **Knockback resistance** | 40% |
+| **Durability** | 608 |
 
 </div>
+
+## What it does
+
+Armorsaurus Scalemail armor for the chestplate slot: **9** armor, **3** toughness and **40%** knockback resistance. Durability: **608**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:divine_kitsune` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |

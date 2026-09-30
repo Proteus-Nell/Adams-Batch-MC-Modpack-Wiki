@@ -13,6 +13,14 @@
 
 </div>
 
+## What it does
+
+Overwhelming sleepiness. Per level: **-25%** movement speed, **-4** attack damage, **-10%** attack speed and **-25%** jump, swim, lava and glide speed. Everything that hits you deals **+20%** damage per level.
+
+At **level V or higher** it becomes lethal: every quarter second it deals "drowsy death" damage equal to your **current health**, which can't be dodged.
+
+Sloth, Dreamer and Dream Manipulation raise its level the longer they're held on you. Belphegor, Astaroth, Dark Passenger's World of Darkness and some addon skills and bosses also inflict it. Several angelic skills (Solomon, Camael, Sunshine Grace, Tornado) make you immune.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

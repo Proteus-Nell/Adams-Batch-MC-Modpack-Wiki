@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Sickle](hihiirokane-sickle.md) |
+| **Attack damage** | 49 |
+| **Attack speed** | 1.2 |
+| **Tier** | Adamantite |
+| **Durability** | 3,200 |
 
 </div>
+
+## What it does
+
+A sickle that deals **49** attack damage at **1.2** attack speed. Durability: **3,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

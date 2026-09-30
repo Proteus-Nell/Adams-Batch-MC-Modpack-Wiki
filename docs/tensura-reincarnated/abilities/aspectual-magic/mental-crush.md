@@ -42,6 +42,7 @@
 
 - **Related skills:** [Spiritual Attack Nullification](../resistance-skills/spiritual-attack-nullification.md), [Spiritual Attack Resistance](../resistance-skills/spiritual-attack-resistance.md)
 - **Effects:** [Fragility](../../effects/fragility.md), [Flashed Blindness](../../effects/flashed-blindness.md), [Insanity](../../effects/insanity.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

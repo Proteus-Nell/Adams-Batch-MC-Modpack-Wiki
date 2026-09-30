@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A lantern that protects the people around it. Every 5 seconds, players within 8 blocks whose **Ethereal Shield** is down get a new one, worth half of their Etherium shield threshold times their max health. The shield threshold comes from Etherium gear, so players without any get nothing from it. Hang it or stand it like a normal lantern.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

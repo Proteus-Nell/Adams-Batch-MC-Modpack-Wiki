@@ -32,6 +32,10 @@ from any slain mob.
 
 Villager trades have 35% Discount.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+**The Eternal Cake.** Each slice fills you like a Golden Carrot (6 hunger, 14.4 saturation). You can eat up to 6 slices, but the last slice never goes away, and eaten slices **grow back** on their own over time. Sneak and right-click a whole cake with an empty hand to pick it back up; it drops nothing if you break it.
+
+
+
 ## Obtaining
 
 ### Recipes

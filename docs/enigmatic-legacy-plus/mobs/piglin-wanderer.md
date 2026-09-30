@@ -1,14 +1,23 @@
 # Piglin Wanderer
 
-<small>[EnigmaticLegacy+](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[EnigmaticLegacy+](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `enigmaticlegacyplus:piglin_wanderer` |
+| **Type** | Monster |
+| **Health** | 32 |
+| **Attack damage** | 4 |
+| **Speed** | 0.34 |
+| **Hitbox** | 0.6 x 1.95 blocks |
 
 </div>
+
+## What it does
+
+A hostile mob with **32** health and **4** attack damage. Drops [Gold Ingot](https://minecraft.wiki/w/Gold_Ingot), [Ichor Droplet](../items/generic/ichor-droplet.md) and [Ichor Spear](../items/tools/ichor-spear.md).
 
 ## Drops
 

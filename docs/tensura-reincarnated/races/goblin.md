@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:goblin` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |

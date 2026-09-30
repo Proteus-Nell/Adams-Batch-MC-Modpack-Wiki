@@ -19,6 +19,10 @@ Resets your Perks
 
 Right click on a Grave Soul with this book in the offhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

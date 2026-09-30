@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:wingless_goddess` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 105,000 - 210,000 |

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Edible, but it doesn't fill you up. Eating it gives [Magicule Poison](../../effects/magicule-poison.md) for 5 s. Used to make [Dubious Food](../miscellaneous/dubious-food.md), [Ancient History Book](../../../tr-nightmares/items/books-scrolls/ancient-history-book.md) and Ancient Grimoire. It is dropped by [Basilisk](../../mobs/basilisk.md), [Charybdis](../../mobs/charybdis.md) and [Lizardman](../../mobs/lizardman.md) and found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

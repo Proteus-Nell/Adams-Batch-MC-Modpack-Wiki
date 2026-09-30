@@ -8,12 +8,18 @@
 |---|---|
 | **ID** | `tensura:ruin/warp/cold_warp_pad` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/ruin/cold_warp_pad` |
+| **Biomes** | Is Cold, Ice Spikes |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 50 / 20 chunks |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+An old **warp pad** ruin, with a warp pad made from the local stone (see [Stone Warp Pad](../blocks/stone-warp-pad.md) for how warp pads work).
+
+Generates in Is Cold, Ice Spikes, about one every 50 chunks (at least 20 chunks apart).
 
 ## Loot
 

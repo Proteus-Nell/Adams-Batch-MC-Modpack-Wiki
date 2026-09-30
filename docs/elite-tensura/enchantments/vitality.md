@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+An armor **engraving**: **+2 max health per level**.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

@@ -63,7 +63,9 @@
 
 ## Related
 
+- **Related skills:** [Fire Storm](../../../tensura-reincarnated/abilities/aspectual-magic/fire-storm.md), [Flare Circle](../../../tensura-reincarnated/abilities/spiritual-magic/flare-circle.md)
 - **Items:** [Divine Axe Rhitta](../../items/weapons/divine-axe-rhitta.md)
+- **Summons / entities:** Solar Grenade, Flame Orb
 - **Referenced by:** [｢ Galatine, Sword of the Sun ｣](../ultimate-skills/galatine.md)
 
 ## Stats (config defaults)

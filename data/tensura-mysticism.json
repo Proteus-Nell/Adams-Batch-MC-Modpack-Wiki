@@ -93,7 +93,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:black_hole"
+    ],
     "tags": [],
     "config": [
      20745,
@@ -283,7 +285,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:lightning_bolt"
+    ],
     "tags": [
      "tensura:skills/intrinsic_skills"
     ],
@@ -328,7 +332,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:lightning_bolt"
+    ],
     "tags": [
      "tensura:skills/intrinsic_skills"
     ],
@@ -712,14 +718,14 @@
       "operation": "ADD_MULTIPLIED_TOTAL"
      }
     ],
-    "related": [
-     "tensura:poisonous_breath"
-    ],
+    "related": [],
     "effects": [
      "tensura:fatal_poison"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:poisonous_breath"
+    ],
     "tags": [
      "tensura:skills/intrinsic_skills"
     ],
@@ -812,6 +818,7 @@
     ],
     "items": [],
     "entities": [
+     "tensura:clone",
      "mysticism:relapse_clone"
     ],
     "tags": [
@@ -1154,7 +1161,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/darkness_skills",
      "tensura:skills/elemental_domination",
@@ -1225,11 +1234,14 @@
     "acquire_requirement_messages": [],
     "attributes": [],
     "related": [
-     "mysticism:darkness_domination"
+     "mysticism:darkness_domination",
+     "tensura:dark_cube"
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/darkness_skills",
      "tensura:skills/elemental_manipulation",
@@ -1357,7 +1369,10 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:light_arrow"
+    ],
     "tags": [
      "tensura:skills/elemental_domination",
      "tensura:skills/extra_skills",
@@ -1423,7 +1438,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/elemental_manipulation",
      "tensura:skills/extra_skills",
@@ -1484,12 +1501,14 @@
     "aura_cost": null,
     "attributes": [],
     "related": [
-     "mysticism:ice_domination",
-     "tensura:ice_breath"
+     "mysticism:ice_domination"
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:mysticism",
+     "tensura:ice_breath"
+    ],
     "tags": [
      "tensura:skills/elemental_manipulation",
      "tensura:skills/extra_skills",
@@ -1548,12 +1567,14 @@
     "acquire_requirement_messages": [],
     "attributes": [],
     "related": [
-     "mysticism:ice_manipulation",
-     "tensura:ice_breath"
+     "mysticism:ice_manipulation"
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:mysticism",
+     "tensura:ice_breath"
+    ],
     "tags": [
      "tensura:skills/elemental_domination",
      "tensura:skills/extra_skills",
@@ -1637,14 +1658,15 @@
      "10 mastered, 20 otherwise"
     ],
     "attributes": [],
-    "related": [
-     "tensura:ice_breath"
-    ],
+    "related": [],
     "effects": [
      "tensura:chill"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:mysticism",
+     "tensura:ice_breath"
+    ],
     "tags": [
      "tensura:skills/extra_skills",
      "tensura:skills/ice_skills"
@@ -1730,12 +1752,13 @@
      "10 mastered, 20 otherwise"
     ],
     "attributes": [],
-    "related": [
-     "tensura:flame_breath"
-    ],
+    "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:flame_breath"
+    ],
     "tags": [
      "tensura:skills/extra_skills"
     ],
@@ -2082,7 +2105,10 @@
      "mysticism:fixation"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:solidification_shield",
+     "mysticism:eternal_domain"
+    ],
     "tags": [
      "tensura:skills/unique_skills",
      "tensura:skills/virtue_skills"
@@ -2483,7 +2509,9 @@
      "mysticism:cultivating"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -2752,7 +2780,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -3110,6 +3140,8 @@
     ],
     "items": [],
     "entities": [
+     "tensura:tensura",
+     "mysticism:tailed_beast_bomb",
      "mysticism:uncontrolled_jinchuriki"
     ],
     "tags": [
@@ -3252,7 +3284,10 @@
      "mysticism:ice_essence",
      "tensura:dragon_essence"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "mysticism:draconic_pulse"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -3370,7 +3405,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:clay_golem"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -3497,8 +3534,14 @@
     "effects": [
      "tensura:true_blindness"
     ],
-    "items": [],
-    "entities": [],
+    "items": [
+     "tensura:kunai"
+    ],
+    "entities": [
+     "tensura:web_bullet",
+     "tensura:spear",
+     "tensura:thrown_item"
+    ],
     "tags": [
      "tensura:skills/sin_skills",
      "tensura:skills/unique_skills"
@@ -3625,9 +3668,15 @@
      "mysticism:intangible"
     ],
     "items": [
-     "tensura:severer_blade"
+     "tensura:severer_blade",
+     "tensura:kunai"
     ],
-    "entities": [],
+    "entities": [
+     "mysticism:kamui_portal",
+     "tensura:web_bullet",
+     "tensura:severer_blade_projectile",
+     "tensura:spear"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -3813,7 +3862,9 @@
      "mysticism:reducer_purity_edge"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills",
      "tensura:skills/virtue_skills"
@@ -3935,15 +3986,19 @@
     "attributes": [],
     "related": [
      "mysticism:zekrom",
-     "mysticism:kyurem",
-     "tensura:flame_breath"
+     "mysticism:kyurem"
     ],
     "effects": [],
     "items": [
      "mysticism:flame_essence",
      "tensura:dragon_essence"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "mysticism:blue_flare_projectile",
+     "mysticism:draconic_meteor",
+     "tensura:flame_breath"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -4092,7 +4147,9 @@
      "mysticism:countering"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -4228,7 +4285,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -4542,7 +4601,9 @@
      "tensura:severance_blade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "mysticism:stasis_shot"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -4654,7 +4715,9 @@
      "tensura:inspiration"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills",
      "tensura:skills/virtue_skills"
@@ -4973,7 +5036,11 @@
      "tensura:dragon_essence",
      "mysticism:lightning_essence"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:lightning_bolt",
+     "mysticism:draconic_breath"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -15927,35 +15994,35 @@
       "weight": "60"
      },
      {
-      "text": "Slay 1 of f o l g e n.",
+      "text": "Slay 1 of [[tensura:folgen]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of k i r a r a  m i z u t a n i.",
+      "text": "Slay 1 of [[tensura:kirara_mizutani]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of k y o y a  t a c h i b a n a.",
+      "text": "Slay 1 of [[tensura:kyoya_tachibana]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of m a i  f u r u k i.",
+      "text": "Slay 1 of [[tensura:mai_furuki]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of m a r k  l a u r e n.",
+      "text": "Slay 1 of [[tensura:mark_lauren]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of s h i n j i  t a n i m u r a.",
+      "text": "Slay 1 of [[tensura:shinji_tanimura]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of s h i n  r y u s e i.",
+      "text": "Slay 1 of [[tensura:shin_ryusei]].",
       "weight": "5"
      },
      {
-      "text": "Slay 1 of s h o g o  t a g u c h i.",
+      "text": "Slay 1 of [[tensura:shogo_taguchi]].",
       "weight": "5"
      }
     ],
@@ -16090,7 +16157,7 @@
       "weight": "50"
      },
      {
-      "text": "Slay 1 of m e m o i r e s.",
+      "text": "Slay 1 of [[mysticism:memoires]].",
       "weight": "50"
      }
     ],
@@ -16520,7 +16587,7 @@
       "weight": "50"
      },
      {
-      "text": "Slay 1 of c h a r y b d i s.",
+      "text": "Slay 1 of [[tensura:charybdis]].",
       "weight": "50"
      }
     ],
@@ -31136,6 +31203,22 @@
     "props": {
      "durability": 30000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 81.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 82.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
+    },
     "tooltips": [],
     "tags": [
      "tensura:long_swords"
@@ -31150,6 +31233,19 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:nausea",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31183,6 +31279,19 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "minecraft:fire_resistance",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
+    },
     "tooltips": [],
     "tags": [
      "ascension:essences",
@@ -31198,6 +31307,19 @@
     "category": "Materials",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:frost",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31215,6 +31337,19 @@
     "props": {
      "fire_resistant": true,
      "food": true
+    },
+    "food": {
+     "saturation": 0.0,
+     "nutrition": 0,
+     "always_edible": true,
+     "effects": [
+      {
+       "effect": "tensura:paralysis",
+       "duration": 100,
+       "amplifier": 0,
+       "chance": 1.0
+      }
+     ]
     },
     "tooltips": [],
     "tags": [
@@ -31255,6 +31390,25 @@
     "props": {
      "durability": 2000
     },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 20.0,
+      "attack_speed": 0.8,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "two_handed": {
+      "attack_damage": 30.0,
+      "attack_speed": 1.0,
+      "reach": 2.0,
+      "sweep": 0.75,
+      "crit_chance": 20.0
+     },
+     "tier": "High Magisteel",
+     "durability": 2500,
+     "mining_speed": 12.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/mysticism/item/ritual_scythe.png"
@@ -31278,6 +31432,22 @@
     "category": "Weapons",
     "props": {
      "durability": 30000
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 81.0,
+      "attack_speed": 1.2,
+      "reach": 1.0
+     },
+     "two_handed": {
+      "attack_damage": 82.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": 0.25
+     },
+     "tier": "Hihiirokane",
+     "durability": 3600,
+     "mining_speed": 27.0
     },
     "tooltips": [],
     "tags": [
@@ -31339,7 +31509,34 @@
     "id": "mysticism:clay_golem",
     "path": "clay_golem",
     "name": "Clay Golem",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.45,
+      1.35
+     ],
+     "class": "io.github.Memoires.mysticism.entity.golems.ClayGolemEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Entity Interaction Range": 2.0,
+      "Step height": 1.0,
+      "Knockback resistance": 0.5,
+      "Follow range": 32.0,
+      "Speed": 0.1,
+      "Health": 40.0,
+      "Attack knockback": 1.0,
+      "Attack damage": 1.0
+     },
+     "ancestors": [
+      "PlayerLikeEntity",
+      "TensuraHumanoidEntity",
+      "RangedAttackMob",
+      "TensuraTamableEntity",
+      "HasCustomInventoryScreen",
+      "ContainerListener"
+     ]
+    },
     "existence": {
      "min_magicule": 50,
      "max_magicule": 50,
@@ -31398,7 +31595,39 @@
     "id": "mysticism:memoires",
     "path": "memoires",
     "name": "Memoires",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.8
+     ],
+     "class": "io.github.Memoires.mysticism.entity.boss.memoires.MemoiresEntity",
+     "living": true,
+     "boss": true,
+     "attributes": {
+      "Magicule Regeneration Multiplier": 25.0,
+      "Aura Regeneration Multiplier": 25.0,
+      "Spiritual Health Regeneration": 100.0,
+      "Presence Sense": 3.0,
+      "Entity Interaction Range": 3.0,
+      "Water Movement Efficiency": 0.6,
+      "Step height": 2.0,
+      "Knockback resistance": 0.8,
+      "Follow range": 150.0,
+      "Speed": 0.15,
+      "Health": 1800.0,
+      "Attack damage": 25.0,
+      "Armor": 100.0
+     },
+     "ancestors": [
+      "OtherworlderEntity",
+      "SmartBrainOwner",
+      "ITeleportation",
+      "IAmphibian",
+      "PlayerLikeEntity",
+      "IOtherworlder"
+     ]
+    },
     "existence": {
      "min_magicule": 325000,
      "max_magicule": 350000,
@@ -31450,7 +31679,34 @@
     "id": "mysticism:okami",
     "path": "okami",
     "name": "Okami",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.85,
+      1.85
+     ],
+     "class": "io.github.Memoires.mysticism.entity.monster.OkamiEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Step height": 1.0,
+      "Entity Interaction Range": 2.0,
+      "Swim Speed Multiplier": 1.0,
+      "Knockback resistance": 0.0,
+      "Follow range": 32.0,
+      "Speed": 0.2,
+      "Health": 44.0,
+      "Attack damage": 1.5
+     },
+     "ancestors": [
+      "PlayerLikeEntity",
+      "SmartBrainOwner",
+      "INameEvolution",
+      "ISubordinate",
+      "GeoEntity",
+      "VariantHolder"
+     ]
+    },
     "existence": {
      "min_magicule": 300,
      "max_magicule": 600,
@@ -31566,7 +31822,35 @@
     "id": "mysticism:shadow_imp",
     "path": "shadow_imp",
     "name": "Shadow Imp",
-    "info": {},
+    "info": {
+     "category": "Monster",
+     "size": [
+      0.6,
+      1.2
+     ],
+     "class": "io.github.Memoires.mysticism.entity.monster.ShadowImpEntity",
+     "living": true,
+     "boss": false,
+     "attributes": {
+      "Step height": 1.0,
+      "Entity Interaction Range": 2.0,
+      "Swim Speed Multiplier": 1.0,
+      "Knockback resistance": 0.2,
+      "Follow range": 32.0,
+      "Flying speed": 0.3,
+      "Speed": 0.2,
+      "Health": 50.0,
+      "Attack damage": 20.0
+     },
+     "ancestors": [
+      "TensuraTamableEntity",
+      "IElementalSpirit",
+      "SmartBrainOwner",
+      "ISubordinate",
+      "IFlying",
+      "GeoEntity"
+     ]
+    },
     "existence": {
      "min_magicule": 9000,
      "max_magicule": 1000,
@@ -31595,16 +31879,6 @@
      "tensura:spiritual"
     ],
     "spawn_egg": "mysticism:shadow_imp_spawn_egg"
-   },
-   {
-    "id": "mysticism:stasis_shot",
-    "path": "stasis_shot",
-    "name": "Stasis Shot",
-    "info": {},
-    "drops": null,
-    "spawns": [],
-    "tags": [],
-    "spawn_egg": null
    },
    {
     "id": "mysticism:uncontrolled_jinchuriki",

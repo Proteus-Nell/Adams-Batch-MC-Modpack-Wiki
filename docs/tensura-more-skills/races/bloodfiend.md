@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensuramoreskills:bloodfiend` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 700,000 - 950,000 |
@@ -23,7 +24,24 @@
 
 ## Evolution
 
-This race has no evolutions.
+- **Evolves into:** [Elder Bloodfiend](elder-bloodfiend.md)
+- **Default evolution:** [Elder Bloodfiend](elder-bloodfiend.md)
+- **During the Harvest Festival:** [Elder Bloodfiend](elder-bloodfiend.md)
+
+### Evolution tree
+
+```mermaid
+flowchart LR
+  r0["Blood Monarch"]
+  r1["Blood Noble"]
+  r2["Bloodfiend"]
+  r3["Crimson Progenitor"]
+  r4["Elder Bloodfiend"]
+  r0 --> r3
+  r1 --> r0
+  r2 --> r4
+  r4 --> r1
+```
 
 ## Intrinsic skills
 

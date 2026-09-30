@@ -160,6 +160,13 @@ def _constructed_class(ix, args, ctx):
                     ty = text(n.child_by_field_name("type"))
                     rc = ix.resolve(ty, ctx)
                     return (rc.fqcn if rc else ty), call_args(n)
+            # () -> EntityType.Builder.of(GoblinEntity::new, MobCategory.MONSTER)...build(...)
+            for n in walk(body):
+                if n.type == "method_reference" and text(n).endswith("::new"):
+                    parts = [c for c in n.named_children]
+                    rc = ix.resolve(text(parts[0]), ctx) if parts else None
+                    if rc is not None:
+                        return rc.fqcn, []
         if a.type == "object_creation_expression":
             ty = text(a.child_by_field_name("type"))
             rc = ix.resolve(ty, ctx)

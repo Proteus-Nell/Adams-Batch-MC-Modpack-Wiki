@@ -12,6 +12,9 @@
 | **Category** | Tools |
 | **Rarity** | Rare |
 | **Fire resistant** | Yes |
+| **Attack damage** | 8 |
+| **Attack speed** | 1.4 |
+| **Durability** | 1,876 |
 
 </div>
 
@@ -40,6 +43,10 @@ Mirror for attacked players.
 To exterminate them all...
 
 Is such the only way?
+
+## What it does
+
+A weapon that deals **8** attack damage at **1.4** attack speed. Durability: **1,876**. It is made at the Crafting (cursed).
 
 ## Obtaining
 

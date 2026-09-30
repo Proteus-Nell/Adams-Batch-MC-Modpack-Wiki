@@ -10,8 +10,18 @@
 |---|---|
 | **ID** | `tensura:iron_long_sword` |
 | **Category** | Weapons |
+| **Attack damage** | 8 (7 one-handed) |
+| **Attack speed** | 1.4 (1.2 one-handed) |
+| **Reach** | +1 blocks |
+| **Sweep damage** | +25% |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A long sword you can hold in one or both hands. Two-handed it deals **8** attack damage at **1.4** attack speed; one-handed **7** damage at **1.2** speed. It also has +1 block of reach and 25% sweeping damage. Durability: **250**. It is made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

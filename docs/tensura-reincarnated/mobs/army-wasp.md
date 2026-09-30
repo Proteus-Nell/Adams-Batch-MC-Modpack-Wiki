@@ -1,17 +1,28 @@
 # Army Wasp
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:army_wasp` |
+| **Type** | Monster |
+| **Health** | 60 |
+| **Attack damage** | 8 |
+| **Armor** | 4 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.1 |
 | **Magicule (EP)** | 10,000 - 15,000 |
 | **Spiritual health** | 160 |
+| **Hitbox** | 1 x 1.5 blocks |
 | **Spawn egg** |  [Army Wasp Spawn Egg](../items/spawn-eggs/army-wasp-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **60** health, **8** attack damage and **10,000-15,000** magicule. Spawns naturally in Army Wasp Spawn. It has 2 skills you can take from it with Predator-type skills. Drops [Insectar Carapace](../items/miscellaneous/insectar-carapace.md) and [Honeycomb](https://minecraft.wiki/w/Honeycomb).
 
 ## Abilities
 
@@ -24,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:army_wasp_spawn` | 40 | 1-2 |
+| Cherry Grove, Flower Forest | 40 | 1-2 |
 
 ## Drops
 

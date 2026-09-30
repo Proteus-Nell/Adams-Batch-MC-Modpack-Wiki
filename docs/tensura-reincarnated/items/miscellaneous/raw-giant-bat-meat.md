@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **5** hunger (2.5 shanks) and **3.6** saturation. Eating it gives [Infection](../../effects/infection.md) for 45 s (5% chance). Used to make [Cooked Giant Bat Meat](cooked-giant-bat-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Giant Bat](../../mobs/giant-bat.md).
+
 ## Obtaining
 
 ### Loot

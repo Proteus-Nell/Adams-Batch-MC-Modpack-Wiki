@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `elitetensura:high_saiyan` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Default |
 | **Aura** | 40,000 - 40,000 |

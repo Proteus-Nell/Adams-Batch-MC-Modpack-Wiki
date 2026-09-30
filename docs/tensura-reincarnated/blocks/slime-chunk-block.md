@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A block of slime you sink into. It slows anything that isn't a slime-type mob (to 70% speed) and you can walk through it, but it catches you like a slime block if you fall onto it from more than 2.5 blocks. It sticks to pistons like slime.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

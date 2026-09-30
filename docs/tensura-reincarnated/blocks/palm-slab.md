@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Palm Planks](palm-planks.md). Used to make [Palm Tool Rack](palm-tool-rack.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

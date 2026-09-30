@@ -10,3 +10,7 @@
 | **Category** | Spawn Eggs |
 
 </div>
+
+## What it does
+
+Creative-mode spawn egg. Use it on a block to spawn [Shadow Imp](../../mobs/shadow-imp.md).

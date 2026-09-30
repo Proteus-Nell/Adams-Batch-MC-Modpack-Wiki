@@ -1,18 +1,28 @@
 # Giant Bat
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:giant_bat` |
+| **Type** | Monster |
+| **Health** | 45 |
+| **Attack damage** | 8 |
+| **Speed** | 0.25 |
+| **Knockback resistance** | 0.8 |
 | **Magicule (EP)** | 2,500 - 3,000 |
 | **Aura** | 1,834 - 1,999 |
 | **Spiritual health** | 100 |
+| **Hitbox** | 1.2 x 1.65 blocks |
 | **Spawn egg** |  [Giant Bat Spawn Egg](../items/spawn-eggs/giant-bat-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **45** health, **8** attack damage and **2,500-3,000** magicule. Spawns naturally in Giant Bat Spawn. It has 2 skills you can take from it with Predator-type skills. Drops [Giant Bat Wing](../items/miscellaneous/giant-bat-wing.md) and [Raw Giant Bat Meat](../items/miscellaneous/raw-giant-bat-meat.md).
 
 ## Abilities
 
@@ -25,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:giant_bat_spawn` | 80 | 1-2 |
+| Is Badlands, Is Mountain, Deep Dark, Dripstone Caves | 80 | 1-2 |
 
 ## Drops
 

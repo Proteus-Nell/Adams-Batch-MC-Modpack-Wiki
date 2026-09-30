@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:apostle` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Holy |
 | **Aura** | 100,000 - 2,000,000 |

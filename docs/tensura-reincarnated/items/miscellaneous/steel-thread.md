@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Ant Crossbow](../weapons/ant-crossbow.md), [Long Spider Bow](../weapons/long-spider-bow.md), [Monster Saddle](monster-saddle.md), [Short Spider Bow](../weapons/short-spider-bow.md), [Spider Bow](../weapons/spider-bow.md) and 3 more. It is dropped by [Black Spider](../../mobs/black-spider.md).
+
 ## Obtaining
 
 ### Loot

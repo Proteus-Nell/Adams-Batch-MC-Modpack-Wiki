@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Attack damage** | 78.5 |
+| **Attack speed** | 1 |
+| **Tier** | Hihiirokane |
+| **Durability** | 3,600 |
 
 </div>
+
+## What it does
+
+A shovel that deals **78.5** attack damage at **1** attack speed. Durability: **3,600**. It is made at the Smithing Bench.
 
 ## Obtaining
 

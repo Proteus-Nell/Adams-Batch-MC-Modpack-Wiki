@@ -36,7 +36,7 @@
 
 ## Related
 
-- **Referenced by:** [Ogre Flame](../battlewill/ogre-flame.md)
+- **Referenced by:** [Ogre Flame](../battlewill/ogre-flame.md), [Sunshine](../../../tr-nightmares/abilities/unique-skills/sunshine.md), [Oni Pyre](../../../tr-nightmares/abilities/battlewill/oni-pyre.md)
 
 ## Stats (config defaults)
 

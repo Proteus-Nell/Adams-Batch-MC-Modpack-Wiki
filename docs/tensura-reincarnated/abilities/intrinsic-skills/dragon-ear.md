@@ -47,6 +47,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Dragon Slayer](../../../ascension/abilities/unique-skills/dragon-slayer.md)
 
 ## Stats (config defaults)

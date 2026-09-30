@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion) and [Centipede Dagger](../weapons/centipede-dagger.md). It is dropped by [Evil Centipede](../../mobs/evil-centipede.md).
+
 ## Obtaining
 
 ### Loot

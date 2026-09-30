@@ -36,6 +36,7 @@
 ## Related
 
 - **Related skills:** [Maximum Magic Bullet](maximum-magic-bullet.md)
+- **Summons / entities:** Aura Bullet
 - **Referenced by:** [Maximum Magic Bullet](maximum-magic-bullet.md)
 
 ## Stats (config defaults)

@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+An armor **engraving**: **+0.01 movement speed per level** (about +10% per level for a player).
+
+
+
 ## Effects
 
 | Component | Effect | Value |

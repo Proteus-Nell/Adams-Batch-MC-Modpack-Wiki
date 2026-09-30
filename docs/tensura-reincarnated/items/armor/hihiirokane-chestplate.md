@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 750,000 - None |
+| **Armor** | 17 |
+| **Armor toughness** | 10 |
+| **Knockback resistance** | 100% |
+| **Durability** | 1,280 |
 
 </div>
+
+## What it does
+
+Hihiirokane armor for the chestplate slot: **17** armor, **10** toughness and **100%** knockback resistance. Durability: **1,280**. It is made at the Smithing Bench.
 
 ## Obtaining
 

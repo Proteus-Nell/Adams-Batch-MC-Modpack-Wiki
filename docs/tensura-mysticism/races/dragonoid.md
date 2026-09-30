@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:dragonoid` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 5,000 - 5,000 |

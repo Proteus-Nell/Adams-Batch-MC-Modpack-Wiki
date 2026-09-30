@@ -22,6 +22,10 @@ When the effect level of Blazing Might reaches its maximum,
 
 Right-click to release a piercing attack and clear the effect.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

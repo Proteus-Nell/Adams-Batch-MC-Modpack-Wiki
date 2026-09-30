@@ -53,6 +53,7 @@
 
 - **Related skills:** [Kyurem](kyurem.md), [Reshiram](reshiram.md)
 - **Items:** [Dragon Essence](../../../tensura-reincarnated/items/materials/dragon-essence.md), [Lightning Essence](../../items/food/lightning-essence.md)
+- **Summons / entities:** Tensura, Lightning Bolt, Draconic Breath
 - **Referenced by:** [Kyurem](kyurem.md), [Reshiram](reshiram.md)
 
 ## Stats (config defaults)

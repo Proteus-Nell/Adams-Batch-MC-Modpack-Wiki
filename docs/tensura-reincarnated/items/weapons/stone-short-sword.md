@@ -10,8 +10,19 @@
 |---|---|
 | **ID** | `tensura:stone_short_sword` |
 | **Category** | Weapons |
+| **Attack damage** | 3 |
+| **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
+| **Tier** | Stone |
+| **Durability** | 131 |
 
 </div>
+
+## What it does
+
+A short sword that deals **3** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **131**. It is made at the Smithing Bench.
 
 ## Obtaining
 

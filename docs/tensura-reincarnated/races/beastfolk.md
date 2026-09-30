@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:beastfolk` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |

@@ -25,6 +25,10 @@ consuming your experience.
 
 Compensates mining speed penalty when flying.
 
+## What it does
+
+Used to make [Grace of the Creator](fabulous-scroll.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

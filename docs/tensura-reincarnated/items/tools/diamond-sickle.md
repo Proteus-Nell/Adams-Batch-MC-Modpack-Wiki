@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:diamond_sickle` |
 | **Category** | Tools |
+| **Attack damage** | 6 |
+| **Attack speed** | 1.2 |
+| **Tier** | Diamond |
+| **Durability** | 1,561 |
 
 </div>
+
+## What it does
+
+A sickle that deals **6** attack damage at **1.2** attack speed. Durability: **1,561**. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

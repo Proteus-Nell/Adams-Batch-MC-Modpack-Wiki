@@ -32,6 +32,7 @@
 ## Related
 
 - **Effects:** [Future Vision](../../../tensura-reincarnated/effects/future-vision.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

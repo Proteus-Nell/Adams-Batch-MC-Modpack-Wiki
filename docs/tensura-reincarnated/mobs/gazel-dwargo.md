@@ -1,18 +1,32 @@
 # Gazel Dwargo
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:gazel_dwargo` |
+| **Type** | Boss |
+| **Health** | 3,000 |
+| **Attack damage** | 80 |
+| **Armor** | 60 |
+| **Speed** | 0.25 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 300,000 - 300,000 |
 | **Aura** | 736,331 - 736,332 |
 | **Spiritual health** | 3,600 |
+| **Hitbox** | 0.6 x 2 blocks |
 | **Spawn egg** |  [Gazel Dwargo Spawn Egg](../items/spawn-eggs/gazel-dwargo-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+Gazel Dwargo, the Dwarf King, fought in his own arena. Reach it through the warp pad at the top of the royal tower in a [Dwarf Village](../structures/villages-dwarf-village.md), which takes you to the [Boss Area](../dimensions/boss-area.md). Operators can reset the fight with Tensura's boss fight command.
+
+A boss with **3,000** health, **80** attack damage and **300,000** magicule. It has 24 skills you can take from it with Predator-type skills.
 
 ## Abilities
 

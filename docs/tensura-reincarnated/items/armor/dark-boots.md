@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 5,000 - None |
+| **Armor** | 4 |
+| **Armor toughness** | 4 |
+| **Durability** | 455 |
 
 </div>
+
+## What it does
+
+Dark armor for the boots slot: **4** armor and **4** toughness. Durability: **455**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -70,6 +70,7 @@
 
 - **Related skills:** [Starved](starved.md), [Predator](predator.md)
 - **Effects:** [Corrosion](../../effects/corrosion.md)
+- **Summons / entities:** Gluttony Mist, Tensura
 - **Referenced by:** [Predator](predator.md), [Starved](starved.md), [Carnation](../../../tr-nightmares/abilities/unique-skills/carnation.md), [Food Chain](../../../tr-nightmares/abilities/extra-skills/food-chain.md), [Mimicry](../../../tr-nightmares/abilities/extra-skills/mimicry.md), [Universal Shapeshift](../../../tr-nightmares/abilities/extra-skills/universal-shapeshift.md), [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Beelzebuth, Lord of Gluttony ｣](../../../tr-nightmares/abilities/ultimate-skills/beelzebuth.md), [｢ Michael, Lord of Justice ｣](../../../tr-nightmares/abilities/ultimate-skills/michael.md), [Beelzebuth, Lord of Gluttony](../../../elite-tensura/abilities/ultimate-skills/beelzebuth.md)
 
 ## Stats (config defaults)

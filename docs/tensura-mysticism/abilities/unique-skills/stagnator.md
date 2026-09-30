@@ -59,6 +59,7 @@
 ## Related
 
 - **Effects:** [Stagnate](../../effects/stagnate.md), [Silence](../../../tensura-reincarnated/effects/silence.md), [Severance Blade](../../../tensura-reincarnated/effects/severance-blade.md)
+- **Summons / entities:** Stasis Shot
 
 ## Stats (config defaults)
 

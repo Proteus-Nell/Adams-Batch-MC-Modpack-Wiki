@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Edible, but it doesn't fill you up. Eating it gives [Fire Resistance](https://minecraft.wiki/w/Fire_Resistance) for 5 s.
+
 ## Tags
 
 `ascension:essences`, `tensura:evolution_essences`

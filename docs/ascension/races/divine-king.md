@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:divine_king` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Holy |
 | **Aura** | 300 - 300 |

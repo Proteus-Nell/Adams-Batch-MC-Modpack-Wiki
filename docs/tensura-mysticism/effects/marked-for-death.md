@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+You take **double** damage per level (×2 at level I, ×4 at level II). Captivator's Unveil inflicts it for 10 seconds.
+
 ## Applied by
 
 [Captivator](../abilities/unique-skills/captivator.md)

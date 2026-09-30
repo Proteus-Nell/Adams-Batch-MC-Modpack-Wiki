@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Hoe](adamantite-hoe.md) |
+| **Attack damage** | 23 |
+| **Attack speed** | 1 |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A hoe that deals **23** attack damage at **1** attack speed. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

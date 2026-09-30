@@ -19,3 +19,9 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+Feldway's second form. When [Feldway](feldway.md) is defeated after Michael has fallen, he rises again: first the awakening (a transition) and then the **Awakened Feldway**, a new boss that continues the fight against the same target.
+
+A boss with **32,000** health and **420** attack damage.

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Relapse's ascended mode. While it lasts, your skills **cost no aura**. When it ends you drop out of flight unless Gravity Domination is toggled on.
+
 ## Applied by
 
 [Relapse](../abilities/intrinsic-skills/relapse.md)

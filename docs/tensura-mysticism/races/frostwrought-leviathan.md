@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:frostwrought_leviathan` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 1,200,000 - 1,200,000 |

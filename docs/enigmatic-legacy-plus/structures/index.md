@@ -4,4 +4,4 @@
 
 | Structure | Biomes | Spacing |
 |---|---|---|
-| [Spellstone Hut](spellstone-hut.md) | `#enigmaticlegacyplus:has_structure/spellstone_hut` | 32 chunks |
+| [Spellstone Hut](spellstone-hut.md) | Jungle, Mushroom Fields, Plains, Savanna, Snowy Plains, Ancient Forest | 32 chunks |

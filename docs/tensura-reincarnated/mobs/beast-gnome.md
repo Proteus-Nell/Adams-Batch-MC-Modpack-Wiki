@@ -1,17 +1,28 @@
 # Beast Gnome
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:beast_gnome` |
+| **Type** | Monster |
+| **Health** | 80 |
+| **Attack damage** | 28 |
+| **Armor** | 10 |
+| **Speed** | 0.25 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 5,000 - 9,000 |
 | **Spiritual health** | 500 |
+| **Hitbox** | 3.5 x 3.5 blocks |
 | **Spawn egg** |  [Beast Gnome Spawn Egg](../items/spawn-eggs/beast-gnome-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **80** health, **28** attack damage and **5,000-9,000** magicule. Spawns naturally in Beast Gnome Spawn. It has 4 skills you can take from it with Predator-type skills. Drops [Elemental Shard (Earth)](../items/materials/earth-elemental-shard.md) and [Elemental Essence](../items/materials/elemental-essence.md).
 
 ## Abilities
 
@@ -26,7 +37,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:beast_gnome_spawn` | 5 | 1-1 |
+| Is Badlands, Is Cave, Dripstone Caves, Lush Caves, Ancient Forest | 5 | 1-1 |
 
 ## Drops
 

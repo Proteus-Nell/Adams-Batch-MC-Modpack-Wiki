@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Seeing a moment ahead. It gives **+100%** melee dodge, projectile dodge, dodge-negation and critical hit chance, so you dodge almost everything and every hit crits.
+
+Seer gives it for 10 s (20 s mastered), and Seer ignores its cooldown while it lasts. Ultimate Eye's Perfect Action gives it for 60 s. While you have it, Magical Eye also dodges every direct hit and projectile.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

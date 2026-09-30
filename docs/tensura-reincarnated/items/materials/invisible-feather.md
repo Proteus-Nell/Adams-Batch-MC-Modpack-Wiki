@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Splash Potion](https://minecraft.wiki/w/Splash_Potion), [Potion](https://minecraft.wiki/w/Potion), [Lingering Potion](https://minecraft.wiki/w/Lingering_Potion), [Invisible Arrow](../miscellaneous/invisible-arrow.md) and [Scroll of Feather Falling](../../../corail-tombstone/items/miscellaneous/scroll-of-feather-fall.md). It is dropped by [One-eyed Owl](../../mobs/one-eyed-owl.md).
+
 ## Obtaining
 
 ### Loot

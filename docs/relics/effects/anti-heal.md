@@ -13,3 +13,7 @@
 | **Color** | `#6836AA` |
 
 </div>
+
+## What it does
+
+Stops all healing while it lasts. Given by the [Spore Sack](../items/charm/spore-sack.md)'s spores and by the [Wonder of U](../../more-relics/items/back/wonder-of-u.md).

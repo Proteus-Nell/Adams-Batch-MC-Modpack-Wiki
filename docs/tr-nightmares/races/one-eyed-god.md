@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:one_eyed_god` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 135,000 - 270,000 |

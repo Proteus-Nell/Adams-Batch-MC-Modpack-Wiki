@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:big_cutie` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 60,000 - 120,000 |

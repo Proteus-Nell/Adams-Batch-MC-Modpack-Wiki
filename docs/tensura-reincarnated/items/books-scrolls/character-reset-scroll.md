@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+Hold right-click to read it. It resets **everything**: race, skills and statistics, as if you had just started, and counts toward your Reset Counter if you've met its requirements. The same limits as the [Race Reset Scroll](race-reset-scroll.md) apply.
+
+It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

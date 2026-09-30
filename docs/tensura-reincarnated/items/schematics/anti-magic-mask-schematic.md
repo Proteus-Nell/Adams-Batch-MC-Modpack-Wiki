@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Anti-Magic Mask](../armor/anti-magic-mask.md). It is dropped by [Shizu](../../mobs/shizu.md).
+
 ## Obtaining
 
 ### Loot

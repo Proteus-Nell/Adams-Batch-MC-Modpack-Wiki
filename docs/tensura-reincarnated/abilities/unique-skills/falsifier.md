@@ -55,6 +55,7 @@
 ## Related
 
 - **Effects:** [Falsifier](../../effects/falsifier.md)
+- **Summons / entities:** [Clone](../../mobs/clone.md)
 
 ## Stats (config defaults)
 

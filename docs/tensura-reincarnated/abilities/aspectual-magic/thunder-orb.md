@@ -41,6 +41,7 @@
 ## Related
 
 - **Related skills:** [Thunder](thunder.md)
+- **Summons / entities:** Thunder Sphere
 
 ## Stats (config defaults)
 

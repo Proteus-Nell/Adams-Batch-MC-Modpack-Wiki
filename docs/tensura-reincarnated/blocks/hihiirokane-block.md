@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Hihi'Irokane Ingot](../items/materials/hihiirokane-ingot.md) packed into one block. Used to make [Hihi'Irokane Ingot](../items/materials/hihiirokane-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

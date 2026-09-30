@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+The Labyrinth's own magic engines. They work like the other [Stone Bricks Magic Engine](stone-bricks-magic-engine.md)s but reach **32** blocks and remove **10,000** magicule, and only creative-mode players can switch them.
+
+
+
 ## Tags
 
 `tensura:magic_engines`

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:guardian_of_the_tree` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500,000 - 1,000,000 |

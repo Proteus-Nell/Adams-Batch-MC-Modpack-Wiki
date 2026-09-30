@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Sickle](adamantite-sickle.md) |
+| **Attack damage** | 25 |
+| **Attack speed** | 1.2 |
+| **Tier** | Mithril |
+| **Durability** | 2,700 |
 
 </div>
+
+## What it does
+
+A sickle that deals **25** attack damage at **1.2** attack speed. Durability: **2,700**. It is made at the Smithing Bench.
 
 ## Obtaining
 

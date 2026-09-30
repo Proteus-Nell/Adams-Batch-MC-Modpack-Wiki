@@ -45,6 +45,7 @@
 ## Related
 
 - **Related skills:** [Flame Attack Resistance](../../../tensura-reincarnated/abilities/resistance-skills/flame-attack-resistance.md)
+- **Summons / entities:** [Clay Golem](../../mobs/clay-golem.md)
 
 ## Stats (config defaults)
 

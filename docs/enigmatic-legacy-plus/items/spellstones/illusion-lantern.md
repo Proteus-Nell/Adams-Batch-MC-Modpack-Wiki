@@ -40,6 +40,10 @@ Passive abilities:
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table.
+
 ## Obtaining
 
 ### Recipes

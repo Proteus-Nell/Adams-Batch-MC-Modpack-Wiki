@@ -18,3 +18,7 @@
 ## Description
 
 Medium Health Potion
+
+## What it does
+
+Food.

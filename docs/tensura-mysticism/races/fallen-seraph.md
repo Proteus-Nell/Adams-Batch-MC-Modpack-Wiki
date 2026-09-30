@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:fallen_seraph` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,000,000 - 1,000,000 |

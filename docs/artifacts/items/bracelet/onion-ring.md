@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **2** hunger (1 shank) and **0** saturation.
+
 ## In this pack: relic version (RAR-Compat)
 
 > [!NOTE]

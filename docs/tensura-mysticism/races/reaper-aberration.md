@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:reaper_aberration` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 1,000,000 - 1,000,000 |

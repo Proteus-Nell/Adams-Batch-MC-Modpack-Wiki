@@ -16,7 +16,11 @@
 
 </div>
 
-Found in: [Elemental Realm](../dimensions/elemental-realm.md)
+## What it does
+
+A temperate biome in [Elemental Realm](../dimensions/elemental-realm.md) where it never rains or snows. Mobs that spawn here: [Allay](https://minecraft.wiki/w/Allay), [Beast Gnome](../../tensura-reincarnated/mobs/beast-gnome.md), [Memoires](../mobs/memoires.md) and [Vex](https://minecraft.wiki/w/Vex).
+
+Ambient magicule **+500**, and magicule refills a little faster. Earth portal structures (a way back to the Overworld) generate here.
 
 ## Mob spawns
 

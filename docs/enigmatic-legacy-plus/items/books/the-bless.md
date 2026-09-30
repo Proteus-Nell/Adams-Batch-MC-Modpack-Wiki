@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_bless` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 7 |
+| **Attack speed** | 2.4 |
 
 </div>
 
@@ -43,6 +45,10 @@ using this to light up the way forward.
 The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
+
+## What it does
+
+A weapon that deals **7** attack damage at **2.4** attack speed. It is made at the Crafting (cursed).
 
 ## Obtaining
 

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Charybdis Scalemail Boots](../armor/charybdis-scalemail-boots.md), [Charybdis Scalemail Chestplate](../armor/charybdis-scalemail-chestplate.md), [Charybdis Scalemail Helmet](../armor/charybdis-scalemail-helmet.md), [Charybdis Scalemail Leggings](../armor/charybdis-scalemail-leggings.md), [Tempest Scale Knife](../weapons/tempest-scale-knife.md), [Tempest Scale Shield](../miscellaneous/tempest-scale-shield.md) and 1 more.
+
 ## Obtaining
 
 ### Loot

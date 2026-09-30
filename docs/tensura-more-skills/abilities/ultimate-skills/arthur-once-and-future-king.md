@@ -46,6 +46,7 @@
 
 ## Related
 
-- **Related skills:** [Avalon, God of the Eternal Kingdom](avalon-god-of-eternal-kingdom.md), [Aura Slash](../../../tensura-reincarnated/abilities/battlewill/aura-slash.md)
+- **Related skills:** [Avalon, God of the Eternal Kingdom](avalon-god-of-eternal-kingdom.md)
 - **Effects:** [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Fear](../../../tensura-reincarnated/effects/fear.md), [Hypnosis](../../../tensura-reincarnated/effects/hypnosis.md), [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Lust Embracement](../../../tensura-reincarnated/effects/lust-embracement.md)
+- **Summons / entities:** [Aura Slash](../../../tensura-reincarnated/abilities/battlewill/aura-slash.md)
 - **Referenced by:** [Avalon, God of the Eternal Kingdom](avalon-god-of-eternal-kingdom.md)

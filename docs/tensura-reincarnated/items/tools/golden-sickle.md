@@ -10,8 +10,16 @@
 |---|---|
 | **ID** | `tensura:golden_sickle` |
 | **Category** | Tools |
+| **Attack damage** | 3 |
+| **Attack speed** | 1.2 |
+| **Tier** | Gold |
+| **Durability** | 32 |
 
 </div>
+
+## What it does
+
+A sickle that deals **3** attack damage at **1.2** attack speed. Durability: **32**. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

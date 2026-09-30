@@ -47,6 +47,7 @@
 ## Related
 
 - **Effects:** [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md)
+- **Summons / entities:** Severance Cutter, Tensura
 - **Referenced by:** [Void Sovereign](../ultimate-skills/voidsovereign.md)
 
 ## Stats (config defaults)

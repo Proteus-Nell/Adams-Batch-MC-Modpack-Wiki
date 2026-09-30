@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Your future is denied. Per level: **-80%** melee and projectile dodge chance and less dodge invulnerability, so you can hardly dodge anything. Istaroth applies it to enemies who threaten its user and through many of its techniques.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

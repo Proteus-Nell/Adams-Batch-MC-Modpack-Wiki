@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:vampire_overcomer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 50,000 - 70,000 |
@@ -109,7 +110,6 @@ flowchart LR
 
 Granted automatically when you become this race.
 
-- ![](../../assets/icons/tensura/skill/blood_mist.png) [Blood Mist](../abilities/intrinsic-skills/blood-mist.md)
 - ![](../../assets/icons/tensura/skill/steel_strength.png) [Steel Strength](../abilities/extra-skills/steel-strength.md)
 - ![](../../assets/icons/tensura/skill/shadow_motion.png) [Shadow Motion](../abilities/extra-skills/shadow-motion.md)
 - ![](../../assets/icons/tensura/skill/coercion.png) [Coercion](../abilities/common-skills/coercion.md)

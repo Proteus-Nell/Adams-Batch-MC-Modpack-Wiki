@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:storm_spirit_wolf` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 425,000 - 425,000 |

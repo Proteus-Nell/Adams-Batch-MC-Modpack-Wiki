@@ -17,3 +17,7 @@
 | **Spiritual health** | 4,600 |
 
 </div>
+
+## What it does
+
+A mob with **400,000** magicule.

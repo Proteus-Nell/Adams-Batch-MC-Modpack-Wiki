@@ -1,24 +1,35 @@
 # Giant Ant
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:giant_ant` |
+| **Type** | Monster |
+| **Health** | 45 |
+| **Attack damage** | 8 |
+| **Armor** | 4 |
+| **Speed** | 0.32 |
+| **Knockback resistance** | 0.8 |
 | **Magicule (EP)** | 2,334 - 2,500 |
 | **Aura** | 2,000 - 2,499 |
 | **Spiritual health** | 100 |
+| **Hitbox** | 2.5 x 3 blocks |
 | **Spawn egg** |  [Giant Ant Spawn Egg](../items/spawn-eggs/giant-ant-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **45** health, **8** attack damage and **2,334-2,500** magicule. Spawns naturally in Giant Ant Spawn. Drops [Giant Ant Carapace](../items/miscellaneous/giant-ant-carapace.md) and [Giant Ant Leg](../items/miscellaneous/giant-ant-leg.md).
 
 ## Spawning
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:giant_ant_spawn` | 80 | 1-4 |
+| Is Forest, Is Savanna, Ancient Forest | 80 | 1-4 |
 
 ## Drops
 

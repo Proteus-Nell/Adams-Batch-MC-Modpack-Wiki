@@ -18,3 +18,7 @@
 ## Description
 
 Small Health Potion
+
+## What it does
+
+Food.

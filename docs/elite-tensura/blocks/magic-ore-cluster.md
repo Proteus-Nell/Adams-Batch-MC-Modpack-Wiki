@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A Magic Ore crystal growing on [Magic Ore Mother Rock](magic-ore-mother-rock.md), like amethyst. It keeps growing while the chunk has enough magicule; mine the full **Cluster** for Magic Ore Shards.
+
+Ore block. Mining it drops [Magic Ore](../../tensura-reincarnated/items/materials/magic-ore-shard.md). You need a stone pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

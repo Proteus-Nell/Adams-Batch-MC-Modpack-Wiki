@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Adamantite Long Sword](../weapons/adamantite-long-sword.md), [Adamantite Tachi](../weapons/adamantite-tachi.md), [Diamond Long Sword](../weapons/diamond-long-sword.md), [Diamond Tachi](../weapons/diamond-tachi.md), [Golden Long Sword](../weapons/golden-long-sword.md), [Golden Tachi](../weapons/golden-tachi.md) and 27 more. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

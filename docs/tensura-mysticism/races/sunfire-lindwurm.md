@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:sunfire_lindwurm` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 180,000 - 180,000 |

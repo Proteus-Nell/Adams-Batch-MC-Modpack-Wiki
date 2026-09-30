@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 10,400 - None |
+| **Armor** | 8 |
+| **Armor toughness** | 6 |
+| **Knockback resistance** | 50% |
+| **Durability** | 660 |
 
 </div>
+
+## What it does
+
+Anti Magic Mask armor for the helmet slot: **8** armor, **6** toughness and **50%** knockback resistance. Durability: **660**. It is made at the Smithing Bench.
 
 ## Obtaining
 

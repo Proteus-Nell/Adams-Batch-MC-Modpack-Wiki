@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+The core that spellstones are built on. Put it in the [Spellstone Table](../../blocks/spellstone-table.md) to craft spellstones. Holding one in your off hand while using a Spellstone Sword lets you pull out the spell resonance stored in the sword.
+
+Used to make [Resonator of Spell](spellstone-sword.md), [Spellstone Table](../../blocks/spellstone-table.md) and [Spelltuner](spelltuner.md). It is found in 10 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Armorsaurus Scalemail Boots](../armor/armorsaurus-scalemail-boots.md), [Armorsaurus Scalemail Chestplate](../armor/armorsaurus-scalemail-chestplate.md), [Armorsaurus Scalemail Helmet](../armor/armorsaurus-scalemail-helmet.md), [Armorsaurus Scalemail Leggings](../armor/armorsaurus-scalemail-leggings.md) and [Armorsaurus Shield](../miscellaneous/armorsaurus-shield.md). It is dropped by [Armorsaurus](../../mobs/armorsaurus.md).
+
 ## Obtaining
 
 ### Loot

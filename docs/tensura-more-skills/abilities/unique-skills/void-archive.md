@@ -39,6 +39,10 @@
 - Triggers when an effect is applied to you
 - Triggers when a projectile hits you
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## In-game messages
 
 <details markdown><summary>Show 5 messages</summary>

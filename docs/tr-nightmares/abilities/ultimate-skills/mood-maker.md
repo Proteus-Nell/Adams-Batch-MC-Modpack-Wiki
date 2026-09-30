@@ -53,6 +53,7 @@
 
 - **Related skills:** [Tuner](../../../tensura-reincarnated/abilities/unique-skills/tuner.md)
 - **Effects:** [Fate Change](../../../tensura-reincarnated/effects/fate-change.md), [Strengthen](../../../tensura-reincarnated/effects/strengthen.md), [Mood](../../effects/mood.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

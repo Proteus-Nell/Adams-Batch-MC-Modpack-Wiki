@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:metal_slime` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 3,000 - 3,000 |

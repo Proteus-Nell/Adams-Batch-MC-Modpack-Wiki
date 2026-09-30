@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:greater_angel` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 35,000 - 45,000 |
@@ -24,7 +25,7 @@
 ## Evolution
 
 - **Evolves from:** [Lesser Angel](lesser-angel.md)
-- **Evolves into:** [Arch Angel](arch-angel.md)
+- **Evolves into:** [Arch Angel](arch-angel.md), [Tengu](tengu.md)
 - **Default evolution:** [Arch Angel](arch-angel.md)
 - **On awakening (True Demon Lord / True Hero):** [Cherub](cherub.md)
 - **During the Harvest Festival:** [Arch Angel](arch-angel.md)

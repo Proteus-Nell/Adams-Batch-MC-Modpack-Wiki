@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:rimeblight_hydra` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 800,000 - 800,000 |

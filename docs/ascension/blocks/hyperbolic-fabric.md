@@ -11,3 +11,7 @@
 | **ID** | `ascension:hyperbolic_fabric` |
 
 </div>
+
+## What it does
+
+The floor of the [Hyperbolic Chamber](../biomes/hyperbolic-chamber.md). It copies bedrock's properties, so it can't be broken in survival and resists explosions.

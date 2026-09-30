@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Helmet](adamantite-helmet.md) |
+| **Armor** | 6 |
+| **Armor toughness** | 5 |
+| **Knockback resistance** | 30% |
+| **Durability** | 495 |
 
 </div>
+
+## What it does
+
+Mithril armor for the helmet slot: **6** armor, **5** toughness and **30%** knockback resistance. Durability: **495**. It is made at the Smithing Bench.
 
 ## Obtaining
 

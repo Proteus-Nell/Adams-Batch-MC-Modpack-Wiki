@@ -50,6 +50,8 @@
 	#Bonus Swimming Speed Multiplier.
 	swimSpeed = 0.0
 	learnableMagics = ["tensura:earth_lock", "tensura:liquidize", "tensura:fire_aspectual", "tensura:water_aspectual", "tensura:drainage", "tensura:wind_gust", "tensura:escape", "tensura:freeze"]
+	#EP required to enter this race (starter tier — 0 = no gate).
+	epRequirement = 0.0
 
 [mediumSaiyan]
 	#Minimal aura.

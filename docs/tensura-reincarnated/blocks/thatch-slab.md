@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Thatch Block](thatch-block.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

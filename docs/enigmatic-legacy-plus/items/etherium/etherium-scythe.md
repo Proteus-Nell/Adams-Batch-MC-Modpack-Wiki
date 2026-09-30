@@ -11,6 +11,9 @@
 | **ID** | `enigmaticlegacyplus:etherium_scythe` |
 | **Category** | Etherium |
 | **Fire resistant** | Yes |
+| **Attack damage** | 9 |
+| **Attack speed** | 2 |
+| **Durability** | 2,794 |
 
 </div>
 
@@ -21,6 +24,10 @@ Breaks blocks in 3x3x3 area.
 Hold Shift to suppress this effect.
 
 Enhancement: Capable of automatic range harvesting.
+
+## What it does
+
+A scythe that deals **9** attack damage at **2** attack speed. Durability: **2,794**. It is crafted.
 
 ## Obtaining
 

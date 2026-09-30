@@ -43,6 +43,7 @@
 ## Related
 
 - **Related skills:** [Eight Petals Flash](eight-petals-flash.md)
+- **Summons / entities:** Hazy Blossom
 
 ## Stats (config defaults)
 

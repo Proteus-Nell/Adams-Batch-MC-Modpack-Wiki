@@ -13,3 +13,7 @@
 | **Fire resistant** | Yes |
 
 </div>
+
+## What it does
+
+A creative-only fire charge that sets [Black Fire](../../blocks/black-fire.md) (or lights campfires and candles).

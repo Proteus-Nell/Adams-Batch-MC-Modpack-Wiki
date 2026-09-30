@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+Web left by a [Sticky Steel Web Cartridge](../items/miscellaneous/sticky-steel-web-cartridge.md). It traps like a [Sticky Cobweb](sticky-cobweb.md), and anything that moves while caught takes **2** steel thread damage. Web-walking mobs aren't hurt.
+
+
+
 ## Obtaining
 
 ### Loot

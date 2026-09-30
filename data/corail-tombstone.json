@@ -35,7 +35,7 @@
     "id": "tombstone:ankh_of_prayer",
     "path": "ankh_of_prayer",
     "name": "Ankh of Prayer",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemAnkhOfPrayer",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -50,7 +50,7 @@
     "id": "tombstone:bag_of_seeds",
     "path": "bag_of_seeds",
     "name": "Bag of Seeds",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBagOfSeeds",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -64,7 +64,7 @@
     "id": "tombstone:bone_needle",
     "path": "bone_needle",
     "name": "Bone Needle",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBoneNeedle",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -78,7 +78,7 @@
     "id": "tombstone:bone_scepter",
     "path": "bone_scepter",
     "name": "Bone Scepter",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBoneScepter",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -92,7 +92,7 @@
     "id": "tombstone:book_of_disenchantment",
     "path": "book_of_disenchantment",
     "name": "Book of Disenchantment",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfDisenchantment",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -108,7 +108,7 @@
     "id": "tombstone:book_of_magic_impregnation",
     "path": "book_of_magic_impregnation",
     "name": "Book of Magic Impregnation",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfMagicImpregnation",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -124,7 +124,7 @@
     "id": "tombstone:book_of_oblivion",
     "path": "book_of_oblivion",
     "name": "Book of Oblivion",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfOblivion",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -140,7 +140,7 @@
     "id": "tombstone:book_of_recycling",
     "path": "book_of_recycling",
     "name": "Book of Recycling",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfRecycling",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -156,7 +156,7 @@
     "id": "tombstone:book_of_repairing",
     "path": "book_of_repairing",
     "name": "Book of Repairing",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfRepairing",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -172,7 +172,7 @@
     "id": "tombstone:book_of_scribe",
     "path": "book_of_scribe",
     "name": "Book of Scribe",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfScribe",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -188,7 +188,7 @@
     "id": "tombstone:book_of_soulbound",
     "path": "book_of_soulbound",
     "name": "Book of Soulbound",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemBookOfSoulbound",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -204,7 +204,7 @@
     "id": "tombstone:christmas_gift",
     "path": "christmas_gift",
     "name": "Christmas Gift",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemChristmasGift",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -218,7 +218,7 @@
     "id": "tombstone:christmas_hat",
     "path": "christmas_hat",
     "name": "Strange Christmas Hat",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemChristmasHat",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -233,7 +233,7 @@
     "id": "tombstone:dust_of_frost",
     "path": "dust_of_frost",
     "name": "Dust of Frost",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemDustOfFrost",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [],
@@ -244,7 +244,7 @@
     "id": "tombstone:dust_of_vanishing",
     "path": "dust_of_vanishing",
     "name": "Dust of Vanishing",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemDustOfVanishing",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -258,7 +258,7 @@
     "id": "tombstone:essence_of_undeath",
     "path": "essence_of_undeath",
     "name": "Essence of Undeath",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGeneric",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [],
@@ -287,7 +287,7 @@
     "id": "tombstone:flying_carpet",
     "path": "flying_carpet",
     "name": "Flying Carpet",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemFlyingCarpet",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -301,7 +301,7 @@
     "id": "tombstone:gemstone_of_familiar",
     "path": "gemstone_of_familiar",
     "name": "Gemstone of Familiar",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGemstoneOfFamiliar",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -315,7 +315,7 @@
     "id": "tombstone:gemstone_of_guardian",
     "path": "gemstone_of_guardian",
     "name": "Gemstone of Guardian",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGemstoneOfGuardian",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -329,7 +329,7 @@
     "id": "tombstone:gemstone_of_merchant",
     "path": "gemstone_of_merchant",
     "name": "Gemstone of Merchant",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGemstoneOfMerchant",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -343,7 +343,7 @@
     "id": "tombstone:gemstone_of_prayer",
     "path": "gemstone_of_prayer",
     "name": "Gemstone of Prayer",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGemstoneOfPrayer",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -357,7 +357,7 @@
     "id": "tombstone:gift",
     "path": "gift",
     "name": "Reward",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGift",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -371,7 +371,7 @@
     "id": "tombstone:grave_dust",
     "path": "grave_dust",
     "name": "Grave Dust",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGraveDust",
     "category": "Materials",
     "props": {},
     "tooltips": [],
@@ -382,7 +382,7 @@
     "id": "tombstone:grave_key",
     "path": "grave_key",
     "name": "Grave Key",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGraveKey",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -399,7 +399,7 @@
     "id": "tombstone:grave_plate",
     "path": "grave_plate",
     "name": "Memorial Plaque",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGravePlate",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [],
@@ -410,7 +410,7 @@
     "id": "tombstone:impregnated_diamond",
     "path": "impregnated_diamond",
     "name": "Impregnated Diamond",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemGeneric",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [],
@@ -421,7 +421,7 @@
     "id": "tombstone:lollipop",
     "path": "lollipop",
     "name": "Magic Lollipop",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemLollipop",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -434,7 +434,7 @@
     "id": "tombstone:lost_tablet",
     "path": "lost_tablet",
     "name": "Lost Tablet",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemLostTablet",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -452,7 +452,7 @@
     "id": "tombstone:magic_scroll",
     "path": "magic_scroll",
     "name": "Magic Scroll",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemMagicScroll",
     "category": "Books & Scrolls",
     "props": {},
     "tooltips": [],
@@ -463,7 +463,7 @@
     "id": "tombstone:receptacle_of_familiar",
     "path": "receptacle_of_familiar",
     "name": "Receptacle of Familiar",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemReceptacleOfFamiliar",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -479,7 +479,7 @@
     "id": "tombstone:receptacle_of_soul",
     "path": "receptacle_of_soul",
     "name": "Receptacle of Soul",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemReceptacleOfSoul",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -494,7 +494,7 @@
     "id": "tombstone:ritual_flute",
     "path": "ritual_flute",
     "name": "Ritual Flute",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemRitualFlute",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -547,7 +547,7 @@
     "id": "tombstone:scroll_of_knowledge",
     "path": "scroll_of_knowledge",
     "name": "Scroll of Knowledge",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemScrollOfKnowledge",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -668,7 +668,7 @@
     "id": "tombstone:seeker_rod",
     "path": "seeker_rod",
     "name": "Seeker Rod",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemSeekerRod",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -683,7 +683,7 @@
     "id": "tombstone:smoke_ball",
     "path": "smoke_ball",
     "name": "Smoke Ball",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemSmokeBall",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -697,7 +697,7 @@
     "id": "tombstone:strange_scroll",
     "path": "strange_scroll",
     "name": "Strange Scroll",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemStrangeScroll",
     "category": "Books & Scrolls",
     "props": {},
     "tooltips": [],
@@ -708,7 +708,7 @@
     "id": "tombstone:strange_tablet",
     "path": "strange_tablet",
     "name": "Strange Tablet",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemStrangeTablet",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [],
@@ -719,7 +719,7 @@
     "id": "tombstone:tablet_of_assistance",
     "path": "tablet_of_assistance",
     "name": "Tablet of Assistance",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemTabletOfAssistance",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -739,7 +739,7 @@
     "id": "tombstone:tablet_of_cupidity",
     "path": "tablet_of_cupidity",
     "name": "Tablet of Cupidity",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemTabletOfCupidity",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -758,7 +758,7 @@
     "id": "tombstone:tablet_of_guard",
     "path": "tablet_of_guard",
     "name": "Tablet of Guard",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemTabletOfGuard",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -776,7 +776,7 @@
     "id": "tombstone:tablet_of_home",
     "path": "tablet_of_home",
     "name": "Tablet of Home",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemTabletOfHome",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -794,7 +794,7 @@
     "id": "tombstone:tablet_of_recall",
     "path": "tablet_of_recall",
     "name": "Tablet of Recall",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemTabletOfRecall",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -813,7 +813,7 @@
     "id": "tombstone:villager_gift",
     "path": "villager_gift",
     "name": "Villager Gift",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemVillagerGift",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -828,7 +828,7 @@
     "id": "tombstone:voodoo_poppet",
     "path": "voodoo_poppet",
     "name": "Voodoo Poppet",
-    "class": null,
+    "class": "ovh.corail.tombstone.item.ItemVoodooPoppet",
     "category": "Miscellaneous",
     "props": {},
     "tooltips": [
@@ -845,7 +845,7 @@
     "id": "tombstone:abandoned_grave",
     "path": "abandoned_grave",
     "name": "Abandoned Grave",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockAbandonedGrave",
     "tags": [],
     "item_tags": [],
     "icon_url": null,
@@ -856,7 +856,7 @@
     "id": "tombstone:blue_marble",
     "path": "blue_marble",
     "name": "Blue Marble",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockGraveMarble",
     "tags": [
      "tombstone:grave_marbles"
     ],
@@ -996,7 +996,7 @@
     "id": "tombstone:carmin_marble",
     "path": "carmin_marble",
     "name": "Carmin Marble",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockGraveMarble",
     "tags": [
      "tombstone:grave_marbles"
     ],
@@ -1136,7 +1136,7 @@
     "id": "tombstone:dark_marble",
     "path": "dark_marble",
     "name": "Dark Marble",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockGraveMarble",
     "tags": [
      "tombstone:grave_marbles"
     ],
@@ -1276,7 +1276,7 @@
     "id": "tombstone:green_marble",
     "path": "green_marble",
     "name": "Green Marble",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockGraveMarble",
     "tags": [
      "tombstone:grave_marbles"
     ],
@@ -1448,7 +1448,7 @@
     "id": "tombstone:white_marble",
     "path": "white_marble",
     "name": "White Marble",
-    "class": null,
+    "class": "ovh.corail.tombstone.block.BlockGraveMarble",
     "tags": [
      "tombstone:grave_marbles"
     ],
@@ -1648,7 +1648,7 @@
     "id": "tombstone:aquatic_life",
     "path": "aquatic_life",
     "name": "Aquatic Life",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Allows to move freely and breathe in the water",
     "icon_url": "assets/icons/tombstone/effect/aquatic_life.png"
    },
@@ -1656,7 +1656,7 @@
     "id": "tombstone:bait",
     "path": "bait",
     "name": "Bait",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.BaitEffect",
     "description": "Attracts aggressive creatures",
     "icon_url": "assets/icons/tombstone/effect/bait.png"
    },
@@ -1664,7 +1664,7 @@
     "id": "tombstone:bone_shield",
     "path": "bone_shield",
     "name": "Bone Shield",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Protects against melee damages and reflects a part",
     "icon_url": "assets/icons/tombstone/effect/bone_shield.png"
    },
@@ -1672,7 +1672,7 @@
     "id": "tombstone:decrepitude",
     "path": "decrepitude",
     "name": "Decrepitude",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.DecrepitudeEffect",
     "description": "Reduces health by a percentage over time",
     "icon_url": "assets/icons/tombstone/effect/decrepitude.png"
    },
@@ -1680,7 +1680,7 @@
     "id": "tombstone:discretion",
     "path": "discretion",
     "name": "Discretion",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Improves stealth speed and reduces range detection",
     "icon_url": "assets/icons/tombstone/effect/discretion.png"
    },
@@ -1688,7 +1688,7 @@
     "id": "tombstone:diversion",
     "path": "diversion",
     "name": "Diversion",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Prevents creatures to target you",
     "icon_url": "assets/icons/tombstone/effect/diversion.png"
    },
@@ -1696,7 +1696,7 @@
     "id": "tombstone:earthly_garden",
     "path": "earthly_garden",
     "name": "Earthly Garden",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.EarthlyGardenEffect",
     "description": "Makes the surroundings more flowery",
     "icon_url": "assets/icons/tombstone/effect/earthly_garden.png"
    },
@@ -1704,7 +1704,7 @@
     "id": "tombstone:feather_fall",
     "path": "feather_fall",
     "name": "Feather Fall",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.FeatherFallEffect",
     "description": "Slows down your falls",
     "icon_url": "assets/icons/tombstone/effect/feather_fall.png"
    },
@@ -1712,7 +1712,7 @@
     "id": "tombstone:frost_resistance",
     "path": "frost_resistance",
     "name": "Frost Resistance",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.FrostResistanceEffect",
     "description": "Reduces damage taken by frost by 75%",
     "icon_url": "assets/icons/tombstone/effect/frost_resistance.png"
    },
@@ -1720,7 +1720,7 @@
     "id": "tombstone:frostbite",
     "path": "frostbite",
     "name": "Frostbite",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.FrostbiteEffect",
     "description": "Freezes and damages enemy",
     "icon_url": "assets/icons/tombstone/effect/frostbite.png"
    },
@@ -1728,7 +1728,7 @@
     "id": "tombstone:ghostly_shape",
     "path": "ghostly_shape",
     "name": "Ghostly Shape",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.GhostlyShapeEffect",
     "description": "Ghostly appearance received after a death",
     "icon_url": "assets/icons/tombstone/effect/ghostly_shape.png"
    },
@@ -1736,7 +1736,7 @@
     "id": "tombstone:giant_strength",
     "path": "giant_strength",
     "name": "Giant Strength",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.GiantStrengthEffect",
     "description": "Your strength increases as well as your height",
     "icon_url": "assets/icons/tombstone/effect/giant_strength.png"
    },
@@ -1744,7 +1744,7 @@
     "id": "tombstone:incurable",
     "path": "incurable",
     "name": "Incurable",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "The heals have no effect",
     "icon_url": "assets/icons/tombstone/effect/incurable.png"
    },
@@ -1752,7 +1752,7 @@
     "id": "tombstone:lightning_resistance",
     "path": "lightning_resistance",
     "name": "Lightning Resistance",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Reduces damage taken by lightning by 75%",
     "icon_url": "assets/icons/tombstone/effect/lightning_resistance.png"
    },
@@ -1760,7 +1760,7 @@
     "id": "tombstone:little_world",
     "path": "little_world",
     "name": "Little World",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.LittleWorldEffect",
     "description": "Your height decreases and makes you faster",
     "icon_url": "assets/icons/tombstone/effect/little_world.png"
    },
@@ -1768,7 +1768,7 @@
     "id": "tombstone:mercy",
     "path": "mercy",
     "name": "Mercy",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.MercyEffect",
     "description": "Share beneficial effects among nearby allies",
     "icon_url": "assets/icons/tombstone/effect/mercy.png"
    },
@@ -1776,7 +1776,7 @@
     "id": "tombstone:prayer",
     "path": "prayer",
     "name": "Prayer",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.PrayerEffect",
     "description": "Received when a prayer is cast on the target",
     "icon_url": "assets/icons/tombstone/effect/prayer.png"
    },
@@ -1784,7 +1784,7 @@
     "id": "tombstone:preservation",
     "path": "preservation",
     "name": "Preservation",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Preserves experience and beneficial effects on death",
     "icon_url": "assets/icons/tombstone/effect/preservation.png"
    },
@@ -1792,7 +1792,7 @@
     "id": "tombstone:projectile_reflection",
     "path": "projectile_reflection",
     "name": "Projectile Reflection",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Reflects the projectiles to their owner",
     "icon_url": "assets/icons/tombstone/effect/projectile_reflection.png"
    },
@@ -1800,7 +1800,7 @@
     "id": "tombstone:purification",
     "path": "purification",
     "name": "Purification",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.PurificationEffect",
     "description": "Dispels negative effects over time",
     "icon_url": "assets/icons/tombstone/effect/purification.png"
    },
@@ -1808,7 +1808,7 @@
     "id": "tombstone:reach",
     "path": "reach",
     "name": "Reach",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Increases the range to hit creatures or to harvest",
     "icon_url": "assets/icons/tombstone/effect/reach.png"
    },
@@ -1816,7 +1816,7 @@
     "id": "tombstone:remanence",
     "path": "remanence",
     "name": "Remanence",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Increases experience gains",
     "icon_url": "assets/icons/tombstone/effect/remanence.png"
    },
@@ -1824,7 +1824,7 @@
     "id": "tombstone:restoration",
     "path": "restoration",
     "name": "Restoration",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.RestorationEffect",
     "description": "Heal all wounds",
     "icon_url": "assets/icons/tombstone/effect/restoration.png"
    },
@@ -1832,7 +1832,7 @@
     "id": "tombstone:silent_bond",
     "path": "silent_bond",
     "name": "Silent Bond",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "The undead consider you as one of their own",
     "icon_url": null
    },
@@ -1840,7 +1840,7 @@
     "id": "tombstone:true_sight",
     "path": "true_sight",
     "name": "True Sight",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Lets you see in the dark, in the fog and underwater",
     "icon_url": "assets/icons/tombstone/effect/true_sight.png"
    },
@@ -1848,7 +1848,7 @@
     "id": "tombstone:unstable_intangibility",
     "path": "unstable_intangibility",
     "name": "Unstable Intangibility",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.TombstoneEffect",
     "description": "Prevents damage for a full second every five seconds",
     "icon_url": "assets/icons/tombstone/effect/unstable_intangibility.png"
    },
@@ -1856,7 +1856,7 @@
     "id": "tombstone:weaver_walk",
     "path": "weaver_walk",
     "name": "Weaver's Walk",
-    "class": null,
+    "class": "ovh.corail.tombstone.effect.WeaverWalkEffect",
     "description": "Allows you to move quickly over cobwebs",
     "icon_url": "assets/icons/tombstone/effect/weaver_walk.png"
    }

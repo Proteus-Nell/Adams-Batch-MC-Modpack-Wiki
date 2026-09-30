@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_acknowledgment` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 4.5 |
+| **Attack speed** | 1.9 |
 
 </div>
 
@@ -25,6 +27,10 @@ Fourth Curse
 The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
+
+## What it does
+
+A weapon that deals **4.5** attack damage at **1.9** attack speed. It is crafted.
 
 ## Obtaining
 

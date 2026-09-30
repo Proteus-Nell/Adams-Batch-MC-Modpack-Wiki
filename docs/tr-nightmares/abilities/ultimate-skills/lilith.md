@@ -46,6 +46,7 @@
 ## Related
 
 - **Related skills:** [Elegy](../unique-skills/elegy.md), [Spacetime Manipulation](../extra-skills/spacetime-manipulation.md), [Rebirth](../extra-skills/rebirth.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

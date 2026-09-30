@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 18,000 - 52,000 |
 | **Evolves into** | [Pure Magisteel Axe](pure-magisteel-axe.md) |
+| **Attack damage** | 22 |
+| **Attack speed** | 1.1 |
+| **Tier** | High Magisteel |
+| **Durability** | 2,500 |
 
 </div>
+
+## What it does
+
+A axe that deals **22** attack damage at **1.1** attack speed. Durability: **2,500**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A manual that teaches a battlewill (a combat art). Hold right-click for at least half a second: you learn the battlewill written in it, or a random one from the config's battlewill list if the manual is blank. If you already know it, the manual is still used up. After reading, manuals are on a 10-second cooldown. Mobs can drop them and dwarf battlewill trainers sell them.
+
+It is found in 7 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

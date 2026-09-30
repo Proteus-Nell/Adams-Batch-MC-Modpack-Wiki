@@ -48,6 +48,7 @@
 ## Related
 
 - **Related skills:** [｢ Faust, Lord of Investigation ｣](../ultimate-skills/faust.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Faust, Lord of Investigation ｣](../ultimate-skills/faust.md), [｢ Nyarlathotep, King of Chaos ｣](../ultimate-skills/nyarlathotep.md)
 
 ## Stats (config defaults)

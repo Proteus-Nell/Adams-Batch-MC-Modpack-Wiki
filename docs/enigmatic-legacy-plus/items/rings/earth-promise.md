@@ -27,6 +27,10 @@ When receiving damage worth 80% of your
 
 health, block the attack and cooldown for ? sec.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

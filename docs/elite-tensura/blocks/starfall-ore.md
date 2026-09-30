@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Ore block. Mining it drops [Star Iron](../items/miscellaneous/star-iron.md). You need a diamond pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

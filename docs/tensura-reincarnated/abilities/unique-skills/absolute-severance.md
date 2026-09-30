@@ -46,6 +46,7 @@
 ## Related
 
 - **Effects:** [Severance Blade](../../effects/severance-blade.md)
+- **Summons / entities:** Severance Cutter
 - **Referenced by:** [Time Traveler](../../../tr-nightmares/abilities/unique-skills/time-traveler.md), [｢ Yog-Sothoth, Lord of Space-Time ｣](../../../tr-nightmares/abilities/ultimate-skills/yog-sothoth.md)
 
 ## Stats (config defaults)

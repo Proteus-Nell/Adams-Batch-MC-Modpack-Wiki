@@ -19,6 +19,10 @@ Allows you to force your undead minions to remain seated
 
 Right click on an undead servant
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+A mob with **148,000-150,000** magicule.
+
 ## Tags
 
 `tensura:can_be_named`, `trnightmare:chaotic`

@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+Stardust from fallen **Starlight Meteors** (and some chests). It's the material for Starlight gear.
+
+Used to make [Starlight Bucket](../tools/starlight-bucket.md), [Starlight Ingot](starlight-ingot.md), [Astral Pearl](../misc/starlight-pearl.md), [Ring of Starlight](../rings/starlight-ring.md) and [Angel's Blessing](../spellstones/angel-blessing.md). It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

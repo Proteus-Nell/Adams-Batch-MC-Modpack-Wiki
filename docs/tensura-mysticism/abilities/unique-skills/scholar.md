@@ -30,6 +30,10 @@
 | learning | 6 | add |
 | mastery | 6 | add |
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/mysticism/ability/skill/unique_config.toml`](../../configs/config-mysticism-ability-skill-unique-config.md).

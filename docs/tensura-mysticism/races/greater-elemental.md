@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:greater_elemental` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 200,000 - 200,000 |

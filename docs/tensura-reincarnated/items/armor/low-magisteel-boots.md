@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Boots](high-magisteel-boots.md) |
+| **Armor** | 3 |
+| **Armor toughness** | 2.5 |
+| **Knockback resistance** | 10% |
+| **Durability** | 455 |
 
 </div>
+
+## What it does
+
+Low Magisteel armor for the boots slot: **3** armor, **2.5** toughness and **10%** knockback resistance. Durability: **455**. It is made at the Smithing Bench.
 
 ## Obtaining
 

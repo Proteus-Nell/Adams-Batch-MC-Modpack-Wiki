@@ -37,7 +37,8 @@
 
 ## Related
 
-- **Related skills:** [Darkness Domination](darkness-domination.md)
+- **Related skills:** [Darkness Domination](darkness-domination.md), [Dark Cube](../../../tensura-reincarnated/abilities/spiritual-magic/dark-cube.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Darkness Domination](darkness-domination.md)
 
 ## Stats (config defaults)

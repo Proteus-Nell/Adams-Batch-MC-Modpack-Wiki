@@ -11,8 +11,19 @@
 | **ID** | `tensura:netherite_short_sword` |
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
+| **Attack damage** | 6 |
+| **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
+
+## What it does
+
+A short sword that deals **6** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **2,031**. It is made at a smithing table.
 
 ## Obtaining
 

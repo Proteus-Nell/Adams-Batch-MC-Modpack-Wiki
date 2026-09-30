@@ -19,6 +19,10 @@ Create a bind with a kind of creature to be used in magic practices
 
 Right click a creature to impregnate the bone needle
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

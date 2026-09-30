@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+**Grave Marble**, the building block of decorative graves. It's very resistant to explosions. White Marble is made by adding Bone Meal to the recipe.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

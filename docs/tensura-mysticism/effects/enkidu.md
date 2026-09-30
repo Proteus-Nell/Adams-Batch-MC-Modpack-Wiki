@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+The chains of Enkidu. Your movement, flight, jumping, reach, attack damage and speed, dodge chances and magicule and aura regeneration all drop to **zero**, you're pulled out of flight, and you **can't use skills**. Gatekeeper's Enkidu binds a target and can release it again.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

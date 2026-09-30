@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Axe](adamantite-axe.md) |
+| **Attack damage** | 28 |
+| **Attack speed** | 1.1 |
+| **Tier** | Mithril |
+| **Durability** | 2,700 |
 
 </div>
+
+## What it does
+
+A axe that deals **28** attack damage at **1.1** attack speed. Durability: **2,700**. It is made at the Smithing Bench.
 
 ## Obtaining
 

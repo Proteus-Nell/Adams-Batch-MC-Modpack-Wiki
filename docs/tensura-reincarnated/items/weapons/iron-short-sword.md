@@ -10,8 +10,19 @@
 |---|---|
 | **ID** | `tensura:iron_short_sword` |
 | **Category** | Weapons |
+| **Attack damage** | 4 |
+| **Attack speed** | 2 |
+| **Reach** | -0.75 blocks |
+| **Sweep damage** | -100% |
+| **Critical damage** | +0.5× |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A short sword that deals **4** attack damage at **2** attack speed. It also has -0.75 blocks of reach, +0.5 critical damage multiplier and no sweeping attack. Durability: **250**. It is made at the Smithing Bench and found in 3 kinds of loot chest.
 
 ## Obtaining
 

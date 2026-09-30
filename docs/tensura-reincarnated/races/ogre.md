@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:ogre` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 1,500 - 2,500 |
@@ -34,7 +35,7 @@ Each requirement adds its weight to the evolution progress bar; you can evolve a
 
 | Requirement | Weight |
 |---|---|
-| Battle description(-s) | 100% |
+| Battle [Elemental Colossus](../mobs/elemental-colossus.md)(-s) | 100% |
 
 ### Evolution tree
 

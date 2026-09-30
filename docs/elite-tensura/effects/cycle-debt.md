@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+The price of an Ouroboros rebirth. Per level: **-15%** max health and max magicule. Each rebirth while you still carry it raises its level by one. Lasts 600 s.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

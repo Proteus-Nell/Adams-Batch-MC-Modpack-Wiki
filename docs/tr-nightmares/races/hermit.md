@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:hermit` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Holy |
 | **Aura** | 20,000 - 100,000 |

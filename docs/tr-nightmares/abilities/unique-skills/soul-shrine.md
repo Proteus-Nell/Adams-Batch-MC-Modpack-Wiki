@@ -49,6 +49,7 @@
 
 - **Related skills:** [Curse](../../../tensura-reincarnated/abilities/spiritual-magic/curse.md)
 - **Effects:** [Zone](../../effects/zone.md), [Simple Domain](../../effects/simple.md)
+- **Summons / entities:** Tensura, Trnightmare
 
 ## Stats (config defaults)
 

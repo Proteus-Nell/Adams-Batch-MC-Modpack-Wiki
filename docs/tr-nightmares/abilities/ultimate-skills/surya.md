@@ -61,6 +61,7 @@
 
 - **Related skills:** [｢ Metatron, Lord of Purity ｣](metatron.md)
 - **Effects:** [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Anti-Magic](../../../tensura-reincarnated/effects/anti-magic.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
+- **Summons / entities:** Disintegration
 
 ## Stats (config defaults)
 

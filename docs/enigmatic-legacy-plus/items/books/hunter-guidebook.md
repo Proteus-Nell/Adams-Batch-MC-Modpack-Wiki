@@ -21,6 +21,10 @@ When carried in inventory:
 
 from you is redirected upon you.
 
+## What it does
+
+Used to make [Ode to Living Beings](ode-to-living.md) and [Sanguinary Hunting Handbook](sanguinary-handbook.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

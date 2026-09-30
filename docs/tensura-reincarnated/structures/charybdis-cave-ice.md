@@ -8,10 +8,16 @@
 |---|---|
 | **ID** | `tensura:charybdis_cave/ice` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/charybdis_cave_ice` |
+| **Biomes** | Is Cold, Ice Spikes |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 90 / 20 chunks |
 | **Terrain adaptation** | beard_box |
 | **Size (jigsaw depth)** | 7 |
 
 </div>
+
+## What it does
+
+A cave holding a dormant [Charybdis Core](../blocks/charybdis-core.md), the seed of [Charybdis](../mobs/charybdis.md). Feed the core EP by killing creatures around it to wake the boss.
+
+Generates in Is Cold, Ice Spikes, about one every 90 chunks (at least 20 chunks apart).

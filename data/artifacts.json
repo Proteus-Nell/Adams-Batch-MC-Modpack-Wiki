@@ -228,6 +228,10 @@
     "props": {
      "food": true
     },
+    "food": {
+     "saturation": 0.8,
+     "nutrition": 8
+    },
     "tooltips": [],
     "tags": [
      "artifacts:artifacts",
@@ -243,6 +247,10 @@
     "category": "Food",
     "props": {
      "food": true
+    },
+    "food": {
+     "saturation": 0.3,
+     "nutrition": 3
     },
     "tooltips": [],
     "tags": [
@@ -449,6 +457,9 @@
     "category": "Bracelet",
     "props": {
      "food": true
+    },
+    "food": {
+     "nutrition": 2
     },
     "tooltips": [],
     "tags": [

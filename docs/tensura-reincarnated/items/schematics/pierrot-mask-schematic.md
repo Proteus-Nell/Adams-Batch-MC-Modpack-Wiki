@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Angry Pierrot Mask](../armor/angry-pierrot-mask.md), [Crazy Pierrot Mask](../armor/crazy-pierrot-mask.md), [Teardrop Mask](../armor/teary-pierrot-mask.md) and [Wonder Pierrot Mask](../armor/wonder-pierrot-mask.md).
+
 ## Tags
 
 `tensura:schematics`

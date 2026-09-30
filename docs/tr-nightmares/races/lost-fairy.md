@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:lost_fairy` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 50,000 - 100,000 |

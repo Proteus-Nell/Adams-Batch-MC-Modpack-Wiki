@@ -19,6 +19,10 @@ Enchants an item with Soulbound
 
 Right click on a Grave Soul with this book in the offhand and a non stackable item in the mainhand
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Mithril Nugget](mithril-nugget.md), [Enchanted Silver Apple](../food/enchanted-silver-apple.md), [Mithril Kiln](../../blocks/kiln-mithril.md), [Block of Mithril](../../blocks/mithril-block.md), [Race Reset Scroll](../books-scrolls/race-reset-scroll.md) and 22 more. It is crafted, made at the Kiln (mixing) and made with Create's compacting.
+
 ## Obtaining
 
 ### Recipes

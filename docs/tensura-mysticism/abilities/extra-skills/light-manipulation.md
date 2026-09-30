@@ -37,6 +37,7 @@
 ## Related
 
 - **Related skills:** [Light Domination](light-domination.md), [Solar Beam](../../../tensura-reincarnated/abilities/spiritual-magic/solar-beam.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Light Domination](light-domination.md)
 
 ## Stats (config defaults)

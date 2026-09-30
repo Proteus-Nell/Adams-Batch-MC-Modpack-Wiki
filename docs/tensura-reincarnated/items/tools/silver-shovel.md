@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_shovel` |
 | **Category** | Tools |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 4.5 |
+| **Attack speed** | 1 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A shovel that deals **4.5** attack damage at **1** attack speed. Durability: **150**. It is crafted and made at the Smithing Bench.
 
 ## Obtaining
 

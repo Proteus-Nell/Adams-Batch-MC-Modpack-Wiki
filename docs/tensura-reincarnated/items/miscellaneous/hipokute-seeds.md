@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Seeds for [Hipokute Grass](../../blocks/hipokute-grass.md), the herb Tensura's potions are brewed from.
+
+Used to make [Revival Leaves](../../../enigmatic-legacy-plus/items/spellstones/revival-leaf.md). It is dropped when you break [Hipokute Grass](../../blocks/hipokute-grass.md) and [Potted Hipokute Grass](../../blocks/potted-hipokute-flower.md).
+
 ## Obtaining
 
 ### Loot

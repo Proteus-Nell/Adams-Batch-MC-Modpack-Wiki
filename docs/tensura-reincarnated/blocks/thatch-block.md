@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Bundled straw. Like a hay bale, landing on it cuts fall damage by 80%.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

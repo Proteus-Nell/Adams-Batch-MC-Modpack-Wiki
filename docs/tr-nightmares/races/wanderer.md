@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:wanderer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 20,000 - 50,000 |

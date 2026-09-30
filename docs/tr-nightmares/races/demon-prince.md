@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:demon_prince` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 350,000 - 700,000 |

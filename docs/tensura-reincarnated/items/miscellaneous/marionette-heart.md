@@ -11,12 +11,17 @@
 | **ID** | `tensura:marionette_heart` |
 | **Category** | Miscellaneous |
 | **Stack size** | 1 |
+| **Attack speed** | 1 |
 
 </div>
 
 ## Description
 
 A rare magic item that can turn the user into a Majin with the cost of half their max HP in damage and most of their current Magicule.
+
+## What it does
+
+A weapon with **1** attack speed.
 
 ## Tags
 

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:scholar` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 500 - 2,000 |

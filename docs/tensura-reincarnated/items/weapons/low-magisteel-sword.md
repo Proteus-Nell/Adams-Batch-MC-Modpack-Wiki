@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Sword](high-magisteel-sword.md) |
+| **Attack damage** | 12 |
+| **Attack speed** | 1.6 |
+| **Tier** | Low Magisteel |
+| **Durability** | 1,800 |
 
 </div>
+
+## What it does
+
+A sword that deals **12** attack damage at **1.6** attack speed. Durability: **1,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

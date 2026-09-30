@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Enchanted Golden Apple](https://minecraft.wiki/w/Enchanted_Golden_Apple), [Orichalcum Nugget](orichalcum-nugget.md), [Orichalcum Kiln](../../blocks/kiln-orichalcum.md), [Block of Orichalcum](../../blocks/orichalcum-block.md), [Skill Reset Scroll](../books-scrolls/skill-reset-scroll.md) and 19 more. It is crafted, made at the Kiln (mixing) and made with Create's compacting.
+
 ## Obtaining
 
 ### Recipes

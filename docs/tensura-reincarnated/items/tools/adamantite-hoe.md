@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Hoe](hihiirokane-hoe.md) |
+| **Attack damage** | 38 |
+| **Attack speed** | 1 |
+| **Tier** | Adamantite |
+| **Durability** | 3,200 |
 
 </div>
+
+## What it does
+
+A hoe that deals **38** attack damage at **1** attack speed. Durability: **3,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -19,6 +19,10 @@ You feel memories flow into your psyche... but they don't seem to be... yours? (
 
 The memories are complete. Lay your head to rest.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

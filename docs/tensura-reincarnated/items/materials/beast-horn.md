@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Beast Horn Spear](../weapons/beast-horn-spear.md). It is dropped by [Horned Bear](../../mobs/horned-bear.md) and [Horned Rabbit](../../mobs/horned-rabbit.md).
+
 ## Obtaining
 
 ### Loot

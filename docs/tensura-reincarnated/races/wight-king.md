@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:wight_king` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 100,000 |

@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+You can't speak. Magic can't be cast (except spells that cast instantly) and Voice Cannon doesn't work. It also slows chanting by **10%** per level. If you're also [Webbed](webbed.md), catching fire burns the web away and ends the silence. Airflow Shut, web bullets, black spiders and hell caterpillars inflict it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

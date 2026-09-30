@@ -52,6 +52,7 @@
 ## Related
 
 - **Related skills:** [Sentient Being](sentient-being.md), [Gluttony](../../../tensura-reincarnated/abilities/unique-skills/gluttony.md)
+- **Summons / entities:** Tensura, Gluttony Mist
 
 ## Stats (config defaults)
 

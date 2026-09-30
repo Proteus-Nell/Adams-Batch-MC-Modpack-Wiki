@@ -28,6 +28,10 @@
 
 - Can appear in epic tomes from wizard towers
 
+## Related
+
+- **Summons / entities:** Magic Circle
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/magic/summoning_config.toml`](../../configs/config-tensura-ability-magic-summoning-config.md).

@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [High Magisteel Axe](../tools/high-magisteel-axe.md), [High Magisteel Boots](../armor/high-magisteel-boots.md), [High Magisteel Chestplate](../armor/high-magisteel-chestplate.md), [High Magisteel Great Sword](../weapons/high-magisteel-great-sword.md), [High Magisteel Helmet](../armor/high-magisteel-helmet.md), [High Magisteel Hoe](../tools/high-magisteel-hoe.md) and 19 more.
+
 ## Obtaining
 
 ### Loot

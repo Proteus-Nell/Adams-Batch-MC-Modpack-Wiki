@@ -11,8 +11,15 @@
 | **ID** | `tensura:winged_shoes` |
 | **Category** | Armor |
 | **Gear EP** | 4,000 - None |
+| **Armor** | 3 |
+| **Armor toughness** | 1 |
+| **Durability** | 429 |
 
 </div>
+
+## What it does
+
+Winged Shoes armor for the boots slot: **3** armor and **1** toughness. Durability: **429**. It is made at the Smithing Bench.
 
 ## Obtaining
 

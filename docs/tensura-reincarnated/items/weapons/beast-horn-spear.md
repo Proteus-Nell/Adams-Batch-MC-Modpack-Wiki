@@ -11,8 +11,19 @@
 | **ID** | `tensura:beast_horn_spear` |
 | **Category** | Weapons |
 | **Gear EP** | 6,000 - None |
+| **Attack damage** | 10 (5 one-handed) |
+| **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
+| **Critical chance** | +0.1% |
+| **Tier** | Iron |
+| **Durability** | 250 |
 
 </div>
+
+## What it does
+
+A Iron spear you can hold in one or both hands. Two-handed it deals **10** attack damage at **1.4** attack speed; one-handed **5** damage at **1** speed. It also has +2 blocks of reach, +0.1% critical hit chance and no sweeping attack. Durability: **250**. It is made at the Smithing Bench.
 
 ## Obtaining
 

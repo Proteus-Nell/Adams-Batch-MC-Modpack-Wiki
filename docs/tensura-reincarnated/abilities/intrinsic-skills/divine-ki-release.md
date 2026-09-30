@@ -49,6 +49,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Alternative, Proxy Rights ｣](../../../tr-nightmares/abilities/ultimate-skills/alternative.md)
 
 ## Stats (config defaults)

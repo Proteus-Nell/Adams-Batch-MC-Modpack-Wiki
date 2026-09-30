@@ -29,6 +29,10 @@ Enabled
 
 Night Vision: ?
 
+## What it does
+
+Used to make [Promise of the Earth](../rings/earth-promise.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

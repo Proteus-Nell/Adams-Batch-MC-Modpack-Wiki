@@ -19,6 +19,10 @@
 
 Consume to obtain +1 Ring Slot permanently.
 
+## What it does
+
+Food.
+
 ## Tags
 
 `c:foods/fruit`

@@ -18,6 +18,10 @@
 
 Crystal-veined deepslate. Stacked into the Awakening Altar pillars beneath the magisteel caps.
 
+## What it does
+
+Building block.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

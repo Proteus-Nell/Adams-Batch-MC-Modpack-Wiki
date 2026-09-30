@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Etherium Ingot](../materials/etherium-ingot.md). It is smelted in a blast furnace and dropped when you break [Etherium Ore](../../blocks/etherium-ore.md).
+
 ## Obtaining
 
 ### Recipes

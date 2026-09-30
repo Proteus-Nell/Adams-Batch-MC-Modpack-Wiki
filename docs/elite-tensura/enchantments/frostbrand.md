@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A weapon **engraving**: each hit gives the target Slowness (level I at Frostbrand I, up to IV), lasting 3 seconds +1 per level.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

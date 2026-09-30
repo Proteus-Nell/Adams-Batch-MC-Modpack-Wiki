@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A straw training dummy (two blocks tall). You can hit it as much as you like: after each hit it shows the total damage dealt in your action bar. It's the job site of Tensura's **Battlewill Trainer** profession.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

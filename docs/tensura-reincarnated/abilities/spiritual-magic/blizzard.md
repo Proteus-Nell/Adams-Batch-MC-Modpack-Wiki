@@ -40,6 +40,7 @@
 ## Related
 
 - **Effects:** [Chill](../../effects/chill.md)
+- **Summons / entities:** Ice Lance
 - **Referenced by:** [Ice Blizzard](../aspectual-magic/ice-blizzard.md), [Kyurem](../../../tensura-mysticism/abilities/unique-skills/kyurem.md)
 
 ## Stats (config defaults)

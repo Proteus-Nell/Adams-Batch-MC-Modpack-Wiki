@@ -1,18 +1,29 @@
 # Arch Daemon
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:arch_daemon` |
+| **Type** | Monster |
+| **Health** | 150 |
+| **Attack damage** | 50 |
+| **Armor** | 25 |
+| **Speed** | 0.3 |
+| **Knockback resistance** | 0.6 |
 | **Magicule (EP)** | 80,000 - 140,000 |
 | **Aura** | 500 - 1,000 |
 | **Spiritual health** | 2,000 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Arch Daemon Spawn Egg](../items/spawn-eggs/arch-daemon-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **150** health, **50** attack damage and **80,000-140,000** magicule. Spawns naturally in Arch Daemon Spawn. It has 12 skills you can take from it with Predator-type skills. Drops [Daemon Essence](../items/materials/daemon-essence.md).
 
 ## Abilities
 
@@ -35,7 +46,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:arch_daemon_spawn` | 1 | 1-1 |
+| Underworld Barrens, Underworld Red Sands, Underworld Sands, Underworld Spikes | 1 | 1-1 |
 
 ## Drops
 

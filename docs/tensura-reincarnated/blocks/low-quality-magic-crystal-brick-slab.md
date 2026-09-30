@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Low Quality Magic Crystal Bricks](low-quality-magic-crystal-bricks.md). Used to make [Chiseled Low Quality Magic Crystal Bricks](chiseled-low-quality-magic-crystal-bricks.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

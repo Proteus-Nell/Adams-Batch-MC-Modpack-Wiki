@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Tome of Divination](../books/bless-amplifier.md), [Holy Stone](../misc/bless-stone.md), [Ichor Spear](../tools/ichor-spear.md), [Ichoroot](../food/ichoroot.md), [Ode to Living Beings](../books/ode-to-living.md) and 4 more. It is dropped by [Purified Ichor Spirit](../../mobs/ichor-sprite.md), [Piglin Wanderer](../../mobs/piglin-wanderer.md) and Ghast Addon and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

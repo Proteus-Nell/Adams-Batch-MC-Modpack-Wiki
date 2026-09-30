@@ -11,6 +11,10 @@
 
 </div>
 
+## What it does
+
+Black Paralysis. It's labelled beneficial but works as a debuff. Per level: **-30%** movement speed, **-20%** attack speed, **-20%** armor and **-0.3** block break speed. At level II and higher it also stops you sprinting. Having Abnormal Condition Resistance toggled on lowers its level by one. Black Flame Thunder's touch attack inflicts it on mobs.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

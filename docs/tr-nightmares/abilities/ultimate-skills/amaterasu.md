@@ -54,6 +54,7 @@
 
 - **Related skills:** [Commander](../../../tensura-reincarnated/abilities/unique-skills/commander.md), [Haze](../../../tensura-reincarnated/abilities/battlewill/haze.md), [Heat Wave](../../../tensura-reincarnated/abilities/extra-skills/heat-wave.md)
 - **Effects:** [Inspiration](../../../tensura-reincarnated/effects/inspiration.md), [Black Burn](../../../tensura-reincarnated/effects/black-burn.md)
+- **Summons / entities:** Tensura, Trnightmare
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

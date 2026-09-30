@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Iron Sickle](../tools/iron-sickle.md), [Iron Great Sword](../weapons/iron-great-sword.md), [Iron Katana](../weapons/iron-katana.md), [Iron Kodachi](../weapons/iron-kodachi.md), [Iron Long Sword](../weapons/iron-long-sword.md), [Iron Odachi](../weapons/iron-odachi.md) and 5 more. It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

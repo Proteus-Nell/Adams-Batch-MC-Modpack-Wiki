@@ -12,3 +12,7 @@
 | **Type** | Neutral |
 
 </div>
+
+## What it does
+
+Physical hits can't deal you more than **1** damage each. Anti-Shock Area (aspectual magic) gives it to everything inside the area.

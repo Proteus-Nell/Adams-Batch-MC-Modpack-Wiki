@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:divine_angel` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Holy |
 | **Aura** | 300 - 600 |

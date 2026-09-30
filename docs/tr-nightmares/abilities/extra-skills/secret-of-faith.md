@@ -34,3 +34,7 @@
 | Attribute | Amount | Operation |
 |---|---|---|
 | attr | 1 | add |
+
+## Related
+
+- **Summons / entities:** Trnightmare

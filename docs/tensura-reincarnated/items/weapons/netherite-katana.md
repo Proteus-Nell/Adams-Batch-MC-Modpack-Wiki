@@ -11,8 +11,18 @@
 | **ID** | `tensura:netherite_katana` |
 | **Category** | Weapons |
 | **Fire resistant** | Yes |
+| **Attack damage** | 9 (8 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
+| **Tier** | Netherite |
+| **Durability** | 2,031 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **9** attack damage at **1.8** attack speed; one-handed **8** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **2,031**. It is made at a smithing table.
 
 ## Obtaining
 

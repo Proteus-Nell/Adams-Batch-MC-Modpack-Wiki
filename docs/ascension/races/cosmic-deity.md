@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:cosmic_deity` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Holy |
 | **Aura** | 300 - 600 |

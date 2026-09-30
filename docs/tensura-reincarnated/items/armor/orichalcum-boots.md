@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Boots](hihiirokane-boots.md) |
+| **Armor** | 6 |
+| **Armor toughness** | 6 |
+| **Knockback resistance** | 40% |
+| **Durability** | 650 |
 
 </div>
+
+## What it does
+
+Orichalcum armor for the boots slot: **6** armor, **6** toughness and **40%** knockback resistance. Durability: **650**. It is made at the Smithing Bench.
 
 ## Obtaining
 

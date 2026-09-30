@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+The past buried with you. Per level: **-85%** attack speed and **-75%** chant speed. Nothing in the current version of the mod applies it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

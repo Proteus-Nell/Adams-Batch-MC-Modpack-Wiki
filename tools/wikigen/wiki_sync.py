@@ -27,6 +27,42 @@ from .mods import MODS, GROUPS
 LINK = re.compile(r"(!?)\[((?:[^\[\]]|\[[^\]]*\])*)\]\(([^)\s]+)(\s+\"[^\"]*\")?\)")
 
 
+FILTER_BLOCK = re.compile(r'^<div class="filter-table" data-filter="([^"]+)" data-order="([^"]*)" markdown>\n(.*?)\n</div>\n', re.S | re.M)
+SECTION_NAMES = {"Starting": "Starting races", "In-between": "In-between races", "Final": "Final evolutions"}
+
+
+def split_filter_table(col: str, order: str, body: str) -> str:
+    """The website filters these tables with JavaScript, which the Wiki tab can't run,
+    so there the table is split into one section per filter value instead."""
+    lines = [l for l in body.strip().split("\n") if l.startswith("|")]
+    if len(lines) < 3:
+        return body + "\n"
+    head, sep, rows = lines[0], lines[1], lines[2:]
+    cols = [c.strip() for c in head.strip("|").split("|")]
+    if col not in cols:
+        return body + "\n"
+    ci = cols.index(col)
+    values = [v for v in order.split(",") if v]
+    groups = {}
+    for row in rows:
+        row = re.sub(r"<span[^>]*>(.*?)</span>", r"\1", row)
+        cells = row.strip("|").split("|")
+        vals = [v.strip() for v in cells[ci].split("/") if v.strip()] if ci < len(cells) else []
+        for v in vals:
+            if v not in values:
+                values.append(v)
+            groups.setdefault(v, []).append(row)
+    out = []
+    jump = [(SECTION_NAMES.get(v, v), len(groups[v])) for v in values if groups.get(v)]
+    out.append("Jump to: " + " &middot; ".join("[%s (%d)](#%s)" % (t, n, re.sub(r"[^a-z0-9 -]", "", t.lower()).replace(" ", "-")) for t, n in jump))
+    out.append("")
+    for v in values:
+        if not groups.get(v):
+            continue
+        out += ["## %s" % SECTION_NAMES.get(v, v), "", head, sep] + groups[v] + [""]
+    return "\n".join(out) + "\n"
+
+
 def title_of(md: str, fallback: str) -> str:
     for line in md.splitlines():
         if line.startswith("# "):
@@ -120,6 +156,7 @@ class WikiBuilder:
                 return text
             return "[%s](%s%s)" % (text, name, ("#" + anchor) if anchor else "")
 
+        md = FILTER_BLOCK.sub(lambda m: split_filter_table(m.group(1), m.group(2), m.group(3)), md)
         out = []
         in_fence = False
         for line in md.split("\n"):

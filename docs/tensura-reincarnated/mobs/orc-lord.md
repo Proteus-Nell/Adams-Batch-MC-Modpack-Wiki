@@ -1,17 +1,28 @@
 # Orc Lord
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:orc_lord` |
+| **Type** | Monster |
+| **Health** | 200 |
+| **Attack damage** | 30 |
+| **Speed** | 0.15 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 80,000 - 90,000 |
 | **Spiritual health** | 1,000 |
+| **Hitbox** | 1.5 x 4 blocks |
 | **Spawn egg** |  [Orc Lord Spawn Egg](../items/spawn-eggs/orc-lord-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **200** health, **30** attack damage and **80,000-90,000** magicule. It has 5 skills you can take from it with Predator-type skills. Drops [Bone](https://minecraft.wiki/w/Bone), [Porkchop](https://minecraft.wiki/w/Porkchop) and [Royal Blood](../items/miscellaneous/royal-blood.md).
 
 ## Abilities
 

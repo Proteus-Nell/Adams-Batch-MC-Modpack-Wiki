@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 8,000 - 80,000 |
 | **Evolves into** | [Monster Leather Leggings (Special A)](monster-leather-leggings-special-a.md) |
+| **Armor** | 7 |
+| **Armor toughness** | 4 |
+| **Knockback resistance** | 40% |
 
 </div>
+
+## What it does
+
+Monster Leather A armor for the leggings slot: **7** armor, **4** toughness and **40%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

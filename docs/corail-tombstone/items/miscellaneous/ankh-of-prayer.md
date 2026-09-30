@@ -21,6 +21,10 @@ It doesn't appear to be the right time to pray %s
 
 Hold right click near a decorative grave to pray
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

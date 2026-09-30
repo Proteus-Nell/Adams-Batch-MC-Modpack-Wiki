@@ -53,7 +53,7 @@
 ## Related
 
 - **Related skills:** [Designer](../unique-skills/designer.md), [Darkness Cannon](../../../tensura-reincarnated/abilities/spiritual-magic/darkness-cannon.md)
-- **Summons / entities:** Holy Cannon Projectile
+- **Summons / entities:** Tensura, Holy Cannon Projectile
 - **Referenced by:** [｢ Astaroth, King of Fallen ｣](astaroth.md)
 
 ## Stats (config defaults)

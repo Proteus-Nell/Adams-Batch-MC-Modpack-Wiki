@@ -1,18 +1,29 @@
 # Knight Spider
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:knight_spider` |
+| **Type** | Monster |
+| **Health** | 90 |
+| **Attack damage** | 22 |
+| **Armor** | 8 |
+| **Speed** | 0.35 |
+| **Knockback resistance** | 0.9 |
 | **Magicule (EP)** | 5,000 - 6,500 |
 | **Aura** | 4,000 - 4,500 |
 | **Spiritual health** | 180 |
+| **Hitbox** | 5 x 3.75 blocks |
 | **Spawn egg** |  [Knight Spider Spawn Egg](../items/spawn-eggs/knight-spider-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **90** health, **22** attack damage and **5,000-6,500** magicule. Spawns naturally in Knight Spider Spawn. It has 1 skill you can take from it with Predator-type skills. Drops [Knight Spider Carapace](../items/miscellaneous/knight-spider-carapace.md) and [Knight Spider Leg](../items/miscellaneous/knight-spider-leg.md).
 
 ## Abilities
 
@@ -24,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:knight_spider_spawn` | 80 | 1-1 |
+| Is Badlands, Is Desert, Barren Land, Desert of Death | 80 | 1-1 |
 
 ## Drops
 

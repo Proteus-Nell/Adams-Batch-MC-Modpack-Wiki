@@ -11,8 +11,16 @@
 | **ID** | `tensura:ant_carapace_leggings` |
 | **Category** | Armor |
 | **Gear EP** | 3,000 - None |
+| **Armor** | 5 |
+| **Armor toughness** | 2 |
+| **Knockback resistance** | 10% |
+| **Durability** | 510 |
 
 </div>
+
+## What it does
+
+Ant Carapace armor for the leggings slot: **5** armor, **2** toughness and **10%** knockback resistance. Durability: **510**. It is made at the Smithing Bench.
 
 ## Obtaining
 

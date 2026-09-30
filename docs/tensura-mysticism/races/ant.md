@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:ant` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,000 - 2,000 |

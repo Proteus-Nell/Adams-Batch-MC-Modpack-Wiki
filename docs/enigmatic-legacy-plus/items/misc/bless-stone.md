@@ -31,6 +31,10 @@ Only those who bear the Seven Curses
 
 hold power to obtain and use this item.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

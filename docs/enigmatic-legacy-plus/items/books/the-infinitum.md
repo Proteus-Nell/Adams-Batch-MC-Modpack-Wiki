@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_infinitum` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 16 |
+| **Attack speed** | 2 |
 
 </div>
 
@@ -49,6 +51,10 @@ The abyss returns even the boldest gaze.
 The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
+
+## What it does
+
+A weapon that deals **16** attack damage at **2** attack speed. It is made at the Crafting (cursed).
 
 ## Obtaining
 

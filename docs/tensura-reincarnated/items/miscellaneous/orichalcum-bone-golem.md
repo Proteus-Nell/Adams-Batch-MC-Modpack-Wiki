@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+Places a **Bone Golem** of this metal where you click (sneak while placing it and it floats instead of falling). A bone golem is a posable body, like an armor stand: sneak + right-click cycles its pose, and it can hold gear. Its EP and stats depend on the metal. Spirits can take it over with the [Possession](../../abilities/intrinsic-skills/possession.md) skill. Two quick hits break it and drop the item again.
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

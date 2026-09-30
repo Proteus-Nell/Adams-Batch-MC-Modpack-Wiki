@@ -13,8 +13,17 @@
 | **Durability** | 3,964 |
 | **Fire resistant** | Yes |
 | **Gear EP** | 60,000 - None |
+| **Attack damage** | 15 |
+| **Attack speed** | 1 |
+| **Sweep damage** | -100% |
 
 </div>
+
+## What it does
+
+A massive shield made from Charybdis scales (3,964 durability, doesn't burn). Hold right-click to block, and it hits hard as a weapon. Repair it with Charybdis Scales.
+
+A weapon that deals **15** attack damage at **1** attack speed. It also has no sweeping attack. It is made at the Smithing Bench.
 
 ## Obtaining
 

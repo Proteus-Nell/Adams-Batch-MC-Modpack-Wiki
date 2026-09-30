@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Axe](hihiirokane-axe.md) |
+| **Attack damage** | 32 |
+| **Attack speed** | 1.1 |
+| **Tier** | Orichalcum |
+| **Durability** | 2,800 |
 
 </div>
+
+## What it does
+
+A axe that deals **32** attack damage at **1.1** attack speed. Durability: **2,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

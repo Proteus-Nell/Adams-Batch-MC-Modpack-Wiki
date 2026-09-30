@@ -11,6 +11,9 @@
 | **ID** | `enigmaticlegacyplus:etherium_hammer` |
 | **Category** | Etherium |
 | **Fire resistant** | Yes |
+| **Attack damage** | 15 |
+| **Attack speed** | 1 |
+| **Durability** | 2,794 |
 
 </div>
 
@@ -23,6 +26,10 @@ Hold Shift to suppress this effect.
 Shift and Right-click to toggle this effect.
 
 Enhancement: Can cause area damage.
+
+## What it does
+
+A hammer that deals **15** attack damage at **1** attack speed. Durability: **2,794**. It is crafted.
 
 ## Obtaining
 

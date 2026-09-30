@@ -38,6 +38,10 @@ key while in mid-air.
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [Gift of the Heaven](../scrolls/heaven-scroll.md), [Majestic Elytra](../tools/majestic-elytra.md) and [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

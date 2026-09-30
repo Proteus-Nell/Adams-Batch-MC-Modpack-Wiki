@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Andesite Warp Pad](../../blocks/andesite-warp-pad.md), [Basalt Warp Pad](../../blocks/basalt-warp-pad.md), [Blackstone Warp Pad](../../blocks/blackstone-warp-pad.md), [Brick Warp Pad](../../blocks/brick-warp-pad.md), [Calcite Warp Pad](../../blocks/calcite-warp-pad.md) and 16 more. It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

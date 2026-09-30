@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Serpent Scalemail Boots](../armor/serpent-scalemail-boots.md), [Serpent Scalemail Chestplate](../armor/serpent-scalemail-chestplate.md), [Serpent Scalemail Helmet](../armor/serpent-scalemail-helmet.md) and [Serpent Scalemail Leggings](../armor/serpent-scalemail-leggings.md). It is dropped by [Tempest Serpent](../../mobs/tempest-serpent.md).
+
 ## Obtaining
 
 ### Loot

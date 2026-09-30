@@ -49,7 +49,8 @@
 ## Related
 
 - **Effects:** [Intangible](../../effects/intangible.md)
-- **Items:** [Severer Blade](../../../tensura-reincarnated/items/weapons/severer-blade.md)
+- **Items:** [Severer Blade](../../../tensura-reincarnated/items/weapons/severer-blade.md), [Kunai](../../../tensura-reincarnated/items/weapons/kunai.md)
+- **Summons / entities:** Kamui Portal, Web Bullet, Severer Blade, Spear
 
 ## Stats (config defaults)
 

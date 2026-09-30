@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Gear EP** | 225,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Sword](hihiirokane-sword.md) |
+| **Attack damage** | 50 |
+| **Attack speed** | 1.6 |
+| **Tier** | Adamantite |
+| **Durability** | 3,200 |
 
 </div>
+
+## What it does
+
+A sword that deals **50** attack damage at **1.6** attack speed. Durability: **3,200**. It is made at the Smithing Bench.
 
 ## Obtaining
 

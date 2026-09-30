@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Ethereal Lantern](../../blocks/ethereal-lantern.md), [Etherium Ingot](etherium-ingot.md), [Starlight Ingot](starlight-ingot.md) and [Pearl of the Void](../spellstones/void-pearl.md). It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

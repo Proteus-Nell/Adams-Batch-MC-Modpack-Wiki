@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Pale sand that falls like normal sand. Liquidize magic turns it into [Sarasa Quicksand](sarasa-quicksand.md).
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

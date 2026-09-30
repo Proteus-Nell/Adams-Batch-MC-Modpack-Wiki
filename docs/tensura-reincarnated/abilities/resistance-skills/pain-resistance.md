@@ -39,6 +39,7 @@
 ## Related
 
 - **Related skills:** [Pain Nullification](pain-nullification.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Projection Sorcery](../../../tr-nightmares/abilities/unique-skills/projection-sorcery.md)
 
 ## Stats (config defaults)

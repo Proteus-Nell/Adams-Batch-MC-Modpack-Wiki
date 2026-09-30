@@ -11,8 +11,16 @@
 | **ID** | `tensura:armorsaurus_scalemail_boots` |
 | **Category** | Armor |
 | **Gear EP** | 6,000 - None |
+| **Armor** | 4 |
+| **Armor toughness** | 3 |
+| **Knockback resistance** | 40% |
+| **Durability** | 494 |
 
 </div>
+
+## What it does
+
+Armorsaurus Scalemail armor for the boots slot: **4** armor, **3** toughness and **40%** knockback resistance. Durability: **494**. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+**Wayfinder of the Damned.** While you carry it, it points to the nearest of your lost Soul Crystals. It spins aimlessly in a Soul Sand Valley or if you can't use it (it's a cursed item).
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

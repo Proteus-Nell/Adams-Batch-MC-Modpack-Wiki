@@ -29,6 +29,7 @@
 ## Related
 
 - **Effects:** [Paralysis](../../effects/paralysis.md)
+- **Summons / entities:** [Evil Centipede](../../mobs/evil-centipede.md)
 
 ## Stats (config defaults)
 

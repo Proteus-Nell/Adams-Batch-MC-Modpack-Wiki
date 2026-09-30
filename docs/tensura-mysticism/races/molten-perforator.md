@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:molten_perforator` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 4,500 - 5,500 |

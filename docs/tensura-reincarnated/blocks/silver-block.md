@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Storage block: nine [Silver Ingot](../items/materials/silver-ingot.md) packed into one block. Used to make [Silver Ingot](../items/materials/silver-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

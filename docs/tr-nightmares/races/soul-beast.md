@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:soul_beast` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 360,000 - 650,000 |
@@ -26,6 +27,7 @@
 - **Evolves from:** [Ninetail](ninetail.md)
 - **Evolves into:** [Divine Fox](divine-fox.md)
 - **Default evolution:** [Divine Fox](divine-fox.md)
+- **During the Harvest Festival:** [Divine Fox](divine-fox.md)
 
 ### Requirements to evolve into Soul Beast
 

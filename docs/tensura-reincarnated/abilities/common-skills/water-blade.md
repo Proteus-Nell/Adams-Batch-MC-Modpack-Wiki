@@ -34,6 +34,7 @@
 ## Related
 
 - **Related skills:** [Hydraulic Propulsion](hydraulic-propulsion.md)
+- **Summons / entities:** [Water Blade](water-blade.md)
 
 ## Stats (config defaults)
 

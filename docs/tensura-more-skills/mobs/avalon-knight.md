@@ -19,3 +19,7 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+A passive mob with **600** health and **32** attack damage.

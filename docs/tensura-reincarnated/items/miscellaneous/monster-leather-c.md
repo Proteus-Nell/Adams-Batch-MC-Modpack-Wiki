@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Golden Horse Armor](https://minecraft.wiki/w/Golden_Horse_Armor), [Coin Pouch (C)](pouch-c.md), [Bat Glider](bat-glider.md), [High Magisteel Chestplate](../armor/high-magisteel-chestplate.md), [High Magisteel Leggings](../armor/high-magisteel-leggings.md) and 6 more. It is dropped by [Barghest](../../mobs/barghest.md), [Direwolf](../../mobs/direwolf.md), [Giant Bear](../../mobs/giant-bear.md), [Horned Bear](../../mobs/horned-bear.md) and 4 more.
+
 ## Obtaining
 
 ### Loot

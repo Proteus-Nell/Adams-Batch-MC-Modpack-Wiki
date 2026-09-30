@@ -18,6 +18,10 @@
 
 Extends effect range to a 5x5 chunk area.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Time borrowed from you. Per level: **-65%** magicule, aura and spiritual health regeneration. Istaroth's Borrowed Seconds inflicts it.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

@@ -54,7 +54,7 @@
 ## Related
 
 - **Related skills:** [Molecular Manipulation](molecular-manipulation.md), [Wind Domination](wind-domination.md), [Wind Manipulation](wind-manipulation.md)
-- **Summons / entities:** Death Tornado
+- **Summons / entities:** Black Lightning Blast, Black Lightning Bolt, Death Tornado
 - **Referenced by:** [Black Flame](black-flame.md), [Black Flame Thunder](../../../tr-nightmares/abilities/intrinsic-skills/black-flame-thunder.md)
 
 ## Stats (config defaults)

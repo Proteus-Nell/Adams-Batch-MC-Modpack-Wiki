@@ -38,6 +38,7 @@
 
 ## Related
 
+- **Related skills:** [Fire Bolt](../spiritual-magic/fire-bolt.md)
 - **Referenced by:** [Fire Ball](fire-ball.md)
 
 ## Stats (config defaults)

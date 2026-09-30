@@ -33,6 +33,10 @@
 - Charged or channelled by holding the skill key
 - Triggers when the held key is released
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ascension-skills.toml`](../../configs/config-tensura-ascension-skills.md).

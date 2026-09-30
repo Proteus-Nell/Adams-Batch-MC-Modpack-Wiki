@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+A weapon **engraving**: **+0.75 attack damage per level**.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

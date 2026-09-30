@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **1** hunger (0.5 shanks) and **1.4** saturation. Used to make [Cooked Spear Toro Fin](cooked-spear-toro-fin.md), [Dubious Food](dubious-food.md) and [Speared Fin Arrow](speared-fin-arrow.md). It is dropped by [Spear Toro](../../mobs/spear-toro.md).
+
 ## Obtaining
 
 ### Loot

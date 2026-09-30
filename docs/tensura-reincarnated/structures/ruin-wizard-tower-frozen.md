@@ -8,13 +8,19 @@
 |---|---|
 | **ID** | `tensura:ruin/wizard_tower/frozen` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:is_cold` |
+| **Biomes** | Is Cold, Ice Spikes |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 60 / 20 chunks |
 | **Terrain adaptation** | beard_thin |
 | **Size (jigsaw depth)** | 1 |
 
 </div>
+
+## What it does
+
+A ruined **wizard tower**. Each variant (buried, burnt, frozen, rotted or ruined) has its own loot chest.
+
+Generates in Is Cold, Ice Spikes, about one every 60 chunks (at least 20 chunks apart).
 
 ## Loot
 

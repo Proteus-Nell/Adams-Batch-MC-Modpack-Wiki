@@ -36,6 +36,7 @@
 ## Related
 
 - **Related skills:** [Burden](../aspectual-magic/burden.md)
+- **Summons / entities:** Magma Shot
 
 ## Stats (config defaults)
 

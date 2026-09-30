@@ -1,18 +1,28 @@
 # Kyoya Tachibana
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:kyoya_tachibana` |
+| **Type** | Monster |
+| **Health** | 200 |
+| **Attack damage** | 5 |
+| **Armor** | 5 |
+| **Speed** | 0.25 |
 | **Magicule (EP)** | 30,000 - 35,000 |
 | **Aura** | 50,000 - 55,000 |
 | **Spiritual health** | 1,000 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Kyoya Tachibana Spawn Egg](../items/spawn-eggs/kyoya-tachibana-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **200** health, **5** attack damage and **30,000-35,000** magicule. Spawns naturally in Otherworlder Spawn. It has 3 skills you can take from it with Predator-type skills. Drops [Spatial Blade Schematic](../items/schematics/spatial-blade-schematic.md).
 
 ## Abilities
 
@@ -26,7 +36,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:otherworlder_spawn` | 5 | 1-1 |
+| Is Badlands, Is Desert, Is Mountain, Is Plains, Is Savanna, Barren Land, Desert of Death | 5 | 1-1 |
 
 ## Drops
 

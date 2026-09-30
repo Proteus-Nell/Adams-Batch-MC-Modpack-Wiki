@@ -15,6 +15,12 @@
 
 </div>
 
+## What it does
+
+A drink version of the Forbidden Fruit, only enabled when the Thirst mod is installed. You can only drink it once: afterwards you're marked as cursed by it and can't drink another.
+
+Edible, but it doesn't fill you up. Eating it gives [Wither](https://minecraft.wiki/w/Wither) IV for 20 s, [Nausea](https://minecraft.wiki/w/Nausea) III for 20 s, [Weakness](https://minecraft.wiki/w/Weakness) IV for 24 s and [Slowness](https://minecraft.wiki/w/Slowness) III for 32 s. It is made at the Shapeless No Remain.
+
 ## Obtaining
 
 ### Recipes

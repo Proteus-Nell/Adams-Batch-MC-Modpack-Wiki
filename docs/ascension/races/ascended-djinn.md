@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:ascended_djinn` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Holy |
 | **Aura** | 300 - 300 |

@@ -41,6 +41,7 @@
 ## Related
 
 - **Related skills:** [Water Domination](water-domination.md)
+- **Summons / entities:** Tensura, Water Blow, Water Ball
 - **Referenced by:** [Water Domination](water-domination.md), [Weather Manipulation](weather-manipulation.md), [Water Blessing](../../../tr-nightmares/abilities/extra-skills/water-blessing.md)
 
 ## Stats (config defaults)

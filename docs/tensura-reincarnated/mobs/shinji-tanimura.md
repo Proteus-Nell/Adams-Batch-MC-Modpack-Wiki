@@ -1,18 +1,28 @@
 # Shinji Tanimura
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:shinji_tanimura` |
+| **Type** | Monster |
+| **Health** | 400 |
+| **Attack damage** | 10 |
+| **Armor** | 10 |
+| **Speed** | 0.2 |
 | **Magicule (EP)** | 70,000 - 80,000 |
 | **Aura** | 50,000 - 60,000 |
 | **Spiritual health** | 1,000 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Shinji Tanimura Spawn Egg](../items/spawn-eggs/shinji-tanimura-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **400** health, **10** attack damage and **70,000-80,000** magicule. It has 1 skill you can take from it with Predator-type skills. Drops [High Potion](../items/potions/high-potion.md).
 
 ## Abilities
 

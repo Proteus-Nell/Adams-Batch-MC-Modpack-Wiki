@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:lizardman` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 600 - 800 |

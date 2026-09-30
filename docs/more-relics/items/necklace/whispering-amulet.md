@@ -20,8 +20,6 @@ The Lantern
 
 ## Relic abilities
 
-Relic levelling: up to level **0**, first level costs **?** XP, +? XP per level.
-
 > Tendrils of pure light unfurl from the amulet, twisting and thrashing with frantic energy as if they are reaching for something just beyond the veil, a place they desperately seek.
 
 ### Together We Will Reach Beyond

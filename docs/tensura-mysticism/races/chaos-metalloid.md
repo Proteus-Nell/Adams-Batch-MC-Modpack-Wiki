@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:chaos_metalloid` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 1,005,000 - 1,010,000 |

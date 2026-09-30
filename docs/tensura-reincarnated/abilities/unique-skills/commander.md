@@ -50,6 +50,7 @@
 ## Related
 
 - **Effects:** [Inspiration](../../effects/inspiration.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Alteration](../../../tr-nightmares/abilities/extra-skills/alteration.md), [｢ Amaterasu, Lord of Shimmering Flames ｣](../../../tr-nightmares/abilities/ultimate-skills/amaterasu.md)
 
 ## Stats (config defaults)

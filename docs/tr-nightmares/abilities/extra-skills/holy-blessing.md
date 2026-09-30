@@ -27,6 +27,7 @@
 ## Related
 
 - **Related skills:** [Holy Magic Release](../intrinsic-skills/holy-magic-release.md)
+- **Summons / entities:** Trnightmare
 
 ## Tags
 

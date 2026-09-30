@@ -39,6 +39,7 @@
 ## Related
 
 - **Related skills:** [Wind Cutter](wind-cutter.md)
+- **Summons / entities:** Wind Tornado
 
 ## Stats (config defaults)
 

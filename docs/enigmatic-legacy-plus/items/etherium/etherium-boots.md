@@ -20,6 +20,10 @@ Invisible while worn.
 
 Enhancement: Get additional resistance when equipped in set.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

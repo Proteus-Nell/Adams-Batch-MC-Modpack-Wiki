@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:chaos_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 6,000 - 6,000 |
@@ -74,9 +75,6 @@ Granted automatically when you become this race.
 - ![](../../assets/icons/tensura/skill/space_transform.png) [Space Transform](../../tensura-reincarnated/abilities/intrinsic-skills/space-transform.md)
 - ![](../../assets/icons/tensura/skill/dragon_eye.png) [Dragon Eye](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-eye.md)
 - ![](../../assets/icons/tensura/skill/dragon_ear.png) [Dragon Ear](../../tensura-reincarnated/abilities/intrinsic-skills/dragon-ear.md)
-- ![](../../assets/icons/tensura/skill/flame_breath.png) [Flame Breath](../../tensura-reincarnated/abilities/intrinsic-skills/flame-breath.md)
-- ![](../../assets/icons/tensura/skill/ice_breath.png) [Ice Breath](../../tensura-reincarnated/abilities/intrinsic-skills/ice-breath.md)
-- ![](../../assets/icons/tensura/skill/thunder_breath.png) [Thunder Breath](../../tensura-reincarnated/abilities/intrinsic-skills/thunder-breath.md)
 - ![](../../assets/icons/tensura/skill/magic_resistance.png) [Magic Resistance](../../tensura-reincarnated/abilities/resistance-skills/magic-resistance.md)
 - ![](../../assets/icons/tensura/skill/scale_armor.png) [Scale Armor](../../tensura-reincarnated/abilities/intrinsic-skills/scale-armor.md)
 

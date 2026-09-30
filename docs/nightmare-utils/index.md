@@ -21,7 +21,7 @@ Library mod (Nightmare's Tensura Utils) used by TR: Nightmares. Adds the Mimicry
 | Section | Entries |
 |---|---|
 | [Abilities](abilities/index.md) | 11 |
-| [Mobs](mobs/index.md) | 2 |
+| [Mobs](mobs/index.md) | 4 |
 | [Mechanics](mechanics/index.md) | guide |
 | [Commands](commands/index.md) | 33 |
 

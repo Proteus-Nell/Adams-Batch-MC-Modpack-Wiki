@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:magma_worm` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 75,000 - 75,000 |

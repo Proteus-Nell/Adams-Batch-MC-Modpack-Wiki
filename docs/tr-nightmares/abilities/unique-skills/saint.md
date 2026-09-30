@@ -51,6 +51,7 @@
 ## Related
 
 - **Effects:** [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
+- **Summons / entities:** Disintegration
 - **Referenced by:** [Secret of Grace](../extra-skills/secret-of-grace.md), [｢ Metatron, Lord of Purity ｣](../ultimate-skills/metatron.md)
 
 ## Stats (config defaults)

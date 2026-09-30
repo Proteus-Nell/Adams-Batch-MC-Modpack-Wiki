@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:axolotl_steel_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 500 - 500 |

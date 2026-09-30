@@ -10,8 +10,19 @@
 |---|---|
 | **ID** | `tensura:diamond_scythe` |
 | **Category** | Weapons |
+| **Attack damage** | 9 (8 one-handed) |
+| **Attack speed** | 0.8 (0.6 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | +75% (+50% one-handed) |
+| **Critical chance** | +50% |
+| **Tier** | Diamond |
+| **Durability** | 1,561 |
 
 </div>
+
+## What it does
+
+A scythe you can hold in one or both hands. Two-handed it deals **9** attack damage at **0.8** attack speed; one-handed **8** damage at **0.6** speed. It also has +2 blocks of reach, +50% critical hit chance and 75% sweeping damage. Durability: **1,561**. It is made at the Smithing Bench.
 
 ## Obtaining
 

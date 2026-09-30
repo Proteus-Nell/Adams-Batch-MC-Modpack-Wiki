@@ -18,6 +18,10 @@
 
 Boosts magicule by 200% (3x total).
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

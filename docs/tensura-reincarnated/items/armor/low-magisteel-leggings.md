@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Gear EP** | 6,000 - 18,000 |
 | **Evolves into** | [High Magisteel Leggings](high-magisteel-leggings.md) |
+| **Armor** | 6 |
+| **Armor toughness** | 2.5 |
+| **Knockback resistance** | 10% |
+| **Durability** | 525 |
 
 </div>
+
+## What it does
+
+Low Magisteel armor for the leggings slot: **6** armor, **2.5** toughness and **10%** knockback resistance. Durability: **525**. It is made at the Smithing Bench.
 
 ## Obtaining
 

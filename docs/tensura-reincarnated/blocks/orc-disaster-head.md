@@ -11,6 +11,12 @@
 
 </div>
 
+## What it does
+
+The Orc Disaster's head, dropped by [Orc Disaster](../mobs/orc-disaster.md). Place it as a trophy, or right-click to wear it as a helmet (it can be enchanted).
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

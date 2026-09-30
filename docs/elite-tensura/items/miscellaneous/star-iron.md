@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+It is dropped when you break [Starfall Ore](../../blocks/starfall-ore.md).
+
 ## Obtaining
 
 ### Loot

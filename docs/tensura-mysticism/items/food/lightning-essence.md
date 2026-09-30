@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Edible, but it doesn't fill you up. Eating it gives [Paralysis](../../../tensura-reincarnated/effects/paralysis.md) for 5 s.
+
 ## Tags
 
 `ascension:essences`, `minecraft:indestructible_by_environmental_cause`, `tensura:evolution_essences`

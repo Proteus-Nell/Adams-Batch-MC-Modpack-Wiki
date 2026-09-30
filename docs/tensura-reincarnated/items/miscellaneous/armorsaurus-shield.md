@@ -12,8 +12,17 @@
 | **Category** | Miscellaneous |
 | **Durability** | 2,000 |
 | **Gear EP** | 6,000 - None |
+| **Attack damage** | 6 |
+| **Attack speed** | 1 |
+| **Sweep damage** | -100% |
 
 </div>
+
+## What it does
+
+A heavy off-hand shield made from Armorsaurus scales (2,000 durability). Hold right-click to block. Repair it with Armorsaurus Shell or Armorsaurus Scale.
+
+A weapon that deals **6** attack damage at **1** attack speed. It also has no sweeping attack. It is made at the Smithing Bench.
 
 ## Obtaining
 

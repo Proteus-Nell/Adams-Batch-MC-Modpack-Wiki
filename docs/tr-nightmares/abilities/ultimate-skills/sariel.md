@@ -62,6 +62,7 @@
 
 - **Related skills:** [Cook](../../../tensura-reincarnated/abilities/unique-skills/cook.md), [｢ Susanoo, Lord of Tyranny ｣](susanoo.md)
 - **Effects:** [Strengthen](../../../tensura-reincarnated/effects/strengthen.md), [Haki Coat](../../../tensura-reincarnated/effects/haki-coat.md), [Hopes Gift](../../effects/hopes-gift.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Yog-Sothoth, Lord of Space-Time ｣](yog-sothoth.md), [Hopeful Manas](hopeful-manas.md)
 
 ## Stats (config defaults)

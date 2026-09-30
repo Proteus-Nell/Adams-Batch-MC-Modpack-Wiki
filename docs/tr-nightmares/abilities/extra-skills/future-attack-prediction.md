@@ -29,6 +29,7 @@
 ## Related
 
 - **Related skills:** [｢ Raphael, Lord of Knowledge ｣](../ultimate-skills/raphael-knowledge.md), [｢ Raphael, Lord of Wisdom ｣](../ultimate-skills/raphael-wisdom.md)
+- **Summons / entities:** [Hinata Sakaguchi](../../../tensura-reincarnated/mobs/hinata-sakaguchi.md)
 - **Referenced by:** [Alteration](alteration.md)
 
 ## In-game messages

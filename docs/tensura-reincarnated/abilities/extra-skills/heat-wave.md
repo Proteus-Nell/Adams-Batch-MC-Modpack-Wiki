@@ -43,6 +43,7 @@
 
 ## Related
 
+- **Summons / entities:** Heat Storm, Heat Sphere
 - **Referenced by:** [Flame Manipulation](flame-manipulation.md), [｢ Amaterasu, Lord of Shimmering Flames ｣](../../../tr-nightmares/abilities/ultimate-skills/amaterasu.md), [Phainon, The Deliverer](../../../tensura-more-skills/abilities/ultimate-skills/phainon.md)
 
 ## Stats (config defaults)

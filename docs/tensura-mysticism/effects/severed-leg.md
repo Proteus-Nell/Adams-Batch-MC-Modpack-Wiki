@@ -12,3 +12,7 @@
 | **Type** | Beneficial |
 
 </div>
+
+## What it does
+
+A severed leg, from Butcher's butchering. Your movement speed, step height and jump strength drop by **50%** at level I and to **zero** from level II.

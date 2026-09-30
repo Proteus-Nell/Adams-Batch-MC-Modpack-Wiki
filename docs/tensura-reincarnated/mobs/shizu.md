@@ -1,18 +1,29 @@
 # Shizu
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:shizu` |
+| **Type** | Monster |
+| **Health** | 60 |
+| **Attack damage** | 10 |
+| **Armor** | 5 |
+| **Speed** | 0.25 |
+| **Knockback resistance** | 0.2 |
 | **Magicule (EP)** | 50,000 - 50,000 |
 | **Aura** | 143,543 - 143,543 |
 | **Spiritual health** | 2,000 |
+| **Hitbox** | 0.6 x 1.8 blocks |
 | **Spawn egg** |  [Shizu Spawn Egg](../items/spawn-eggs/shizu-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **60** health, **10** attack damage and **50,000** magicule. It has 10 skills you can take from it with Predator-type skills. Drops [Anti-Magic Mask Schematic](../items/schematics/anti-magic-mask-schematic.md).
 
 ## Abilities
 

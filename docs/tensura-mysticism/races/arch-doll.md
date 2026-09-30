@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:arch_doll` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 45,000 - 50,000 |

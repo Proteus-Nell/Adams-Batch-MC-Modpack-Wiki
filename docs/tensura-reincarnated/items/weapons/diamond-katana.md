@@ -10,8 +10,18 @@
 |---|---|
 | **ID** | `tensura:diamond_katana` |
 | **Category** | Weapons |
+| **Attack damage** | 8 (7 one-handed) |
+| **Attack speed** | 1.8 (1.6 one-handed) |
+| **Sweep damage** | +25% |
+| **Critical chance** | +20% |
+| **Tier** | Diamond |
+| **Durability** | 1,561 |
 
 </div>
+
+## What it does
+
+A katana you can hold in one or both hands. Two-handed it deals **8** attack damage at **1.8** attack speed; one-handed **7** damage at **1.6** speed. It also has +20% critical hit chance and 25% sweeping damage. Durability: **1,561**. It is made at the Smithing Bench.
 
 ## Obtaining
 

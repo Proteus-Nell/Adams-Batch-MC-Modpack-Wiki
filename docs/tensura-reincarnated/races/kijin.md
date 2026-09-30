@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `tensura:kijin` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 5,000 - 5,000 |

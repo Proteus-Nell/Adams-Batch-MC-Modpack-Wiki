@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+Web left by a [Sticky Web Cartridge](../items/miscellaneous/sticky-web-cartridge.md). It traps anything inside almost completely and dissolves on its own after a few seconds.
+
+
+
 ## Obtaining
 
 ### Loot

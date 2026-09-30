@@ -25,6 +25,10 @@ as being in the inventory.
 
 The item still works in the Ender Chest.
 
+## What it does
+
+It is found in 2 kinds of loot chest.
+
 ## Obtaining
 
 ### Loot

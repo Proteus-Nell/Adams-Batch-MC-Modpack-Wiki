@@ -13,6 +13,10 @@
 
 </div>
 
+## What it does
+
+A hostile mob.
+
 ## Tags
 
 `tensura:ep_drop_excluded`, `tensura:ep_initiate_excluded`, `tensura:no_max_ep_plunder`, `tensura:no_mind_control`, `tensura:no_possession`, `tensura:no_skill_plunder`, `tensura:no_synthesise`, `tensura:no_tsukumogami_update`

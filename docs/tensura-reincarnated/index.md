@@ -24,7 +24,7 @@ The base mod: reincarnate as a slime, goblin, daemon and more, grow your EP, lea
 | [Races](races/index.md) | 68 |
 | [Items](items/index.md) | 566 |
 | [Blocks](blocks/index.md) | 230 |
-| [Mobs](mobs/index.md) | 206 |
+| [Mobs](mobs/index.md) | 77 |
 | [Effects](effects/index.md) | 77 |
 | [Enchantments](enchantments/index.md) | 35 |
 | [Biomes](biomes/index.md) | 8 |

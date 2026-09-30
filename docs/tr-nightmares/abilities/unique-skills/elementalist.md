@@ -43,6 +43,10 @@
 | Movement Speed | -1 | multiply total |
 | Flying Speed | -1 | multiply total |
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/nightmare/ability/skill/nightmare_unique.toml`](../../configs/config-nightmare-ability-skill-nightmare-unique.md).

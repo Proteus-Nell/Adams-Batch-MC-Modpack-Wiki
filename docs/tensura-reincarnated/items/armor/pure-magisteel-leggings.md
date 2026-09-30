@@ -13,8 +13,16 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Leggings](adamantite-leggings.md) |
+| **Armor** | 11 |
+| **Armor toughness** | 7 |
+| **Knockback resistance** | 60% |
+| **Durability** | 900 |
 
 </div>
+
+## What it does
+
+Pure Magisteel armor for the leggings slot: **11** armor, **7** toughness and **60%** knockback resistance. Durability: **900**. It is made at the Smithing Bench.
 
 ## Obtaining
 

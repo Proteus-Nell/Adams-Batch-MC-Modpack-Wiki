@@ -16,6 +16,12 @@
 
 </div>
 
+## What it does
+
+An armor **engraving**: **+25% magicule regeneration per level**.
+
+
+
 ## Effects
 
 | Component | Effect | Value |

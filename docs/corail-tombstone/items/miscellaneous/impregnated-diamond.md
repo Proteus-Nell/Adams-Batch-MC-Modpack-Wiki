@@ -11,6 +11,12 @@
 
 </div>
 
+## What it does
+
+A crafting ingredient for the [Receptacle of Familiar](receptacle-of-familiar.md).
+
+Used to make [Receptacle of Familiar](receptacle-of-familiar.md). It is crafted.
+
 ## Obtaining
 
 ### Recipes

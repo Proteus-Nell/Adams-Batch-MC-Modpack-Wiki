@@ -67,6 +67,9 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/wiki.css
 
+extra_javascript:
+  - assets/javascripts/table-filter.js
+
 validation:
   omitted_files: ignore
   absolute_links: ignore

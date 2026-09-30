@@ -32,6 +32,10 @@
 - Innate to mobs: [Evil Centipede](../../mobs/evil-centipede.md)
 - Listed in the `intrinsicSkills` config option (config/mysticism/race/wyrm_config.toml): The list of intrinsic skills that the race gets.
 
+## Related
+
+- **Summons / entities:** [Paralysing Breath](paralysing-breath.md)
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ability/skill/intrinsic_config.toml`](../../configs/config-tensura-ability-skill-intrinsic-config.md).

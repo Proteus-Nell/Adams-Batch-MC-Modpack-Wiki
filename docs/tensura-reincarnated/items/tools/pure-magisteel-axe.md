@@ -12,8 +12,16 @@
 | **Category** | Tools |
 | **Gear EP** | 52,000 - 225,000 |
 | **Evolves into** | [Adamantite Axe](adamantite-axe.md) |
+| **Attack damage** | 36 |
+| **Attack speed** | 1.2 |
+| **Tier** | Pure Magisteel |
+| **Durability** | 3,000 |
 
 </div>
+
+## What it does
+
+A axe that deals **36** attack damage at **1.2** attack speed. Durability: **3,000**. It is made at the Smithing Bench.
 
 ## Obtaining
 

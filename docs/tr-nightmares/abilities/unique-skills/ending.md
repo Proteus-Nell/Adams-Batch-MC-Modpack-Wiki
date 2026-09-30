@@ -45,6 +45,7 @@
 ## Related
 
 - **Items:** [Blade of The End](../../items/weapons/ending-unsealed-sword.md), [Blade of The End](../../items/weapons/ending-sealed-sword.md)
+- **Summons / entities:** Tensura, Disintegration
 
 ## Stats (config defaults)
 

@@ -59,7 +59,8 @@
 
 ## Related
 
-- **Related skills:** [Sunshine](../unique-skills/sunshine.md)
+- **Related skills:** [Sunshine](../unique-skills/sunshine.md), [Fire Ball](../../../tensura-reincarnated/abilities/aspectual-magic/fire-ball.md)
+- **Summons / entities:** Flame Orb
 
 ## Stats (config defaults)
 

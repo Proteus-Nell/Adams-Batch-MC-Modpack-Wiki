@@ -16,6 +16,10 @@
 
 > Reduce your defense while increasing the damage you receive.
 
+## What it does
+
+A harmful status effect. Each level changes armor -20%, armor toughness -20% and knockback resistance -20%.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

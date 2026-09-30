@@ -51,6 +51,7 @@
 
 - **Related skills:** [Confusion](../../../tensura-reincarnated/abilities/aspectual-magic/confusion.md), [Abnormal Condition Nullification](../../../tensura-reincarnated/abilities/resistance-skills/abnormal-condition-nullification.md)
 - **Effects:** [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md), [Self-Regeneration](../../../tensura-reincarnated/effects/self-regeneration.md), [Flashed Blindness](../../../tensura-reincarnated/effects/flashed-blindness.md), [Haki Coat](../../../tensura-reincarnated/effects/haki-coat.md), [Infinite Imprisonment](../../../tensura-reincarnated/effects/infinite-imprisonment.md), [Black Burn](../../../tensura-reincarnated/effects/black-burn.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Magicule Poison](../../../tensura-reincarnated/effects/magicule-poison.md), [Anti-Skill](../../../tensura-reincarnated/effects/anti-skill.md), [Spatial Blockade](../../../tensura-reincarnated/effects/spatial-blockade.md), [Energy Blockade](../../../tensura-reincarnated/effects/energy-blockade.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

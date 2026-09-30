@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+Turning to stone. Per level: **-25%** movement, swim, lava and glide speed and jump strength. At **level IV or higher** you're fully petrified: within a quarter second you take damage equal to your **max health** (can't be dodged), and the effect ends. With Abnormal Condition Resistance toggled on it counts as 2 levels lower, and if that drops it below IV the effect simply ends.
+
+Each basilisk spit adds a level. Snake Eye and Truth also petrify. Abnormal Condition Nullification, Survivor and Mammon make you immune, and basilisks can't be petrified.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

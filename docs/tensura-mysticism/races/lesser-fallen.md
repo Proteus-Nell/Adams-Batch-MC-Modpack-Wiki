@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:lesser_fallen` |
+| **Stage** | <span class="stage stage-starting">Starting</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 4,500 - 5,500 |

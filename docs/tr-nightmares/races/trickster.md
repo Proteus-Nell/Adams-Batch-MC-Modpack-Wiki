@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:trickster` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 1,000,000 |

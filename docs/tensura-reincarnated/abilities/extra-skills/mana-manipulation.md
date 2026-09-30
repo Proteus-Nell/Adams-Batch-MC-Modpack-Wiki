@@ -31,6 +31,7 @@
 ## Related
 
 - **Related skills:** [Molecular Manipulation](molecular-manipulation.md), [Magic Jamming](magic-jamming.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Law Manipulation](law-manipulation.md)
 
 ## Stats (config defaults)

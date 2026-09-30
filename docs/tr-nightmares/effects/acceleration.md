@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Doubles your attack speed. While it lasts, every hit you land teleports you straight to the creature you hit.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

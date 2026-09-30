@@ -67,6 +67,7 @@
 
 - **Related skills:** [Shadow Striker](../../../tensura-reincarnated/abilities/unique-skills/shadow-striker.md)
 - **Effects:** [Mind Control](../../../tensura-reincarnated/effects/mind-control.md), [Presence Concealment](../../../tensura-reincarnated/effects/presence-concealment.md), [Movement Interference](../../../tensura-reincarnated/effects/movement-interference.md)
+- **Summons / entities:** Tensura, Shadow Bind Hands
 - **Referenced by:** [Alteration](../extra-skills/alteration.md)
 
 ## Stats (config defaults)

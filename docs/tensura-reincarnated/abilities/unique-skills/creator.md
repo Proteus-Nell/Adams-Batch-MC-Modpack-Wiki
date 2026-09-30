@@ -39,6 +39,7 @@
 ## Related
 
 - **Effects:** [Anti-Skill](../../effects/anti-skill.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Astral Light, Lord of Creation ｣](../../../tr-nightmares/abilities/ultimate-skills/astral-light.md), [Hephaestus, Lord of Creation](../../../elite-tensura/abilities/ultimate-skills/hephaestus.md)
 
 ## Stats (config defaults)

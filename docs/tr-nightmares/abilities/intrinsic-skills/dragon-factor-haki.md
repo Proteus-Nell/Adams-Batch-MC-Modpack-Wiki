@@ -59,6 +59,7 @@
 
 - **Related skills:** [Infinite Regeneration](../../../tensura-reincarnated/abilities/extra-skills/infinite-regeneration.md), [Confusion](../../../tensura-reincarnated/abilities/aspectual-magic/confusion.md)
 - **Effects:** [Rotting](../../effects/rotting.md), [Paralysis](../../../tensura-reincarnated/effects/paralysis.md), [Fragility](../../../tensura-reincarnated/effects/fragility.md), [Spatial Blockade](../../../tensura-reincarnated/effects/spatial-blockade.md), [Holy Damage](../../../tensura-reincarnated/effects/holy-damage.md), [Corrosion](../../../tensura-reincarnated/effects/corrosion.md)
+- **Summons / entities:** Tensura, Trnightmare, Blood Ray
 
 ## Stats (config defaults)
 

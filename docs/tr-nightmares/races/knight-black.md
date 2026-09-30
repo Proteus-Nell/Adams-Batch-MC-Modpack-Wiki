@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:knight_black` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Majin |
 | **Aura** | 120,000 - 220,000 |

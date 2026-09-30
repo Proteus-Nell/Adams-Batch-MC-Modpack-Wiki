@@ -20,6 +20,10 @@ Provide damage reduction based on the
 
 number and type of monsters killed.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

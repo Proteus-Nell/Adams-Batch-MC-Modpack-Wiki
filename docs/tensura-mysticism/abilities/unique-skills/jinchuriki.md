@@ -41,7 +41,7 @@
 ## Related
 
 - **Effects:** [Tailed Beast Cloak](../../effects/tailed-beast-cloak.md)
-- **Summons / entities:** [Uncontrolled Jinchuriki](../../mobs/uncontrolled-jinchuriki.md)
+- **Summons / entities:** Tensura, Tailed Beast Bomb, [Uncontrolled Jinchuriki](../../mobs/uncontrolled-jinchuriki.md)
 
 ## Stats (config defaults)
 

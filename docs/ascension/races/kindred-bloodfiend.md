@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:kindred_bloodfiend` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Default |
 | **Aura** | 300 - 300 |
@@ -55,7 +56,6 @@ flowchart LR
 
 Granted automatically when you become this race.
 
-- ![](../../assets/icons/tensura/skill/blood_mist.png) [Blood Mist](../../tensura-reincarnated/abilities/intrinsic-skills/blood-mist.md)
 - ![](../../assets/icons/tensura/skill/drain.png) [Drain](../../tensura-reincarnated/abilities/intrinsic-skills/drain.md)
 
 ## Learnable skills

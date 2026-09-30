@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:salamander_fire_spirit` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 500 - 500 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:overloading_worm` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Extreme |
 | **Alignment** | Majin |
 | **Aura** | 100,000 - 100,000 |

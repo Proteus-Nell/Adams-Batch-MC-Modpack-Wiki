@@ -18,6 +18,7 @@ import shutil
 import tomllib
 from collections import defaultdict, OrderedDict
 
+from .summaries import Notes, Summarizer, first_sentence
 from .mods import MODS, GROUPS
 
 TIER_ORDER = ["ultimate", "unique", "extra", "common", "intrinsic", "resistance", "other"]
@@ -134,6 +135,8 @@ class Site:
         self.nav = []
         self.overrides = self.load_pack_overrides()
         self.index()
+        self.notes = Notes(content_dir)
+        self.summ = Summarizer(self)
 
     # ---------------------------------------------------------- indexing
     def entry_path(self, mod, cat, ident, group=None):
@@ -189,9 +192,11 @@ class Site:
                     if key == "previous":
                         for p in lst:
                             self.reverse[r["id"]]["evolves_from"].append(p)
+                            self.reverse[p]["evolves_into"].append(r["id"])
                         continue
                     for t in lst:
                         self.reverse[t]["evolves_from"].append(r["id"])
+                        self.reverse[r["id"]]["evolves_into"].append(t)
             for e in c.get("mobs", []):
                 for ab in (e.get("existence") or {}).get("abilities", []) or []:
                     self.reverse[ab]["innate_to_mob"].append(e["id"])
@@ -504,6 +509,18 @@ class Site:
                 cnt[self.ability_group(s)] += 1
             page.add("### Abilities at a glance", "")
             page.add(", ".join("%s **%d**" % (k, v) for k, v in sorted(cnt.items(), key=lambda kv: self.group_sort(kv[0]))), "")
+        ph = (mod.get("extra") or {}).get("phantoms") or []
+        if ph:
+            page.add("### Not in the game", "")
+            page.add("These names are in %s's language or model files, but nothing in its code registers them, so you won't find them in-game "
+                     "(they are usually leftovers or unfinished content). Other wikis may still list them." % esc(m["name"]), "")
+            page.add('<details markdown><summary>Show %d unregistered names</summary>' % len(ph), "")
+            lang = self.mod_lang(m["slug"])
+            for i in ph:
+                ns, path = i.split(":", 1)
+                nm = next((lang[k] for k in ("item.%s.%s" % (ns, path), "effect.%s.%s" % (ns, path), "entity.%s.%s" % (ns, path), "block.%s.%s" % (ns, path)) if k in lang), None)
+                page.add("- %s`%s`" % (("%s " % esc(nm)) if nm else "", i))
+            page.add("", "</details>", "")
         self.write(page)
 
     def mod_logo(self, mod):
@@ -615,6 +632,7 @@ class Site:
         self.infobox(page, s.get("icon_url"), rows, s["name"])
         if s.get("description"):
             page.add("> %s" % para(s["description"]).replace("\n", "\n> "), "")
+        self.what_it_does(page, s["id"], s.get("class"), s["name"], None)
         self.pack_note(page, s.get("config", []))
         # modes and costs
         modes = s.get("modes") or []
@@ -727,22 +745,48 @@ class Site:
                 found[stat_keys[o["key"]]] = v
         return found
 
+    STAGES = ("Starting", "In-between", "Final")
+
+    def race_stage(self, rid):
+        """Where a race sits in its evolution line, across every mod in the pack.
+        A race nothing evolves into and that evolves into nothing is both Starting and Final."""
+        rel = self.reverse.get(rid, {})
+        prev = [p for p in rel.get("evolves_from", []) if p != rid]
+        nxt = [n for n in rel.get("evolves_into", []) if n != rid]
+        if prev and nxt:
+            return ["In-between"]
+        return (["Starting"] if not prev else []) + (["Final"] if not nxt else [])
+
+    @staticmethod
+    def stage_cell(stages):
+        return " / ".join('<span class="stage stage-%s">%s</span>' % (s.lower(), s) for s in stages)
+
     def render_races(self, mod):
         slug = mod["mod"]["slug"]
         races = mod["categories"]["races"]
         index = Page("%s/races/index.md" % slug, "Races")
         index.add("# Races", "")
         self.breadcrumb(index, mod)
-        index.add("%s adds **%d** races. Starting races can be chosen or rolled when you reincarnate; the rest are reached by evolving." % (esc(mod["mod"]["name"]), len(races)), "")
-        # starting races: no evolves_from
-        ids = {r["id"] for r in races}
-        base = [r for r in races if not self.reverse.get(r["id"], {}).get("evolves_from")]
-        index.add("| Race | Difficulty | Alignment | Evolves into |", "|---|---|---|---|")
+        stages = {r["id"]: self.race_stage(r["id"]) for r in races}
+        counts = {s: sum(1 for v in stages.values() if s in v) for s in self.STAGES}
+        both = sum(1 for v in stages.values() if len(v) > 1)
+        index.add("%s adds **%d** races: **%d** starting, **%d** in-between and **%d** final.%s" % (
+            esc(mod["mod"]["name"]), len(races), counts["Starting"], counts["In-between"], counts["Final"],
+            (" %s no evolutions at all, so %s both starting and final." % ("1 race has" if both == 1 else "%d races have" % both, "it counts as" if both == 1 else "they count as")) if both else ""), "")
+        index.add("- **Starting:** the first race of its evolution line. Nothing evolves into it, so you get it by reincarnating into it or through a special item, skill or event.",
+                  "- **In-between:** reached by evolving, and can evolve further.",
+                  "- **Final:** the last step of its line. It does not evolve any further.", "")
+        index.add("Races that link to other mods' races (for example an addon race that evolves from a Tensura race) are placed using the whole pack's evolution trees.", "")
+        index.add('<div class="filter-table" data-filter="Stage" data-order="%s" markdown>' % ",".join(self.STAGES), "")
+        index.add("| Race | Stage | Difficulty | Alignment | Evolves from | Evolves into |", "|---|---|---|---|---|---|")
         for r in sorted(races, key=lambda r: r["name"].lower()):
-            nxt = r.get("evolutions", {}).get("next") or r.get("evolutions", {}).get("default") or []
-            index.add("| %s | %s | %s | %s |" % (self.link(index.path, r["id"], "race"), cell(r.get("difficulty") or ""), cell(r.get("alignment") or ""),
-                                                self.links(index.path, nxt, "race", limit=6)))
-        index.add("")
+            rel = self.reverse.get(r["id"], {})
+            prev = list(dict.fromkeys(p for p in rel.get("evolves_from", []) if p != r["id"]))
+            nxt = list(dict.fromkeys(n for n in rel.get("evolves_into", []) if n != r["id"]))
+            index.add("| %s | %s | %s | %s | %s | %s |" % (
+                self.link(index.path, r["id"], "race"), self.stage_cell(stages[r["id"]]), cell(r.get("difficulty") or ""),
+                cell(r.get("alignment") or ""), self.links(index.path, prev, "race", limit=6), self.links(index.path, nxt, "race", limit=6)))
+        index.add("", "</div>", "")
         # evolution trees (mermaid), one per connected family
         fams = self.race_families(races)
         if fams:
@@ -821,7 +865,8 @@ class Site:
         page.add("# %s" % esc(r["name"]), "")
         self.breadcrumb(page, mod, "races")
         stats = self.race_stats(r)
-        rows = [("ID", "`%s`" % r["id"]), ("Difficulty", esc(r.get("difficulty") or "")), ("Alignment", esc(r.get("alignment") or ""))]
+        rows = [("ID", "`%s`" % r["id"]), ("Stage", self.stage_cell(self.race_stage(r["id"]))),
+                ("Difficulty", esc(r.get("difficulty") or "")), ("Alignment", esc(r.get("alignment") or ""))]
         if "Min aura" in stats or "Max aura" in stats:
             rows.append(("Aura", "%s - %s" % (num(stats.get("Min aura")), num(stats.get("Max aura")))))
         if "Min magicule" in stats or "Max magicule" in stats:
@@ -832,21 +877,24 @@ class Site:
         self.infobox(page, None, rows, r["name"])
         if r.get("description"):
             page.add("> %s" % para(r["description"]).replace("\n", "\n> "), "")
+        self.what_it_does(page, r["id"], r.get("class"), r["name"], None)
         self.pack_note(page, r.get("config", []))
         ev = r.get("evolutions", {})
         prev = list(OrderedDict.fromkeys((ev.get("previous") or []) + self.reverse.get(r["id"], {}).get("evolves_from", [])))
         page.add("## Evolution", "")
         if prev:
             page.add("- **Evolves from:** " + self.links(page.path, prev, "race"))
-        if ev.get("next"):
-            page.add("- **Evolves into:** " + self.links(page.path, ev["next"], "race"))
+        listed = {x for k, lst in ev.items() if k != "previous" for x in lst}
+        nxt = list(OrderedDict.fromkeys((ev.get("next") or []) + [x for x in self.reverse.get(r["id"], {}).get("evolves_into", []) if x not in listed]))
+        if nxt:
+            page.add("- **Evolves into:** " + self.links(page.path, nxt, "race"))
         if ev.get("default"):
             page.add("- **Default evolution:** " + self.links(page.path, ev["default"], "race"))
         if ev.get("awakening"):
             page.add("- **On awakening (True Demon Lord / True Hero):** " + self.links(page.path, ev["awakening"], "race"))
         if ev.get("harvest_festival"):
             page.add("- **During the Harvest Festival:** " + self.links(page.path, ev["harvest_festival"], "race"))
-        if not (prev or any(ev.values())):
+        if not (prev or nxt or any(ev.values())):
             page.add("This race has no evolutions.")
         page.add("")
         reqs = r.get("requirements") or []
@@ -924,7 +972,7 @@ class Site:
                 self.breadcrumb(gp, mod, cat)
                 gp.add("| | Name | Description |", "|---|---|---|")
                 for t in sorted(groups[g], key=lambda t: t["name"].lower()):
-                    d = (t.get("relic") or {}).get("description") or ((t.get("tooltips") or [None])[0])
+                    d = self.short_desc(cat, t["id"], t.get("class"), t["name"], (t.get("relic") or {}).get("description"), (t.get("tooltips") or [None])[0])
                     gp.add("| %s | %s | %s |" % (self.icon(gp.path, t["id"]), self.link(gp.path, t["id"], kind), cell(_short(d, 120))))
                 gp.add("")
                 self.write(gp)
@@ -952,6 +1000,10 @@ class Site:
                 ("Rarity", props.get("rarity")), ("Fire resistant", "Yes" if props.get("fire_resistant") else None),
                 ("Curio slot", ", ".join(s.replace("_", " ").title() for s in slots) if slots else None)]
         rows += gear
+        grows = self.gear_rows(it)
+        if grows:
+            have = {k for k, v in rows if v}
+            rows += [r for r in grows if r[0] not in have]
         self.infobox(page, it.get("icon_url"), rows, it["name"])
         rel = it.get("relic")
         tips = [t for t in it.get("tooltips") or [] if t and not (rel and t == rel.get("description"))]
@@ -959,6 +1011,10 @@ class Site:
             page.add("## Description", "")
             for t in tips:
                 page.add(para(t), "")
+        self.what_it_does(page, it["id"], it.get("class"), it["name"], self.summ.item(page, it))
+        if it.get("alt_names"):
+            page.add("**Other names:** in some states this item shows a different name: %s." % ", ".join(
+                "**%s**" % esc(a["name"]) for a in it["alt_names"]), "")
         oids = list(self.opts_by_item.get(it["id"], [])) + (list(self.opts_by_owner.get(it.get("class"), [])) if it.get("class") else [])
         self.pack_note(page, oids)
         if rel:
@@ -977,6 +1033,58 @@ class Site:
             page.add(", ".join("`%s`" % t for t in it["tags"]), "")
         self.write(page)
 
+    def what_it_does(self, page, ident, cls, name, auto):
+        """Hand-written note from content/descriptions if there is one, else the generated summary."""
+        note = self.notes.get(ident, cls, name, page.path.split("/")[1])
+        if note:
+            # {{auto}} keeps the generated summary inside a hand-written note
+            note = note.replace("{{auto}}", " ".join(auto or []))
+            page.add("## What it does", "", self.expand_content(page, note), "")
+        elif auto:
+            page.add("## What it does", "", " ".join(auto), "")
+
+    def short_desc(self, kind, ident, cls, name, *fallbacks):
+        for f in fallbacks:
+            if f:
+                return f
+        note = self.notes.get(ident, cls, name, kind)
+        return first_sentence(note.replace("{{auto}}", "").strip()) if note else ""
+
+    def gear_rows(self, it):
+        rows = []
+        g = it.get("gear") or {}
+        main = g.get("two_handed") or g.get("main") or {}
+        if main.get("attack_damage") == float("inf"):
+            rows.append(("Attack damage", "Infinite"))
+        elif main.get("attack_damage") is not None:
+            one = (g.get("one_handed") or {}).get("attack_damage")
+            rows.append(("Attack damage", num(main["attack_damage"]) + (" (%s one-handed)" % num(one) if one is not None and g.get("two_handed") else "")))
+        if main.get("attack_speed") is not None:
+            one = (g.get("one_handed") or {}).get("attack_speed")
+            rows.append(("Attack speed", num(main["attack_speed"]) + (" (%s one-handed)" % num(one) if one is not None and g.get("two_handed") else "")))
+        for key, label, fmt in (("reach", "Reach", lambda v: "%+g blocks" % v), ("sweep", "Sweep damage", lambda v: "%+g%%" % (v * 100)),
+                                ("crit_chance", "Critical chance", lambda v: "%+g%%" % v), ("crit_multiplier", "Critical damage", lambda v: "%+g×" % v)):
+            v = main.get(key)
+            if v:
+                one = (g.get("one_handed") or {}).get(key)
+                extra = " (%s one-handed)" % fmt(one) if g.get("two_handed") and one is not None and one != v else ""
+                rows.append((label, fmt(v) + extra))
+        if g.get("tier") and len(g["tier"]) > 2 and g["tier"] != "Tier":
+            # obfuscated enum names (ETToolTiers.b) say nothing
+            rows.append(("Tier", esc(g["tier"])))
+        if g.get("durability"):
+            rows.append(("Durability", num(g["durability"])))
+        a = it.get("armor") or {}
+        if a:
+            rows.append(("Armor", num(a["armor"])))
+            if a.get("toughness"):
+                rows.append(("Armor toughness", num(a["toughness"])))
+            if a.get("knockback_resistance"):
+                rows.append(("Knockback resistance", "%g%%" % (a["knockback_resistance"] * 100)))
+            if a.get("durability"):
+                rows.append(("Durability", num(a["durability"])))
+        return rows
+
     def gear_info(self, page, ident):
         rows = []
         g = (self.shared.get("gear") or {}).get(ident)
@@ -994,7 +1102,7 @@ class Site:
         if title:
             page.add("%s %s" % ("#" * level, title), "")
         lv = rel.get("leveling") or {}
-        if lv:
+        if lv and lv.get("max_level"):
             page.add("Relic levelling: up to level **%s**, first level costs **%s** XP, +%s XP per level." % (
                 lv.get("max_level", "?"), lv.get("initial_cost", "?"), lv.get("step", "?")), "")
         if rel.get("description"):
@@ -1037,6 +1145,7 @@ class Site:
             page.add("## Description", "")
             for t in tips:
                 page.add(para(t), "")
+        self.what_it_does(page, b["id"], b.get("class"), b["name"], self.summ.block(page, b))
         if b.get("drops"):
             page.add("## Drops", "")
             self.loot_table(page, b["drops"])
@@ -1206,6 +1315,7 @@ class Site:
         if m.get("spawn_egg"):
             rows.append(("Spawn egg", self.link(page.path, m["spawn_egg"], "item", icon=True)))
         self.infobox(page, self.refs.get(m.get("spawn_egg") or "", {}).get("icon"), rows, m["name"])
+        self.what_it_does(page, m["id"], info.get("class"), m["name"], self.summ.mob(page, m))
         if ex.get("abilities"):
             page.add("## Abilities", "")
             page.add("This mob has these skills (and they can be obtained from it, for example with Predator-type skills):", "")
@@ -1248,7 +1358,8 @@ class Site:
         index.add("Status effects added by %s." % esc(mod["mod"]["name"]), "")
         index.add("| | Effect | Type | Description |", "|---|---|---|---|")
         for e in sorted(effs, key=lambda e: e["name"].lower()):
-            index.add("| %s | %s | %s | %s |" % (self.icon(index.path, e["id"]), self.link(index.path, e["id"], "effect"), cell(e.get("category") or ""), cell(_short(e.get("description")))))
+            index.add("| %s | %s | %s | %s |" % (self.icon(index.path, e["id"]), self.link(index.path, e["id"], "effect"), cell(e.get("category") or ""),
+                                                cell(_short(self.short_desc("effects", e["id"], e.get("class"), e["name"], e.get("description"))))))
         index.add("")
         for e in effs:
             page = Page(self.entry_path(mod, "effects", e["id"]), e["name"])
@@ -1258,6 +1369,7 @@ class Site:
                                                    ("Color", "`%s`" % e["color"] if e.get("color") else None)], e["name"])
             if e.get("description"):
                 page.add("> %s" % para(e["description"]).replace("\n", "\n> "), "")
+            self.what_it_does(page, e["id"], e.get("class"), e["name"], self.summ.effect(page, e))
             if e.get("attributes"):
                 page.add("## Attribute changes (per level)", "")
                 page.add("| Attribute | Amount | Operation |", "|---|---|---|")
@@ -1295,6 +1407,7 @@ class Site:
             self.infobox(page, None, [(k, str(v) if v is not None else None) for k, v in rows], e["name"])
             if e.get("description"):
                 page.add("> %s" % para(e["description"]).replace("\n", "\n> "), "")
+            self.what_it_does(page, e["id"], None, e["name"], self.summ.enchantment(page, e))
             if e.get("effects"):
                 page.add("## Effects", "")
                 page.add("| Component | Effect | Value |", "|---|---|---|")
@@ -1332,8 +1445,10 @@ class Site:
                 if isinstance(v, int):
                     rows.append((k.replace("_", " ").title(), "`#%06X`" % v))
             self.infobox(page, None, [(k, str(v) if v is not None else None) for k, v in rows], b["name"])
-            dims = [d for mm in self.mods for d in mm["categories"].get("dimensions", []) if b["id"] in d.get("biomes", [])]
-            if dims:
+            dims = [d for mm in self.mods for d in mm["categories"].get("dimensions", []) if b["id"] in d.get("biomes", []) or d["id"] == b["id"]]
+            self.what_it_does(page, b["id"], None, b["name"], self.summ.biome(page, b, dims))
+            note = self.notes.get(b["id"], kind="biomes")
+            if dims and note and "{{auto}}" not in note:
                 page.add("Found in: " + ", ".join(self.link(page.path, d["id"], "dimension") for d in dims), "")
             if b.get("spawns"):
                 page.add("## Mob spawns", "")
@@ -1364,6 +1479,7 @@ class Site:
             for k, v in (d.get("properties") or {}).items():
                 rows.append((k.replace("_", " ").capitalize(), str(v)))
             self.infobox(page, None, rows, d["name"])
+            self.what_it_does(page, d["id"], None, d["name"], self.summ.dimension(page, d))
             if d.get("biomes"):
                 page.add("## Biomes", "")
                 page.add(self.links(page.path, d["biomes"], "biome"), "")
@@ -1394,6 +1510,7 @@ class Site:
                     ("Terrain adaptation", s.get("terrain_adaptation")),
                     ("Size (jigsaw depth)", s.get("size"))]
             self.infobox(page, None, [(k, str(v) if v is not None else None) for k, v in rows], s["name"])
+            self.what_it_does(page, s["id"], None, s["name"], self.summ.structure(page, s))
             chests = [tid for tid in self.shared["loot"] if tid.split(":")[0] == s["ns"] and "chests/" in tid and s["path"].split("/")[0] in tid]
             if chests:
                 page.add("## Loot", "")
@@ -1676,8 +1793,14 @@ class Site:
 
     def expand_content(self, page, body):
         """Hand-written pages may use {{link:ns:id}}, {{cfg:file|path.key}} placeholders."""
+        # prefer the entry of this page's own category when an id names several things
+        # (tensura:paralysis is both an effect and a skill)
+        cat = page.path.split("/")[1] if page.path.count("/") >= 2 else ""
+        page_kind = next((k for k, c in KIND_CAT.items() if c == cat), None)
+
         def link(m):
-            return self.link(page.path, m.group(1))
+            # {{link:skill/ns:id}} picks the category explicitly
+            return self.link(page.path, m.group(2), m.group(1) or page_kind)
 
         def cfg(m):
             f, k = m.group(1), m.group(2)
@@ -1685,6 +1808,24 @@ class Site:
                 if o.get("file") == f and ".".join(list(o.get("path") or []) + [o.get("key") or ""]) == k:
                     return _fmtval(self.overrides.get(o["oid"], o.get("default"))).strip('"')
             return "?"
+
+        def secs(m):
+            # a config value in ticks, shown in seconds
+            v = cfg(m)
+            try:
+                s = float(v.replace(",", "")) / 20
+            except ValueError:
+                return v
+            return ("%d" % s) if s == int(s) else ("%.2f" % s).rstrip("0")
+
+        def pct(m):
+            # a config fraction (0.25), shown as a percentage (25%)
+            v = cfg(m)
+            try:
+                p = round(float(v.replace(",", "")) * 100, 1)
+            except ValueError:
+                return v
+            return ("%d%%" % p) if p == int(p) else ("%.1f%%" % p)
         def langtable(m):
             rx, label = m.group(1), (m.group(2) or "Entry")
             lang = self.mod_lang(page.path.split("/")[0])
@@ -1711,8 +1852,10 @@ class Site:
         body = re.sub(r"\{\{gamerule:([A-Za-z0-9_]+)\}\}", gamerule, body)
         body = re.sub(r"\{\{langtable:([^|}]+)(?:\|([^}]+))?\}\}", langtable, body)
         body = re.sub(r"\{\{langlist:([^}]+)\}\}", langlist, body)
-        body = re.sub(r"\{\{link:([a-z0-9_.-]+:[a-z0-9_./-]+)\}\}", link, body)
+        body = re.sub(r"\{\{link:(?:([a-z]+)/)?([a-z0-9_.-]+:[a-z0-9_./-]+)\}\}", link, body)
         body = re.sub(r"\{\{cfg:([^|}]+)\|([^}]+)\}\}", cfg, body)
+        body = re.sub(r"\{\{secs:([^|}]+)\|([^}]+)\}\}", secs, body)
+        body = re.sub(r"\{\{pct:([^|}]+)\|([^}]+)\}\}", pct, body)
         body = re.sub(r"\]\(@/([^)]+)\)", lambda m: "](%s)" % self.rel(page.path, m.group(1)), body)
         return body
 

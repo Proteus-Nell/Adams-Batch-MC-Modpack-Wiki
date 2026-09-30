@@ -9,3 +9,7 @@
 | **ID** | `tombstone:spectral_bite` |
 
 </div>
+
+## What it does
+
+A mob.

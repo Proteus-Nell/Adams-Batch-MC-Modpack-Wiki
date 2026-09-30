@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:shadow_mimic` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Alignment** | Default |
 
 </div>

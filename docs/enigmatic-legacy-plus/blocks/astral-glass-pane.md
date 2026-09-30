@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+Glowing glass (light 10, or 9 for panes). **Hit it or right-click it** (with anything but a block you could place) to cycle through 4 colour styles, or power it with redstone: the signal strength picks the style. Use **Astral Dust** on it to lock it into a shifting, colourful look for good. It tints beacon beams to match its style. Smelting an Astral Dust Sack gives 4 Astral Glass.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

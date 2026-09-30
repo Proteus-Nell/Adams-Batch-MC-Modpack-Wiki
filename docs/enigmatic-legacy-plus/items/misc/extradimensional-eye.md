@@ -33,6 +33,10 @@ Position: [?, ?, ?]
 
 Dimension: ?
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

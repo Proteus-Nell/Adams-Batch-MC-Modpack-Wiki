@@ -25,6 +25,10 @@ Right click on a Grave Soul for teleportation
 
 Hold right click to teleport to your grave
 
+## What it does
+
+It is made at the Enchanted Grave Key.
+
 ## Obtaining
 
 ### Recipes

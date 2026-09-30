@@ -40,6 +40,7 @@
 ## Related
 
 - **Effects:** [Mystic Aura](../../effects/mystic-aura.md), [Spatial Blockade](../../../tensura-reincarnated/effects/spatial-blockade.md)
+- **Summons / entities:** Bouncing Aura Bullet
 - **Referenced by:** [｢ Abaddon, King of Destruction ｣](../ultimate-skills/abaddon.md)
 
 ## Stats (config defaults)

@@ -12,6 +12,12 @@
 
 </div>
 
+## What it does
+
+A flower pot holding that plant. A potted Baffledil is harmless, and a potted Hipokute Flower glows faintly.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |

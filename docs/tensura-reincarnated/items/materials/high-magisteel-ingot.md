@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [High Magisteel Nugget](high-magisteel-nugget.md), [Block of High Magisteel](../../blocks/high-magisteel-block.md), [High Magisteel Bone Golem](../miscellaneous/high-magisteel-bone-golem.md), [Angry Pierrot Mask](../armor/angry-pierrot-mask.md), [Crazy Pierrot Mask](../armor/crazy-pierrot-mask.md) and 30 more. It is crafted, made at the Kiln (mixing) and made with Create's compacting.
+
 ## Obtaining
 
 ### Recipes

@@ -19,6 +19,10 @@
 
 Consume to obtain +1 Ring Slot permanently.
 
+## What it does
+
+Food. It is crafted and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

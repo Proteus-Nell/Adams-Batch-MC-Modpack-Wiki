@@ -50,6 +50,7 @@
 ## Related
 
 - **Effects:** [Infinite Imprisonment](../../effects/infinite-imprisonment.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Time Traveler](../../../tr-nightmares/abilities/unique-skills/time-traveler.md), [｢ Lucifer, Lord of Pride ｣](../../../tr-nightmares/abilities/ultimate-skills/lucifer.md), [｢ Uriel, Lord of Vows ｣](../../../tr-nightmares/abilities/ultimate-skills/uriel-lord-of-vow.md), [｢ Yog-Sothoth, Lord of Space-Time ｣](../../../tr-nightmares/abilities/ultimate-skills/yog-sothoth.md)
 
 ## Stats (config defaults)

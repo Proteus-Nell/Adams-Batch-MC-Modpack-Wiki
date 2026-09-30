@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:sorcerer` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Intermediate |
 | **Alignment** | Holy |
 | **Aura** | 20,000 - 100,000 |

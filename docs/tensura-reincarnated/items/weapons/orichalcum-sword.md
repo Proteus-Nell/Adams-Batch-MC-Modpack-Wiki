@@ -12,8 +12,16 @@
 | **Category** | Weapons |
 | **Gear EP** | 50,000 - 750,000 |
 | **Evolves into** | [Hihi'Irokane Sword](hihiirokane-sword.md) |
+| **Attack damage** | 30 |
+| **Attack speed** | 1.6 |
+| **Tier** | Orichalcum |
+| **Durability** | 2,800 |
 
 </div>
+
+## What it does
+
+A sword that deals **30** attack damage at **1.6** attack speed. Durability: **2,800**. It is made at the Smithing Bench.
 
 ## Obtaining
 

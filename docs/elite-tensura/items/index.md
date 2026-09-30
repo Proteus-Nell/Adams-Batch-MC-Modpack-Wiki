@@ -2,11 +2,11 @@
 
 <small>[Elite Tensura](../index.md)</small>
 
-Elite Tensura adds **30** items.
+Elite Tensura adds **26** items.
 
 | Group | Count |
 |---|---|
-| [Armor](armor/index.md) | 8 |
+| [Armor](armor/index.md) | 4 |
 | [Books &amp; Scrolls](books-scrolls/index.md) | 1 |
 | [Potions](potions/index.md) | 3 |
 | [Weapons](weapons/index.md) | 10 |
@@ -20,10 +20,6 @@ Elite Tensura adds **30** items.
 | ![](../../assets/icons/elitetensura/item/aetherforged_chestplate.png) | [Aetherforged Chestplate](armor/aetherforged-chestplate.md) | `elitetensura:aetherforged_chestplate` |
 | ![](../../assets/icons/elitetensura/item/aetherforged_helmet.png) | [Aetherforged Helmet](armor/aetherforged-helmet.md) | `elitetensura:aetherforged_helmet` |
 | ![](../../assets/icons/elitetensura/item/aetherforged_leggings.png) | [Aetherforged Leggings](armor/aetherforged-leggings.md) | `elitetensura:aetherforged_leggings` |
-|  | [Nightingale Armor](armor/nightingale-chestplate.md) | `elitetensura:nightingale_chestplate` |
-|  | [Nightingale Boots](armor/nightingale-boots.md) | `elitetensura:nightingale_boots` |
-|  | [Nightingale Helmet](armor/nightingale-helmet.md) | `elitetensura:nightingale_helmet` |
-|  | [Nightingale Leggings](armor/nightingale-leggings.md) | `elitetensura:nightingale_leggings` |
 
 ## Books &amp; Scrolls
 

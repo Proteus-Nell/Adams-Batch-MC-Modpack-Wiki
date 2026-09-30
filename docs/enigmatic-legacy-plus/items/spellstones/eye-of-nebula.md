@@ -40,6 +40,10 @@ empowered and deals +150% Damage.
 
 Hold Shift to see details.
 
+## What it does
+
+Used to make [Dimensional Anchor](../../blocks/dimensional-anchor.md), [Majestic Elytra](../tools/majestic-elytra.md) and [Non-Euclidean Cube](the-cube.md). It is made at the Spellstone Table and found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Recipes

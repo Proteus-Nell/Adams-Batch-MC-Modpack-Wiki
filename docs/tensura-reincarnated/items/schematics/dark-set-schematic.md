@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Dark Boots](../armor/dark-boots.md), [Dark Jacket](../armor/dark-jacket.md) and [Dark Leggings](../armor/dark-leggings.md).
+
 ## Obtaining
 
 ### Loot

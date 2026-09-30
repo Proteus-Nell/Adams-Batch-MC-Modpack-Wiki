@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:axolotl_water_dragon` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Holy |
 | **Aura** | 500 - 500 |

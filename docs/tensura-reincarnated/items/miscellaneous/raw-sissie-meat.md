@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **5** hunger (2.5 shanks) and **3.6** saturation. Used to make [Cooked Sissie Meat](cooked-sissie-meat.md) and [Dubious Food](dubious-food.md). It is dropped by [Sissie](../../mobs/sissie.md).
+
 ## Obtaining
 
 ### Loot

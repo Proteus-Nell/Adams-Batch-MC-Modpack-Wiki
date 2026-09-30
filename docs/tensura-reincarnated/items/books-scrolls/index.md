@@ -4,9 +4,9 @@
 
 | | Name | Description |
 |---|---|---|
-| ![](../../../assets/icons/tensura/item/battlewill_manual.png) | [Battlewill Manual](battlewill-manual.md) |  |
-| ![](../../../assets/icons/tensura/item/character_reset_scroll.png) | [Character Reset Scroll](character-reset-scroll.md) |  |
-| ![](../../../assets/icons/tensura/item/magic_tome.png) | [Magic Tome](magic-tome.md) |  |
-| ![](../../../assets/icons/tensura/item/race_reset_scroll.png) | [Race Reset Scroll](race-reset-scroll.md) |  |
-| ![](../../../assets/icons/tensura/item/skill_reset_scroll.png) | [Skill Reset Scroll](skill-reset-scroll.md) |  |
+| ![](../../../assets/icons/tensura/item/battlewill_manual.png) | [Battlewill Manual](battlewill-manual.md) | A manual that teaches a battlewill (a combat art). |
+| ![](../../../assets/icons/tensura/item/character_reset_scroll.png) | [Character Reset Scroll](character-reset-scroll.md) | Hold right-click to read it. |
+| ![](../../../assets/icons/tensura/item/magic_tome.png) | [Magic Tome](magic-tome.md) | A tome that teaches a spell. |
+| ![](../../../assets/icons/tensura/item/race_reset_scroll.png) | [Race Reset Scroll](race-reset-scroll.md) | Hold right-click to read it. |
+| ![](../../../assets/icons/tensura/item/skill_reset_scroll.png) | [Skill Reset Scroll](skill-reset-scroll.md) | Hold right-click to read it. |
 | ![](../../../assets/icons/tensura/item/unbound_tome.png) | [Unbound Tome](unbound-tome.md) |  |

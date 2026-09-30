@@ -45,6 +45,7 @@
 
 - **Related skills:** [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md)
 - **Effects:** [Fixation](../../effects/fixation.md)
+- **Summons / entities:** Solidification Shield, Eternal Domain
 
 ## Stats (config defaults)
 

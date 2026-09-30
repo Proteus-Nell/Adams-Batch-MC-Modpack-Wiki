@@ -11,6 +11,8 @@
 | **ID** | `enigmaticlegacyplus:the_twist` |
 | **Category** | Books |
 | **Rarity** | Epic |
+| **Attack damage** | 9 |
+| **Attack speed** | 2.2 |
 
 </div>
 
@@ -35,6 +37,10 @@ there can be no better way of knowing...
 The blinding light of revelation shall
 
 incinerate those who refuse to embrace it.
+
+## What it does
+
+A weapon that deals **9** attack damage at **2.2** attack speed. It is made at the Crafting (cursed).
 
 ## Obtaining
 

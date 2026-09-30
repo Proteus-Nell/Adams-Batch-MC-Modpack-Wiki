@@ -1,0 +1,68 @@
+[MeditationSkill]
+	#True/False Disable this skill?
+	enabled = true
+	#EP Requirement for Learning Meditation.
+	epAcquirement = 500.0
+	#Magicule Cost to activate .
+	magiculeCost = 20.0
+	#Aura Regen rate.
+	auraRegenRate = 0.5
+	#Mana Regen rate
+	manaRegenRate = 0.5
+	#SHP Regen rate
+	shpRegenRate = 0.5
+
+[Iron_Resolve]
+	mpAcquirement = 10000.0
+	hasteAmplifier = 9
+	aegisMaxReduction = 40.0
+	surgeMagiculeCost = 2000.0
+	surgeStrengthAmplifier = 2
+	surgeDurationTicks = 6000
+	surgeDurationMasteredTicks = 12000
+	#Cooldown after using Resolute Surge, in SECONDS. Default 360 = 6 minutes.
+	surgeCooldownSeconds = 360
+	#Cooldown after using Resolute Surge when mastered, in SECONDS. Default 720 = 12 minutes.
+	surgeCooldownMasteredSeconds = 720
+	lastStandThresholdPct = 40.0
+	#Duration of the Last Stand immunity window, in TICKS. Default 60 = 3 seconds.
+	lastStandImmunityTicks = 60
+	lastStandResistanceAmplifier = 4
+	#Internal cooldown before Last Stand can re-fire, in TICKS. Default 300 = 15 seconds.
+	lastStandInternalCooldownTicks = 300
+	enabled = true
+	epAcquirement = 20000.0
+
+[Scavenger]
+	#Magicule cost to learn Scavenger.
+	mpAcquirement = 500.0
+	#Luck amplifier for unmastered holders (0=Luck I, 1=Luck II, 2=Luck III). Default: 1 = Luck II.
+	baseLuckAmplifier = 1
+	#Luck amplifier for mastered holders with toggle active (0=Luck I, 1=Luck II, 2=Luck III). Default: 2 = Luck III.
+	masteredLuckAmplifier = 2
+	enabled = true
+	epAcquirement = 15000.0
+
+[AncientSoul]
+	#True/False — is the Ancient Soul skill enabled (acquirable)?
+	enabled = true
+	#EP requirement for learning Ancient Soul.
+	epAcquirement = 5000.0
+	#Magicule acquiring cost to learn the skill.
+	mpAcquirement = 0.0
+	#Magicule drained per tick while the skill is held (passive upkeep).
+	magiculeDrainPerTick = 2.0
+	#Radius (blocks) of the Aura of the Ancient ally buff.
+	buffRadius = 25.0
+	#Radius (blocks) within which Soul Sight outlines entities.
+	soulSightRadius = 30.0
+	#Strength effect amplifier (0-indexed; 2 = Strength III).
+	strengthAmplifier = 2
+	#Regeneration effect amplifier (0-indexed; 2 = Regeneration III).
+	regenAmplifier = 2
+	#Resistance effect amplifier (0-indexed; 0 = Resistance I).
+	resistanceAmplifier = 0
+	#Duration (ticks) applied to the aura effects on each refresh. Keep >= 100: ManasCore refreshes toggle skills every 100 game ticks.
+	effectDurationTicks = 120
+	#Legacy — the aura now refreshes on every 100-tick skill tick; this value is no longer read.
+	refreshIntervalTicks = 120

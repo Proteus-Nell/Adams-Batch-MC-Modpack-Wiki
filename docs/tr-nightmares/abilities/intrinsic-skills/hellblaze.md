@@ -48,6 +48,7 @@
 ## Related
 
 - **Effects:** [Black Burn](../../../tensura-reincarnated/effects/black-burn.md)
+- **Summons / entities:** Plasma Ball, Black Flame Breath, Black Flame Ball, Hell Flare
 
 ## Stats (config defaults)
 

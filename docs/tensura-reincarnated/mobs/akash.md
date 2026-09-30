@@ -1,17 +1,31 @@
 # Akash
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:akash` |
+| **Type** | Boss |
+| **Health** | 300 |
+| **Attack damage** | 20 |
+| **Armor** | 5 |
+| **Speed** | 0.25 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 120,000 - 150,000 |
 | **Spiritual health** | 2,000 |
+| **Hitbox** | 0.8 x 1.7 blocks |
 | **Spawn egg** |  [Akash Spawn Egg](../items/spawn-eggs/akash-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A greater spirit of space. When a [Winged Cat](winged-cat.md) spawns naturally in the Ancient Forest, there's a 1 in 400 chance Akash appears in its place. It can also be summoned with [Summon Greater Elemental](../abilities/summoning-magic/summon-greater-elemental.md), and Hinata can call it.
+
+A boss with **300** health, **20** attack damage and **120,000-150,000** magicule. It has 4 skills you can take from it with Predator-type skills. Drops [Elemental Essence](../items/materials/elemental-essence.md) and [Elemental Shard (Space)](../items/materials/space-elemental-shard.md).
 
 ## Abilities
 

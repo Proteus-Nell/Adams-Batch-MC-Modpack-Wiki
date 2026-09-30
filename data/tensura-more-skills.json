@@ -296,7 +296,11 @@
      "tensura:instant_regeneration"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:clone",
+     "tensura:hinata_sakaguchi"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -463,7 +467,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      14595,
@@ -1437,7 +1443,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -1514,7 +1522,9 @@
      "tensura:anti_skill"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -1678,7 +1688,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -1803,8 +1815,7 @@
     "acquire_requirement_messages": [],
     "attributes": [],
     "related": [
-     "tensuramoreskills:avalon_god_of_eternal_kingdom",
-     "tensura:aura_slash"
+     "tensuramoreskills:avalon_god_of_eternal_kingdom"
     ],
     "effects": [
      "tensura:holy_damage",
@@ -1814,7 +1825,9 @@
      "tensura:lust_embracement"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:aura_slash"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -1942,7 +1955,9 @@
     "items": [
      "tensuramoreskills:true_excalibur"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -2085,7 +2100,10 @@
     "items": [
      "tensuramoreskills:caedros_ashen_halberd"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:disintegration",
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      12092,
@@ -2362,7 +2380,9 @@
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -2865,7 +2885,9 @@
     "items": [
      "tensuramoreskills:genetic_syringe"
     ],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -2965,7 +2987,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      13990,
@@ -3293,7 +3317,15 @@
      "tensura:silence"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura",
+     "tensura:direwolf",
+     "tensura:barghest",
+     "tensura:blade_tiger",
+     "tensura:pegasus",
+     "tensura:giant_bear",
+     "tensura:feathered_serpent"
+    ],
     "tags": [],
     "config": [
      15598,
@@ -3562,7 +3594,9 @@
      "tensura:energy_blockade"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      16045,
@@ -3776,7 +3810,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [],
@@ -3898,7 +3934,8 @@
     ],
     "items": [],
     "entities": [
-     "tensuramoreskills:ars_weiss_clone"
+     "tensuramoreskills:ars_weiss_clone",
+     "tensura:tensura"
     ],
     "tags": [],
     "config": [
@@ -4098,7 +4135,8 @@
     "attributes": [],
     "related": [
      "tensura:abnormal_condition_nullification",
-     "tensura:curse"
+     "tensura:curse",
+     "tensura:fire_bolt"
     ],
     "effects": [
      "tensura:chill",
@@ -4466,7 +4504,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -4602,6 +4642,7 @@
      "tensura:dead_end_rainbow"
     ],
     "entities": [
+     "tensura:tensura",
      "tensura:severance",
      "tensura:energy_steal"
     ],
@@ -4997,7 +5038,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [],
     "messages": [
@@ -5099,7 +5142,8 @@
     ],
     "items": [],
     "entities": [
-     "tensuramoreskills:ars_weiss_clone"
+     "tensuramoreskills:ars_weiss_clone",
+     "tensura:tensura"
     ],
     "tags": [],
     "config": [],
@@ -5417,7 +5461,17 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodfiendRace",
     "difficulty": "Intermediate",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:elder_bloodfiend"
+     ],
+     "default": [
+      "tensuramoreskills:elder_bloodfiend"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:elder_bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5605,7 +5659,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.ElderBloodfiendRace",
     "difficulty": "Intermediate",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "default": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:blood_noble"
+     ],
+     "previous": [
+      "tensuramoreskills:bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5793,7 +5860,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodNobleRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "default": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:blood_monarch"
+     ],
+     "previous": [
+      "tensuramoreskills:elder_bloodfiend"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -5981,7 +6061,20 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.BloodMonarchRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "next": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "default": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "harvest_festival": [
+      "tensuramoreskills:crimson_progenitor"
+     ],
+     "previous": [
+      "tensuramoreskills:blood_noble"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -6169,7 +6262,11 @@
     "class": "com.github.wal_bos.moreskills.race.bloodfiend.CrimsonProgenitorRace",
     "difficulty": "Hard",
     "alignment": "Majin",
-    "evolutions": {},
+    "evolutions": {
+     "previous": [
+      "tensuramoreskills:blood_monarch"
+     ]
+    },
     "requirements": [
      {
       "text": "Reach Existence Points of ep requirement",
@@ -6422,6 +6519,15 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 105.0,
+      "attack_speed": 1.8
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/tensuramoreskills/item/awakened_key_of_sealing.png"
@@ -6436,6 +6542,15 @@
      "rarity": "Epic",
      "fire_resistant": true,
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 800000005.0,
+      "attack_speed": 1.0
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
     },
     "tooltips": [],
     "tags": [],
@@ -6452,6 +6567,15 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 105.0,
+      "attack_speed": 1.8
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/tensuramoreskills/item/divine_excalibur.png"
@@ -6467,6 +6591,15 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 45.0,
+      "attack_speed": 1.4
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": null
@@ -6480,6 +6613,23 @@
     "props": {
      "fire_resistant": true,
      "stack": 1
+    },
+    "gear": {
+     "one_handed": {
+      "attack_damage": 33.0,
+      "attack_speed": 1.2,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "two_handed": {
+      "attack_damage": 35.0,
+      "attack_speed": 1.4,
+      "reach": 1.0,
+      "sweep": -1.0
+     },
+     "tier": "Pure Magisteel",
+     "durability": 3000,
+     "mining_speed": 20.0
     },
     "tooltips": [],
     "tags": [],
@@ -6532,6 +6682,15 @@
      "fire_resistant": true,
      "stack": 1
     },
+    "gear": {
+     "main": {
+      "attack_damage": 75.0,
+      "attack_speed": 1.6
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
+    },
     "tooltips": [],
     "tags": [],
     "icon_url": "assets/icons/tensuramoreskills/item/key_of_sealing.png"
@@ -6546,6 +6705,15 @@
      "rarity": "Epic",
      "fire_resistant": true,
      "stack": 1
+    },
+    "gear": {
+     "main": {
+      "attack_damage": 75.0,
+      "attack_speed": 1.6
+     },
+     "tier": "Netherite",
+     "durability": 2031,
+     "mining_speed": 9.0
     },
     "tooltips": [],
     "tags": [],
@@ -7185,14 +7353,6 @@
       "operation": "ADD_MULTIPLIED_TOTAL"
      }
     ],
-    "description": null,
-    "icon_url": null
-   },
-   {
-    "id": "tensuramoreskills:frost_shatter",
-    "path": "frost_shatter",
-    "name": "Frost Shatter",
-    "class": null,
     "description": null,
     "icon_url": null
    },
@@ -15447,5 +15607,9 @@
   ]
  },
  "guidebooks": [],
- "extra": {}
+ "extra": {
+  "phantoms": [
+   "tensuramoreskills:frost_shatter"
+  ]
+ }
 }

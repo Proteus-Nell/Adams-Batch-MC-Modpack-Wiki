@@ -30,6 +30,10 @@ curses and treasure enchantments.
 
 You do not require Lapis Lazuli to enchant.
 
+## What it does
+
+Used to make [The Infinitum](../books/the-infinitum.md). It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Food that restores **4** hunger (2 shanks) and **9.6** saturation, and can be eaten even when you're full. Eating it gives [Magicule Regeneration](../../effects/magicule-regeneration.md) II for 60 s and [Haste](https://minecraft.wiki/w/Haste) for 120 s. Used to make [Enchanted Silver Apple](enchanted-silver-apple.md) and [Dubious Food](../miscellaneous/dubious-food.md). It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

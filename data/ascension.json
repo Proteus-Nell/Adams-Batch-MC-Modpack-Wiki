@@ -117,7 +117,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -241,6 +243,7 @@
     "effects": [],
     "items": [],
     "entities": [
+     "tensura:tensura",
      "ascension:ray_of_death"
     ],
     "tags": [
@@ -526,7 +529,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/extra_skills"
     ],
@@ -915,7 +920,10 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "ascension:shadow_slash",
+     "tensura:magic_explosion"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -979,7 +987,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:spatial_ray"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -1059,16 +1069,18 @@
      }
     ],
     "related": [
-     "tensura:ice_breath",
-     "tensura:flame_breath",
-     "tensura:thunder_breath",
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye"
     ],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:ice_breath",
+     "tensura:flame_breath",
+     "tensura:thunder_breath",
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -1376,7 +1388,8 @@
     ],
     "items": [],
     "entities": [
-     "ascension:zoltraak"
+     "ascension:zoltraak",
+     "tensura:tensura"
     ],
     "tags": [],
     "config": [
@@ -1450,7 +1463,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [
      "tensura:skills/unique_skills"
     ],
@@ -1551,7 +1566,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      21583,
@@ -1662,16 +1679,17 @@
       "operation": "ADD_VALUE"
      }
     ],
-    "related": [
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath"
-    ],
+    "related": [],
     "effects": [
      "tensura:strengthen"
     ],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:flame_breath",
+     "tensura:ice_breath",
+     "tensura:thunder_breath",
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      21633,
@@ -1862,7 +1880,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "tensura:tensura"
+    ],
     "tags": [],
     "config": [
      21666,
@@ -2272,7 +2292,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "ascension:blood_blade"
+    ],
     "tags": [
      "tensura:skills/extra_skills"
     ],
@@ -2366,7 +2388,9 @@
     "related": [],
     "effects": [],
     "items": [],
-    "entities": [],
+    "entities": [
+     "ascension:purple_lightning_bolt"
+    ],
     "tags": [
      "tensura:skills/aspectual_magic"
     ],
@@ -3468,7 +3492,6 @@
      }
     ],
     "intrinsic": [
-     "tensura:poisonous_breath",
      "tensura:giantification",
      "tensura:water_breathing"
     ],
@@ -3589,7 +3612,6 @@
     ],
     "intrinsic": [
      "tensura:body_armor",
-     "tensura:poisonous_breath",
      "tensura:giantification",
      "tensura:water_breathing"
     ],
@@ -3717,7 +3739,6 @@
     "intrinsic": [
      "tensura:drain",
      "tensura:body_armor",
-     "tensura:poisonous_breath",
      "tensura:giantification",
      "tensura:water_breathing"
     ],
@@ -3852,7 +3873,6 @@
     ],
     "intrinsic": [
      "tensura:body_armor",
-     "tensura:poisonous_breath",
      "tensura:giantification",
      "tensura:water_breathing"
     ],
@@ -3975,10 +3995,8 @@
     ],
     "intrinsic": [
      "tensura:drain",
-     "tensura:blood_mist",
      "tensura:titanification",
      "tensura:body_armor",
-     "tensura:poisonous_breath",
      "tensura:giantification",
      "tensura:water_breathing"
     ],
@@ -4855,7 +4873,6 @@
      }
     ],
     "intrinsic": [
-     "tensura:blood_mist",
      "tensura:drain"
     ],
     "learnable": [
@@ -4972,7 +4989,6 @@
     "intrinsic": [
      "tensura:charm",
      "tensura:body_armor",
-     "tensura:blood_mist",
      "tensura:drain"
     ],
     "learnable": [
@@ -5104,7 +5120,6 @@
     "intrinsic": [
      "tensura:charm",
      "tensura:body_armor",
-     "tensura:blood_mist",
      "tensura:drain"
     ],
     "learnable": [
@@ -5233,7 +5248,6 @@
      "tensura:titanification",
      "tensura:charm",
      "tensura:body_armor",
-     "tensura:blood_mist",
      "tensura:drain"
     ],
     "learnable": [
@@ -6184,7 +6198,6 @@
     ],
     "intrinsic": [
      "tensura:drain",
-     "tensura:blood_mist",
      "tensura:titanification",
      "tensura:light_transform",
      "tensura:divine_ki_release",
@@ -6306,7 +6319,6 @@
     "intrinsic": [
      "tensura:giantification",
      "tensura:drain",
-     "tensura:blood_mist",
      "tensura:titanification",
      "tensura:light_transform",
      "tensura:divine_ki_release",
@@ -6430,7 +6442,6 @@
     "intrinsic": [
      "tensura:giantification",
      "tensura:drain",
-     "tensura:blood_mist",
      "tensura:titanification",
      "tensura:light_transform",
      "tensura:divine_ki_release",
@@ -7039,9 +7050,6 @@
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye",
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7160,10 +7168,7 @@
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye",
-     "tensura:flame_breath",
      "tensura:magic_darkness_transform",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7281,11 +7286,8 @@
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye",
-     "tensura:flame_breath",
      "tensura:magic_darkness_transform",
      "tensura:black_flame",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7402,13 +7404,10 @@
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye",
-     "tensura:flame_breath",
      "tensura:magic_darkness_transform",
      "tensura:black_flame",
      "tensura:darkness_attack_nullification",
      "ascension:purple_lightning",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7520,14 +7519,11 @@
      "tensura:dragon_skin",
      "tensura:dragon_ear",
      "tensura:dragon_eye",
-     "tensura:flame_breath",
      "tensura:magic_darkness_transform",
      "tensura:black_flame",
      "tensura:darkness_attack_nullification",
      "tensura:flame_attack_nullification",
      "ascension:purple_lightning",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7653,9 +7649,6 @@
      "tensura:space_transform",
      "tensura:dragon_eye",
      "tensura:dragon_ear",
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7783,9 +7776,6 @@
      "tensura:space_transform",
      "tensura:dragon_eye",
      "tensura:dragon_ear",
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -7922,9 +7912,6 @@
      "tensura:space_transform",
      "tensura:dragon_eye",
      "tensura:dragon_ear",
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],
@@ -8059,9 +8046,6 @@
      "tensura:space_transform",
      "tensura:dragon_eye",
      "tensura:dragon_ear",
-     "tensura:flame_breath",
-     "tensura:ice_breath",
-     "tensura:thunder_breath",
      "tensura:magic_resistance",
      "tensura:scale_armor"
     ],

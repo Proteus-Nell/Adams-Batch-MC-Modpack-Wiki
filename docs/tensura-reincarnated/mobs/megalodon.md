@@ -1,18 +1,30 @@
 # Megalodon
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:megalodon` |
+| **Type** | Monster |
+| **Health** | 70 |
+| **Attack damage** | 20 |
+| **Armor** | 10 |
+| **Speed** | 0.4 |
+| **Follow range** | 48 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 15,000 - 30,000 |
 | **Aura** | 5,000 - 10,000 |
 | **Spiritual health** | 200 |
+| **Hitbox** | 3.5 x 2 blocks |
 | **Spawn egg** |  [Megalodon Spawn Egg](../items/spawn-eggs/megalodon-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **70** health, **20** attack damage and **15,000-30,000** magicule. It has 2 skills you can take from it with Predator-type skills. Drops [Bone](https://minecraft.wiki/w/Bone) and [Raw Megalodon Meat](../items/miscellaneous/raw-megalodon-meat.md).
 
 ## Abilities
 

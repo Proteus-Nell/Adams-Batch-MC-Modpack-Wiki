@@ -1,18 +1,28 @@
 # Lizardman
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:lizardman` |
+| **Type** | Monster |
+| **Health** | 24 |
+| **Attack damage** | 2 |
+| **Speed** | 0.22 |
+| **Knockback resistance** | 0.2 |
 | **Magicule (EP)** | 2,000 - 3,000 |
 | **Aura** | 3,000 - 5,000 |
 | **Spiritual health** | 68 |
+| **Hitbox** | 0.6 x 1.95 blocks |
 | **Spawn egg** |  [Lizardman Spawn Egg](../items/spawn-eggs/lizardman-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **24** health, **2** attack damage and **2,000-3,000** magicule. It has 1 skill you can take from it with Predator-type skills. Drops [Cod](https://minecraft.wiki/w/Cod), [Salmon](https://minecraft.wiki/w/Salmon), [Bone Meal](https://minecraft.wiki/w/Bone_Meal) and [Dragon Essence](../items/materials/dragon-essence.md).
 
 ## Abilities
 

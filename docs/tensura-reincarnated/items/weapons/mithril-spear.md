@@ -13,8 +13,18 @@
 | **Fire resistant** | Yes |
 | **Gear EP** | 45,000 - 225,000 |
 | **Evolves into** | [Adamantite Spear](adamantite-spear.md) |
+| **Attack damage** | 26 (25 one-handed) |
+| **Attack speed** | 1.4 (1 one-handed) |
+| **Reach** | +2 blocks |
+| **Sweep damage** | -100% |
+| **Tier** | Mithril |
+| **Durability** | 2,700 |
 
 </div>
+
+## What it does
+
+A spear you can hold in one or both hands. Two-handed it deals **26** attack damage at **1.4** attack speed; one-handed **25** damage at **1** speed. It also has +2 blocks of reach and no sweeping attack. Durability: **2,700**. It is made at the Smithing Bench.
 
 ## Obtaining
 

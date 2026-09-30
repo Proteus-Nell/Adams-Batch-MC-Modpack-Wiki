@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `mysticism:chaos_doll` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Easy |
 | **Alignment** | Majin |
 | **Aura** | 125,000 - 325,000 |

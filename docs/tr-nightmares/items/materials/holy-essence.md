@@ -17,6 +17,10 @@
 
 A symbol of peace brought by death.
 
+## What it does
+
+Food that restores **4** hunger (2 shanks) and **2.4** saturation, and can be eaten even when you're full. Used to make [Ark](../weapons/ark.md) and [Divine Axe Rhitta](../weapons/divine-axe-rhitta.md). It is dropped by [Shulker](https://minecraft.wiki/w/Shulker) and [Zombie Villager](https://minecraft.wiki/w/Zombie_Villager).
+
 ## Obtaining
 
 ### Loot

@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+**-10** attack damage per level. Azathoth's Soul Nucleation inflicts it for 10 seconds, together with Black Burn, Chill and Anti-Skill.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

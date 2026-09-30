@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_axe` |
 | **Category** | Tools |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 9 |
+| **Attack speed** | 0.9 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A axe that deals **9** attack damage at **0.9** attack speed. Durability: **150**. It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

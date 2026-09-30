@@ -19,3 +19,15 @@
 	sharePercent = 0.1
 	#Max distance (blocks) between subordinate and owner for the EP share to apply. Default 20.
 	rangeBlocks = 20.0
+
+[HuntParty]
+	#Fraction of a party member's kill-EP granted on-top to EACH other qualifying party member. Requires gamerule ETPartySystem. Default 0.20 = 20%.
+	sharePercent = 0.2
+	#Max distance (blocks) between the killer and a party member for the EP share to apply. Default 32.
+	rangeBlocks = 32.0
+	#Maximum party size, enforced when an invite is accepted. Default 5.
+	maxMembers = 5
+	#Seconds before a pending party invite expires (checked lazily on accept). Default 60.
+	inviteExpirySeconds = 60
+	#Ticks between live party roster pushes (member HP + position for the party HUD and screen). Roster changes always push immediately. Clamped 10-100. Default 20.
+	hudIntervalTicks = 20

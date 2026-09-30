@@ -29,6 +29,10 @@ Meat Bat
 
 +%1$s experience points for each chunk consumed during the activation of the %2$s ability.
 
+## What it does
+
+Food.
+
 ## Relic abilities
 
 Relic levelling: up to level **20**, first level costs **100** XP, +100 XP per level.

@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 8,000 - 80,000 |
 | **Evolves into** | [Monster Leather Chestplate (Special A)](monster-leather-chestplate-special-a.md) |
+| **Armor** | 9 |
+| **Armor toughness** | 4 |
+| **Knockback resistance** | 40% |
 
 </div>
+
+## What it does
+
+Monster Leather A armor for the chestplate slot: **9** armor, **4** toughness and **40%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

@@ -12,8 +12,15 @@
 | **Category** | Armor |
 | **Gear EP** | 8,000 - 80,000 |
 | **Evolves into** | [Monster Leather Helmet (Special A)](monster-leather-helmet-special-a.md) |
+| **Armor** | 4 |
+| **Armor toughness** | 4 |
+| **Knockback resistance** | 40% |
 
 </div>
+
+## What it does
+
+Monster Leather A armor for the helmet slot: **4** armor, **4** toughness and **40%** knockback resistance. It is made at the Smithing Bench.
 
 ## Obtaining
 

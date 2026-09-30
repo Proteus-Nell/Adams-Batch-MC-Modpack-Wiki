@@ -37,6 +37,10 @@
 |---|---|---|
 | shp | next | add |
 
+## Related
+
+- **Summons / entities:** Tensura
+
 ## Stats (config defaults)
 
 Set in [`config/tensura/ascension-skills.toml`](../../configs/config-tensura-ascension-skills.md).

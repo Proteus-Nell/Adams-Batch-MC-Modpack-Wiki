@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Sariel's and Yog-Sothoth's gift to themselves and their subordinates, refreshed while the skill is toggled on. It gives **+100%** critical hit chance, and **+25%** automatic melee and projectile dodge chance.
+
 ## Attribute changes (per level)
 
 | Attribute | Amount | Operation |

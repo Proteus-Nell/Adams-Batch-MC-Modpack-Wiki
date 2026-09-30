@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A crystal-growing rock. In magic-rich chunks, Magic Ore slowly turns into Mother Rock, and Mother Rock sprouts **Magic Ore crystal buds** on its open sides that grow Small → Medium → Large → Cluster. Each step uses up some of the chunk's magicule (300, 575, 850 and 1,000). All of this only happens when the `ETMagiculeWorldSystem` gamerule is on (it's off by default).
+
+Ore block. You need a stone pickaxe or better.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

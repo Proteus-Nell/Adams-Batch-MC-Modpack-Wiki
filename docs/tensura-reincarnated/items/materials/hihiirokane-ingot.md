@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Hihi'Irokane Nugget](hihiirokane-nugget.md), [Block of Hihi'Irokane](../../blocks/hihiirokane-block.md), [Hihi'Irokane Axe](../tools/hihiirokane-axe.md), [Hihi'Irokane Boots](../armor/hihiirokane-boots.md), [Hihi'Irokane Chestplate](../armor/hihiirokane-chestplate.md) and 20 more. It is crafted, made with Create's compacting and dropped by [Vaelthorn, the Hollow Sovereign](../../../elite-tensura/mobs/lich-boss.md).
+
 ## Obtaining
 
 ### Recipes

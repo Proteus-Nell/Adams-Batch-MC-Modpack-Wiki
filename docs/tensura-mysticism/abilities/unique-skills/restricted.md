@@ -61,6 +61,7 @@
 
 - **Related skills:** [Burden](../../../tensura-reincarnated/abilities/aspectual-magic/burden.md)
 - **Effects:** [Fear](../../../tensura-reincarnated/effects/fear.md), [Countering](../../effects/countering.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

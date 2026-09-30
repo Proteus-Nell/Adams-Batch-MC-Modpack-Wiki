@@ -36,9 +36,9 @@
 - Activated by pressing the skill key
 - Charged or channelled by holding the skill key
 
-## Obtaining
+## Related
 
-- Intrinsic skill of: [Vampire Overcomer](../../races/vampire-overcomer.md), [Vampire Lord](../../races/vampire-lord.md), [Divine Vampire](../../races/divine-vampire.md), [Frog Monarch](../../../ascension/races/frog-monarch.md), [Kindred Bloodfiend](../../../ascension/races/kindred-bloodfiend.md), [Blood Noble](../../../ascension/races/blood-noble.md), [Elder Bloodfiend](../../../ascension/races/elder-bloodfiend.md), [Progenitor Bloodfiend](../../../ascension/races/progenitor-bloodfiend.md), [Sovereign Djinn](../../../ascension/races/sovereign-djinn.md), [Infinite Djinn](../../../ascension/races/infinite-djinn.md), [Omniversal Djinn](../../../ascension/races/omniversal-djinn.md)
+- **Summons / entities:** Blood Ray, [Blood Mist](blood-mist.md)
 
 ## Stats (config defaults)
 

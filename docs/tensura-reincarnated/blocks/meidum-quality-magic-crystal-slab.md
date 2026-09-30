@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab building block.
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -1,18 +1,31 @@
 # Supermassive Slime
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:supermassive_slime` |
+| **Type** | Boss |
+| **Health** | 200 |
+| **Attack damage** | 20 |
+| **Armor** | 2 |
+| **Speed** | 0.5 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 50,000 - 100,000 |
 | **Aura** | 10 - 10 |
 | **Spiritual health** | 1,000 |
+| **Hitbox** | 0.25 x 0.21 blocks |
 | **Spawn egg** |  [Supermassive Slime Spawn Egg](../items/spawn-eggs/supermassive-slime-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A giant slime. When a [Slime](slime.md) spawns naturally in a supermassive-slime biome, there's a 1 in 1,000 chance it spawns as a Supermassive Slime instead. A slime in a bucket keeps being supermassive.
+
+A boss with **200** health, **20** attack damage and **50,000-100,000** magicule. It has 2 skills you can take from it with Predator-type skills. Drops [Slime Chunk](../items/miscellaneous/slime-chunk.md), [Chilled Slime](../items/miscellaneous/chilled-slime.md) and [Slime Core](../items/materials/slime-core.md).
 
 ## Abilities
 

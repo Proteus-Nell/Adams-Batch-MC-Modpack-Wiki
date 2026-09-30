@@ -2,7 +2,7 @@
 
 <small>[EnigmaticLegacy+](../index.md)</small>
 
-EnigmaticLegacy+ adds **152** items.
+EnigmaticLegacy+ adds **149** items.
 
 | Group | Count |
 |---|---|
@@ -22,7 +22,7 @@ EnigmaticLegacy+ adds **152** items.
 | [Spellstones](spellstones/index.md) | 16 |
 | [Tools](tools/index.md) | 14 |
 | [Misc](misc/index.md) | 8 |
-| [Miscellaneous](miscellaneous/index.md) | 6 |
+| [Miscellaneous](miscellaneous/index.md) | 3 |
 
 ## Amulets
 
@@ -255,8 +255,5 @@ EnigmaticLegacy+ adds **152** items.
 | | Name | ID |
 |---|---|---|
 | ![](../../assets/icons/enigmaticlegacyplus/item/cosmic_heart.png) | [Heart of the Cosmos](miscellaneous/cosmic-heart.md) | `enigmaticlegacyplus:cosmic_heart` |
-| ![](../../assets/icons/enigmaticlegacyplus/item/enigmatic_eye_active.png) | [Inscrutable Eye](miscellaneous/enigmatic-eye-active.md) | `enigmaticlegacyplus:enigmatic_eye_active` |
 | ![](../../assets/icons/enigmaticlegacyplus/item/raw_etherium.png) | [Raw Etherium](miscellaneous/raw-etherium.md) | `enigmaticlegacyplus:raw_etherium` |
 | ![](../../assets/icons/enigmaticlegacyplus/item/spellstone_debris.png) | [Spellstone Debris](miscellaneous/spellstone-debris.md) | `enigmaticlegacyplus:spellstone_debris` |
-| ![](../../assets/icons/enigmaticlegacyplus/item/etherium_core_active.png) | [Starlight Core](miscellaneous/etherium-core-active.md) | `enigmaticlegacyplus:etherium_core_active` |
-| ![](../../assets/icons/enigmaticlegacyplus/item/ethereal_forging_charm_active.png) | [Starlight Forging Charm](miscellaneous/ethereal-forging-charm-active.md) | `enigmaticlegacyplus:ethereal_forging_charm_active` |

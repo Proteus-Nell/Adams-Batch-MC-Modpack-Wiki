@@ -30,6 +30,7 @@
 ## Related
 
 - **Related skills:** [Thunder Lance](../../../tensura-reincarnated/abilities/aspectual-magic/thunder-lance.md)
+- **Summons / entities:** Lightning Bolt
 
 ## Stats (config defaults)
 

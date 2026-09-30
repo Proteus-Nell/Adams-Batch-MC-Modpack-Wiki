@@ -14,6 +14,12 @@
 
 </div>
 
+## What it does
+
+A block of 9 [Magic Ore](../items/materials/magic-ore-shard.md)s. Black fire burns forever on top of it.
+
+Ore block. You need a diamond pickaxe or better. Used to make [Magic Ore](../items/materials/magic-ore-shard.md) and [Pure Magisteel Ingot](../items/materials/pure-magisteel-ingot.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

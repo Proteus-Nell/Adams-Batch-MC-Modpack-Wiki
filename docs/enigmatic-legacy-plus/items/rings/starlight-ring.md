@@ -22,6 +22,10 @@ Increase the spawn frequency of Starlight Meteors.
 
 Counts as being within Beacon range when equipped.
 
+## What it does
+
+It is crafted.
+
 ## Obtaining
 
 ### Recipes

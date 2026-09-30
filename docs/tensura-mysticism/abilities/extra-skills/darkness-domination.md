@@ -36,6 +36,7 @@
 ## Related
 
 - **Related skills:** [Darkness Manipulation](darkness-manipulation.md), [Darkness Cannon](../../../tensura-reincarnated/abilities/spiritual-magic/darkness-cannon.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [Darkness Manipulation](darkness-manipulation.md)
 
 ## Stats (config defaults)

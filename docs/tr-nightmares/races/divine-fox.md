@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:divine_fox` |
+| **Stage** | <span class="stage stage-final">Final</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Default |
 | **Aura** | 800,000 - 1,400,000 |

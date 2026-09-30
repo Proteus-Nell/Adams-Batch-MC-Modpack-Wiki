@@ -28,6 +28,10 @@ Can use an undamaged identical tool to create an unbreakable item.
 
 Unbreakable tools can be used as Totems of Undying.
 
+## What it does
+
+It is made at the Crafting (cursed).
+
 ## Obtaining
 
 ### Recipes

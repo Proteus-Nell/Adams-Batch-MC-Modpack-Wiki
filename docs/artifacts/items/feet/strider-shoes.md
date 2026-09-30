@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Feet artifact. While you're **sneaking** you can walk across the surface of lava. They also make you immune to "hot floor" damage from standing on magma blocks and similar blocks.
+
 ## Obtaining
 
 ### Loot

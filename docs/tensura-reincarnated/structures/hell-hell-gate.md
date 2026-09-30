@@ -8,13 +8,19 @@
 |---|---|
 | **ID** | `tensura:hell/hell_gate` |
 | **Type** | `tensura:jigsaw_min_height` |
-| **Biomes** | `#tensura:has_structure/hell_gate` |
+| **Biomes** | Is Plains, Is Snowy Plains, Badlands, Desert, Meadow, Plains, Snowy Plains, Sunflower Plains, Barren Land, Desert of Death, Underworld Barrens, Underworld Red Sands +2 more |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 200 / 50 chunks |
 | **Terrain adaptation** | beard_box |
 | **Size (jigsaw depth)** | 4 |
 
 </div>
+
+## What it does
+
+A gate holding a [Hell Portal](../blocks/hell-portal.md): stepping into it in the Overworld takes you to [Hell](../dimensions/hell.md), and the one in Hell takes you back.
+
+Generates in Is Plains, Is Snowy Plains, Badlands, Desert, Meadow, Plains, Snowy Plains, Sunflower Plains, Barren Land, Desert of Death, Underworld Barrens, Underworld Red Sands +2 more, about one every 200 chunks (at least 50 chunks apart).
 
 ## Loot
 

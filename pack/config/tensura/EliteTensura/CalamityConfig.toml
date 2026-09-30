@@ -158,3 +158,87 @@
 	enrageAfterSeconds = 30
 	#Percent of max HP regenerated per second once unengaged.
 	enrageRegenPercent = 2.0
+
+[HollowChoir]
+	#Choir Heart max health.
+	heartMaxHealth = 6000.0
+	#Choir Heart armor.
+	heartArmor = 220.0
+	#Dirge pulse base damage (scaled by the calamity damage multiplier).
+	attackDamage = 45.0
+	#Choir Heart max magicule (drives Tensura EP reward).
+	maxMagicule = 250000.0
+	#Choir Heart max aura (drives Tensura EP reward).
+	maxAura = 250000.0
+	#Voice max health at an unbuffed Heart; scales with the calamity HP multiplier.
+	voiceMaxHealth = 300.0
+	#Voices spawned when phase 1 begins (spawn).
+	voicesPhase1 = 6
+	#Voices respawned at the 66% health re-split.
+	voicesPhase2 = 5
+	#Voices respawned at the 33% health re-split.
+	voicesPhase3 = 4
+	#Orbit radius (blocks) of the Voices around the Heart.
+	voiceOrbitRadius = 5.0
+	#Tensura summon-timer seconds on each Voice — a leak guard inside the event cap.
+	voiceSummonedSeconds = 900
+	#Fraction of damage dealt to a Voice mirrored onto the Heart, credited to the attacker.
+	voiceTransferPercent = 0.35
+	#Living Voices needed for the Choir Ward: below this, the Heart takes full direct damage.
+	wardMinVoices = 3
+	#Fraction of direct damage that still reaches the warded Heart (the rest deflects).
+	wardPassthroughFraction = 0.15
+	#Seconds of Heart damage immunity covering each re-split swap.
+	respawnImmunitySeconds = 2
+	#Song aura radius (blocks); requires line of sight from the Voice.
+	songRadius = 14.0
+	#Seconds of continuous exposure per extra song amplifier step (halved in phase 3).
+	songEscalateSeconds = 8
+	#Maximum song effect amplifier (0-indexed).
+	songAmpCap = 2
+	#Dirge pulse cooldown in seconds (x0.7 in phase 3).
+	dirgeCooldownSeconds = 8
+	#Dirge pulse radius (blocks) around the Heart.
+	dirgeRadius = 8.0
+	#Dirge damage as a multiplier of the Heart's attack damage.
+	dirgeDamageMultiplier = 1.0
+
+[Starfall]
+	#Master switch. Off: no automatic starfalls, scheduler/admin starts refused, any live event is swept. DEFAULT: true
+	enabled = true
+	#Minimum hours between automatic starfalls. DEFAULT: 3.0
+	minIntervalHours = 3.0
+	#Maximum hours between automatic starfalls. DEFAULT: 8.0
+	maxIntervalHours = 8.0
+	#Online players required for an automatic starfall (admin/scheduler starts bypass this). DEFAULT: 3
+	minOnlinePlayers = 3
+	#Where the star lands: SPAWN_RING (ring around world spawn), NEAR_PLAYER (offset from a random overworld player), PLAYER_CENTROID (offset from the players' centre). DEFAULT: NEAR_PLAYER
+	siteMode = "NEAR_PLAYER"
+	#SPAWN_RING: minimum distance from world spawn in blocks. DEFAULT: 300
+	spawnRingMinBlocks = 300
+	#SPAWN_RING: maximum distance from world spawn in blocks. DEFAULT: 800
+	spawnRingMaxBlocks = 800
+	#NEAR_PLAYER / PLAYER_CENTROID: minimum offset in blocks. DEFAULT: 150
+	playerMinBlocks = 150
+	#NEAR_PLAYER / PLAYER_CENTROID: maximum offset in blocks. DEFAULT: 500
+	playerMaxBlocks = 500
+	#Never land within this many blocks of world spawn (square box). DEFAULT: 128
+	spawnExclusionBlocks = 128
+	#Reject sites where any chunk in the 3x3 around the impact is FTB-claimed or a Walpurgis territory. DEFAULT: true
+	avoidClaims = true
+	#Minutes between the Voice foreshadow and the impact. DEFAULT: 5
+	foreshadowMinutes = 5
+	#Seconds the meteor is visible falling before impact. DEFAULT: 8
+	descentSeconds = 8
+	#Ore cluster size: SMALL (3), MEDIUM (6), LARGE (10). DEFAULT: MEDIUM
+	clusterSize = "MEDIUM"
+	#Minutes after impact before unmined Starfall Ore evaporates. DEFAULT: 20
+	oreDespawnMinutes = 20
+	#Players within this many blocks of the impact count as witnesses (title/record counter). DEFAULT: 96
+	witnessRadius = 96
+	#Announce foreshadow and impact through the Voice of the World banner. DEFAULT: true
+	announceVoice = true
+	#Announce foreshadow and impact on the Discord WORLD webhook. DEFAULT: true
+	announceDiscord = true
+	#Send the Starfall foreshadow wedge and post-impact pin to players' FTB maps. DEFAULT: true
+	mapMarkers = true

@@ -12,8 +12,16 @@
 | **Category** | Armor |
 | **Fire resistant** | Yes |
 | **Gear EP** | 60,000 - None |
+| **Armor** | 9 |
+| **Armor toughness** | 7.5 |
+| **Knockback resistance** | 70% |
+| **Durability** | 845 |
 
 </div>
+
+## What it does
+
+Charybdis Scalemail armor for the boots slot: **9** armor, **7.5** toughness and **70%** knockback resistance. Durability: **845**. It is made at the Smithing Bench.
 
 ## Obtaining
 

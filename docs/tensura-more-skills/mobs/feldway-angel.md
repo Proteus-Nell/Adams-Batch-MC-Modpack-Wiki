@@ -18,3 +18,7 @@
 | **Fire immune** | Yes |
 
 </div>
+
+## What it does
+
+A hostile mob with **800** health and **120** attack damage.

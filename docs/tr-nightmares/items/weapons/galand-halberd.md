@@ -11,8 +11,18 @@
 | **ID** | `trnightmare:galand_halberd` |
 | **Category** | Weapons |
 | **Stack size** | 1 |
+| **Attack damage** | 105 |
+| **Attack speed** | 5 |
+| **Tier** | Demon Treasures |
+| **Durability** | 10,000 |
 
 </div>
+
+## What it does
+
+A treasure weapon with no ability of its own (see the stats box). It never breaks, can't be repaired, doesn't burn and can't be put in shulker boxes or bundles.
+
+A Demon Treasures weapon that deals **105** attack damage at **5** attack speed. Durability: **10,000**. It is made at the Tensura Smithing.
 
 ## Obtaining
 

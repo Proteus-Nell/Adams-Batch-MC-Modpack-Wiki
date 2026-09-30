@@ -16,6 +16,10 @@
 
 </div>
 
+## What it does
+
+Smithing schematic. You need it to forge [Hihi'Irokane Axe](../tools/hihiirokane-axe.md), [Hihi'Irokane Boots](../armor/hihiirokane-boots.md), [Hihi'Irokane Chestplate](../armor/hihiirokane-chestplate.md), [Hihi'Irokane Great Sword](../weapons/hihiirokane-great-sword.md), [Hihi'Irokane Helmet](../armor/hihiirokane-helmet.md), [Hihi'Irokane Hoe](../tools/hihiirokane-hoe.md) and 21 more.
+
 ## Obtaining
 
 ### Loot

@@ -40,6 +40,10 @@ line added or lore line with specified index,
 
 respectively.
 
+## What it does
+
+It is found in 1 kind of loot chest.
+
 ## Obtaining
 
 ### Loot

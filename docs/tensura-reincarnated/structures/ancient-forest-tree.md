@@ -8,9 +8,15 @@
 |---|---|
 | **ID** | `tensura:ancient_forest/tree` |
 | **Type** | `minecraft:jigsaw` |
-| **Biomes** | `#tensura:has_structure/ancient_forest` |
+| **Biomes** | Ancient Forest |
 | **Generation step** | surface_structures |
 | **Spacing / separation** | 2 / 1 chunks |
 | **Size (jigsaw depth)** | 2 |
 
 </div>
+
+## What it does
+
+A giant tree of the Ancient Forest. Some of them are **Labyrinth Trees**, with a [Labyrinth Portal](../blocks/labyrinth-portal.md) to the [Labyrinth](../dimensions/labyrinth.md) at their base.
+
+Generates in Ancient Forest, about one every 2 chunks (at least 1 chunk apart).

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `ascension:elder_lich` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 100 - 500 |

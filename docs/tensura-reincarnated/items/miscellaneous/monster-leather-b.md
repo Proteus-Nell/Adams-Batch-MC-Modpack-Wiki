@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Diamond Horse Armor](https://minecraft.wiki/w/Diamond_Horse_Armor), [Coin Pouch (B)](pouch-b.md), [Dark Boots](../armor/dark-boots.md), [Dark Jacket](../armor/dark-jacket.md), [Dark Leggings](../armor/dark-leggings.md) and 6 more. It is dropped by [Basilisk](../../mobs/basilisk.md) and [Unicorn](../../mobs/unicorn.md).
+
 ## Obtaining
 
 ### Loot

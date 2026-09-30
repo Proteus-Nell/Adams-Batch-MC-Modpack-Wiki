@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **ID** | `trnightmare:mutant_giant` |
+| **Stage** | <span class="stage stage-in-between">In-between</span> |
 | **Difficulty** | Hard |
 | **Alignment** | Majin |
 | **Aura** | 30,000 - 60,000 |

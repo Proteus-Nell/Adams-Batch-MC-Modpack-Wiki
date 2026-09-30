@@ -35,6 +35,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Raphael, Lord of Knowledge ｣](../../../tr-nightmares/abilities/ultimate-skills/raphael-knowledge.md), [｢ Raphael, Lord of Wisdom ｣](../../../tr-nightmares/abilities/ultimate-skills/raphael-wisdom.md)
 
 ## Stats (config defaults)

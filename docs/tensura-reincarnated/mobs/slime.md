@@ -1,18 +1,28 @@
 # Slime
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Monster</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:slime` |
+| **Type** | Monster |
+| **Health** | 5 |
+| **Attack damage** | 0.5 |
+| **Speed** | 0.05 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 180 - 980 |
 | **Aura** | 10 - 10 |
 | **Spiritual health** | 100 |
+| **Hitbox** | 0.25 x 0.21 blocks |
 | **Spawn egg** |  [Slime Spawn Egg](../items/spawn-eggs/slime-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A hostile mob with **5** health, **0.5** attack damage and **180-980** magicule. Spawns naturally in Slime Spawn. It has 2 skills you can take from it with Predator-type skills. Drops [Slime Chunk](../items/miscellaneous/slime-chunk.md), [Chilled Slime](../items/miscellaneous/chilled-slime.md) and [Slime Core](../items/materials/slime-core.md).
 
 ## Abilities
 
@@ -25,7 +35,7 @@ This mob has these skills (and they can be obtained from it, for example with Pr
 
 | Biomes | Weight | Group size |
 |---|---|---|
-| `#tensura:slime_spawn` | 80 | 1-5 |
+| Is Badlands, Is Cave, Is Desert, Is Forest, Is Mountain, Is Plains, Is Savanna, Is Swamp, Is Taiga, Dripstone Caves, Lush Caves, Ancient Forest | 80 | 1-5 |
 
 ## Drops
 

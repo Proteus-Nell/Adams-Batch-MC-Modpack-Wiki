@@ -37,7 +37,7 @@
 
 ## Related
 
-- **Referenced by:** [True Darkness](true-darkness.md), [Witch of Envy, Satella](../../../tensura-more-skills/abilities/ultimate-skills/witch-of-envy-satella.md), [Satella](../../../tensura-more-skills/abilities/unique-skills/satella.md)
+- **Referenced by:** [True Darkness](true-darkness.md), [Witch of Envy, Satella](../../../tensura-more-skills/abilities/ultimate-skills/witch-of-envy-satella.md), [Satella](../../../tensura-more-skills/abilities/unique-skills/satella.md), [Darkness Manipulation](../../../tensura-mysticism/abilities/extra-skills/darkness-manipulation.md)
 
 ## Stats (config defaults)
 

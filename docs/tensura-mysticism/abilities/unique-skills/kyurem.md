@@ -54,6 +54,7 @@
 - **Related skills:** [Zekrom](zekrom.md), [Reshiram](reshiram.md), [Blizzard](../../../tensura-reincarnated/abilities/spiritual-magic/blizzard.md), [Cold Resistance](../../../tensura-reincarnated/abilities/resistance-skills/cold-resistance.md), [Thermal Fluctuation Resistance](../../../tensura-reincarnated/abilities/resistance-skills/thermal-fluctuation-resistance.md), [Cold Nullification](../../../tensura-reincarnated/abilities/resistance-skills/cold-nullification.md), [Thermal Fluctuation Nullification](../../../tensura-reincarnated/abilities/resistance-skills/thermal-fluctuation-nullification.md)
 - **Effects:** [Pressure](../../effects/pressure.md), [Chill](../../../tensura-reincarnated/effects/chill.md)
 - **Items:** [Ice Essence](../../items/materials/ice-essence.md), [Dragon Essence](../../../tensura-reincarnated/items/materials/dragon-essence.md)
+- **Summons / entities:** Tensura, Draconic Pulse
 - **Referenced by:** [Reshiram](reshiram.md), [Zekrom](zekrom.md)
 
 ## Stats (config defaults)

@@ -42,6 +42,7 @@
 ## Related
 
 - **Effects:** [Future Vision](../../effects/future-vision.md)
+- **Summons / entities:** Tensura
 
 ## Stats (config defaults)
 

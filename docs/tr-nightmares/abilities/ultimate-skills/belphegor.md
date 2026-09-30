@@ -52,6 +52,7 @@
 
 - **Related skills:** [Spiritual Attack Nullification](../../../tensura-reincarnated/abilities/resistance-skills/spiritual-attack-nullification.md), [Sloth](../../../tensura-reincarnated/abilities/unique-skills/sloth.md)
 - **Effects:** [Shadow Step](../../../tensura-reincarnated/effects/shadow-step.md), [Drowsiness](../../../tensura-reincarnated/effects/drowsiness.md), [Rest](../../../tensura-reincarnated/effects/rest.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Astaroth, King of Fallen ｣](astaroth.md), [Sloth Manas](sloth-manas.md)
 
 ## Stats (config defaults)

@@ -62,6 +62,7 @@
 ## Related
 
 - **Effects:** [Corrosion](../../effects/corrosion.md)
+- **Summons / entities:** Gourmet Mist, Tensura
 - **Referenced by:** [Food Chain](../../../tr-nightmares/abilities/extra-skills/food-chain.md), [｢ Beelzebub, Lord of Gourmet ｣](../../../tr-nightmares/abilities/ultimate-skills/beelzebub.md), [Ouroboros, Lord of Eternity](../../../elite-tensura/abilities/ultimate-skills/ouroboros.md)
 
 ## Stats (config defaults)

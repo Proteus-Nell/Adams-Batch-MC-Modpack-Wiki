@@ -11,8 +11,16 @@
 | **ID** | `tensura:silver_hoe` |
 | **Category** | Tools |
 | **Gear EP** | 0 - 0 |
+| **Attack damage** | 1 |
+| **Attack speed** | 3 |
+| **Tier** | Silver |
+| **Durability** | 150 |
 
 </div>
+
+## What it does
+
+A hoe that deals **1** attack damage at **3** attack speed. Durability: **150**. It is crafted, made at the Smithing Bench and found in 1 kind of loot chest.
 
 ## Obtaining
 

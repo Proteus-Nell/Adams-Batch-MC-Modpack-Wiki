@@ -14,6 +14,10 @@
 
 </div>
 
+## What it does
+
+Edible, but it doesn't fill you up. Eating it gives [Insanity](../../effects/insanity.md) for 5 s. Used to make [Dubious Food](../miscellaneous/dubious-food.md) and [Terra Dagger](../../../tr-nightmares/items/tools/terrablade.md). It is dropped by [Akash](../../mobs/akash.md), [Aqua Frog](../../mobs/aqua-frog.md), [Beast Gnome](../../mobs/beast-gnome.md), [Elemental Colossus](../../mobs/elemental-colossus.md) and 7 more.
+
 ## Obtaining
 
 ### Loot

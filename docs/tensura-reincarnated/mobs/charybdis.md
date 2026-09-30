@@ -1,18 +1,32 @@
 # Charybdis
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:charybdis` |
+| **Type** | Boss |
+| **Health** | 3,000 |
+| **Attack damage** | 100 |
+| **Armor** | 20 |
+| **Speed** | 0.3 |
+| **Follow range** | 256 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 1,200,000 - 1,200,000 |
 | **Aura** | 200,000 - 400,000 |
 | **Spiritual health** | 3,200 |
+| **Hitbox** | 14 x 13 blocks |
 | **Spawn egg** |  [Charybdis Spawn Egg](../items/spawn-eggs/charybdis-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+A colossal flying sky-fish boss, Tempest's calamity. It doesn't spawn on its own: it's awakened from a [Charybdis Core](../blocks/charybdis-core.md). Place the core and kill creatures near it; instead of dropping their EP, they feed it to the core. Once the core holds **100,000** EP it wakes up (with a Wither-like roar), and right-clicking it then releases Charybdis.
+
+A boss with **3,000** health, **100** attack damage and **1,200,000** magicule. It has 8 skills you can take from it with Predator-type skills. Drops [Dragon Essence](../items/materials/dragon-essence.md), [Charybdis Scale](../items/materials/charybdis-scale.md) and [Raw Charybdis Meat](../items/miscellaneous/raw-charybdis-meat.md).
 
 ## Abilities
 

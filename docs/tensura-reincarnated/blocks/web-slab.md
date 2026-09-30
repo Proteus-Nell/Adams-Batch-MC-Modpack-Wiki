@@ -12,6 +12,10 @@
 
 </div>
 
+## What it does
+
+Decorative slab made from [Web Block](web-block.md).
+
 ## Drops
 
 | Item | Count | Chance | Notes |

@@ -37,6 +37,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Farsight](../common-skills/farsight.md)
 
 ## Stats (config defaults)

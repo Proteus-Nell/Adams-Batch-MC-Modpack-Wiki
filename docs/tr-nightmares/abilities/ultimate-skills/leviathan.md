@@ -58,6 +58,7 @@
 
 - **Related skills:** [Stasis](../unique-skills/stasis.md), [Envy](../../../tensura-reincarnated/abilities/unique-skills/envy.md)
 - **Effects:** [Envious Mirror](../../effects/envious-mirror.md), [Jealous](../../effects/jealous.md), [Magic Interference](../../../tensura-reincarnated/effects/magic-interference.md), [Fragility](../../../tensura-reincarnated/effects/fragility.md), [Paralysis](../../../tensura-reincarnated/effects/paralysis.md), [Chill](../../../tensura-reincarnated/effects/chill.md), [Slowheal](../../effects/slowheal.md), [Fear](../../../tensura-reincarnated/effects/fear.md), [Envied](../../effects/envied.md), [Stolen Luck](../../effects/stolen-luck.md)
+- **Summons / entities:** Tensura
 - **Referenced by:** [｢ Cthulhu, King of Divine Ice ｣](cthulhu.md), [Envy Manas](envy-manas.md)
 
 ## Stats (config defaults)

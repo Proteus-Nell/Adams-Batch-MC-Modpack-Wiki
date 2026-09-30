@@ -1,17 +1,31 @@
 # Orc Disaster
 
-<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Other</small>
+<small>[Tensura: Reincarnated](../index.md) &rsaquo; [Mobs](index.md) &rsaquo; Bosses</small>
 
 <div class="infobox" markdown>
 
 | | |
 |---|---|
 | **ID** | `tensura:orc_disaster` |
+| **Type** | Boss |
+| **Health** | 700 |
+| **Attack damage** | 60 |
+| **Armor** | 20 |
+| **Speed** | 0.2 |
+| **Follow range** | 64 |
+| **Knockback resistance** | 1 |
 | **Magicule (EP)** | 224,435 - 250,000 |
 | **Spiritual health** | 2,700 |
+| **Hitbox** | 1.5 x 5.5 blocks |
 | **Spawn egg** |  [Orc Disaster Spawn Egg](../items/spawn-eggs/orc-disaster-spawn-egg.md) |
 
 </div>
+
+## What it does
+
+The Orc Lord's evolved form. An [Orc Lord](orc-lord.md) whose max EP reaches **200,000** (by eating and killing) stops, becomes invulnerable for 2 seconds and evolves into the Orc Disaster, keeping everything it had.
+
+A boss with **700** health, **60** attack damage and **224,435-250,000** magicule. It has 5 skills you can take from it with Predator-type skills. Drops [Bone](https://minecraft.wiki/w/Bone), [Porkchop](https://minecraft.wiki/w/Porkchop), [Orc Disaster Head](../blocks/orc-disaster-head.md) and [Royal Blood](../items/miscellaneous/royal-blood.md).
 
 ## Abilities
 

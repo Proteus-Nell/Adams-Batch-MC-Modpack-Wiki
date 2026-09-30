@@ -15,6 +15,10 @@
 
 </div>
 
+## What it does
+
+Crafting material, used to make [Magic Bottle](../potions/magic-bottle.md), [Dubious Food](../miscellaneous/dubious-food.md), [Empty Element Core](../miscellaneous/element-core-empty.md), [Medium Quality Magic Crystal Block](../../blocks/medium-quality-magic-crystal-block.md) and [Low Quality Magic Crystal](low-quality-magic-crystal.md). It is crafted and made at the Smithing Bench.
+
 ## Obtaining
 
 ### Recipes

@@ -36,6 +36,7 @@
 
 ## Related
 
+- **Summons / entities:** Tensura
 - **Referenced by:** [Lunatic](../../../tr-nightmares/abilities/unique-skills/lunatic.md), [Dragon Factor Haki](../../../tr-nightmares/abilities/intrinsic-skills/dragon-factor-haki.md), [Witch of Vainglory](../../../tensura-more-skills/abilities/ultimate-skills/witch-of-vainglory.md)
 
 ## Stats (config defaults)

@@ -13,6 +13,12 @@
 
 </div>
 
+## What it does
+
+A wall rack that holds tools and weapons. Right-click a slot while holding a tool (anything that takes durability) to hang it there, and right-click a filled slot with an empty hand to take it back. Breaking the rack drops whatever was on it. Tool racks are the job site of Tensura's **Guard** profession.
+
+
+
 ## Drops
 
 | Item | Count | Chance | Notes |
